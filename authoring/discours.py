@@ -1,0 +1,238 @@
+from fr import NOTE, P, Q, R, S, TABLE, UL, Book
+
+b = Book("discours")
+
+# ================================================================ chapitre 35
+c35 = b.chapter(35, "Le discours indirect au présent", focus=[
+    P("Rapporter ce que quelqu'un dit ou demande est une compétence clé du DELF B2 : résumer un document en compréhension, "
+      "citer une source dans un essai (_le ministre affirme que…_), reformuler les propos de l'examinateur à l'oral."),
+    P("Repère : _Grammaire progressive du français_, chapitre 35 (p. 156)."),
+], los={
+    "a": "Rapporter une déclaration, une question et un ordre avec un verbe introducteur au présent.",
+    "b": "Adapter les pronoms personnels et les possessifs au discours indirect.",
+})
+
+c35.module(1, "Rapporter des paroles au présent", sections=[
+    ("a", [
+        P("Avec un verbe introducteur **au présent**, les temps ne changent pas. Seule la construction change selon le type de phrase :"),
+        TABLE(["Discours direct", "Discours indirect"],
+              ["Déclaration : « Je suis fatigué. »", "Il dit **qu'**il est fatigué."],
+              ["Question oui/non : « Tu viens ? »", "Il demande **si** je viens."],
+              ["« Qu'est-ce que tu fais ? »", "Il demande **ce que** je fais."],
+              ["« Qu'est-ce qui se passe ? »", "Il demande **ce qui** se passe."],
+              ["« Où / quand / comment / pourquoi… ? »", "Il demande **où / quand / comment / pourquoi**… (sans inversion)"],
+              ["Ordre : « Partez ! »", "Il nous dit **de partir**."]),
+        NOTE("Au discours indirect, **pas d'inversion** et **pas de point d'interrogation** : _Il demande où tu habites_ (et non *_où habites-tu_). "
+             "_Si_ devient _s'_ devant _il / ils_ : _Il demande **s'**il peut venir._"),
+    ]),
+    ("b", [
+        P("Les pronoms et les possessifs changent selon **qui parle** et **à qui** on rapporte les paroles."),
+        UL("Marie à Paul : « **Je** te prête **ma** voiture. » → Marie dit à Paul qu'**elle** **lui** prête **sa** voiture.",
+           "Paul me dit : « **Tu** as oublié **tes** clés. » → Paul me dit que **j'**ai oublié **mes** clés."),
+    ]),
+], chain=[
+    ("assumption", "Rapporter des paroles, c'est les intégrer dans sa propre phrase, comme une subordonnée."),
+    ("mechanism", "Déclaration → _que_ ; question oui/non → _si_ ; _qu'est-ce que_ → _ce que_ ; _qu'est-ce qui_ → _ce qui_ ; ordre → _de_ + infinitif."),
+    ("result", "Les pronoms et possessifs s'adaptent au point de vue de celui qui rapporte ; au présent, les temps restent les mêmes."),
+    ("interpretation", "En compréhension orale, les questions du type « Selon le journaliste… » vérifient que vous savez passer du direct à l'indirect."),
+], why="Résumer et citer des points de vue (_l'auteur se demande si…_) est indispensable dans les synthèses et l'oral du DELF B2.",
+  look=["le type de phrase : déclaration, question totale, question partielle, ordre", "les pronoms : qui parle à qui ?", "le temps du verbe introducteur"],
+  traps=["garder _qu'est-ce que_ dans une question indirecte", "garder l'inversion (*_il demande où habites-tu_)", "_dire que_ + impératif pour un ordre"],
+  distractors=["_qu'est-ce que_ au lieu de _ce que_", "_que_ au lieu de _si_", "_ce qui_ au lieu de _ce que_"],
+  connections=[("m45.1", "extends", "La concordance des temps quand le verbe introducteur est au passé."), ("m32.2", "requires", "ce qui / ce que.")],
+  questions=[
+    Q("a", 1, "form", "« Tu es libre ce soir ? » → Il me demande ___ je suis libre ce soir.",
+      ("si", "Question oui/non → _si_."),
+      [("que", "_que_ introduit une déclaration, pas une question."), ("ce que", "_ce que_ remplace _qu'est-ce que_.")]),
+    Q("a", 1, "form", "« Qu'est-ce que tu veux ? » → Elle me demande ___ je veux.",
+      ("ce que", "_qu'est-ce que_ → _ce que_."),
+      [("qu'est-ce que", "Au discours indirect, _qu'est-ce que_ devient _ce que_."), ("ce qui", "_ce qui_ remplace _qu'est-ce qui_ (sujet).")]),
+    Q("a", 2, "form", "« Qu'est-ce qui ne va pas ? » → Le médecin demande ___ ne va pas.",
+      ("ce qui", "_qu'est-ce qui_ (sujet) → _ce qui_."),
+      [("ce que", "_ce que_ est complément ; ici il faut le sujet de _va_."), ("qu'est-ce qui", "La forme interrogative directe ne se garde pas.")]),
+    Q("a", 2, "form", "« Fermez la porte ! » → Le professeur nous dit ___ la porte.",
+      ("de fermer", "Ordre → _dire de_ + infinitif."),
+      [("que nous fermons", "Cela rapporterait une information, pas un ordre."), ("fermer", "Il manque la préposition _de_.")]),
+    Q("a", 2, "judgement", "« Où habitez-vous ? » → Quelle phrase est correcte ?",
+      ("Il me demande où j'habite.", "Pas d'inversion et pas de point d'interrogation au discours indirect."),
+      [("Il me demande où habitez-vous.", "On ne garde pas l'inversion."), ("Il me demande où est-ce que j'habite.", "_est-ce que_ disparaît au discours indirect.")]),
+    Q("a", 3, "judgement", "« Ils viennent demain ? » → Il demande ___ viennent demain.",
+      ("s'ils", "_si_ + _ils_ → _s'ils_."),
+      [("si ils", "_si_ s'élide devant _il(s)_."), ("qu'ils", "_que_ ne convient pas pour une question oui/non.")]),
+    Q("b", 1, "form", "Julie à Marc : « Je t'appelle ce soir. » → Julie dit à Marc qu'elle ___ appelle ce soir.",
+      ("l'", "_te_ (Marc) devient _le_ → _l'appelle_."),
+      [("t'", "Le narrateur ne parle pas à Marc : _te_ devient _le_."), ("lui", "_appeler quelqu'un_ : COD, donc _le_, pas _lui_.")]),
+    Q("b", 2, "form", "Mes parents me disent : « Nous sommes fiers de toi. » → Mes parents me disent qu'___ sont fiers de ___.",
+      ("ils… moi", "_nous_ (les parents) → _ils_ ; _toi_ (moi) → _moi_."),
+      [("nous… toi", "Il faut adapter les pronoms au point de vue du narrateur."), ("ils… lui", "_toi_ désigne le narrateur : _moi_.")]),
+    Q("b", 2, "form", "Léo à Anna : « J'ai trouvé ton téléphone. » → Léo dit à Anna qu'il a trouvé ___ téléphone.",
+      ("son", "_ton_ (le téléphone d'Anna) → _son_."),
+      [("ton", "Le narrateur ne parle pas à Anna."), ("leur", "Le téléphone appartient à une seule personne.")]),
+  ],
+  sets=[S("Un message sur répondeur",
+    "Vous rapportez à votre colocataire le message du propriétaire :\n\n« Le propriétaire a appelé. Il dit **(1)** ___ le plombier passera jeudi. "
+    "Il demande **(2)** ___ nous serons là le matin et **(3)** ___ nous préférons comme heure. Il nous dit aussi **(4)** ___ le rappeler avant mercredi. »",
+    [Q("a", 1, "form", "Blanc (1) :", ("que", "Déclaration → _que_."),
+       [("si", "_si_ introduit une question."), ("ce que", "_ce que_ introduit une question sur un complément.")]),
+     Q("a", 1, "form", "Blanc (2) :", ("si", "Question oui/non → _si_."),
+       [("que", "_que_ rapporte une déclaration."), ("est-ce que", "_est-ce que_ disparaît au discours indirect.")]),
+     Q("a", 2, "form", "Blanc (3) :", ("ce que", "_Qu'est-ce que vous préférez ?_ → _ce que_."),
+       [("qu'est-ce que", "Au discours indirect, on dit _ce que_."), ("ce qui", "_nous_ est le sujet de _préférons_.")]),
+     Q("a", 1, "form", "Blanc (4) :", ("de", "Ordre → _dire de_ + infinitif."),
+       [("que", "Il faudrait alors un verbe conjugué."), ("à", "_dire_ + infinitif se construit avec _de_.")])])],
+  cards=[
+    R("transformations", "a", "Discours indirect : les outils", "Déclaration / question oui-non / qu'est-ce que / qu'est-ce qui / ordre → ?",
+      "**que** / **si** / **ce que** / **ce qui** / **de** + infinitif. Pas d'inversion, pas de « ? ».",
+      examples=["Il demande si je viens.", "Il me dit de partir."]),
+  ])
+
+# ================================================================ chapitre 45
+c45 = b.chapter(45, "Le discours indirect au passé", focus=[
+    P("Avec un verbe introducteur au passé (_il a dit que, elle expliquait que_), les temps de la phrase rapportée **reculent dans le passé** : "
+      "c'est la **concordance des temps**. C'est l'un des points les plus testés au B2, à l'écrit comme à l'oral."),
+    P("Repère : _Grammaire progressive du français_, chapitre 45 (p. 216–219)."),
+], los={
+    "a": "Appliquer la concordance des temps quand le verbe introducteur est au passé.",
+    "b": "Transformer les indicateurs de temps et de lieu (demain → le lendemain, hier → la veille…).",
+    "c": "Employer des verbes introducteurs précis (affirmer, reconnaître, prétendre, conseiller de, reprocher de…).",
+})
+
+c45.module(1, "La concordance des temps", sections=[
+    ("a", [
+        P("Quand le verbe introducteur est **au passé**, le reste de la phrase se met au passé :"),
+        TABLE(["Discours direct", "Discours indirect au passé", "Exemple"],
+              ["présent", "**imparfait**", "« Il pleut. » → Il a dit qu'il **pleuvait**."],
+              ["passé composé", "**plus-que-parfait**", "« Il a plu. » → Il a dit qu'il **avait plu**."],
+              ["futur simple", "**conditionnel présent**", "« Il pleuvra. » → Il a dit qu'il **pleuvrait**."],
+              ["futur proche", "**aller** à l'imparfait + infinitif", "« Il va pleuvoir. » → Il a dit qu'il **allait** pleuvoir."],
+              ["imparfait, plus-que-parfait, conditionnel", "**pas de changement**", "« J'étais malade. » → Il a dit qu'il **était** malade."]),
+        NOTE("Pour une **vérité générale** ou un fait toujours vrai, on peut garder le présent : _Le professeur a expliqué que la Terre **tourne** autour du Soleil._"),
+    ]),
+    ("b", [
+        P("Les repères de temps et de lieu changent aussi, car on ne parle plus du même moment ni du même endroit :"),
+        TABLE(["Discours direct", "Discours indirect au passé"],
+              ["aujourd'hui", "ce jour-là"], ["hier", "la veille"], ["demain", "le lendemain"],
+              ["la semaine prochaine", "la semaine suivante"], ["la semaine dernière", "la semaine précédente"],
+              ["maintenant", "à ce moment-là"], ["ici", "là"], ["dans deux jours", "deux jours plus tard"], ["il y a deux jours", "deux jours plus tôt / avant"]),
+    ]),
+], chain=[
+    ("assumption", "Les paroles ont été prononcées dans le passé : leur « présent » est déjà du passé pour celui qui les rapporte."),
+    ("mechanism", "Présent → imparfait ; passé composé → plus-que-parfait ; futur → conditionnel ; _va_ + infinitif → _allait_ + infinitif."),
+    ("result", "Les repères temporels suivent : _demain_ → _le lendemain_, _hier_ → _la veille_."),
+    ("interpretation", "Le conditionnel du discours indirect (_il a dit qu'il viendrait_) est un **futur dans le passé**, pas une hypothèse."),
+], why="Le résumé d'un document entendu ou lu (_le journaliste a expliqué que…_) exige la concordance des temps ; les erreurs y sont très fréquentes.",
+  look=["le temps du verbe introducteur", "le temps de la phrase d'origine", "les mots _demain, hier, aujourd'hui, ici_"],
+  traps=["garder le futur après un introducteur au passé (*_il a dit qu'il viendra_ dans un récit)", "passé composé → passé composé au lieu de plus-que-parfait", "garder _demain_ dans un récit passé"],
+  distractors=["le futur à la place du conditionnel", "le passé composé à la place du plus-que-parfait", "le présent à la place de l'imparfait"],
+  connections=[("m35.1", "requires", "Le discours indirect au présent."), ("m49.1", "applies", "Le conditionnel comme futur dans le passé.")],
+  questions=[
+    Q("a", 1, "form", "« Je suis malade. » → Elle a dit qu'elle ___ malade.",
+      ("était", "Introducteur au passé : présent → imparfait."),
+      [("est", "Après un introducteur au passé, le présent devient imparfait."), ("a été", "Le passé composé change le sens.")]),
+    Q("a", 1, "form", "« Je viendrai. » → Il a promis qu'il ___.",
+      ("viendrait", "Futur → conditionnel présent (futur dans le passé)."),
+      [("viendra", "Le futur ne se garde pas après un introducteur au passé."), ("venait", "L'imparfait correspond au présent du discours direct.")]),
+    Q("a", 2, "form", "« J'ai perdu mes clés. » → Il m'a expliqué qu'il ___ ses clés.",
+      ("avait perdu", "Passé composé → plus-que-parfait."),
+      [("a perdu", "Le passé composé devient plus-que-parfait."), ("perdait", "L'imparfait ne marque pas l'action antérieure.")]),
+    Q("a", 2, "form", "« Nous allons déménager. » → Ils nous ont annoncé qu'ils ___ déménager.",
+      ("allaient", "Futur proche → _aller_ à l'imparfait + infinitif."),
+      [("vont", "Le présent de _aller_ devient imparfait."), ("iraient", "Le conditionnel correspond au futur simple, pas au futur proche.")]),
+    Q("a", 2, "form", "« Je travaillais chez Renault. » → Il a dit qu'il ___ chez Renault.",
+      ("travaillait", "L'imparfait ne change pas."),
+      [("avait travaillé", "L'imparfait reste imparfait."), ("travaille", "Le présent ne convient pas après un introducteur au passé.")]),
+    Q("a", 3, "judgement", "« L'eau bout à 100 °C. » → Le professeur a rappelé que l'eau ___ à 100 °C.",
+      ("bout", "Vérité générale : on peut garder le présent."),
+      [("bouillira", "Le futur n'a pas de sens ici."), ("aurait bouilli", "Le conditionnel passé est faux.")]),
+    Q("b", 1, "form", "« Je pars demain. » → Le mois dernier, il m'a dit qu'il partait ___.",
+      ("le lendemain", "_demain_ → _le lendemain_ dans un récit passé."),
+      [("demain", "_demain_ renvoie au jour où l'on parle, pas au jour du récit."), ("la veille", "_la veille_ correspond à _hier_.")]),
+    Q("b", 2, "form", "« Je l'ai vu hier. » → Elle a raconté qu'elle l'avait vu ___.",
+      ("la veille", "_hier_ → _la veille_."),
+      [("hier", "_hier_ ne se garde pas dans un récit passé."), ("le lendemain", "_le lendemain_ correspond à _demain_.")]),
+    Q("b", 2, "form", "« Nous nous retrouverons ici la semaine prochaine. » → Ils ont décidé qu'ils se retrouveraient ___ la semaine ___.",
+      ("là… suivante", "_ici_ → _là_ ; _prochaine_ → _suivante_."),
+      [("ici… prochaine", "Les repères ne se gardent pas dans un récit passé."), ("là… précédente", "_précédente_ correspond à _dernière_.")]),
+  ],
+  sets=[S("Compte rendu d'une interview",
+    "Une journaliste résume une interview de la maire :\n\n« La maire a déclaré que la ville **(1)** ___ (manquer) de logements sociaux. Elle a précisé que "
+    "le conseil municipal **(2)** ___ (voter) un nouveau budget la semaine précédente et qu'un premier chantier **(3)** ___ (commencer) en janvier. "
+    "Enfin, elle a annoncé qu'elle **(4)** ___ les habitants le lendemain. »",
+    [Q("a", 1, "form", "Blanc (1) :", ("manquait", "Présent → imparfait."),
+       [("manque", "Après _a déclaré_, le présent devient imparfait."), ("a manqué", "Le passé composé change le sens.")]),
+     Q("a", 2, "form", "Blanc (2) :", ("avait voté", "Action antérieure (_la semaine précédente_) → plus-que-parfait."),
+       [("a voté", "Le passé composé devient plus-que-parfait."), ("votait", "L'imparfait ne marque pas l'antériorité.")]),
+     Q("a", 2, "form", "Blanc (3) :", ("commencerait", "Futur → conditionnel (futur dans le passé)."),
+       [("commencera", "Le futur ne se garde pas."), ("commençait", "L'imparfait correspond au présent.")]),
+     Q("a", 3, "form", "Blanc (4) : (« Je vais rencontrer les habitants demain. »)", ("allait rencontrer", "Futur proche → _allait_ + infinitif."),
+       [("va rencontrer", "_va_ devient _allait_."), ("rencontrera", "Le futur ne se garde pas après un introducteur au passé.")])])],
+  cards=[
+    R("concordance", "a", "Concordance des temps", "Introducteur au passé : présent / passé composé / futur / futur proche → ?",
+      "→ **imparfait** / **plus-que-parfait** / **conditionnel** / **allait** + infinitif. L'imparfait, le plus-que-parfait et le conditionnel ne changent pas.",
+      examples=["« Il viendra. » → Il a dit qu'il viendrait."]),
+    R("reperes", "b", "Repères de temps", "aujourd'hui / hier / demain / la semaine prochaine → ?",
+      "**ce jour-là** / **la veille** / **le lendemain** / **la semaine suivante** ; ici → **là**."),
+  ])
+
+c45.module(2, "Les verbes introducteurs", sections=[
+    ("c", [
+        P("Au lieu de répéter _dire_, un texte B2 choisit un verbe qui précise l'**intention** de la personne citée :"),
+        TABLE(["Intention", "Verbes + que", "Verbes + de + infinitif"],
+              ["affirmer, informer", "affirmer, déclarer, annoncer, expliquer, préciser, souligner", ""],
+              ["admettre", "reconnaître, admettre, avouer", ""],
+              ["mettre en doute", "prétendre (= dire sans preuve)", ""],
+              ["répondre, ajouter", "répondre, ajouter, rappeler, objecter", ""],
+              ["demander", "se demander **si**, vouloir savoir **si**", "demander **de**"],
+              ["influencer", "", "conseiller **de**, proposer **de**, ordonner **de**, interdire **de**, reprocher **de**, promettre **de**"]),
+        P("_Le ministre **a reconnu qu'**il y avait eu des erreurs._ / _L'opposition lui **a reproché de** ne pas avoir consulté les syndicats._"),
+        NOTE("**Prétendre que** marque un doute : le locuteur ne garantit pas ce qui est dit. _Il prétend qu'il n'était pas au courant._"),
+    ]),
+], chain=[
+    ("assumption", "Le verbe introducteur ne fait pas que rapporter : il révèle l'intention (reconnaître, contester, conseiller) et le point de vue."),
+    ("mechanism", "Verbes de déclaration + _que_ + indicatif ; verbes d'influence (conseiller, proposer, reprocher) + _de_ + infinitif."),
+    ("result", "_Prétendre_ met en doute, _reconnaître_ admet une faute, _souligner_ insiste."),
+    ("interpretation", "En compréhension, le verbe introducteur indique souvent la réponse aux questions sur l'attitude du locuteur."),
+], why="La grille B2 valorise un lexique précis : _il souligne que, elle reconnaît que, ils reprochent au gouvernement de…_ au lieu de _il dit que_.",
+  look=["l'intention du locuteur : informer, admettre, contester, conseiller ?", "la construction : _que_ + verbe conjugué ou _de_ + infinitif"],
+  traps=["_conseiller que_ au lieu de _conseiller de_", "confondre _prétendre_ (doute) et _affirmer_ (certitude)", "_se demander que_ au lieu de _se demander si_"],
+  distractors=["un verbe de sens opposé (_nier_ / _reconnaître_)", "la mauvaise construction (_que_ / _de_)", "_dire_ trop vague"],
+  connections=[("m45.1", "requires", "La concordance des temps."), ("m52.4", "applies", "Les connecteurs pour discuter les arguments cités.")],
+  questions=[
+    Q("c", 1, "conceptual", "« Oui, j'ai fait une erreur », dit le ministre. → Le ministre ___ qu'il avait fait une erreur.",
+      ("a reconnu", "Il admet une faute : _reconnaître_."),
+      [("a nié", "_nier_ = dire que ce n'est pas vrai : sens contraire."), ("a prétendu", "_prétendre_ met en doute ce qui est dit.")]),
+    Q("c", 2, "conceptual", "Le médecin m'a ___ de faire du sport.",
+      ("conseillé", "_conseiller **de**_ + infinitif."),
+      [("expliqué", "_expliquer_ se construit avec _que_, pas _de_ + infinitif."), ("affirmé", "_affirmer_ se construit avec _que_.")]),
+    Q("c", 2, "conceptual", "« Il prétend qu'il était malade. » Le locuteur :",
+      ("doute de ce que la personne affirme", "_prétendre_ = dire sans preuve."),
+      [("confirme la maladie", "_affirmer_ ou _confirmer_ exprimeraient la certitude."), ("ordonne quelque chose", "_prétendre_ n'est pas un verbe d'ordre.")]),
+    Q("c", 2, "conceptual", "Les syndicats ___ au gouvernement de ne pas les avoir consultés.",
+      ("reprochent", "_reprocher **à** quelqu'un **de**_ + infinitif."),
+      [("affirment", "_affirmer_ ne se construit pas avec _à qqn de_."), ("se demandent", "_se demander_ se construit avec _si_.")]),
+    Q("c", 3, "judgement", "Quelle phrase est correcte ?",
+      ("Je me demande si cette réforme est utile.", "_se demander **si**_."),
+      [("Je me demande que cette réforme est utile.", "_se demander_ introduit une question : _si_."), ("Je me demande est-ce que cette réforme est utile.", "_est-ce que_ disparaît au discours indirect.")]),
+    Q("c", 3, "conceptual", "« N'oubliez pas : la réunion est à 9 h. » → Elle nous ___ que la réunion était à 9 h.",
+      ("a rappelé", "_rappeler que_ = redire une information déjà connue."),
+      [("a reproché", "_reprocher_ exprime un blâme et se construit avec _de_."), ("a proposé", "_proposer_ se construit avec _de_ + infinitif.")]),
+  ],
+  sets=[S("Revue de presse",
+    "« Hier soir, le ministre de l'Éducation **(1)** ___ que la réforme serait appliquée dès septembre. Les enseignants, eux, lui **(2)** ___ "
+    "de ne pas les avoir écoutés. Le ministre **(3)** ___ que le calendrier était serré, mais il **(4)** ___ que la concertation avait été suffisante, "
+    "ce que personne ne croit vraiment. »",
+    [Q("c", 1, "conceptual", "Blanc (1) :", ("a annoncé", "Information nouvelle → _annoncer que_."),
+       [("a reproché", "_reprocher_ se construit avec _de_ et exprime un blâme."), ("a conseillé", "_conseiller_ se construit avec _de_.")]),
+     Q("c", 2, "conceptual", "Blanc (2) :", ("reprochent", "_reprocher à qqn de_ + infinitif : blâme."),
+       [("annoncent", "_annoncer_ se construit avec _que_."), ("reconnaissent", "_reconnaître_ se construit avec _que_.")]),
+     Q("c", 2, "conceptual", "Blanc (3) :", ("a reconnu", "Il admet une difficulté : _reconnaître_."),
+       [("a nié", "_nier_ contredirait le sens (il admet que c'est serré)."), ("a ordonné", "_ordonner_ se construit avec _de_.")]),
+     Q("c", 3, "conceptual", "Blanc (4) : (« ce que personne ne croit »)", ("a prétendu", "_prétendre_ : affirmation mise en doute."),
+       [("a reconnu", "_reconnaître_ admet un fait, sans doute du locuteur."), ("a rappelé", "_rappeler_ suppose un fait connu et accepté.")])])],
+  cards=[
+    R("introducteurs", "c", "Verbes introducteurs", "Admettre / mettre en doute / conseiller / blâmer → quel verbe ?",
+      "**reconnaître que** ; **prétendre que** ; **conseiller de** + inf. ; **reprocher à qqn de** + inf.",
+      examples=["Il a reconnu qu'il s'était trompé.", "On lui reproche de ne pas avoir écouté."], mistake="*_conseiller que_, *_se demander que_."),
+  ])
+
+b.write()

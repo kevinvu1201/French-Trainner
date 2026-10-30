@@ -1,0 +1,4 @@
+# Key-derivation parameters for the encrypted site. Not secret; commit this file.
+# Changing either value changes the key, and every device must re-enter the passphrase.
+salt: IzkTtdEj0QhY8lcwzcg11w==
+iterations: 600000

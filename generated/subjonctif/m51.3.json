@@ -1,0 +1,361 @@
+{
+ "module": "m51.3",
+ "source_hash": "68a3e21cd326",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Plus une réalité est **sûre**, plus on s'oriente vers l'indicatif ; plus elle est **incertaine** ou **jugée**, plus on va vers le subjonctif."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Contrainte et jugement (_il faut, il est important_) → subjonctif ; certitude et probabilité (_il est clair, il est probable_) → indicatif."
+   },
+   {
+    "stage": "result",
+    "md": "Le subjonctif passé exprime une action terminée par rapport au verbe principal."
+   },
+   {
+    "stage": "interpretation",
+    "md": "_Il est possible_ / _il est probable_ : une seule nuance de certitude change le mode. C'est un point très testé."
+   }
+  ],
+  "why_it_matters": "Les tournures impersonnelles (_il est essentiel que, il est regrettable que_) structurent les paragraphes d'un essai B2 ; chacune impose un mode.",
+  "exam_approach": {
+   "look_first": [
+    "l'adjectif après _il est_ : jugement/possibilité ou certitude/probabilité ?",
+    "l'action est-elle achevée (subjonctif passé) ?",
+    "l'existence de l'antécédent dans une relative"
+   ],
+   "traps": [
+    "_il est probable que_ + subjonctif",
+    "_il est possible que_ + indicatif",
+    "utiliser le futur à la place du subjonctif"
+   ],
+   "distractors": [
+    "l'indicatif futur après une expression de possibilité",
+    "le subjonctif présent pour une action déjà terminée",
+    "le conditionnel"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m51.2",
+   "type": "requires",
+   "note": "Indicatif ou subjonctif après un verbe."
+  },
+  {
+   "to": "m51.4",
+   "type": "extends",
+   "note": "Les conjonctions suivies du subjonctif."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.51.d.001",
+   "los": "los.51.d",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Il est important que chacun …… (pouvoir) s'exprimer.",
+   "options": [
+    "peut",
+    "puisse",
+    "pourra"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif.",
+    "B": "Correct. Jugement (_il est important_) → subjonctif.",
+    "C": "Faux. Le futur ne suit pas une expression de jugement."
+   }
+  },
+  {
+   "id": "q.51.d.002",
+   "los": "los.51.d",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Il est évident que la situation …… (être) grave.",
+   "options": [
+    "soit",
+    "sois",
+    "est"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _il est évident_ exprime une certitude : pas de subjonctif.",
+    "B": "Faux. Mode faux, et c'est la forme de _tu_.",
+    "C": "Correct. Certitude → indicatif."
+   }
+  },
+  {
+   "id": "q.51.d.003",
+   "los": "los.51.d",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Il est probable que le gouvernement …… (revenir) sur sa décision.",
+   "options": [
+    "reviendra",
+    "revienne",
+    "revînt"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _probable_ = plus de 50 % de chances → indicatif.",
+    "B": "Faux. Le subjonctif suit _il est possible que_, pas _il est probable que_.",
+    "C": "Faux. Imparfait du subjonctif : littéraire et faux ici."
+   }
+  },
+  {
+   "id": "q.51.d.004",
+   "los": "los.51.d",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Il est possible que le train …… (avoir) du retard.",
+   "options": [
+    "ait",
+    "a",
+    "aura"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _possible_ = incertain → subjonctif.",
+    "B": "Faux. L'indicatif présente le retard comme sûr.",
+    "C": "Faux. Le futur ne suit pas _il est possible que_."
+   }
+  },
+  {
+   "id": "q.51.d.005",
+   "los": "los.51.d",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Il vaut mieux que vous …… (prendre) un parapluie.",
+   "options": [
+    "prenez",
+    "preniez",
+    "prendrez"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif.",
+    "B": "Correct. _il vaut mieux que_ (conseil) → subjonctif.",
+    "C": "Faux. C'est le futur."
+   }
+  },
+  {
+   "id": "q.51.d.006",
+   "los": "los.51.d",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Je cherche un logement qui …… (être) proche de la gare. (Je ne sais pas s'il existe.)",
+   "options": [
+    "est",
+    "sera",
+    "soit"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. L'indicatif supposerait que ce logement existe et est connu.",
+    "B": "Faux. Le futur ne rend pas l'incertitude.",
+    "C": "Correct. Antécédent incertain → subjonctif dans la relative."
+   }
+  },
+  {
+   "id": "q.51.e.001",
+   "los": "los.51.e",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Je suis ravi que tu …… (réussir) ton examen la semaine dernière.",
+   "options": [
+    "réussisses",
+    "aies réussi",
+    "as réussi"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le subjonctif présent présente l'action comme non achevée.",
+    "B": "Correct. Action achevée → subjonctif passé (_avoir_ au subjonctif + participe).",
+    "C": "Faux. C'est le passé composé de l'indicatif."
+   }
+  },
+  {
+   "id": "q.51.e.002",
+   "los": "los.51.e",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Je regrette qu'elle …… (partir) sans dire au revoir.",
+   "options": [
+    "ait parti",
+    "est partie",
+    "soit partie"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _partir_ prend l'auxiliaire _être_.",
+    "B": "Faux. C'est l'indicatif.",
+    "C": "Correct. _partir_ se conjugue avec _être_ : _soit partie_ (accord au féminin)."
+   }
+  },
+  {
+   "id": "q.51.e.003",
+   "los": "los.51.e",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il faut que vous …… (terminer) le rapport avant vendredi.",
+   "options": [
+    "ayez terminé",
+    "avez terminé",
+    "aurez terminé"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Action achevée avant un moment futur → subjonctif passé.",
+    "B": "Faux. C'est l'indicatif.",
+    "C": "Faux. C'est le futur antérieur, pas le subjonctif."
+   }
+  },
+  {
+   "id": "q.51.e.004",
+   "los": "los.51.e",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Je doute qu'il …… demain. (venir)",
+   "options": [
+    "vienne",
+    "viendra",
+    "soit venu"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Le subjonctif n'a pas de futur : le présent sert pour l'avenir.",
+    "B": "Faux. Après _douter_, l'indicatif futur est impossible.",
+    "C": "Faux. Le subjonctif passé exprimerait une action déjà terminée."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m51.3.01",
+   "modules": [
+    "m51.3"
+   ],
+   "title": "Débat : la semaine de quatre jours",
+   "vignette": "Un syndicaliste répond à un journaliste :\n\n« Il est clair que la semaine de quatre jours **(1)** …… (permettre) de mieux vivre. Mais il est possible que certaines entreprises n'**(2)** …… (avoir) pas les moyens de l'appliquer. Il est donc essentiel que l'État **(3)** …… (accompagner) les PME. Je suis heureux que le ministre **(4)** …… (accepter), hier, d'ouvrir des négociations. »",
+   "questions": [
+    {
+     "id": "set.m51.3.01.q1",
+     "los": "los.51.d",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "permette",
+      "permettra",
+      "permît"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Le subjonctif est faux après une expression de certitude.",
+      "B": "Correct. _il est clair que_ = certitude → indicatif.",
+      "C": "Faux. Imparfait du subjonctif : registre littéraire."
+     }
+    },
+    {
+     "id": "set.m51.3.01.q2",
+     "los": "los.51.d",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "ont",
+      "auront",
+      "aient"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. L'indicatif présenterait le fait comme sûr.",
+      "B": "Faux. Le futur ne suit pas _il est possible que_.",
+      "C": "Correct. _il est possible que_ → subjonctif."
+     }
+    },
+    {
+     "id": "set.m51.3.01.q3",
+     "los": "los.51.d",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "accompagne",
+      "accompagnera",
+      "accompagnerait"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _il est essentiel que_ → subjonctif.",
+      "B": "Faux. Le futur ne suit pas une expression de nécessité.",
+      "C": "Faux. Le conditionnel ne convient pas."
+     }
+    },
+    {
+     "id": "set.m51.3.01.q4",
+     "los": "los.51.e",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (4) :",
+     "options": [
+      "accepte",
+      "ait accepté",
+      "a accepté"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Le subjonctif présent ne marque pas l'action terminée.",
+      "B": "Correct. Action achevée (hier) → subjonctif passé.",
+      "C": "Faux. C'est l'indicatif ; _être heureux que_ demande le subjonctif."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.51.probable-possible",
+   "los": [
+    "los.51.d"
+   ],
+   "name": "Probable ou possible ?",
+   "front": "Il est probable que… / Il est possible que… → quel mode ?",
+   "back": "**Probable** (+ de 50 %) → indicatif. **Possible** (incertain) → subjonctif.",
+   "examples": [
+    "Il est probable qu'il viendra.",
+    "Il est possible qu'il vienne."
+   ]
+  },
+  {
+   "id": "f.51.impersonnelles",
+   "los": [
+    "los.51.d"
+   ],
+   "name": "Tournures impersonnelles",
+   "front": "Il faut / il est important / il est dommage que → ? ; il est évident / certain que → ?",
+   "back": "Contrainte ou jugement → **subjonctif**. Certitude → **indicatif**.",
+   "examples": [
+    "Il est dommage qu'il pleuve.",
+    "Il est certain qu'il pleuvra."
+   ]
+  },
+  {
+   "id": "f.51.subj-passe",
+   "los": [
+    "los.51.e"
+   ],
+   "name": "Subjonctif passé",
+   "front": "Formation et emploi du subjonctif passé ?",
+   "back": "_avoir_ / _être_ au subjonctif présent + participe passé, pour une action **achevée**.",
+   "examples": [
+    "Je suis content qu'il ait trouvé un emploi.",
+    "Je regrette qu'elle soit partie."
+   ]
+  }
+ ]
+}

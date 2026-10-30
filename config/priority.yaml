@@ -1,0 +1,48 @@
+# How the app scores your knowledge and decides what to practise next.
+# Every number here is shipped to the app (manifest.json → scoring) and shown on the
+# Analytics page, so you can see exactly why an item was chosen. Edit, rebuild, done.
+
+mastery:
+  # Each answer counts with weight 0.5^(age_days / half_life_days): recent answers matter more.
+  half_life_days: 21
+  # Prior for an LOS alongside its own answers: a Beta distribution weighing `prior_strength`
+  # answers, centred on the topic's decayed accuracy for a practised LOS, and on
+  # `untouched_mean` for an LOS you haven't practised (so readiness never credits untouched material).
+  prior_strength: 3
+  untouched_mean: 0.3333   # with three options, a guess is right one time in three
+  # A correct answer you rated "Guess" is half a success and half a failure.
+  guess_credit: 0.5
+  # Width of the credible interval shown around mastery (0.9 = 90%).
+  interval: 0.9
+  # Below this many answers an LOS shows its count but no accuracy conclusion.
+  min_answers: 5
+
+priority:
+  # priority = (1 − mastery) × topic_weight × forgetting × (1 + uncertainty_k / sqrt(n + 1))
+  #   forgetting = max(forgetting_floor, 1 − average recall probability of the LOS's practised
+  #                questions under FSRS); 1 for an LOS never practised
+  #   n          = number of answers on the LOS
+  uncertainty_k: 1.0
+  # Keeps a weak LOS you practised yesterday from dropping to zero priority.
+  forgetting_floor: 0.2
+
+spaced_repetition:
+  # FSRS-4.5 with its published default parameters.
+  desired_retention: 0.9
+  # How a question answer maps to an FSRS grade (1 Again, 2 Hard, 3 Good, 4 Easy).
+  grade_wrong: 1
+  grade_right_guess: 2
+  grade_right_unsure: 3
+  grade_right_sure: 4
+
+smart_session:
+  minutes_per_question: 1
+  mix:                      # shares of each session; rounding goes to `priority`
+    priority: 0.60          # weakest LOS in high-weight topics
+    review: 0.25            # spaced-repetition reviews that are due
+    maintenance: 0.15       # strong LOS not seen for a while
+  strong_mastery: 0.70      # an LOS at or above this counts as strong (maintenance pool)
+
+readiness:
+  target: 0.70              # pass-readiness target (also editable in Settings)
+  final_review_days: 14     # the study plan finishes new material this many days before the exam

@@ -1,0 +1,606 @@
+{
+ "module": "m91.1",
+ "source_hash": "f503d010a8f7",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le vocabulaire du thème « l'éducation et la formation » sert à comprendre les documents et à argumenter sans répétition."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Les cartes utilisent la répétition espacée : un mot revient juste avant que vous l'oubliiez."
+   },
+   {
+    "stage": "result",
+    "md": "Réviser chaque jour quelques minutes vaut mieux qu'une longue séance par semaine."
+   }
+  ],
+  "why_it_matters": "Un lexique précis sur l'école, l'université, la formation à distance fait partie de la note « étendue et maîtrise du vocabulaire » à l'écrit et à l'oral.",
+  "exam_approach": {
+   "look_first": [
+    "le genre du nom (le / la)",
+    "la préposition qui accompagne le verbe"
+   ],
+   "traps": [
+    "les faux amis (_la librairie_ ≠ library)",
+    "oublier l'article en apprenant un nom"
+   ],
+   "distractors": [
+    "un mot proche de l'anglais mais de sens différent"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.91.w001",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "l'instruction civique (f)",
+   "front": "l'instruction civique (f)",
+   "back": "civics"
+  },
+  {
+   "id": "f.91.w002",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la rédaction",
+   "front": "la rédaction",
+   "back": "composition (school essay)"
+  },
+  {
+   "id": "f.91.w003",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la dissertation",
+   "front": "la dissertation",
+   "back": "essay"
+  },
+  {
+   "id": "f.91.w004",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le débat",
+   "front": "le débat",
+   "back": "debate"
+  },
+  {
+   "id": "f.91.w005",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le résumé",
+   "front": "le résumé",
+   "back": "summary"
+  },
+  {
+   "id": "f.91.w006",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "l'explication de texte (f)",
+   "front": "l'explication de texte (f)",
+   "back": "text analysis"
+  },
+  {
+   "id": "f.91.w007",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "les sciences sociales (f pl)",
+   "front": "les sciences sociales (f pl)",
+   "back": "social science"
+  },
+  {
+   "id": "f.91.w008",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le lycée professionnel",
+   "front": "le lycée professionnel",
+   "back": "vocational high school"
+  },
+  {
+   "id": "f.91.w009",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la comptabilité",
+   "front": "la comptabilité",
+   "back": "accounting"
+  },
+  {
+   "id": "f.91.w010",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la gestion",
+   "front": "la gestion",
+   "back": "management"
+  },
+  {
+   "id": "f.91.w011",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la formation",
+   "front": "la formation",
+   "back": "training / education"
+  },
+  {
+   "id": "f.91.w012",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le centre de formation professionnelle",
+   "front": "le centre de formation professionnelle",
+   "back": "vocational training center"
+  },
+  {
+   "id": "f.91.w013",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "s'appliquer / faire des efforts",
+   "front": "s'appliquer / faire des efforts",
+   "back": "to apply oneself"
+  },
+  {
+   "id": "f.91.w014",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la moyenne",
+   "front": "la moyenne",
+   "back": "average (grade)"
+  },
+  {
+   "id": "f.91.w015",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "tricher",
+   "front": "tricher",
+   "back": "to cheat"
+  },
+  {
+   "id": "f.91.w016",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "sécher un cours",
+   "front": "sécher un cours",
+   "back": "to skip a class"
+  },
+  {
+   "id": "f.91.w017",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "faire l'école buissonnière",
+   "front": "faire l'école buissonnière",
+   "back": "to play truant"
+  },
+  {
+   "id": "f.91.w018",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la matière facultative",
+   "front": "la matière facultative",
+   "back": "elective subject"
+  },
+  {
+   "id": "f.91.w019",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la matière obligatoire",
+   "front": "la matière obligatoire",
+   "back": "required subject"
+  },
+  {
+   "id": "f.91.w020",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "échouer / rater",
+   "front": "échouer / rater",
+   "back": "to fail"
+  },
+  {
+   "id": "f.91.w021",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la note",
+   "front": "la note",
+   "back": "grade"
+  },
+  {
+   "id": "f.91.w022",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "noter",
+   "front": "noter",
+   "back": "to grade"
+  },
+  {
+   "id": "f.91.w023",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le travail de groupe",
+   "front": "le travail de groupe",
+   "back": "group work"
+  },
+  {
+   "id": "f.91.w024",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "les devoirs (m pl)",
+   "front": "les devoirs (m pl)",
+   "back": "homework"
+  },
+  {
+   "id": "f.91.w025",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "faire des progrès",
+   "front": "faire des progrès",
+   "back": "to make progress"
+  },
+  {
+   "id": "f.91.w026",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le contrôle / l'interro (f)",
+   "front": "le contrôle / l'interro (f)",
+   "back": "quiz / test"
+  },
+  {
+   "id": "f.91.w027",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "redoubler",
+   "front": "redoubler",
+   "back": "to repeat a grade"
+  },
+  {
+   "id": "f.91.w028",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le bulletin scolaire",
+   "front": "le bulletin scolaire",
+   "back": "report card"
+  },
+  {
+   "id": "f.91.w029",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "réussir un examen",
+   "front": "réussir un examen",
+   "back": "to pass an exam"
+  },
+  {
+   "id": "f.91.w030",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "passer un examen",
+   "front": "passer un examen",
+   "back": "to TAKE an exam (not pass)"
+  },
+  {
+   "id": "f.91.w031",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "prendre des notes",
+   "front": "prendre des notes",
+   "back": "to take notes"
+  },
+  {
+   "id": "f.91.w032",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "l'instituteur / l'institutrice",
+   "front": "l'instituteur / l'institutrice",
+   "back": "primary school teacher"
+  },
+  {
+   "id": "f.91.w033",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "l'enseignant(e)",
+   "front": "l'enseignant(e)",
+   "back": "teacher"
+  },
+  {
+   "id": "f.91.w034",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "reçu(e)",
+   "front": "reçu(e)",
+   "back": "admitted / passed"
+  },
+  {
+   "id": "f.91.w035",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "recalé(e)",
+   "front": "recalé(e)",
+   "back": "failed / rejected"
+  },
+  {
+   "id": "f.91.w036",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la licence",
+   "front": "la licence",
+   "back": "bachelor's degree"
+  },
+  {
+   "id": "f.91.w037",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le master",
+   "front": "le master",
+   "back": "master's degree (book: la maîtrise, older term)"
+  },
+  {
+   "id": "f.91.w038",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le doctorat",
+   "front": "le doctorat",
+   "back": "PhD"
+  },
+  {
+   "id": "f.91.w039",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "inscrit(e)",
+   "front": "inscrit(e)",
+   "back": "enrolled"
+  },
+  {
+   "id": "f.91.w040",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "l'inscription (f)",
+   "front": "l'inscription (f)",
+   "back": "registration"
+  },
+  {
+   "id": "f.91.w041",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le concours",
+   "front": "le concours",
+   "back": "competitive exam"
+  },
+  {
+   "id": "f.91.w042",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la culture générale",
+   "front": "la culture générale",
+   "back": "general knowledge / education"
+  },
+  {
+   "id": "f.91.w043",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "l'enseignement (m)",
+   "front": "l'enseignement (m)",
+   "back": "teaching / instruction"
+  },
+  {
+   "id": "f.91.w044",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "les connaissances (f pl)",
+   "front": "les connaissances (f pl)",
+   "back": "knowledge"
+  },
+  {
+   "id": "f.91.w045",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le cours magistral",
+   "front": "le cours magistral",
+   "back": "lecture course"
+  },
+  {
+   "id": "f.91.w046",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la faculté de droit",
+   "front": "la faculté de droit",
+   "back": "law school"
+  },
+  {
+   "id": "f.91.w047",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la faculté des lettres",
+   "front": "la faculté des lettres",
+   "back": "school of literature / humanities"
+  },
+  {
+   "id": "f.91.w048",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le restaurant universitaire (le resto U)",
+   "front": "le restaurant universitaire (le resto U)",
+   "back": "university cafeteria"
+  },
+  {
+   "id": "f.91.w049",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la cité universitaire",
+   "front": "la cité universitaire",
+   "back": "university housing"
+  },
+  {
+   "id": "f.91.w050",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la bibliothèque",
+   "front": "la bibliothèque",
+   "back": "library"
+  },
+  {
+   "id": "f.91.w051",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "l'enseignement à distance (m)",
+   "front": "l'enseignement à distance (m)",
+   "back": "distance learning"
+  },
+  {
+   "id": "f.91.w052",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le cours par correspondance",
+   "front": "le cours par correspondance",
+   "back": "correspondence course"
+  },
+  {
+   "id": "f.91.w053",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la cotisation",
+   "front": "la cotisation",
+   "back": "fee / dues"
+  },
+  {
+   "id": "f.91.w054",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le module",
+   "front": "le module",
+   "back": "learning unit / module"
+  },
+  {
+   "id": "f.91.w055",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le cours du soir",
+   "front": "le cours du soir",
+   "back": "night class"
+  },
+  {
+   "id": "f.91.w056",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le cours en ligne",
+   "front": "le cours en ligne",
+   "back": "online course"
+  },
+  {
+   "id": "f.91.w057",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "s'abonner",
+   "front": "s'abonner",
+   "back": "to subscribe"
+  },
+  {
+   "id": "f.91.w058",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "l'abonnement (m)",
+   "front": "l'abonnement (m)",
+   "back": "subscription"
+  },
+  {
+   "id": "f.91.w059",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le cours virtuel",
+   "front": "le cours virtuel",
+   "back": "virtual class"
+  },
+  {
+   "id": "f.91.w060",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "le bâtiment",
+   "front": "le bâtiment",
+   "back": "construction (industry) / building"
+  },
+  {
+   "id": "f.91.w061",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "l'immobilier (m)",
+   "front": "l'immobilier (m)",
+   "back": "real estate"
+  },
+  {
+   "id": "f.91.w062",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "les travaux publics (m pl)",
+   "front": "les travaux publics (m pl)",
+   "back": "public works"
+  },
+  {
+   "id": "f.91.w063",
+   "los": [
+    "los.91.a"
+   ],
+   "name": "la vente",
+   "front": "la vente",
+   "back": "sales"
+  }
+ ]
+}

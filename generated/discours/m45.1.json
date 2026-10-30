@@ -1,0 +1,325 @@
+{
+ "module": "m45.1",
+ "source_hash": "f17707697fe1",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Les paroles ont été prononcées dans le passé : leur « présent » est déjà du passé pour celui qui les rapporte."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Présent → imparfait ; passé composé → plus-que-parfait ; futur → conditionnel ; _va_ + infinitif → _allait_ + infinitif."
+   },
+   {
+    "stage": "result",
+    "md": "Les repères temporels suivent : _demain_ → _le lendemain_, _hier_ → _la veille_."
+   },
+   {
+    "stage": "interpretation",
+    "md": "Le conditionnel du discours indirect (_il a dit qu'il viendrait_) est un **futur dans le passé**, pas une hypothèse."
+   }
+  ],
+  "why_it_matters": "Le résumé d'un document entendu ou lu (_le journaliste a expliqué que…_) exige la concordance des temps ; les erreurs y sont très fréquentes.",
+  "exam_approach": {
+   "look_first": [
+    "le temps du verbe introducteur",
+    "le temps de la phrase d'origine",
+    "les mots _demain, hier, aujourd'hui, ici_"
+   ],
+   "traps": [
+    "garder le futur après un introducteur au passé (*_il a dit qu'il viendra_ dans un récit)",
+    "passé composé → passé composé au lieu de plus-que-parfait",
+    "garder _demain_ dans un récit passé"
+   ],
+   "distractors": [
+    "le futur à la place du conditionnel",
+    "le passé composé à la place du plus-que-parfait",
+    "le présent à la place de l'imparfait"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m35.1",
+   "type": "requires",
+   "note": "Le discours indirect au présent."
+  },
+  {
+   "to": "m49.1",
+   "type": "applies",
+   "note": "Le conditionnel comme futur dans le passé."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.45.a.001",
+   "los": "los.45.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "« Je suis malade. » → Elle a dit qu'elle …… malade.",
+   "options": [
+    "est",
+    "a été",
+    "était"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Après un introducteur au passé, le présent devient imparfait.",
+    "B": "Faux. Le passé composé change le sens.",
+    "C": "Correct. Introducteur au passé : présent → imparfait."
+   }
+  },
+  {
+   "id": "q.45.a.002",
+   "los": "los.45.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "« Je viendrai. » → Il a promis qu'il …….",
+   "options": [
+    "viendra",
+    "viendrait",
+    "venait"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le futur ne se garde pas après un introducteur au passé.",
+    "B": "Correct. Futur → conditionnel présent (futur dans le passé).",
+    "C": "Faux. L'imparfait correspond au présent du discours direct."
+   }
+  },
+  {
+   "id": "q.45.a.003",
+   "los": "los.45.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "« J'ai perdu mes clés. » → Il m'a expliqué qu'il …… ses clés.",
+   "options": [
+    "a perdu",
+    "avait perdu",
+    "perdait"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le passé composé devient plus-que-parfait.",
+    "B": "Correct. Passé composé → plus-que-parfait.",
+    "C": "Faux. L'imparfait ne marque pas l'action antérieure."
+   }
+  },
+  {
+   "id": "q.45.a.004",
+   "los": "los.45.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "« Nous allons déménager. » → Ils nous ont annoncé qu'ils …… déménager.",
+   "options": [
+    "vont",
+    "iraient",
+    "allaient"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le présent de _aller_ devient imparfait.",
+    "B": "Faux. Le conditionnel correspond au futur simple, pas au futur proche.",
+    "C": "Correct. Futur proche → _aller_ à l'imparfait + infinitif."
+   }
+  },
+  {
+   "id": "q.45.a.005",
+   "los": "los.45.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "« Je travaillais chez Renault. » → Il a dit qu'il …… chez Renault.",
+   "options": [
+    "travaillait",
+    "avait travaillé",
+    "travaille"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. L'imparfait ne change pas.",
+    "B": "Faux. L'imparfait reste imparfait.",
+    "C": "Faux. Le présent ne convient pas après un introducteur au passé."
+   }
+  },
+  {
+   "id": "q.45.a.006",
+   "los": "los.45.a",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "« L'eau bout à 100 °C. » → Le professeur a rappelé que l'eau …… à 100 °C.",
+   "options": [
+    "bouillira",
+    "bout",
+    "aurait bouilli"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le futur n'a pas de sens ici.",
+    "B": "Correct. Vérité générale : on peut garder le présent.",
+    "C": "Faux. Le conditionnel passé est faux."
+   }
+  },
+  {
+   "id": "q.45.b.001",
+   "los": "los.45.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "« Je pars demain. » → Le mois dernier, il m'a dit qu'il partait …….",
+   "options": [
+    "demain",
+    "la veille",
+    "le lendemain"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _demain_ renvoie au jour où l'on parle, pas au jour du récit.",
+    "B": "Faux. _la veille_ correspond à _hier_.",
+    "C": "Correct. _demain_ → _le lendemain_ dans un récit passé."
+   }
+  },
+  {
+   "id": "q.45.b.002",
+   "los": "los.45.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "« Je l'ai vu hier. » → Elle a raconté qu'elle l'avait vu …….",
+   "options": [
+    "la veille",
+    "hier",
+    "le lendemain"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _hier_ → _la veille_.",
+    "B": "Faux. _hier_ ne se garde pas dans un récit passé.",
+    "C": "Faux. _le lendemain_ correspond à _demain_."
+   }
+  },
+  {
+   "id": "q.45.b.003",
+   "los": "los.45.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "« Nous nous retrouverons ici la semaine prochaine. » → Ils ont décidé qu'ils se retrouveraient …… la semaine …….",
+   "options": [
+    "ici… prochaine",
+    "là… précédente",
+    "là… suivante"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Les repères ne se gardent pas dans un récit passé.",
+    "B": "Faux. _précédente_ correspond à _dernière_.",
+    "C": "Correct. _ici_ → _là_ ; _prochaine_ → _suivante_."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m45.1.01",
+   "modules": [
+    "m45.1"
+   ],
+   "title": "Compte rendu d'une interview",
+   "vignette": "Une journaliste résume une interview de la maire :\n\n« La maire a déclaré que la ville **(1)** …… (manquer) de logements sociaux. Elle a précisé que le conseil municipal **(2)** …… (voter) un nouveau budget la semaine précédente et qu'un premier chantier **(3)** …… (commencer) en janvier. Enfin, elle a annoncé qu'elle **(4)** …… les habitants le lendemain. »",
+   "questions": [
+    {
+     "id": "set.m45.1.01.q1",
+     "los": "los.45.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "manque",
+      "manquait",
+      "a manqué"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Après _a déclaré_, le présent devient imparfait.",
+      "B": "Correct. Présent → imparfait.",
+      "C": "Faux. Le passé composé change le sens."
+     }
+    },
+    {
+     "id": "set.m45.1.01.q2",
+     "los": "los.45.a",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "avait voté",
+      "a voté",
+      "votait"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Action antérieure (_la semaine précédente_) → plus-que-parfait.",
+      "B": "Faux. Le passé composé devient plus-que-parfait.",
+      "C": "Faux. L'imparfait ne marque pas l'antériorité."
+     }
+    },
+    {
+     "id": "set.m45.1.01.q3",
+     "los": "los.45.a",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (3) :",
+     "options": [
+      "commencerait",
+      "commencera",
+      "commençait"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Futur → conditionnel (futur dans le passé).",
+      "B": "Faux. Le futur ne se garde pas.",
+      "C": "Faux. L'imparfait correspond au présent."
+     }
+    },
+    {
+     "id": "set.m45.1.01.q4",
+     "los": "los.45.a",
+     "difficulty": 3,
+     "qtype": "form",
+     "stem": "Blanc (4) : (« Je vais rencontrer les habitants demain. »)",
+     "options": [
+      "va rencontrer",
+      "rencontrera",
+      "allait rencontrer"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _va_ devient _allait_.",
+      "B": "Faux. Le futur ne se garde pas après un introducteur au passé.",
+      "C": "Correct. Futur proche → _allait_ + infinitif."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.45.concordance",
+   "los": [
+    "los.45.a"
+   ],
+   "name": "Concordance des temps",
+   "front": "Introducteur au passé : présent / passé composé / futur / futur proche → ?",
+   "back": "→ **imparfait** / **plus-que-parfait** / **conditionnel** / **allait** + infinitif. L'imparfait, le plus-que-parfait et le conditionnel ne changent pas.",
+   "examples": [
+    "« Il viendra. » → Il a dit qu'il viendrait."
+   ]
+  },
+  {
+   "id": "f.45.reperes",
+   "los": [
+    "los.45.b"
+   ],
+   "name": "Repères de temps",
+   "front": "aujourd'hui / hier / demain / la semaine prochaine → ?",
+   "back": "**ce jour-là** / **la veille** / **le lendemain** / **la semaine suivante** ; ici → **là**."
+  }
+ ]
+}

@@ -1,0 +1,1128 @@
+{
+ "module": "m95.1",
+ "source_hash": "51dccf2242b9",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le vocabulaire du thème « l'environnement » sert à comprendre les documents et à argumenter sans répétition."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Les cartes utilisent la répétition espacée : un mot revient juste avant que vous l'oubliiez."
+   },
+   {
+    "stage": "result",
+    "md": "Réviser chaque jour quelques minutes vaut mieux qu'une longue séance par semaine."
+   }
+  ],
+  "why_it_matters": "Un lexique précis sur l'écologie, la pollution, le climat, l'agriculture fait partie de la note « étendue et maîtrise du vocabulaire » à l'écrit et à l'oral.",
+  "exam_approach": {
+   "look_first": [
+    "le genre du nom (le / la)",
+    "la préposition qui accompagne le verbe"
+   ],
+   "traps": [
+    "les faux amis (_la librairie_ ≠ library)",
+    "oublier l'article en apprenant un nom"
+   ],
+   "distractors": [
+    "un mot proche de l'anglais mais de sens différent"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.95.w001",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'atmosphère (f)",
+   "front": "l'atmosphère (f)",
+   "back": "atmosphere"
+  },
+  {
+   "id": "f.95.w002",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le littoral",
+   "front": "le littoral",
+   "back": "coastline / coastal area"
+  },
+  {
+   "id": "f.95.w003",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la campagne",
+   "front": "la campagne",
+   "back": "countryside"
+  },
+  {
+   "id": "f.95.w004",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "désertique",
+   "front": "désertique",
+   "back": "desert-like / desolate"
+  },
+  {
+   "id": "f.95.w005",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le paysage",
+   "front": "le paysage",
+   "back": "landscape"
+  },
+  {
+   "id": "f.95.w006",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le relief",
+   "front": "le relief",
+   "back": "terrain / relief"
+  },
+  {
+   "id": "f.95.w007",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la rive / la berge",
+   "front": "la rive / la berge",
+   "back": "bank (of river)"
+  },
+  {
+   "id": "f.95.w008",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le ruisseau",
+   "front": "le ruisseau",
+   "back": "stream"
+  },
+  {
+   "id": "f.95.w009",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le fleuve",
+   "front": "le fleuve",
+   "back": "river (flowing to the sea)"
+  },
+  {
+   "id": "f.95.w010",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la rivière",
+   "front": "la rivière",
+   "back": "river (tributary)"
+  },
+  {
+   "id": "f.95.w011",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'embouchure (f)",
+   "front": "l'embouchure (f)",
+   "back": "river mouth"
+  },
+  {
+   "id": "f.95.w012",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la source",
+   "front": "la source",
+   "back": "spring / source"
+  },
+  {
+   "id": "f.95.w013",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la marée",
+   "front": "la marée",
+   "back": "tide"
+  },
+  {
+   "id": "f.95.w014",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "en aval / en amont",
+   "front": "en aval / en amont",
+   "back": "downstream / upstream"
+  },
+  {
+   "id": "f.95.w015",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la vague",
+   "front": "la vague",
+   "back": "wave"
+  },
+  {
+   "id": "f.95.w016",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "s'éclaircir",
+   "front": "s'éclaircir",
+   "back": "to clear up"
+  },
+  {
+   "id": "f.95.w017",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'éclaircie (f)",
+   "front": "l'éclaircie (f)",
+   "back": "sunny spell"
+  },
+  {
+   "id": "f.95.w018",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le brouillard",
+   "front": "le brouillard",
+   "back": "fog"
+  },
+  {
+   "id": "f.95.w019",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le verglas",
+   "front": "le verglas",
+   "back": "black ice"
+  },
+  {
+   "id": "f.95.w020",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la brume",
+   "front": "la brume",
+   "back": "mist"
+  },
+  {
+   "id": "f.95.w021",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "couvert",
+   "front": "couvert",
+   "back": "overcast"
+  },
+  {
+   "id": "f.95.w022",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'averse (f)",
+   "front": "l'averse (f)",
+   "back": "shower (rain)"
+  },
+  {
+   "id": "f.95.w023",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le dégel",
+   "front": "le dégel",
+   "back": "thaw"
+  },
+  {
+   "id": "f.95.w024",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la zone sinistrée",
+   "front": "la zone sinistrée",
+   "back": "disaster zone"
+  },
+  {
+   "id": "f.95.w025",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la canicule",
+   "front": "la canicule",
+   "back": "heat wave"
+  },
+  {
+   "id": "f.95.w026",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la sécheresse",
+   "front": "la sécheresse",
+   "back": "drought"
+  },
+  {
+   "id": "f.95.w027",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le tremblement de terre / le séisme",
+   "front": "le tremblement de terre / le séisme",
+   "back": "earthquake"
+  },
+  {
+   "id": "f.95.w028",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'inondation (f)",
+   "front": "l'inondation (f)",
+   "back": "flood"
+  },
+  {
+   "id": "f.95.w029",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'ouragan (m)",
+   "front": "l'ouragan (m)",
+   "back": "hurricane"
+  },
+  {
+   "id": "f.95.w030",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le glissement de terrain",
+   "front": "le glissement de terrain",
+   "back": "landslide"
+  },
+  {
+   "id": "f.95.w031",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la foudre",
+   "front": "la foudre",
+   "back": "lightning (strike)"
+  },
+  {
+   "id": "f.95.w032",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la tempête",
+   "front": "la tempête",
+   "back": "storm"
+  },
+  {
+   "id": "f.95.w033",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'orage (m)",
+   "front": "l'orage (m)",
+   "back": "thunderstorm"
+  },
+  {
+   "id": "f.95.w034",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le raz-de-marée",
+   "front": "le raz-de-marée",
+   "back": "tidal wave"
+  },
+  {
+   "id": "f.95.w035",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "les pluies torrentielles (f pl)",
+   "front": "les pluies torrentielles (f pl)",
+   "back": "torrential rain"
+  },
+  {
+   "id": "f.95.w036",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la prévision",
+   "front": "la prévision",
+   "back": "forecast"
+  },
+  {
+   "id": "f.95.w037",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la perturbation",
+   "front": "la perturbation",
+   "back": "(weather) disturbance"
+  },
+  {
+   "id": "f.95.w038",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "tempéré(e)",
+   "front": "tempéré(e)",
+   "back": "temperate"
+  },
+  {
+   "id": "f.95.w039",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "biologique / bio",
+   "front": "biologique / bio",
+   "back": "organic / biological"
+  },
+  {
+   "id": "f.95.w040",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la diversité / la biodiversité",
+   "front": "la diversité / la biodiversité",
+   "back": "diversity / biodiversity"
+  },
+  {
+   "id": "f.95.w041",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'écologiste (m/f)",
+   "front": "l'écologiste (m/f)",
+   "back": "environmentalist / ecologist"
+  },
+  {
+   "id": "f.95.w042",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'écosystème (m)",
+   "front": "l'écosystème (m)",
+   "back": "ecosystem"
+  },
+  {
+   "id": "f.95.w043",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la faune et la flore",
+   "front": "la faune et la flore",
+   "back": "wildlife and plants"
+  },
+  {
+   "id": "f.95.w044",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "planétaire",
+   "front": "planétaire",
+   "back": "global"
+  },
+  {
+   "id": "f.95.w045",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'habitat (m)",
+   "front": "l'habitat (m)",
+   "back": "habitat"
+  },
+  {
+   "id": "f.95.w046",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le déséquilibre",
+   "front": "le déséquilibre",
+   "back": "imbalance"
+  },
+  {
+   "id": "f.95.w047",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "irréversible",
+   "front": "irréversible",
+   "back": "irreversible"
+  },
+  {
+   "id": "f.95.w048",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "les ressources naturelles (f pl)",
+   "front": "les ressources naturelles (f pl)",
+   "back": "natural resources"
+  },
+  {
+   "id": "f.95.w049",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la couche d'ozone",
+   "front": "la couche d'ozone",
+   "back": "ozone layer"
+  },
+  {
+   "id": "f.95.w050",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "préserver",
+   "front": "préserver",
+   "back": "to preserve"
+  },
+  {
+   "id": "f.95.w051",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "protéger / sauvegarder",
+   "front": "protéger / sauvegarder",
+   "back": "to protect"
+  },
+  {
+   "id": "f.95.w052",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la sauvegarde",
+   "front": "la sauvegarde",
+   "back": "protection / safeguarding"
+  },
+  {
+   "id": "f.95.w053",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "recycler",
+   "front": "recycler",
+   "back": "to recycle"
+  },
+  {
+   "id": "f.95.w054",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le recyclage",
+   "front": "le recyclage",
+   "back": "recycling"
+  },
+  {
+   "id": "f.95.w055",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'espèce (f)",
+   "front": "l'espèce (f)",
+   "back": "species"
+  },
+  {
+   "id": "f.95.w056",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la nature sauvage",
+   "front": "la nature sauvage",
+   "back": "wilderness"
+  },
+  {
+   "id": "f.95.w057",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "les pluies acides (f pl)",
+   "front": "les pluies acides (f pl)",
+   "back": "acid rain"
+  },
+  {
+   "id": "f.95.w058",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "biodégradable",
+   "front": "biodégradable",
+   "back": "biodegradable"
+  },
+  {
+   "id": "f.95.w059",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "enrayer",
+   "front": "enrayer",
+   "back": "to stop / curb"
+  },
+  {
+   "id": "f.95.w060",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le dioxyde de carbone (CO₂)",
+   "front": "le dioxyde de carbone (CO₂)",
+   "back": "carbon dioxide"
+  },
+  {
+   "id": "f.95.w061",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "chimique",
+   "front": "chimique",
+   "back": "chemical"
+  },
+  {
+   "id": "f.95.w062",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le nettoyage",
+   "front": "le nettoyage",
+   "back": "cleanup"
+  },
+  {
+   "id": "f.95.w063",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'inquiétude (f)",
+   "front": "l'inquiétude (f)",
+   "back": "concern / worry"
+  },
+  {
+   "id": "f.95.w064",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la contamination",
+   "front": "la contamination",
+   "back": "contamination"
+  },
+  {
+   "id": "f.95.w065",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le récif de corail",
+   "front": "le récif de corail",
+   "back": "coral reef"
+  },
+  {
+   "id": "f.95.w066",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "abîmer",
+   "front": "abîmer",
+   "back": "to damage"
+  },
+  {
+   "id": "f.95.w067",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "les dégâts (m pl)",
+   "front": "les dégâts (m pl)",
+   "back": "damage"
+  },
+  {
+   "id": "f.95.w068",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la déforestation / le déboisement",
+   "front": "la déforestation / le déboisement",
+   "back": "deforestation"
+  },
+  {
+   "id": "f.95.w069",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la dégradation",
+   "front": "la dégradation",
+   "back": "degradation"
+  },
+  {
+   "id": "f.95.w070",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la désertification",
+   "front": "la désertification",
+   "back": "desertification"
+  },
+  {
+   "id": "f.95.w071",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "disparaître",
+   "front": "disparaître",
+   "back": "to disappear"
+  },
+  {
+   "id": "f.95.w072",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'eau potable (f)",
+   "front": "l'eau potable (f)",
+   "back": "drinking water"
+  },
+  {
+   "id": "f.95.w073",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la décharge",
+   "front": "la décharge",
+   "back": "dump / landfill"
+  },
+  {
+   "id": "f.95.w074",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'érosion (f)",
+   "front": "l'érosion (f)",
+   "back": "erosion"
+  },
+  {
+   "id": "f.95.w075",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la disparition",
+   "front": "la disparition",
+   "back": "extinction / disappearance"
+  },
+  {
+   "id": "f.95.w076",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "en voie de disparition",
+   "front": "en voie de disparition",
+   "back": "endangered"
+  },
+  {
+   "id": "f.95.w077",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'engrais (m)",
+   "front": "l'engrais (m)",
+   "back": "fertilizer"
+  },
+  {
+   "id": "f.95.w078",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "les ordures (f pl)",
+   "front": "les ordures (f pl)",
+   "back": "garbage"
+  },
+  {
+   "id": "f.95.w079",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la poubelle",
+   "front": "la poubelle",
+   "back": "garbage can"
+  },
+  {
+   "id": "f.95.w080",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'effet de serre (m)",
+   "front": "l'effet de serre (m)",
+   "back": "greenhouse effect"
+  },
+  {
+   "id": "f.95.w081",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "les gaz à effet de serre (m pl)",
+   "front": "les gaz à effet de serre (m pl)",
+   "back": "greenhouse gases"
+  },
+  {
+   "id": "f.95.w082",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "nocif / nocive",
+   "front": "nocif / nocive",
+   "back": "harmful"
+  },
+  {
+   "id": "f.95.w083",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la calotte glaciaire",
+   "front": "la calotte glaciaire",
+   "back": "ice cap"
+  },
+  {
+   "id": "f.95.w084",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'impact (m)",
+   "front": "l'impact (m)",
+   "back": "impact"
+  },
+  {
+   "id": "f.95.w085",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "industriel(le)",
+   "front": "industriel(le)",
+   "back": "industrial"
+  },
+  {
+   "id": "f.95.w086",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'industrialisation (f)",
+   "front": "l'industrialisation (f)",
+   "back": "industrialization"
+  },
+  {
+   "id": "f.95.w087",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "envahir",
+   "front": "envahir",
+   "back": "to invade"
+  },
+  {
+   "id": "f.95.w088",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "fondre",
+   "front": "fondre",
+   "back": "to melt"
+  },
+  {
+   "id": "f.95.w089",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "nucléaire",
+   "front": "nucléaire",
+   "back": "nuclear"
+  },
+  {
+   "id": "f.95.w090",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le pétrole",
+   "front": "le pétrole",
+   "back": "oil (petroleum)"
+  },
+  {
+   "id": "f.95.w091",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la marée noire",
+   "front": "la marée noire",
+   "back": "oil slick"
+  },
+  {
+   "id": "f.95.w092",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le pétrolier",
+   "front": "le pétrolier",
+   "back": "oil tanker"
+  },
+  {
+   "id": "f.95.w093",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le braconnage",
+   "front": "le braconnage",
+   "back": "poaching"
+  },
+  {
+   "id": "f.95.w094",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le polluant",
+   "front": "le polluant",
+   "back": "pollutant"
+  },
+  {
+   "id": "f.95.w095",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "polluer",
+   "front": "polluer",
+   "back": "to pollute"
+  },
+  {
+   "id": "f.95.w096",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le pollueur",
+   "front": "le pollueur",
+   "back": "polluter"
+  },
+  {
+   "id": "f.95.w097",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la centrale (nucléaire)",
+   "front": "la centrale (nucléaire)",
+   "back": "(nuclear) power plant"
+  },
+  {
+   "id": "f.95.w098",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "radioactif / radioactive",
+   "front": "radioactif / radioactive",
+   "back": "radioactive"
+  },
+  {
+   "id": "f.95.w099",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "reculer",
+   "front": "reculer",
+   "back": "to regress / go back"
+  },
+  {
+   "id": "f.95.w100",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la montée des eaux",
+   "front": "la montée des eaux",
+   "back": "rising water level"
+  },
+  {
+   "id": "f.95.w101",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le stockage",
+   "front": "le stockage",
+   "back": "storage"
+  },
+  {
+   "id": "f.95.w102",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le coup de soleil",
+   "front": "le coup de soleil",
+   "back": "sunburn"
+  },
+  {
+   "id": "f.95.w103",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la menace",
+   "front": "la menace",
+   "back": "threat"
+  },
+  {
+   "id": "f.95.w104",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "menacer",
+   "front": "menacer",
+   "back": "to threaten"
+  },
+  {
+   "id": "f.95.w105",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le seuil",
+   "front": "le seuil",
+   "back": "threshold"
+  },
+  {
+   "id": "f.95.w106",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "toxique",
+   "front": "toxique",
+   "back": "toxic"
+  },
+  {
+   "id": "f.95.w107",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'urbanisation (f)",
+   "front": "l'urbanisation (f)",
+   "back": "urban development"
+  },
+  {
+   "id": "f.95.w108",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le réchauffement climatique",
+   "front": "le réchauffement climatique",
+   "back": "global warming"
+  },
+  {
+   "id": "f.95.w109",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "gaspiller",
+   "front": "gaspiller",
+   "back": "to waste"
+  },
+  {
+   "id": "f.95.w110",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le gaspillage",
+   "front": "le gaspillage",
+   "back": "waste (act of wasting)"
+  },
+  {
+   "id": "f.95.w111",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "les déchets (m pl)",
+   "front": "les déchets (m pl)",
+   "back": "waste / rubbish"
+  },
+  {
+   "id": "f.95.w112",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "les énergies renouvelables (f pl)",
+   "front": "les énergies renouvelables (f pl)",
+   "back": "renewable energy"
+  },
+  {
+   "id": "f.95.w113",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "agricole",
+   "front": "agricole",
+   "back": "agricultural"
+  },
+  {
+   "id": "f.95.w114",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'agriculteur / l'agricultrice",
+   "front": "l'agriculteur / l'agricultrice",
+   "back": "farmer"
+  },
+  {
+   "id": "f.95.w115",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "l'élevage (m)",
+   "front": "l'élevage (m)",
+   "back": "livestock farming"
+  },
+  {
+   "id": "f.95.w116",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le bétail",
+   "front": "le bétail",
+   "back": "cattle / livestock"
+  },
+  {
+   "id": "f.95.w117",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "cultiver",
+   "front": "cultiver",
+   "back": "to grow / cultivate"
+  },
+  {
+   "id": "f.95.w118",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "la récolte",
+   "front": "la récolte",
+   "back": "harvest"
+  },
+  {
+   "id": "f.95.w119",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le jardinage biologique",
+   "front": "le jardinage biologique",
+   "back": "organic gardening"
+  },
+  {
+   "id": "f.95.w120",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le rendement",
+   "front": "le rendement",
+   "back": "yield"
+  },
+  {
+   "id": "f.95.w121",
+   "los": [
+    "los.95.a"
+   ],
+   "name": "le pesticide",
+   "front": "le pesticide",
+   "back": "pesticide"
+  }
+ ]
+}

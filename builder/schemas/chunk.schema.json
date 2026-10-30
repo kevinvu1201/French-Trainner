@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chunk.schema.json",
+  "title": "Compiled content for one topic (dist/data/chunks/<topic>.<hash>.json), loaded lazily",
+  "type": "object",
+  "required": ["schema", "topic", "readings", "modules", "los", "questions", "item_sets", "formulas", "learning", "figures", "repairs"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {"const": 1},
+    "topic": {"$ref": "common.schema.json#/$defs/topicId"},
+    "readings": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["id", "n", "title", "exam_focus", "modules", "los"], "additionalProperties": false,
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/readingId"},
+          "n": {"type": "integer"},
+          "title": {"type": "string"},
+          "exam_focus": {"$ref": "common.schema.json#/$defs/blocks"},
+          "modules": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/moduleId"}},
+          "los": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/losId"}}
+        }
+      }
+    },
+    "modules": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["id", "reading", "n", "title", "hash", "sections"], "additionalProperties": false,
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/moduleId"},
+          "reading": {"$ref": "common.schema.json#/$defs/readingId"},
+          "n": {"type": "integer"},
+          "title": {"type": "string"},
+          "hash": {"type": "string"},
+          "stale_generated": {"type": "boolean"},
+          "sections": {
+            "type": "array",
+            "items": {
+              "type": "object", "required": ["los", "blocks"], "additionalProperties": false,
+              "properties": {
+                "los": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/losId"}},
+                "cont": {"type": "boolean", "description": "Continues an LOS introduced in an earlier module"},
+                "blocks": {"$ref": "common.schema.json#/$defs/blocks"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "los": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["id", "reading", "module", "modules", "letter", "text", "verb", "key_concepts"], "additionalProperties": false,
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/losId"},
+          "reading": {"$ref": "common.schema.json#/$defs/readingId"},
+          "module": {"$ref": "common.schema.json#/$defs/moduleId", "description": "Module where the LOS is introduced"},
+          "modules": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/moduleId"}, "minItems": 1,
+                      "description": "Every module the LOS spans"},
+          "letter": {"type": "string", "pattern": "^[a-z]$"},
+          "text": {"type": "string", "minLength": 5},
+          "verb": {"type": "string"},
+          "key_concepts": {"$ref": "common.schema.json#/$defs/blocks"}
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {"$ref": "common.schema.json#/$defs/generatedQuestion"},
+          {
+            "type": "object",
+            "required": ["id", "source", "module", "los", "stem", "options", "answer", "explanation"],
+            "additionalProperties": false,
+            "properties": {
+              "id": {"type": "string", "pattern": "^sq\\.\\d{2}\\.\\d+\\.\\d+$"},
+              "source": {"const": "schweser"},
+              "module": {"$ref": "common.schema.json#/$defs/moduleId"},
+              "los": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/losId"}},
+              "vignette": {"type": ["string", "null"]},
+              "stem": {"$ref": "common.schema.json#/$defs/md"},
+              "options": {"$ref": "common.schema.json#/$defs/option3"},
+              "ocr_options": {"type": "boolean"},
+              "options_in_figure": {"type": "boolean", "description": "Options are printed in the figure at the end of the stem; options are just A/B/C"},
+              "answer": {"$ref": "common.schema.json#/$defs/letter"},
+              "explanation": {"$ref": "common.schema.json#/$defs/md"}
+            }
+          }
+        ]
+      }
+    },
+    "item_sets": {"type": "array"},
+    "formulas": {"type": "array"},
+    "learning": {"type": "object", "description": "moduleId -> generated learning object (see generated.schema.json)"},
+    "figures": {
+      "type": "object",
+      "propertyNames": {"$ref": "common.schema.json#/$defs/figId"},
+      "additionalProperties": {
+        "type": "object", "required": ["kind"], "additionalProperties": false,
+        "description": "PDF sources give an image (src, displayed size w x h in points); Markdown sources give OCR text",
+        "properties": {
+          "kind": {"enum": ["formula", "table", "chart", "noise"]},
+          "src": {"type": "string", "pattern": "^img/fig\\.[0-9a-f]{10}\\.png$"},
+          "w": {"type": "number"},
+          "h": {"type": "number"},
+          "ocr": {"type": "string"},
+          "caption": {"type": ["string", "null"]}
+        },
+        "oneOf": [{"required": ["src", "w", "h"]}, {"required": ["ocr"]}]
+      }
+    },
+    "repairs": {
+      "type": "object",
+      "propertyNames": {"$ref": "common.schema.json#/$defs/figId"},
+      "additionalProperties": {"$ref": "common.schema.json#/$defs/repair"}
+    }
+  }
+}

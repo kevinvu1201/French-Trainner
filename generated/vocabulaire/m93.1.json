@@ -1,0 +1,1065 @@
+{
+ "module": "m93.1",
+ "source_hash": "abf43a25bd74",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le vocabulaire du thème « les médias et la culture » sert à comprendre les documents et à argumenter sans répétition."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Les cartes utilisent la répétition espacée : un mot revient juste avant que vous l'oubliiez."
+   },
+   {
+    "stage": "result",
+    "md": "Réviser chaque jour quelques minutes vaut mieux qu'une longue séance par semaine."
+   }
+  ],
+  "why_it_matters": "Un lexique précis sur la presse, la télévision, internet, la lecture fait partie de la note « étendue et maîtrise du vocabulaire » à l'écrit et à l'oral.",
+  "exam_approach": {
+   "look_first": [
+    "le genre du nom (le / la)",
+    "la préposition qui accompagne le verbe"
+   ],
+   "traps": [
+    "les faux amis (_la librairie_ ≠ library)",
+    "oublier l'article en apprenant un nom"
+   ],
+   "distractors": [
+    "un mot proche de l'anglais mais de sens différent"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.93.w001",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'acteur / l'actrice",
+   "front": "l'acteur / l'actrice",
+   "back": "actor / actress"
+  },
+  {
+   "id": "f.93.w002",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le comédien / la comédienne",
+   "front": "le comédien / la comédienne",
+   "back": "actor / actress (stage)"
+  },
+  {
+   "id": "f.93.w003",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "applaudir",
+   "front": "applaudir",
+   "back": "to applaud"
+  },
+  {
+   "id": "f.93.w004",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le public / l'assistance (f)",
+   "front": "le public / l'assistance (f)",
+   "back": "audience"
+  },
+  {
+   "id": "f.93.w005",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le / la critique",
+   "front": "le / la critique",
+   "back": "critic"
+  },
+  {
+   "id": "f.93.w006",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "doublé",
+   "front": "doublé",
+   "back": "dubbed"
+  },
+  {
+   "id": "f.93.w007",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "sous-titré",
+   "front": "sous-titré",
+   "back": "subtitled"
+  },
+  {
+   "id": "f.93.w008",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "passionnant(e)",
+   "front": "passionnant(e)",
+   "back": "exciting / fascinating"
+  },
+  {
+   "id": "f.93.w009",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "tourner un film",
+   "front": "tourner un film",
+   "back": "to shoot a film"
+  },
+  {
+   "id": "f.93.w010",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le navet",
+   "front": "le navet",
+   "back": "flop (bad film)"
+  },
+  {
+   "id": "f.93.w011",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "siffler",
+   "front": "siffler",
+   "back": "to hiss / boo / whistle"
+  },
+  {
+   "id": "f.93.w012",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la vedette",
+   "front": "la vedette",
+   "back": "star"
+  },
+  {
+   "id": "f.93.w013",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le / la cinéphile",
+   "front": "le / la cinéphile",
+   "back": "movie fan"
+  },
+  {
+   "id": "f.93.w014",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "émouvant(e)",
+   "front": "émouvant(e)",
+   "back": "moving (emotionally)"
+  },
+  {
+   "id": "f.93.w015",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la pièce (de théâtre)",
+   "front": "la pièce (de théâtre)",
+   "back": "play"
+  },
+  {
+   "id": "f.93.w016",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le / la dramaturge",
+   "front": "le / la dramaturge",
+   "back": "playwright"
+  },
+  {
+   "id": "f.93.w017",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'intrigue (f)",
+   "front": "l'intrigue (f)",
+   "back": "plot"
+  },
+  {
+   "id": "f.93.w018",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la répétition",
+   "front": "la répétition",
+   "back": "rehearsal"
+  },
+  {
+   "id": "f.93.w019",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la mise en scène",
+   "front": "la mise en scène",
+   "back": "staging / direction"
+  },
+  {
+   "id": "f.93.w020",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le spectacle / la représentation",
+   "front": "le spectacle / la représentation",
+   "back": "show / performance"
+  },
+  {
+   "id": "f.93.w021",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le trac",
+   "front": "le trac",
+   "back": "stage fright"
+  },
+  {
+   "id": "f.93.w022",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la tournée",
+   "front": "la tournée",
+   "back": "tour"
+  },
+  {
+   "id": "f.93.w023",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'enregistrement (m)",
+   "front": "l'enregistrement (m)",
+   "back": "recording"
+  },
+  {
+   "id": "f.93.w024",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'exposition (f)",
+   "front": "l'exposition (f)",
+   "back": "exhibition"
+  },
+  {
+   "id": "f.93.w025",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le chef-d'œuvre",
+   "front": "le chef-d'œuvre",
+   "back": "masterpiece"
+  },
+  {
+   "id": "f.93.w026",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "les arts plastiques (m pl)",
+   "front": "les arts plastiques (m pl)",
+   "back": "visual arts"
+  },
+  {
+   "id": "f.93.w027",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'œuvre d'art (f)",
+   "front": "l'œuvre d'art (f)",
+   "back": "work of art"
+  },
+  {
+   "id": "f.93.w028",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'atelier (m)",
+   "front": "l'atelier (m)",
+   "back": "studio / workshop"
+  },
+  {
+   "id": "f.93.w029",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "contemporain(e)",
+   "front": "contemporain(e)",
+   "back": "contemporary"
+  },
+  {
+   "id": "f.93.w030",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la publicité",
+   "front": "la publicité",
+   "back": "advertising"
+  },
+  {
+   "id": "f.93.w031",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le présentateur / la présentatrice",
+   "front": "le présentateur / la présentatrice",
+   "back": "announcer / TV presenter"
+  },
+  {
+   "id": "f.93.w032",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "diffuser / retransmettre",
+   "front": "diffuser / retransmettre",
+   "back": "to broadcast"
+  },
+  {
+   "id": "f.93.w033",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'émission (f)",
+   "front": "l'émission (f)",
+   "back": "broadcast / TV programme"
+  },
+  {
+   "id": "f.93.w034",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le dessin animé",
+   "front": "le dessin animé",
+   "back": "cartoon"
+  },
+  {
+   "id": "f.93.w035",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le personnage",
+   "front": "le personnage",
+   "back": "character"
+  },
+  {
+   "id": "f.93.w036",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le jeu télévisé",
+   "front": "le jeu télévisé",
+   "back": "game show"
+  },
+  {
+   "id": "f.93.w037",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'auditeur / l'auditrice",
+   "front": "l'auditeur / l'auditrice",
+   "back": "listener"
+  },
+  {
+   "id": "f.93.w038",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le téléspectateur / la téléspectatrice",
+   "front": "le téléspectateur / la téléspectatrice",
+   "back": "TV viewer"
+  },
+  {
+   "id": "f.93.w039",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'émission en direct (f)",
+   "front": "l'émission en direct (f)",
+   "back": "live broadcast"
+  },
+  {
+   "id": "f.93.w040",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "en différé",
+   "front": "en différé",
+   "back": "pre-recorded / time-delayed"
+  },
+  {
+   "id": "f.93.w041",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'animateur / l'animatrice",
+   "front": "l'animateur / l'animatrice",
+   "back": "host / moderator"
+  },
+  {
+   "id": "f.93.w042",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "les actualités / les informations (f pl)",
+   "front": "les actualités / les informations (f pl)",
+   "back": "news"
+  },
+  {
+   "id": "f.93.w043",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la chaîne publique / privée",
+   "front": "la chaîne publique / privée",
+   "back": "public / private channel"
+  },
+  {
+   "id": "f.93.w044",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le reportage",
+   "front": "le reportage",
+   "back": "report (news)"
+  },
+  {
+   "id": "f.93.w045",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le court-métrage",
+   "front": "le court-métrage",
+   "back": "short film"
+  },
+  {
+   "id": "f.93.w046",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le long-métrage",
+   "front": "le long-métrage",
+   "back": "feature film"
+  },
+  {
+   "id": "f.93.w047",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le feuilleton",
+   "front": "le feuilleton",
+   "back": "soap opera / serial"
+  },
+  {
+   "id": "f.93.w048",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le téléfilm",
+   "front": "le téléfilm",
+   "back": "TV movie"
+  },
+  {
+   "id": "f.93.w049",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le journal télévisé (le JT)",
+   "front": "le journal télévisé (le JT)",
+   "back": "TV news programme"
+  },
+  {
+   "id": "f.93.w050",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la série télévisée",
+   "front": "la série télévisée",
+   "back": "TV series"
+  },
+  {
+   "id": "f.93.w051",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le logiciel antivirus",
+   "front": "le logiciel antivirus",
+   "back": "antivirus program"
+  },
+  {
+   "id": "f.93.w052",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le navigateur",
+   "front": "le navigateur",
+   "back": "browser (book: l'explorateur)"
+  },
+  {
+   "id": "f.93.w053",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "cliquer",
+   "front": "cliquer",
+   "back": "to click"
+  },
+  {
+   "id": "f.93.w054",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le jeu vidéo",
+   "front": "le jeu vidéo",
+   "back": "video game"
+  },
+  {
+   "id": "f.93.w055",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'informaticien(ne)",
+   "front": "l'informaticien(ne)",
+   "back": "computer specialist"
+  },
+  {
+   "id": "f.93.w056",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "planter / se bloquer",
+   "front": "planter / se bloquer",
+   "back": "to crash (computer)"
+  },
+  {
+   "id": "f.93.w057",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le courriel / le mail",
+   "front": "le courriel / le mail",
+   "back": "e-mail"
+  },
+  {
+   "id": "f.93.w058",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le pirate (informatique)",
+   "front": "le pirate (informatique)",
+   "back": "hacker"
+  },
+  {
+   "id": "f.93.w059",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le disque dur",
+   "front": "le disque dur",
+   "back": "hard disk"
+  },
+  {
+   "id": "f.93.w060",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le matériel",
+   "front": "le matériel",
+   "back": "hardware"
+  },
+  {
+   "id": "f.93.w061",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la page d'accueil",
+   "front": "la page d'accueil",
+   "back": "home page"
+  },
+  {
+   "id": "f.93.w062",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "installer",
+   "front": "installer",
+   "back": "to install"
+  },
+  {
+   "id": "f.93.w063",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le portable",
+   "front": "le portable",
+   "back": "laptop / mobile phone"
+  },
+  {
+   "id": "f.93.w064",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "se connecter",
+   "front": "se connecter",
+   "back": "to log on"
+  },
+  {
+   "id": "f.93.w065",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'écran (m)",
+   "front": "l'écran (m)",
+   "back": "screen / monitor"
+  },
+  {
+   "id": "f.93.w066",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la souris",
+   "front": "la souris",
+   "back": "mouse"
+  },
+  {
+   "id": "f.93.w067",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le mot de passe",
+   "front": "le mot de passe",
+   "back": "password"
+  },
+  {
+   "id": "f.93.w068",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "imprimer",
+   "front": "imprimer",
+   "back": "to print"
+  },
+  {
+   "id": "f.93.w069",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le moteur de recherche",
+   "front": "le moteur de recherche",
+   "back": "search engine"
+  },
+  {
+   "id": "f.93.w070",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le logiciel",
+   "front": "le logiciel",
+   "back": "software"
+  },
+  {
+   "id": "f.93.w071",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "taper",
+   "front": "taper",
+   "back": "to type"
+  },
+  {
+   "id": "f.93.w072",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'utilisateur / l'utilisatrice",
+   "front": "l'utilisateur / l'utilisatrice",
+   "back": "user"
+  },
+  {
+   "id": "f.93.w073",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'usager / l'usagère",
+   "front": "l'usager / l'usagère",
+   "back": "user (of a public service)"
+  },
+  {
+   "id": "f.93.w074",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le site web",
+   "front": "le site web",
+   "back": "website"
+  },
+  {
+   "id": "f.93.w075",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "télécharger",
+   "front": "télécharger",
+   "back": "to download"
+  },
+  {
+   "id": "f.93.w076",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le réseau social",
+   "front": "le réseau social",
+   "back": "social network"
+  },
+  {
+   "id": "f.93.w077",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le roman d'aventure",
+   "front": "le roman d'aventure",
+   "back": "adventure novel"
+  },
+  {
+   "id": "f.93.w078",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'auteur(e)",
+   "front": "l'auteur(e)",
+   "back": "author"
+  },
+  {
+   "id": "f.93.w079",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la biographie",
+   "front": "la biographie",
+   "back": "biography"
+  },
+  {
+   "id": "f.93.w080",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la conférence",
+   "front": "la conférence",
+   "back": "lecture / talk"
+  },
+  {
+   "id": "f.93.w081",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le roman policier",
+   "front": "le roman policier",
+   "back": "detective novel"
+  },
+  {
+   "id": "f.93.w082",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le roman historique",
+   "front": "le roman historique",
+   "back": "historical novel"
+  },
+  {
+   "id": "f.93.w083",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le conférencier / la conférencière",
+   "front": "le conférencier / la conférencière",
+   "back": "lecturer / speaker"
+  },
+  {
+   "id": "f.93.w084",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le mouvement littéraire",
+   "front": "le mouvement littéraire",
+   "back": "literary movement"
+  },
+  {
+   "id": "f.93.w085",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'œuvre (f)",
+   "front": "l'œuvre (f)",
+   "back": "(literary) work"
+  },
+  {
+   "id": "f.93.w086",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le romancier / la romancière",
+   "front": "le romancier / la romancière",
+   "back": "novelist"
+  },
+  {
+   "id": "f.93.w087",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la poésie",
+   "front": "la poésie",
+   "back": "poetry"
+  },
+  {
+   "id": "f.93.w088",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le scénario",
+   "front": "le scénario",
+   "back": "script / screenplay"
+  },
+  {
+   "id": "f.93.w089",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'écrivain(e)",
+   "front": "l'écrivain(e)",
+   "back": "writer"
+  },
+  {
+   "id": "f.93.w090",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la petite annonce",
+   "front": "la petite annonce",
+   "back": "(classified) ad"
+  },
+  {
+   "id": "f.93.w091",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le dessin humoristique / la caricature",
+   "front": "le dessin humoristique / la caricature",
+   "back": "cartoon / caricature"
+  },
+  {
+   "id": "f.93.w092",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la rubrique",
+   "front": "la rubrique",
+   "back": "column / section (newspaper)"
+  },
+  {
+   "id": "f.93.w093",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la bande dessinée (la BD)",
+   "front": "la bande dessinée (la BD)",
+   "back": "comic strip / comic book"
+  },
+  {
+   "id": "f.93.w094",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "les mots croisés (m pl)",
+   "front": "les mots croisés (m pl)",
+   "back": "crossword puzzle"
+  },
+  {
+   "id": "f.93.w095",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le rédacteur / la rédactrice",
+   "front": "le rédacteur / la rédactrice",
+   "back": "editor (journalist)"
+  },
+  {
+   "id": "f.93.w096",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'éditeur / l'éditrice",
+   "front": "l'éditeur / l'éditrice",
+   "back": "publisher"
+  },
+  {
+   "id": "f.93.w097",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "l'éditorial (m)",
+   "front": "l'éditorial (m)",
+   "back": "editorial"
+  },
+  {
+   "id": "f.93.w098",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "à la une",
+   "front": "à la une",
+   "back": "on the front page"
+  },
+  {
+   "id": "f.93.w099",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le titre",
+   "front": "le titre",
+   "back": "headline / title"
+  },
+  {
+   "id": "f.93.w100",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la presse",
+   "front": "la presse",
+   "back": "the press"
+  },
+  {
+   "id": "f.93.w101",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la conférence de presse",
+   "front": "la conférence de presse",
+   "back": "press conference"
+  },
+  {
+   "id": "f.93.w102",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "publier",
+   "front": "publier",
+   "back": "to publish"
+  },
+  {
+   "id": "f.93.w103",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le lecteur / la lectrice",
+   "front": "le lecteur / la lectrice",
+   "back": "reader"
+  },
+  {
+   "id": "f.93.w104",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le lauréat / la lauréate",
+   "front": "le lauréat / la lauréate",
+   "back": "winner (of a prize)"
+  },
+  {
+   "id": "f.93.w105",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "Débats et Opinions",
+   "front": "Débats et Opinions",
+   "back": "Editorials / Op-eds (newspaper section)"
+  },
+  {
+   "id": "f.93.w106",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "Culture et Spectacles",
+   "front": "Culture et Spectacles",
+   "back": "Entertainment (newspaper section)"
+  },
+  {
+   "id": "f.93.w107",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "Art de vivre",
+   "front": "Art de vivre",
+   "back": "Lifestyle (newspaper section)"
+  },
+  {
+   "id": "f.93.w108",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la nécrologie",
+   "front": "la nécrologie",
+   "back": "obituaries"
+  },
+  {
+   "id": "f.93.w109",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "la météo",
+   "front": "la météo",
+   "back": "weather (forecast)"
+  },
+  {
+   "id": "f.93.w110",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le loisir",
+   "front": "le loisir",
+   "back": "leisure / free time"
+  },
+  {
+   "id": "f.93.w111",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le divertissement",
+   "front": "le divertissement",
+   "back": "entertainment"
+  },
+  {
+   "id": "f.93.w112",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "se détendre",
+   "front": "se détendre",
+   "back": "to relax"
+  },
+  {
+   "id": "f.93.w113",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "passionné(e) / mordu(e)",
+   "front": "passionné(e) / mordu(e)",
+   "back": "passionate / crazy about"
+  },
+  {
+   "id": "f.93.w114",
+   "los": [
+    "los.93.a"
+   ],
+   "name": "le bricolage",
+   "front": "le bricolage",
+   "back": "DIY"
+  }
+ ]
+}

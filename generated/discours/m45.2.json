@@ -1,0 +1,263 @@
+{
+ "module": "m45.2",
+ "source_hash": "3c052e00ee5b",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le verbe introducteur ne fait pas que rapporter : il révèle l'intention (reconnaître, contester, conseiller) et le point de vue."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Verbes de déclaration + _que_ + indicatif ; verbes d'influence (conseiller, proposer, reprocher) + _de_ + infinitif."
+   },
+   {
+    "stage": "result",
+    "md": "_Prétendre_ met en doute, _reconnaître_ admet une faute, _souligner_ insiste."
+   },
+   {
+    "stage": "interpretation",
+    "md": "En compréhension, le verbe introducteur indique souvent la réponse aux questions sur l'attitude du locuteur."
+   }
+  ],
+  "why_it_matters": "La grille B2 valorise un lexique précis : _il souligne que, elle reconnaît que, ils reprochent au gouvernement de…_ au lieu de _il dit que_.",
+  "exam_approach": {
+   "look_first": [
+    "l'intention du locuteur : informer, admettre, contester, conseiller ?",
+    "la construction : _que_ + verbe conjugué ou _de_ + infinitif"
+   ],
+   "traps": [
+    "_conseiller que_ au lieu de _conseiller de_",
+    "confondre _prétendre_ (doute) et _affirmer_ (certitude)",
+    "_se demander que_ au lieu de _se demander si_"
+   ],
+   "distractors": [
+    "un verbe de sens opposé (_nier_ / _reconnaître_)",
+    "la mauvaise construction (_que_ / _de_)",
+    "_dire_ trop vague"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m45.1",
+   "type": "requires",
+   "note": "La concordance des temps."
+  },
+  {
+   "to": "m52.4",
+   "type": "applies",
+   "note": "Les connecteurs pour discuter les arguments cités."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.45.c.001",
+   "los": "los.45.c",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "« Oui, j'ai fait une erreur », dit le ministre. → Le ministre …… qu'il avait fait une erreur.",
+   "options": [
+    "a nié",
+    "a reconnu",
+    "a prétendu"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _nier_ = dire que ce n'est pas vrai : sens contraire.",
+    "B": "Correct. Il admet une faute : _reconnaître_.",
+    "C": "Faux. _prétendre_ met en doute ce qui est dit."
+   }
+  },
+  {
+   "id": "q.45.c.002",
+   "los": "los.45.c",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Le médecin m'a …… de faire du sport.",
+   "options": [
+    "conseillé",
+    "expliqué",
+    "affirmé"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _conseiller **de**_ + infinitif.",
+    "B": "Faux. _expliquer_ se construit avec _que_, pas _de_ + infinitif.",
+    "C": "Faux. _affirmer_ se construit avec _que_."
+   }
+  },
+  {
+   "id": "q.45.c.003",
+   "los": "los.45.c",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "« Il prétend qu'il était malade. » Le locuteur :",
+   "options": [
+    "confirme la maladie",
+    "doute de ce que la personne affirme",
+    "ordonne quelque chose"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _affirmer_ ou _confirmer_ exprimeraient la certitude.",
+    "B": "Correct. _prétendre_ = dire sans preuve.",
+    "C": "Faux. _prétendre_ n'est pas un verbe d'ordre."
+   }
+  },
+  {
+   "id": "q.45.c.004",
+   "los": "los.45.c",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Les syndicats …… au gouvernement de ne pas les avoir consultés.",
+   "options": [
+    "affirment",
+    "se demandent",
+    "reprochent"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _affirmer_ ne se construit pas avec _à qqn de_.",
+    "B": "Faux. _se demander_ se construit avec _si_.",
+    "C": "Correct. _reprocher **à** quelqu'un **de**_ + infinitif."
+   }
+  },
+  {
+   "id": "q.45.c.005",
+   "los": "los.45.c",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Quelle phrase est correcte ?",
+   "options": [
+    "Je me demande que cette réforme est utile.",
+    "Je me demande si cette réforme est utile.",
+    "Je me demande est-ce que cette réforme est utile."
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _se demander_ introduit une question : _si_.",
+    "B": "Correct. _se demander **si**_.",
+    "C": "Faux. _est-ce que_ disparaît au discours indirect."
+   }
+  },
+  {
+   "id": "q.45.c.006",
+   "los": "los.45.c",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "« N'oubliez pas : la réunion est à 9 h. » → Elle nous …… que la réunion était à 9 h.",
+   "options": [
+    "a reproché",
+    "a proposé",
+    "a rappelé"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _reprocher_ exprime un blâme et se construit avec _de_.",
+    "B": "Faux. _proposer_ se construit avec _de_ + infinitif.",
+    "C": "Correct. _rappeler que_ = redire une information déjà connue."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m45.2.01",
+   "modules": [
+    "m45.2"
+   ],
+   "title": "Revue de presse",
+   "vignette": "« Hier soir, le ministre de l'Éducation **(1)** …… que la réforme serait appliquée dès septembre. Les enseignants, eux, lui **(2)** …… de ne pas les avoir écoutés. Le ministre **(3)** …… que le calendrier était serré, mais il **(4)** …… que la concertation avait été suffisante, ce que personne ne croit vraiment. »",
+   "questions": [
+    {
+     "id": "set.m45.2.01.q1",
+     "los": "los.45.c",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "a annoncé",
+      "a reproché",
+      "a conseillé"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Information nouvelle → _annoncer que_.",
+      "B": "Faux. _reprocher_ se construit avec _de_ et exprime un blâme.",
+      "C": "Faux. _conseiller_ se construit avec _de_."
+     }
+    },
+    {
+     "id": "set.m45.2.01.q2",
+     "los": "los.45.c",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "annoncent",
+      "reconnaissent",
+      "reprochent"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _annoncer_ se construit avec _que_.",
+      "B": "Faux. _reconnaître_ se construit avec _que_.",
+      "C": "Correct. _reprocher à qqn de_ + infinitif : blâme."
+     }
+    },
+    {
+     "id": "set.m45.2.01.q3",
+     "los": "los.45.c",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "a reconnu",
+      "a nié",
+      "a ordonné"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Il admet une difficulté : _reconnaître_.",
+      "B": "Faux. _nier_ contredirait le sens (il admet que c'est serré).",
+      "C": "Faux. _ordonner_ se construit avec _de_."
+     }
+    },
+    {
+     "id": "set.m45.2.01.q4",
+     "los": "los.45.c",
+     "difficulty": 3,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) : (« ce que personne ne croit »)",
+     "options": [
+      "a reconnu",
+      "a prétendu",
+      "a rappelé"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _reconnaître_ admet un fait, sans doute du locuteur.",
+      "B": "Correct. _prétendre_ : affirmation mise en doute.",
+      "C": "Faux. _rappeler_ suppose un fait connu et accepté."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.45.introducteurs",
+   "los": [
+    "los.45.c"
+   ],
+   "name": "Verbes introducteurs",
+   "front": "Admettre / mettre en doute / conseiller / blâmer → quel verbe ?",
+   "back": "**reconnaître que** ; **prétendre que** ; **conseiller de** + inf. ; **reprocher à qqn de** + inf.",
+   "examples": [
+    "Il a reconnu qu'il s'était trompé.",
+    "On lui reproche de ne pas avoir écouté."
+   ],
+   "common_mistake": "*_conseiller que_, *_se demander que_."
+  }
+ ]
+}

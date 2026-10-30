@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common.schema.json",
+  "title": "Shared definitions",
+  "$defs": {
+    "topicId": {"type": "string", "pattern": "^[a-z_]+$"},
+    "readingId": {"type": "string", "pattern": "^r\\d{2}$"},
+    "moduleId": {"type": "string", "pattern": "^m\\d{2}\\.\\d+$"},
+    "losId": {"type": "string", "pattern": "^los\\.\\d{2}\\.[a-z]$"},
+    "figId": {"type": "string", "pattern": "^fig\\.[0-9a-f]{10}$"},
+    "md": {"type": "string", "description": "Markdown with inline **bold**, _italic_, <sup>, <sub>, \\( inline \\) / \\[ display \\] LaTeX and [[fig.x]] tokens ($ is plain text: amounts)"},
+    "block": {
+      "type": "object",
+      "required": ["t"],
+      "oneOf": [
+        {"properties": {"t": {"enum": ["h", "p", "cap", "ex", "note"]}, "md": {"$ref": "#/$defs/md"}}, "required": ["md"]},
+        {"properties": {"t": {"const": "ans"}}},
+        {"properties": {"t": {"enum": ["ul", "ol"]}, "items": {"type": "array", "items": {"$ref": "#/$defs/md"}, "minItems": 1}}, "required": ["items"]},
+        {"properties": {"t": {"const": "fig"}, "id": {"$ref": "#/$defs/figId"}}, "required": ["id"]},
+        {"properties": {"t": {"const": "table"}, "rows": {"type": "array", "items": {"type": "array", "items": {"type": "string"}}}}, "required": ["rows"]}
+      ]
+    },
+    "blocks": {"type": "array", "items": {"$ref": "#/$defs/block"}},
+    "option3": {"type": "array", "items": {"$ref": "#/$defs/md"}, "minItems": 3, "maxItems": 3},
+    "letter": {"enum": ["A", "B", "C"]},
+    "edgeType": {"enum": ["requires", "applies", "contrasts_with", "extends"]},
+    "repair": {
+      "type": "object",
+      "required": ["kind"],
+      "properties": {
+        "kind": {"enum": ["formula", "table", "text", "drop"]},
+        "latex": {"type": "string"},
+        "rows": {"type": "array", "items": {"type": "array", "items": {"type": "string"}}},
+        "md": {"$ref": "#/$defs/md"},
+        "note": {"type": "string"}
+      },
+      "allOf": [
+        {"if": {"properties": {"kind": {"const": "formula"}}}, "then": {"required": ["latex"]}},
+        {"if": {"properties": {"kind": {"const": "table"}}}, "then": {"required": ["rows"]}},
+        {"if": {"properties": {"kind": {"const": "text"}}}, "then": {"required": ["md"]}}
+      ]
+    },
+    "generatedQuestion": {
+      "type": "object",
+      "required": ["id", "los", "stem", "options", "answer", "explanations", "difficulty", "qtype"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^(q\\.\\d{2}\\.[a-z]\\.\\d{3}|set\\.m\\d{2}\\.\\d+\\.\\d{2}\\.q\\d)$"},
+        "los": {"$ref": "#/$defs/losId"},
+        "stem": {"$ref": "#/$defs/md"},
+        "options": {"$ref": "#/$defs/option3"},
+        "answer": {"$ref": "#/$defs/letter"},
+        "explanations": {
+          "type": "object",
+          "required": ["A", "B", "C"],
+          "additionalProperties": false,
+          "properties": {"A": {"$ref": "#/$defs/md"}, "B": {"$ref": "#/$defs/md"}, "C": {"$ref": "#/$defs/md"}}
+        },
+        "difficulty": {"enum": [1, 2, 3]},
+        "qtype": {"enum": ["calculation", "conceptual", "judgement", "form", "vocabulary"]},
+        "calc": {
+          "type": "object",
+          "description": "Build-time check: expr (evaluated with inputs) must equal the first number in the correct option x scale, within tol (relative); every wrong option must be off by more than tol.",
+          "required": ["inputs", "expr"],
+          "additionalProperties": false,
+          "properties": {
+            "inputs": {"type": "object", "additionalProperties": {"type": "number"}},
+            "expr": {"type": "string"},
+            "scale": {"type": "number", "default": 1},
+            "tol": {"type": "number", "default": 0.005}
+          }
+        }
+      },
+      "allOf": [{"if": {"properties": {"qtype": {"const": "calculation"}}}, "then": {"required": ["calc"]}}]
+    }
+  }
+}

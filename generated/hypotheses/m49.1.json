@@ -1,0 +1,366 @@
+{
+ "module": "m49.1",
+ "source_hash": "c464b1cf41fa",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le conditionnel présente une action comme **non réelle** ou **pas certaine** : imaginée, souhaitée, adoucie ou rapportée sans garantie."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Radical du futur + terminaisons de l'imparfait ; au passé, auxiliaire au conditionnel + participe passé."
+   },
+   {
+    "stage": "result",
+    "md": "Mêmes formes, plusieurs valeurs : politesse, conseil, souhait, regret, information non confirmée."
+   },
+   {
+    "stage": "interpretation",
+    "md": "Dans un article de presse, _serait_ / _aurait_ signalent que le journaliste ne garantit pas l'information : un point testé en compréhension écrite."
+   }
+  ],
+  "why_it_matters": "La lettre formelle et le débat oral du DELF B2 reposent sur le conditionnel de politesse et de suggestion (_je souhaiterais, il faudrait, on pourrait_).",
+  "exam_approach": {
+   "look_first": [
+    "le radical du futur du verbe",
+    "la valeur : politesse, conseil, regret, rumeur ?",
+    "un marqueur de passé pour le regret (_hier_, _plus tôt_)"
+   ],
+   "traps": [
+    "confondre _je voudrai_ (futur) et _je voudrais_",
+    "former le conditionnel sur l'infinitif des irréguliers (*_je pouvrais_)",
+    "lire une information au conditionnel comme un fait établi"
+   ],
+   "distractors": [
+    "le futur simple",
+    "l'imparfait (même terminaison, autre radical)",
+    "le conditionnel présent à la place du passé pour un regret"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m50.1",
+   "type": "applies",
+   "note": "Le conditionnel dans les hypothèses avec « si »."
+  },
+  {
+   "to": "m51.1",
+   "type": "contrasts_with",
+   "note": "Subjonctif et conditionnel : deux modes de l'irréel."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.49.a.001",
+   "los": "los.49.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Au restaurant, poliment : « Je …… (vouloir) réserver une table pour deux. »",
+   "options": [
+    "voudrai",
+    "voudrais",
+    "voudrait"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. C'est le futur : on ne l'emploie pas pour une demande polie.",
+    "B": "Correct. Conditionnel de politesse : radical _voudr-_ + _-ais_.",
+    "C": "Faux. C'est la 3e personne ; avec _je_ : _voudrais_."
+   }
+  },
+  {
+   "id": "q.49.a.002",
+   "los": "los.49.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Si j'avais le temps, j'…… (aller) au théâtre plus souvent.",
+   "options": [
+    "irais",
+    "allerais",
+    "irai"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _aller_ : futur _j'irai_ → conditionnel _j'irais_.",
+    "B": "Faux. Le radical de _aller_ au futur est _ir-_.",
+    "C": "Faux. C'est le futur."
+   }
+  },
+  {
+   "id": "q.49.a.003",
+   "los": "los.49.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Nous …… (pouvoir) partir plus tôt si tu étais prêt.",
+   "options": [
+    "pourions",
+    "pouvions",
+    "pourrions"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il faut deux _r_.",
+    "B": "Faux. C'est l'imparfait.",
+    "C": "Correct. _pouvoir_ : radical _pourr-_ (deux _r_) + _-ions_."
+   }
+  },
+  {
+   "id": "q.49.a.004",
+   "los": "los.49.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Conditionnel présent de _falloir_ : « Il …… que tout le monde fasse un effort. »",
+   "options": [
+    "faudrait",
+    "fallerait",
+    "faudrais"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _falloir_ : _il faudra_ → _il faudrait_.",
+    "B": "Faux. Cette forme n'existe pas : le radical du futur est _faudr-_.",
+    "C": "Faux. _falloir_ n'existe qu'à la 3e personne : _il faudrait_."
+   }
+  },
+  {
+   "id": "q.49.a.005",
+   "los": "los.49.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "À ta place, je …… (prévenir) le directeur hier. (regret)",
+   "options": [
+    "je préviendrais",
+    "j'aurais prévenu",
+    "j'avais prévenu"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le conditionnel présent ne porte pas sur le passé.",
+    "B": "Correct. Regret sur le passé → conditionnel passé.",
+    "C": "Faux. C'est le plus-que-parfait."
+   }
+  },
+  {
+   "id": "q.49.a.006",
+   "los": "los.49.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Sans ton aide, elle ne …… jamais (arriver) à l'heure.",
+   "options": [
+    "aurait jamais arrivé",
+    "serait jamais arrivé",
+    "serait jamais arrivée"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _arriver_ se conjugue avec _être_.",
+    "B": "Faux. Il manque l'accord au féminin.",
+    "C": "Correct. _arriver_ prend _être_ ; accord avec _elle_."
+   }
+  },
+  {
+   "id": "q.49.b.001",
+   "los": "los.49.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "« Vous devriez faire du sport. » Le conditionnel exprime ici :",
+   "options": [
+    "une obligation",
+    "une hypothèse",
+    "un conseil"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _Vous devez_ (présent) exprimerait l'obligation.",
+    "B": "Faux. Il n'y a pas de condition exprimée.",
+    "C": "Correct. _devoir_ au conditionnel = recommandation."
+   }
+  },
+  {
+   "id": "q.49.b.002",
+   "los": "los.49.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "« Selon nos informations, le président serait malade. » Le conditionnel signifie :",
+   "options": [
+    "que l'information n'est pas confirmée",
+    "que le président sera malade",
+    "que le président est certainement malade"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Conditionnel journalistique : le journaliste ne garantit pas le fait.",
+    "B": "Faux. Ce n'est pas un futur.",
+    "C": "Faux. C'est l'inverse : le fait n'est pas confirmé."
+   }
+  },
+  {
+   "id": "q.49.b.003",
+   "los": "los.49.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "« Tu aurais pu m'appeler ! » exprime :",
+   "options": [
+    "une demande polie",
+    "un reproche",
+    "une information non confirmée"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. La politesse utilise le conditionnel présent (_pourrais-tu_).",
+    "B": "Correct. Conditionnel passé de _pouvoir_ : reproche sur le passé.",
+    "C": "Faux. Ce n'est pas le style journalistique."
+   }
+  },
+  {
+   "id": "q.49.b.004",
+   "los": "los.49.b",
+   "difficulty": 2,
+   "qtype": "judgement",
+   "stem": "Dans une lettre formelle, quelle formule est la plus adaptée ?",
+   "options": [
+    "Je souhaiterais obtenir des informations sur la formation.",
+    "Je veux des informations sur la formation.",
+    "Je souhaiterai obtenir des informations."
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Le conditionnel adoucit la demande : registre formel.",
+    "B": "Faux. Trop direct pour une lettre formelle.",
+    "C": "Faux. C'est le futur, pas le conditionnel de politesse."
+   }
+  },
+  {
+   "id": "q.49.b.005",
+   "los": "los.49.b",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Prends ton passeport au cas où on te le …… (demander).",
+   "options": [
+    "demande",
+    "demanderait",
+    "demandera"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _au cas où_ n'est pas suivi du présent.",
+    "B": "Correct. _au cas où_ + conditionnel.",
+    "C": "Faux. _au cas où_ n'est pas suivi du futur."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m49.1.01",
+   "modules": [
+    "m49.1"
+   ],
+   "title": "Une rumeur dans la presse",
+   "vignette": "« Le groupe automobile Vélix **(1)** …… (envisager) de fermer son usine de Lyon. Selon le syndicat, 800 emplois **(2)** …… (être) menacés. La direction n'a pas confirmé. « Nous **(3)** …… (souhaiter) que la direction s'exprime clairement », déclare un délégué. « Elle **(4)** …… (devoir) nous informer avant la presse ! »",
+   "questions": [
+    {
+     "id": "set.m49.1.01.q1",
+     "los": "los.49.b",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "envisagera",
+      "envisageait",
+      "envisagerait"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. Le futur présenterait le projet comme certain.",
+      "B": "Faux. L'imparfait ne marque pas la rumeur.",
+      "C": "Correct. Information non confirmée → conditionnel journalistique."
+     }
+    },
+    {
+     "id": "set.m49.1.01.q2",
+     "los": "los.49.b",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "sont",
+      "seront",
+      "seraient"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. L'indicatif présenterait le fait comme sûr.",
+      "B": "Faux. C'est le futur.",
+      "C": "Correct. Chiffre non confirmé → conditionnel."
+     }
+    },
+    {
+     "id": "set.m49.1.01.q3",
+     "los": "los.49.b",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "souhaiterions",
+      "souhaiterons",
+      "souhaitions"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Conditionnel de politesse (demande adoucie).",
+      "B": "Faux. C'est le futur.",
+      "C": "Faux. C'est l'imparfait."
+     }
+    },
+    {
+     "id": "set.m49.1.01.q4",
+     "los": "los.49.a",
+     "difficulty": 3,
+     "qtype": "form",
+     "stem": "Blanc (4) : (reproche sur le passé)",
+     "options": [
+      "devrait",
+      "aurait dû",
+      "avait dû"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Le conditionnel présent porte sur le présent ou l'avenir.",
+      "B": "Correct. Reproche sur une action passée → conditionnel passé.",
+      "C": "Faux. C'est le plus-que-parfait."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.49.formation",
+   "los": [
+    "los.49.a"
+   ],
+   "name": "Formation du conditionnel",
+   "front": "Comment forme-t-on le conditionnel présent ? Et passé ?",
+   "back": "Présent : radical du **futur** + **-ais, -ais, -ait, -ions, -iez, -aient**. Passé : _avoir/être_ au conditionnel + participe passé.",
+   "examples": [
+    "je serais, j'aurais, j'irais, je ferais, je pourrais",
+    "j'aurais aimé, elle serait venue"
+   ],
+   "common_mistake": "_je voudrai_ (futur) au lieu de _je voudrais_."
+  },
+  {
+   "id": "f.49.valeurs",
+   "los": [
+    "los.49.b"
+   ],
+   "name": "Les valeurs du conditionnel",
+   "front": "Quelles sont les valeurs du conditionnel ?",
+   "back": "Politesse (_je voudrais_), conseil (_vous devriez_), souhait (_j'aimerais_), regret ou reproche (_j'aurais dû_), information non confirmée (_il serait malade_).",
+   "examples": [
+    "L'accident aurait fait trois victimes."
+   ]
+  }
+ ]
+}

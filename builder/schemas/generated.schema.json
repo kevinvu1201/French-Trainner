@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generated.schema.json",
+  "title": "Generated learning layer for one module (generated/<topic>/<module>.json)",
+  "type": "object",
+  "required": ["module", "source_hash", "learning", "connections", "questions", "item_sets", "formulas"],
+  "additionalProperties": false,
+  "properties": {
+    "module": {"$ref": "common.schema.json#/$defs/moduleId"},
+    "source_hash": {"type": "string", "description": "Module content hash when this was generated; a mismatch marks the file stale"},
+    "learning": {
+      "type": "object",
+      "required": ["logic_chain", "why_it_matters", "exam_approach"],
+      "additionalProperties": false,
+      "properties": {
+        "logic_chain": {
+          "type": "array", "minItems": 3,
+          "items": {
+            "type": "object", "required": ["stage", "md"], "additionalProperties": false,
+            "properties": {
+              "stage": {"enum": ["assumption", "mechanism", "result", "interpretation"]},
+              "md": {"$ref": "common.schema.json#/$defs/md"}
+            }
+          }
+        },
+        "why_it_matters": {"$ref": "common.schema.json#/$defs/md"},
+        "exam_approach": {
+          "type": "object",
+          "required": ["look_first", "traps", "distractors"],
+          "additionalProperties": false,
+          "properties": {
+            "look_first": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+            "traps": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+            "distractors": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+          }
+        }
+      }
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["to", "type", "note"], "additionalProperties": false,
+        "properties": {
+          "to": {"$ref": "common.schema.json#/$defs/moduleId"},
+          "type": {"$ref": "common.schema.json#/$defs/edgeType"},
+          "note": {"type": "string"}
+        }
+      }
+    },
+    "questions": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/generatedQuestion"}},
+    "item_sets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "modules", "vignette", "questions"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^set\\.m\\d{2}\\.\\d+\\.\\d{2}$"},
+          "modules": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/moduleId"}, "minItems": 1},
+          "title": {"type": "string"},
+          "vignette": {"$ref": "common.schema.json#/$defs/md"},
+          "exhibits": {
+            "type": "array",
+            "items": {
+              "type": "object", "required": ["title", "rows"], "additionalProperties": false,
+              "properties": {"title": {"type": "string"}, "rows": {"type": "array", "items": {"type": "array", "items": {"type": "string"}}}}
+            }
+          },
+          "questions": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/generatedQuestion"}, "minItems": 4, "maxItems": 4}
+        }
+      }
+    },
+    "formulas": {
+      "type": "array",
+      "description": "Review cards: formula cards (LaTeX) or text cards (front/back), e.g. grammar rules and words",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "required": ["id", "los", "name", "latex", "variables", "intuition", "when_to_use", "common_mistake"],
+            "additionalProperties": false,
+            "properties": {
+              "id": {"type": "string", "pattern": "^f\\.\\d{2}\\.[a-z0-9-]+$"},
+              "los": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/losId"}, "minItems": 1},
+              "name": {"type": "string"},
+              "latex": {"type": "string"},
+              "variables": {
+                "type": "array",
+                "items": {"type": "object", "required": ["sym", "def"], "additionalProperties": false,
+                          "properties": {"sym": {"type": "string"}, "def": {"type": "string"}}}
+              },
+              "intuition": {"$ref": "common.schema.json#/$defs/md"},
+              "when_to_use": {"$ref": "common.schema.json#/$defs/md"},
+              "common_mistake": {"$ref": "common.schema.json#/$defs/md"}
+            }
+          },
+          {
+            "type": "object",
+            "required": ["id", "los", "name", "front", "back"],
+            "additionalProperties": false,
+            "properties": {
+              "id": {"type": "string", "pattern": "^f\\.\\d{2}\\.[a-z0-9-]+$"},
+              "los": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/losId"}, "minItems": 1},
+              "name": {"type": "string"},
+              "front": {"$ref": "common.schema.json#/$defs/md"},
+              "back": {"$ref": "common.schema.json#/$defs/md"},
+              "examples": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/md"}},
+              "common_mistake": {"$ref": "common.schema.json#/$defs/md"}
+            }
+          }
+        ]
+      }
+    },
+    "repairs": {
+      "type": "object",
+      "propertyNames": {"$ref": "common.schema.json#/$defs/figId"},
+      "additionalProperties": {"$ref": "common.schema.json#/$defs/repair"}
+    }
+  }
+}

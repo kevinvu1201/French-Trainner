@@ -1,0 +1,311 @@
+{
+ "module": "m50.1",
+ "source_hash": "c3384098e8c9",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le temps après **si** indique le degré de réalité : présent = possible ; imparfait = irréel présent."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Si + présent → futur / présent / impératif. Si + imparfait → conditionnel présent."
+   },
+   {
+    "stage": "result",
+    "md": "Le verbe après _si_ n'est jamais au futur ni au conditionnel."
+   },
+   {
+    "stage": "interpretation",
+    "md": "Pour proposer des solutions dans un essai, l'irréel (_si on développait…, on réduirait…_) est plus nuancé que le futur."
+   }
+  ],
+  "why_it_matters": "Dans la production écrite, formuler des propositions et leurs conséquences (_si…, alors…_) montre une argumentation de niveau B2.",
+  "exam_approach": {
+   "look_first": [
+    "le temps du verbe après **si**",
+    "le degré de réalité : possible ou imaginaire ?",
+    "la place du conditionnel (dans la principale seulement)"
+   ],
+   "traps": [
+    "mettre le conditionnel ou le futur après _si_",
+    "mélanger _si + présent_ et conditionnel (*_s'il fait beau, j'irais_)"
+   ],
+   "distractors": [
+    "_si + futur_",
+    "_si + conditionnel_",
+    "le futur dans la principale avec _si + imparfait_"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m49.1",
+   "type": "requires",
+   "note": "Former le conditionnel."
+  },
+  {
+   "to": "m50.2",
+   "type": "extends",
+   "note": "Hypothèses sur le passé et hypothèses mixtes."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.50.a.001",
+   "los": "los.50.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "S'il …… (pleuvoir) demain, le match sera annulé.",
+   "options": [
+    "pleuvra",
+    "pleuvrait",
+    "pleut"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Jamais de futur après _si_.",
+    "B": "Faux. Jamais de conditionnel après _si_.",
+    "C": "Correct. Hypothèse possible : _si_ + présent → futur."
+   }
+  },
+  {
+   "id": "q.50.a.002",
+   "los": "los.50.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Si tu finis tôt, tu …… (pouvoir) nous rejoindre.",
+   "options": [
+    "pourras",
+    "pourrais",
+    "pouvais"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _si_ + présent → futur.",
+    "B": "Faux. Le conditionnel suit _si_ + imparfait.",
+    "C": "Faux. L'imparfait ne convient pas dans la principale."
+   }
+  },
+  {
+   "id": "q.50.a.003",
+   "los": "los.50.a",
+   "difficulty": 2,
+   "qtype": "judgement",
+   "stem": "Quelle phrase est correcte ?",
+   "options": [
+    "Si tu auras besoin d'aide, appelle-moi.",
+    "Si tu as besoin d'aide, appelle-moi.",
+    "Si tu aurais besoin d'aide, appelle-moi."
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Jamais de futur après _si_.",
+    "B": "Correct. _si_ + présent → impératif : correct.",
+    "C": "Faux. Jamais de conditionnel après _si_."
+   }
+  },
+  {
+   "id": "q.50.b.001",
+   "los": "los.50.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Si j'…… (avoir) plus d'argent, je voyagerais davantage.",
+   "options": [
+    "aurais",
+    "ai",
+    "avais"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Jamais de conditionnel après _si_.",
+    "B": "Faux. Avec _si_ + présent, la principale serait au futur.",
+    "C": "Correct. Irréel présent : _si_ + imparfait → conditionnel présent."
+   }
+  },
+  {
+   "id": "q.50.b.002",
+   "los": "los.50.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Si les transports étaient gratuits, moins de gens …… (prendre) la voiture.",
+   "options": [
+    "prendraient",
+    "prendront",
+    "prenaient"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _si_ + imparfait → conditionnel présent.",
+    "B": "Faux. Le futur suit _si_ + présent.",
+    "C": "Faux. L'imparfait ne convient pas dans la principale."
+   }
+  },
+  {
+   "id": "q.50.b.003",
+   "los": "los.50.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "« Si j'étais toi, j'accepterais ce poste. » Cette phrase exprime :",
+   "options": [
+    "une hypothèse probable sur le futur",
+    "un conseil, sous la forme d'une hypothèse irréelle",
+    "un regret sur le passé"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Probable → _si_ + présent → futur.",
+    "B": "Correct. _Si j'étais toi_ est irréel : c'est une façon polie de conseiller.",
+    "C": "Faux. Le regret demande le plus-que-parfait et le conditionnel passé."
+   }
+  },
+  {
+   "id": "q.50.b.004",
+   "los": "los.50.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "« Si on allait au cinéma ce soir ? » exprime :",
+   "options": [
+    "un regret",
+    "une condition",
+    "une suggestion"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il n'y a pas de passé composé ou de plus-que-parfait.",
+    "B": "Faux. Il n'y a pas de conséquence exprimée.",
+    "C": "Correct. _Si_ + imparfait sans principale = proposition."
+   }
+  },
+  {
+   "id": "q.50.b.005",
+   "los": "los.50.b",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Quelle phrase est correcte ?",
+   "options": [
+    "Si l'État investirait dans le rail, la pollution baisserait.",
+    "Si l'État investissait dans le rail, la pollution baisserait.",
+    "Si l'État investissait dans le rail, la pollution baissera."
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Jamais de conditionnel après _si_.",
+    "B": "Correct. _si_ + imparfait → conditionnel présent.",
+    "C": "Faux. Avec _si_ + imparfait, la principale est au conditionnel."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m50.1.01",
+   "modules": [
+    "m50.1"
+   ],
+   "title": "Forum : et si la ville interdisait les voitures ?",
+   "vignette": "**Léa** : « Si la mairie **(1)** …… (interdire) les voitures dans le centre, l'air serait plus propre. »\n\n**Karim** : « Oui, mais si elle le fait sans développer les bus, les habitants **(2)** …… (protester). »\n\n**Léa** : « Si on **(3)** …… (proposer) plutôt des pistes cyclables gratuites ? »\n\n**Karim** : « Si j'étais maire, je **(4)** …… (commencer) par consulter les commerçants. »",
+   "questions": [
+    {
+     "id": "set.m50.1.01.q1",
+     "los": "los.50.b",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "interdisait",
+      "interdirait",
+      "interdit"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Principale au conditionnel (_serait_) → _si_ + imparfait.",
+      "B": "Faux. Jamais de conditionnel après _si_.",
+      "C": "Faux. Avec _si_ + présent, la principale serait au futur."
+     }
+    },
+    {
+     "id": "set.m50.1.01.q2",
+     "los": "los.50.a",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "protesteraient",
+      "protestaient",
+      "protesteront"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. Le conditionnel suit _si_ + imparfait.",
+      "B": "Faux. L'imparfait ne convient pas dans la principale.",
+      "C": "Correct. _si_ + présent (_le fait_) → futur."
+     }
+    },
+    {
+     "id": "set.m50.1.01.q3",
+     "los": "los.50.b",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "proposait",
+      "proposerait",
+      "proposera"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _Si on_ + imparfait en question = suggestion.",
+      "B": "Faux. Jamais de conditionnel après _si_.",
+      "C": "Faux. Jamais de futur après _si_."
+     }
+    },
+    {
+     "id": "set.m50.1.01.q4",
+     "los": "los.50.b",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (4) :",
+     "options": [
+      "commencerai",
+      "commencerais",
+      "commençais"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. C'est le futur.",
+      "B": "Correct. _si j'étais_ (imparfait) → conditionnel présent.",
+      "C": "Faux. C'est l'imparfait."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.50.si-present",
+   "los": [
+    "los.50.a"
+   ],
+   "name": "Si + présent",
+   "front": "Si + présent → ?",
+   "back": "→ **futur**, présent ou impératif (hypothèse possible).",
+   "examples": [
+    "S'il fait beau demain, nous irons à la plage."
+   ]
+  },
+  {
+   "id": "f.50.si-imparfait",
+   "los": [
+    "los.50.b"
+   ],
+   "name": "Si + imparfait",
+   "front": "Si + imparfait → ?",
+   "back": "→ **conditionnel présent** (irréel du présent, ou suggestion sans principale).",
+   "examples": [
+    "Si j'étais ministre, je réduirais les impôts.",
+    "Si on allait au cinéma ?"
+   ],
+   "common_mistake": "*_Si j'aurais_ : jamais de conditionnel après _si_."
+  }
+ ]
+}

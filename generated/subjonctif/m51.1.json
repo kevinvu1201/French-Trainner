@@ -1,0 +1,456 @@
+{
+ "module": "m51.1",
+ "source_hash": "865801bd2679",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le subjonctif n'est pas un temps mais un **mode** : il présente une action comme envisagée, souhaitée ou exigée, pas comme un fait."
+   },
+   {
+    "stage": "mechanism",
+    "md": "On part du radical de **ils** au présent et on ajoute **-e, -es, -e, -ions, -iez, -ent** ; _nous_ et _vous_ gardent le radical de _nous_."
+   },
+   {
+    "stage": "result",
+    "md": "Une douzaine de verbes irréguliers (être, avoir, aller, faire, pouvoir, savoir, vouloir…) couvrent la plupart des erreurs."
+   },
+   {
+    "stage": "interpretation",
+    "md": "Si vous connaissez le présent de l'indicatif, vous connaissez presque tout le subjonctif : seuls les irréguliers demandent un effort de mémoire."
+   }
+  ],
+  "why_it_matters": "Une forme fausse (_qu'il soit_ → *_qu'il est_, _que je puisse_ → *_que je peux_) est une erreur de morphologie visible dans chaque production écrite.",
+  "exam_approach": {
+   "look_first": [
+    "le verbe ou l'expression avant **que** (il faut, je veux, bien que…)",
+    "la personne (nous/vous ou les autres)",
+    "le radical de **ils** au présent"
+   ],
+   "traps": [
+    "écrire le présent de l'indicatif au lieu du subjonctif (_qu'il peut_)",
+    "oublier le _i_ de _nous parlions_, _vous étudiiez_",
+    "_que nous soyions_ au lieu de _que nous soyons_"
+   ],
+   "distractors": [
+    "la forme de l'indicatif présent",
+    "la forme de l'imparfait (_qu'il faisait_)",
+    "une forme hybride mal orthographiée"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m51.2",
+   "type": "extends",
+   "note": "Quand faut-il le subjonctif après un verbe ?"
+  },
+  {
+   "to": "m51.4",
+   "type": "applies",
+   "note": "Les conjonctions qui imposent le subjonctif."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.51.a.001",
+   "los": "los.51.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il faut que tu …… (finir) ce dossier avant midi.",
+   "options": [
+    "finisses",
+    "finis",
+    "finirais"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _ils finissent_ → radical _finiss-_ + _-es_.",
+    "B": "Faux. C'est le présent de l'indicatif.",
+    "C": "Faux. C'est le conditionnel."
+   }
+  },
+  {
+   "id": "q.51.a.002",
+   "los": "los.51.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il faut que nous …… (parler) au directeur.",
+   "options": [
+    "parlons",
+    "parlions",
+    "parlerons"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif présent ; au subjonctif, _nous_ prend _-ions_.",
+    "B": "Correct. _nous_ : radical + _-ions_.",
+    "C": "Faux. C'est le futur."
+   }
+  },
+  {
+   "id": "q.51.a.003",
+   "los": "los.51.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il faut que vous …… (étudier) ce chapitre.",
+   "options": [
+    "étudiez",
+    "étudierez",
+    "étudiiez"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif présent.",
+    "B": "Faux. C'est le futur.",
+    "C": "Correct. radical _étudi-_ + _-iez_ : deux _i_."
+   }
+  },
+  {
+   "id": "q.51.a.004",
+   "los": "los.51.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il faut qu'ils …… (prendre) le train de 8 heures.",
+   "options": [
+    "prenent",
+    "prennent",
+    "prendent"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Il faut deux _n_ : _prenn-_.",
+    "B": "Correct. _ils prennent_ → _qu'ils prennent_ (même forme).",
+    "C": "Faux. Le radical est _prenn-_, pas _prend-_."
+   }
+  },
+  {
+   "id": "q.51.a.005",
+   "los": "los.51.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il faut que nous …… (boire) davantage d'eau.",
+   "options": [
+    "boivions",
+    "buvons",
+    "buvions"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _boiv-_ sert pour _je, tu, il, ils_, pas pour _nous_.",
+    "B": "Faux. C'est l'indicatif présent.",
+    "C": "Correct. _nous_ garde le radical de _nous buvons_ : _buv-_ + _-ions_."
+   }
+  },
+  {
+   "id": "q.51.a.006",
+   "los": "los.51.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il faut que je …… (recevoir) une réponse aujourd'hui.",
+   "options": [
+    "reçoive",
+    "reçois",
+    "recevions"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _ils reçoivent_ → _que je reçoive_.",
+    "B": "Faux. C'est l'indicatif présent.",
+    "C": "Faux. C'est la forme de _nous_."
+   }
+  },
+  {
+   "id": "q.51.a.007",
+   "los": "los.51.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Il faut que vous …… (croire) en vos chances.",
+   "options": [
+    "croyez",
+    "croyiez",
+    "croiez"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif (et l'impératif).",
+    "B": "Correct. radical de _nous croyons_ + _-iez_ : _croy-iez_.",
+    "C": "Faux. Le radical de _nous_ et _vous_ est _croy-_."
+   }
+  },
+  {
+   "id": "q.51.b.001",
+   "los": "los.51.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il faut que tu …… (être) patient.",
+   "options": [
+    "es",
+    "soit",
+    "sois"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif présent.",
+    "B": "Faux. _soit_ est la 3e personne ; avec _tu_ : _sois_.",
+    "C": "Correct. _être_ : que je sois, que tu **sois**, qu'il soit."
+   }
+  },
+  {
+   "id": "q.51.b.002",
+   "los": "los.51.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Je veux qu'il …… (avoir) une seconde chance.",
+   "options": [
+    "ait",
+    "a",
+    "aie"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _avoir_ : qu'il **ait**.",
+    "B": "Faux. C'est l'indicatif présent.",
+    "C": "Faux. _aie_ va avec _je_ ; avec _il_ : _ait_."
+   }
+  },
+  {
+   "id": "q.51.b.003",
+   "los": "los.51.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il faut qu'elle …… (aller) chez le médecin.",
+   "options": [
+    "va",
+    "alle",
+    "aille"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif présent.",
+    "B": "Faux. Cette forme n'existe pas.",
+    "C": "Correct. _aller_ : que j'aille, qu'elle **aille**."
+   }
+  },
+  {
+   "id": "q.51.b.004",
+   "los": "los.51.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il faut que nous …… (être) prêts à 9 heures.",
+   "options": [
+    "soyons",
+    "soyions",
+    "sommes"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _que nous soyons_, sans _i_.",
+    "B": "Faux. Erreur fréquente : pas de _i_ après le _y_.",
+    "C": "Faux. C'est l'indicatif."
+   }
+  },
+  {
+   "id": "q.51.b.005",
+   "los": "los.51.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Bien que vous …… (pouvoir) partir, restez un peu.",
+   "options": [
+    "pouvez",
+    "puissiez",
+    "pourriez"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif ; _bien que_ demande le subjonctif.",
+    "B": "Correct. _pouvoir_ : que vous **puissiez**.",
+    "C": "Faux. C'est le conditionnel."
+   }
+  },
+  {
+   "id": "q.51.b.006",
+   "los": "los.51.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il faut que tu …… (savoir) la vérité.",
+   "options": [
+    "saches",
+    "sais",
+    "saurais"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _savoir_ : que je sache, que tu **saches**.",
+    "B": "Faux. C'est l'indicatif présent.",
+    "C": "Faux. C'est le conditionnel."
+   }
+  },
+  {
+   "id": "q.51.b.007",
+   "los": "los.51.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il est important que vous …… (faire) attention.",
+   "options": [
+    "faites",
+    "fesiez",
+    "fassiez"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif présent.",
+    "B": "Faux. Cette forme n'existe pas.",
+    "C": "Correct. _faire_ : que vous **fassiez**."
+   }
+  },
+  {
+   "id": "q.51.b.008",
+   "los": "los.51.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Je crains qu'il ne …… (falloir) tout recommencer.",
+   "options": [
+    "faut",
+    "faille",
+    "falle"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif présent.",
+    "B": "Correct. _falloir_ : qu'il **faille**.",
+    "C": "Faux. Cette forme n'existe pas."
+   }
+  },
+  {
+   "id": "q.51.b.009",
+   "los": "los.51.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Que nous le …… (vouloir) ou non, la réforme passera.",
+   "options": [
+    "veuillons",
+    "voulons",
+    "voulions"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _veuill-_ ne s'emploie pas avec _nous_ et _vous_.",
+    "B": "Faux. C'est l'indicatif présent.",
+    "C": "Correct. _vouloir_ : que nous **voulions** (radical de _nous voulons_)."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m51.1.01",
+   "modules": [
+    "m51.1"
+   ],
+   "title": "Le règlement de la résidence",
+   "vignette": "Le gestionnaire d'une résidence étudiante écrit aux nouveaux habitants :\n\n« Pour que la vie commune se passe bien, il faut que chacun **(1)** …… (respecter) quelques règles. Il faut que vous **(2)** …… (faire) le tri des déchets et que vous **(3)** …… (être) discrets après 22 heures. Enfin, il est indispensable que chaque locataire **(4)** …… (avoir) une assurance habitation. »",
+   "questions": [
+    {
+     "id": "set.m51.1.01.q1",
+     "los": "los.51.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "respecter",
+      "respecte",
+      "respectera"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Après _il faut que_, il faut un verbe conjugué.",
+      "B": "Correct. _ils respectent_ → _que chacun respecte_.",
+      "C": "Faux. C'est le futur."
+     }
+    },
+    {
+     "id": "set.m51.1.01.q2",
+     "los": "los.51.b",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "fassiez",
+      "faites",
+      "feriez"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _faire_ : que vous fassiez.",
+      "B": "Faux. C'est l'indicatif.",
+      "C": "Faux. C'est le conditionnel."
+     }
+    },
+    {
+     "id": "set.m51.1.01.q3",
+     "los": "los.51.b",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (3) :",
+     "options": [
+      "soyez",
+      "êtes",
+      "soyiez"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _être_ : que vous soyez.",
+      "B": "Faux. C'est l'indicatif.",
+      "C": "Faux. Pas de _i_ après le _y_."
+     }
+    },
+    {
+     "id": "set.m51.1.01.q4",
+     "los": "los.51.b",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (4) :",
+     "options": [
+      "a",
+      "ait",
+      "aie"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. C'est l'indicatif.",
+      "B": "Correct. _avoir_ : qu'il / que chaque locataire ait.",
+      "C": "Faux. _aie_ va avec _je_."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.51.formation",
+   "los": [
+    "los.51.a"
+   ],
+   "name": "Formation du subjonctif présent",
+   "front": "Comment forme-t-on le subjonctif présent ?",
+   "back": "Radical de **ils** au présent + **-e, -es, -e, -ions, -iez, -ent**. _Nous_ et _vous_ prennent le radical de _nous_.",
+   "examples": [
+    "ils boivent → que je boive / que nous buvions"
+   ],
+   "common_mistake": "_que nous buvons_ (indicatif) au lieu de _que nous buvions_."
+  },
+  {
+   "id": "f.51.irreguliers",
+   "los": [
+    "los.51.b"
+   ],
+   "name": "Les sept irréguliers",
+   "front": "Subjonctif de être, avoir, aller, faire, pouvoir, savoir, vouloir (je) ?",
+   "back": "que je **sois**, **aie**, **aille**, **fasse**, **puisse**, **sache**, **veuille**.",
+   "examples": [
+    "que nous soyons, ayons, allions, fassions, puissions, sachions, voulions"
+   ],
+   "common_mistake": "_qu'il est_, _que je peux_ (formes de l'indicatif)."
+  }
+ ]
+}

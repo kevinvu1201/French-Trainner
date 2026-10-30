@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "french-trainer-builder"
+version = "0.1.0"
+description = "Build pipeline for the French B2 grammar trainer PWA"
+requires-python = ">=3.11"
+dependencies = [
+  "pyyaml>=6",
+  "jsonschema>=4.18",
+  "networkx>=3",
+  "cryptography>=41",
+  "pymupdf>=1.24",
+  "pillow>=10",
+  "websocket-client>=1.6",  # drives Chrome/Edge for `builder audit` and the e2e tests
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["builder*"]
+
+[tool.setuptools.package-data]
+builder = ["schemas/*.json", "data/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

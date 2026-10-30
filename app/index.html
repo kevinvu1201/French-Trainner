@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Français B2</title>
+<meta name="description" content="Grammaire et vocabulaire pour le DELF B2 : cours, exercices et suivi des progrès">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151514" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Français B2">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+<!-- modulepreload: the builder lists every startup module here so they download in parallel -->
+<script>
+  // Apply the saved theme before first paint (no flash).
+  try { const t = localStorage.getItem("fr-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}
+</script>
+</head>
+<body>
+<div id="app"><div class="boot" role="status">Chargement…</div></div>
+<noscript>Cette application a besoin de JavaScript.</noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

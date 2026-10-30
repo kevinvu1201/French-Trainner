@@ -1,0 +1,1722 @@
+{
+ "module": "m94.1",
+ "source_hash": "e9d0209d930f",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le vocabulaire du thème « la société et la politique » sert à comprendre les documents et à argumenter sans répétition."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Les cartes utilisent la répétition espacée : un mot revient juste avant que vous l'oubliiez."
+   },
+   {
+    "stage": "result",
+    "md": "Réviser chaque jour quelques minutes vaut mieux qu'une longue séance par semaine."
+   }
+  ],
+  "why_it_matters": "Un lexique précis sur l'immigration, la justice, les élections, les relations internationales fait partie de la note « étendue et maîtrise du vocabulaire » à l'écrit et à l'oral.",
+  "exam_approach": {
+   "look_first": [
+    "le genre du nom (le / la)",
+    "la préposition qui accompagne le verbe"
+   ],
+   "traps": [
+    "les faux amis (_la librairie_ ≠ library)",
+    "oublier l'article en apprenant un nom"
+   ],
+   "distractors": [
+    "un mot proche de l'anglais mais de sens différent"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.94.w001",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'acte de naissance (m)",
+   "front": "l'acte de naissance (m)",
+   "back": "birth certificate"
+  },
+  {
+   "id": "f.94.w002",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le citoyen / la citoyenne",
+   "front": "le citoyen / la citoyenne",
+   "back": "citizen"
+  },
+  {
+   "id": "f.94.w003",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le civisme",
+   "front": "le civisme",
+   "back": "civic-mindedness / good citizenship"
+  },
+  {
+   "id": "f.94.w004",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la citoyenneté",
+   "front": "la citoyenneté",
+   "back": "citizenship"
+  },
+  {
+   "id": "f.94.w005",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'identité culturelle (f)",
+   "front": "l'identité culturelle (f)",
+   "back": "cultural identity"
+  },
+  {
+   "id": "f.94.w006",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'expulsion (f)",
+   "front": "l'expulsion (f)",
+   "back": "deportation / eviction"
+  },
+  {
+   "id": "f.94.w007",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la discrimination",
+   "front": "la discrimination",
+   "back": "discrimination"
+  },
+  {
+   "id": "f.94.w008",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la double nationalité",
+   "front": "la double nationalité",
+   "back": "dual nationality"
+  },
+  {
+   "id": "f.94.w009",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'exclusion (f)",
+   "front": "l'exclusion (f)",
+   "back": "exclusion"
+  },
+  {
+   "id": "f.94.w010",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "expatrié(e)",
+   "front": "expatrié(e)",
+   "back": "expatriated / expat"
+  },
+  {
+   "id": "f.94.w011",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'étranger / l'étrangère",
+   "front": "l'étranger / l'étrangère",
+   "back": "foreigner"
+  },
+  {
+   "id": "f.94.w012",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la carte d'identité",
+   "front": "la carte d'identité",
+   "back": "identity card"
+  },
+  {
+   "id": "f.94.w013",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le / la clandestin(e)",
+   "front": "le / la clandestin(e)",
+   "back": "illegal immigrant"
+  },
+  {
+   "id": "f.94.w014",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'immigré(e)",
+   "front": "l'immigré(e)",
+   "back": "immigrant"
+  },
+  {
+   "id": "f.94.w015",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'immigration (f)",
+   "front": "l'immigration (f)",
+   "back": "immigration"
+  },
+  {
+   "id": "f.94.w016",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "s'intégrer",
+   "front": "s'intégrer",
+   "back": "to integrate"
+  },
+  {
+   "id": "f.94.w017",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'intégration (f)",
+   "front": "l'intégration (f)",
+   "back": "integration"
+  },
+  {
+   "id": "f.94.w018",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'intolérance (f)",
+   "front": "l'intolérance (f)",
+   "back": "intolerance"
+  },
+  {
+   "id": "f.94.w019",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la minorité",
+   "front": "la minorité",
+   "back": "minority"
+  },
+  {
+   "id": "f.94.w020",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la naturalisation",
+   "front": "la naturalisation",
+   "back": "naturalization"
+  },
+  {
+   "id": "f.94.w021",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'asile politique (m)",
+   "front": "l'asile politique (m)",
+   "back": "political asylum"
+  },
+  {
+   "id": "f.94.w022",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le préjugé",
+   "front": "le préjugé",
+   "back": "prejudice"
+  },
+  {
+   "id": "f.94.w023",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le racisme",
+   "front": "le racisme",
+   "back": "racism"
+  },
+  {
+   "id": "f.94.w024",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le / la réfugié(e)",
+   "front": "le / la réfugié(e)",
+   "back": "refugee"
+  },
+  {
+   "id": "f.94.w025",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le titre de séjour",
+   "front": "le titre de séjour",
+   "back": "residence permit (book: permis de séjour)"
+  },
+  {
+   "id": "f.94.w026",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le droit d'asile",
+   "front": "le droit d'asile",
+   "back": "right of asylum"
+  },
+  {
+   "id": "f.94.w027",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le droit du sang",
+   "front": "le droit du sang",
+   "back": "citizenship by descent"
+  },
+  {
+   "id": "f.94.w028",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le droit du sol",
+   "front": "le droit du sol",
+   "back": "citizenship by place of birth"
+  },
+  {
+   "id": "f.94.w029",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la tolérance",
+   "front": "la tolérance",
+   "back": "tolerance"
+  },
+  {
+   "id": "f.94.w030",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "sans papiers",
+   "front": "sans papiers",
+   "back": "undocumented"
+  },
+  {
+   "id": "f.94.w031",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le permis de travail",
+   "front": "le permis de travail",
+   "back": "work permit"
+  },
+  {
+   "id": "f.94.w032",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "acquitter",
+   "front": "acquitter",
+   "back": "to acquit"
+  },
+  {
+   "id": "f.94.w033",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "faire appel",
+   "front": "faire appel",
+   "back": "to appeal"
+  },
+  {
+   "id": "f.94.w034",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "enfreindre / violer la loi",
+   "front": "enfreindre / violer la loi",
+   "back": "to break the law"
+  },
+  {
+   "id": "f.94.w035",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "inculper / mettre en examen",
+   "front": "inculper / mettre en examen",
+   "back": "to charge (with a crime)"
+  },
+  {
+   "id": "f.94.w036",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "condamner",
+   "front": "condamner",
+   "back": "to sentence / convict"
+  },
+  {
+   "id": "f.94.w037",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le / la condamné(e)",
+   "front": "le / la condamné(e)",
+   "back": "convict"
+  },
+  {
+   "id": "f.94.w038",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le tribunal correctionnel",
+   "front": "le tribunal correctionnel",
+   "back": "criminal court"
+  },
+  {
+   "id": "f.94.w039",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "comparaître (en justice)",
+   "front": "comparaître (en justice)",
+   "back": "to appear in court"
+  },
+  {
+   "id": "f.94.w040",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la détention provisoire",
+   "front": "la détention provisoire",
+   "back": "custody pending trial"
+  },
+  {
+   "id": "f.94.w041",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la peine de mort",
+   "front": "la peine de mort",
+   "back": "death penalty"
+  },
+  {
+   "id": "f.94.w042",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'avocat(e)",
+   "front": "l'avocat(e)",
+   "back": "lawyer"
+  },
+  {
+   "id": "f.94.w043",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le non-lieu",
+   "front": "le non-lieu",
+   "back": "dismissal of charges"
+  },
+  {
+   "id": "f.94.w044",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le test ADN",
+   "front": "le test ADN",
+   "back": "DNA test"
+  },
+  {
+   "id": "f.94.w045",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "les empreintes digitales (f pl)",
+   "front": "les empreintes digitales (f pl)",
+   "back": "fingerprints"
+  },
+  {
+   "id": "f.94.w046",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "à décharge / à charge",
+   "front": "à décharge / à charge",
+   "back": "for the defense / for the prosecution"
+  },
+  {
+   "id": "f.94.w047",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la liberté",
+   "front": "la liberté",
+   "back": "freedom"
+  },
+  {
+   "id": "f.94.w048",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la culpabilité",
+   "front": "la culpabilité",
+   "back": "guilt"
+  },
+  {
+   "id": "f.94.w049",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "coupable",
+   "front": "coupable",
+   "back": "guilty"
+  },
+  {
+   "id": "f.94.w050",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la réclusion à perpétuité",
+   "front": "la réclusion à perpétuité",
+   "back": "life imprisonment"
+  },
+  {
+   "id": "f.94.w051",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "illégal(e)",
+   "front": "illégal(e)",
+   "back": "illegal"
+  },
+  {
+   "id": "f.94.w052",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le juge",
+   "front": "le juge",
+   "back": "judge"
+  },
+  {
+   "id": "f.94.w053",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le / la juré(e)",
+   "front": "le / la juré(e)",
+   "back": "juror"
+  },
+  {
+   "id": "f.94.w054",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la loi",
+   "front": "la loi",
+   "back": "a law"
+  },
+  {
+   "id": "f.94.w055",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le droit",
+   "front": "le droit",
+   "back": "law (the field) / a right"
+  },
+  {
+   "id": "f.94.w056",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le serment",
+   "front": "le serment",
+   "back": "oath"
+  },
+  {
+   "id": "f.94.w057",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "plaider",
+   "front": "plaider",
+   "back": "to plead"
+  },
+  {
+   "id": "f.94.w058",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la peine de prison",
+   "front": "la peine de prison",
+   "back": "prison sentence"
+  },
+  {
+   "id": "f.94.w059",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le procureur",
+   "front": "le procureur",
+   "back": "prosecutor"
+  },
+  {
+   "id": "f.94.w060",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la légitime défense",
+   "front": "la légitime défense",
+   "back": "self-defense"
+  },
+  {
+   "id": "f.94.w061",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "avec sursis",
+   "front": "avec sursis",
+   "back": "suspended (sentence)"
+  },
+  {
+   "id": "f.94.w062",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le témoignage",
+   "front": "le témoignage",
+   "back": "testimony"
+  },
+  {
+   "id": "f.94.w063",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le procès",
+   "front": "le procès",
+   "back": "trial"
+  },
+  {
+   "id": "f.94.w064",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le témoin",
+   "front": "le témoin",
+   "back": "witness"
+  },
+  {
+   "id": "f.94.w065",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "les forces de l'ordre (f pl)",
+   "front": "les forces de l'ordre (f pl)",
+   "back": "law enforcement"
+  },
+  {
+   "id": "f.94.w066",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "arrêter / interpeller",
+   "front": "arrêter / interpeller",
+   "back": "to arrest"
+  },
+  {
+   "id": "f.94.w067",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le flic",
+   "front": "le flic",
+   "back": "cop (informal)"
+  },
+  {
+   "id": "f.94.w068",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "mener l'enquête",
+   "front": "mener l'enquête",
+   "back": "to investigate"
+  },
+  {
+   "id": "f.94.w069",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'enquête (f)",
+   "front": "l'enquête (f)",
+   "back": "investigation"
+  },
+  {
+   "id": "f.94.w070",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le commissariat",
+   "front": "le commissariat",
+   "back": "police station"
+  },
+  {
+   "id": "f.94.w071",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le / la complice",
+   "front": "le / la complice",
+   "back": "accomplice"
+  },
+  {
+   "id": "f.94.w072",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'incendie criminel (m)",
+   "front": "l'incendie criminel (m)",
+   "back": "arson"
+  },
+  {
+   "id": "f.94.w073",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le chantage",
+   "front": "le chantage",
+   "back": "blackmail"
+  },
+  {
+   "id": "f.94.w074",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le cambriolage",
+   "front": "le cambriolage",
+   "back": "burglary"
+  },
+  {
+   "id": "f.94.w075",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "cambrioler",
+   "front": "cambrioler",
+   "back": "to burgle"
+  },
+  {
+   "id": "f.94.w076",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le casier judiciaire",
+   "front": "le casier judiciaire",
+   "back": "criminal record"
+  },
+  {
+   "id": "f.94.w077",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la garde à vue",
+   "front": "la garde à vue",
+   "back": "police custody"
+  },
+  {
+   "id": "f.94.w078",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le trafic de drogue",
+   "front": "le trafic de drogue",
+   "back": "drug trafficking"
+  },
+  {
+   "id": "f.94.w079",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le détournement de fonds",
+   "front": "le détournement de fonds",
+   "back": "embezzlement"
+  },
+  {
+   "id": "f.94.w080",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le / la délinquant(e)",
+   "front": "le / la délinquant(e)",
+   "back": "offender / delinquent"
+  },
+  {
+   "id": "f.94.w081",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la contrefaçon",
+   "front": "la contrefaçon",
+   "back": "forgery / counterfeit"
+  },
+  {
+   "id": "f.94.w082",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le harcèlement",
+   "front": "le harcèlement",
+   "back": "harassment"
+  },
+  {
+   "id": "f.94.w083",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la délinquance juvénile",
+   "front": "la délinquance juvénile",
+   "back": "juvenile crime"
+  },
+  {
+   "id": "f.94.w084",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'enlèvement (m)",
+   "front": "l'enlèvement (m)",
+   "back": "kidnapping"
+  },
+  {
+   "id": "f.94.w085",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'homicide involontaire (m)",
+   "front": "l'homicide involontaire (m)",
+   "back": "manslaughter"
+  },
+  {
+   "id": "f.94.w086",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le délit",
+   "front": "le délit",
+   "back": "offence / misdemeanor"
+  },
+  {
+   "id": "f.94.w087",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "pris en flagrant délit",
+   "front": "pris en flagrant délit",
+   "back": "caught in the act"
+  },
+  {
+   "id": "f.94.w088",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le meurtre / l'assassinat (m)",
+   "front": "le meurtre / l'assassinat (m)",
+   "back": "murder"
+  },
+  {
+   "id": "f.94.w089",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le / la récidiviste",
+   "front": "le / la récidiviste",
+   "back": "repeat offender"
+  },
+  {
+   "id": "f.94.w090",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le vol à l'étalage",
+   "front": "le vol à l'étalage",
+   "back": "shoplifting"
+  },
+  {
+   "id": "f.94.w091",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'escroc (m)",
+   "front": "l'escroc (m)",
+   "back": "swindler"
+  },
+  {
+   "id": "f.94.w092",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le vandalisme",
+   "front": "le vandalisme",
+   "back": "vandalism"
+  },
+  {
+   "id": "f.94.w093",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la Déclaration des droits de l'homme",
+   "front": "la Déclaration des droits de l'homme",
+   "back": "Declaration of the Rights of Man / Bill of Rights"
+  },
+  {
+   "id": "f.94.w094",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le projet de loi",
+   "front": "le projet de loi",
+   "back": "bill (proposed law)"
+  },
+  {
+   "id": "f.94.w095",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la démocratie",
+   "front": "la démocratie",
+   "back": "democracy"
+  },
+  {
+   "id": "f.94.w096",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'égalité (f)",
+   "front": "l'égalité (f)",
+   "back": "equality"
+  },
+  {
+   "id": "f.94.w097",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le pouvoir exécutif",
+   "front": "le pouvoir exécutif",
+   "back": "executive power"
+  },
+  {
+   "id": "f.94.w098",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le pouvoir législatif",
+   "front": "le pouvoir législatif",
+   "back": "legislative power"
+  },
+  {
+   "id": "f.94.w099",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le pouvoir judiciaire",
+   "front": "le pouvoir judiciaire",
+   "back": "judicial power"
+  },
+  {
+   "id": "f.94.w100",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la patrie",
+   "front": "la patrie",
+   "back": "homeland"
+  },
+  {
+   "id": "f.94.w101",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la devise",
+   "front": "la devise",
+   "back": "motto / currency"
+  },
+  {
+   "id": "f.94.w102",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'Assemblée nationale (f)",
+   "front": "l'Assemblée nationale (f)",
+   "back": "National Assembly"
+  },
+  {
+   "id": "f.94.w103",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'État (m)",
+   "front": "l'État (m)",
+   "back": "the State"
+  },
+  {
+   "id": "f.94.w104",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "s'abstenir",
+   "front": "s'abstenir",
+   "back": "to abstain"
+  },
+  {
+   "id": "f.94.w105",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'abstention (f)",
+   "front": "l'abstention (f)",
+   "back": "abstention (not voting)"
+  },
+  {
+   "id": "f.94.w106",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le bulletin de vote",
+   "front": "le bulletin de vote",
+   "back": "ballot paper"
+  },
+  {
+   "id": "f.94.w107",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le scrutin",
+   "front": "le scrutin",
+   "back": "ballot / vote"
+  },
+  {
+   "id": "f.94.w108",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le bulletin blanc",
+   "front": "le bulletin blanc",
+   "back": "blank ballot"
+  },
+  {
+   "id": "f.94.w109",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le / la candidat(e)",
+   "front": "le / la candidat(e)",
+   "back": "candidate"
+  },
+  {
+   "id": "f.94.w110",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "dépouiller le scrutin",
+   "front": "dépouiller le scrutin",
+   "back": "to count the votes"
+  },
+  {
+   "id": "f.94.w111",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "élire",
+   "front": "élire",
+   "back": "to elect"
+  },
+  {
+   "id": "f.94.w112",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "élu(e)",
+   "front": "élu(e)",
+   "back": "elected / elected official"
+  },
+  {
+   "id": "f.94.w113",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la circonscription",
+   "front": "la circonscription",
+   "back": "constituency"
+  },
+  {
+   "id": "f.94.w114",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le bulletin nul",
+   "front": "le bulletin nul",
+   "back": "invalid ballot"
+  },
+  {
+   "id": "f.94.w115",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le tour de scrutin",
+   "front": "le tour de scrutin",
+   "back": "round of voting"
+  },
+  {
+   "id": "f.94.w116",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le suffrage universel",
+   "front": "le suffrage universel",
+   "back": "universal suffrage"
+  },
+  {
+   "id": "f.94.w117",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la voix",
+   "front": "la voix",
+   "back": "vote / voice"
+  },
+  {
+   "id": "f.94.w118",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'électeur / l'électrice",
+   "front": "l'électeur / l'électrice",
+   "back": "voter"
+  },
+  {
+   "id": "f.94.w119",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la coalition",
+   "front": "la coalition",
+   "back": "coalition"
+  },
+  {
+   "id": "f.94.w120",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la dictature",
+   "front": "la dictature",
+   "back": "dictatorship"
+  },
+  {
+   "id": "f.94.w121",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "majoritaire / minoritaire",
+   "front": "majoritaire / minoritaire",
+   "back": "in the majority / minority"
+  },
+  {
+   "id": "f.94.w122",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la gauche / la droite",
+   "front": "la gauche / la droite",
+   "back": "the left / the right (politics)"
+  },
+  {
+   "id": "f.94.w123",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la mesure",
+   "front": "la mesure",
+   "back": "measure"
+  },
+  {
+   "id": "f.94.w124",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le parti",
+   "front": "le parti",
+   "back": "(political) party"
+  },
+  {
+   "id": "f.94.w125",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le conseil des ministres",
+   "front": "le conseil des ministres",
+   "back": "cabinet"
+  },
+  {
+   "id": "f.94.w126",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le député",
+   "front": "le député",
+   "back": "member of parliament"
+  },
+  {
+   "id": "f.94.w127",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le / la dirigeant(e)",
+   "front": "le / la dirigeant(e)",
+   "back": "leader"
+  },
+  {
+   "id": "f.94.w128",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'homme / la femme politique",
+   "front": "l'homme / la femme politique",
+   "back": "politician"
+  },
+  {
+   "id": "f.94.w129",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le Premier ministre",
+   "front": "le Premier ministre",
+   "back": "prime minister"
+  },
+  {
+   "id": "f.94.w130",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le mandat",
+   "front": "le mandat",
+   "back": "term of office"
+  },
+  {
+   "id": "f.94.w131",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le / la fonctionnaire",
+   "front": "le / la fonctionnaire",
+   "back": "civil servant"
+  },
+  {
+   "id": "f.94.w132",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le maire",
+   "front": "le maire",
+   "back": "mayor"
+  },
+  {
+   "id": "f.94.w133",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la mairie / l'hôtel de ville (m)",
+   "front": "la mairie / l'hôtel de ville (m)",
+   "back": "town hall"
+  },
+  {
+   "id": "f.94.w134",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le / la contribuable",
+   "front": "le / la contribuable",
+   "back": "taxpayer"
+  },
+  {
+   "id": "f.94.w135",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "imposable",
+   "front": "imposable",
+   "back": "taxable"
+  },
+  {
+   "id": "f.94.w136",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la commune",
+   "front": "la commune",
+   "back": "municipality"
+  },
+  {
+   "id": "f.94.w137",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'allié(e)",
+   "front": "l'allié(e)",
+   "back": "ally"
+  },
+  {
+   "id": "f.94.w138",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'ambassadeur / l'ambassadrice",
+   "front": "l'ambassadeur / l'ambassadrice",
+   "back": "ambassador"
+  },
+  {
+   "id": "f.94.w139",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'ambassade (f)",
+   "front": "l'ambassade (f)",
+   "back": "embassy"
+  },
+  {
+   "id": "f.94.w140",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le consulat",
+   "front": "le consulat",
+   "back": "consulate"
+  },
+  {
+   "id": "f.94.w141",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "coopérer",
+   "front": "coopérer",
+   "back": "to cooperate"
+  },
+  {
+   "id": "f.94.w142",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la crise",
+   "front": "la crise",
+   "back": "crisis"
+  },
+  {
+   "id": "f.94.w143",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la diplomatie",
+   "front": "la diplomatie",
+   "back": "diplomacy"
+  },
+  {
+   "id": "f.94.w144",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le désaccord",
+   "front": "le désaccord",
+   "back": "disagreement"
+  },
+  {
+   "id": "f.94.w145",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la politique étrangère",
+   "front": "la politique étrangère",
+   "back": "foreign policy"
+  },
+  {
+   "id": "f.94.w146",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le sommet",
+   "front": "le sommet",
+   "back": "summit"
+  },
+  {
+   "id": "f.94.w147",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la neutralité",
+   "front": "la neutralité",
+   "back": "neutrality"
+  },
+  {
+   "id": "f.94.w148",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le jumelage",
+   "front": "le jumelage",
+   "back": "twinning (of towns)"
+  },
+  {
+   "id": "f.94.w149",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la puissance",
+   "front": "la puissance",
+   "back": "power (nation)"
+  },
+  {
+   "id": "f.94.w150",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le rapprochement",
+   "front": "le rapprochement",
+   "back": "reconciliation / rapprochement"
+  },
+  {
+   "id": "f.94.w151",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la sanction",
+   "front": "la sanction",
+   "back": "sanction"
+  },
+  {
+   "id": "f.94.w152",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'entretien (m)",
+   "front": "l'entretien (m)",
+   "back": "talk / interview"
+  },
+  {
+   "id": "f.94.w153",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le traité",
+   "front": "le traité",
+   "back": "treaty"
+  },
+  {
+   "id": "f.94.w154",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'entente (f)",
+   "front": "l'entente (f)",
+   "back": "understanding / agreement"
+  },
+  {
+   "id": "f.94.w155",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'armement (m)",
+   "front": "l'armement (m)",
+   "back": "arms"
+  },
+  {
+   "id": "f.94.w156",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la guerre civile",
+   "front": "la guerre civile",
+   "back": "civil war"
+  },
+  {
+   "id": "f.94.w157",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'objecteur de conscience (m)",
+   "front": "l'objecteur de conscience (m)",
+   "back": "conscientious objector"
+  },
+  {
+   "id": "f.94.w158",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la défaite",
+   "front": "la défaite",
+   "back": "defeat"
+  },
+  {
+   "id": "f.94.w159",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le désarmement",
+   "front": "le désarmement",
+   "back": "disarmament"
+  },
+  {
+   "id": "f.94.w160",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'ennemi (m)",
+   "front": "l'ennemi (m)",
+   "back": "enemy"
+  },
+  {
+   "id": "f.94.w161",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "les hostilités (f pl)",
+   "front": "les hostilités (f pl)",
+   "back": "hostilities"
+  },
+  {
+   "id": "f.94.w162",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "les pertes (f pl)",
+   "front": "les pertes (f pl)",
+   "back": "losses / casualties"
+  },
+  {
+   "id": "f.94.w163",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la paix",
+   "front": "la paix",
+   "back": "peace"
+  },
+  {
+   "id": "f.94.w164",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la prolifération",
+   "front": "la prolifération",
+   "back": "proliferation"
+  },
+  {
+   "id": "f.94.w165",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'état d'urgence (m)",
+   "front": "l'état d'urgence (m)",
+   "back": "state of emergency"
+  },
+  {
+   "id": "f.94.w166",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "se rendre",
+   "front": "se rendre",
+   "back": "to surrender"
+  },
+  {
+   "id": "f.94.w167",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la trahison",
+   "front": "la trahison",
+   "back": "treason / betrayal"
+  },
+  {
+   "id": "f.94.w168",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la victoire",
+   "front": "la victoire",
+   "back": "victory"
+  },
+  {
+   "id": "f.94.w169",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le crime de guerre",
+   "front": "le crime de guerre",
+   "back": "war crime"
+  },
+  {
+   "id": "f.94.w170",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "les forces armées (f pl)",
+   "front": "les forces armées (f pl)",
+   "back": "armed forces"
+  },
+  {
+   "id": "f.94.w171",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le bombardement",
+   "front": "le bombardement",
+   "back": "bombing"
+  },
+  {
+   "id": "f.94.w172",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "détruire",
+   "front": "détruire",
+   "back": "to destroy"
+  },
+  {
+   "id": "f.94.w173",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le service militaire",
+   "front": "le service militaire",
+   "back": "military service"
+  },
+  {
+   "id": "f.94.w174",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'armée de métier (f)",
+   "front": "l'armée de métier (f)",
+   "back": "professional army"
+  },
+  {
+   "id": "f.94.w175",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "les troupes (f pl)",
+   "front": "les troupes (f pl)",
+   "back": "troops"
+  },
+  {
+   "id": "f.94.w176",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la voiture piégée",
+   "front": "la voiture piégée",
+   "back": "car bomb"
+  },
+  {
+   "id": "f.94.w177",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'effondrement (m)",
+   "front": "l'effondrement (m)",
+   "back": "collapse"
+  },
+  {
+   "id": "f.94.w178",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le détournement (d'avion)",
+   "front": "le détournement (d'avion)",
+   "back": "hijacking"
+  },
+  {
+   "id": "f.94.w179",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "le canular",
+   "front": "le canular",
+   "back": "hoax"
+  },
+  {
+   "id": "f.94.w180",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'otage (m)",
+   "front": "l'otage (m)",
+   "back": "hostage"
+  },
+  {
+   "id": "f.94.w181",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'insécurité (f)",
+   "front": "l'insécurité (f)",
+   "back": "lack of security"
+  },
+  {
+   "id": "f.94.w182",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'opération de sauvetage (f)",
+   "front": "l'opération de sauvetage (f)",
+   "back": "rescue operation"
+  },
+  {
+   "id": "f.94.w183",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "fouiller",
+   "front": "fouiller",
+   "back": "to search"
+  },
+  {
+   "id": "f.94.w184",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "l'attentat (m)",
+   "front": "l'attentat (m)",
+   "back": "(terrorist) attack"
+  },
+  {
+   "id": "f.94.w185",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "traquer",
+   "front": "traquer",
+   "back": "to track down"
+  },
+  {
+   "id": "f.94.w186",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "traumatisant(e)",
+   "front": "traumatisant(e)",
+   "back": "traumatic"
+  },
+  {
+   "id": "f.94.w187",
+   "los": [
+    "los.94.a"
+   ],
+   "name": "la victime",
+   "front": "la victime",
+   "back": "victim"
+  }
+ ]
+}

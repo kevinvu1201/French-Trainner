@@ -1,0 +1,3693 @@
+{
+ "readings": [
+  {
+   "number": 90,
+   "title": "La santé",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "155 mots sur la santé publique, les addictions, le système de soins. Ces thèmes reviennent dans les documents et les sujets du DELF B2."
+    },
+    {
+     "t": "p",
+     "md": "Révisez-les dans **Cartes** : le français s'affiche, dites le sens à voix haute, puis évaluez-vous honnêtement."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Comprendre et employer le vocabulaire : la santé.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "La santé : liste de mots",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Français",
+           "Sens"
+          ],
+          [
+           "en forme",
+           "fit"
+          ],
+          [
+           "la forme",
+           "fitness"
+          ],
+          [
+           "en bonne santé",
+           "healthy"
+          ],
+          [
+           "avoir bonne mine",
+           "to look good / look healthy"
+          ],
+          [
+           "avoir mauvaise mine",
+           "to look sick"
+          ],
+          [
+           "la santé mentale",
+           "mental health"
+          ],
+          [
+           "prévenir / éviter",
+           "to prevent"
+          ],
+          [
+           "la médecine préventive",
+           "preventive medicine"
+          ],
+          [
+           "robuste",
+           "robust"
+          ],
+          [
+           "la force",
+           "strength"
+          ],
+          [
+           "la vigueur",
+           "vigor"
+          ],
+          [
+           "le bien-être",
+           "well-being"
+          ],
+          [
+           "la propreté",
+           "cleanliness"
+          ],
+          [
+           "tomber malade",
+           "to become ill"
+          ],
+          [
+           "saigner",
+           "to bleed"
+          ],
+          [
+           "le sang",
+           "blood"
+          ],
+          [
+           "à bout d'haleine",
+           "breathless"
+          ],
+          [
+           "le bleu",
+           "bruise"
+          ],
+          [
+           "la brûlure",
+           "burn"
+          ],
+          [
+           "s'étrangler",
+           "to choke"
+          ],
+          [
+           "convalescent(e)",
+           "convalescent"
+          ],
+          [
+           "le malaise",
+           "discomfort / feeling faint"
+          ],
+          [
+           "pris(e) d'étourdissement",
+           "dizzy"
+          ],
+          [
+           "la somnolence",
+           "drowsiness"
+          ],
+          [
+           "somnolent(e)",
+           "drowsy"
+          ],
+          [
+           "s'évanouir / défaillir",
+           "to faint"
+          ],
+          [
+           "la chute",
+           "fall"
+          ],
+          [
+           "la fracture",
+           "fracture"
+          ],
+          [
+           "se remettre",
+           "to get better / recover"
+          ],
+          [
+           "(se) faire mal",
+           "to hurt (oneself)"
+          ],
+          [
+           "le / la blessé(e)",
+           "injured person"
+          ],
+          [
+           "la blessure",
+           "injury / wound"
+          ],
+          [
+           "la plaie",
+           "wound"
+          ],
+          [
+           "avoir la nausée",
+           "to be nauseated"
+          ],
+          [
+           "la douleur",
+           "pain"
+          ],
+          [
+           "récupérer",
+           "to recuperate"
+          ],
+          [
+           "la rechute",
+           "relapse"
+          ],
+          [
+           "faire une rechute",
+           "to relapse"
+          ],
+          [
+           "l'entorse (f) / la foulure",
+           "sprain"
+          ],
+          [
+           "souffrir",
+           "to suffer"
+          ],
+          [
+           "la souffrance",
+           "suffering"
+          ],
+          [
+           "s'asphyxier",
+           "to suffocate"
+          ],
+          [
+           "l'enflure (f)",
+           "swelling"
+          ],
+          [
+           "enflé(e)",
+           "swollen"
+          ],
+          [
+           "inconscient(e)",
+           "unconscious"
+          ],
+          [
+           "indisposé(e)",
+           "under the weather"
+          ],
+          [
+           "faible",
+           "weak"
+          ],
+          [
+           "s'affaiblir",
+           "to weaken"
+          ],
+          [
+           "s'aggraver / empirer",
+           "to worsen"
+          ],
+          [
+           "le rhume",
+           "cold (illness)"
+          ],
+          [
+           "la toux",
+           "cough"
+          ],
+          [
+           "tousser",
+           "to cough"
+          ],
+          [
+           "la fièvre",
+           "fever"
+          ],
+          [
+           "la grippe",
+           "flu"
+          ],
+          [
+           "l'intoxication alimentaire (f)",
+           "food poisoning"
+          ],
+          [
+           "l'infection (f)",
+           "infection"
+          ],
+          [
+           "la migraine",
+           "migraine"
+          ],
+          [
+           "éternuer",
+           "to sneeze"
+          ],
+          [
+           "transpirer",
+           "to sweat / perspire"
+          ],
+          [
+           "vomir",
+           "to vomit"
+          ],
+          [
+           "l'allergie (f)",
+           "allergy"
+          ],
+          [
+           "l'arthrite (f)",
+           "arthritis"
+          ],
+          [
+           "l'asthme (m)",
+           "asthma"
+          ],
+          [
+           "le déficit d'attention",
+           "attention deficit"
+          ],
+          [
+           "la pression artérielle",
+           "blood pressure"
+          ],
+          [
+           "l'hypertension (f)",
+           "high blood pressure"
+          ],
+          [
+           "le diabète",
+           "diabetes"
+          ],
+          [
+           "la courbature",
+           "joint ache / stiffness"
+          ],
+          [
+           "le sida",
+           "AIDS"
+          ],
+          [
+           "séropositif / séropositive",
+           "HIV positive"
+          ],
+          [
+           "le cancer",
+           "cancer"
+          ],
+          [
+           "la crise cardiaque / l'infarctus (m)",
+           "heart attack"
+          ],
+          [
+           "la leucémie",
+           "leukemia"
+          ],
+          [
+           "la rougeole",
+           "measles"
+          ],
+          [
+           "la méningite",
+           "meningitis"
+          ],
+          [
+           "les oreillons (m pl)",
+           "mumps"
+          ],
+          [
+           "la pneumonie",
+           "pneumonia"
+          ],
+          [
+           "la tuberculose",
+           "tuberculosis"
+          ],
+          [
+           "la varicelle",
+           "chicken pox"
+          ],
+          [
+           "l'alcoolisme (m)",
+           "alcoholism"
+          ],
+          [
+           "l'anorexie (f)",
+           "anorexia"
+          ],
+          [
+           "la boulimie",
+           "bulimia"
+          ],
+          [
+           "déprimé(e)",
+           "depressed"
+          ],
+          [
+           "la dépression",
+           "depression"
+          ],
+          [
+           "le / la drogué(e)",
+           "drug addict"
+          ],
+          [
+           "la dépendance / la toxicomanie",
+           "(drug) addiction"
+          ],
+          [
+           "la drogue / le stupéfiant",
+           "drug (narcotic)"
+          ],
+          [
+           "accro",
+           "hooked (informal)"
+          ],
+          [
+           "la maladie mentale",
+           "mental illness"
+          ],
+          [
+           "le stress",
+           "stress"
+          ],
+          [
+           "le tabagisme",
+           "tobacco addiction / smoking"
+          ],
+          [
+           "le symptôme de sevrage",
+           "withdrawal symptom (book: symptôme de retrait)"
+          ],
+          [
+           "aveugle",
+           "blind"
+          ],
+          [
+           "sourd(e)",
+           "deaf"
+          ],
+          [
+           "la surdité",
+           "deafness"
+          ],
+          [
+           "la déficience",
+           "deficiency / impairment"
+          ],
+          [
+           "l'infirmité (f) / l'incapacité (f)",
+           "disability"
+          ],
+          [
+           "handicapé(e)",
+           "disabled / handicapped"
+          ],
+          [
+           "boiter",
+           "to limp"
+          ],
+          [
+           "la paralysie",
+           "paralysis"
+          ],
+          [
+           "paralysé(e)",
+           "paralyzed"
+          ],
+          [
+           "l'antibiotique (m)",
+           "antibiotic"
+          ],
+          [
+           "le pansement",
+           "(small) bandage / dressing"
+          ],
+          [
+           "la pilule contraceptive",
+           "birth control pill"
+          ],
+          [
+           "l'analyse de sang (f)",
+           "blood test"
+          ],
+          [
+           "la transfusion (sanguine)",
+           "blood transfusion"
+          ],
+          [
+           "ausculter",
+           "to examine (with stethoscope)"
+          ],
+          [
+           "la consultation",
+           "consultation"
+          ],
+          [
+           "grave",
+           "serious / critical"
+          ],
+          [
+           "le diagnostic",
+           "diagnosis"
+          ],
+          [
+           "le médicament",
+           "drug / medication"
+          ],
+          [
+           "l'urgence (f)",
+           "emergency"
+          ],
+          [
+           "les premiers soins / les premiers secours",
+           "first aid"
+          ],
+          [
+           "la piqûre",
+           "injection"
+          ],
+          [
+           "l'assurance maladie (f)",
+           "medical insurance"
+          ],
+          [
+           "la pommade",
+           "ointment"
+          ],
+          [
+           "l'opération (f)",
+           "operation / surgery"
+          ],
+          [
+           "le comprimé / le cachet",
+           "tablet / pill"
+          ],
+          [
+           "l'ordonnance (f)",
+           "prescription"
+          ],
+          [
+           "le repos",
+           "rest"
+          ],
+          [
+           "la réanimation",
+           "resuscitation"
+          ],
+          [
+           "la thérapie",
+           "therapy"
+          ],
+          [
+           "la greffe",
+           "transplant"
+          ],
+          [
+           "le traitement",
+           "treatment"
+          ],
+          [
+           "vacciner",
+           "to vaccinate"
+          ],
+          [
+           "le vaccin",
+           "vaccine"
+          ],
+          [
+           "le fauteuil roulant",
+           "wheelchair"
+          ],
+          [
+           "la radiographie",
+           "x-ray"
+          ],
+          [
+           "le / la généraliste",
+           "general practitioner"
+          ],
+          [
+           "le / la secouriste",
+           "first-aid worker"
+          ],
+          [
+           "la sage-femme",
+           "midwife"
+          ],
+          [
+           "l'infirmier / l'infirmière",
+           "nurse"
+          ],
+          [
+           "l'aide-soignant(e)",
+           "nurse's aide"
+          ],
+          [
+           "le / la kinésithérapeute",
+           "physical therapist"
+          ],
+          [
+           "le / la chirurgien(ne)",
+           "surgeon"
+          ],
+          [
+           "le chercheur / la chercheuse",
+           "researcher"
+          ],
+          [
+           "le cabinet (médical)",
+           "doctor's office"
+          ],
+          [
+           "la salle des urgences",
+           "emergency room"
+          ],
+          [
+           "de garde",
+           "on call"
+          ],
+          [
+           "les soins intensifs (m pl)",
+           "intensive care"
+          ],
+          [
+           "la salle d'attente",
+           "waiting room"
+          ],
+          [
+           "la grossesse",
+           "pregnancy"
+          ],
+          [
+           "enceinte",
+           "pregnant"
+          ],
+          [
+           "majeur(e)",
+           "of legal age"
+          ],
+          [
+           "le / la mineur(e)",
+           "minor"
+          ],
+          [
+           "l'âge mûr (m)",
+           "middle age"
+          ],
+          [
+           "la vieillesse / le troisième âge",
+           "old age"
+          ],
+          [
+           "la fleur de l'âge",
+           "prime of life"
+          ],
+          [
+           "l'enterrement (m)",
+           "burial"
+          ],
+          [
+           "les condoléances (f pl)",
+           "condolences"
+          ],
+          [
+           "décédé(e)",
+           "deceased"
+          ],
+          [
+           "l'héritage (m)",
+           "inheritance"
+          ],
+          [
+           "hériter",
+           "to inherit"
+          ],
+          [
+           "être en deuil",
+           "to be in mourning"
+          ],
+          [
+           "le testament",
+           "will (legal)"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Notez le **genre** avec chaque nom (_la grève_, _le chômage_) : une faute de genre se voit dans chaque phrase."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 91,
+   "title": "L'éducation et la formation",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "63 mots sur l'école, l'université, la formation à distance. Ces thèmes reviennent dans les documents et les sujets du DELF B2."
+    },
+    {
+     "t": "p",
+     "md": "Révisez-les dans **Cartes** : le français s'affiche, dites le sens à voix haute, puis évaluez-vous honnêtement."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Comprendre et employer le vocabulaire : l'éducation et la formation.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "L'éducation et la formation : liste de mots",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Français",
+           "Sens"
+          ],
+          [
+           "l'instruction civique (f)",
+           "civics"
+          ],
+          [
+           "la rédaction",
+           "composition (school essay)"
+          ],
+          [
+           "la dissertation",
+           "essay"
+          ],
+          [
+           "le débat",
+           "debate"
+          ],
+          [
+           "le résumé",
+           "summary"
+          ],
+          [
+           "l'explication de texte (f)",
+           "text analysis"
+          ],
+          [
+           "les sciences sociales (f pl)",
+           "social science"
+          ],
+          [
+           "le lycée professionnel",
+           "vocational high school"
+          ],
+          [
+           "la comptabilité",
+           "accounting"
+          ],
+          [
+           "la gestion",
+           "management"
+          ],
+          [
+           "la formation",
+           "training / education"
+          ],
+          [
+           "le centre de formation professionnelle",
+           "vocational training center"
+          ],
+          [
+           "s'appliquer / faire des efforts",
+           "to apply oneself"
+          ],
+          [
+           "la moyenne",
+           "average (grade)"
+          ],
+          [
+           "tricher",
+           "to cheat"
+          ],
+          [
+           "sécher un cours",
+           "to skip a class"
+          ],
+          [
+           "faire l'école buissonnière",
+           "to play truant"
+          ],
+          [
+           "la matière facultative",
+           "elective subject"
+          ],
+          [
+           "la matière obligatoire",
+           "required subject"
+          ],
+          [
+           "échouer / rater",
+           "to fail"
+          ],
+          [
+           "la note",
+           "grade"
+          ],
+          [
+           "noter",
+           "to grade"
+          ],
+          [
+           "le travail de groupe",
+           "group work"
+          ],
+          [
+           "les devoirs (m pl)",
+           "homework"
+          ],
+          [
+           "faire des progrès",
+           "to make progress"
+          ],
+          [
+           "le contrôle / l'interro (f)",
+           "quiz / test"
+          ],
+          [
+           "redoubler",
+           "to repeat a grade"
+          ],
+          [
+           "le bulletin scolaire",
+           "report card"
+          ],
+          [
+           "réussir un examen",
+           "to pass an exam"
+          ],
+          [
+           "passer un examen",
+           "to TAKE an exam (not pass)"
+          ],
+          [
+           "prendre des notes",
+           "to take notes"
+          ],
+          [
+           "l'instituteur / l'institutrice",
+           "primary school teacher"
+          ],
+          [
+           "l'enseignant(e)",
+           "teacher"
+          ],
+          [
+           "reçu(e)",
+           "admitted / passed"
+          ],
+          [
+           "recalé(e)",
+           "failed / rejected"
+          ],
+          [
+           "la licence",
+           "bachelor's degree"
+          ],
+          [
+           "le master",
+           "master's degree (book: la maîtrise, older term)"
+          ],
+          [
+           "le doctorat",
+           "PhD"
+          ],
+          [
+           "inscrit(e)",
+           "enrolled"
+          ],
+          [
+           "l'inscription (f)",
+           "registration"
+          ],
+          [
+           "le concours",
+           "competitive exam"
+          ],
+          [
+           "la culture générale",
+           "general knowledge / education"
+          ],
+          [
+           "l'enseignement (m)",
+           "teaching / instruction"
+          ],
+          [
+           "les connaissances (f pl)",
+           "knowledge"
+          ],
+          [
+           "le cours magistral",
+           "lecture course"
+          ],
+          [
+           "la faculté de droit",
+           "law school"
+          ],
+          [
+           "la faculté des lettres",
+           "school of literature / humanities"
+          ],
+          [
+           "le restaurant universitaire (le resto U)",
+           "university cafeteria"
+          ],
+          [
+           "la cité universitaire",
+           "university housing"
+          ],
+          [
+           "la bibliothèque",
+           "library"
+          ],
+          [
+           "l'enseignement à distance (m)",
+           "distance learning"
+          ],
+          [
+           "le cours par correspondance",
+           "correspondence course"
+          ],
+          [
+           "la cotisation",
+           "fee / dues"
+          ],
+          [
+           "le module",
+           "learning unit / module"
+          ],
+          [
+           "le cours du soir",
+           "night class"
+          ],
+          [
+           "le cours en ligne",
+           "online course"
+          ],
+          [
+           "s'abonner",
+           "to subscribe"
+          ],
+          [
+           "l'abonnement (m)",
+           "subscription"
+          ],
+          [
+           "le cours virtuel",
+           "virtual class"
+          ],
+          [
+           "le bâtiment",
+           "construction (industry) / building"
+          ],
+          [
+           "l'immobilier (m)",
+           "real estate"
+          ],
+          [
+           "les travaux publics (m pl)",
+           "public works"
+          ],
+          [
+           "la vente",
+           "sales"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Notez le **genre** avec chaque nom (_la grève_, _le chômage_) : une faute de genre se voit dans chaque phrase."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 92,
+   "title": "Le travail et l'économie",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "139 mots sur l'emploi, les conflits sociaux, la banque, l'économie. Ces thèmes reviennent dans les documents et les sujets du DELF B2."
+    },
+    {
+     "t": "p",
+     "md": "Révisez-les dans **Cartes** : le français s'affiche, dites le sens à voix haute, puis évaluez-vous honnêtement."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Comprendre et employer le vocabulaire : le travail et l'économie.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Le travail et l'économie : liste de mots",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Français",
+           "Sens"
+          ],
+          [
+           "le / la commerçant(e)",
+           "shopkeeper / tradesperson"
+          ],
+          [
+           "l'apprenti(e)",
+           "apprentice"
+          ],
+          [
+           "le / la stagiaire",
+           "intern / trainee"
+          ],
+          [
+           "l'ouvrier / l'ouvrière",
+           "(manual) worker"
+          ],
+          [
+           "l'entrepreneur / l'entrepreneuse",
+           "contractor / entrepreneur"
+          ],
+          [
+           "l'artisan (m)",
+           "craftsman"
+          ],
+          [
+           "postuler / poser sa candidature",
+           "to apply (for a job)"
+          ],
+          [
+           "le cadre",
+           "executive / manager"
+          ],
+          [
+           "obtenir une promotion",
+           "to get a promotion"
+          ],
+          [
+           "le stage",
+           "internship"
+          ],
+          [
+           "le débouché",
+           "job opening / career prospect"
+          ],
+          [
+           "faire carrière",
+           "to make a career"
+          ],
+          [
+           "l'emploi (m)",
+           "job / employment"
+          ],
+          [
+           "qualifié(e)",
+           "qualified"
+          ],
+          [
+           "le CV (curriculum vitae)",
+           "résumé"
+          ],
+          [
+           "se reconvertir / se recycler",
+           "to retrain"
+          ],
+          [
+           "se spécialiser",
+           "to specialize"
+          ],
+          [
+           "former",
+           "to train"
+          ],
+          [
+           "le / la salarié(e)",
+           "employee / wage earner"
+          ],
+          [
+           "le dossier",
+           "file"
+          ],
+          [
+           "le classeur",
+           "filing cabinet / binder"
+          ],
+          [
+           "le papier recyclé",
+           "recycled paper"
+          ],
+          [
+           "le traitement de texte",
+           "word processor"
+          ],
+          [
+           "le distributeur automatique",
+           "ATM / vending machine"
+          ],
+          [
+           "la succursale / l'agence (f)",
+           "branch (of a bank)"
+          ],
+          [
+           "le code secret",
+           "PIN"
+          ],
+          [
+           "le coffre-fort",
+           "safe"
+          ],
+          [
+           "la caisse d'épargne",
+           "savings bank"
+          ],
+          [
+           "le guichet",
+           "counter / teller's window"
+          ],
+          [
+           "les petites annonces (f pl)",
+           "classified ads"
+          ],
+          [
+           "le contrat",
+           "contract"
+          ],
+          [
+           "l'agence pour l'emploi (f)",
+           "employment agency (book: bureau de placement)"
+          ],
+          [
+           "embaucher / engager",
+           "to hire"
+          ],
+          [
+           "le boulot",
+           "job (informal)"
+          ],
+          [
+           "le formulaire de candidature",
+           "job application form"
+          ],
+          [
+           "l'offre d'emploi (f)",
+           "job vacancy"
+          ],
+          [
+           "la demande d'emploi",
+           "job application / jobs wanted"
+          ],
+          [
+           "l'ordre du jour (m)",
+           "agenda (of a meeting)"
+          ],
+          [
+           "nommer",
+           "to appoint"
+          ],
+          [
+           "la société / l'entreprise (f)",
+           "company"
+          ],
+          [
+           "l'employé(e)",
+           "employee"
+          ],
+          [
+           "le patron / la patronne",
+           "boss / employer"
+          ],
+          [
+           "le personnel",
+           "staff / personnel"
+          ],
+          [
+           "travailler à plein temps",
+           "to work full time"
+          ],
+          [
+           "travailler à temps partiel",
+           "to work part time"
+          ],
+          [
+           "travailler à domicile / le télétravail",
+           "to work at home / telework"
+          ],
+          [
+           "la prime",
+           "bonus"
+          ],
+          [
+           "les congés (m pl)",
+           "days off / leave"
+          ],
+          [
+           "gagner",
+           "to earn / to win"
+          ],
+          [
+           "les avantages sociaux (m pl)",
+           "fringe benefits (book: prestations sociales)"
+          ],
+          [
+           "le jour férié",
+           "public holiday"
+          ],
+          [
+           "le SMIC (salaire minimum)",
+           "minimum wage"
+          ],
+          [
+           "l'augmentation (f)",
+           "pay raise / increase"
+          ],
+          [
+           "la pension",
+           "pension"
+          ],
+          [
+           "la rémunération",
+           "remuneration / pay"
+          ],
+          [
+           "la retraite",
+           "retirement"
+          ],
+          [
+           "le salaire / le traitement",
+           "salary / wages"
+          ],
+          [
+           "le congé maladie",
+           "sick leave"
+          ],
+          [
+           "la Sécurité sociale",
+           "Social Security (French health & welfare system)"
+          ],
+          [
+           "faire le pont",
+           "to take a long weekend (bridge a holiday)"
+          ],
+          [
+           "les congés payés (m pl)",
+           "paid vacation"
+          ],
+          [
+           "l'accord (m)",
+           "agreement"
+          ],
+          [
+           "boycotter",
+           "to boycott"
+          ],
+          [
+           "la convention collective",
+           "collective (wage) agreement"
+          ],
+          [
+           "le compromis",
+           "compromise"
+          ],
+          [
+           "la revendication",
+           "demand / claim"
+          ],
+          [
+           "revendiquer / exiger",
+           "to demand"
+          ],
+          [
+           "le licenciement",
+           "dismissal / layoff"
+          ],
+          [
+           "licencier / congédier",
+           "to lay off / dismiss"
+          ],
+          [
+           "les partenaires sociaux (m pl)",
+           "employers and unions"
+          ],
+          [
+           "se syndiquer",
+           "to join / form a union"
+          ],
+          [
+           "reprendre le travail",
+           "to go back to work"
+          ],
+          [
+           "le conflit social",
+           "labor dispute"
+          ],
+          [
+           "le médiateur / la médiatrice",
+           "mediator"
+          ],
+          [
+           "négocier",
+           "to negotiate"
+          ],
+          [
+           "la négociation",
+           "negotiation"
+          ],
+          [
+           "militer / lutter",
+           "to campaign / fight (for a cause)"
+          ],
+          [
+           "la manifestation",
+           "protest / demonstration"
+          ],
+          [
+           "manifester",
+           "to demonstrate / protest"
+          ],
+          [
+           "contester",
+           "to contest / protest"
+          ],
+          [
+           "démissionner",
+           "to resign"
+          ],
+          [
+           "la démission",
+           "resignation"
+          ],
+          [
+           "les indemnités de licenciement (f pl)",
+           "severance pay"
+          ],
+          [
+           "la grève",
+           "strike"
+          ],
+          [
+           "le / la gréviste",
+           "striker"
+          ],
+          [
+           "le chômeur / la chômeuse",
+           "unemployed person"
+          ],
+          [
+           "le chômage",
+           "unemployment"
+          ],
+          [
+           "les allocations chômage (f pl)",
+           "unemployment benefits"
+          ],
+          [
+           "le syndicat",
+           "union"
+          ],
+          [
+           "débrayer",
+           "to walk out (stop work)"
+          ],
+          [
+           "le solde",
+           "account balance"
+          ],
+          [
+           "le compte en banque",
+           "bank account"
+          ],
+          [
+           "la monnaie / la devise",
+           "currency"
+          ],
+          [
+           "le versement",
+           "deposit / payment"
+          ],
+          [
+           "verser",
+           "to deposit / pay in"
+          ],
+          [
+           "le taux d'intérêt",
+           "interest rate"
+          ],
+          [
+           "les intérêts (m pl)",
+           "interest"
+          ],
+          [
+           "le placement / l'investissement (m)",
+           "investment"
+          ],
+          [
+           "le prêt",
+           "loan"
+          ],
+          [
+           "le virement",
+           "money transfer (book: transfert)"
+          ],
+          [
+           "le taux de change",
+           "exchange rate"
+          ],
+          [
+           "économiser / épargner",
+           "to save (money)"
+          ],
+          [
+           "le compte d'épargne",
+           "savings account"
+          ],
+          [
+           "le relevé de compte",
+           "bank statement"
+          ],
+          [
+           "retirer (de l'argent)",
+           "to withdraw (money)"
+          ],
+          [
+           "le retrait",
+           "withdrawal"
+          ],
+          [
+           "la faillite",
+           "bankruptcy"
+          ],
+          [
+           "la facture",
+           "bill / invoice"
+          ],
+          [
+           "le budget",
+           "budget"
+          ],
+          [
+           "l'argent liquide (m) / les espèces (f pl)",
+           "cash"
+          ],
+          [
+           "la garantie",
+           "collateral / guarantee"
+          ],
+          [
+           "la concurrence",
+           "competition"
+          ],
+          [
+           "le PDG (président-directeur général)",
+           "CEO"
+          ],
+          [
+           "les impôts (m pl)",
+           "taxes"
+          ],
+          [
+           "la déclaration de revenus",
+           "tax return"
+          ],
+          [
+           "le fisc",
+           "tax authorities"
+          ],
+          [
+           "la direction",
+           "management"
+          ],
+          [
+           "à but non lucratif",
+           "nonprofit"
+          ],
+          [
+           "l'associé(e)",
+           "partner (business)"
+          ],
+          [
+           "la TVA (taxe sur la valeur ajoutée)",
+           "VAT / sales tax"
+          ],
+          [
+           "le capital",
+           "assets / capital"
+          ],
+          [
+           "la vente aux enchères",
+           "auction"
+          ],
+          [
+           "la balance commerciale",
+           "balance of trade"
+          ],
+          [
+           "le coût de la vie",
+           "cost of living"
+          ],
+          [
+           "la dette",
+           "debt"
+          ],
+          [
+           "la baisse",
+           "fall / decrease"
+          ],
+          [
+           "la hausse",
+           "rise / increase"
+          ],
+          [
+           "la reprise économique",
+           "economic recovery (book: redressement)"
+          ],
+          [
+           "l'inflation (f)",
+           "inflation"
+          ],
+          [
+           "l'investisseur (m)",
+           "investor"
+          ],
+          [
+           "la perte",
+           "loss"
+          ],
+          [
+           "le bénéfice / le profit",
+           "profit"
+          ],
+          [
+           "la récession",
+           "recession"
+          ],
+          [
+           "l'action (f)",
+           "share (stock)"
+          ],
+          [
+           "l'actionnaire (m/f)",
+           "shareholder"
+          ],
+          [
+           "la Bourse",
+           "stock exchange"
+          ],
+          [
+           "l'offre et la demande",
+           "supply and demand"
+          ],
+          [
+           "fournir",
+           "to supply"
+          ],
+          [
+           "le rachat / l'acquisition (f)",
+           "takeover"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Notez le **genre** avec chaque nom (_la grève_, _le chômage_) : une faute de genre se voit dans chaque phrase."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 93,
+   "title": "Les médias et la culture",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "114 mots sur la presse, la télévision, internet, la lecture. Ces thèmes reviennent dans les documents et les sujets du DELF B2."
+    },
+    {
+     "t": "p",
+     "md": "Révisez-les dans **Cartes** : le français s'affiche, dites le sens à voix haute, puis évaluez-vous honnêtement."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Comprendre et employer le vocabulaire : les médias et la culture.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Les médias et la culture : liste de mots",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Français",
+           "Sens"
+          ],
+          [
+           "l'acteur / l'actrice",
+           "actor / actress"
+          ],
+          [
+           "le comédien / la comédienne",
+           "actor / actress (stage)"
+          ],
+          [
+           "applaudir",
+           "to applaud"
+          ],
+          [
+           "le public / l'assistance (f)",
+           "audience"
+          ],
+          [
+           "le / la critique",
+           "critic"
+          ],
+          [
+           "doublé",
+           "dubbed"
+          ],
+          [
+           "sous-titré",
+           "subtitled"
+          ],
+          [
+           "passionnant(e)",
+           "exciting / fascinating"
+          ],
+          [
+           "tourner un film",
+           "to shoot a film"
+          ],
+          [
+           "le navet",
+           "flop (bad film)"
+          ],
+          [
+           "siffler",
+           "to hiss / boo / whistle"
+          ],
+          [
+           "la vedette",
+           "star"
+          ],
+          [
+           "le / la cinéphile",
+           "movie fan"
+          ],
+          [
+           "émouvant(e)",
+           "moving (emotionally)"
+          ],
+          [
+           "la pièce (de théâtre)",
+           "play"
+          ],
+          [
+           "le / la dramaturge",
+           "playwright"
+          ],
+          [
+           "l'intrigue (f)",
+           "plot"
+          ],
+          [
+           "la répétition",
+           "rehearsal"
+          ],
+          [
+           "la mise en scène",
+           "staging / direction"
+          ],
+          [
+           "le spectacle / la représentation",
+           "show / performance"
+          ],
+          [
+           "le trac",
+           "stage fright"
+          ],
+          [
+           "la tournée",
+           "tour"
+          ],
+          [
+           "l'enregistrement (m)",
+           "recording"
+          ],
+          [
+           "l'exposition (f)",
+           "exhibition"
+          ],
+          [
+           "le chef-d'œuvre",
+           "masterpiece"
+          ],
+          [
+           "les arts plastiques (m pl)",
+           "visual arts"
+          ],
+          [
+           "l'œuvre d'art (f)",
+           "work of art"
+          ],
+          [
+           "l'atelier (m)",
+           "studio / workshop"
+          ],
+          [
+           "contemporain(e)",
+           "contemporary"
+          ],
+          [
+           "la publicité",
+           "advertising"
+          ],
+          [
+           "le présentateur / la présentatrice",
+           "announcer / TV presenter"
+          ],
+          [
+           "diffuser / retransmettre",
+           "to broadcast"
+          ],
+          [
+           "l'émission (f)",
+           "broadcast / TV programme"
+          ],
+          [
+           "le dessin animé",
+           "cartoon"
+          ],
+          [
+           "le personnage",
+           "character"
+          ],
+          [
+           "le jeu télévisé",
+           "game show"
+          ],
+          [
+           "l'auditeur / l'auditrice",
+           "listener"
+          ],
+          [
+           "le téléspectateur / la téléspectatrice",
+           "TV viewer"
+          ],
+          [
+           "l'émission en direct (f)",
+           "live broadcast"
+          ],
+          [
+           "en différé",
+           "pre-recorded / time-delayed"
+          ],
+          [
+           "l'animateur / l'animatrice",
+           "host / moderator"
+          ],
+          [
+           "les actualités / les informations (f pl)",
+           "news"
+          ],
+          [
+           "la chaîne publique / privée",
+           "public / private channel"
+          ],
+          [
+           "le reportage",
+           "report (news)"
+          ],
+          [
+           "le court-métrage",
+           "short film"
+          ],
+          [
+           "le long-métrage",
+           "feature film"
+          ],
+          [
+           "le feuilleton",
+           "soap opera / serial"
+          ],
+          [
+           "le téléfilm",
+           "TV movie"
+          ],
+          [
+           "le journal télévisé (le JT)",
+           "TV news programme"
+          ],
+          [
+           "la série télévisée",
+           "TV series"
+          ],
+          [
+           "le logiciel antivirus",
+           "antivirus program"
+          ],
+          [
+           "le navigateur",
+           "browser (book: l'explorateur)"
+          ],
+          [
+           "cliquer",
+           "to click"
+          ],
+          [
+           "le jeu vidéo",
+           "video game"
+          ],
+          [
+           "l'informaticien(ne)",
+           "computer specialist"
+          ],
+          [
+           "planter / se bloquer",
+           "to crash (computer)"
+          ],
+          [
+           "le courriel / le mail",
+           "e-mail"
+          ],
+          [
+           "le pirate (informatique)",
+           "hacker"
+          ],
+          [
+           "le disque dur",
+           "hard disk"
+          ],
+          [
+           "le matériel",
+           "hardware"
+          ],
+          [
+           "la page d'accueil",
+           "home page"
+          ],
+          [
+           "installer",
+           "to install"
+          ],
+          [
+           "le portable",
+           "laptop / mobile phone"
+          ],
+          [
+           "se connecter",
+           "to log on"
+          ],
+          [
+           "l'écran (m)",
+           "screen / monitor"
+          ],
+          [
+           "la souris",
+           "mouse"
+          ],
+          [
+           "le mot de passe",
+           "password"
+          ],
+          [
+           "imprimer",
+           "to print"
+          ],
+          [
+           "le moteur de recherche",
+           "search engine"
+          ],
+          [
+           "le logiciel",
+           "software"
+          ],
+          [
+           "taper",
+           "to type"
+          ],
+          [
+           "l'utilisateur / l'utilisatrice",
+           "user"
+          ],
+          [
+           "l'usager / l'usagère",
+           "user (of a public service)"
+          ],
+          [
+           "le site web",
+           "website"
+          ],
+          [
+           "télécharger",
+           "to download"
+          ],
+          [
+           "le réseau social",
+           "social network"
+          ],
+          [
+           "le roman d'aventure",
+           "adventure novel"
+          ],
+          [
+           "l'auteur(e)",
+           "author"
+          ],
+          [
+           "la biographie",
+           "biography"
+          ],
+          [
+           "la conférence",
+           "lecture / talk"
+          ],
+          [
+           "le roman policier",
+           "detective novel"
+          ],
+          [
+           "le roman historique",
+           "historical novel"
+          ],
+          [
+           "le conférencier / la conférencière",
+           "lecturer / speaker"
+          ],
+          [
+           "le mouvement littéraire",
+           "literary movement"
+          ],
+          [
+           "l'œuvre (f)",
+           "(literary) work"
+          ],
+          [
+           "le romancier / la romancière",
+           "novelist"
+          ],
+          [
+           "la poésie",
+           "poetry"
+          ],
+          [
+           "le scénario",
+           "script / screenplay"
+          ],
+          [
+           "l'écrivain(e)",
+           "writer"
+          ],
+          [
+           "la petite annonce",
+           "(classified) ad"
+          ],
+          [
+           "le dessin humoristique / la caricature",
+           "cartoon / caricature"
+          ],
+          [
+           "la rubrique",
+           "column / section (newspaper)"
+          ],
+          [
+           "la bande dessinée (la BD)",
+           "comic strip / comic book"
+          ],
+          [
+           "les mots croisés (m pl)",
+           "crossword puzzle"
+          ],
+          [
+           "le rédacteur / la rédactrice",
+           "editor (journalist)"
+          ],
+          [
+           "l'éditeur / l'éditrice",
+           "publisher"
+          ],
+          [
+           "l'éditorial (m)",
+           "editorial"
+          ],
+          [
+           "à la une",
+           "on the front page"
+          ],
+          [
+           "le titre",
+           "headline / title"
+          ],
+          [
+           "la presse",
+           "the press"
+          ],
+          [
+           "la conférence de presse",
+           "press conference"
+          ],
+          [
+           "publier",
+           "to publish"
+          ],
+          [
+           "le lecteur / la lectrice",
+           "reader"
+          ],
+          [
+           "le lauréat / la lauréate",
+           "winner (of a prize)"
+          ],
+          [
+           "Débats et Opinions",
+           "Editorials / Op-eds (newspaper section)"
+          ],
+          [
+           "Culture et Spectacles",
+           "Entertainment (newspaper section)"
+          ],
+          [
+           "Art de vivre",
+           "Lifestyle (newspaper section)"
+          ],
+          [
+           "la nécrologie",
+           "obituaries"
+          ],
+          [
+           "la météo",
+           "weather (forecast)"
+          ],
+          [
+           "le loisir",
+           "leisure / free time"
+          ],
+          [
+           "le divertissement",
+           "entertainment"
+          ],
+          [
+           "se détendre",
+           "to relax"
+          ],
+          [
+           "passionné(e) / mordu(e)",
+           "passionate / crazy about"
+          ],
+          [
+           "le bricolage",
+           "DIY"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Notez le **genre** avec chaque nom (_la grève_, _le chômage_) : une faute de genre se voit dans chaque phrase."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 94,
+   "title": "La société et la politique",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "187 mots sur l'immigration, la justice, les élections, les relations internationales. Ces thèmes reviennent dans les documents et les sujets du DELF B2."
+    },
+    {
+     "t": "p",
+     "md": "Révisez-les dans **Cartes** : le français s'affiche, dites le sens à voix haute, puis évaluez-vous honnêtement."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Comprendre et employer le vocabulaire : la société et la politique.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "La société et la politique : liste de mots",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Français",
+           "Sens"
+          ],
+          [
+           "l'acte de naissance (m)",
+           "birth certificate"
+          ],
+          [
+           "le citoyen / la citoyenne",
+           "citizen"
+          ],
+          [
+           "le civisme",
+           "civic-mindedness / good citizenship"
+          ],
+          [
+           "la citoyenneté",
+           "citizenship"
+          ],
+          [
+           "l'identité culturelle (f)",
+           "cultural identity"
+          ],
+          [
+           "l'expulsion (f)",
+           "deportation / eviction"
+          ],
+          [
+           "la discrimination",
+           "discrimination"
+          ],
+          [
+           "la double nationalité",
+           "dual nationality"
+          ],
+          [
+           "l'exclusion (f)",
+           "exclusion"
+          ],
+          [
+           "expatrié(e)",
+           "expatriated / expat"
+          ],
+          [
+           "l'étranger / l'étrangère",
+           "foreigner"
+          ],
+          [
+           "la carte d'identité",
+           "identity card"
+          ],
+          [
+           "le / la clandestin(e)",
+           "illegal immigrant"
+          ],
+          [
+           "l'immigré(e)",
+           "immigrant"
+          ],
+          [
+           "l'immigration (f)",
+           "immigration"
+          ],
+          [
+           "s'intégrer",
+           "to integrate"
+          ],
+          [
+           "l'intégration (f)",
+           "integration"
+          ],
+          [
+           "l'intolérance (f)",
+           "intolerance"
+          ],
+          [
+           "la minorité",
+           "minority"
+          ],
+          [
+           "la naturalisation",
+           "naturalization"
+          ],
+          [
+           "l'asile politique (m)",
+           "political asylum"
+          ],
+          [
+           "le préjugé",
+           "prejudice"
+          ],
+          [
+           "le racisme",
+           "racism"
+          ],
+          [
+           "le / la réfugié(e)",
+           "refugee"
+          ],
+          [
+           "le titre de séjour",
+           "residence permit (book: permis de séjour)"
+          ],
+          [
+           "le droit d'asile",
+           "right of asylum"
+          ],
+          [
+           "le droit du sang",
+           "citizenship by descent"
+          ],
+          [
+           "le droit du sol",
+           "citizenship by place of birth"
+          ],
+          [
+           "la tolérance",
+           "tolerance"
+          ],
+          [
+           "sans papiers",
+           "undocumented"
+          ],
+          [
+           "le permis de travail",
+           "work permit"
+          ],
+          [
+           "acquitter",
+           "to acquit"
+          ],
+          [
+           "faire appel",
+           "to appeal"
+          ],
+          [
+           "enfreindre / violer la loi",
+           "to break the law"
+          ],
+          [
+           "inculper / mettre en examen",
+           "to charge (with a crime)"
+          ],
+          [
+           "condamner",
+           "to sentence / convict"
+          ],
+          [
+           "le / la condamné(e)",
+           "convict"
+          ],
+          [
+           "le tribunal correctionnel",
+           "criminal court"
+          ],
+          [
+           "comparaître (en justice)",
+           "to appear in court"
+          ],
+          [
+           "la détention provisoire",
+           "custody pending trial"
+          ],
+          [
+           "la peine de mort",
+           "death penalty"
+          ],
+          [
+           "l'avocat(e)",
+           "lawyer"
+          ],
+          [
+           "le non-lieu",
+           "dismissal of charges"
+          ],
+          [
+           "le test ADN",
+           "DNA test"
+          ],
+          [
+           "les empreintes digitales (f pl)",
+           "fingerprints"
+          ],
+          [
+           "à décharge / à charge",
+           "for the defense / for the prosecution"
+          ],
+          [
+           "la liberté",
+           "freedom"
+          ],
+          [
+           "la culpabilité",
+           "guilt"
+          ],
+          [
+           "coupable",
+           "guilty"
+          ],
+          [
+           "la réclusion à perpétuité",
+           "life imprisonment"
+          ],
+          [
+           "illégal(e)",
+           "illegal"
+          ],
+          [
+           "le juge",
+           "judge"
+          ],
+          [
+           "le / la juré(e)",
+           "juror"
+          ],
+          [
+           "la loi",
+           "a law"
+          ],
+          [
+           "le droit",
+           "law (the field) / a right"
+          ],
+          [
+           "le serment",
+           "oath"
+          ],
+          [
+           "plaider",
+           "to plead"
+          ],
+          [
+           "la peine de prison",
+           "prison sentence"
+          ],
+          [
+           "le procureur",
+           "prosecutor"
+          ],
+          [
+           "la légitime défense",
+           "self-defense"
+          ],
+          [
+           "avec sursis",
+           "suspended (sentence)"
+          ],
+          [
+           "le témoignage",
+           "testimony"
+          ],
+          [
+           "le procès",
+           "trial"
+          ],
+          [
+           "le témoin",
+           "witness"
+          ],
+          [
+           "les forces de l'ordre (f pl)",
+           "law enforcement"
+          ],
+          [
+           "arrêter / interpeller",
+           "to arrest"
+          ],
+          [
+           "le flic",
+           "cop (informal)"
+          ],
+          [
+           "mener l'enquête",
+           "to investigate"
+          ],
+          [
+           "l'enquête (f)",
+           "investigation"
+          ],
+          [
+           "le commissariat",
+           "police station"
+          ],
+          [
+           "le / la complice",
+           "accomplice"
+          ],
+          [
+           "l'incendie criminel (m)",
+           "arson"
+          ],
+          [
+           "le chantage",
+           "blackmail"
+          ],
+          [
+           "le cambriolage",
+           "burglary"
+          ],
+          [
+           "cambrioler",
+           "to burgle"
+          ],
+          [
+           "le casier judiciaire",
+           "criminal record"
+          ],
+          [
+           "la garde à vue",
+           "police custody"
+          ],
+          [
+           "le trafic de drogue",
+           "drug trafficking"
+          ],
+          [
+           "le détournement de fonds",
+           "embezzlement"
+          ],
+          [
+           "le / la délinquant(e)",
+           "offender / delinquent"
+          ],
+          [
+           "la contrefaçon",
+           "forgery / counterfeit"
+          ],
+          [
+           "le harcèlement",
+           "harassment"
+          ],
+          [
+           "la délinquance juvénile",
+           "juvenile crime"
+          ],
+          [
+           "l'enlèvement (m)",
+           "kidnapping"
+          ],
+          [
+           "l'homicide involontaire (m)",
+           "manslaughter"
+          ],
+          [
+           "le délit",
+           "offence / misdemeanor"
+          ],
+          [
+           "pris en flagrant délit",
+           "caught in the act"
+          ],
+          [
+           "le meurtre / l'assassinat (m)",
+           "murder"
+          ],
+          [
+           "le / la récidiviste",
+           "repeat offender"
+          ],
+          [
+           "le vol à l'étalage",
+           "shoplifting"
+          ],
+          [
+           "l'escroc (m)",
+           "swindler"
+          ],
+          [
+           "le vandalisme",
+           "vandalism"
+          ],
+          [
+           "la Déclaration des droits de l'homme",
+           "Declaration of the Rights of Man / Bill of Rights"
+          ],
+          [
+           "le projet de loi",
+           "bill (proposed law)"
+          ],
+          [
+           "la démocratie",
+           "democracy"
+          ],
+          [
+           "l'égalité (f)",
+           "equality"
+          ],
+          [
+           "le pouvoir exécutif",
+           "executive power"
+          ],
+          [
+           "le pouvoir législatif",
+           "legislative power"
+          ],
+          [
+           "le pouvoir judiciaire",
+           "judicial power"
+          ],
+          [
+           "la patrie",
+           "homeland"
+          ],
+          [
+           "la devise",
+           "motto / currency"
+          ],
+          [
+           "l'Assemblée nationale (f)",
+           "National Assembly"
+          ],
+          [
+           "l'État (m)",
+           "the State"
+          ],
+          [
+           "s'abstenir",
+           "to abstain"
+          ],
+          [
+           "l'abstention (f)",
+           "abstention (not voting)"
+          ],
+          [
+           "le bulletin de vote",
+           "ballot paper"
+          ],
+          [
+           "le scrutin",
+           "ballot / vote"
+          ],
+          [
+           "le bulletin blanc",
+           "blank ballot"
+          ],
+          [
+           "le / la candidat(e)",
+           "candidate"
+          ],
+          [
+           "dépouiller le scrutin",
+           "to count the votes"
+          ],
+          [
+           "élire",
+           "to elect"
+          ],
+          [
+           "élu(e)",
+           "elected / elected official"
+          ],
+          [
+           "la circonscription",
+           "constituency"
+          ],
+          [
+           "le bulletin nul",
+           "invalid ballot"
+          ],
+          [
+           "le tour de scrutin",
+           "round of voting"
+          ],
+          [
+           "le suffrage universel",
+           "universal suffrage"
+          ],
+          [
+           "la voix",
+           "vote / voice"
+          ],
+          [
+           "l'électeur / l'électrice",
+           "voter"
+          ],
+          [
+           "la coalition",
+           "coalition"
+          ],
+          [
+           "la dictature",
+           "dictatorship"
+          ],
+          [
+           "majoritaire / minoritaire",
+           "in the majority / minority"
+          ],
+          [
+           "la gauche / la droite",
+           "the left / the right (politics)"
+          ],
+          [
+           "la mesure",
+           "measure"
+          ],
+          [
+           "le parti",
+           "(political) party"
+          ],
+          [
+           "le conseil des ministres",
+           "cabinet"
+          ],
+          [
+           "le député",
+           "member of parliament"
+          ],
+          [
+           "le / la dirigeant(e)",
+           "leader"
+          ],
+          [
+           "l'homme / la femme politique",
+           "politician"
+          ],
+          [
+           "le Premier ministre",
+           "prime minister"
+          ],
+          [
+           "le mandat",
+           "term of office"
+          ],
+          [
+           "le / la fonctionnaire",
+           "civil servant"
+          ],
+          [
+           "le maire",
+           "mayor"
+          ],
+          [
+           "la mairie / l'hôtel de ville (m)",
+           "town hall"
+          ],
+          [
+           "le / la contribuable",
+           "taxpayer"
+          ],
+          [
+           "imposable",
+           "taxable"
+          ],
+          [
+           "la commune",
+           "municipality"
+          ],
+          [
+           "l'allié(e)",
+           "ally"
+          ],
+          [
+           "l'ambassadeur / l'ambassadrice",
+           "ambassador"
+          ],
+          [
+           "l'ambassade (f)",
+           "embassy"
+          ],
+          [
+           "le consulat",
+           "consulate"
+          ],
+          [
+           "coopérer",
+           "to cooperate"
+          ],
+          [
+           "la crise",
+           "crisis"
+          ],
+          [
+           "la diplomatie",
+           "diplomacy"
+          ],
+          [
+           "le désaccord",
+           "disagreement"
+          ],
+          [
+           "la politique étrangère",
+           "foreign policy"
+          ],
+          [
+           "le sommet",
+           "summit"
+          ],
+          [
+           "la neutralité",
+           "neutrality"
+          ],
+          [
+           "le jumelage",
+           "twinning (of towns)"
+          ],
+          [
+           "la puissance",
+           "power (nation)"
+          ],
+          [
+           "le rapprochement",
+           "reconciliation / rapprochement"
+          ],
+          [
+           "la sanction",
+           "sanction"
+          ],
+          [
+           "l'entretien (m)",
+           "talk / interview"
+          ],
+          [
+           "le traité",
+           "treaty"
+          ],
+          [
+           "l'entente (f)",
+           "understanding / agreement"
+          ],
+          [
+           "l'armement (m)",
+           "arms"
+          ],
+          [
+           "la guerre civile",
+           "civil war"
+          ],
+          [
+           "l'objecteur de conscience (m)",
+           "conscientious objector"
+          ],
+          [
+           "la défaite",
+           "defeat"
+          ],
+          [
+           "le désarmement",
+           "disarmament"
+          ],
+          [
+           "l'ennemi (m)",
+           "enemy"
+          ],
+          [
+           "les hostilités (f pl)",
+           "hostilities"
+          ],
+          [
+           "les pertes (f pl)",
+           "losses / casualties"
+          ],
+          [
+           "la paix",
+           "peace"
+          ],
+          [
+           "la prolifération",
+           "proliferation"
+          ],
+          [
+           "l'état d'urgence (m)",
+           "state of emergency"
+          ],
+          [
+           "se rendre",
+           "to surrender"
+          ],
+          [
+           "la trahison",
+           "treason / betrayal"
+          ],
+          [
+           "la victoire",
+           "victory"
+          ],
+          [
+           "le crime de guerre",
+           "war crime"
+          ],
+          [
+           "les forces armées (f pl)",
+           "armed forces"
+          ],
+          [
+           "le bombardement",
+           "bombing"
+          ],
+          [
+           "détruire",
+           "to destroy"
+          ],
+          [
+           "le service militaire",
+           "military service"
+          ],
+          [
+           "l'armée de métier (f)",
+           "professional army"
+          ],
+          [
+           "les troupes (f pl)",
+           "troops"
+          ],
+          [
+           "la voiture piégée",
+           "car bomb"
+          ],
+          [
+           "l'effondrement (m)",
+           "collapse"
+          ],
+          [
+           "le détournement (d'avion)",
+           "hijacking"
+          ],
+          [
+           "le canular",
+           "hoax"
+          ],
+          [
+           "l'otage (m)",
+           "hostage"
+          ],
+          [
+           "l'insécurité (f)",
+           "lack of security"
+          ],
+          [
+           "l'opération de sauvetage (f)",
+           "rescue operation"
+          ],
+          [
+           "fouiller",
+           "to search"
+          ],
+          [
+           "l'attentat (m)",
+           "(terrorist) attack"
+          ],
+          [
+           "traquer",
+           "to track down"
+          ],
+          [
+           "traumatisant(e)",
+           "traumatic"
+          ],
+          [
+           "la victime",
+           "victim"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Notez le **genre** avec chaque nom (_la grève_, _le chômage_) : une faute de genre se voit dans chaque phrase."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 95,
+   "title": "L'environnement",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "121 mots sur l'écologie, la pollution, le climat, l'agriculture. Ces thèmes reviennent dans les documents et les sujets du DELF B2."
+    },
+    {
+     "t": "p",
+     "md": "Révisez-les dans **Cartes** : le français s'affiche, dites le sens à voix haute, puis évaluez-vous honnêtement."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Comprendre et employer le vocabulaire : l'environnement.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "L'environnement : liste de mots",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Français",
+           "Sens"
+          ],
+          [
+           "l'atmosphère (f)",
+           "atmosphere"
+          ],
+          [
+           "le littoral",
+           "coastline / coastal area"
+          ],
+          [
+           "la campagne",
+           "countryside"
+          ],
+          [
+           "désertique",
+           "desert-like / desolate"
+          ],
+          [
+           "le paysage",
+           "landscape"
+          ],
+          [
+           "le relief",
+           "terrain / relief"
+          ],
+          [
+           "la rive / la berge",
+           "bank (of river)"
+          ],
+          [
+           "le ruisseau",
+           "stream"
+          ],
+          [
+           "le fleuve",
+           "river (flowing to the sea)"
+          ],
+          [
+           "la rivière",
+           "river (tributary)"
+          ],
+          [
+           "l'embouchure (f)",
+           "river mouth"
+          ],
+          [
+           "la source",
+           "spring / source"
+          ],
+          [
+           "la marée",
+           "tide"
+          ],
+          [
+           "en aval / en amont",
+           "downstream / upstream"
+          ],
+          [
+           "la vague",
+           "wave"
+          ],
+          [
+           "s'éclaircir",
+           "to clear up"
+          ],
+          [
+           "l'éclaircie (f)",
+           "sunny spell"
+          ],
+          [
+           "le brouillard",
+           "fog"
+          ],
+          [
+           "le verglas",
+           "black ice"
+          ],
+          [
+           "la brume",
+           "mist"
+          ],
+          [
+           "couvert",
+           "overcast"
+          ],
+          [
+           "l'averse (f)",
+           "shower (rain)"
+          ],
+          [
+           "le dégel",
+           "thaw"
+          ],
+          [
+           "la zone sinistrée",
+           "disaster zone"
+          ],
+          [
+           "la canicule",
+           "heat wave"
+          ],
+          [
+           "la sécheresse",
+           "drought"
+          ],
+          [
+           "le tremblement de terre / le séisme",
+           "earthquake"
+          ],
+          [
+           "l'inondation (f)",
+           "flood"
+          ],
+          [
+           "l'ouragan (m)",
+           "hurricane"
+          ],
+          [
+           "le glissement de terrain",
+           "landslide"
+          ],
+          [
+           "la foudre",
+           "lightning (strike)"
+          ],
+          [
+           "la tempête",
+           "storm"
+          ],
+          [
+           "l'orage (m)",
+           "thunderstorm"
+          ],
+          [
+           "le raz-de-marée",
+           "tidal wave"
+          ],
+          [
+           "les pluies torrentielles (f pl)",
+           "torrential rain"
+          ],
+          [
+           "la prévision",
+           "forecast"
+          ],
+          [
+           "la perturbation",
+           "(weather) disturbance"
+          ],
+          [
+           "tempéré(e)",
+           "temperate"
+          ],
+          [
+           "biologique / bio",
+           "organic / biological"
+          ],
+          [
+           "la diversité / la biodiversité",
+           "diversity / biodiversity"
+          ],
+          [
+           "l'écologiste (m/f)",
+           "environmentalist / ecologist"
+          ],
+          [
+           "l'écosystème (m)",
+           "ecosystem"
+          ],
+          [
+           "la faune et la flore",
+           "wildlife and plants"
+          ],
+          [
+           "planétaire",
+           "global"
+          ],
+          [
+           "l'habitat (m)",
+           "habitat"
+          ],
+          [
+           "le déséquilibre",
+           "imbalance"
+          ],
+          [
+           "irréversible",
+           "irreversible"
+          ],
+          [
+           "les ressources naturelles (f pl)",
+           "natural resources"
+          ],
+          [
+           "la couche d'ozone",
+           "ozone layer"
+          ],
+          [
+           "préserver",
+           "to preserve"
+          ],
+          [
+           "protéger / sauvegarder",
+           "to protect"
+          ],
+          [
+           "la sauvegarde",
+           "protection / safeguarding"
+          ],
+          [
+           "recycler",
+           "to recycle"
+          ],
+          [
+           "le recyclage",
+           "recycling"
+          ],
+          [
+           "l'espèce (f)",
+           "species"
+          ],
+          [
+           "la nature sauvage",
+           "wilderness"
+          ],
+          [
+           "les pluies acides (f pl)",
+           "acid rain"
+          ],
+          [
+           "biodégradable",
+           "biodegradable"
+          ],
+          [
+           "enrayer",
+           "to stop / curb"
+          ],
+          [
+           "le dioxyde de carbone (CO₂)",
+           "carbon dioxide"
+          ],
+          [
+           "chimique",
+           "chemical"
+          ],
+          [
+           "le nettoyage",
+           "cleanup"
+          ],
+          [
+           "l'inquiétude (f)",
+           "concern / worry"
+          ],
+          [
+           "la contamination",
+           "contamination"
+          ],
+          [
+           "le récif de corail",
+           "coral reef"
+          ],
+          [
+           "abîmer",
+           "to damage"
+          ],
+          [
+           "les dégâts (m pl)",
+           "damage"
+          ],
+          [
+           "la déforestation / le déboisement",
+           "deforestation"
+          ],
+          [
+           "la dégradation",
+           "degradation"
+          ],
+          [
+           "la désertification",
+           "desertification"
+          ],
+          [
+           "disparaître",
+           "to disappear"
+          ],
+          [
+           "l'eau potable (f)",
+           "drinking water"
+          ],
+          [
+           "la décharge",
+           "dump / landfill"
+          ],
+          [
+           "l'érosion (f)",
+           "erosion"
+          ],
+          [
+           "la disparition",
+           "extinction / disappearance"
+          ],
+          [
+           "en voie de disparition",
+           "endangered"
+          ],
+          [
+           "l'engrais (m)",
+           "fertilizer"
+          ],
+          [
+           "les ordures (f pl)",
+           "garbage"
+          ],
+          [
+           "la poubelle",
+           "garbage can"
+          ],
+          [
+           "l'effet de serre (m)",
+           "greenhouse effect"
+          ],
+          [
+           "les gaz à effet de serre (m pl)",
+           "greenhouse gases"
+          ],
+          [
+           "nocif / nocive",
+           "harmful"
+          ],
+          [
+           "la calotte glaciaire",
+           "ice cap"
+          ],
+          [
+           "l'impact (m)",
+           "impact"
+          ],
+          [
+           "industriel(le)",
+           "industrial"
+          ],
+          [
+           "l'industrialisation (f)",
+           "industrialization"
+          ],
+          [
+           "envahir",
+           "to invade"
+          ],
+          [
+           "fondre",
+           "to melt"
+          ],
+          [
+           "nucléaire",
+           "nuclear"
+          ],
+          [
+           "le pétrole",
+           "oil (petroleum)"
+          ],
+          [
+           "la marée noire",
+           "oil slick"
+          ],
+          [
+           "le pétrolier",
+           "oil tanker"
+          ],
+          [
+           "le braconnage",
+           "poaching"
+          ],
+          [
+           "le polluant",
+           "pollutant"
+          ],
+          [
+           "polluer",
+           "to pollute"
+          ],
+          [
+           "le pollueur",
+           "polluter"
+          ],
+          [
+           "la centrale (nucléaire)",
+           "(nuclear) power plant"
+          ],
+          [
+           "radioactif / radioactive",
+           "radioactive"
+          ],
+          [
+           "reculer",
+           "to regress / go back"
+          ],
+          [
+           "la montée des eaux",
+           "rising water level"
+          ],
+          [
+           "le stockage",
+           "storage"
+          ],
+          [
+           "le coup de soleil",
+           "sunburn"
+          ],
+          [
+           "la menace",
+           "threat"
+          ],
+          [
+           "menacer",
+           "to threaten"
+          ],
+          [
+           "le seuil",
+           "threshold"
+          ],
+          [
+           "toxique",
+           "toxic"
+          ],
+          [
+           "l'urbanisation (f)",
+           "urban development"
+          ],
+          [
+           "le réchauffement climatique",
+           "global warming"
+          ],
+          [
+           "gaspiller",
+           "to waste"
+          ],
+          [
+           "le gaspillage",
+           "waste (act of wasting)"
+          ],
+          [
+           "les déchets (m pl)",
+           "waste / rubbish"
+          ],
+          [
+           "les énergies renouvelables (f pl)",
+           "renewable energy"
+          ],
+          [
+           "agricole",
+           "agricultural"
+          ],
+          [
+           "l'agriculteur / l'agricultrice",
+           "farmer"
+          ],
+          [
+           "l'élevage (m)",
+           "livestock farming"
+          ],
+          [
+           "le bétail",
+           "cattle / livestock"
+          ],
+          [
+           "cultiver",
+           "to grow / cultivate"
+          ],
+          [
+           "la récolte",
+           "harvest"
+          ],
+          [
+           "le jardinage biologique",
+           "organic gardening"
+          ],
+          [
+           "le rendement",
+           "yield"
+          ],
+          [
+           "le pesticide",
+           "pesticide"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Notez le **genre** avec chaque nom (_la grève_, _le chômage_) : une faute de genre se voit dans chaque phrase."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 96,
+   "title": "Pièges et faux amis",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "54 pièges sur les faux amis, les expressions idiomatiques et les pièges de grammaire. Ces thèmes reviennent dans les documents et les sujets du DELF B2."
+    },
+    {
+     "t": "p",
+     "md": "Révisez-les dans **Cartes** : le français s'affiche, dites le sens à voix haute, puis évaluez-vous honnêtement."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Éviter les faux amis et les pièges courants.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Pièges et faux amis : liste des pièges",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Français",
+           "Explication"
+          ],
+          [
+           "la figure",
+           "the FACE (not \"figure\"). A person's figure = la ligne."
+          ],
+          [
+           "« passer un examen » = ?",
+           "to TAKE an exam. To pass = réussir un examen."
+          ],
+          [
+           "le collège",
+           "middle school (false friend). College/university = l'université."
+          ],
+          [
+           "la librairie",
+           "bookstore (false friend). Library = la bibliothèque."
+          ],
+          [
+           "demander",
+           "to ASK (false friend). To demand = exiger."
+          ],
+          [
+           "propre: before or after the noun?",
+           "after = clean (une chambre propre); before = own (ma propre chambre)."
+          ],
+          [
+           "sentir vs se sentir",
+           "sentir = to smell; se sentir = to feel."
+          ],
+          [
+           "« J'ai une dent contre lui. »",
+           "I hold a grudge against him."
+          ],
+          [
+           "« Ça coûte les yeux de la tête. »",
+           "It costs an arm and a leg."
+          ],
+          [
+           "« Il pleut des cordes. »",
+           "It's raining cats and dogs."
+          ],
+          [
+           "« Il fait un froid de canard. »",
+           "It's freezing cold."
+          ],
+          [
+           "« Il fait un temps de chien. »",
+           "The weather is awful."
+          ],
+          [
+           "« dormir comme un loir »",
+           "to sleep like a log (dormouse)."
+          ],
+          [
+           "« tête de citrouille »",
+           "fathead / idiot (insult)."
+          ],
+          [
+           "« mon chou »",
+           "honey / sweetheart (term of endearment)."
+          ],
+          [
+           "l'apéritif",
+           "pre-dinner alcoholic drink — NOT a food appetizer (= hors-d'œuvre / entrée)."
+          ],
+          [
+           "l'entrée (au restaurant)",
+           "the starter. The US \"entrée\" = le plat principal."
+          ],
+          [
+           "la carte vs le menu",
+           "la carte = the menu; le menu = a set meal at a fixed price."
+          ],
+          [
+           "les vacances vs une vacance",
+           "vacation is always plural (les vacances); singular vacance = vacancy."
+          ],
+          [
+           "les préparatifs",
+           "preparations / arrangements (plural), e.g. les préparatifs de voyage."
+          ],
+          [
+           "la marche",
+           "march / hike. A casual walk = une balade / une promenade."
+          ],
+          [
+           "le dépanneur (Québec)",
+           "convenience store. In France: tow-truck driver."
+          ],
+          [
+           "le ballot",
+           "bundle of goods — false friend. A ballot = un bulletin / un scrutin."
+          ],
+          [
+           "la loi vs le droit",
+           "la loi = a law; le droit = law as a field (and \"a right\")."
+          ],
+          [
+           "-al plural",
+           "most nouns/adjectives in -al → -aux: national → nationaux."
+          ],
+          [
+           "la salle de bains in public?",
+           "No — ask for les toilettes."
+          ],
+          [
+           "la lingerie",
+           "can mean linen / linen room; say lingerie fine for women's lingerie."
+          ],
+          [
+           "le chiffre / le nombre / le numéro",
+           "chiffre = digit; nombre = quantity; numéro = phone/house number."
+          ],
+          [
+           "jouer de vs jouer à",
+           "jouer DE + instrument (du violon); jouer À + sport/game (au tennis)."
+          ],
+          [
+           "le dimanche vs dimanche",
+           "le dimanche = every Sunday; dimanche = this specific Sunday."
+          ],
+          [
+           "le matin",
+           "means \"the morning\" AND \"in the morning\" (also le soir, la nuit…)."
+          ],
+          [
+           "dates: le premier vs le deux",
+           "1st = le premier mai; others use cardinal numbers: le 3 mai."
+          ],
+          [
+           "rulers: Henri Quatre",
+           "cardinal numbers for rulers, except François Premier."
+          ],
+          [
+           "seasons: in winter / spring",
+           "en hiver, en été, en automne — but AU printemps."
+          ],
+          [
+           "avoir + sensation",
+           "J'ai froid / faim / soif / sommeil (not « je suis froid »)."
+          ],
+          [
+           "body parts + reflexive verbs",
+           "use the article, not the possessive: Je me brosse LES cheveux."
+          ],
+          [
+           "the « il fait » rule",
+           "most weather = il fait… EXCEPT il pleut, il neige, il gèle, il grêle."
+          ],
+          [
+           "infinitive as instruction",
+           "Ne pas fumer = No smoking."
+          ],
+          [
+           "fruit vs fruit-tree gender",
+           "most fruits feminine (la prune); trees masculine (le prunier)."
+          ],
+          [
+           "adverbs of quantity + de",
+           "beaucoup DE, trop DE… except bien DES and la plupart DES."
+          ],
+          [
+           "nationality: capital letter?",
+           "adjective lowercase (la cuisine française); noun capitalized (les Français)."
+          ],
+          [
+           "days and months: capital?",
+           "no capital: lundi, janvier."
+          ],
+          [
+           "cet vs ce",
+           "cet before masculine vowel sound: cet hôtel."
+          ],
+          [
+           "mon amie (not ma amie)",
+           "use mon/ton/son before feminine nouns starting with a vowel sound."
+          ],
+          [
+           "nouveau / nouvel",
+           "nouvel before masculine vowel sound: un nouvel élève (same: bel, vieil)."
+          ],
+          [
+           "neuf vs nouveau",
+           "neuf = brand new (un costume neuf); nouveau = new/different."
+          ],
+          [
+           "on",
+           "impersonal pronoun = we / one / people."
+          ],
+          [
+           "pronouns in affirmative commands",
+           "placed after the verb; me/te → moi/toi: Donne-moi ton numéro !"
+          ],
+          [
+           "ending a friendly letter",
+           "Amicalement, Bises, Je t'embrasse — not a literal \"Love\"."
+          ],
+          [
+           "title in formal greeting",
+           "Bonjour, monsieur / madame (no surname in formal settings)."
+          ],
+          [
+           "l'instituteur vs le professeur",
+           "instituteur = primary school; professeur = secondary and university."
+          ],
+          [
+           "la manucure / le pédicure",
+           "can mean the treatment AND the professional who does it."
+          ],
+          [
+           "the 24-hour clock",
+           "used for schedules and official times: 13h = 1 p.m."
+          ],
+          [
+           "le mal de cœur",
+           "queasiness / nausea — nothing to do with the heart."
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Notez le **genre** avec chaque nom (_la grève_, _le chômage_) : une faute de genre se voit dans chaque phrase."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

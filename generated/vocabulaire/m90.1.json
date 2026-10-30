@@ -1,0 +1,1434 @@
+{
+ "module": "m90.1",
+ "source_hash": "8a7d773e7ced",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le vocabulaire du thème « la santé » sert à comprendre les documents et à argumenter sans répétition."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Les cartes utilisent la répétition espacée : un mot revient juste avant que vous l'oubliiez."
+   },
+   {
+    "stage": "result",
+    "md": "Réviser chaque jour quelques minutes vaut mieux qu'une longue séance par semaine."
+   }
+  ],
+  "why_it_matters": "Un lexique précis sur la santé publique, les addictions, le système de soins fait partie de la note « étendue et maîtrise du vocabulaire » à l'écrit et à l'oral.",
+  "exam_approach": {
+   "look_first": [
+    "le genre du nom (le / la)",
+    "la préposition qui accompagne le verbe"
+   ],
+   "traps": [
+    "les faux amis (_la librairie_ ≠ library)",
+    "oublier l'article en apprenant un nom"
+   ],
+   "distractors": [
+    "un mot proche de l'anglais mais de sens différent"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.90.w001",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "en forme",
+   "front": "en forme",
+   "back": "fit"
+  },
+  {
+   "id": "f.90.w002",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la forme",
+   "front": "la forme",
+   "back": "fitness"
+  },
+  {
+   "id": "f.90.w003",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "en bonne santé",
+   "front": "en bonne santé",
+   "back": "healthy"
+  },
+  {
+   "id": "f.90.w004",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "avoir bonne mine",
+   "front": "avoir bonne mine",
+   "back": "to look good / look healthy"
+  },
+  {
+   "id": "f.90.w005",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "avoir mauvaise mine",
+   "front": "avoir mauvaise mine",
+   "back": "to look sick"
+  },
+  {
+   "id": "f.90.w006",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la santé mentale",
+   "front": "la santé mentale",
+   "back": "mental health"
+  },
+  {
+   "id": "f.90.w007",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "prévenir / éviter",
+   "front": "prévenir / éviter",
+   "back": "to prevent"
+  },
+  {
+   "id": "f.90.w008",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la médecine préventive",
+   "front": "la médecine préventive",
+   "back": "preventive medicine"
+  },
+  {
+   "id": "f.90.w009",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "robuste",
+   "front": "robuste",
+   "back": "robust"
+  },
+  {
+   "id": "f.90.w010",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la force",
+   "front": "la force",
+   "back": "strength"
+  },
+  {
+   "id": "f.90.w011",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la vigueur",
+   "front": "la vigueur",
+   "back": "vigor"
+  },
+  {
+   "id": "f.90.w012",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le bien-être",
+   "front": "le bien-être",
+   "back": "well-being"
+  },
+  {
+   "id": "f.90.w013",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la propreté",
+   "front": "la propreté",
+   "back": "cleanliness"
+  },
+  {
+   "id": "f.90.w014",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "tomber malade",
+   "front": "tomber malade",
+   "back": "to become ill"
+  },
+  {
+   "id": "f.90.w015",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "saigner",
+   "front": "saigner",
+   "back": "to bleed"
+  },
+  {
+   "id": "f.90.w016",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le sang",
+   "front": "le sang",
+   "back": "blood"
+  },
+  {
+   "id": "f.90.w017",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "à bout d'haleine",
+   "front": "à bout d'haleine",
+   "back": "breathless"
+  },
+  {
+   "id": "f.90.w018",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le bleu",
+   "front": "le bleu",
+   "back": "bruise"
+  },
+  {
+   "id": "f.90.w019",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la brûlure",
+   "front": "la brûlure",
+   "back": "burn"
+  },
+  {
+   "id": "f.90.w020",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "s'étrangler",
+   "front": "s'étrangler",
+   "back": "to choke"
+  },
+  {
+   "id": "f.90.w021",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "convalescent(e)",
+   "front": "convalescent(e)",
+   "back": "convalescent"
+  },
+  {
+   "id": "f.90.w022",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le malaise",
+   "front": "le malaise",
+   "back": "discomfort / feeling faint"
+  },
+  {
+   "id": "f.90.w023",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "pris(e) d'étourdissement",
+   "front": "pris(e) d'étourdissement",
+   "back": "dizzy"
+  },
+  {
+   "id": "f.90.w024",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la somnolence",
+   "front": "la somnolence",
+   "back": "drowsiness"
+  },
+  {
+   "id": "f.90.w025",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "somnolent(e)",
+   "front": "somnolent(e)",
+   "back": "drowsy"
+  },
+  {
+   "id": "f.90.w026",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "s'évanouir / défaillir",
+   "front": "s'évanouir / défaillir",
+   "back": "to faint"
+  },
+  {
+   "id": "f.90.w027",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la chute",
+   "front": "la chute",
+   "back": "fall"
+  },
+  {
+   "id": "f.90.w028",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la fracture",
+   "front": "la fracture",
+   "back": "fracture"
+  },
+  {
+   "id": "f.90.w029",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "se remettre",
+   "front": "se remettre",
+   "back": "to get better / recover"
+  },
+  {
+   "id": "f.90.w030",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "(se) faire mal",
+   "front": "(se) faire mal",
+   "back": "to hurt (oneself)"
+  },
+  {
+   "id": "f.90.w031",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le / la blessé(e)",
+   "front": "le / la blessé(e)",
+   "back": "injured person"
+  },
+  {
+   "id": "f.90.w032",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la blessure",
+   "front": "la blessure",
+   "back": "injury / wound"
+  },
+  {
+   "id": "f.90.w033",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la plaie",
+   "front": "la plaie",
+   "back": "wound"
+  },
+  {
+   "id": "f.90.w034",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "avoir la nausée",
+   "front": "avoir la nausée",
+   "back": "to be nauseated"
+  },
+  {
+   "id": "f.90.w035",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la douleur",
+   "front": "la douleur",
+   "back": "pain"
+  },
+  {
+   "id": "f.90.w036",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "récupérer",
+   "front": "récupérer",
+   "back": "to recuperate"
+  },
+  {
+   "id": "f.90.w037",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la rechute",
+   "front": "la rechute",
+   "back": "relapse"
+  },
+  {
+   "id": "f.90.w038",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "faire une rechute",
+   "front": "faire une rechute",
+   "back": "to relapse"
+  },
+  {
+   "id": "f.90.w039",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'entorse (f) / la foulure",
+   "front": "l'entorse (f) / la foulure",
+   "back": "sprain"
+  },
+  {
+   "id": "f.90.w040",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "souffrir",
+   "front": "souffrir",
+   "back": "to suffer"
+  },
+  {
+   "id": "f.90.w041",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la souffrance",
+   "front": "la souffrance",
+   "back": "suffering"
+  },
+  {
+   "id": "f.90.w042",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "s'asphyxier",
+   "front": "s'asphyxier",
+   "back": "to suffocate"
+  },
+  {
+   "id": "f.90.w043",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'enflure (f)",
+   "front": "l'enflure (f)",
+   "back": "swelling"
+  },
+  {
+   "id": "f.90.w044",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "enflé(e)",
+   "front": "enflé(e)",
+   "back": "swollen"
+  },
+  {
+   "id": "f.90.w045",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "inconscient(e)",
+   "front": "inconscient(e)",
+   "back": "unconscious"
+  },
+  {
+   "id": "f.90.w046",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "indisposé(e)",
+   "front": "indisposé(e)",
+   "back": "under the weather"
+  },
+  {
+   "id": "f.90.w047",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "faible",
+   "front": "faible",
+   "back": "weak"
+  },
+  {
+   "id": "f.90.w048",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "s'affaiblir",
+   "front": "s'affaiblir",
+   "back": "to weaken"
+  },
+  {
+   "id": "f.90.w049",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "s'aggraver / empirer",
+   "front": "s'aggraver / empirer",
+   "back": "to worsen"
+  },
+  {
+   "id": "f.90.w050",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le rhume",
+   "front": "le rhume",
+   "back": "cold (illness)"
+  },
+  {
+   "id": "f.90.w051",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la toux",
+   "front": "la toux",
+   "back": "cough"
+  },
+  {
+   "id": "f.90.w052",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "tousser",
+   "front": "tousser",
+   "back": "to cough"
+  },
+  {
+   "id": "f.90.w053",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la fièvre",
+   "front": "la fièvre",
+   "back": "fever"
+  },
+  {
+   "id": "f.90.w054",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la grippe",
+   "front": "la grippe",
+   "back": "flu"
+  },
+  {
+   "id": "f.90.w055",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'intoxication alimentaire (f)",
+   "front": "l'intoxication alimentaire (f)",
+   "back": "food poisoning"
+  },
+  {
+   "id": "f.90.w056",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'infection (f)",
+   "front": "l'infection (f)",
+   "back": "infection"
+  },
+  {
+   "id": "f.90.w057",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la migraine",
+   "front": "la migraine",
+   "back": "migraine"
+  },
+  {
+   "id": "f.90.w058",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "éternuer",
+   "front": "éternuer",
+   "back": "to sneeze"
+  },
+  {
+   "id": "f.90.w059",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "transpirer",
+   "front": "transpirer",
+   "back": "to sweat / perspire"
+  },
+  {
+   "id": "f.90.w060",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "vomir",
+   "front": "vomir",
+   "back": "to vomit"
+  },
+  {
+   "id": "f.90.w061",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'allergie (f)",
+   "front": "l'allergie (f)",
+   "back": "allergy"
+  },
+  {
+   "id": "f.90.w062",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'arthrite (f)",
+   "front": "l'arthrite (f)",
+   "back": "arthritis"
+  },
+  {
+   "id": "f.90.w063",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'asthme (m)",
+   "front": "l'asthme (m)",
+   "back": "asthma"
+  },
+  {
+   "id": "f.90.w064",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le déficit d'attention",
+   "front": "le déficit d'attention",
+   "back": "attention deficit"
+  },
+  {
+   "id": "f.90.w065",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la pression artérielle",
+   "front": "la pression artérielle",
+   "back": "blood pressure"
+  },
+  {
+   "id": "f.90.w066",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'hypertension (f)",
+   "front": "l'hypertension (f)",
+   "back": "high blood pressure"
+  },
+  {
+   "id": "f.90.w067",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le diabète",
+   "front": "le diabète",
+   "back": "diabetes"
+  },
+  {
+   "id": "f.90.w068",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la courbature",
+   "front": "la courbature",
+   "back": "joint ache / stiffness"
+  },
+  {
+   "id": "f.90.w069",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le sida",
+   "front": "le sida",
+   "back": "AIDS"
+  },
+  {
+   "id": "f.90.w070",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "séropositif / séropositive",
+   "front": "séropositif / séropositive",
+   "back": "HIV positive"
+  },
+  {
+   "id": "f.90.w071",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le cancer",
+   "front": "le cancer",
+   "back": "cancer"
+  },
+  {
+   "id": "f.90.w072",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la crise cardiaque / l'infarctus (m)",
+   "front": "la crise cardiaque / l'infarctus (m)",
+   "back": "heart attack"
+  },
+  {
+   "id": "f.90.w073",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la leucémie",
+   "front": "la leucémie",
+   "back": "leukemia"
+  },
+  {
+   "id": "f.90.w074",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la rougeole",
+   "front": "la rougeole",
+   "back": "measles"
+  },
+  {
+   "id": "f.90.w075",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la méningite",
+   "front": "la méningite",
+   "back": "meningitis"
+  },
+  {
+   "id": "f.90.w076",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "les oreillons (m pl)",
+   "front": "les oreillons (m pl)",
+   "back": "mumps"
+  },
+  {
+   "id": "f.90.w077",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la pneumonie",
+   "front": "la pneumonie",
+   "back": "pneumonia"
+  },
+  {
+   "id": "f.90.w078",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la tuberculose",
+   "front": "la tuberculose",
+   "back": "tuberculosis"
+  },
+  {
+   "id": "f.90.w079",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la varicelle",
+   "front": "la varicelle",
+   "back": "chicken pox"
+  },
+  {
+   "id": "f.90.w080",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'alcoolisme (m)",
+   "front": "l'alcoolisme (m)",
+   "back": "alcoholism"
+  },
+  {
+   "id": "f.90.w081",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'anorexie (f)",
+   "front": "l'anorexie (f)",
+   "back": "anorexia"
+  },
+  {
+   "id": "f.90.w082",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la boulimie",
+   "front": "la boulimie",
+   "back": "bulimia"
+  },
+  {
+   "id": "f.90.w083",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "déprimé(e)",
+   "front": "déprimé(e)",
+   "back": "depressed"
+  },
+  {
+   "id": "f.90.w084",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la dépression",
+   "front": "la dépression",
+   "back": "depression"
+  },
+  {
+   "id": "f.90.w085",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le / la drogué(e)",
+   "front": "le / la drogué(e)",
+   "back": "drug addict"
+  },
+  {
+   "id": "f.90.w086",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la dépendance / la toxicomanie",
+   "front": "la dépendance / la toxicomanie",
+   "back": "(drug) addiction"
+  },
+  {
+   "id": "f.90.w087",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la drogue / le stupéfiant",
+   "front": "la drogue / le stupéfiant",
+   "back": "drug (narcotic)"
+  },
+  {
+   "id": "f.90.w088",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "accro",
+   "front": "accro",
+   "back": "hooked (informal)"
+  },
+  {
+   "id": "f.90.w089",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la maladie mentale",
+   "front": "la maladie mentale",
+   "back": "mental illness"
+  },
+  {
+   "id": "f.90.w090",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le stress",
+   "front": "le stress",
+   "back": "stress"
+  },
+  {
+   "id": "f.90.w091",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le tabagisme",
+   "front": "le tabagisme",
+   "back": "tobacco addiction / smoking"
+  },
+  {
+   "id": "f.90.w092",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le symptôme de sevrage",
+   "front": "le symptôme de sevrage",
+   "back": "withdrawal symptom (book: symptôme de retrait)"
+  },
+  {
+   "id": "f.90.w093",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "aveugle",
+   "front": "aveugle",
+   "back": "blind"
+  },
+  {
+   "id": "f.90.w094",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "sourd(e)",
+   "front": "sourd(e)",
+   "back": "deaf"
+  },
+  {
+   "id": "f.90.w095",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la surdité",
+   "front": "la surdité",
+   "back": "deafness"
+  },
+  {
+   "id": "f.90.w096",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la déficience",
+   "front": "la déficience",
+   "back": "deficiency / impairment"
+  },
+  {
+   "id": "f.90.w097",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'infirmité (f) / l'incapacité (f)",
+   "front": "l'infirmité (f) / l'incapacité (f)",
+   "back": "disability"
+  },
+  {
+   "id": "f.90.w098",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "handicapé(e)",
+   "front": "handicapé(e)",
+   "back": "disabled / handicapped"
+  },
+  {
+   "id": "f.90.w099",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "boiter",
+   "front": "boiter",
+   "back": "to limp"
+  },
+  {
+   "id": "f.90.w100",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la paralysie",
+   "front": "la paralysie",
+   "back": "paralysis"
+  },
+  {
+   "id": "f.90.w101",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "paralysé(e)",
+   "front": "paralysé(e)",
+   "back": "paralyzed"
+  },
+  {
+   "id": "f.90.w102",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'antibiotique (m)",
+   "front": "l'antibiotique (m)",
+   "back": "antibiotic"
+  },
+  {
+   "id": "f.90.w103",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le pansement",
+   "front": "le pansement",
+   "back": "(small) bandage / dressing"
+  },
+  {
+   "id": "f.90.w104",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la pilule contraceptive",
+   "front": "la pilule contraceptive",
+   "back": "birth control pill"
+  },
+  {
+   "id": "f.90.w105",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'analyse de sang (f)",
+   "front": "l'analyse de sang (f)",
+   "back": "blood test"
+  },
+  {
+   "id": "f.90.w106",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la transfusion (sanguine)",
+   "front": "la transfusion (sanguine)",
+   "back": "blood transfusion"
+  },
+  {
+   "id": "f.90.w107",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "ausculter",
+   "front": "ausculter",
+   "back": "to examine (with stethoscope)"
+  },
+  {
+   "id": "f.90.w108",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la consultation",
+   "front": "la consultation",
+   "back": "consultation"
+  },
+  {
+   "id": "f.90.w109",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "grave",
+   "front": "grave",
+   "back": "serious / critical"
+  },
+  {
+   "id": "f.90.w110",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le diagnostic",
+   "front": "le diagnostic",
+   "back": "diagnosis"
+  },
+  {
+   "id": "f.90.w111",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le médicament",
+   "front": "le médicament",
+   "back": "drug / medication"
+  },
+  {
+   "id": "f.90.w112",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'urgence (f)",
+   "front": "l'urgence (f)",
+   "back": "emergency"
+  },
+  {
+   "id": "f.90.w113",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "les premiers soins / les premiers secours",
+   "front": "les premiers soins / les premiers secours",
+   "back": "first aid"
+  },
+  {
+   "id": "f.90.w114",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la piqûre",
+   "front": "la piqûre",
+   "back": "injection"
+  },
+  {
+   "id": "f.90.w115",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'assurance maladie (f)",
+   "front": "l'assurance maladie (f)",
+   "back": "medical insurance"
+  },
+  {
+   "id": "f.90.w116",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la pommade",
+   "front": "la pommade",
+   "back": "ointment"
+  },
+  {
+   "id": "f.90.w117",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'opération (f)",
+   "front": "l'opération (f)",
+   "back": "operation / surgery"
+  },
+  {
+   "id": "f.90.w118",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le comprimé / le cachet",
+   "front": "le comprimé / le cachet",
+   "back": "tablet / pill"
+  },
+  {
+   "id": "f.90.w119",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'ordonnance (f)",
+   "front": "l'ordonnance (f)",
+   "back": "prescription"
+  },
+  {
+   "id": "f.90.w120",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le repos",
+   "front": "le repos",
+   "back": "rest"
+  },
+  {
+   "id": "f.90.w121",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la réanimation",
+   "front": "la réanimation",
+   "back": "resuscitation"
+  },
+  {
+   "id": "f.90.w122",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la thérapie",
+   "front": "la thérapie",
+   "back": "therapy"
+  },
+  {
+   "id": "f.90.w123",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la greffe",
+   "front": "la greffe",
+   "back": "transplant"
+  },
+  {
+   "id": "f.90.w124",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le traitement",
+   "front": "le traitement",
+   "back": "treatment"
+  },
+  {
+   "id": "f.90.w125",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "vacciner",
+   "front": "vacciner",
+   "back": "to vaccinate"
+  },
+  {
+   "id": "f.90.w126",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le vaccin",
+   "front": "le vaccin",
+   "back": "vaccine"
+  },
+  {
+   "id": "f.90.w127",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le fauteuil roulant",
+   "front": "le fauteuil roulant",
+   "back": "wheelchair"
+  },
+  {
+   "id": "f.90.w128",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la radiographie",
+   "front": "la radiographie",
+   "back": "x-ray"
+  },
+  {
+   "id": "f.90.w129",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le / la généraliste",
+   "front": "le / la généraliste",
+   "back": "general practitioner"
+  },
+  {
+   "id": "f.90.w130",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le / la secouriste",
+   "front": "le / la secouriste",
+   "back": "first-aid worker"
+  },
+  {
+   "id": "f.90.w131",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la sage-femme",
+   "front": "la sage-femme",
+   "back": "midwife"
+  },
+  {
+   "id": "f.90.w132",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'infirmier / l'infirmière",
+   "front": "l'infirmier / l'infirmière",
+   "back": "nurse"
+  },
+  {
+   "id": "f.90.w133",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'aide-soignant(e)",
+   "front": "l'aide-soignant(e)",
+   "back": "nurse's aide"
+  },
+  {
+   "id": "f.90.w134",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le / la kinésithérapeute",
+   "front": "le / la kinésithérapeute",
+   "back": "physical therapist"
+  },
+  {
+   "id": "f.90.w135",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le / la chirurgien(ne)",
+   "front": "le / la chirurgien(ne)",
+   "back": "surgeon"
+  },
+  {
+   "id": "f.90.w136",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le chercheur / la chercheuse",
+   "front": "le chercheur / la chercheuse",
+   "back": "researcher"
+  },
+  {
+   "id": "f.90.w137",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le cabinet (médical)",
+   "front": "le cabinet (médical)",
+   "back": "doctor's office"
+  },
+  {
+   "id": "f.90.w138",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la salle des urgences",
+   "front": "la salle des urgences",
+   "back": "emergency room"
+  },
+  {
+   "id": "f.90.w139",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "de garde",
+   "front": "de garde",
+   "back": "on call"
+  },
+  {
+   "id": "f.90.w140",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "les soins intensifs (m pl)",
+   "front": "les soins intensifs (m pl)",
+   "back": "intensive care"
+  },
+  {
+   "id": "f.90.w141",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la salle d'attente",
+   "front": "la salle d'attente",
+   "back": "waiting room"
+  },
+  {
+   "id": "f.90.w142",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la grossesse",
+   "front": "la grossesse",
+   "back": "pregnancy"
+  },
+  {
+   "id": "f.90.w143",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "enceinte",
+   "front": "enceinte",
+   "back": "pregnant"
+  },
+  {
+   "id": "f.90.w144",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "majeur(e)",
+   "front": "majeur(e)",
+   "back": "of legal age"
+  },
+  {
+   "id": "f.90.w145",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le / la mineur(e)",
+   "front": "le / la mineur(e)",
+   "back": "minor"
+  },
+  {
+   "id": "f.90.w146",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'âge mûr (m)",
+   "front": "l'âge mûr (m)",
+   "back": "middle age"
+  },
+  {
+   "id": "f.90.w147",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la vieillesse / le troisième âge",
+   "front": "la vieillesse / le troisième âge",
+   "back": "old age"
+  },
+  {
+   "id": "f.90.w148",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "la fleur de l'âge",
+   "front": "la fleur de l'âge",
+   "back": "prime of life"
+  },
+  {
+   "id": "f.90.w149",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'enterrement (m)",
+   "front": "l'enterrement (m)",
+   "back": "burial"
+  },
+  {
+   "id": "f.90.w150",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "les condoléances (f pl)",
+   "front": "les condoléances (f pl)",
+   "back": "condolences"
+  },
+  {
+   "id": "f.90.w151",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "décédé(e)",
+   "front": "décédé(e)",
+   "back": "deceased"
+  },
+  {
+   "id": "f.90.w152",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "l'héritage (m)",
+   "front": "l'héritage (m)",
+   "back": "inheritance"
+  },
+  {
+   "id": "f.90.w153",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "hériter",
+   "front": "hériter",
+   "back": "to inherit"
+  },
+  {
+   "id": "f.90.w154",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "être en deuil",
+   "front": "être en deuil",
+   "back": "to be in mourning"
+  },
+  {
+   "id": "f.90.w155",
+   "los": [
+    "los.90.a"
+   ],
+   "name": "le testament",
+   "front": "le testament",
+   "back": "will (legal)"
+  }
+ ]
+}

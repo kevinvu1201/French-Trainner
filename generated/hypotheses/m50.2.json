@@ -1,0 +1,356 @@
+{
+ "module": "m50.2",
+ "source_hash": "7ce8d9b0f3be",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Une hypothèse sur le passé imagine une autre histoire : ce qui serait arrivé si les faits avaient été différents."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Si + plus-que-parfait → conditionnel passé ; si la conséquence est présente, conditionnel présent (hypothèse mixte)."
+   },
+   {
+    "stage": "result",
+    "md": "_Même si_ suit les règles de _si_ ; _au cas où_ prend le conditionnel ; _à condition que_ le subjonctif."
+   },
+   {
+    "stage": "interpretation",
+    "md": "Analyser une décision passée (_si l'État avait…, nous n'aurions pas…_) est une marque d'argumentation avancée."
+   }
+  ],
+  "why_it_matters": "Le regret et l'analyse critique du passé (_si on avait écouté les scientifiques…_) reviennent dans les sujets de débat sur l'environnement et la société.",
+  "exam_approach": {
+   "look_first": [
+    "le moment de la condition (passé ?) et de la conséquence (passé ou présent ?)",
+    "le connecteur : si, même si, au cas où, à condition que",
+    "l'auxiliaire et l'accord du participe"
+   ],
+   "traps": [
+    "*_si j'aurais su_",
+    "mettre le conditionnel passé quand la conséquence est présente (_aujourd'hui_)",
+    "le subjonctif après _même si_"
+   ],
+   "distractors": [
+    "_si_ + conditionnel passé",
+    "le conditionnel présent pour une conséquence passée",
+    "_au cas où_ + subjonctif"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m50.1",
+   "type": "requires",
+   "note": "Les hypothèses sur le futur et le présent."
+  },
+  {
+   "to": "m51.4",
+   "type": "contrasts_with",
+   "note": "« à condition que » demande le subjonctif."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.50.c.001",
+   "los": "los.50.c",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Si j'…… (savoir), je serais venu plus tôt.",
+   "options": [
+    "aurais su",
+    "avais su",
+    "savais"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Jamais de conditionnel après _si_.",
+    "B": "Correct. Irréel du passé : _si_ + plus-que-parfait.",
+    "C": "Faux. L'imparfait renverrait au présent."
+   }
+  },
+  {
+   "id": "q.50.c.002",
+   "los": "los.50.c",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Si tu étais parti à l'heure, tu …… (ne pas rater) ton train.",
+   "options": [
+    "ne rateras pas",
+    "ne ratais pas",
+    "n'aurais pas raté"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le futur ne convient pas à un passé irréel.",
+    "B": "Faux. C'est l'imparfait.",
+    "C": "Correct. _si_ + plus-que-parfait → conditionnel passé."
+   }
+  },
+  {
+   "id": "q.50.c.003",
+   "los": "los.50.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Si elle avait reçu ton message, elle …… (venir).",
+   "options": [
+    "serait venue",
+    "aurait venu",
+    "serait venu"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _venir_ prend _être_ ; accord avec _elle_.",
+    "B": "Faux. _venir_ se conjugue avec _être_.",
+    "C": "Faux. Il manque l'accord au féminin."
+   }
+  },
+  {
+   "id": "q.50.c.004",
+   "los": "los.50.c",
+   "difficulty": 2,
+   "qtype": "judgement",
+   "stem": "Quelle phrase est correcte ?",
+   "options": [
+    "Si nous aurions réservé, nous aurions eu une table.",
+    "Si nous avions réservé, nous aurions eu une table.",
+    "Si nous avions réservé, nous aurons eu une table."
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Jamais de conditionnel après _si_.",
+    "B": "Correct. _si_ + plus-que-parfait → conditionnel passé.",
+    "C": "Faux. _aurons eu_ est un futur antérieur."
+   }
+  },
+  {
+   "id": "q.50.c.005",
+   "los": "los.50.c",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "« Si l'usine avait respecté les normes, la rivière n'aurait pas été polluée. » On comprend que :",
+   "options": [
+    "l'usine n'a pas respecté les normes et la rivière a été polluée",
+    "l'usine a respecté les normes",
+    "la rivière sera polluée si l'usine ne respecte pas les normes"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. L'irréel du passé affirme le contraire de ce qu'il imagine.",
+    "B": "Faux. C'est l'inverse : l'hypothèse est contraire aux faits.",
+    "C": "Faux. Ce serait une hypothèse sur le futur."
+   }
+  },
+  {
+   "id": "q.50.d.001",
+   "los": "los.50.d",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Si j'avais accepté ce poste à Paris, je …… (vivre) là-bas aujourd'hui.",
+   "options": [
+    "aurais vécu",
+    "vivrai",
+    "vivrais"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _aujourd'hui_ indique une conséquence présente.",
+    "B": "Faux. C'est le futur.",
+    "C": "Correct. Hypothèse mixte : conséquence présente → conditionnel présent."
+   }
+  },
+  {
+   "id": "q.50.d.002",
+   "los": "los.50.d",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Même s'il …… (pleuvoir) demain, nous partirons en randonnée.",
+   "options": [
+    "pleuve",
+    "pleut",
+    "pleuvra"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _même si_ n'est pas suivi du subjonctif.",
+    "B": "Correct. _même si_ suit la règle de _si_ : présent → futur.",
+    "C": "Faux. Jamais de futur après _(même) si_."
+   }
+  },
+  {
+   "id": "q.50.d.003",
+   "los": "los.50.d",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Note ce numéro au cas où tu …… (avoir) un problème.",
+   "options": [
+    "aies",
+    "auras",
+    "aurais"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _au cas où_ n'est pas suivi du subjonctif.",
+    "B": "Faux. _au cas où_ n'est pas suivi du futur.",
+    "C": "Correct. _au cas où_ + conditionnel."
+   }
+  },
+  {
+   "id": "q.50.d.004",
+   "los": "los.50.d",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Tu réussiras …… travailler régulièrement.",
+   "options": [
+    "à condition de",
+    "à condition que",
+    "au cas où"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Même sujet → _à condition de_ + infinitif.",
+    "B": "Faux. _à condition que_ demande un verbe conjugué au subjonctif.",
+    "C": "Faux. _au cas où_ demande un verbe conjugué au conditionnel."
+   }
+  },
+  {
+   "id": "q.50.d.005",
+   "los": "los.50.d",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "…… panne, appelez le 0800 123 456.",
+   "options": [
+    "Au cas où",
+    "Si",
+    "En cas de"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _au cas où_ est suivi d'un verbe conjugué.",
+    "B": "Faux. _si_ est suivi d'un verbe conjugué.",
+    "C": "Correct. _en cas de_ + nom."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m50.2.01",
+   "modules": [
+    "m50.2"
+   ],
+   "title": "Bilan d'un projet raté",
+   "vignette": "Le directeur d'une association fait le bilan d'un festival annulé :\n\n« Si nous **(1)** …… (commencer) la communication plus tôt, nous aurions vendu plus de billets. Si la mairie nous avait soutenus, le festival **(2)** …… (avoir) lieu. Et si nous avions choisi un autre lieu l'an dernier, nous **(3)** …… (ne pas avoir) de dettes aujourd'hui. L'an prochain, nous recommencerons, **(4)** …… trouver un partenaire solide. »",
+   "questions": [
+    {
+     "id": "set.m50.2.01.q1",
+     "los": "los.50.c",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "aurions commencé",
+      "avions commencé",
+      "commencions"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Jamais de conditionnel après _si_.",
+      "B": "Correct. _si_ + plus-que-parfait → conditionnel passé (_aurions vendu_).",
+      "C": "Faux. L'imparfait renverrait au présent."
+     }
+    },
+    {
+     "id": "set.m50.2.01.q2",
+     "los": "los.50.c",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "aurait eu",
+      "aurait",
+      "avait eu"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Irréel du passé → conditionnel passé.",
+      "B": "Faux. Le conditionnel présent ne porte pas sur un fait passé.",
+      "C": "Faux. C'est le plus-que-parfait."
+     }
+    },
+    {
+     "id": "set.m50.2.01.q3",
+     "los": "los.50.d",
+     "difficulty": 3,
+     "qtype": "form",
+     "stem": "Blanc (3) :",
+     "options": [
+      "n'aurions pas",
+      "n'aurions pas eu",
+      "n'avons pas"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Hypothèse mixte : conséquence présente (_aujourd'hui_) → conditionnel présent.",
+      "B": "Faux. La conséquence est présente, pas passée.",
+      "C": "Faux. L'indicatif présenterait un fait réel."
+     }
+    },
+    {
+     "id": "set.m50.2.01.q4",
+     "los": "los.50.d",
+     "difficulty": 2,
+     "qtype": "judgement",
+     "stem": "Blanc (4) :",
+     "options": [
+      "à condition que",
+      "à condition de",
+      "au cas où"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _à condition que_ demande un verbe conjugué.",
+      "B": "Correct. Même sujet + infinitif (_trouver_).",
+      "C": "Faux. _au cas où_ demande un verbe conjugué."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.50.si-pqp",
+   "los": [
+    "los.50.c"
+   ],
+   "name": "Si + plus-que-parfait",
+   "front": "Si + plus-que-parfait → ?",
+   "back": "→ **conditionnel passé** (irréel du passé).",
+   "examples": [
+    "Si j'avais su, je ne serais pas venu."
+   ],
+   "common_mistake": "*_Si j'aurais su_."
+  },
+  {
+   "id": "f.50.mixte",
+   "los": [
+    "los.50.d"
+   ],
+   "name": "Hypothèse mixte",
+   "front": "Condition passée, conséquence présente ?",
+   "back": "**Si + plus-que-parfait → conditionnel présent.**",
+   "examples": [
+    "Si j'avais étudié la médecine, je serais médecin aujourd'hui."
+   ]
+  },
+  {
+   "id": "f.50.autres",
+   "los": [
+    "los.50.d"
+   ],
+   "name": "Autres expressions de condition",
+   "front": "Même si / au cas où / à condition que / à condition de / en cas de → ?",
+   "back": "même si + **indicatif** ; au cas où + **conditionnel** ; à condition que + **subjonctif** ; à condition de + **infinitif** ; en cas de + **nom**."
+  }
+ ]
+}

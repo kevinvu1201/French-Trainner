@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "event.schema.json",
+  "title": "One progress event. Progress = an append-only set of these; merging devices = union by id.",
+  "type": "object",
+  "required": ["id", "v", "device", "ts", "type", "payload"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "description": "UUIDv7: globally unique, time-ordered"},
+    "v": {"const": 1},
+    "device": {"type": "string"},
+    "ts": {"type": "integer", "description": "Unix epoch milliseconds"},
+    "type": {"enum": ["answer", "review", "study", "setting", "session", "flag"]},
+    "payload": {"type": "object"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"type": {"const": "answer"}}},
+      "then": {"properties": {"payload": {
+        "type": "object",
+        "required": ["qid", "los", "topic", "correct", "ms", "confidence", "mode", "choice"],
+        "properties": {
+          "qid": {"type": "string"},
+          "los": {"type": "array", "items": {"type": "string"}},
+          "topic": {"type": "string"},
+          "correct": {"type": "boolean"},
+          "ms": {"type": "integer", "minimum": 0},
+          "confidence": {"enum": [1, 2, 3]},
+          "mode": {"enum": ["drill", "item_set", "formula", "smart", "mock", "review"]},
+          "choice": {"enum": ["A", "B", "C"]},
+          "session": {"type": "string"}
+        }
+      }}}
+    },
+    {
+      "if": {"properties": {"type": {"const": "setting"}}},
+      "then": {"properties": {"payload": {
+        "type": "object", "required": ["key", "value"],
+        "description": "Last-writer-wins by ts per key"
+      }}}
+    },
+    {
+      "if": {"properties": {"type": {"const": "study"}}},
+      "then": {"properties": {"payload": {
+        "type": "object", "required": ["module"],
+        "description": "auto: true = viewed for a minute (coverage only). Otherwise a finish mark for the study plan; finished: false undoes it (latest wins)",
+        "properties": {"module": {"type": "string"}, "topic": {"type": "string"}, "auto": {"type": "boolean"}, "finished": {"type": "boolean"}}
+      }}}
+    },
+    {
+      "if": {"properties": {"type": {"const": "flag"}}},
+      "then": {"properties": {"payload": {
+        "type": "object", "required": ["qid", "note"],
+        "description": "A problem the user reported with a question (wrong key, unclear wording...)",
+        "properties": {"qid": {"type": "string"}, "module": {"type": ["string", "null"]}, "note": {"type": "string"}}
+      }}}
+    }
+  ]
+}

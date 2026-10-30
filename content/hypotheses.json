@@ -1,0 +1,315 @@
+{
+ "readings": [
+  {
+   "number": 49,
+   "title": "Le conditionnel",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Le conditionnel sert à **imaginer**, à **adoucir** une demande, à **conseiller**, à **regretter** et, dans la presse, à présenter une **information non confirmée**. Au DELF B2, il est attendu dans la lettre formelle (_je souhaiterais_, _pourriez-vous_) et dans le débat (_il faudrait_)."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitres 31 et 49 (p. 136, 230)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former le conditionnel présent et le conditionnel passé.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer le conditionnel pour la politesse, le conseil, le regret et l'information non confirmée.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Formation et emplois du conditionnel",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Conditionnel présent** = radical du **futur** + terminaisons de l'**imparfait** (-ais, -ais, -ait, -ions, -iez, -aient)."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Infinitif",
+           "Futur",
+           "Conditionnel présent"
+          ],
+          [
+           "parler",
+           "je parlerai",
+           "je parler**ais**"
+          ],
+          [
+           "être",
+           "je serai",
+           "je ser**ais**"
+          ],
+          [
+           "avoir",
+           "j'aurai",
+           "j'aur**ais**"
+          ],
+          [
+           "aller",
+           "j'irai",
+           "j'ir**ais**"
+          ],
+          [
+           "faire",
+           "je ferai",
+           "je fer**ais**"
+          ],
+          [
+           "pouvoir",
+           "je pourrai",
+           "je pourr**ais**"
+          ],
+          [
+           "devoir",
+           "je devrai",
+           "je devr**ais**"
+          ],
+          [
+           "vouloir",
+           "je voudrai",
+           "je voudr**ais**"
+          ],
+          [
+           "venir",
+           "je viendrai",
+           "je viendr**ais**"
+          ],
+          [
+           "falloir",
+           "il faudra",
+           "il faudr**ait**"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Conditionnel passé** = _avoir_ ou _être_ au conditionnel présent + participe passé : _j'aurais aimé_, _elle serait venue_."
+        },
+        {
+         "t": "note",
+         "md": "Ne confondez pas _je voudrai_ (futur) et _je voudr**ais**_ (conditionnel), qui se prononcent presque pareil. À l'écrit, le _s_ final change tout."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**Politesse** : _Je **voudrais** un renseignement. **Pourriez**-vous m'aider ?_",
+          "**Conseil, suggestion** : _Vous **devriez** vous reposer. Il **faudrait** investir dans les transports._",
+          "**Souhait, rêve** : _J'**aimerais** vivre à la mer._",
+          "**Regret, reproche** (conditionnel passé) : _J'**aurais dû** partir plus tôt. Tu **aurais pu** me prévenir !_",
+          "**Information non confirmée** (presse) : _Le ministre **serait** sur le départ. L'incendie **aurait fait** trois victimes._"
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Au cas où** + conditionnel : _Prends un parapluie **au cas où** il **pleuvrait**._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 50,
+   "title": "Les hypothèses",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les hypothèses avec **si** sont un classique du DELF B2 : pour imaginer des solutions (_si on taxait…, on pourrait…_) et pour analyser le passé (_si l'État avait investi…_). La règle de concordance est stricte : **jamais de conditionnel après « si »**."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 50 (p. 232–237)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Exprimer une hypothèse probable sur le futur (si + présent → futur).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Exprimer une hypothèse irréelle sur le présent (si + imparfait → conditionnel présent).",
+     "module": 1
+    },
+    {
+     "letter": "c",
+     "text": "Exprimer une hypothèse irréelle sur le passé (si + plus-que-parfait → conditionnel passé).",
+     "module": 2
+    },
+    {
+     "letter": "d",
+     "text": "Combiner les temps (hypothèses mixtes) et utiliser les autres expressions de condition (même si, au cas où, à condition de…).",
+     "module": 2
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Hypothèses sur le futur et sur le présent",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Si + présent → futur** (ou présent, ou impératif) : l'hypothèse est **possible**, elle peut se réaliser."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "_**S'il fait** beau demain, nous **irons** à la plage._",
+          "_**Si** tu **as** le temps, **appelle**-moi._",
+          "_**Si** on **chauffe** l'eau à 100 °C, elle **bout**._ (vérité générale)"
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Si + imparfait → conditionnel présent** : l'hypothèse est **irréelle** ou **imaginaire** dans le présent."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "_Aujourd'hui, **s'il faisait** beau, je **sortirais**._ (= il ne fait pas beau)",
+          "_**Si** j'**étais** ministre, je **réduirais** les impôts._"
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Si + imparfait** seul, sous forme de question, exprime une **suggestion** : _**Si on allait** au cinéma ?_"
+        },
+        {
+         "t": "note",
+         "md": "**Jamais de conditionnel après « si »** d'hypothèse : *_si j'aurais_, *_si je serais_ sont des fautes graves."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 2,
+     "title": "Hypothèses sur le passé, hypothèses mixtes et autres expressions",
+     "sections": [
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Si + plus-que-parfait → conditionnel passé** : l'hypothèse porte sur le **passé** et ne s'est **pas réalisée**."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "_Hier, **s'il avait fait** beau, je **serais allé** à la piscine._ (= il n'a pas fait beau)",
+          "_**Si** j'**avais su**, je ne **serais** pas **venu**._",
+          "_**Si** le gouvernement **avait agi** plus tôt, la crise **aurait été** évitée._"
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "d"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Hypothèse mixte** : condition dans le passé, conséquence dans le présent → **si + plus-que-parfait → conditionnel présent**."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "_**Si** j'**avais étudié** la médecine, je **serais** médecin aujourd'hui._",
+          "_**Si** tu **avais pris** ton parapluie, tu ne **serais** pas mouillé maintenant._"
+         ]
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Expression",
+           "Mode",
+           "Exemple"
+          ],
+          [
+           "même si",
+           "indicatif (comme _si_)",
+           "_Même s'il pleut, je sortirai._"
+          ],
+          [
+           "au cas où",
+           "conditionnel",
+           "_Au cas où il pleuvrait, prends un parapluie._"
+          ],
+          [
+           "à condition que / pourvu que",
+           "subjonctif",
+           "_Je viendrai à condition que tu sois là._"
+          ],
+          [
+           "à condition de",
+           "infinitif (même sujet)",
+           "_Tu réussiras à condition de travailler._"
+          ],
+          [
+           "en cas de",
+           "nom",
+           "_En cas de pluie, le concert sera annulé._"
+          ],
+          [
+           "sinon",
+           "(adverbe)",
+           "_Dépêche-toi, sinon tu vas rater le train._"
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

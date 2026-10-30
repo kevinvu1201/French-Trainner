@@ -1,0 +1,317 @@
+{
+ "module": "m35.1",
+ "source_hash": "1995203ad596",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Rapporter des paroles, c'est les intégrer dans sa propre phrase, comme une subordonnée."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Déclaration → _que_ ; question oui/non → _si_ ; _qu'est-ce que_ → _ce que_ ; _qu'est-ce qui_ → _ce qui_ ; ordre → _de_ + infinitif."
+   },
+   {
+    "stage": "result",
+    "md": "Les pronoms et possessifs s'adaptent au point de vue de celui qui rapporte ; au présent, les temps restent les mêmes."
+   },
+   {
+    "stage": "interpretation",
+    "md": "En compréhension orale, les questions du type « Selon le journaliste… » vérifient que vous savez passer du direct à l'indirect."
+   }
+  ],
+  "why_it_matters": "Résumer et citer des points de vue (_l'auteur se demande si…_) est indispensable dans les synthèses et l'oral du DELF B2.",
+  "exam_approach": {
+   "look_first": [
+    "le type de phrase : déclaration, question totale, question partielle, ordre",
+    "les pronoms : qui parle à qui ?",
+    "le temps du verbe introducteur"
+   ],
+   "traps": [
+    "garder _qu'est-ce que_ dans une question indirecte",
+    "garder l'inversion (*_il demande où habites-tu_)",
+    "_dire que_ + impératif pour un ordre"
+   ],
+   "distractors": [
+    "_qu'est-ce que_ au lieu de _ce que_",
+    "_que_ au lieu de _si_",
+    "_ce qui_ au lieu de _ce que_"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m45.1",
+   "type": "extends",
+   "note": "La concordance des temps quand le verbe introducteur est au passé."
+  },
+  {
+   "to": "m32.2",
+   "type": "requires",
+   "note": "ce qui / ce que."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.35.a.001",
+   "los": "los.35.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "« Tu es libre ce soir ? » → Il me demande …… je suis libre ce soir.",
+   "options": [
+    "si",
+    "que",
+    "ce que"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Question oui/non → _si_.",
+    "B": "Faux. _que_ introduit une déclaration, pas une question.",
+    "C": "Faux. _ce que_ remplace _qu'est-ce que_."
+   }
+  },
+  {
+   "id": "q.35.a.002",
+   "los": "los.35.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "« Qu'est-ce que tu veux ? » → Elle me demande …… je veux.",
+   "options": [
+    "qu'est-ce que",
+    "ce que",
+    "ce qui"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Au discours indirect, _qu'est-ce que_ devient _ce que_.",
+    "B": "Correct. _qu'est-ce que_ → _ce que_.",
+    "C": "Faux. _ce qui_ remplace _qu'est-ce qui_ (sujet)."
+   }
+  },
+  {
+   "id": "q.35.a.003",
+   "los": "los.35.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "« Qu'est-ce qui ne va pas ? » → Le médecin demande …… ne va pas.",
+   "options": [
+    "ce que",
+    "qu'est-ce qui",
+    "ce qui"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _ce que_ est complément ; ici il faut le sujet de _va_.",
+    "B": "Faux. La forme interrogative directe ne se garde pas.",
+    "C": "Correct. _qu'est-ce qui_ (sujet) → _ce qui_."
+   }
+  },
+  {
+   "id": "q.35.a.004",
+   "los": "los.35.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "« Fermez la porte ! » → Le professeur nous dit …… la porte.",
+   "options": [
+    "que nous fermons",
+    "fermer",
+    "de fermer"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Cela rapporterait une information, pas un ordre.",
+    "B": "Faux. Il manque la préposition _de_.",
+    "C": "Correct. Ordre → _dire de_ + infinitif."
+   }
+  },
+  {
+   "id": "q.35.a.005",
+   "los": "los.35.a",
+   "difficulty": 2,
+   "qtype": "judgement",
+   "stem": "« Où habitez-vous ? » → Quelle phrase est correcte ?",
+   "options": [
+    "Il me demande où j'habite.",
+    "Il me demande où habitez-vous.",
+    "Il me demande où est-ce que j'habite."
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Pas d'inversion et pas de point d'interrogation au discours indirect.",
+    "B": "Faux. On ne garde pas l'inversion.",
+    "C": "Faux. _est-ce que_ disparaît au discours indirect."
+   }
+  },
+  {
+   "id": "q.35.a.006",
+   "los": "los.35.a",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "« Ils viennent demain ? » → Il demande …… viennent demain.",
+   "options": [
+    "si ils",
+    "s'ils",
+    "qu'ils"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _si_ s'élide devant _il(s)_.",
+    "B": "Correct. _si_ + _ils_ → _s'ils_.",
+    "C": "Faux. _que_ ne convient pas pour une question oui/non."
+   }
+  },
+  {
+   "id": "q.35.b.001",
+   "los": "los.35.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Julie à Marc : « Je t'appelle ce soir. » → Julie dit à Marc qu'elle …… appelle ce soir.",
+   "options": [
+    "l'",
+    "t'",
+    "lui"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _te_ (Marc) devient _le_ → _l'appelle_.",
+    "B": "Faux. Le narrateur ne parle pas à Marc : _te_ devient _le_.",
+    "C": "Faux. _appeler quelqu'un_ : COD, donc _le_, pas _lui_."
+   }
+  },
+  {
+   "id": "q.35.b.002",
+   "los": "los.35.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Mes parents me disent : « Nous sommes fiers de toi. » → Mes parents me disent qu'…… sont fiers de …….",
+   "options": [
+    "nous… toi",
+    "ils… lui",
+    "ils… moi"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il faut adapter les pronoms au point de vue du narrateur.",
+    "B": "Faux. _toi_ désigne le narrateur : _moi_.",
+    "C": "Correct. _nous_ (les parents) → _ils_ ; _toi_ (moi) → _moi_."
+   }
+  },
+  {
+   "id": "q.35.b.003",
+   "los": "los.35.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Léo à Anna : « J'ai trouvé ton téléphone. » → Léo dit à Anna qu'il a trouvé …… téléphone.",
+   "options": [
+    "ton",
+    "son",
+    "leur"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le narrateur ne parle pas à Anna.",
+    "B": "Correct. _ton_ (le téléphone d'Anna) → _son_.",
+    "C": "Faux. Le téléphone appartient à une seule personne."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m35.1.01",
+   "modules": [
+    "m35.1"
+   ],
+   "title": "Un message sur répondeur",
+   "vignette": "Vous rapportez à votre colocataire le message du propriétaire :\n\n« Le propriétaire a appelé. Il dit **(1)** …… le plombier passera jeudi. Il demande **(2)** …… nous serons là le matin et **(3)** …… nous préférons comme heure. Il nous dit aussi **(4)** …… le rappeler avant mercredi. »",
+   "questions": [
+    {
+     "id": "set.m35.1.01.q1",
+     "los": "los.35.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "si",
+      "que",
+      "ce que"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _si_ introduit une question.",
+      "B": "Correct. Déclaration → _que_.",
+      "C": "Faux. _ce que_ introduit une question sur un complément."
+     }
+    },
+    {
+     "id": "set.m35.1.01.q2",
+     "los": "los.35.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "que",
+      "est-ce que",
+      "si"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _que_ rapporte une déclaration.",
+      "B": "Faux. _est-ce que_ disparaît au discours indirect.",
+      "C": "Correct. Question oui/non → _si_."
+     }
+    },
+    {
+     "id": "set.m35.1.01.q3",
+     "los": "los.35.a",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (3) :",
+     "options": [
+      "ce que",
+      "qu'est-ce que",
+      "ce qui"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _Qu'est-ce que vous préférez ?_ → _ce que_.",
+      "B": "Faux. Au discours indirect, on dit _ce que_.",
+      "C": "Faux. _nous_ est le sujet de _préférons_."
+     }
+    },
+    {
+     "id": "set.m35.1.01.q4",
+     "los": "los.35.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (4) :",
+     "options": [
+      "de",
+      "que",
+      "à"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Ordre → _dire de_ + infinitif.",
+      "B": "Faux. Il faudrait alors un verbe conjugué.",
+      "C": "Faux. _dire_ + infinitif se construit avec _de_."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.35.transformations",
+   "los": [
+    "los.35.a"
+   ],
+   "name": "Discours indirect : les outils",
+   "front": "Déclaration / question oui-non / qu'est-ce que / qu'est-ce qui / ordre → ?",
+   "back": "**que** / **si** / **ce que** / **ce qui** / **de** + infinitif. Pas d'inversion, pas de « ? ».",
+   "examples": [
+    "Il demande si je viens.",
+    "Il me dit de partir."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,525 @@
+{
+ "module": "m96.1",
+ "source_hash": "8eaa64987c43",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le vocabulaire du thème « pièges et faux amis » sert à comprendre les documents et à argumenter sans répétition."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Les cartes utilisent la répétition espacée : un mot revient juste avant que vous l'oubliiez."
+   },
+   {
+    "stage": "result",
+    "md": "Réviser chaque jour quelques minutes vaut mieux qu'une longue séance par semaine."
+   }
+  ],
+  "why_it_matters": "Un lexique précis sur les faux amis, les expressions idiomatiques et les pièges de grammaire fait partie de la note « étendue et maîtrise du vocabulaire » à l'écrit et à l'oral.",
+  "exam_approach": {
+   "look_first": [
+    "le genre du nom (le / la)",
+    "la préposition qui accompagne le verbe"
+   ],
+   "traps": [
+    "les faux amis (_la librairie_ ≠ library)",
+    "oublier l'article en apprenant un nom"
+   ],
+   "distractors": [
+    "un mot proche de l'anglais mais de sens différent"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.96.w001",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "la figure",
+   "front": "la figure",
+   "back": "the FACE (not \"figure\"). A person's figure = la ligne."
+  },
+  {
+   "id": "f.96.w002",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "« passer un examen » = ?",
+   "front": "« passer un examen » = ?",
+   "back": "to TAKE an exam. To pass = réussir un examen."
+  },
+  {
+   "id": "f.96.w003",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "le collège",
+   "front": "le collège",
+   "back": "middle school (false friend). College/university = l'université."
+  },
+  {
+   "id": "f.96.w004",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "la librairie",
+   "front": "la librairie",
+   "back": "bookstore (false friend). Library = la bibliothèque."
+  },
+  {
+   "id": "f.96.w005",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "demander",
+   "front": "demander",
+   "back": "to ASK (false friend). To demand = exiger."
+  },
+  {
+   "id": "f.96.w006",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "propre: before or after the noun?",
+   "front": "propre: before or after the noun?",
+   "back": "after = clean (une chambre propre); before = own (ma propre chambre)."
+  },
+  {
+   "id": "f.96.w007",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "sentir vs se sentir",
+   "front": "sentir vs se sentir",
+   "back": "sentir = to smell; se sentir = to feel."
+  },
+  {
+   "id": "f.96.w008",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "« J'ai une dent contre lui. »",
+   "front": "« J'ai une dent contre lui. »",
+   "back": "I hold a grudge against him."
+  },
+  {
+   "id": "f.96.w009",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "« Ça coûte les yeux de la tête. »",
+   "front": "« Ça coûte les yeux de la tête. »",
+   "back": "It costs an arm and a leg."
+  },
+  {
+   "id": "f.96.w010",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "« Il pleut des cordes. »",
+   "front": "« Il pleut des cordes. »",
+   "back": "It's raining cats and dogs."
+  },
+  {
+   "id": "f.96.w011",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "« Il fait un froid de canard. »",
+   "front": "« Il fait un froid de canard. »",
+   "back": "It's freezing cold."
+  },
+  {
+   "id": "f.96.w012",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "« Il fait un temps de chien. »",
+   "front": "« Il fait un temps de chien. »",
+   "back": "The weather is awful."
+  },
+  {
+   "id": "f.96.w013",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "« dormir comme un loir »",
+   "front": "« dormir comme un loir »",
+   "back": "to sleep like a log (dormouse)."
+  },
+  {
+   "id": "f.96.w014",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "« tête de citrouille »",
+   "front": "« tête de citrouille »",
+   "back": "fathead / idiot (insult)."
+  },
+  {
+   "id": "f.96.w015",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "« mon chou »",
+   "front": "« mon chou »",
+   "back": "honey / sweetheart (term of endearment)."
+  },
+  {
+   "id": "f.96.w016",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "l'apéritif",
+   "front": "l'apéritif",
+   "back": "pre-dinner alcoholic drink — NOT a food appetizer (= hors-d'œuvre / entrée)."
+  },
+  {
+   "id": "f.96.w017",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "l'entrée (au restaurant)",
+   "front": "l'entrée (au restaurant)",
+   "back": "the starter. The US \"entrée\" = le plat principal."
+  },
+  {
+   "id": "f.96.w018",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "la carte vs le menu",
+   "front": "la carte vs le menu",
+   "back": "la carte = the menu; le menu = a set meal at a fixed price."
+  },
+  {
+   "id": "f.96.w019",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "les vacances vs une vacance",
+   "front": "les vacances vs une vacance",
+   "back": "vacation is always plural (les vacances); singular vacance = vacancy."
+  },
+  {
+   "id": "f.96.w020",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "les préparatifs",
+   "front": "les préparatifs",
+   "back": "preparations / arrangements (plural), e.g. les préparatifs de voyage."
+  },
+  {
+   "id": "f.96.w021",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "la marche",
+   "front": "la marche",
+   "back": "march / hike. A casual walk = une balade / une promenade."
+  },
+  {
+   "id": "f.96.w022",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "le dépanneur (Québec)",
+   "front": "le dépanneur (Québec)",
+   "back": "convenience store. In France: tow-truck driver."
+  },
+  {
+   "id": "f.96.w023",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "le ballot",
+   "front": "le ballot",
+   "back": "bundle of goods — false friend. A ballot = un bulletin / un scrutin."
+  },
+  {
+   "id": "f.96.w024",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "la loi vs le droit",
+   "front": "la loi vs le droit",
+   "back": "la loi = a law; le droit = law as a field (and \"a right\")."
+  },
+  {
+   "id": "f.96.w025",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "-al plural",
+   "front": "-al plural",
+   "back": "most nouns/adjectives in -al → -aux: national → nationaux."
+  },
+  {
+   "id": "f.96.w026",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "la salle de bains in public?",
+   "front": "la salle de bains in public?",
+   "back": "No — ask for les toilettes."
+  },
+  {
+   "id": "f.96.w027",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "la lingerie",
+   "front": "la lingerie",
+   "back": "can mean linen / linen room; say lingerie fine for women's lingerie."
+  },
+  {
+   "id": "f.96.w028",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "le chiffre / le nombre / le numéro",
+   "front": "le chiffre / le nombre / le numéro",
+   "back": "chiffre = digit; nombre = quantity; numéro = phone/house number."
+  },
+  {
+   "id": "f.96.w029",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "jouer de vs jouer à",
+   "front": "jouer de vs jouer à",
+   "back": "jouer DE + instrument (du violon); jouer À + sport/game (au tennis)."
+  },
+  {
+   "id": "f.96.w030",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "le dimanche vs dimanche",
+   "front": "le dimanche vs dimanche",
+   "back": "le dimanche = every Sunday; dimanche = this specific Sunday."
+  },
+  {
+   "id": "f.96.w031",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "le matin",
+   "front": "le matin",
+   "back": "means \"the morning\" AND \"in the morning\" (also le soir, la nuit…)."
+  },
+  {
+   "id": "f.96.w032",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "dates: le premier vs le deux",
+   "front": "dates: le premier vs le deux",
+   "back": "1st = le premier mai; others use cardinal numbers: le 3 mai."
+  },
+  {
+   "id": "f.96.w033",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "rulers: Henri Quatre",
+   "front": "rulers: Henri Quatre",
+   "back": "cardinal numbers for rulers, except François Premier."
+  },
+  {
+   "id": "f.96.w034",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "seasons: in winter / spring",
+   "front": "seasons: in winter / spring",
+   "back": "en hiver, en été, en automne — but AU printemps."
+  },
+  {
+   "id": "f.96.w035",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "avoir + sensation",
+   "front": "avoir + sensation",
+   "back": "J'ai froid / faim / soif / sommeil (not « je suis froid »)."
+  },
+  {
+   "id": "f.96.w036",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "body parts + reflexive verbs",
+   "front": "body parts + reflexive verbs",
+   "back": "use the article, not the possessive: Je me brosse LES cheveux."
+  },
+  {
+   "id": "f.96.w037",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "the « il fait » rule",
+   "front": "the « il fait » rule",
+   "back": "most weather = il fait… EXCEPT il pleut, il neige, il gèle, il grêle."
+  },
+  {
+   "id": "f.96.w038",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "infinitive as instruction",
+   "front": "infinitive as instruction",
+   "back": "Ne pas fumer = No smoking."
+  },
+  {
+   "id": "f.96.w039",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "fruit vs fruit-tree gender",
+   "front": "fruit vs fruit-tree gender",
+   "back": "most fruits feminine (la prune); trees masculine (le prunier)."
+  },
+  {
+   "id": "f.96.w040",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "adverbs of quantity + de",
+   "front": "adverbs of quantity + de",
+   "back": "beaucoup DE, trop DE… except bien DES and la plupart DES."
+  },
+  {
+   "id": "f.96.w041",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "nationality: capital letter?",
+   "front": "nationality: capital letter?",
+   "back": "adjective lowercase (la cuisine française); noun capitalized (les Français)."
+  },
+  {
+   "id": "f.96.w042",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "days and months: capital?",
+   "front": "days and months: capital?",
+   "back": "no capital: lundi, janvier."
+  },
+  {
+   "id": "f.96.w043",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "cet vs ce",
+   "front": "cet vs ce",
+   "back": "cet before masculine vowel sound: cet hôtel."
+  },
+  {
+   "id": "f.96.w044",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "mon amie (not ma amie)",
+   "front": "mon amie (not ma amie)",
+   "back": "use mon/ton/son before feminine nouns starting with a vowel sound."
+  },
+  {
+   "id": "f.96.w045",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "nouveau / nouvel",
+   "front": "nouveau / nouvel",
+   "back": "nouvel before masculine vowel sound: un nouvel élève (same: bel, vieil)."
+  },
+  {
+   "id": "f.96.w046",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "neuf vs nouveau",
+   "front": "neuf vs nouveau",
+   "back": "neuf = brand new (un costume neuf); nouveau = new/different."
+  },
+  {
+   "id": "f.96.w047",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "on",
+   "front": "on",
+   "back": "impersonal pronoun = we / one / people."
+  },
+  {
+   "id": "f.96.w048",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "pronouns in affirmative commands",
+   "front": "pronouns in affirmative commands",
+   "back": "placed after the verb; me/te → moi/toi: Donne-moi ton numéro !"
+  },
+  {
+   "id": "f.96.w049",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "ending a friendly letter",
+   "front": "ending a friendly letter",
+   "back": "Amicalement, Bises, Je t'embrasse — not a literal \"Love\"."
+  },
+  {
+   "id": "f.96.w050",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "title in formal greeting",
+   "front": "title in formal greeting",
+   "back": "Bonjour, monsieur / madame (no surname in formal settings)."
+  },
+  {
+   "id": "f.96.w051",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "l'instituteur vs le professeur",
+   "front": "l'instituteur vs le professeur",
+   "back": "instituteur = primary school; professeur = secondary and university."
+  },
+  {
+   "id": "f.96.w052",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "la manucure / le pédicure",
+   "front": "la manucure / le pédicure",
+   "back": "can mean the treatment AND the professional who does it."
+  },
+  {
+   "id": "f.96.w053",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "the 24-hour clock",
+   "front": "the 24-hour clock",
+   "back": "used for schedules and official times: 13h = 1 p.m."
+  },
+  {
+   "id": "f.96.w054",
+   "los": [
+    "los.96.a"
+   ],
+   "name": "le mal de cœur",
+   "front": "le mal de cœur",
+   "back": "queasiness / nausea — nothing to do with the heart."
+  }
+ ]
+}

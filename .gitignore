@@ -1,0 +1,9 @@
+# Build outputs and caches
+dist/
+dist-enc/
+.cache/
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+# content/ and generated/ are written by authoring/*.py from original text and are committed.

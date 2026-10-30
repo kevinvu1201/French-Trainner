@@ -1,0 +1,833 @@
+en forme	fit	MKF::03_Sante
+la forme	fitness	MKF::03_Sante
+en bonne santé	healthy	MKF::03_Sante
+avoir bonne mine	to look good / look healthy	MKF::03_Sante
+avoir mauvaise mine	to look sick	MKF::03_Sante
+la santé mentale	mental health	MKF::03_Sante
+prévenir / éviter	to prevent	MKF::03_Sante
+la médecine préventive	preventive medicine	MKF::03_Sante
+robuste	robust	MKF::03_Sante
+la force	strength	MKF::03_Sante
+la vigueur	vigor	MKF::03_Sante
+le bien-être	well-being	MKF::03_Sante
+la propreté	cleanliness	MKF::03_Sante
+tomber malade	to become ill	MKF::03_Sante
+saigner	to bleed	MKF::03_Sante
+le sang	blood	MKF::03_Sante
+à bout d'haleine	breathless	MKF::03_Sante
+le bleu	bruise	MKF::03_Sante
+la brûlure	burn	MKF::03_Sante
+s'étrangler	to choke	MKF::03_Sante
+convalescent(e)	convalescent	MKF::03_Sante
+le malaise	discomfort / feeling faint	MKF::03_Sante
+pris(e) d'étourdissement	dizzy	MKF::03_Sante
+la somnolence	drowsiness	MKF::03_Sante
+somnolent(e)	drowsy	MKF::03_Sante
+s'évanouir / défaillir	to faint	MKF::03_Sante
+la chute	fall	MKF::03_Sante
+la fracture	fracture	MKF::03_Sante
+se remettre	to get better / recover	MKF::03_Sante
+(se) faire mal	to hurt (oneself)	MKF::03_Sante
+le / la blessé(e)	injured person	MKF::03_Sante
+la blessure	injury / wound	MKF::03_Sante
+la plaie	wound	MKF::03_Sante
+avoir la nausée	to be nauseated	MKF::03_Sante
+la douleur	pain	MKF::03_Sante
+récupérer	to recuperate	MKF::03_Sante
+la rechute	relapse	MKF::03_Sante
+faire une rechute	to relapse	MKF::03_Sante
+l'entorse (f) / la foulure	sprain	MKF::03_Sante
+souffrir	to suffer	MKF::03_Sante
+la souffrance	suffering	MKF::03_Sante
+s'asphyxier	to suffocate	MKF::03_Sante
+l'enflure (f)	swelling	MKF::03_Sante
+enflé(e)	swollen	MKF::03_Sante
+inconscient(e)	unconscious	MKF::03_Sante
+indisposé(e)	under the weather	MKF::03_Sante
+faible	weak	MKF::03_Sante
+s'affaiblir	to weaken	MKF::03_Sante
+s'aggraver / empirer	to worsen	MKF::03_Sante
+le rhume	cold (illness)	MKF::03_Sante
+la toux	cough	MKF::03_Sante
+tousser	to cough	MKF::03_Sante
+la fièvre	fever	MKF::03_Sante
+la grippe	flu	MKF::03_Sante
+l'intoxication alimentaire (f)	food poisoning	MKF::03_Sante
+l'infection (f)	infection	MKF::03_Sante
+la migraine	migraine	MKF::03_Sante
+éternuer	to sneeze	MKF::03_Sante
+transpirer	to sweat / perspire	MKF::03_Sante
+vomir	to vomit	MKF::03_Sante
+l'allergie (f)	allergy	MKF::03_Sante
+l'arthrite (f)	arthritis	MKF::03_Sante
+l'asthme (m)	asthma	MKF::03_Sante
+le déficit d'attention	attention deficit	MKF::03_Sante
+la pression artérielle	blood pressure	MKF::03_Sante
+l'hypertension (f)	high blood pressure	MKF::03_Sante
+le diabète	diabetes	MKF::03_Sante
+la courbature	joint ache / stiffness	MKF::03_Sante
+le sida	AIDS	MKF::03_Sante
+séropositif / séropositive	HIV positive	MKF::03_Sante
+le cancer	cancer	MKF::03_Sante
+la crise cardiaque / l'infarctus (m)	heart attack	MKF::03_Sante
+la leucémie	leukemia	MKF::03_Sante
+la rougeole	measles	MKF::03_Sante
+la méningite	meningitis	MKF::03_Sante
+les oreillons (m pl)	mumps	MKF::03_Sante
+la pneumonie	pneumonia	MKF::03_Sante
+la tuberculose	tuberculosis	MKF::03_Sante
+la varicelle	chicken pox	MKF::03_Sante
+l'alcoolisme (m)	alcoholism	MKF::03_Sante
+l'anorexie (f)	anorexia	MKF::03_Sante
+la boulimie	bulimia	MKF::03_Sante
+déprimé(e)	depressed	MKF::03_Sante
+la dépression	depression	MKF::03_Sante
+le / la drogué(e)	drug addict	MKF::03_Sante
+la dépendance / la toxicomanie	(drug) addiction	MKF::03_Sante
+la drogue / le stupéfiant	drug (narcotic)	MKF::03_Sante
+accro	hooked (informal)	MKF::03_Sante
+la maladie mentale	mental illness	MKF::03_Sante
+le stress	stress	MKF::03_Sante
+le tabagisme	tobacco addiction / smoking	MKF::03_Sante
+le symptôme de sevrage	withdrawal symptom (book: symptôme de retrait)	MKF::03_Sante
+aveugle	blind	MKF::03_Sante
+sourd(e)	deaf	MKF::03_Sante
+la surdité	deafness	MKF::03_Sante
+la déficience	deficiency / impairment	MKF::03_Sante
+l'infirmité (f) / l'incapacité (f)	disability	MKF::03_Sante
+handicapé(e)	disabled / handicapped	MKF::03_Sante
+boiter	to limp	MKF::03_Sante
+la paralysie	paralysis	MKF::03_Sante
+paralysé(e)	paralyzed	MKF::03_Sante
+l'antibiotique (m)	antibiotic	MKF::03_Sante
+le pansement	(small) bandage / dressing	MKF::03_Sante
+la pilule contraceptive	birth control pill	MKF::03_Sante
+l'analyse de sang (f)	blood test	MKF::03_Sante
+la transfusion (sanguine)	blood transfusion	MKF::03_Sante
+ausculter	to examine (with stethoscope)	MKF::03_Sante
+la consultation	consultation	MKF::03_Sante
+grave	serious / critical	MKF::03_Sante
+le diagnostic	diagnosis	MKF::03_Sante
+le médicament	drug / medication	MKF::03_Sante
+l'urgence (f)	emergency	MKF::03_Sante
+les premiers soins / les premiers secours	first aid	MKF::03_Sante
+la piqûre	injection	MKF::03_Sante
+l'assurance maladie (f)	medical insurance	MKF::03_Sante
+la pommade	ointment	MKF::03_Sante
+l'opération (f)	operation / surgery	MKF::03_Sante
+le comprimé / le cachet	tablet / pill	MKF::03_Sante
+l'ordonnance (f)	prescription	MKF::03_Sante
+le repos	rest	MKF::03_Sante
+la réanimation	resuscitation	MKF::03_Sante
+la thérapie	therapy	MKF::03_Sante
+la greffe	transplant	MKF::03_Sante
+le traitement	treatment	MKF::03_Sante
+vacciner	to vaccinate	MKF::03_Sante
+le vaccin	vaccine	MKF::03_Sante
+le fauteuil roulant	wheelchair	MKF::03_Sante
+la radiographie	x-ray	MKF::03_Sante
+le / la généraliste	general practitioner	MKF::03_Sante
+le / la secouriste	first-aid worker	MKF::03_Sante
+la sage-femme	midwife	MKF::03_Sante
+l'infirmier / l'infirmière	nurse	MKF::03_Sante
+l'aide-soignant(e)	nurse's aide	MKF::03_Sante
+le / la kinésithérapeute	physical therapist	MKF::03_Sante
+le / la chirurgien(ne)	surgeon	MKF::03_Sante
+le chercheur / la chercheuse	researcher	MKF::03_Sante
+le cabinet (médical)	doctor's office	MKF::03_Sante
+la salle des urgences	emergency room	MKF::03_Sante
+de garde	on call	MKF::03_Sante
+les soins intensifs (m pl)	intensive care	MKF::03_Sante
+la salle d'attente	waiting room	MKF::03_Sante
+la grossesse	pregnancy	MKF::03_Sante
+enceinte	pregnant	MKF::03_Sante
+majeur(e)	of legal age	MKF::03_Sante
+le / la mineur(e)	minor	MKF::03_Sante
+l'âge mûr (m)	middle age	MKF::03_Sante
+la vieillesse / le troisième âge	old age	MKF::03_Sante
+la fleur de l'âge	prime of life	MKF::03_Sante
+l'enterrement (m)	burial	MKF::03_Sante
+les condoléances (f pl)	condolences	MKF::03_Sante
+décédé(e)	deceased	MKF::03_Sante
+l'héritage (m)	inheritance	MKF::03_Sante
+hériter	to inherit	MKF::03_Sante
+être en deuil	to be in mourning	MKF::03_Sante
+le testament	will (legal)	MKF::03_Sante
+l'instruction civique (f)	civics	MKF::04_Education
+la rédaction	composition (school essay)	MKF::04_Education
+la dissertation	essay	MKF::04_Education
+le débat	debate	MKF::04_Education
+le résumé	summary	MKF::04_Education
+l'explication de texte (f)	text analysis	MKF::04_Education
+les sciences sociales (f pl)	social science	MKF::04_Education
+le lycée professionnel	vocational high school	MKF::04_Education
+la comptabilité	accounting	MKF::04_Education
+la gestion	management	MKF::04_Education
+la formation	training / education	MKF::04_Education
+le centre de formation professionnelle	vocational training center	MKF::04_Education
+s'appliquer / faire des efforts	to apply oneself	MKF::04_Education
+la moyenne	average (grade)	MKF::04_Education
+tricher	to cheat	MKF::04_Education
+sécher un cours	to skip a class	MKF::04_Education
+faire l'école buissonnière	to play truant	MKF::04_Education
+la matière facultative	elective subject	MKF::04_Education
+la matière obligatoire	required subject	MKF::04_Education
+échouer / rater	to fail	MKF::04_Education
+la note	grade	MKF::04_Education
+noter	to grade	MKF::04_Education
+le travail de groupe	group work	MKF::04_Education
+les devoirs (m pl)	homework	MKF::04_Education
+faire des progrès	to make progress	MKF::04_Education
+le contrôle / l'interro (f)	quiz / test	MKF::04_Education
+redoubler	to repeat a grade	MKF::04_Education
+le bulletin scolaire	report card	MKF::04_Education
+réussir un examen	to pass an exam	MKF::04_Education
+passer un examen	to TAKE an exam (not pass)	MKF::04_Education
+prendre des notes	to take notes	MKF::04_Education
+l'instituteur / l'institutrice	primary school teacher	MKF::04_Education
+l'enseignant(e)	teacher	MKF::04_Education
+reçu(e)	admitted / passed	MKF::04_Education
+recalé(e)	failed / rejected	MKF::04_Education
+la licence	bachelor's degree	MKF::04_Education
+le master	master's degree (book: la maîtrise, older term)	MKF::04_Education
+le doctorat	PhD	MKF::04_Education
+inscrit(e)	enrolled	MKF::04_Education
+l'inscription (f)	registration	MKF::04_Education
+le concours	competitive exam	MKF::04_Education
+la culture générale	general knowledge / education	MKF::04_Education
+l'enseignement (m)	teaching / instruction	MKF::04_Education
+les connaissances (f pl)	knowledge	MKF::04_Education
+le cours magistral	lecture course	MKF::04_Education
+la faculté de droit	law school	MKF::04_Education
+la faculté des lettres	school of literature / humanities	MKF::04_Education
+le restaurant universitaire (le resto U)	university cafeteria	MKF::04_Education
+la cité universitaire	university housing	MKF::04_Education
+la bibliothèque	library	MKF::04_Education
+l'enseignement à distance (m)	distance learning	MKF::04_Education
+le cours par correspondance	correspondence course	MKF::04_Education
+la cotisation	fee / dues	MKF::04_Education
+le module	learning unit / module	MKF::04_Education
+le cours du soir	night class	MKF::04_Education
+le cours en ligne	online course	MKF::04_Education
+s'abonner	to subscribe	MKF::04_Education
+l'abonnement (m)	subscription	MKF::04_Education
+le cours virtuel	virtual class	MKF::04_Education
+le bâtiment	construction (industry) / building	MKF::04_Education
+l'immobilier (m)	real estate	MKF::04_Education
+les travaux publics (m pl)	public works	MKF::04_Education
+la vente	sales	MKF::04_Education
+le / la commerçant(e)	shopkeeper / tradesperson	MKF::07_Travail
+l'apprenti(e)	apprentice	MKF::07_Travail
+le / la stagiaire	intern / trainee	MKF::07_Travail
+l'ouvrier / l'ouvrière	(manual) worker	MKF::07_Travail
+l'entrepreneur / l'entrepreneuse	contractor / entrepreneur	MKF::07_Travail
+l'artisan (m)	craftsman	MKF::07_Travail
+postuler / poser sa candidature	to apply (for a job)	MKF::07_Travail
+le cadre	executive / manager	MKF::07_Travail
+obtenir une promotion	to get a promotion	MKF::07_Travail
+le stage	internship	MKF::07_Travail
+le débouché	job opening / career prospect	MKF::07_Travail
+faire carrière	to make a career	MKF::07_Travail
+l'emploi (m)	job / employment	MKF::07_Travail
+qualifié(e)	qualified	MKF::07_Travail
+le CV (curriculum vitae)	résumé	MKF::07_Travail
+se reconvertir / se recycler	to retrain	MKF::07_Travail
+se spécialiser	to specialize	MKF::07_Travail
+former	to train	MKF::07_Travail
+le / la salarié(e)	employee / wage earner	MKF::07_Travail
+le dossier	file	MKF::07_Travail
+le classeur	filing cabinet / binder	MKF::07_Travail
+le papier recyclé	recycled paper	MKF::07_Travail
+le traitement de texte	word processor	MKF::07_Travail
+le distributeur automatique	ATM / vending machine	MKF::07_Travail
+la succursale / l'agence (f)	branch (of a bank)	MKF::07_Travail
+le code secret	PIN	MKF::07_Travail
+le coffre-fort	safe	MKF::07_Travail
+la caisse d'épargne	savings bank	MKF::07_Travail
+le guichet	counter / teller's window	MKF::07_Travail
+les petites annonces (f pl)	classified ads	MKF::07_Travail
+le contrat	contract	MKF::07_Travail
+l'agence pour l'emploi (f)	employment agency (book: bureau de placement)	MKF::07_Travail
+embaucher / engager	to hire	MKF::07_Travail
+le boulot	job (informal)	MKF::07_Travail
+le formulaire de candidature	job application form	MKF::07_Travail
+l'offre d'emploi (f)	job vacancy	MKF::07_Travail
+la demande d'emploi	job application / jobs wanted	MKF::07_Travail
+l'ordre du jour (m)	agenda (of a meeting)	MKF::07_Travail
+nommer	to appoint	MKF::07_Travail
+la société / l'entreprise (f)	company	MKF::07_Travail
+l'employé(e)	employee	MKF::07_Travail
+le patron / la patronne	boss / employer	MKF::07_Travail
+le personnel	staff / personnel	MKF::07_Travail
+travailler à plein temps	to work full time	MKF::07_Travail
+travailler à temps partiel	to work part time	MKF::07_Travail
+travailler à domicile / le télétravail	to work at home / telework	MKF::07_Travail
+la prime	bonus	MKF::07_Travail
+les congés (m pl)	days off / leave	MKF::07_Travail
+gagner	to earn / to win	MKF::07_Travail
+les avantages sociaux (m pl)	fringe benefits (book: prestations sociales)	MKF::07_Travail
+le jour férié	public holiday	MKF::07_Travail
+le SMIC (salaire minimum)	minimum wage	MKF::07_Travail
+l'augmentation (f)	pay raise / increase	MKF::07_Travail
+la pension	pension	MKF::07_Travail
+la rémunération	remuneration / pay	MKF::07_Travail
+la retraite	retirement	MKF::07_Travail
+le salaire / le traitement	salary / wages	MKF::07_Travail
+le congé maladie	sick leave	MKF::07_Travail
+la Sécurité sociale	Social Security (French health & welfare system)	MKF::07_Travail
+faire le pont	to take a long weekend (bridge a holiday)	MKF::07_Travail
+les congés payés (m pl)	paid vacation	MKF::07_Travail
+l'accord (m)	agreement	MKF::07_Travail
+boycotter	to boycott	MKF::07_Travail
+la convention collective	collective (wage) agreement	MKF::07_Travail
+le compromis	compromise	MKF::07_Travail
+la revendication	demand / claim	MKF::07_Travail
+revendiquer / exiger	to demand	MKF::07_Travail
+le licenciement	dismissal / layoff	MKF::07_Travail
+licencier / congédier	to lay off / dismiss	MKF::07_Travail
+les partenaires sociaux (m pl)	employers and unions	MKF::07_Travail
+se syndiquer	to join / form a union	MKF::07_Travail
+reprendre le travail	to go back to work	MKF::07_Travail
+le conflit social	labor dispute	MKF::07_Travail
+le médiateur / la médiatrice	mediator	MKF::07_Travail
+négocier	to negotiate	MKF::07_Travail
+la négociation	negotiation	MKF::07_Travail
+militer / lutter	to campaign / fight (for a cause)	MKF::07_Travail
+la manifestation	protest / demonstration	MKF::07_Travail
+manifester	to demonstrate / protest	MKF::07_Travail
+contester	to contest / protest	MKF::07_Travail
+démissionner	to resign	MKF::07_Travail
+la démission	resignation	MKF::07_Travail
+les indemnités de licenciement (f pl)	severance pay	MKF::07_Travail
+la grève	strike	MKF::07_Travail
+le / la gréviste	striker	MKF::07_Travail
+le chômeur / la chômeuse	unemployed person	MKF::07_Travail
+le chômage	unemployment	MKF::07_Travail
+les allocations chômage (f pl)	unemployment benefits	MKF::07_Travail
+le syndicat	union	MKF::07_Travail
+débrayer	to walk out (stop work)	MKF::07_Travail
+le solde	account balance	MKF::07_Travail
+le compte en banque	bank account	MKF::07_Travail
+la monnaie / la devise	currency	MKF::07_Travail
+le versement	deposit / payment	MKF::07_Travail
+verser	to deposit / pay in	MKF::07_Travail
+le taux d'intérêt	interest rate	MKF::07_Travail
+les intérêts (m pl)	interest	MKF::07_Travail
+le placement / l'investissement (m)	investment	MKF::07_Travail
+le prêt	loan	MKF::07_Travail
+le virement	money transfer (book: transfert)	MKF::07_Travail
+le taux de change	exchange rate	MKF::07_Travail
+économiser / épargner	to save (money)	MKF::07_Travail
+le compte d'épargne	savings account	MKF::07_Travail
+le relevé de compte	bank statement	MKF::07_Travail
+retirer (de l'argent)	to withdraw (money)	MKF::07_Travail
+le retrait	withdrawal	MKF::07_Travail
+la faillite	bankruptcy	MKF::07_Travail
+la facture	bill / invoice	MKF::07_Travail
+le budget	budget	MKF::07_Travail
+l'argent liquide (m) / les espèces (f pl)	cash	MKF::07_Travail
+la garantie	collateral / guarantee	MKF::07_Travail
+la concurrence	competition	MKF::07_Travail
+le PDG (président-directeur général)	CEO	MKF::07_Travail
+les impôts (m pl)	taxes	MKF::07_Travail
+la déclaration de revenus	tax return	MKF::07_Travail
+le fisc	tax authorities	MKF::07_Travail
+la direction	management	MKF::07_Travail
+à but non lucratif	nonprofit	MKF::07_Travail
+l'associé(e)	partner (business)	MKF::07_Travail
+la TVA (taxe sur la valeur ajoutée)	VAT / sales tax	MKF::07_Travail
+le capital	assets / capital	MKF::07_Travail
+la vente aux enchères	auction	MKF::07_Travail
+la balance commerciale	balance of trade	MKF::07_Travail
+le coût de la vie	cost of living	MKF::07_Travail
+la dette	debt	MKF::07_Travail
+la baisse	fall / decrease	MKF::07_Travail
+la hausse	rise / increase	MKF::07_Travail
+la reprise économique	economic recovery (book: redressement)	MKF::07_Travail
+l'inflation (f)	inflation	MKF::07_Travail
+l'investisseur (m)	investor	MKF::07_Travail
+la perte	loss	MKF::07_Travail
+le bénéfice / le profit	profit	MKF::07_Travail
+la récession	recession	MKF::07_Travail
+l'action (f)	share (stock)	MKF::07_Travail
+l'actionnaire (m/f)	shareholder	MKF::07_Travail
+la Bourse	stock exchange	MKF::07_Travail
+l'offre et la demande	supply and demand	MKF::07_Travail
+fournir	to supply	MKF::07_Travail
+le rachat / l'acquisition (f)	takeover	MKF::07_Travail
+l'acteur / l'actrice	actor / actress	MKF::08_Medias
+le comédien / la comédienne	actor / actress (stage)	MKF::08_Medias
+applaudir	to applaud	MKF::08_Medias
+le public / l'assistance (f)	audience	MKF::08_Medias
+le / la critique	critic	MKF::08_Medias
+doublé	dubbed	MKF::08_Medias
+sous-titré	subtitled	MKF::08_Medias
+passionnant(e)	exciting / fascinating	MKF::08_Medias
+tourner un film	to shoot a film	MKF::08_Medias
+le navet	flop (bad film)	MKF::08_Medias
+siffler	to hiss / boo / whistle	MKF::08_Medias
+la vedette	star	MKF::08_Medias
+le / la cinéphile	movie fan	MKF::08_Medias
+émouvant(e)	moving (emotionally)	MKF::08_Medias
+la pièce (de théâtre)	play	MKF::08_Medias
+le / la dramaturge	playwright	MKF::08_Medias
+l'intrigue (f)	plot	MKF::08_Medias
+la répétition	rehearsal	MKF::08_Medias
+la mise en scène	staging / direction	MKF::08_Medias
+le spectacle / la représentation	show / performance	MKF::08_Medias
+le trac	stage fright	MKF::08_Medias
+la tournée	tour	MKF::08_Medias
+l'enregistrement (m)	recording	MKF::08_Medias
+l'exposition (f)	exhibition	MKF::08_Medias
+le chef-d'œuvre	masterpiece	MKF::08_Medias
+les arts plastiques (m pl)	visual arts	MKF::08_Medias
+l'œuvre d'art (f)	work of art	MKF::08_Medias
+l'atelier (m)	studio / workshop	MKF::08_Medias
+contemporain(e)	contemporary	MKF::08_Medias
+la publicité	advertising	MKF::08_Medias
+le présentateur / la présentatrice	announcer / TV presenter	MKF::08_Medias
+diffuser / retransmettre	to broadcast	MKF::08_Medias
+l'émission (f)	broadcast / TV programme	MKF::08_Medias
+le dessin animé	cartoon	MKF::08_Medias
+le personnage	character	MKF::08_Medias
+le jeu télévisé	game show	MKF::08_Medias
+l'auditeur / l'auditrice	listener	MKF::08_Medias
+le téléspectateur / la téléspectatrice	TV viewer	MKF::08_Medias
+l'émission en direct (f)	live broadcast	MKF::08_Medias
+en différé	pre-recorded / time-delayed	MKF::08_Medias
+l'animateur / l'animatrice	host / moderator	MKF::08_Medias
+les actualités / les informations (f pl)	news	MKF::08_Medias
+la chaîne publique / privée	public / private channel	MKF::08_Medias
+le reportage	report (news)	MKF::08_Medias
+le court-métrage	short film	MKF::08_Medias
+le long-métrage	feature film	MKF::08_Medias
+le feuilleton	soap opera / serial	MKF::08_Medias
+le téléfilm	TV movie	MKF::08_Medias
+le journal télévisé (le JT)	TV news programme	MKF::08_Medias
+la série télévisée	TV series	MKF::08_Medias
+le logiciel antivirus	antivirus program	MKF::08_Medias
+le navigateur	browser (book: l'explorateur)	MKF::08_Medias
+cliquer	to click	MKF::08_Medias
+le jeu vidéo	video game	MKF::08_Medias
+l'informaticien(ne)	computer specialist	MKF::08_Medias
+planter / se bloquer	to crash (computer)	MKF::08_Medias
+le courriel / le mail	e-mail	MKF::08_Medias
+le pirate (informatique)	hacker	MKF::08_Medias
+le disque dur	hard disk	MKF::08_Medias
+le matériel	hardware	MKF::08_Medias
+la page d'accueil	home page	MKF::08_Medias
+installer	to install	MKF::08_Medias
+le portable	laptop / mobile phone	MKF::08_Medias
+se connecter	to log on	MKF::08_Medias
+l'écran (m)	screen / monitor	MKF::08_Medias
+la souris	mouse	MKF::08_Medias
+le mot de passe	password	MKF::08_Medias
+imprimer	to print	MKF::08_Medias
+le moteur de recherche	search engine	MKF::08_Medias
+le logiciel	software	MKF::08_Medias
+taper	to type	MKF::08_Medias
+l'utilisateur / l'utilisatrice	user	MKF::08_Medias
+l'usager / l'usagère	user (of a public service)	MKF::08_Medias
+le site web	website	MKF::08_Medias
+télécharger	to download	MKF::08_Medias
+le réseau social	social network	MKF::08_Medias
+le roman d'aventure	adventure novel	MKF::08_Medias
+l'auteur(e)	author	MKF::08_Medias
+la biographie	biography	MKF::08_Medias
+la conférence	lecture / talk	MKF::08_Medias
+le roman policier	detective novel	MKF::08_Medias
+le roman historique	historical novel	MKF::08_Medias
+le conférencier / la conférencière	lecturer / speaker	MKF::08_Medias
+le mouvement littéraire	literary movement	MKF::08_Medias
+l'œuvre (f)	(literary) work	MKF::08_Medias
+le romancier / la romancière	novelist	MKF::08_Medias
+la poésie	poetry	MKF::08_Medias
+le scénario	script / screenplay	MKF::08_Medias
+l'écrivain(e)	writer	MKF::08_Medias
+la petite annonce	(classified) ad	MKF::08_Medias
+le dessin humoristique / la caricature	cartoon / caricature	MKF::08_Medias
+la rubrique	column / section (newspaper)	MKF::08_Medias
+la bande dessinée (la BD)	comic strip / comic book	MKF::08_Medias
+les mots croisés (m pl)	crossword puzzle	MKF::08_Medias
+le rédacteur / la rédactrice	editor (journalist)	MKF::08_Medias
+l'éditeur / l'éditrice	publisher	MKF::08_Medias
+l'éditorial (m)	editorial	MKF::08_Medias
+à la une	on the front page	MKF::08_Medias
+le titre	headline / title	MKF::08_Medias
+la presse	the press	MKF::08_Medias
+la conférence de presse	press conference	MKF::08_Medias
+publier	to publish	MKF::08_Medias
+le lecteur / la lectrice	reader	MKF::08_Medias
+le lauréat / la lauréate	winner (of a prize)	MKF::08_Medias
+Débats et Opinions	Editorials / Op-eds (newspaper section)	MKF::08_Medias
+Culture et Spectacles	Entertainment (newspaper section)	MKF::08_Medias
+Art de vivre	Lifestyle (newspaper section)	MKF::08_Medias
+la nécrologie	obituaries	MKF::08_Medias
+la météo	weather (forecast)	MKF::08_Medias
+le loisir	leisure / free time	MKF::08_Medias
+le divertissement	entertainment	MKF::08_Medias
+se détendre	to relax	MKF::08_Medias
+passionné(e) / mordu(e)	passionate / crazy about	MKF::08_Medias
+le bricolage	DIY	MKF::08_Medias
+l'acte de naissance (m)	birth certificate	MKF::10_Societe
+le citoyen / la citoyenne	citizen	MKF::10_Societe
+le civisme	civic-mindedness / good citizenship	MKF::10_Societe
+la citoyenneté	citizenship	MKF::10_Societe
+l'identité culturelle (f)	cultural identity	MKF::10_Societe
+l'expulsion (f)	deportation / eviction	MKF::10_Societe
+la discrimination	discrimination	MKF::10_Societe
+la double nationalité	dual nationality	MKF::10_Societe
+l'exclusion (f)	exclusion	MKF::10_Societe
+expatrié(e)	expatriated / expat	MKF::10_Societe
+l'étranger / l'étrangère	foreigner	MKF::10_Societe
+la carte d'identité	identity card	MKF::10_Societe
+le / la clandestin(e)	illegal immigrant	MKF::10_Societe
+l'immigré(e)	immigrant	MKF::10_Societe
+l'immigration (f)	immigration	MKF::10_Societe
+s'intégrer	to integrate	MKF::10_Societe
+l'intégration (f)	integration	MKF::10_Societe
+l'intolérance (f)	intolerance	MKF::10_Societe
+la minorité	minority	MKF::10_Societe
+la naturalisation	naturalization	MKF::10_Societe
+l'asile politique (m)	political asylum	MKF::10_Societe
+le préjugé	prejudice	MKF::10_Societe
+le racisme	racism	MKF::10_Societe
+le / la réfugié(e)	refugee	MKF::10_Societe
+le titre de séjour	residence permit (book: permis de séjour)	MKF::10_Societe
+le droit d'asile	right of asylum	MKF::10_Societe
+le droit du sang	citizenship by descent	MKF::10_Societe
+le droit du sol	citizenship by place of birth	MKF::10_Societe
+la tolérance	tolerance	MKF::10_Societe
+sans papiers	undocumented	MKF::10_Societe
+le permis de travail	work permit	MKF::10_Societe
+acquitter	to acquit	MKF::10_Societe
+faire appel	to appeal	MKF::10_Societe
+enfreindre / violer la loi	to break the law	MKF::10_Societe
+inculper / mettre en examen	to charge (with a crime)	MKF::10_Societe
+condamner	to sentence / convict	MKF::10_Societe
+le / la condamné(e)	convict	MKF::10_Societe
+le tribunal correctionnel	criminal court	MKF::10_Societe
+comparaître (en justice)	to appear in court	MKF::10_Societe
+la détention provisoire	custody pending trial	MKF::10_Societe
+la peine de mort	death penalty	MKF::10_Societe
+l'avocat(e)	lawyer	MKF::10_Societe
+le non-lieu	dismissal of charges	MKF::10_Societe
+le test ADN	DNA test	MKF::10_Societe
+les empreintes digitales (f pl)	fingerprints	MKF::10_Societe
+à décharge / à charge	for the defense / for the prosecution	MKF::10_Societe
+la liberté	freedom	MKF::10_Societe
+la culpabilité	guilt	MKF::10_Societe
+coupable	guilty	MKF::10_Societe
+la réclusion à perpétuité	life imprisonment	MKF::10_Societe
+illégal(e)	illegal	MKF::10_Societe
+le juge	judge	MKF::10_Societe
+le / la juré(e)	juror	MKF::10_Societe
+la loi	a law	MKF::10_Societe
+le droit	law (the field) / a right	MKF::10_Societe
+le serment	oath	MKF::10_Societe
+plaider	to plead	MKF::10_Societe
+la peine de prison	prison sentence	MKF::10_Societe
+le procureur	prosecutor	MKF::10_Societe
+la légitime défense	self-defense	MKF::10_Societe
+avec sursis	suspended (sentence)	MKF::10_Societe
+le témoignage	testimony	MKF::10_Societe
+le procès	trial	MKF::10_Societe
+le témoin	witness	MKF::10_Societe
+les forces de l'ordre (f pl)	law enforcement	MKF::10_Societe
+arrêter / interpeller	to arrest	MKF::10_Societe
+le flic	cop (informal)	MKF::10_Societe
+mener l'enquête	to investigate	MKF::10_Societe
+l'enquête (f)	investigation	MKF::10_Societe
+le commissariat	police station	MKF::10_Societe
+le / la complice	accomplice	MKF::10_Societe
+l'incendie criminel (m)	arson	MKF::10_Societe
+le chantage	blackmail	MKF::10_Societe
+le cambriolage	burglary	MKF::10_Societe
+cambrioler	to burgle	MKF::10_Societe
+le casier judiciaire	criminal record	MKF::10_Societe
+la garde à vue	police custody	MKF::10_Societe
+le trafic de drogue	drug trafficking	MKF::10_Societe
+le détournement de fonds	embezzlement	MKF::10_Societe
+le / la délinquant(e)	offender / delinquent	MKF::10_Societe
+la contrefaçon	forgery / counterfeit	MKF::10_Societe
+le harcèlement	harassment	MKF::10_Societe
+la délinquance juvénile	juvenile crime	MKF::10_Societe
+l'enlèvement (m)	kidnapping	MKF::10_Societe
+l'homicide involontaire (m)	manslaughter	MKF::10_Societe
+le délit	offence / misdemeanor	MKF::10_Societe
+pris en flagrant délit	caught in the act	MKF::10_Societe
+le meurtre / l'assassinat (m)	murder	MKF::10_Societe
+le / la récidiviste	repeat offender	MKF::10_Societe
+le vol à l'étalage	shoplifting	MKF::10_Societe
+l'escroc (m)	swindler	MKF::10_Societe
+le vandalisme	vandalism	MKF::10_Societe
+la Déclaration des droits de l'homme	Declaration of the Rights of Man / Bill of Rights	MKF::10_Societe
+le projet de loi	bill (proposed law)	MKF::10_Societe
+la démocratie	democracy	MKF::10_Societe
+l'égalité (f)	equality	MKF::10_Societe
+le pouvoir exécutif	executive power	MKF::10_Societe
+le pouvoir législatif	legislative power	MKF::10_Societe
+le pouvoir judiciaire	judicial power	MKF::10_Societe
+la patrie	homeland	MKF::10_Societe
+la devise	motto / currency	MKF::10_Societe
+l'Assemblée nationale (f)	National Assembly	MKF::10_Societe
+l'État (m)	the State	MKF::10_Societe
+s'abstenir	to abstain	MKF::10_Societe
+l'abstention (f)	abstention (not voting)	MKF::10_Societe
+le bulletin de vote	ballot paper	MKF::10_Societe
+le scrutin	ballot / vote	MKF::10_Societe
+le bulletin blanc	blank ballot	MKF::10_Societe
+le / la candidat(e)	candidate	MKF::10_Societe
+dépouiller le scrutin	to count the votes	MKF::10_Societe
+élire	to elect	MKF::10_Societe
+élu(e)	elected / elected official	MKF::10_Societe
+la circonscription	constituency	MKF::10_Societe
+le bulletin nul	invalid ballot	MKF::10_Societe
+le tour de scrutin	round of voting	MKF::10_Societe
+le suffrage universel	universal suffrage	MKF::10_Societe
+la voix	vote / voice	MKF::10_Societe
+l'électeur / l'électrice	voter	MKF::10_Societe
+la coalition	coalition	MKF::10_Societe
+la dictature	dictatorship	MKF::10_Societe
+majoritaire / minoritaire	in the majority / minority	MKF::10_Societe
+la gauche / la droite	the left / the right (politics)	MKF::10_Societe
+la mesure	measure	MKF::10_Societe
+le parti	(political) party	MKF::10_Societe
+le conseil des ministres	cabinet	MKF::10_Societe
+le député	member of parliament	MKF::10_Societe
+le / la dirigeant(e)	leader	MKF::10_Societe
+l'homme / la femme politique	politician	MKF::10_Societe
+le Premier ministre	prime minister	MKF::10_Societe
+le mandat	term of office	MKF::10_Societe
+le / la fonctionnaire	civil servant	MKF::10_Societe
+le maire	mayor	MKF::10_Societe
+la mairie / l'hôtel de ville (m)	town hall	MKF::10_Societe
+le / la contribuable	taxpayer	MKF::10_Societe
+imposable	taxable	MKF::10_Societe
+la commune	municipality	MKF::10_Societe
+l'allié(e)	ally	MKF::10_Societe
+l'ambassadeur / l'ambassadrice	ambassador	MKF::10_Societe
+l'ambassade (f)	embassy	MKF::10_Societe
+le consulat	consulate	MKF::10_Societe
+coopérer	to cooperate	MKF::10_Societe
+la crise	crisis	MKF::10_Societe
+la diplomatie	diplomacy	MKF::10_Societe
+le désaccord	disagreement	MKF::10_Societe
+la politique étrangère	foreign policy	MKF::10_Societe
+le sommet	summit	MKF::10_Societe
+la neutralité	neutrality	MKF::10_Societe
+le jumelage	twinning (of towns)	MKF::10_Societe
+la puissance	power (nation)	MKF::10_Societe
+le rapprochement	reconciliation / rapprochement	MKF::10_Societe
+la sanction	sanction	MKF::10_Societe
+l'entretien (m)	talk / interview	MKF::10_Societe
+le traité	treaty	MKF::10_Societe
+l'entente (f)	understanding / agreement	MKF::10_Societe
+l'armement (m)	arms	MKF::10_Societe
+la guerre civile	civil war	MKF::10_Societe
+l'objecteur de conscience (m)	conscientious objector	MKF::10_Societe
+la défaite	defeat	MKF::10_Societe
+le désarmement	disarmament	MKF::10_Societe
+l'ennemi (m)	enemy	MKF::10_Societe
+les hostilités (f pl)	hostilities	MKF::10_Societe
+les pertes (f pl)	losses / casualties	MKF::10_Societe
+la paix	peace	MKF::10_Societe
+la prolifération	proliferation	MKF::10_Societe
+l'état d'urgence (m)	state of emergency	MKF::10_Societe
+se rendre	to surrender	MKF::10_Societe
+la trahison	treason / betrayal	MKF::10_Societe
+la victoire	victory	MKF::10_Societe
+le crime de guerre	war crime	MKF::10_Societe
+les forces armées (f pl)	armed forces	MKF::10_Societe
+le bombardement	bombing	MKF::10_Societe
+détruire	to destroy	MKF::10_Societe
+le service militaire	military service	MKF::10_Societe
+l'armée de métier (f)	professional army	MKF::10_Societe
+les troupes (f pl)	troops	MKF::10_Societe
+la voiture piégée	car bomb	MKF::10_Societe
+l'effondrement (m)	collapse	MKF::10_Societe
+le détournement (d'avion)	hijacking	MKF::10_Societe
+le canular	hoax	MKF::10_Societe
+l'otage (m)	hostage	MKF::10_Societe
+l'insécurité (f)	lack of security	MKF::10_Societe
+l'opération de sauvetage (f)	rescue operation	MKF::10_Societe
+fouiller	to search	MKF::10_Societe
+l'attentat (m)	(terrorist) attack	MKF::10_Societe
+traquer	to track down	MKF::10_Societe
+traumatisant(e)	traumatic	MKF::10_Societe
+la victime	victim	MKF::10_Societe
+l'atmosphère (f)	atmosphere	MKF::11_Environnement
+le littoral	coastline / coastal area	MKF::11_Environnement
+la campagne	countryside	MKF::11_Environnement
+désertique	desert-like / desolate	MKF::11_Environnement
+le paysage	landscape	MKF::11_Environnement
+le relief	terrain / relief	MKF::11_Environnement
+la rive / la berge	bank (of river)	MKF::11_Environnement
+le ruisseau	stream	MKF::11_Environnement
+le fleuve	river (flowing to the sea)	MKF::11_Environnement
+la rivière	river (tributary)	MKF::11_Environnement
+l'embouchure (f)	river mouth	MKF::11_Environnement
+la source	spring / source	MKF::11_Environnement
+la marée	tide	MKF::11_Environnement
+en aval / en amont	downstream / upstream	MKF::11_Environnement
+la vague	wave	MKF::11_Environnement
+s'éclaircir	to clear up	MKF::11_Environnement
+l'éclaircie (f)	sunny spell	MKF::11_Environnement
+le brouillard	fog	MKF::11_Environnement
+le verglas	black ice	MKF::11_Environnement
+la brume	mist	MKF::11_Environnement
+couvert	overcast	MKF::11_Environnement
+l'averse (f)	shower (rain)	MKF::11_Environnement
+le dégel	thaw	MKF::11_Environnement
+la zone sinistrée	disaster zone	MKF::11_Environnement
+la canicule	heat wave	MKF::11_Environnement
+la sécheresse	drought	MKF::11_Environnement
+le tremblement de terre / le séisme	earthquake	MKF::11_Environnement
+l'inondation (f)	flood	MKF::11_Environnement
+l'ouragan (m)	hurricane	MKF::11_Environnement
+le glissement de terrain	landslide	MKF::11_Environnement
+la foudre	lightning (strike)	MKF::11_Environnement
+la tempête	storm	MKF::11_Environnement
+l'orage (m)	thunderstorm	MKF::11_Environnement
+le raz-de-marée	tidal wave	MKF::11_Environnement
+les pluies torrentielles (f pl)	torrential rain	MKF::11_Environnement
+la prévision	forecast	MKF::11_Environnement
+la perturbation	(weather) disturbance	MKF::11_Environnement
+tempéré(e)	temperate	MKF::11_Environnement
+biologique / bio	organic / biological	MKF::11_Environnement
+la diversité / la biodiversité	diversity / biodiversity	MKF::11_Environnement
+l'écologiste (m/f)	environmentalist / ecologist	MKF::11_Environnement
+l'écosystème (m)	ecosystem	MKF::11_Environnement
+la faune et la flore	wildlife and plants	MKF::11_Environnement
+planétaire	global	MKF::11_Environnement
+l'habitat (m)	habitat	MKF::11_Environnement
+le déséquilibre	imbalance	MKF::11_Environnement
+irréversible	irreversible	MKF::11_Environnement
+les ressources naturelles (f pl)	natural resources	MKF::11_Environnement
+la couche d'ozone	ozone layer	MKF::11_Environnement
+préserver	to preserve	MKF::11_Environnement
+protéger / sauvegarder	to protect	MKF::11_Environnement
+la sauvegarde	protection / safeguarding	MKF::11_Environnement
+recycler	to recycle	MKF::11_Environnement
+le recyclage	recycling	MKF::11_Environnement
+l'espèce (f)	species	MKF::11_Environnement
+la nature sauvage	wilderness	MKF::11_Environnement
+les pluies acides (f pl)	acid rain	MKF::11_Environnement
+biodégradable	biodegradable	MKF::11_Environnement
+enrayer	to stop / curb	MKF::11_Environnement
+le dioxyde de carbone (CO₂)	carbon dioxide	MKF::11_Environnement
+chimique	chemical	MKF::11_Environnement
+le nettoyage	cleanup	MKF::11_Environnement
+l'inquiétude (f)	concern / worry	MKF::11_Environnement
+la contamination	contamination	MKF::11_Environnement
+le récif de corail	coral reef	MKF::11_Environnement
+abîmer	to damage	MKF::11_Environnement
+les dégâts (m pl)	damage	MKF::11_Environnement
+la déforestation / le déboisement	deforestation	MKF::11_Environnement
+la dégradation	degradation	MKF::11_Environnement
+la désertification	desertification	MKF::11_Environnement
+disparaître	to disappear	MKF::11_Environnement
+l'eau potable (f)	drinking water	MKF::11_Environnement
+la décharge	dump / landfill	MKF::11_Environnement
+l'érosion (f)	erosion	MKF::11_Environnement
+la disparition	extinction / disappearance	MKF::11_Environnement
+en voie de disparition	endangered	MKF::11_Environnement
+l'engrais (m)	fertilizer	MKF::11_Environnement
+les ordures (f pl)	garbage	MKF::11_Environnement
+la poubelle	garbage can	MKF::11_Environnement
+l'effet de serre (m)	greenhouse effect	MKF::11_Environnement
+les gaz à effet de serre (m pl)	greenhouse gases	MKF::11_Environnement
+nocif / nocive	harmful	MKF::11_Environnement
+la calotte glaciaire	ice cap	MKF::11_Environnement
+l'impact (m)	impact	MKF::11_Environnement
+industriel(le)	industrial	MKF::11_Environnement
+l'industrialisation (f)	industrialization	MKF::11_Environnement
+envahir	to invade	MKF::11_Environnement
+fondre	to melt	MKF::11_Environnement
+nucléaire	nuclear	MKF::11_Environnement
+le pétrole	oil (petroleum)	MKF::11_Environnement
+la marée noire	oil slick	MKF::11_Environnement
+le pétrolier	oil tanker	MKF::11_Environnement
+le braconnage	poaching	MKF::11_Environnement
+le polluant	pollutant	MKF::11_Environnement
+polluer	to pollute	MKF::11_Environnement
+le pollueur	polluter	MKF::11_Environnement
+la centrale (nucléaire)	(nuclear) power plant	MKF::11_Environnement
+radioactif / radioactive	radioactive	MKF::11_Environnement
+reculer	to regress / go back	MKF::11_Environnement
+la montée des eaux	rising water level	MKF::11_Environnement
+le stockage	storage	MKF::11_Environnement
+le coup de soleil	sunburn	MKF::11_Environnement
+la menace	threat	MKF::11_Environnement
+menacer	to threaten	MKF::11_Environnement
+le seuil	threshold	MKF::11_Environnement
+toxique	toxic	MKF::11_Environnement
+l'urbanisation (f)	urban development	MKF::11_Environnement
+le réchauffement climatique	global warming	MKF::11_Environnement
+gaspiller	to waste	MKF::11_Environnement
+le gaspillage	waste (act of wasting)	MKF::11_Environnement
+les déchets (m pl)	waste / rubbish	MKF::11_Environnement
+les énergies renouvelables (f pl)	renewable energy	MKF::11_Environnement
+agricole	agricultural	MKF::11_Environnement
+l'agriculteur / l'agricultrice	farmer	MKF::11_Environnement
+l'élevage (m)	livestock farming	MKF::11_Environnement
+le bétail	cattle / livestock	MKF::11_Environnement
+cultiver	to grow / cultivate	MKF::11_Environnement
+la récolte	harvest	MKF::11_Environnement
+le jardinage biologique	organic gardening	MKF::11_Environnement
+le rendement	yield	MKF::11_Environnement
+le pesticide	pesticide	MKF::11_Environnement
+la figure	the FACE (not "figure"). A person's figure = la ligne.	MKF::Tips
+« passer un examen » = ?	to TAKE an exam. To pass = réussir un examen.	MKF::Tips
+le collège	middle school (false friend). College/university = l'université.	MKF::Tips
+la librairie	bookstore (false friend). Library = la bibliothèque.	MKF::Tips
+demander	to ASK (false friend). To demand = exiger.	MKF::Tips
+propre: before or after the noun?	after = clean (une chambre propre); before = own (ma propre chambre).	MKF::Tips
+sentir vs se sentir	sentir = to smell; se sentir = to feel.	MKF::Tips
+« J'ai une dent contre lui. »	I hold a grudge against him.	MKF::Tips
+« Ça coûte les yeux de la tête. »	It costs an arm and a leg.	MKF::Tips
+« Il pleut des cordes. »	It's raining cats and dogs.	MKF::Tips
+« Il fait un froid de canard. »	It's freezing cold.	MKF::Tips
+« Il fait un temps de chien. »	The weather is awful.	MKF::Tips
+« dormir comme un loir »	to sleep like a log (dormouse).	MKF::Tips
+« tête de citrouille »	fathead / idiot (insult).	MKF::Tips
+« mon chou »	honey / sweetheart (term of endearment).	MKF::Tips
+l'apéritif	pre-dinner alcoholic drink — NOT a food appetizer (= hors-d'œuvre / entrée).	MKF::Tips
+l'entrée (au restaurant)	the starter. The US "entrée" = le plat principal.	MKF::Tips
+la carte vs le menu	la carte = the menu; le menu = a set meal at a fixed price.	MKF::Tips
+les vacances vs une vacance	vacation is always plural (les vacances); singular vacance = vacancy.	MKF::Tips
+les préparatifs	preparations / arrangements (plural), e.g. les préparatifs de voyage.	MKF::Tips
+la marche	march / hike. A casual walk = une balade / une promenade.	MKF::Tips
+le dépanneur (Québec)	convenience store. In France: tow-truck driver.	MKF::Tips
+le ballot	bundle of goods — false friend. A ballot = un bulletin / un scrutin.	MKF::Tips
+la loi vs le droit	la loi = a law; le droit = law as a field (and "a right").	MKF::Tips
+-al plural	most nouns/adjectives in -al → -aux: national → nationaux.	MKF::Tips
+la salle de bains in public?	No — ask for les toilettes.	MKF::Tips
+la lingerie	can mean linen / linen room; say lingerie fine for women's lingerie.	MKF::Tips
+le chiffre / le nombre / le numéro	chiffre = digit; nombre = quantity; numéro = phone/house number.	MKF::Tips
+jouer de vs jouer à	jouer DE + instrument (du violon); jouer À + sport/game (au tennis).	MKF::Tips
+le dimanche vs dimanche	le dimanche = every Sunday; dimanche = this specific Sunday.	MKF::Tips
+le matin	means "the morning" AND "in the morning" (also le soir, la nuit…).	MKF::Tips
+dates: le premier vs le deux	1st = le premier mai; others use cardinal numbers: le 3 mai.	MKF::Tips
+rulers: Henri Quatre	cardinal numbers for rulers, except François Premier.	MKF::Tips
+seasons: in winter / spring	en hiver, en été, en automne — but AU printemps.	MKF::Tips
+avoir + sensation	J'ai froid / faim / soif / sommeil (not « je suis froid »).	MKF::Tips
+body parts + reflexive verbs	use the article, not the possessive: Je me brosse LES cheveux.	MKF::Tips
+the « il fait » rule	most weather = il fait… EXCEPT il pleut, il neige, il gèle, il grêle.	MKF::Tips
+infinitive as instruction	Ne pas fumer = No smoking.	MKF::Tips
+fruit vs fruit-tree gender	most fruits feminine (la prune); trees masculine (le prunier).	MKF::Tips
+adverbs of quantity + de	beaucoup DE, trop DE… except bien DES and la plupart DES.	MKF::Tips
+nationality: capital letter?	adjective lowercase (la cuisine française); noun capitalized (les Français).	MKF::Tips
+days and months: capital?	no capital: lundi, janvier.	MKF::Tips
+cet vs ce	cet before masculine vowel sound: cet hôtel.	MKF::Tips
+mon amie (not ma amie)	use mon/ton/son before feminine nouns starting with a vowel sound.	MKF::Tips
+nouveau / nouvel	nouvel before masculine vowel sound: un nouvel élève (same: bel, vieil).	MKF::Tips
+neuf vs nouveau	neuf = brand new (un costume neuf); nouveau = new/different.	MKF::Tips
+on	impersonal pronoun = we / one / people.	MKF::Tips
+pronouns in affirmative commands	placed after the verb; me/te → moi/toi: Donne-moi ton numéro !	MKF::Tips
+ending a friendly letter	Amicalement, Bises, Je t'embrasse — not a literal "Love".	MKF::Tips
+title in formal greeting	Bonjour, monsieur / madame (no surname in formal settings).	MKF::Tips
+l'instituteur vs le professeur	instituteur = primary school; professeur = secondary and university.	MKF::Tips
+la manucure / le pédicure	can mean the treatment AND the professional who does it.	MKF::Tips
+the 24-hour clock	used for schedules and official times: 13h = 1 p.m.	MKF::Tips
+le mal de cœur	queasiness / nausea — nothing to do with the heart.	MKF::Tips

@@ -1,0 +1,14 @@
+# How much each topic counts for readiness, the study plan's priorities, Smart Sessions and the
+# mock exam. These are not official DELF weights (the DELF doesn't test grammar separately); they
+# reflect how often each point decides a mark in the B2 writing and speaking tasks.
+#
+# Scoring uses `use` if present, otherwise the midpoint of [min, max]; weights are normalised.
+# The vocabulary deck has weight 0: it is reviewed as flashcards, outside readiness.
+verified: true
+weights:
+  subjonctif:  {min: 20, max: 30}
+  hypotheses:  {min: 15, max: 25}
+  relatifs:    {min: 15, max: 20}
+  discours:    {min: 10, max: 20}
+  logique:     {min: 20, max: 30}
+  vocabulaire: {min: 0,  max: 0}

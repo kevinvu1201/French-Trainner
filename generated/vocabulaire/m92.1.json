@@ -1,0 +1,1290 @@
+{
+ "module": "m92.1",
+ "source_hash": "c104dba55a36",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le vocabulaire du thème « le travail et l'économie » sert à comprendre les documents et à argumenter sans répétition."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Les cartes utilisent la répétition espacée : un mot revient juste avant que vous l'oubliiez."
+   },
+   {
+    "stage": "result",
+    "md": "Réviser chaque jour quelques minutes vaut mieux qu'une longue séance par semaine."
+   }
+  ],
+  "why_it_matters": "Un lexique précis sur l'emploi, les conflits sociaux, la banque, l'économie fait partie de la note « étendue et maîtrise du vocabulaire » à l'écrit et à l'oral.",
+  "exam_approach": {
+   "look_first": [
+    "le genre du nom (le / la)",
+    "la préposition qui accompagne le verbe"
+   ],
+   "traps": [
+    "les faux amis (_la librairie_ ≠ library)",
+    "oublier l'article en apprenant un nom"
+   ],
+   "distractors": [
+    "un mot proche de l'anglais mais de sens différent"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.92.w001",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le / la commerçant(e)",
+   "front": "le / la commerçant(e)",
+   "back": "shopkeeper / tradesperson"
+  },
+  {
+   "id": "f.92.w002",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'apprenti(e)",
+   "front": "l'apprenti(e)",
+   "back": "apprentice"
+  },
+  {
+   "id": "f.92.w003",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le / la stagiaire",
+   "front": "le / la stagiaire",
+   "back": "intern / trainee"
+  },
+  {
+   "id": "f.92.w004",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'ouvrier / l'ouvrière",
+   "front": "l'ouvrier / l'ouvrière",
+   "back": "(manual) worker"
+  },
+  {
+   "id": "f.92.w005",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'entrepreneur / l'entrepreneuse",
+   "front": "l'entrepreneur / l'entrepreneuse",
+   "back": "contractor / entrepreneur"
+  },
+  {
+   "id": "f.92.w006",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'artisan (m)",
+   "front": "l'artisan (m)",
+   "back": "craftsman"
+  },
+  {
+   "id": "f.92.w007",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "postuler / poser sa candidature",
+   "front": "postuler / poser sa candidature",
+   "back": "to apply (for a job)"
+  },
+  {
+   "id": "f.92.w008",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le cadre",
+   "front": "le cadre",
+   "back": "executive / manager"
+  },
+  {
+   "id": "f.92.w009",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "obtenir une promotion",
+   "front": "obtenir une promotion",
+   "back": "to get a promotion"
+  },
+  {
+   "id": "f.92.w010",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le stage",
+   "front": "le stage",
+   "back": "internship"
+  },
+  {
+   "id": "f.92.w011",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le débouché",
+   "front": "le débouché",
+   "back": "job opening / career prospect"
+  },
+  {
+   "id": "f.92.w012",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "faire carrière",
+   "front": "faire carrière",
+   "back": "to make a career"
+  },
+  {
+   "id": "f.92.w013",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'emploi (m)",
+   "front": "l'emploi (m)",
+   "back": "job / employment"
+  },
+  {
+   "id": "f.92.w014",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "qualifié(e)",
+   "front": "qualifié(e)",
+   "back": "qualified"
+  },
+  {
+   "id": "f.92.w015",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le CV (curriculum vitae)",
+   "front": "le CV (curriculum vitae)",
+   "back": "résumé"
+  },
+  {
+   "id": "f.92.w016",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "se reconvertir / se recycler",
+   "front": "se reconvertir / se recycler",
+   "back": "to retrain"
+  },
+  {
+   "id": "f.92.w017",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "se spécialiser",
+   "front": "se spécialiser",
+   "back": "to specialize"
+  },
+  {
+   "id": "f.92.w018",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "former",
+   "front": "former",
+   "back": "to train"
+  },
+  {
+   "id": "f.92.w019",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le / la salarié(e)",
+   "front": "le / la salarié(e)",
+   "back": "employee / wage earner"
+  },
+  {
+   "id": "f.92.w020",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le dossier",
+   "front": "le dossier",
+   "back": "file"
+  },
+  {
+   "id": "f.92.w021",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le classeur",
+   "front": "le classeur",
+   "back": "filing cabinet / binder"
+  },
+  {
+   "id": "f.92.w022",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le papier recyclé",
+   "front": "le papier recyclé",
+   "back": "recycled paper"
+  },
+  {
+   "id": "f.92.w023",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le traitement de texte",
+   "front": "le traitement de texte",
+   "back": "word processor"
+  },
+  {
+   "id": "f.92.w024",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le distributeur automatique",
+   "front": "le distributeur automatique",
+   "back": "ATM / vending machine"
+  },
+  {
+   "id": "f.92.w025",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la succursale / l'agence (f)",
+   "front": "la succursale / l'agence (f)",
+   "back": "branch (of a bank)"
+  },
+  {
+   "id": "f.92.w026",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le code secret",
+   "front": "le code secret",
+   "back": "PIN"
+  },
+  {
+   "id": "f.92.w027",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le coffre-fort",
+   "front": "le coffre-fort",
+   "back": "safe"
+  },
+  {
+   "id": "f.92.w028",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la caisse d'épargne",
+   "front": "la caisse d'épargne",
+   "back": "savings bank"
+  },
+  {
+   "id": "f.92.w029",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le guichet",
+   "front": "le guichet",
+   "back": "counter / teller's window"
+  },
+  {
+   "id": "f.92.w030",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "les petites annonces (f pl)",
+   "front": "les petites annonces (f pl)",
+   "back": "classified ads"
+  },
+  {
+   "id": "f.92.w031",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le contrat",
+   "front": "le contrat",
+   "back": "contract"
+  },
+  {
+   "id": "f.92.w032",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'agence pour l'emploi (f)",
+   "front": "l'agence pour l'emploi (f)",
+   "back": "employment agency (book: bureau de placement)"
+  },
+  {
+   "id": "f.92.w033",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "embaucher / engager",
+   "front": "embaucher / engager",
+   "back": "to hire"
+  },
+  {
+   "id": "f.92.w034",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le boulot",
+   "front": "le boulot",
+   "back": "job (informal)"
+  },
+  {
+   "id": "f.92.w035",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le formulaire de candidature",
+   "front": "le formulaire de candidature",
+   "back": "job application form"
+  },
+  {
+   "id": "f.92.w036",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'offre d'emploi (f)",
+   "front": "l'offre d'emploi (f)",
+   "back": "job vacancy"
+  },
+  {
+   "id": "f.92.w037",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la demande d'emploi",
+   "front": "la demande d'emploi",
+   "back": "job application / jobs wanted"
+  },
+  {
+   "id": "f.92.w038",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'ordre du jour (m)",
+   "front": "l'ordre du jour (m)",
+   "back": "agenda (of a meeting)"
+  },
+  {
+   "id": "f.92.w039",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "nommer",
+   "front": "nommer",
+   "back": "to appoint"
+  },
+  {
+   "id": "f.92.w040",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la société / l'entreprise (f)",
+   "front": "la société / l'entreprise (f)",
+   "back": "company"
+  },
+  {
+   "id": "f.92.w041",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'employé(e)",
+   "front": "l'employé(e)",
+   "back": "employee"
+  },
+  {
+   "id": "f.92.w042",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le patron / la patronne",
+   "front": "le patron / la patronne",
+   "back": "boss / employer"
+  },
+  {
+   "id": "f.92.w043",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le personnel",
+   "front": "le personnel",
+   "back": "staff / personnel"
+  },
+  {
+   "id": "f.92.w044",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "travailler à plein temps",
+   "front": "travailler à plein temps",
+   "back": "to work full time"
+  },
+  {
+   "id": "f.92.w045",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "travailler à temps partiel",
+   "front": "travailler à temps partiel",
+   "back": "to work part time"
+  },
+  {
+   "id": "f.92.w046",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "travailler à domicile / le télétravail",
+   "front": "travailler à domicile / le télétravail",
+   "back": "to work at home / telework"
+  },
+  {
+   "id": "f.92.w047",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la prime",
+   "front": "la prime",
+   "back": "bonus"
+  },
+  {
+   "id": "f.92.w048",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "les congés (m pl)",
+   "front": "les congés (m pl)",
+   "back": "days off / leave"
+  },
+  {
+   "id": "f.92.w049",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "gagner",
+   "front": "gagner",
+   "back": "to earn / to win"
+  },
+  {
+   "id": "f.92.w050",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "les avantages sociaux (m pl)",
+   "front": "les avantages sociaux (m pl)",
+   "back": "fringe benefits (book: prestations sociales)"
+  },
+  {
+   "id": "f.92.w051",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le jour férié",
+   "front": "le jour férié",
+   "back": "public holiday"
+  },
+  {
+   "id": "f.92.w052",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le SMIC (salaire minimum)",
+   "front": "le SMIC (salaire minimum)",
+   "back": "minimum wage"
+  },
+  {
+   "id": "f.92.w053",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'augmentation (f)",
+   "front": "l'augmentation (f)",
+   "back": "pay raise / increase"
+  },
+  {
+   "id": "f.92.w054",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la pension",
+   "front": "la pension",
+   "back": "pension"
+  },
+  {
+   "id": "f.92.w055",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la rémunération",
+   "front": "la rémunération",
+   "back": "remuneration / pay"
+  },
+  {
+   "id": "f.92.w056",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la retraite",
+   "front": "la retraite",
+   "back": "retirement"
+  },
+  {
+   "id": "f.92.w057",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le salaire / le traitement",
+   "front": "le salaire / le traitement",
+   "back": "salary / wages"
+  },
+  {
+   "id": "f.92.w058",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le congé maladie",
+   "front": "le congé maladie",
+   "back": "sick leave"
+  },
+  {
+   "id": "f.92.w059",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la Sécurité sociale",
+   "front": "la Sécurité sociale",
+   "back": "Social Security (French health & welfare system)"
+  },
+  {
+   "id": "f.92.w060",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "faire le pont",
+   "front": "faire le pont",
+   "back": "to take a long weekend (bridge a holiday)"
+  },
+  {
+   "id": "f.92.w061",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "les congés payés (m pl)",
+   "front": "les congés payés (m pl)",
+   "back": "paid vacation"
+  },
+  {
+   "id": "f.92.w062",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'accord (m)",
+   "front": "l'accord (m)",
+   "back": "agreement"
+  },
+  {
+   "id": "f.92.w063",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "boycotter",
+   "front": "boycotter",
+   "back": "to boycott"
+  },
+  {
+   "id": "f.92.w064",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la convention collective",
+   "front": "la convention collective",
+   "back": "collective (wage) agreement"
+  },
+  {
+   "id": "f.92.w065",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le compromis",
+   "front": "le compromis",
+   "back": "compromise"
+  },
+  {
+   "id": "f.92.w066",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la revendication",
+   "front": "la revendication",
+   "back": "demand / claim"
+  },
+  {
+   "id": "f.92.w067",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "revendiquer / exiger",
+   "front": "revendiquer / exiger",
+   "back": "to demand"
+  },
+  {
+   "id": "f.92.w068",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le licenciement",
+   "front": "le licenciement",
+   "back": "dismissal / layoff"
+  },
+  {
+   "id": "f.92.w069",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "licencier / congédier",
+   "front": "licencier / congédier",
+   "back": "to lay off / dismiss"
+  },
+  {
+   "id": "f.92.w070",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "les partenaires sociaux (m pl)",
+   "front": "les partenaires sociaux (m pl)",
+   "back": "employers and unions"
+  },
+  {
+   "id": "f.92.w071",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "se syndiquer",
+   "front": "se syndiquer",
+   "back": "to join / form a union"
+  },
+  {
+   "id": "f.92.w072",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "reprendre le travail",
+   "front": "reprendre le travail",
+   "back": "to go back to work"
+  },
+  {
+   "id": "f.92.w073",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le conflit social",
+   "front": "le conflit social",
+   "back": "labor dispute"
+  },
+  {
+   "id": "f.92.w074",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le médiateur / la médiatrice",
+   "front": "le médiateur / la médiatrice",
+   "back": "mediator"
+  },
+  {
+   "id": "f.92.w075",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "négocier",
+   "front": "négocier",
+   "back": "to negotiate"
+  },
+  {
+   "id": "f.92.w076",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la négociation",
+   "front": "la négociation",
+   "back": "negotiation"
+  },
+  {
+   "id": "f.92.w077",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "militer / lutter",
+   "front": "militer / lutter",
+   "back": "to campaign / fight (for a cause)"
+  },
+  {
+   "id": "f.92.w078",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la manifestation",
+   "front": "la manifestation",
+   "back": "protest / demonstration"
+  },
+  {
+   "id": "f.92.w079",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "manifester",
+   "front": "manifester",
+   "back": "to demonstrate / protest"
+  },
+  {
+   "id": "f.92.w080",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "contester",
+   "front": "contester",
+   "back": "to contest / protest"
+  },
+  {
+   "id": "f.92.w081",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "démissionner",
+   "front": "démissionner",
+   "back": "to resign"
+  },
+  {
+   "id": "f.92.w082",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la démission",
+   "front": "la démission",
+   "back": "resignation"
+  },
+  {
+   "id": "f.92.w083",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "les indemnités de licenciement (f pl)",
+   "front": "les indemnités de licenciement (f pl)",
+   "back": "severance pay"
+  },
+  {
+   "id": "f.92.w084",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la grève",
+   "front": "la grève",
+   "back": "strike"
+  },
+  {
+   "id": "f.92.w085",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le / la gréviste",
+   "front": "le / la gréviste",
+   "back": "striker"
+  },
+  {
+   "id": "f.92.w086",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le chômeur / la chômeuse",
+   "front": "le chômeur / la chômeuse",
+   "back": "unemployed person"
+  },
+  {
+   "id": "f.92.w087",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le chômage",
+   "front": "le chômage",
+   "back": "unemployment"
+  },
+  {
+   "id": "f.92.w088",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "les allocations chômage (f pl)",
+   "front": "les allocations chômage (f pl)",
+   "back": "unemployment benefits"
+  },
+  {
+   "id": "f.92.w089",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le syndicat",
+   "front": "le syndicat",
+   "back": "union"
+  },
+  {
+   "id": "f.92.w090",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "débrayer",
+   "front": "débrayer",
+   "back": "to walk out (stop work)"
+  },
+  {
+   "id": "f.92.w091",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le solde",
+   "front": "le solde",
+   "back": "account balance"
+  },
+  {
+   "id": "f.92.w092",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le compte en banque",
+   "front": "le compte en banque",
+   "back": "bank account"
+  },
+  {
+   "id": "f.92.w093",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la monnaie / la devise",
+   "front": "la monnaie / la devise",
+   "back": "currency"
+  },
+  {
+   "id": "f.92.w094",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le versement",
+   "front": "le versement",
+   "back": "deposit / payment"
+  },
+  {
+   "id": "f.92.w095",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "verser",
+   "front": "verser",
+   "back": "to deposit / pay in"
+  },
+  {
+   "id": "f.92.w096",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le taux d'intérêt",
+   "front": "le taux d'intérêt",
+   "back": "interest rate"
+  },
+  {
+   "id": "f.92.w097",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "les intérêts (m pl)",
+   "front": "les intérêts (m pl)",
+   "back": "interest"
+  },
+  {
+   "id": "f.92.w098",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le placement / l'investissement (m)",
+   "front": "le placement / l'investissement (m)",
+   "back": "investment"
+  },
+  {
+   "id": "f.92.w099",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le prêt",
+   "front": "le prêt",
+   "back": "loan"
+  },
+  {
+   "id": "f.92.w100",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le virement",
+   "front": "le virement",
+   "back": "money transfer (book: transfert)"
+  },
+  {
+   "id": "f.92.w101",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le taux de change",
+   "front": "le taux de change",
+   "back": "exchange rate"
+  },
+  {
+   "id": "f.92.w102",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "économiser / épargner",
+   "front": "économiser / épargner",
+   "back": "to save (money)"
+  },
+  {
+   "id": "f.92.w103",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le compte d'épargne",
+   "front": "le compte d'épargne",
+   "back": "savings account"
+  },
+  {
+   "id": "f.92.w104",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le relevé de compte",
+   "front": "le relevé de compte",
+   "back": "bank statement"
+  },
+  {
+   "id": "f.92.w105",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "retirer (de l'argent)",
+   "front": "retirer (de l'argent)",
+   "back": "to withdraw (money)"
+  },
+  {
+   "id": "f.92.w106",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le retrait",
+   "front": "le retrait",
+   "back": "withdrawal"
+  },
+  {
+   "id": "f.92.w107",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la faillite",
+   "front": "la faillite",
+   "back": "bankruptcy"
+  },
+  {
+   "id": "f.92.w108",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la facture",
+   "front": "la facture",
+   "back": "bill / invoice"
+  },
+  {
+   "id": "f.92.w109",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le budget",
+   "front": "le budget",
+   "back": "budget"
+  },
+  {
+   "id": "f.92.w110",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'argent liquide (m) / les espèces (f pl)",
+   "front": "l'argent liquide (m) / les espèces (f pl)",
+   "back": "cash"
+  },
+  {
+   "id": "f.92.w111",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la garantie",
+   "front": "la garantie",
+   "back": "collateral / guarantee"
+  },
+  {
+   "id": "f.92.w112",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la concurrence",
+   "front": "la concurrence",
+   "back": "competition"
+  },
+  {
+   "id": "f.92.w113",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le PDG (président-directeur général)",
+   "front": "le PDG (président-directeur général)",
+   "back": "CEO"
+  },
+  {
+   "id": "f.92.w114",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "les impôts (m pl)",
+   "front": "les impôts (m pl)",
+   "back": "taxes"
+  },
+  {
+   "id": "f.92.w115",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la déclaration de revenus",
+   "front": "la déclaration de revenus",
+   "back": "tax return"
+  },
+  {
+   "id": "f.92.w116",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le fisc",
+   "front": "le fisc",
+   "back": "tax authorities"
+  },
+  {
+   "id": "f.92.w117",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la direction",
+   "front": "la direction",
+   "back": "management"
+  },
+  {
+   "id": "f.92.w118",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "à but non lucratif",
+   "front": "à but non lucratif",
+   "back": "nonprofit"
+  },
+  {
+   "id": "f.92.w119",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'associé(e)",
+   "front": "l'associé(e)",
+   "back": "partner (business)"
+  },
+  {
+   "id": "f.92.w120",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la TVA (taxe sur la valeur ajoutée)",
+   "front": "la TVA (taxe sur la valeur ajoutée)",
+   "back": "VAT / sales tax"
+  },
+  {
+   "id": "f.92.w121",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le capital",
+   "front": "le capital",
+   "back": "assets / capital"
+  },
+  {
+   "id": "f.92.w122",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la vente aux enchères",
+   "front": "la vente aux enchères",
+   "back": "auction"
+  },
+  {
+   "id": "f.92.w123",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la balance commerciale",
+   "front": "la balance commerciale",
+   "back": "balance of trade"
+  },
+  {
+   "id": "f.92.w124",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le coût de la vie",
+   "front": "le coût de la vie",
+   "back": "cost of living"
+  },
+  {
+   "id": "f.92.w125",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la dette",
+   "front": "la dette",
+   "back": "debt"
+  },
+  {
+   "id": "f.92.w126",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la baisse",
+   "front": "la baisse",
+   "back": "fall / decrease"
+  },
+  {
+   "id": "f.92.w127",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la hausse",
+   "front": "la hausse",
+   "back": "rise / increase"
+  },
+  {
+   "id": "f.92.w128",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la reprise économique",
+   "front": "la reprise économique",
+   "back": "economic recovery (book: redressement)"
+  },
+  {
+   "id": "f.92.w129",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'inflation (f)",
+   "front": "l'inflation (f)",
+   "back": "inflation"
+  },
+  {
+   "id": "f.92.w130",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'investisseur (m)",
+   "front": "l'investisseur (m)",
+   "back": "investor"
+  },
+  {
+   "id": "f.92.w131",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la perte",
+   "front": "la perte",
+   "back": "loss"
+  },
+  {
+   "id": "f.92.w132",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le bénéfice / le profit",
+   "front": "le bénéfice / le profit",
+   "back": "profit"
+  },
+  {
+   "id": "f.92.w133",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la récession",
+   "front": "la récession",
+   "back": "recession"
+  },
+  {
+   "id": "f.92.w134",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'action (f)",
+   "front": "l'action (f)",
+   "back": "share (stock)"
+  },
+  {
+   "id": "f.92.w135",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'actionnaire (m/f)",
+   "front": "l'actionnaire (m/f)",
+   "back": "shareholder"
+  },
+  {
+   "id": "f.92.w136",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "la Bourse",
+   "front": "la Bourse",
+   "back": "stock exchange"
+  },
+  {
+   "id": "f.92.w137",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "l'offre et la demande",
+   "front": "l'offre et la demande",
+   "back": "supply and demand"
+  },
+  {
+   "id": "f.92.w138",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "fournir",
+   "front": "fournir",
+   "back": "to supply"
+  },
+  {
+   "id": "f.92.w139",
+   "los": [
+    "los.92.a"
+   ],
+   "name": "le rachat / l'acquisition (f)",
+   "front": "le rachat / l'acquisition (f)",
+   "back": "takeover"
+  }
+ ]
+}

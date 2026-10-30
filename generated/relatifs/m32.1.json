@@ -1,0 +1,394 @@
+{
+ "module": "m32.1",
+ "source_hash": "32aab10c0ab2",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le pronom relatif remplace un nom déjà cité ; sa forme dépend de la **fonction** de ce nom dans la relative."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Sujet → qui ; COD → que ; lieu ou temps → où ; complément avec _de_ → dont."
+   },
+   {
+    "stage": "result",
+    "md": "Pour choisir, reconstruisez la phrase simple : _je parle **du** livre_ → _le livre **dont** je parle_."
+   },
+   {
+    "stage": "interpretation",
+    "md": "Le bon relatif dépend de la construction du verbe (_avoir besoin de_, _penser à_) : c'est un test de vocabulaire autant que de grammaire."
+   }
+  ],
+  "why_it_matters": "Relier les idées par des relatives évite les phrases courtes et répétitives, un critère explicite de la grille de production écrite B2.",
+  "exam_approach": {
+   "look_first": [
+    "la fonction du nom remplacé dans la relative",
+    "la préposition du verbe (_parler de_, _avoir besoin de_)",
+    "un nom de lieu ou de temps"
+   ],
+   "traps": [
+    "_que_ au lieu de _dont_ avec un verbe en _de_",
+    "*_le jour que_ au lieu de _le jour où_",
+    "_qui_ au lieu de _que_ quand le sujet suit"
+   ],
+   "distractors": [
+    "_que_ à la place de _dont_",
+    "_qui_ à la place de _que_",
+    "_quand_ ou _que_ pour le temps"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m32.2",
+   "type": "extends",
+   "note": "Mise en relief avec ce qui / ce que / ce dont."
+  },
+  {
+   "to": "m32.3",
+   "type": "extends",
+   "note": "Les relatifs composés après une préposition."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.32.a.001",
+   "los": "los.32.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Le musée …… se trouve près de la gare est fermé le lundi.",
+   "options": [
+    "qui",
+    "que",
+    "dont"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _le musée se trouve_ : sujet → _qui_.",
+    "B": "Faux. _que_ est COD ; ici le musée est sujet de _se trouve_.",
+    "C": "Faux. Aucun _de_ dans la construction."
+   }
+  },
+  {
+   "id": "q.32.a.002",
+   "los": "los.32.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "La série …… je regarde en ce moment est très drôle.",
+   "options": [
+    "qui",
+    "où",
+    "que"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le sujet de _regarde_ est _je_, donc pas _qui_.",
+    "B": "Faux. Il ne s'agit ni d'un lieu ni d'un moment.",
+    "C": "Correct. _je regarde la série_ : COD → _que_."
+   }
+  },
+  {
+   "id": "q.32.a.003",
+   "los": "los.32.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Ce sont des problèmes …… concernent tout le monde.",
+   "options": [
+    "que",
+    "qui",
+    "dont"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Après _que_, il faudrait un autre sujet.",
+    "B": "Correct. _les problèmes concernent_ : sujet → _qui_.",
+    "C": "Faux. _concerner_ ne se construit pas avec _de_."
+   }
+  },
+  {
+   "id": "q.32.a.004",
+   "los": "los.32.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Les photos que j'ai …… (prendre) en Bretagne sont magnifiques.",
+   "options": [
+    "prises",
+    "pris",
+    "prise"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Le COD _que_ (= les photos, féminin pluriel) est placé avant _avoir_ : accord.",
+    "B": "Faux. Le participe s'accorde avec le COD placé avant.",
+    "C": "Faux. _les photos_ est au pluriel."
+   }
+  },
+  {
+   "id": "q.32.b.001",
+   "los": "los.32.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "La ville …… j'ai grandi a beaucoup changé.",
+   "options": [
+    "que",
+    "où",
+    "dont"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _grandir_ n'a pas de COD.",
+    "B": "Correct. Complément de lieu → _où_.",
+    "C": "Faux. On grandit _dans_ une ville, pas _de_."
+   }
+  },
+  {
+   "id": "q.32.b.002",
+   "los": "los.32.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Je me souviens du jour …… nous nous sommes rencontrés.",
+   "options": [
+    "que",
+    "quand",
+    "où"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. *_le jour que_ n'est pas correct en français standard.",
+    "B": "Faux. _quand_ n'est pas un pronom relatif après un nom.",
+    "C": "Correct. _où_ s'emploie aussi pour le temps."
+   }
+  },
+  {
+   "id": "q.32.b.003",
+   "los": "los.32.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Au moment …… il est entré, tout le monde s'est tu.",
+   "options": [
+    "que",
+    "lequel",
+    "où"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On dit _au moment où_.",
+    "B": "Faux. _lequel_ suit une préposition.",
+    "C": "Correct. _au moment où_ : relatif de temps."
+   }
+  },
+  {
+   "id": "q.32.c.001",
+   "los": "los.32.c",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Voici le livre …… je t'ai parlé.",
+   "options": [
+    "dont",
+    "que",
+    "où"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _parler **de** quelque chose_ → _dont_.",
+    "B": "Faux. _parler_ n'a pas de COD ici : on parle _de_ quelque chose.",
+    "C": "Faux. Ce n'est ni un lieu ni un moment."
+   }
+  },
+  {
+   "id": "q.32.c.002",
+   "los": "los.32.c",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "C'est un outil …… on ne peut plus se passer.",
+   "options": [
+    "que",
+    "dont",
+    "qui"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _se passer de_ demande _dont_.",
+    "B": "Correct. _se passer **de**_ → _dont_.",
+    "C": "Faux. Le sujet de la relative est _on_."
+   }
+  },
+  {
+   "id": "q.32.c.003",
+   "los": "los.32.c",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "J'ai rencontré une femme …… le fils joue dans l'équipe de France.",
+   "options": [
+    "dont",
+    "qui",
+    "que"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Complément du nom : _le fils **de** la femme_.",
+    "B": "Faux. _qui_ serait le sujet ; ici le sujet est _le fils_.",
+    "C": "Faux. Il n'y a pas de COD."
+   }
+  },
+  {
+   "id": "q.32.c.004",
+   "los": "los.32.c",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Le chômage est une chose …… beaucoup de jeunes ont peur.",
+   "options": [
+    "que",
+    "dont",
+    "à laquelle"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _avoir peur de_ demande _dont_.",
+    "B": "Correct. _avoir peur **de**_ → _dont_.",
+    "C": "Faux. _avoir peur_ ne se construit pas avec _à_."
+   }
+  },
+  {
+   "id": "q.32.c.005",
+   "los": "los.32.c",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Quelle phrase est correcte ?",
+   "options": [
+    "Le projet que je suis responsable avance bien.",
+    "Le projet dont j'en suis responsable avance bien.",
+    "Le projet dont je suis responsable avance bien."
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _être responsable de_ demande _dont_.",
+    "B": "Faux. _dont_ remplace déjà _de ce projet_ : _en_ fait double emploi.",
+    "C": "Correct. _être responsable **de**_ → _dont_."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m32.1.01",
+   "modules": [
+    "m32.1"
+   ],
+   "title": "Portrait d'une association",
+   "vignette": "« _Solidar'Toit_ est une association **(1)** …… aide les étudiants à se loger. Elle propose des chambres chez des personnes âgées **(2)** …… vivent seules. C'est une solution **(3)** …… beaucoup de familles ont besoin. Le quartier **(4)** …… l'association est née compte aujourd'hui cinquante colocations. »",
+   "questions": [
+    {
+     "id": "set.m32.1.01.q1",
+     "los": "los.32.a",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "que",
+      "qui",
+      "dont"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _que_ serait suivi d'un autre sujet.",
+      "B": "Correct. L'association aide : sujet.",
+      "C": "Faux. _aider_ se construit sans _de_."
+     }
+    },
+    {
+     "id": "set.m32.1.01.q2",
+     "los": "los.32.a",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "que",
+      "où",
+      "qui"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. Le verbe _vivent_ suit directement : il faut le sujet _qui_.",
+      "B": "Faux. Il ne s'agit pas d'un lieu.",
+      "C": "Correct. Les personnes âgées vivent seules : sujet."
+     }
+    },
+    {
+     "id": "set.m32.1.01.q3",
+     "los": "los.32.c",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "dont",
+      "que",
+      "qui"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _avoir besoin **de**_ → _dont_.",
+      "B": "Faux. _avoir besoin de_ demande _dont_.",
+      "C": "Faux. Le sujet de _ont besoin_ est _beaucoup de familles_."
+     }
+    },
+    {
+     "id": "set.m32.1.01.q4",
+     "los": "los.32.b",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) :",
+     "options": [
+      "où",
+      "dont",
+      "que"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Lieu → _où_.",
+      "B": "Faux. On naît _dans_ un quartier, pas _de_.",
+      "C": "Faux. _naître_ n'a pas de COD."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.32.qui-que",
+   "los": [
+    "los.32.a"
+   ],
+   "name": "Qui ou que ?",
+   "front": "Le film …… passe / le film …… je regarde",
+   "back": "**qui** = sujet (le film passe) ; **que** = COD (je regarde le film).",
+   "examples": [
+    "Le film qui passe ce soir… / Le film que je regarde…"
+   ]
+  },
+  {
+   "id": "f.32.dont",
+   "los": [
+    "los.32.c"
+   ],
+   "name": "Dont",
+   "front": "Quand utilise-t-on « dont » ?",
+   "back": "Pour remplacer un complément avec **de** : verbe (_parler de_), adjectif (_fier de_) ou nom (_le père de_).",
+   "examples": [
+    "Le livre dont j'ai besoin.",
+    "L'ami dont le père est médecin."
+   ],
+   "common_mistake": "*_le livre que j'ai besoin_."
+  },
+  {
+   "id": "f.32.ou-temps",
+   "los": [
+    "los.32.b"
+   ],
+   "name": "Où pour le temps",
+   "front": "Le jour …… je l'ai vue",
+   "back": "**où** : lieu et temps. _Le jour où, l'année où, au moment où._",
+   "common_mistake": "*_le jour que_, *_le jour quand_."
+  }
+ ]
+}

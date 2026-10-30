@@ -1,0 +1,373 @@
+{
+ "module": "m32.3",
+ "source_hash": "a8e974537b69",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Quand le verbe ou le nom est introduit par une **préposition**, _qui / que / dont_ ne suffisent plus."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Préposition + _lequel_ (accordé) ; _à_ + lequel → _auquel_ ; locution en _de_ + lequel → _duquel_."
+   },
+   {
+    "stage": "result",
+    "md": "Il faut connaître la préposition du verbe : _penser **à**_, _participer **à**_, _travailler **pour**_, _habiter **près de**_."
+   },
+   {
+    "stage": "interpretation",
+    "md": "_La raison pour laquelle_ et _le problème auquel nous faisons face_ sont des formules typiques d'un essai B2."
+   }
+  ],
+  "why_it_matters": "Les relatifs composés sont un marqueur de niveau B2 très visible : une seule phrase bien construite (_la raison pour laquelle…_) valorise la copie.",
+  "exam_approach": {
+   "look_first": [
+    "la préposition demandée par le verbe ou la locution",
+    "le genre et le nombre du nom repris",
+    "une locution en _de_ (près de, à cause de)"
+   ],
+   "traps": [
+    "*_à lequel_ au lieu de _auquel_",
+    "_dont_ après une locution (*_près dont_)",
+    "oublier l'accord (*_la société pour lequel_)"
+   ],
+   "distractors": [
+    "une forme mal accordée",
+    "_dont_ à la place de _duquel_",
+    "_que_ à la place de préposition + lequel"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m32.1",
+   "type": "requires",
+   "note": "Les relatifs simples."
+  },
+  {
+   "to": "m52.2",
+   "type": "applies",
+   "note": "« c'est la raison pour laquelle » pour exprimer la conséquence."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.32.e.001",
+   "los": "los.32.e",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "La société pour …… je travaille est basée à Lyon.",
+   "options": [
+    "lequel",
+    "qui",
+    "laquelle"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _lequel_ est masculin.",
+    "B": "Faux. Préposition + _qui_ est réservé aux personnes.",
+    "C": "Correct. _la société_ est féminin singulier."
+   }
+  },
+  {
+   "id": "q.32.e.002",
+   "los": "los.32.e",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Voici les raisons pour …… je refuse ce poste.",
+   "options": [
+    "lesquels",
+    "laquelle",
+    "lesquelles"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _raisons_ est féminin.",
+    "B": "Faux. _raisons_ est au pluriel.",
+    "C": "Correct. _les raisons_ : féminin pluriel."
+   }
+  },
+  {
+   "id": "q.32.e.003",
+   "los": "los.32.e",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Le collègue avec …… je partage mon bureau est très calme.",
+   "options": [
+    "qui",
+    "que",
+    "dont"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Pour une personne, préposition + _qui_ est possible (comme _avec lequel_).",
+    "B": "Faux. Après une préposition, _que_ est impossible.",
+    "C": "Faux. _dont_ ne suit jamais une préposition."
+   }
+  },
+  {
+   "id": "q.32.e.004",
+   "los": "los.32.e",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Les candidats parmi …… on choisira le directeur sont tous qualifiés.",
+   "options": [
+    "qui",
+    "lesquels",
+    "lesquelles"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _parmi qui_ est incorrect.",
+    "B": "Correct. Après _parmi_, toujours _lesquels / lesquelles_, même pour des personnes.",
+    "C": "Faux. _les candidats_ est masculin."
+   }
+  },
+  {
+   "id": "q.32.f.001",
+   "los": "los.32.f",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "C'est le projet …… je pense depuis des mois.",
+   "options": [
+    "auquel",
+    "à lequel",
+    "dont"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _penser **à**_ + lequel → _auquel_.",
+    "B": "Faux. _à + lequel_ se contracte en _auquel_.",
+    "C": "Faux. _penser_ se construit avec _à_, pas _de_."
+   }
+  },
+  {
+   "id": "q.32.f.002",
+   "los": "los.32.f",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "La conférence …… j'ai assisté était passionnante.",
+   "options": [
+    "auquel",
+    "à laquelle",
+    "que"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _conférence_ est féminin.",
+    "B": "Correct. _assister **à**_ ; féminin singulier : pas de contraction.",
+    "C": "Faux. _assister_ se construit avec _à_."
+   }
+  },
+  {
+   "id": "q.32.f.003",
+   "los": "los.32.f",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Ce sont des difficultés …… nous devons faire face.",
+   "options": [
+    "auxquels",
+    "dont",
+    "auxquelles"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _difficultés_ est féminin.",
+    "B": "Faux. _faire face_ se construit avec _à_.",
+    "C": "Correct. _faire face **à**_ ; féminin pluriel."
+   }
+  },
+  {
+   "id": "q.32.f.004",
+   "los": "los.32.f",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Les associations …… je participe luttent contre le gaspillage.",
+   "options": [
+    "dont",
+    "à lesquelles",
+    "auxquelles"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _participer_ se construit avec _à_.",
+    "B": "Faux. _à + lesquelles_ se contracte en _auxquelles_.",
+    "C": "Correct. _participer **à**_ ; féminin pluriel."
+   }
+  },
+  {
+   "id": "q.32.g.001",
+   "los": "los.32.g",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "L'immeuble en face …… j'habite va être rénové.",
+   "options": [
+    "dont",
+    "duquel",
+    "de lequel"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _dont_ ne peut pas suivre une préposition.",
+    "B": "Correct. Locution _en face **de**_ + lequel → _duquel_.",
+    "C": "Faux. _de + lequel_ se contracte en _duquel_."
+   }
+  },
+  {
+   "id": "q.32.g.002",
+   "los": "los.32.g",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "La réforme à cause …… il a démissionné est très critiquée.",
+   "options": [
+    "de laquelle",
+    "duquel",
+    "dont"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _à cause **de**_ + laquelle (féminin) : _de laquelle_.",
+    "B": "Faux. _réforme_ est féminin.",
+    "C": "Faux. Après _à cause_, il faut _de laquelle_."
+   }
+  },
+  {
+   "id": "q.32.g.003",
+   "los": "los.32.g",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Quelle phrase est correcte ?",
+   "options": [
+    "Le parc près dont nous habitons est magnifique.",
+    "Le parc près duquel nous habitons est magnifique.",
+    "Le parc dont nous habitons près est magnifique."
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _dont_ ne suit pas une préposition.",
+    "B": "Correct. _près de_ + lequel → _près duquel_.",
+    "C": "Faux. La locution _près de_ ne peut pas être coupée."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m32.3.01",
+   "modules": [
+    "m32.3"
+   ],
+   "title": "Lettre au directeur des ressources humaines",
+   "vignette": "« Monsieur le Directeur,\n\nJe vous écris au sujet du projet de télétravail **(1)** …… vous avez parlé lors de la dernière réunion. C'est une initiative **(2)** …… je tiens beaucoup. Les difficultés **(3)** …… nous sommes confrontés, notamment les transports, sont la raison pour **(4)** …… je soutiens cette proposition. »",
+   "questions": [
+    {
+     "id": "set.m32.3.01.q1",
+     "los": "los.32.c",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "duquel",
+      "que",
+      "dont"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _duquel_ suit une locution prépositionnelle ; ici, _parler de_ → _dont_.",
+      "B": "Faux. _parler_ se construit avec _de_.",
+      "C": "Correct. _parler **de**_ → _dont_."
+     }
+    },
+    {
+     "id": "set.m32.3.01.q2",
+     "los": "los.32.f",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "à laquelle",
+      "dont",
+      "auquel"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _tenir **à**_ ; _initiative_ est féminin.",
+      "B": "Faux. _tenir_ se construit ici avec _à_.",
+      "C": "Faux. _initiative_ est féminin."
+     }
+    },
+    {
+     "id": "set.m32.3.01.q3",
+     "los": "los.32.f",
+     "difficulty": 3,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "auxquelles",
+      "dont",
+      "lesquelles"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _être confronté **à**_ ; _difficultés_ féminin pluriel.",
+      "B": "Faux. _être confronté_ se construit avec _à_.",
+      "C": "Faux. Il manque la préposition _à_ (→ _auxquelles_)."
+     }
+    },
+    {
+     "id": "set.m32.3.01.q4",
+     "los": "los.32.e",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) :",
+     "options": [
+      "lequel",
+      "laquelle",
+      "quoi"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _raison_ est féminin.",
+      "B": "Correct. _la raison pour laquelle_ (féminin singulier).",
+      "C": "Faux. _pour quoi_ ne reprend pas un nom précis."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.32.lequel",
+   "los": [
+    "los.32.e"
+   ],
+   "name": "Préposition + lequel",
+   "front": "La société pour …… je travaille",
+   "back": "Préposition + **lequel / laquelle / lesquels / lesquelles**, accordé avec le nom.",
+   "examples": [
+    "la société pour laquelle",
+    "les raisons pour lesquelles"
+   ]
+  },
+  {
+   "id": "f.32.auquel",
+   "los": [
+    "los.32.f"
+   ],
+   "name": "À + lequel",
+   "front": "Le projet …… je pense (penser à)",
+   "back": "**auquel**, à laquelle, **auxquels**, **auxquelles**.",
+   "common_mistake": "*_à lequel_."
+  },
+  {
+   "id": "f.32.duquel",
+   "los": [
+    "los.32.g"
+   ],
+   "name": "Dont ou duquel ?",
+   "front": "Le musée …… je parle / le musée près …… j'habite",
+   "back": "**dont** quand _de_ suit directement le verbe ; **duquel** après une locution (près de, à cause de, en face de).",
+   "common_mistake": "*_près dont_."
+  }
+ ]
+}

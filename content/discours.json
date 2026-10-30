@@ -1,0 +1,319 @@
+{
+ "readings": [
+  {
+   "number": 35,
+   "title": "Le discours indirect au présent",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Rapporter ce que quelqu'un dit ou demande est une compétence clé du DELF B2 : résumer un document en compréhension, citer une source dans un essai (_le ministre affirme que…_), reformuler les propos de l'examinateur à l'oral."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 35 (p. 156)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Rapporter une déclaration, une question et un ordre avec un verbe introducteur au présent.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Adapter les pronoms personnels et les possessifs au discours indirect.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Rapporter des paroles au présent",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Avec un verbe introducteur **au présent**, les temps ne changent pas. Seule la construction change selon le type de phrase :"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Discours direct",
+           "Discours indirect"
+          ],
+          [
+           "Déclaration : « Je suis fatigué. »",
+           "Il dit **qu'**il est fatigué."
+          ],
+          [
+           "Question oui/non : « Tu viens ? »",
+           "Il demande **si** je viens."
+          ],
+          [
+           "« Qu'est-ce que tu fais ? »",
+           "Il demande **ce que** je fais."
+          ],
+          [
+           "« Qu'est-ce qui se passe ? »",
+           "Il demande **ce qui** se passe."
+          ],
+          [
+           "« Où / quand / comment / pourquoi… ? »",
+           "Il demande **où / quand / comment / pourquoi**… (sans inversion)"
+          ],
+          [
+           "Ordre : « Partez ! »",
+           "Il nous dit **de partir**."
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Au discours indirect, **pas d'inversion** et **pas de point d'interrogation** : _Il demande où tu habites_ (et non *_où habites-tu_). _Si_ devient _s'_ devant _il / ils_ : _Il demande **s'**il peut venir._"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Les pronoms et les possessifs changent selon **qui parle** et **à qui** on rapporte les paroles."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "Marie à Paul : « **Je** te prête **ma** voiture. » → Marie dit à Paul qu'**elle** **lui** prête **sa** voiture.",
+          "Paul me dit : « **Tu** as oublié **tes** clés. » → Paul me dit que **j'**ai oublié **mes** clés."
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 45,
+   "title": "Le discours indirect au passé",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Avec un verbe introducteur au passé (_il a dit que, elle expliquait que_), les temps de la phrase rapportée **reculent dans le passé** : c'est la **concordance des temps**. C'est l'un des points les plus testés au B2, à l'écrit comme à l'oral."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 45 (p. 216–219)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Appliquer la concordance des temps quand le verbe introducteur est au passé.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Transformer les indicateurs de temps et de lieu (demain → le lendemain, hier → la veille…).",
+     "module": 1
+    },
+    {
+     "letter": "c",
+     "text": "Employer des verbes introducteurs précis (affirmer, reconnaître, prétendre, conseiller de, reprocher de…).",
+     "module": 2
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "La concordance des temps",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Quand le verbe introducteur est **au passé**, le reste de la phrase se met au passé :"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Discours direct",
+           "Discours indirect au passé",
+           "Exemple"
+          ],
+          [
+           "présent",
+           "**imparfait**",
+           "« Il pleut. » → Il a dit qu'il **pleuvait**."
+          ],
+          [
+           "passé composé",
+           "**plus-que-parfait**",
+           "« Il a plu. » → Il a dit qu'il **avait plu**."
+          ],
+          [
+           "futur simple",
+           "**conditionnel présent**",
+           "« Il pleuvra. » → Il a dit qu'il **pleuvrait**."
+          ],
+          [
+           "futur proche",
+           "**aller** à l'imparfait + infinitif",
+           "« Il va pleuvoir. » → Il a dit qu'il **allait** pleuvoir."
+          ],
+          [
+           "imparfait, plus-que-parfait, conditionnel",
+           "**pas de changement**",
+           "« J'étais malade. » → Il a dit qu'il **était** malade."
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Pour une **vérité générale** ou un fait toujours vrai, on peut garder le présent : _Le professeur a expliqué que la Terre **tourne** autour du Soleil._"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Les repères de temps et de lieu changent aussi, car on ne parle plus du même moment ni du même endroit :"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Discours direct",
+           "Discours indirect au passé"
+          ],
+          [
+           "aujourd'hui",
+           "ce jour-là"
+          ],
+          [
+           "hier",
+           "la veille"
+          ],
+          [
+           "demain",
+           "le lendemain"
+          ],
+          [
+           "la semaine prochaine",
+           "la semaine suivante"
+          ],
+          [
+           "la semaine dernière",
+           "la semaine précédente"
+          ],
+          [
+           "maintenant",
+           "à ce moment-là"
+          ],
+          [
+           "ici",
+           "là"
+          ],
+          [
+           "dans deux jours",
+           "deux jours plus tard"
+          ],
+          [
+           "il y a deux jours",
+           "deux jours plus tôt / avant"
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 2,
+     "title": "Les verbes introducteurs",
+     "sections": [
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Au lieu de répéter _dire_, un texte B2 choisit un verbe qui précise l'**intention** de la personne citée :"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Intention",
+           "Verbes + que",
+           "Verbes + de + infinitif"
+          ],
+          [
+           "affirmer, informer",
+           "affirmer, déclarer, annoncer, expliquer, préciser, souligner",
+           ""
+          ],
+          [
+           "admettre",
+           "reconnaître, admettre, avouer",
+           ""
+          ],
+          [
+           "mettre en doute",
+           "prétendre (= dire sans preuve)",
+           ""
+          ],
+          [
+           "répondre, ajouter",
+           "répondre, ajouter, rappeler, objecter",
+           ""
+          ],
+          [
+           "demander",
+           "se demander **si**, vouloir savoir **si**",
+           "demander **de**"
+          ],
+          [
+           "influencer",
+           "",
+           "conseiller **de**, proposer **de**, ordonner **de**, interdire **de**, reprocher **de**, promettre **de**"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "_Le ministre **a reconnu qu'**il y avait eu des erreurs._ / _L'opposition lui **a reproché de** ne pas avoir consulté les syndicats._"
+        },
+        {
+         "t": "note",
+         "md": "**Prétendre que** marque un doute : le locuteur ne garantit pas ce qui est dit. _Il prétend qu'il n'était pas au courant._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

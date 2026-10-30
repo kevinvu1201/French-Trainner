@@ -1,0 +1,330 @@
+{
+ "module": "m51.2",
+ "source_hash": "6fbc76bbac1d",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le mode dépend du **regard** porté sur l'action : fait constaté ou action seulement voulue, souhaitée, redoutée."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Verbes d'opinion, de perception, de déclaration → indicatif ; volonté, sentiment, doute, jugement → subjonctif."
+   },
+   {
+    "stage": "result",
+    "md": "L'opinion **niée** ou **mise en question** passe au subjonctif : _je ne crois pas qu'il soit…_"
+   },
+   {
+    "stage": "interpretation",
+    "md": "En production écrite B2, alterner _je pense que + indicatif_ et _je ne pense pas que + subjonctif_ montre la maîtrise du mode."
+   }
+  ],
+  "why_it_matters": "Dans un essai argumentatif, vous exprimez sans cesse opinion, souhait et regret : le choix du mode après ces verbes est noté à chaque fois.",
+  "exam_approach": {
+   "look_first": [
+    "le verbe principal : tête (fait) ou cœur (désir, sentiment) ?",
+    "la négation ou l'inversion du verbe d'opinion",
+    "**espérer**, qui reste à l'indicatif"
+   ],
+   "traps": [
+    "mettre le subjonctif après _espérer_",
+    "mettre l'indicatif après _je ne pense pas que_ dans un texte soutenu",
+    "mettre le subjonctif après _je pense que_ affirmatif"
+   ],
+   "distractors": [
+    "l'indicatif futur après un verbe de volonté",
+    "le conditionnel à la place du subjonctif",
+    "le subjonctif après un verbe de certitude"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m51.1",
+   "type": "requires",
+   "note": "Former le subjonctif."
+  },
+  {
+   "to": "m51.3",
+   "type": "extends",
+   "note": "Constructions impersonnelles et degré de certitude."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.51.c.001",
+   "los": "los.51.c",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Je pense que ce projet …… une bonne idée.",
+   "options": [
+    "soit",
+    "serait",
+    "est"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le subjonctif s'emploie après _je ne pense pas que_, pas après _je pense que_.",
+    "B": "Faux. Le conditionnel ne s'impose pas ici.",
+    "C": "Correct. _penser_ à la forme affirmative présente un fait : indicatif."
+   }
+  },
+  {
+   "id": "q.51.c.002",
+   "los": "los.51.c",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Je souhaite que tu …… (réussir) ton examen.",
+   "options": [
+    "réussisses",
+    "réussis",
+    "réussiras"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _souhaiter_ exprime un désir : subjonctif.",
+    "B": "Faux. C'est l'indicatif.",
+    "C": "Faux. Le futur suit _espérer_, pas _souhaiter_."
+   }
+  },
+  {
+   "id": "q.51.c.003",
+   "los": "los.51.c",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "J'espère que vous …… (venir) à la réunion.",
+   "options": [
+    "veniez",
+    "viendrez",
+    "viendriez"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Piège : _espérer_ ne prend pas le subjonctif.",
+    "B": "Correct. _espérer_ est suivi de l'indicatif, souvent du futur.",
+    "C": "Faux. Le conditionnel n'est pas attendu ici."
+   }
+  },
+  {
+   "id": "q.51.c.004",
+   "los": "los.51.c",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "À l'écrit soutenu : « Je ne pense pas que cette solution …… efficace. »",
+   "options": [
+    "est",
+    "sois",
+    "soit"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On l'entend à l'oral familier, mais à l'écrit soutenu l'opinion niée demande le subjonctif.",
+    "B": "Faux. C'est la forme de _tu_ ; avec _cette solution_ : _soit_.",
+    "C": "Correct. Un verbe d'opinion nié exprime un doute : subjonctif."
+   }
+  },
+  {
+   "id": "q.51.c.005",
+   "los": "los.51.c",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Je regrette que vous …… (partir) si tôt.",
+   "options": [
+    "partiez",
+    "partez",
+    "partirez"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _regretter_ exprime un sentiment : subjonctif.",
+    "B": "Faux. C'est l'indicatif.",
+    "C": "Faux. C'est le futur."
+   }
+  },
+  {
+   "id": "q.51.c.006",
+   "los": "los.51.c",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Je doute qu'elle …… (pouvoir) finir à temps.",
+   "options": [
+    "peut",
+    "puisse",
+    "pourra"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif.",
+    "B": "Correct. _douter_ est toujours suivi du subjonctif.",
+    "C": "Faux. C'est le futur."
+   }
+  },
+  {
+   "id": "q.51.c.007",
+   "los": "los.51.c",
+   "difficulty": 2,
+   "qtype": "judgement",
+   "stem": "Quelle phrase est correcte ?",
+   "options": [
+    "Je crois qu'il soit coupable.",
+    "Je veux qu'il est coupable.",
+    "Croyez-vous qu'il soit coupable ?"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _Je crois que_ affirmatif → indicatif : _il est_.",
+    "B": "Faux. _vouloir que_ → subjonctif : _qu'il soit_.",
+    "C": "Correct. L'interrogation avec inversion autorise le subjonctif (doute)."
+   }
+  },
+  {
+   "id": "q.51.c.008",
+   "los": "los.51.c",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Je trouve inadmissible que les loyers …… autant (augmenter).",
+   "options": [
+    "augmenteront",
+    "augmentent",
+    "augmentaient"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le futur ne suit pas une expression de jugement.",
+    "B": "Correct. Un adjectif de jugement + _que_ → subjonctif (identique à l'indicatif pour _ils_).",
+    "C": "Faux. L'imparfait ne convient pas."
+   }
+  },
+  {
+   "id": "q.51.c.009",
+   "los": "los.51.c",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Quelle phrase exprime un fait (et non un souhait) ?",
+   "options": [
+    "J'aimerais que les jeunes lisent plus.",
+    "Il faudrait que les jeunes lisent plus.",
+    "Je constate que les jeunes lisent moins."
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _aimer que_ exprime un souhait (subjonctif).",
+    "B": "Faux. _il faudrait que_ exprime une obligation (subjonctif).",
+    "C": "Correct. _constater_ présente un fait : indicatif."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m51.2.01",
+   "modules": [
+    "m51.2"
+   ],
+   "title": "Courriel à la mairie",
+   "vignette": "Madame la Maire,\n\nJ'apprends que la bibliothèque de quartier va fermer. Je comprends que la ville **(1)** …… (devoir) faire des économies, mais je ne crois pas que cette fermeture **(2)** …… (être) la bonne solution. Je souhaite que vous **(3)** …… (revenir) sur cette décision et j'espère que le conseil municipal **(4)** …… (prendre) en compte l'avis des habitants.",
+   "questions": [
+    {
+     "id": "set.m51.2.01.q1",
+     "los": "los.51.c",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "doit",
+      "doive",
+      "devrait"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _comprendre que_ = constater un fait : indicatif.",
+      "B": "Faux. _comprendre que_ (= constater) est suivi de l'indicatif.",
+      "C": "Faux. Le conditionnel change le sens."
+     }
+    },
+    {
+     "id": "set.m51.2.01.q2",
+     "los": "los.51.c",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "est",
+      "sera",
+      "soit"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. Dans une lettre formelle, l'opinion niée appelle le subjonctif.",
+      "B": "Faux. Le futur ne convient pas après une opinion niée.",
+      "C": "Correct. Opinion niée (_je ne crois pas que_) → subjonctif."
+     }
+    },
+    {
+     "id": "set.m51.2.01.q3",
+     "los": "los.51.c",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "reveniez",
+      "revenez",
+      "reviendrez"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _souhaiter que_ → subjonctif.",
+      "B": "Faux. C'est l'indicatif.",
+      "C": "Faux. Le futur suit _espérer_, pas _souhaiter_."
+     }
+    },
+    {
+     "id": "set.m51.2.01.q4",
+     "los": "los.51.c",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) :",
+     "options": [
+      "prenne",
+      "prendra",
+      "prît"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Piège : _espérer_ ne prend pas le subjonctif.",
+      "B": "Correct. _espérer que_ → indicatif, ici futur.",
+      "C": "Faux. Imparfait du subjonctif : registre littéraire, et mode faux ici."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.51.tete-coeur",
+   "los": [
+    "los.51.c"
+   ],
+   "name": "Tête ou cœur ?",
+   "front": "Penser, croire, constater + que → ? / Vouloir, souhaiter, regretter + que → ?",
+   "back": "Verbes de la tête → **indicatif**. Verbes du cœur (volonté, sentiment, doute) → **subjonctif**.",
+   "examples": [
+    "Je pense qu'il est là. / Je veux qu'il soit là."
+   ],
+   "common_mistake": "_J'espère qu'il vienne_ : **espérer** prend l'indicatif."
+  },
+  {
+   "id": "f.51.opinion-niee",
+   "los": [
+    "los.51.c"
+   ],
+   "name": "Opinion niée",
+   "front": "Je ne pense pas que + ?",
+   "back": "**Subjonctif** : l'opinion niée ou mise en question exprime un doute.",
+   "examples": [
+    "Je ne crois pas qu'il ait raison.",
+    "Pensez-vous qu'il soit coupable ?"
+   ]
+  }
+ ]
+}

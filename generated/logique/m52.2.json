@@ -1,0 +1,313 @@
+{
+ "module": "m52.2",
+ "source_hash": "345dff5a302f",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "La conséquence est le **résultat** d'un fait ; le but est un résultat **voulu**."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Conséquence : adverbes (_donc, par conséquent_) ou conjonctions + indicatif (_si bien que_). But : _pour / afin de_ + infinitif, _pour que / afin que_ + subjonctif."
+   },
+   {
+    "stage": "result",
+    "md": "_Si… que_, _tellement… que_ ajoutent l'intensité ; _d'où_ + nom résume la conséquence."
+   },
+   {
+    "stage": "interpretation",
+    "md": "Dans l'essai, chaque argument peut suivre le schéma : fait → conséquence (_par conséquent_) → but de la proposition (_afin que_)."
+   }
+  ],
+  "why_it_matters": "Enchaîner fait, conséquence et proposition est exactement ce que demande la consigne « argumentez » du DELF B2.",
+  "exam_approach": {
+   "look_first": [
+    "résultat subi (conséquence) ou recherché (but) ?",
+    "même sujet ou sujets différents ?",
+    "adverbe, conjonction ou préposition ?"
+   ],
+   "traps": [
+    "_pour que_ avec le même sujet",
+    "_afin que_ + indicatif",
+    "confondre _parce que_ (cause) et _pour que_ (but)"
+   ],
+   "distractors": [
+    "un connecteur de cause à la place d'une conséquence",
+    "l'infinitif avec deux sujets différents",
+    "_si bien que_ + subjonctif"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m52.1",
+   "type": "contrasts_with",
+   "note": "La cause."
+  },
+  {
+   "to": "m51.4",
+   "type": "requires",
+   "note": "pour que / afin que + subjonctif."
+  },
+  {
+   "to": "m32.3",
+   "type": "applies",
+   "note": "« la raison pour laquelle »."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.52.b.001",
+   "los": "los.52.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Il n'a pas révisé ; ……, il a échoué à l'examen.",
+   "options": [
+    "parce que",
+    "pourtant",
+    "par conséquent"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _parce que_ introduit la cause, pas le résultat.",
+    "B": "Faux. _pourtant_ exprime une opposition.",
+    "C": "Correct. Résultat d'un fait → conséquence."
+   }
+  },
+  {
+   "id": "q.52.b.002",
+   "los": "los.52.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Il a beaucoup neigé, …… les écoles sont fermées.",
+   "options": [
+    "si bien que",
+    "pour que",
+    "bien que"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Conséquence + indicatif.",
+    "B": "Faux. _pour que_ exprime un but et demande le subjonctif.",
+    "C": "Faux. _bien que_ exprime une concession."
+   }
+  },
+  {
+   "id": "q.52.b.003",
+   "los": "los.52.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Il y avait …… bruit que je n'ai pas pu dormir.",
+   "options": [
+    "si",
+    "tellement",
+    "tellement de"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _si_ s'emploie devant un adjectif ou un adverbe.",
+    "B": "Faux. Devant un nom, il faut _tellement **de**_.",
+    "C": "Correct. Intensité + nom → _tellement de_ … _que_."
+   }
+  },
+  {
+   "id": "q.52.b.004",
+   "los": "los.52.b",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Les transports sont saturés, …… la nécessité d'investir.",
+   "options": [
+    "donc",
+    "d'où",
+    "puisque"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _donc_ ne peut pas être suivi d'un nom seul.",
+    "B": "Correct. _d'où_ + nom : conséquence résumée.",
+    "C": "Faux. _puisque_ exprime la cause."
+   }
+  },
+  {
+   "id": "q.52.c.001",
+   "los": "los.52.c",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "J'apprends le français …… travailler à Montréal.",
+   "options": [
+    "pour que",
+    "parce que",
+    "pour"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _pour que_ demande un sujet différent et un subjonctif.",
+    "B": "Faux. _parce que_ exprime la cause.",
+    "C": "Correct. But, même sujet → _pour_ + infinitif."
+   }
+  },
+  {
+   "id": "q.52.c.002",
+   "los": "los.52.c",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Je vous envoie le plan …… vous trouviez facilement la salle.",
+   "options": [
+    "afin de",
+    "afin que",
+    "si bien que"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _afin de_ demande un infinitif.",
+    "B": "Correct. But, sujets différents → _afin que_ + subjonctif (_trouviez_).",
+    "C": "Faux. _si bien que_ exprime une conséquence + indicatif."
+   }
+  },
+  {
+   "id": "q.52.c.003",
+   "los": "los.52.c",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Elle parle doucement …… réveiller le bébé.",
+   "options": [
+    "de peur de",
+    "de peur que",
+    "pour"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. But négatif (crainte), même sujet → _de peur de_ + infinitif.",
+    "B": "Faux. _de peur que_ demande un verbe conjugué.",
+    "C": "Faux. _pour réveiller_ dirait le contraire."
+   }
+  },
+  {
+   "id": "q.52.c.004",
+   "los": "los.52.c",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "« J'utilise ce shampoing …… mes cheveux brillent. » (but recherché)",
+   "options": [
+    "parce que",
+    "pour que",
+    "si bien que"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _parce que_ exprimerait la cause : l'effet constaté, pas recherché.",
+    "B": "Correct. But + subjonctif.",
+    "C": "Faux. _si bien que_ exprime une conséquence constatée."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m52.2.01",
+   "modules": [
+    "m52.2"
+   ],
+   "title": "Essai : les écrans à l'école",
+   "vignette": "« Les élèves passent en moyenne six heures par jour devant un écran ; **(1)** ……, leur concentration diminue. Les enseignants constatent une fatigue **(2)** …… grande …… certains cours deviennent difficiles. Il faudrait limiter les écrans **(3)** …… les élèves retrouvent le goût de la lecture, et former les parents **(4)** …… accompagner leurs enfants. »",
+   "questions": [
+    {
+     "id": "set.m52.2.01.q1",
+     "los": "los.52.b",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "en effet",
+      "cependant",
+      "par conséquent"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _en effet_ introduit une explication, pas une conséquence.",
+      "B": "Faux. _cependant_ exprime une concession.",
+      "C": "Correct. Conséquence du fait précédent."
+     }
+    },
+    {
+     "id": "set.m52.2.01.q2",
+     "los": "los.52.b",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "si… que",
+      "tant de… que",
+      "pour… que"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Intensité + adjectif (_grande_) → _si… que_.",
+      "B": "Faux. _tant de_ s'emploie devant un nom.",
+      "C": "Faux. Cette construction n'existe pas."
+     }
+    },
+    {
+     "id": "set.m52.2.01.q3",
+     "los": "los.52.c",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "pour que",
+      "pour",
+      "si bien que"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. But, sujets différents + subjonctif (_retrouvent_).",
+      "B": "Faux. _pour_ demande un infinitif.",
+      "C": "Faux. Conséquence + indicatif, pas un but."
+     }
+    },
+    {
+     "id": "set.m52.2.01.q4",
+     "los": "los.52.c",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) :",
+     "options": [
+      "afin que",
+      "afin de",
+      "c'est pourquoi"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _afin que_ demande un verbe conjugué.",
+      "B": "Correct. But + infinitif (_accompagner_).",
+      "C": "Faux. _c'est pourquoi_ introduit une conséquence."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.52.consequence",
+   "los": [
+    "los.52.b"
+   ],
+   "name": "Exprimer la conséquence",
+   "front": "donc / par conséquent / si bien que / si… que / d'où ?",
+   "back": "**donc, par conséquent, c'est pourquoi** (adverbes) ; **si bien que** + indicatif ; **si / tellement** + adj. + **que** ; **d'où** + nom.",
+   "examples": [
+    "Il était si fatigué qu'il s'est endormi."
+   ]
+  },
+  {
+   "id": "f.52.but",
+   "los": [
+    "los.52.c"
+   ],
+   "name": "Exprimer le but",
+   "front": "pour / afin de / pour que / afin que ?",
+   "back": "Même sujet → **pour, afin de** + infinitif. Sujets différents → **pour que, afin que** + subjonctif.",
+   "common_mistake": "*_afin que_ + indicatif."
+  }
+ ]
+}

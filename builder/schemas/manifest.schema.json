@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "manifest.schema.json",
+  "title": "dist/data/manifest.json: the only data file loaded at startup",
+  "type": "object",
+  "required": ["schema", "built_at", "content_version", "weights_verified", "topics", "graph", "aliases", "scoring", "los_questions"],
+  "additionalProperties": false,
+  "properties": {
+    "scoring": {
+      "type": "object",
+      "description": "config/priority.yaml: mastery, priority, spaced-repetition and Smart Session parameters",
+      "required": ["mastery", "priority", "spaced_repetition", "smart_session", "readiness"],
+      "properties": {
+        "mastery": {"type": "object", "required": ["half_life_days", "prior_strength", "untouched_mean", "guess_credit", "interval", "min_answers"]},
+        "priority": {"type": "object", "required": ["uncertainty_k", "forgetting_floor"]},
+        "spaced_repetition": {"type": "object", "required": ["desired_retention", "grade_wrong", "grade_right_guess", "grade_right_unsure", "grade_right_sure"]},
+        "smart_session": {
+          "type": "object", "required": ["minutes_per_question", "mix", "strong_mastery"],
+          "properties": {"mix": {"type": "object", "required": ["priority", "review", "maintenance"],
+                                 "additionalProperties": {"type": "number", "minimum": 0, "maximum": 1}}}
+        },
+        "readiness": {"type": "object", "required": ["target", "final_review_days"]}
+      }
+    },
+    "los_questions": {"type": "object", "additionalProperties": {"type": "integer"}, "description": "LOS id -> number of practice questions"},
+    "content_bytes": {"type": "integer", "minimum": 0, "description": "Bytes of all topic chunks, figure images and the graph (shown in Settings)"},
+    "schema": {"const": 1},
+    "built_at": {"type": "string"},
+    "content_version": {"type": "string"},
+    "weights_verified": {"type": "boolean"},
+    "aliases": {"type": "object", "additionalProperties": {"type": "string"}},
+    "graph": {"type": ["string", "null"], "description": "Path of the concept graph file, null until generated content exists"},
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "weight", "weight_range", "chunk", "bytes", "counts", "readings"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/topicId"},
+          "name": {"type": "string"},
+          "weight": {"type": "number", "minimum": 0, "maximum": 1},
+          "weight_range": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
+          "chunk": {"type": "string"},
+          "bytes": {"type": "integer"},
+          "counts": {"type": "object", "additionalProperties": {"type": "integer"}},
+          "readings": {
+            "type": "array",
+            "items": {
+              "type": "object", "required": ["id", "n", "title", "modules"], "additionalProperties": false,
+              "properties": {
+                "id": {"$ref": "common.schema.json#/$defs/readingId"},
+                "n": {"type": "integer"},
+                "title": {"type": "string"},
+                "modules": {
+                  "type": "array",
+                  "items": {
+                    "type": "object", "required": ["id", "title", "los"], "additionalProperties": false,
+                    "properties": {
+                      "id": {"$ref": "common.schema.json#/$defs/moduleId"},
+                      "title": {"type": "string"},
+                      "los": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/losId"}}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

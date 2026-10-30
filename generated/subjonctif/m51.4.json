@@ -1,0 +1,365 @@
+{
+ "module": "m51.4",
+ "source_hash": "c4b906a0f527",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Une conjonction de but, de crainte, de temps à venir, de concession ou de condition présente une action **pas encore réalisée** ou **contestée**."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Ces conjonctions imposent le subjonctif ; _après que_, qui renvoie à un fait accompli, garde l'indicatif."
+   },
+   {
+    "stage": "result",
+    "md": "Même sujet dans les deux propositions → préposition + infinitif (_pour, afin de, avant de, de peur de_)."
+   },
+   {
+    "stage": "interpretation",
+    "md": "_Bien que_, _pour que_ et _à condition que_ sont les connecteurs du subjonctif les plus rentables pour une production écrite B2."
+   }
+  ],
+  "why_it_matters": "Les conjonctions (_bien que, pour que, à condition que_) sont les outils de la nuance et de l'argumentation : elles sont attendues au B2 et imposent un mode.",
+  "exam_approach": {
+   "look_first": [
+    "la conjonction : but, crainte, temps, concession, condition ?",
+    "_après que_ (indicatif) ou _avant que_ (subjonctif)",
+    "les deux sujets sont-ils les mêmes ?"
+   ],
+   "traps": [
+    "_après que_ + subjonctif",
+    "_que + subjonctif_ avec le même sujet (_je veux que je…_)",
+    "prendre le _ne_ explétif pour une négation"
+   ],
+   "distractors": [
+    "l'indicatif après _bien que_",
+    "le futur après _pour que_",
+    "l'infinitif avec deux sujets différents"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m51.3",
+   "type": "requires",
+   "note": "Le subjonctif passé et la certitude."
+  },
+  {
+   "to": "m52.4",
+   "type": "applies",
+   "note": "Les connecteurs de concession dans l'argumentation."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.51.f.001",
+   "los": "los.51.f",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Je vous prête ma voiture pour que vous …… (pouvoir) partir.",
+   "options": [
+    "pouvez",
+    "pourrez",
+    "puissiez"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif.",
+    "B": "Faux. Le futur ne suit pas _pour que_.",
+    "C": "Correct. _pour que_ (but) → subjonctif."
+   }
+  },
+  {
+   "id": "q.51.f.002",
+   "los": "los.51.f",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Bien qu'il …… (faire) froid, nous sortons.",
+   "options": [
+    "fait",
+    "fera",
+    "fasse"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif ; _bien que_ demande le subjonctif.",
+    "B": "Faux. C'est le futur.",
+    "C": "Correct. _bien que_ (concession) → subjonctif."
+   }
+  },
+  {
+   "id": "q.51.f.003",
+   "los": "los.51.f",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Je resterai jusqu'à ce que tu …… (revenir).",
+   "options": [
+    "reviennes",
+    "reviens",
+    "reviendras"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _jusqu'à ce que_ → subjonctif.",
+    "B": "Faux. C'est l'indicatif.",
+    "C": "Faux. Le futur ne suit pas _jusqu'à ce que_."
+   }
+  },
+  {
+   "id": "q.51.f.004",
+   "los": "los.51.f",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Il est parti après que la réunion …… (finir).",
+   "options": [
+    "ait fini",
+    "a fini",
+    "finisse"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Usage fréquent mais critiqué ; la norme veut l'indicatif.",
+    "B": "Correct. _après que_ → indicatif : l'action a eu lieu.",
+    "C": "Faux. Le subjonctif présent ne convient pas pour un fait accompli."
+   }
+  },
+  {
+   "id": "q.51.f.005",
+   "los": "los.51.f",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Tu peux sortir à condition que tu me …… (dire) où tu vas.",
+   "options": [
+    "dises",
+    "dis",
+    "diras"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _à condition que_ → subjonctif.",
+    "B": "Faux. C'est l'indicatif.",
+    "C": "Faux. C'est le futur."
+   }
+  },
+  {
+   "id": "q.51.f.006",
+   "los": "los.51.f",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "« Nous partirons à moins qu'il ne pleuve. » Que signifie ce _ne_ ?",
+   "options": [
+    "Il exprime la négation : s'il ne pleut pas.",
+    "Rien : c'est un _ne_ explétif, sans valeur négative.",
+    "Il est obligatoire avec le subjonctif."
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le _ne_ explétif n'est pas une négation.",
+    "B": "Correct. _à moins que_ = sauf si ; la phrase veut dire : sauf s'il pleut.",
+    "C": "Faux. Il est facultatif et lié à certaines conjonctions seulement."
+   }
+  },
+  {
+   "id": "q.51.f.007",
+   "los": "los.51.f",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Quelle phrase est correcte ?",
+   "options": [
+    "Je te le dis afin que tu es prévenu.",
+    "Je te le dis afin que tu seras prévenu.",
+    "Je te le dis afin que tu sois prévenu."
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _afin que_ demande le subjonctif.",
+    "B": "Faux. Le futur ne suit pas _afin que_.",
+    "C": "Correct. _afin que_ → subjonctif."
+   }
+  },
+  {
+   "id": "q.51.g.001",
+   "los": "los.51.g",
+   "difficulty": 1,
+   "qtype": "judgement",
+   "stem": "Quelle phrase est correcte ?",
+   "options": [
+    "Je veux que je parte tôt.",
+    "Je veux partir tôt.",
+    "Je veux que je pars tôt."
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Avec le même sujet, _que + subjonctif_ est impossible.",
+    "B": "Correct. Même sujet (_je_) → infinitif.",
+    "C": "Faux. Mode faux et construction impossible."
+   }
+  },
+  {
+   "id": "q.51.g.002",
+   "los": "los.51.g",
+   "difficulty": 2,
+   "qtype": "judgement",
+   "stem": "Il a travaillé dur …… réussir.",
+   "options": [
+    "pour que",
+    "parce que",
+    "pour"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _pour que_ demande un sujet différent et un verbe conjugué.",
+    "B": "Faux. _parce que_ exprime la cause, pas le but.",
+    "C": "Correct. Même sujet → _pour_ + infinitif."
+   }
+  },
+  {
+   "id": "q.51.g.003",
+   "los": "los.51.g",
+   "difficulty": 2,
+   "qtype": "judgement",
+   "stem": "Lave-toi les mains …… manger.",
+   "options": [
+    "avant de",
+    "avant que",
+    "avant"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Même sujet → _avant de_ + infinitif.",
+    "B": "Faux. _avant que_ demande un verbe conjugué au subjonctif.",
+    "C": "Faux. _avant_ + infinitif n'existe pas."
+   }
+  },
+  {
+   "id": "q.51.g.004",
+   "los": "los.51.g",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Je suis content …… là.",
+   "options": [
+    "que je sois",
+    "d'être",
+    "que je suis"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Avec le même sujet, on utilise l'infinitif.",
+    "B": "Correct. Même sujet (_je_) → _content de_ + infinitif.",
+    "C": "Faux. Mode faux et construction lourde."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m51.4.01",
+   "modules": [
+    "m51.4"
+   ],
+   "title": "Lettre de motivation",
+   "vignette": "« Madame, Monsieur,\n\nJe vous adresse ma candidature au poste d'assistant de communication. **(1)** …… je n'aie pas encore d'expérience en entreprise, j'ai mené plusieurs projets associatifs. Je suis disponible dès septembre, **(2)** …… mon contrat actuel se termine en août. Je joins mon CV **(3)** …… vous puissiez évaluer mon parcours, et je reste à votre disposition **(4)** …… vous rencontrer. »",
+   "questions": [
+    {
+     "id": "set.m51.4.01.q1",
+     "los": "los.51.f",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "Parce que",
+      "Puisque",
+      "Bien que"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _parce que_ + indicatif, et le sens serait causal.",
+      "B": "Faux. _puisque_ + indicatif.",
+      "C": "Correct. _bien que_ + subjonctif (_je n'aie_) : concession."
+     }
+    },
+    {
+     "id": "set.m51.4.01.q2",
+     "los": "los.51.f",
+     "difficulty": 2,
+     "qtype": "judgement",
+     "stem": "Blanc (2) :",
+     "options": [
+      "puisque",
+      "pour que",
+      "bien que"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Cause connue + indicatif (_se termine_).",
+      "B": "Faux. Le but ne convient pas, et _pour que_ demanderait le subjonctif.",
+      "C": "Faux. La concession n'a pas de sens ici, et le verbe est à l'indicatif."
+     }
+    },
+    {
+     "id": "set.m51.4.01.q3",
+     "los": "los.51.f",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "afin que",
+      "afin de",
+      "parce que"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. But + subjonctif (_vous puissiez_).",
+      "B": "Faux. _afin de_ demande un infinitif.",
+      "C": "Faux. _parce que_ exprime la cause."
+     }
+    },
+    {
+     "id": "set.m51.4.01.q4",
+     "los": "los.51.g",
+     "difficulty": 1,
+     "qtype": "judgement",
+     "stem": "Blanc (4) :",
+     "options": [
+      "pour que",
+      "pour",
+      "afin que"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _pour que_ demande un verbe conjugué au subjonctif.",
+      "B": "Correct. Même sujet (_je_) → _pour_ + infinitif.",
+      "C": "Faux. _afin que_ demande un verbe conjugué."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.51.conjonctions",
+   "los": [
+    "los.51.f"
+   ],
+   "name": "Conjonctions + subjonctif",
+   "front": "Lesquelles imposent le subjonctif ?",
+   "back": "But : **pour que, afin que**. Crainte : **de peur que**. Temps : **avant que, jusqu'à ce que**. Concession : **bien que**. Condition : **à condition que, à moins que**.",
+   "examples": [
+    "Bien qu'il soit tard, il travaille."
+   ],
+   "common_mistake": "**Après que** + indicatif : _après qu'il a fini_."
+  },
+  {
+   "id": "f.51.infinitif",
+   "los": [
+    "los.51.g"
+   ],
+   "name": "Même sujet ?",
+   "front": "Je veux que je parte ? Je travaille pour que je réussisse ?",
+   "back": "Même sujet → **infinitif** : _je veux partir, je travaille pour réussir, avant de partir_.",
+   "examples": [
+    "Appelle-moi avant de partir. / Appelle-moi avant qu'il parte."
+   ]
+  }
+ ]
+}

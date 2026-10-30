@@ -1,0 +1,22 @@
+# Topics and the Grammaire progressive du français (intermédiaire, 3e éd.) chapters they cover.
+# `chapters` lists chapter numbers (non-contiguous is fine). Chapters 90–96 are the vocabulary
+# themes, which have no chapter in the book.
+topics:
+  - id: subjonctif
+    name: Le subjonctif
+    chapters: [51]
+  - id: hypotheses
+    name: Le conditionnel et les hypothèses
+    chapters: [49, 50]
+  - id: relatifs
+    name: Les pronoms relatifs
+    chapters: [32]
+  - id: discours
+    name: Le discours rapporté
+    chapters: [35, 45]
+  - id: logique
+    name: Les relations logiques
+    chapters: [52]
+  - id: vocabulaire
+    name: Vocabulaire DELF B2
+    chapters: [90, 91, 92, 93, 94, 95, 96]

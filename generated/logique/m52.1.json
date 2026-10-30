@@ -1,0 +1,278 @@
+{
+ "module": "m52.1",
+ "source_hash": "707f2cdadd09",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le choix du connecteur dit ce que l'interlocuteur sait déjà (_puisque_), ce qu'on conteste (_sous prétexte que_) ou si la cause est positive (_grâce à_)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Conjonctions (_parce que, puisque, comme, étant donné que_) + verbe à l'indicatif ; prépositions (_à cause de, grâce à, faute de_) + nom."
+   },
+   {
+    "stage": "result",
+    "md": "_Comme_ en tête de phrase ; _car_ et _en effet_ surtout à l'écrit ; _étant donné que_ pour un registre formel."
+   },
+   {
+    "stage": "interpretation",
+    "md": "Varier les connecteurs de cause montre la richesse du répertoire : les correcteurs le notent."
+   }
+  ],
+  "why_it_matters": "Justifier chaque argument est au cœur de l'essai et du monologue B2 ; un connecteur de cause précis renforce la crédibilité de l'argument.",
+  "exam_approach": {
+   "look_first": [
+    "ce qui suit : un verbe conjugué ou un nom ?",
+    "la cause est-elle connue, positive, contestée ?",
+    "la place dans la phrase (_comme_ en tête)"
+   ],
+   "traps": [
+    "_à cause de_ pour une cause positive",
+    "_comme_ en milieu de phrase",
+    "_parce que_ + nom (*_parce que la pluie_)"
+   ],
+   "distractors": [
+    "une préposition devant un verbe conjugué",
+    "un connecteur de conséquence",
+    "_grâce à_ pour un résultat négatif"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m52.2",
+   "type": "contrasts_with",
+   "note": "La conséquence : l'autre sens de la relation."
+  },
+  {
+   "to": "m51.4",
+   "type": "contrasts_with",
+   "note": "Les conjonctions suivies du subjonctif."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.52.a.001",
+   "los": "los.52.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Le concert a été annulé …… la tempête.",
+   "options": [
+    "grâce à",
+    "à cause de",
+    "parce que"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _grâce à_ introduit une cause positive.",
+    "B": "Correct. Cause négative + nom → _à cause de_.",
+    "C": "Faux. _parce que_ est suivi d'un verbe conjugué."
+   }
+  },
+  {
+   "id": "q.52.a.002",
+   "los": "los.52.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "J'ai obtenu mon diplôme …… l'aide de mes professeurs.",
+   "options": [
+    "à cause de",
+    "puisque",
+    "grâce à"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _à cause de_ s'emploie pour une cause négative ou neutre.",
+    "B": "Faux. _puisque_ est suivi d'un verbe conjugué.",
+    "C": "Correct. Cause positive + nom → _grâce à_."
+   }
+  },
+  {
+   "id": "q.52.a.003",
+   "los": "los.52.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "…… tu connais bien la ville, tu pourrais nous guider !",
+   "options": [
+    "Puisque",
+    "Parce que",
+    "Car"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Cause connue de l'interlocuteur → _puisque_.",
+    "B": "Faux. _parce que_ ne présente pas la cause comme connue et se place rarement en tête.",
+    "C": "Faux. _car_ ne commence jamais une phrase."
+   }
+  },
+  {
+   "id": "q.52.a.004",
+   "los": "los.52.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "…… il pleuvait, nous avons annulé la randonnée.",
+   "options": [
+    "Car",
+    "Grâce à",
+    "Comme"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _car_ ne se place jamais en tête de phrase.",
+    "B": "Faux. _grâce à_ est suivi d'un nom et marque une cause positive.",
+    "C": "Correct. Cause en tête de phrase → _comme_."
+   }
+  },
+  {
+   "id": "q.52.a.005",
+   "los": "los.52.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Il n'est pas venu …… il avait trop de travail, mais personne ne l'a cru.",
+   "options": [
+    "grâce au fait qu'",
+    "sous prétexte qu'",
+    "puisqu'"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. La cause n'est pas positive.",
+    "B": "Correct. Cause contestée → _sous prétexte que_.",
+    "C": "Faux. _puisque_ présente une cause admise, pas contestée."
+   }
+  },
+  {
+   "id": "q.52.a.006",
+   "los": "los.52.a",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "…… moyens financiers, l'association a dû fermer.",
+   "options": [
+    "Faute de",
+    "Grâce aux",
+    "Étant donné"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Cause = manque ; _faute de_ + nom sans article.",
+    "B": "Faux. Le manque de moyens n'est pas une cause positive.",
+    "C": "Faux. _étant donné que_ demande un verbe conjugué."
+   }
+  },
+  {
+   "id": "q.52.a.007",
+   "los": "los.52.a",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Dans une lettre formelle, quelle phrase est la plus adaptée ?",
+   "options": [
+    "Vu que les loyers augmentent, on veut une aide, quoi.",
+    "Car les loyers augmentent, nous demandons une aide.",
+    "Étant donné que les loyers augmentent, nous demandons une aide."
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Registre familier, inadapté à une lettre formelle.",
+    "B": "Faux. _car_ ne commence pas une phrase.",
+    "C": "Correct. _étant donné que_ : cause formelle constatée."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m52.1.01",
+   "modules": [
+    "m52.1"
+   ],
+   "title": "Courrier des lecteurs : la fermeture du marché",
+   "vignette": "« Le marché couvert va fermer **(1)** …… travaux pendant six mois. **(2)** …… la plupart des habitants font leurs courses le samedi, cette fermeture va poser problème. La mairie ferme le marché **(3)** …… le bâtiment est dangereux, mais aucune étude n'a été publiée. Heureusement, **(4)** …… la mobilisation des commerçants, un marché provisoire sera installé place de la Gare. »",
+   "questions": [
+    {
+     "id": "set.m52.1.01.q1",
+     "los": "los.52.a",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "grâce à",
+      "en raison de",
+      "parce que"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Les travaux ne sont pas présentés comme positifs.",
+      "B": "Correct. Cause neutre, formelle + nom.",
+      "C": "Faux. _parce que_ est suivi d'un verbe conjugué."
+     }
+    },
+    {
+     "id": "set.m52.1.01.q2",
+     "los": "los.52.a",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "Comme",
+      "Car",
+      "À cause de"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Cause en tête de phrase + indicatif.",
+      "B": "Faux. _car_ ne commence pas une phrase.",
+      "C": "Faux. _à cause de_ est suivi d'un nom."
+     }
+    },
+    {
+     "id": "set.m52.1.01.q3",
+     "los": "los.52.a",
+     "difficulty": 3,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "sous prétexte que",
+      "grâce au fait que",
+      "faute de"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Cause avancée par la mairie mais mise en doute par l'auteur (_aucune étude_).",
+      "B": "Faux. Le danger n'est pas une cause positive.",
+      "C": "Faux. _faute de_ est suivi d'un nom."
+     }
+    },
+    {
+     "id": "set.m52.1.01.q4",
+     "los": "los.52.a",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) :",
+     "options": [
+      "à cause de",
+      "grâce à",
+      "puisque"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Le résultat est positif.",
+      "B": "Correct. Cause positive (_heureusement_) + nom.",
+      "C": "Faux. _puisque_ est suivi d'un verbe conjugué."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.52.cause",
+   "los": [
+    "los.52.a"
+   ],
+   "name": "Exprimer la cause",
+   "front": "parce que / puisque / comme / grâce à / à cause de / faute de : nuances ?",
+   "back": "**parce que** neutre ; **puisque** cause connue ; **comme** en tête ; **grâce à** + nom positif ; **à cause de** + nom négatif ; **faute de** = par manque de.",
+   "common_mistake": "*_Car_ en début de phrase ; *_comme_ en milieu de phrase."
+  }
+ ]
+}

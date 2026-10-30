@@ -1,0 +1,420 @@
+{
+ "readings": [
+  {
+   "number": 52,
+   "title": "Les relations logiques",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les connecteurs logiques sont le **squelette de l'argumentation** : la grille du DELF B2 note explicitement la « cohérence et cohésion » et la capacité à « argumenter une prise de position ». Un essai sans _cependant, par conséquent, étant donné que_ plafonne vite."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 52 (p. 250–255)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Exprimer la cause avec la conjonction, la préposition ou l'adverbe adaptés (parce que, puisque, comme, grâce à, étant donné que…).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Exprimer la conséquence (donc, par conséquent, c'est pourquoi, si bien que, tellement… que…).",
+     "module": 2
+    },
+    {
+     "letter": "c",
+     "text": "Exprimer le but (pour, afin de, pour que, afin que, de peur que…).",
+     "module": 2
+    },
+    {
+     "letter": "d",
+     "text": "Exprimer l'opposition entre deux faits (mais, par contre, en revanche, alors que, tandis que).",
+     "module": 3
+    },
+    {
+     "letter": "e",
+     "text": "Exprimer la concession (pourtant, cependant, bien que, malgré, même si, avoir beau…).",
+     "module": 4
+    },
+    {
+     "letter": "f",
+     "text": "Structurer une argumentation écrite ou orale avec des connecteurs d'organisation.",
+     "module": 5
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "La cause",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Connecteur",
+           "Construction",
+           "Nuance",
+           "Exemple"
+          ],
+          [
+           "parce que",
+           "+ indicatif",
+           "cause neutre ; répond à _pourquoi ?_",
+           "_Je reste parce que je suis malade._"
+          ],
+          [
+           "puisque",
+           "+ indicatif",
+           "cause **connue** ou évidente",
+           "_Puisque tu sors, achète du pain._"
+          ],
+          [
+           "comme",
+           "+ indicatif, **en début de phrase**",
+           "cause mise en avant",
+           "_Comme il pleuvait, nous sommes restés._"
+          ],
+          [
+           "car, en effet",
+           "+ indicatif (écrit)",
+           "explication ajoutée",
+           "_Il est absent, car il est malade._"
+          ],
+          [
+           "étant donné que, vu que",
+           "+ indicatif",
+           "cause formelle, constatée",
+           "_Étant donné que les prix augmentent, il faut agir._"
+          ],
+          [
+           "sous prétexte que",
+           "+ indicatif",
+           "cause **contestée**",
+           "_Il refuse sous prétexte qu'il est fatigué._"
+          ],
+          [
+           "à cause de",
+           "+ nom",
+           "cause négative ou neutre",
+           "_Le train est en retard à cause de la neige._"
+          ],
+          [
+           "grâce à",
+           "+ nom",
+           "cause **positive**",
+           "_J'ai réussi grâce à toi._"
+          ],
+          [
+           "en raison de",
+           "+ nom (formel)",
+           "cause neutre, style administratif",
+           "_Fermé en raison de travaux._"
+          ],
+          [
+           "faute de",
+           "+ nom sans article",
+           "cause = manque",
+           "_Faute de moyens, le projet est abandonné._"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "**Comme** ne se place qu'en tête de phrase ; **car** jamais. _Car_ ne peut pas commencer une phrase de réponse à _pourquoi ?_"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 2,
+     "title": "La conséquence et le but",
+     "sections": [
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Connecteur",
+           "Construction",
+           "Exemple"
+          ],
+          [
+           "donc, alors (oral)",
+           "adverbe",
+           "_Je n'ai pas de permis, **donc** je ne peux pas conduire._"
+          ],
+          [
+           "par conséquent, c'est pourquoi",
+           "adverbe (écrit)",
+           "_Les prix montent ; **par conséquent**, la consommation baisse._"
+          ],
+          [
+           "c'est la raison pour laquelle",
+           "écrit soutenu",
+           "_Je cherche un emploi. **C'est la raison pour laquelle** je vous écris._"
+          ],
+          [
+           "si bien que, de sorte que",
+           "+ **indicatif**",
+           "_Il a beaucoup neigé, **si bien que** les routes sont fermées._"
+          ],
+          [
+           "tellement / si + adj. + que",
+           "+ indicatif (intensité)",
+           "_Il était **si** fatigué **qu'**il s'est endormi._"
+          ],
+          [
+           "tellement de / tant de + nom + que",
+           "+ indicatif",
+           "_Il y avait **tant de** monde **qu'**on ne voyait rien._"
+          ],
+          [
+           "d'où, de là",
+           "+ nom",
+           "_Les loyers explosent, **d'où** la colère des étudiants._"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Le **but** est une conséquence **recherchée**."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Même sujet → infinitif",
+           "Sujets différents → subjonctif"
+          ],
+          [
+           "**pour** / **afin de** + infinitif",
+           "**pour que** / **afin que** + subjonctif"
+          ],
+          [
+           "_Je me dépêche **pour** être à l'heure._",
+           "_Je me dépêche **pour que** tout **soit** prêt._"
+          ],
+          [
+           "**de peur de** + infinitif",
+           "**de peur que** (+ _ne_) + subjonctif"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "**De sorte que** + **indicatif** = conséquence ; + **subjonctif** = but. _Parle fort, de sorte qu'on t'**entende**_ (but)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 3,
+     "title": "L'opposition",
+     "sections": [
+      {
+       "los": [
+        "d"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "L'**opposition** compare deux faits **indépendants** qui contrastent."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Connecteur",
+           "Registre",
+           "Exemple"
+          ],
+          [
+           "mais",
+           "courant",
+           "_Il fait froid dans le Nord, **mais** il fait beau dans le Sud._"
+          ],
+          [
+           "par contre",
+           "courant (oral)",
+           "_Paris est cher ; **par contre**, Lille est abordable._"
+          ],
+          [
+           "en revanche",
+           "soutenu (écrit)",
+           "_Le chômage baisse ; **en revanche**, la précarité augmente._"
+          ],
+          [
+           "alors que, tandis que",
+           "+ indicatif",
+           "_C'est l'hiver en France, **alors que** c'est l'été au Brésil._"
+          ],
+          [
+           "au contraire",
+           "renforce un désaccord",
+           "_Il n'est pas timide ; **au contraire**, il parle à tout le monde._"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "**Tandis que** peut aussi marquer la **simultanéité** (_pendant que_) : _Il lit **tandis qu'**elle cuisine._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 4,
+     "title": "La concession",
+     "sections": [
+      {
+       "los": [
+        "e"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "La **concession** oppose deux faits **contradictoires** : le second se produit **malgré** le premier, contre ce qu'on attendrait."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Connecteur",
+           "Construction",
+           "Exemple"
+          ],
+          [
+           "pourtant, cependant, toutefois, néanmoins",
+           "adverbe",
+           "_Je suis fatigué, **pourtant** j'ai dormi neuf heures._"
+          ],
+          [
+           "bien que, quoique",
+           "+ **subjonctif**",
+           "_**Bien qu'**il fasse froid, il sort en t-shirt._"
+          ],
+          [
+           "malgré",
+           "+ **nom**",
+           "_Nous sortons **malgré** la pluie._"
+          ],
+          [
+           "même si",
+           "+ **indicatif**",
+           "_**Même s'**il pleut, nous sortirons._"
+          ],
+          [
+           "avoir beau",
+           "+ infinitif",
+           "_J'**ai beau** chercher, je ne trouve pas mes clés._"
+          ],
+          [
+           "quand même, tout de même",
+           "adverbe (oral)",
+           "_Il pleut, mais je sors **quand même**._"
+          ],
+          [
+           "certes… mais",
+           "concéder puis nuancer",
+           "_**Certes**, internet informe, **mais** il désinforme aussi._"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "*_Malgré que_ est déconseillé : dites **bien que** + subjonctif ou **malgré** + nom. Et jamais de subjonctif après **même si**."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 5,
+     "title": "Structurer une argumentation",
+     "sections": [
+      {
+       "los": [
+        "f"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Au DELF B2, l'essai et le monologue suivent un plan clair. Les connecteurs d'**organisation** guident le lecteur :"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Fonction",
+           "Connecteurs"
+          ],
+          [
+           "Introduire",
+           "Aujourd'hui, … ; On entend souvent dire que… ; La question se pose de savoir si…"
+          ],
+          [
+           "Énumérer",
+           "**D'abord / tout d'abord**, … **Ensuite**, … **Enfin**, …"
+          ],
+          [
+           "Ajouter",
+           "**De plus**, **en outre**, **par ailleurs**, non seulement… mais aussi"
+          ],
+          [
+           "Présenter deux aspects",
+           "**D'une part**, … **d'autre part**, …"
+          ],
+          [
+           "Illustrer",
+           "**Par exemple**, **ainsi**, **notamment**, c'est le cas de…"
+          ],
+          [
+           "Reformuler",
+           "**Autrement dit**, **c'est-à-dire**"
+          ],
+          [
+           "Conclure",
+           "**En somme**, **en définitive**, **pour conclure**, **finalement**"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "**Ainsi** en tête de phrase illustre ou tire une conséquence ; **en outre** est l'équivalent soutenu de _de plus_."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

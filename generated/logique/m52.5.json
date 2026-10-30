@@ -1,0 +1,239 @@
+{
+ "module": "m52.5",
+ "source_hash": "8c47d3f40a04",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Un bon argument mal organisé convainc mal : le lecteur doit voir le plan."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Introduction (problématique) → arguments énumérés (_d'abord, ensuite, enfin_) et enrichis (_de plus, par exemple_) → conclusion (_en somme_)."
+   },
+   {
+    "stage": "result",
+    "md": "Chaque paragraphe commence par un connecteur qui annonce sa fonction."
+   },
+   {
+    "stage": "interpretation",
+    "md": "Préparez une liste personnelle de 15 connecteurs et utilisez-la dans chaque entraînement d'écrit et d'oral."
+   }
+  ],
+  "why_it_matters": "La grille du DELF B2 note séparément la « cohérence et cohésion » : les connecteurs d'organisation rapportent des points à chaque copie.",
+  "exam_approach": {
+   "look_first": [
+    "la fonction du paragraphe : ajouter, illustrer, conclure ?",
+    "le registre (écrit soutenu ou oral)"
+   ],
+   "traps": [
+    "empiler _et puis_ à l'écrit",
+    "_en conclusion_ au milieu du texte",
+    "_d'une part_ sans _d'autre part_"
+   ],
+   "distractors": [
+    "un connecteur de conclusion pour ajouter",
+    "un connecteur de cause pour illustrer"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m52.4",
+   "type": "requires",
+   "note": "La concession, pour nuancer."
+  },
+  {
+   "to": "m52.2",
+   "type": "requires",
+   "note": "La conséquence."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.52.f.001",
+   "los": "los.52.f",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Pour ajouter un argument dans un essai soutenu : « ……, le télétravail réduit la pollution. »",
+   "options": [
+    "En somme",
+    "En outre",
+    "Pourtant"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _en somme_ sert à conclure.",
+    "B": "Correct. _en outre_ = de plus, registre soutenu.",
+    "C": "Faux. _pourtant_ exprime une concession."
+   }
+  },
+  {
+   "id": "q.52.f.002",
+   "los": "los.52.f",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Pour illustrer : « Certaines villes ont réussi leur transition ; ……, Copenhague vise la neutralité carbone. »",
+   "options": [
+    "en revanche",
+    "par conséquent",
+    "par exemple"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _en revanche_ oppose deux faits.",
+    "B": "Faux. _par conséquent_ introduit une conséquence.",
+    "C": "Correct. Illustration d'une idée générale."
+   }
+  },
+  {
+   "id": "q.52.f.003",
+   "los": "los.52.f",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "« ……, le sport améliore la santé ; ……, il favorise les liens sociaux. »",
+   "options": [
+    "D'abord… en somme",
+    "D'une part… d'autre part",
+    "Certes… donc"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _en somme_ conclut, il n'ajoute pas un second aspect.",
+    "B": "Correct. Présenter deux aspects complémentaires.",
+    "C": "Faux. _certes_ annonce une concession suivie de _mais_."
+   }
+  },
+  {
+   "id": "q.52.f.004",
+   "los": "los.52.f",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Pour conclure un essai : « ……, interdire les voitures n'est pas la solution ; il faut développer les alternatives. »",
+   "options": [
+    "Tout d'abord",
+    "En outre",
+    "En définitive"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _tout d'abord_ ouvre une énumération.",
+    "B": "Faux. _en outre_ ajoute un argument.",
+    "C": "Correct. Connecteur de conclusion."
+   }
+  },
+  {
+   "id": "q.52.f.005",
+   "los": "los.52.f",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "« Il faut réduire les déchets, …… consommer moins et réparer davantage. »",
+   "options": [
+    "autrement dit",
+    "cependant",
+    "en effet"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Reformulation de l'idée.",
+    "B": "Faux. _cependant_ introduit une concession.",
+    "C": "Faux. _en effet_ justifie, il ne reformule pas."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m52.5.01",
+   "modules": [
+    "m52.5"
+   ],
+   "title": "Plan d'un essai : les réseaux sociaux",
+   "vignette": "« **(1)** ……, les réseaux sociaux permettent de rester en contact avec ses proches. **(2)** ……, ils donnent accès à une information variée. **(3)** ……, ils peuvent créer une dépendance, notamment chez les adolescents. **(4)** ……, tout dépend de l'usage qu'on en fait. »",
+   "questions": [
+    {
+     "id": "set.m52.5.01.q1",
+     "los": "los.52.f",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "En somme",
+      "Tout d'abord",
+      "Pourtant"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _en somme_ conclut.",
+      "B": "Correct. Premier argument de l'énumération.",
+      "C": "Faux. _pourtant_ exprime une concession."
+     }
+    },
+    {
+     "id": "set.m52.5.01.q2",
+     "los": "los.52.f",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "En revanche",
+      "Donc",
+      "De plus"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _en revanche_ introduirait une idée opposée.",
+      "B": "Faux. _donc_ introduit une conséquence.",
+      "C": "Correct. Ajout d'un argument dans le même sens."
+     }
+    },
+    {
+     "id": "set.m52.5.01.q3",
+     "los": "los.52.f",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "Cependant",
+      "En outre",
+      "Par exemple"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Changement d'orientation : l'argument opposé.",
+      "B": "Faux. _en outre_ ajoute un argument dans le même sens.",
+      "C": "Faux. _par exemple_ illustre l'idée précédente."
+     }
+    },
+    {
+     "id": "set.m52.5.01.q4",
+     "los": "los.52.f",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) :",
+     "options": [
+      "En définitive",
+      "D'abord",
+      "En effet"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Conclusion du raisonnement.",
+      "B": "Faux. _d'abord_ ouvre une énumération.",
+      "C": "Faux. _en effet_ justifie l'idée précédente."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.52.organisation",
+   "los": [
+    "los.52.f"
+   ],
+   "name": "Organiser un essai",
+   "front": "Énumérer / ajouter / illustrer / conclure → connecteurs ?",
+   "back": "**D'abord, ensuite, enfin** ; **de plus, en outre, par ailleurs** ; **par exemple, notamment, ainsi** ; **en somme, en définitive, pour conclure**."
+  }
+ ]
+}

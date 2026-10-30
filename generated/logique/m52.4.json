@@ -1,0 +1,287 @@
+{
+ "module": "m52.4",
+ "source_hash": "d61b0b20a827",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Concéder, c'est reconnaître un fait ou un argument… puis montrer qu'il n'empêche pas le contraire."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Chaque connecteur impose sa construction : _bien que_ + subjonctif, _malgré_ + nom, _même si_ + indicatif, _avoir beau_ + infinitif."
+   },
+   {
+    "stage": "result",
+    "md": "_Certes… mais_ permet de reconnaître l'argument adverse avant de le dépasser."
+   },
+   {
+    "stage": "interpretation",
+    "md": "La concession est la marque d'une argumentation nuancée : c'est précisément ce que la grille B2 valorise."
+   }
+  ],
+  "why_it_matters": "« Certes…, mais… », « bien que… » : la concession montre que vous tenez compte des arguments opposés, un critère clé de la production écrite B2.",
+  "exam_approach": {
+   "look_first": [
+    "le fait inattendu : le second fait contredit-il l'attente ?",
+    "ce qui suit : nom, verbe conjugué ou infinitif ?",
+    "le mode : subjonctif après _bien que_, indicatif après _même si_"
+   ],
+   "traps": [
+    "_bien que_ + indicatif",
+    "_même si_ + subjonctif",
+    "*_malgré que_",
+    "_malgré_ + verbe conjugué"
+   ],
+   "distractors": [
+    "un connecteur d'opposition simple",
+    "la mauvaise construction (_malgré_ + verbe)",
+    "un connecteur de cause"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m51.4",
+   "type": "requires",
+   "note": "bien que + subjonctif."
+  },
+  {
+   "to": "m52.3",
+   "type": "contrasts_with",
+   "note": "L'opposition simple."
+  },
+  {
+   "to": "m50.2",
+   "type": "requires",
+   "note": "« même si » suit la règle de « si »."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.52.e.001",
+   "los": "los.52.e",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "…… il soit malade, il est venu travailler.",
+   "options": [
+    "Même s'",
+    "Malgré qu'",
+    "Bien qu'"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _même si_ demande l'indicatif.",
+    "B": "Faux. *_malgré que_ est déconseillé.",
+    "C": "Correct. Concession + subjonctif (_soit_)."
+   }
+  },
+  {
+   "id": "q.52.e.002",
+   "los": "los.52.e",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Ils ont joué le match …… la pluie.",
+   "options": [
+    "bien que",
+    "malgré",
+    "même si"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _bien que_ est suivi d'un verbe conjugué.",
+    "B": "Correct. Concession + nom → _malgré_.",
+    "C": "Faux. _même si_ est suivi d'un verbe conjugué."
+   }
+  },
+  {
+   "id": "q.52.e.003",
+   "los": "los.52.e",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Même s'il …… (faire) froid demain, nous irons au marché.",
+   "options": [
+    "fait",
+    "fasse",
+    "fera"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _même si_ + indicatif (règle de _si_).",
+    "B": "Faux. Jamais de subjonctif après _même si_.",
+    "C": "Faux. Jamais de futur après _(même) si_."
+   }
+  },
+  {
+   "id": "q.52.e.004",
+   "los": "los.52.e",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "J'…… beau répéter les règles, ils ne les respectent pas.",
+   "options": [
+    "suis",
+    "fais",
+    "ai"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. L'expression est _avoir beau_.",
+    "B": "Faux. L'expression est _avoir beau_.",
+    "C": "Correct. _avoir beau_ + infinitif = faire des efforts sans résultat."
+   }
+  },
+  {
+   "id": "q.52.e.005",
+   "los": "los.52.e",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Il a beaucoup travaillé ; ……, il n'a pas obtenu la promotion.",
+   "options": [
+    "par conséquent",
+    "en effet",
+    "pourtant"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Ce serait la conséquence attendue, pas le contraire.",
+    "B": "Faux. _en effet_ confirme, il ne contredit pas.",
+    "C": "Correct. Le résultat contredit l'attente → concession."
+   }
+  },
+  {
+   "id": "q.52.e.006",
+   "los": "los.52.e",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Quelle phrase est correcte ?",
+   "options": [
+    "Bien que la loi est stricte, les abus continuent.",
+    "Bien que la loi soit stricte, les abus continuent.",
+    "Malgré que la loi soit stricte, les abus continuent."
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _bien que_ demande le subjonctif.",
+    "B": "Correct. _bien que_ + subjonctif.",
+    "C": "Faux. *_malgré que_ est déconseillé à l'écrit."
+   }
+  },
+  {
+   "id": "q.52.e.007",
+   "los": "los.52.e",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Pour concéder un argument puis le nuancer : « ……, le nucléaire émet peu de CO₂, …… il produit des déchets dangereux. »",
+   "options": [
+    "Certes… mais",
+    "Parce que… donc",
+    "Puisque… alors"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. On reconnaît l'argument, puis on le nuance.",
+    "B": "Faux. Cause et conséquence : pas de nuance.",
+    "C": "Faux. _puisque_ présente une cause évidente, sans concession."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m52.4.01",
+   "modules": [
+    "m52.4"
+   ],
+   "title": "Essai : faut-il interdire les vols intérieurs ?",
+   "vignette": "« **(1)** ……, l'avion permet de gagner du temps, mais il pollue énormément. **(2)** …… les trains soient plus lents, ils émettent cinquante fois moins de CO₂. Certains voyageurs continuent de prendre l'avion **(3)** …… des billets de train parfois moins chers. **(4)** …… le train est plus cher, il faudra l'encourager pour respecter nos engagements climatiques. »",
+   "questions": [
+    {
+     "id": "set.m52.4.01.q1",
+     "los": "los.52.e",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "Donc",
+      "Certes",
+      "Puisque"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _donc_ introduit une conséquence.",
+      "B": "Correct. _Certes… mais_ : concéder puis nuancer.",
+      "C": "Faux. _puisque_ est suivi d'un verbe conjugué et exprime la cause."
+     }
+    },
+    {
+     "id": "set.m52.4.01.q2",
+     "los": "los.52.e",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "Même si",
+      "Malgré",
+      "Bien que"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _même si_ demande l'indicatif.",
+      "B": "Faux. _malgré_ est suivi d'un nom.",
+      "C": "Correct. Concession + subjonctif (_soient_)."
+     }
+    },
+    {
+     "id": "set.m52.4.01.q3",
+     "los": "los.52.e",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "malgré",
+      "bien que",
+      "grâce à"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Concession + nom (_des billets_).",
+      "B": "Faux. _bien que_ est suivi d'un verbe conjugué.",
+      "C": "Faux. _grâce à_ exprime une cause positive."
+     }
+    },
+    {
+     "id": "set.m52.4.01.q4",
+     "los": "los.52.e",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) :",
+     "options": [
+      "Même si",
+      "Bien que",
+      "Puisque"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Concession + indicatif (_est_).",
+      "B": "Faux. _bien que_ demanderait le subjonctif : _bien que le train **soit** plus cher_.",
+      "C": "Faux. _puisque_ exprime la cause, pas la concession."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.52.concession",
+   "los": [
+    "los.52.e"
+   ],
+   "name": "Exprimer la concession",
+   "front": "bien que / malgré / même si / avoir beau → construction ?",
+   "back": "**bien que** + subjonctif ; **malgré** + nom ; **même si** + indicatif ; **avoir beau** + infinitif ; **pourtant, cependant** (adverbes).",
+   "examples": [
+    "Bien qu'il pleuve, je sors. / Malgré la pluie, je sors. / Même s'il pleut, je sors."
+   ],
+   "common_mistake": "*_malgré que_, *_même s'il pleuve_."
+  }
+ ]
+}

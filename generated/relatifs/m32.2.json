@@ -1,0 +1,260 @@
+{
+ "module": "m32.2",
+ "source_hash": "462d39e16daf",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "La mise en relief déplace un élément en tête de phrase pour l'**accentuer**."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_Ce qui_ (sujet), _ce que_ (COD), _ce dont_ (verbe en _de_) + _c'est_ ; ou _c'est… qui / que_ autour de l'élément mis en valeur."
+   },
+   {
+    "stage": "result",
+    "md": "Même règle de fonction que pour qui / que / dont."
+   },
+   {
+    "stage": "interpretation",
+    "md": "À l'oral (monologue suivi), _ce qui me frappe, c'est…_ est une excellente façon d'introduire un argument."
+   }
+  ],
+  "why_it_matters": "Les tournures _ce qui me semble essentiel, c'est…_ et _c'est pourquoi_ structurent l'expression orale en continu du DELF B2.",
+  "exam_approach": {
+   "look_first": [
+    "la fonction de l'élément repris : sujet, COD, complément en _de_ ?",
+    "le verbe de la relative et sa construction"
+   ],
+   "traps": [
+    "_ce que_ avec un verbe en _de_ (*_ce que j'ai besoin_)",
+    "_ce qui_ quand la relative a déjà un sujet"
+   ],
+   "distractors": [
+    "_ce que_ à la place de _ce dont_",
+    "_ce qui_ à la place de _ce que_",
+    "_qu'est-ce que_ (interrogatif)"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m32.1",
+   "type": "requires",
+   "note": "Qui, que, dont."
+  },
+  {
+   "to": "m35.1",
+   "type": "applies",
+   "note": "« ce qui / ce que » dans les questions indirectes."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.32.d.001",
+   "los": "los.32.d",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "…… me plaît dans ce métier, c'est le contact humain.",
+   "options": [
+    "Ce que",
+    "Ce qui",
+    "Ce dont"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _ce que_ serait COD, suivi d'un autre sujet.",
+    "B": "Correct. _quelque chose me plaît_ : sujet → _ce qui_.",
+    "C": "Faux. _plaire_ ne se construit pas avec _de_."
+   }
+  },
+  {
+   "id": "q.32.d.002",
+   "los": "los.32.d",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "…… je préfère, c'est voyager en train.",
+   "options": [
+    "Ce qui",
+    "Ce dont",
+    "Ce que"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le sujet de _préfère_ est _je_.",
+    "B": "Faux. _préférer_ se construit sans _de_.",
+    "C": "Correct. _je préfère quelque chose_ : COD → _ce que_."
+   }
+  },
+  {
+   "id": "q.32.d.003",
+   "los": "los.32.d",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "…… les citoyens ont besoin, c'est de transparence.",
+   "options": [
+    "Ce que",
+    "Ce dont",
+    "Ce qui"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _avoir besoin de_ demande _ce dont_.",
+    "B": "Correct. _avoir besoin **de**_ → _ce dont_.",
+    "C": "Faux. Le sujet de _ont besoin_ est _les citoyens_."
+   }
+  },
+  {
+   "id": "q.32.d.004",
+   "los": "los.32.d",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Dis-moi …… tu penses vraiment.",
+   "options": [
+    "ce que",
+    "qu'est-ce que",
+    "ce dont"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _tu penses quelque chose_ : COD → _ce que_.",
+    "B": "Faux. Dans une question indirecte, _qu'est-ce que_ devient _ce que_.",
+    "C": "Faux. _penser quelque chose_ se construit sans _de_."
+   }
+  },
+  {
+   "id": "q.32.d.005",
+   "los": "los.32.d",
+   "difficulty": 2,
+   "qtype": "judgement",
+   "stem": "Pour mettre en valeur « l'éducation » : « …… l'éducation …… doit être la priorité. »",
+   "options": [
+    "C'est… que",
+    "Ce qui… c'est",
+    "C'est… qui"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _que_ suppose un autre sujet dans la relative.",
+    "B": "Faux. Construction mal placée : _ce qui_ reprend une idée non nommée.",
+    "C": "Correct. _l'éducation doit être_ : sujet → _c'est… qui_."
+   }
+  },
+  {
+   "id": "q.32.d.006",
+   "los": "los.32.d",
+   "difficulty": 3,
+   "qtype": "judgement",
+   "stem": "Quelle phrase est correcte ?",
+   "options": [
+    "Ce que je me souviens, c'est son sourire.",
+    "Ce dont je me souviens, c'est de son sourire.",
+    "Ce qui je me souviens, c'est son sourire."
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _se souvenir de_ demande _ce dont_.",
+    "B": "Correct. _se souvenir de_ → _ce dont_ … _c'est de_.",
+    "C": "Faux. _ce qui_ est sujet ; ici le sujet est _je_."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m32.2.01",
+   "modules": [
+    "m32.2"
+   ],
+   "title": "Monologue : le télétravail",
+   "vignette": "« **(1)** …… me frappe d'abord, c'est le temps gagné dans les transports. **(2)** …… beaucoup de salariés apprécient, c'est la liberté d'organisation. Mais **(3)** …… les entreprises ont peur, c'est la perte de lien entre collègues. Finalement, **(4)** …… le dialogue qui permettra de trouver un équilibre. »",
+   "questions": [
+    {
+     "id": "set.m32.2.01.q1",
+     "los": "los.32.d",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "Ce que",
+      "Ce dont",
+      "Ce qui"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. Le verbe suit directement : il faut le sujet.",
+      "B": "Faux. _frapper_ ne se construit pas avec _de_.",
+      "C": "Correct. Sujet de _frappe_ → _ce qui_."
+     }
+    },
+    {
+     "id": "set.m32.2.01.q2",
+     "los": "los.32.d",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "Ce que",
+      "Ce qui",
+      "Ce dont"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _les salariés apprécient quelque chose_ : COD.",
+      "B": "Faux. Le sujet est _beaucoup de salariés_.",
+      "C": "Faux. _apprécier_ se construit sans _de_."
+     }
+    },
+    {
+     "id": "set.m32.2.01.q3",
+     "los": "los.32.d",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "ce dont",
+      "ce que",
+      "ce qui"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _avoir peur **de**_ → _ce dont_.",
+      "B": "Faux. _avoir peur de_ demande _ce dont_.",
+      "C": "Faux. Le sujet est _les entreprises_."
+     }
+    },
+    {
+     "id": "set.m32.2.01.q4",
+     "los": "los.32.d",
+     "difficulty": 2,
+     "qtype": "judgement",
+     "stem": "Blanc (4) :",
+     "options": [
+      "ce qui",
+      "c'est",
+      "ce que"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _ce qui_ ne peut pas introduire un nom mis en valeur.",
+      "B": "Correct. _c'est… qui_ met en valeur _le dialogue_.",
+      "C": "Faux. _ce que_ ne peut pas introduire un nom mis en valeur."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.32.ce-qui",
+   "los": [
+    "los.32.d"
+   ],
+   "name": "Ce qui / ce que / ce dont",
+   "front": "…… m'intéresse / …… je préfère / …… j'ai besoin",
+   "back": "**Ce qui** (sujet) m'intéresse ; **ce que** (COD) je préfère ; **ce dont** (verbe en _de_) j'ai besoin.",
+   "examples": [
+    "Ce dont j'ai besoin, c'est de repos."
+   ]
+  }
+ ]
+}

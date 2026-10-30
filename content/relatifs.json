@@ -1,0 +1,302 @@
+{
+ "readings": [
+  {
+   "number": 32,
+   "title": "Les relatifs",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les pronoms relatifs permettent d'écrire des **phrases complexes** sans répétition, ce que les grilles du DELF B2 appellent « degré d'élaboration des phrases ». _Dont_ et _lequel_ sont les marqueurs typiques du niveau B2."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 32 (p. 140–147)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Choisir entre « qui » (sujet) et « que » (complément d'objet direct).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer « où » pour le lieu et pour le temps.",
+     "module": 1
+    },
+    {
+     "letter": "c",
+     "text": "Employer « dont » pour remplacer un complément introduit par « de ».",
+     "module": 1
+    },
+    {
+     "letter": "d",
+     "text": "Mettre en relief avec « ce qui, ce que, ce dont » et « c'est… qui / que ».",
+     "module": 2
+    },
+    {
+     "letter": "e",
+     "text": "Employer « lequel, laquelle, lesquels, lesquelles » après une préposition.",
+     "module": 3
+    },
+    {
+     "letter": "f",
+     "text": "Employer les formes contractées avec « à » : auquel, à laquelle, auxquels, auxquelles.",
+     "module": 3
+    },
+    {
+     "letter": "g",
+     "text": "Choisir entre « dont » et « duquel / de laquelle » après une locution prépositionnelle.",
+     "module": 3
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Les relatifs simples : qui, que, où, dont",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Qui** est **sujet** du verbe qui suit ; **que** (_qu'_ devant voyelle) est **complément d'objet direct**."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "_Le film **qui** passe ce soir est italien._ (le film passe → sujet)",
+          "_Le film **que** je regarde est italien._ (je regarde le film → COD)"
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Astuce : après **que**, il y a un autre sujet (_je, on, les gens_…) ; après **qui**, le verbe suit directement (sauf pronom complément : _qui me plaît_)."
+        },
+        {
+         "t": "note",
+         "md": "Avec **que**, le participe passé conjugué avec _avoir_ s'accorde : _les lettres **que** j'ai **écrites**_."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Où** remplace un complément de **lieu** et aussi de **temps**."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "_La ville **où** je suis né._",
+          "_Le jour **où** je l'ai rencontrée._",
+          "_Au moment **où** il est arrivé…_"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Pour le temps, on ne dit pas *_le jour que_ ou *_le jour quand_ : on dit **le jour où**."
+        }
+       ]
+      },
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Dont** remplace un complément introduit par **de** : complément d'un verbe, d'un adjectif ou d'un nom."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Construction",
+           "Exemple"
+          ],
+          [
+           "parler **de**, avoir besoin **de**, avoir peur **de**, se souvenir **de**",
+           "_Le livre **dont** j'ai besoin._"
+          ],
+          [
+           "être fier **de**, être responsable **de**",
+           "_Le projet **dont** je suis responsable._"
+          ],
+          [
+           "complément du nom (le père **de** l'ami)",
+           "_L'ami **dont** le père est médecin._"
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 2,
+     "title": "La mise en relief : ce qui, ce que, ce dont, c'est… qui / que",
+     "sections": [
+      {
+       "los": [
+        "d"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Ce qui, ce que, ce dont** reprennent une idée, une chose non précisée (= _la chose qui / que / dont_)."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Pronom",
+           "Fonction",
+           "Exemple"
+          ],
+          [
+           "ce qui",
+           "sujet",
+           "_**Ce qui** m'intéresse, c'est la politique._"
+          ],
+          [
+           "ce que",
+           "COD",
+           "_**Ce que** je préfère, c'est le cinéma._"
+          ],
+          [
+           "ce dont",
+           "complément avec _de_",
+           "_**Ce dont** j'ai besoin, c'est de repos._"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**C'est… qui / c'est… que** met en valeur un élément de la phrase : _**C'est** le gouvernement **qui** doit agir._ / _**C'est** l'éducation **que** je veux défendre._"
+        },
+        {
+         "t": "note",
+         "md": "Après **ce dont**, la reprise garde le _de_ : _Ce dont j'ai besoin, c'est **de** repos._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 3,
+     "title": "Les relatifs composés : lequel, auquel, duquel",
+     "sections": [
+      {
+       "los": [
+        "e"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Après une **préposition** (_sur, avec, pour, dans, sans, parmi…_), on emploie **lequel, laquelle, lesquels, lesquelles**, accordé avec le nom repris."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "_Le bureau **sur lequel** je travaille._",
+          "_La société **pour laquelle** je travaille._",
+          "_Les raisons **pour lesquelles** je suis ici._"
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Pour une **personne**, on peut aussi utiliser **préposition + qui** : _Le collègue **avec qui** je travaille._"
+        },
+        {
+         "t": "note",
+         "md": "**Parmi** et **entre** se construisent toujours avec _lesquels / lesquelles_, même pour des personnes : _les candidats **parmi lesquels**…_"
+        }
+       ]
+      },
+      {
+       "los": [
+        "f"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Avec la préposition **à**, les formes se contractent :"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "",
+           "Masculin",
+           "Féminin"
+          ],
+          [
+           "Singulier",
+           "**auquel**",
+           "**à laquelle**"
+          ],
+          [
+           "Pluriel",
+           "**auxquels**",
+           "**auxquelles**"
+          ]
+         ]
+        },
+        {
+         "t": "ul",
+         "items": [
+          "_Le projet **auquel** je pense._ (penser à)",
+          "_La conférence **à laquelle** j'ai assisté._ (assister à)",
+          "_Les problèmes **auxquels** nous faisons face._ (faire face à)"
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "g"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Avec une **locution** qui se termine par **de** (_près de, à côté de, en face de, au milieu de, à cause de, au sujet de_), on emploie **duquel, de laquelle, desquels, desquelles**."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "dont (de + nom directement)",
+           "duquel (locution + de)"
+          ],
+          [
+           "_Le musée **dont** je parle._",
+           "_Le musée **près duquel** j'habite._"
+          ],
+          [
+           "_La décision **dont** je suis fier._",
+           "_La décision **à cause de laquelle** il a démissionné._"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "**Dont** ne peut pas suivre une préposition. On dit _en face duquel_, jamais *_en face dont_."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

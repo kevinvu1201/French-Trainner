@@ -1,0 +1,504 @@
+{
+ "readings": [
+  {
+   "number": 51,
+   "title": "Le subjonctif",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Au DELF B2, le subjonctif apparaît dès que vous **donnez votre avis**, **exprimez un souhait** ou **posez une condition** : « il est essentiel que… », « bien que… », « pour que… ». Les correcteurs le remarquent quand il est juste, et le pénalisent quand il manque."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 51 (p. 238–249)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former le subjonctif présent des verbes réguliers et des verbes à deux radicaux.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Former le subjonctif présent des verbes irréguliers (être, avoir, aller, faire, pouvoir, savoir, vouloir…).",
+     "module": 1
+    },
+    {
+     "letter": "c",
+     "text": "Choisir l'indicatif ou le subjonctif après un verbe d'opinion, de volonté ou de sentiment.",
+     "module": 2
+    },
+    {
+     "letter": "d",
+     "text": "Employer le subjonctif après les constructions impersonnelles, selon le degré de certitude.",
+     "module": 3
+    },
+    {
+     "letter": "e",
+     "text": "Former et employer le subjonctif passé.",
+     "module": 3
+    },
+    {
+     "letter": "f",
+     "text": "Employer le subjonctif après les conjonctions de but, de crainte, de temps, de concession et de condition.",
+     "module": 4
+    },
+    {
+     "letter": "g",
+     "text": "Choisir entre « que + subjonctif » et l'infinitif selon le sujet.",
+     "module": 4
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "« Il faut que » et la formation du subjonctif",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "L'indicatif présente un fait de façon **objective**, le subjonctif de façon **subjective** (souhait, obligation, sentiment). La forme la plus fréquente est **il faut que** + subjonctif."
+        },
+        {
+         "t": "p",
+         "md": "**Règle de formation** : radical de la 3e personne du pluriel du présent (_ils partent_ → _part-_) + **-e, -es, -e, -ions, -iez, -ent**."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Infinitif",
+           "ils (présent)",
+           "que je / tu / il / ils",
+           "que nous / vous"
+          ],
+          [
+           "parler",
+           "ils parl-ent",
+           "parle, parles, parle, parlent",
+           "parlions, parliez"
+          ],
+          [
+           "finir",
+           "ils finiss-ent",
+           "finisse, finisses, finisse, finissent",
+           "finissions, finissiez"
+          ],
+          [
+           "partir",
+           "ils part-ent",
+           "parte, partes, parte, partent",
+           "partions, partiez"
+          ],
+          [
+           "écrire",
+           "ils écriv-ent",
+           "écrive, écrives, écrive, écrivent",
+           "écrivions, écriviez"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Verbes à deux radicaux** : _nous_ et _vous_ reprennent le radical du présent de _nous_ ; les autres personnes celui de _ils_."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Infinitif",
+           "que je…",
+           "que nous…"
+          ],
+          [
+           "boire",
+           "boive",
+           "buvions"
+          ],
+          [
+           "prendre",
+           "prenne",
+           "prenions"
+          ],
+          [
+           "venir",
+           "vienne",
+           "venions"
+          ],
+          [
+           "recevoir",
+           "reçoive",
+           "recevions"
+          ],
+          [
+           "devoir",
+           "doive",
+           "devions"
+          ],
+          [
+           "croire",
+           "croie",
+           "croyions"
+          ],
+          [
+           "voir",
+           "voie",
+           "voyions"
+          ],
+          [
+           "acheter",
+           "achète",
+           "achetions"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Pour les verbes en -er, _je, tu, il, ils_ ont la même forme qu'au présent de l'indicatif : seuls _nous_ et _vous_ changent (-ions, -iez), comme à l'imparfait."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Les verbes irréguliers les plus fréquents sont à connaître par cœur :"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Verbe",
+           "que je",
+           "que tu",
+           "qu'il",
+           "que nous",
+           "que vous",
+           "qu'ils"
+          ],
+          [
+           "être",
+           "sois",
+           "sois",
+           "soit",
+           "soyons",
+           "soyez",
+           "soient"
+          ],
+          [
+           "avoir",
+           "aie",
+           "aies",
+           "ait",
+           "ayons",
+           "ayez",
+           "aient"
+          ],
+          [
+           "aller",
+           "aille",
+           "ailles",
+           "aille",
+           "allions",
+           "alliez",
+           "aillent"
+          ],
+          [
+           "faire",
+           "fasse",
+           "fasses",
+           "fasse",
+           "fassions",
+           "fassiez",
+           "fassent"
+          ],
+          [
+           "pouvoir",
+           "puisse",
+           "puisses",
+           "puisse",
+           "puissions",
+           "puissiez",
+           "puissent"
+          ],
+          [
+           "savoir",
+           "sache",
+           "saches",
+           "sache",
+           "sachions",
+           "sachiez",
+           "sachent"
+          ],
+          [
+           "vouloir",
+           "veuille",
+           "veuilles",
+           "veuille",
+           "voulions",
+           "vouliez",
+           "veuillent"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Formes impersonnelles : _falloir_ → **qu'il faille** ; _pleuvoir_ → **qu'il pleuve** ; _valoir_ → **qu'il vaille**."
+        },
+        {
+         "t": "note",
+         "md": "Attention à l'orthographe : _qu'il **ait**_ (avoir) mais _qu'il **est**_ n'existe pas au subjonctif ; _que nous **ayons**_ et _que nous **soyons**_ s'écrivent sans _i_ après le _y_."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 2,
+     "title": "Verbes « objectifs » et verbes « subjectifs »",
+     "sections": [
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Les verbes « **de la tête** » (constater, penser, croire, savoir, dire, déclarer, espérer…) présentent un fait : **indicatif**. Les verbes « **du cœur** » (vouloir, souhaiter, aimer, exiger, avoir peur, regretter, être content…) expriment un désir ou un sentiment : **subjonctif**."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Indicatif (fait, opinion affirmée)",
+           "Subjonctif (volonté, sentiment)"
+          ],
+          [
+           "Je pense qu'il **est** en retard.",
+           "Je veux qu'il **soit** à l'heure."
+          ],
+          [
+           "Je constate que la ville **change**.",
+           "Je regrette que la ville **change**."
+          ],
+          [
+           "J'espère que tu **viendras**.",
+           "Je souhaite que tu **viennes**."
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**À la forme négative ou interrogative avec inversion**, un verbe d'opinion prend souvent le subjonctif : il exprime alors un doute."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "Je ne pense pas qu'il **ait** raison.",
+          "Croyez-vous qu'il **soit** coupable ?",
+          "Je doute qu'elle **vienne**. (_douter_ = toujours subjonctif)"
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Un **adjectif de jugement** + que demande aussi le subjonctif : _Je trouve **normal** qu'il **ait** du succès._"
+        },
+        {
+         "t": "note",
+         "md": "**Espérer** est suivi de l'**indicatif** (souvent le futur) : _J'espère que vous viendrez._ C'est le piège classique."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 3,
+     "title": "Constructions impersonnelles, degré de certitude et subjonctif passé",
+     "sections": [
+      {
+       "los": [
+        "d"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Les constructions impersonnelles qui expriment une **contrainte** ou un **jugement** sont suivies du subjonctif : _il faut, il vaut mieux, il est important / essentiel / nécessaire / dommage / normal que_…"
+        },
+        {
+         "t": "p",
+         "md": "Celles qui expriment une **certitude** sont suivies de l'indicatif : _il est évident / certain / clair / sûr que_…"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Certitude ou forte probabilité → indicatif",
+           "Possibilité, doute → subjonctif"
+          ],
+          [
+           "Il est **probable** que Paul **partira**.",
+           "Il est **possible** que Paul **parte**."
+          ],
+          [
+           "Il est **certain** que les prix **vont** augmenter.",
+           "Il **se peut** que les prix **augmentent**."
+          ],
+          [
+           "Il **paraît** qu'il **a** démissionné.",
+           "Il **semble** qu'il **ait** démissionné. (doute)"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Après un **antécédent incertain**, la relative peut aussi être au subjonctif : _Je cherche une maison qui **ait** un jardin_ (je ne sais pas si elle existe) / _J'habite une maison qui **a** un jardin_ (elle existe)."
+        }
+       ]
+      },
+      {
+       "los": [
+        "e"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Subjonctif passé** = _avoir_ ou _être_ au subjonctif présent + participe passé. Il présente l'action comme **achevée**."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Présent (action en cours ou à venir)",
+           "Passé (action achevée)"
+          ],
+          [
+           "Je suis content qu'il **vienne**.",
+           "Je suis content qu'il **soit venu**."
+          ],
+          [
+           "Il faut que tu **finisses** avant lundi.",
+           "Il faut que tu **aies fini** avant lundi."
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Le subjonctif n'a pas de futur : le subjonctif présent sert aussi pour l'avenir. _Je doute qu'il vienne demain._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 4,
+     "title": "Les conjonctions suivies du subjonctif ; subjonctif ou infinitif",
+     "sections": [
+      {
+       "los": [
+        "f"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Les conjonctions qui expriment une **dépendance** (un but, une crainte, une attente, un obstacle, une condition) sont suivies du subjonctif."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Sens",
+           "Conjonctions + subjonctif",
+           "Exemple"
+          ],
+          [
+           "But",
+           "pour que, afin que, de sorte que",
+           "Je t'explique **pour que** tu **comprennes**."
+          ],
+          [
+           "Crainte",
+           "de peur que, de crainte que (+ _ne_)",
+           "Il se tait **de peur qu'**on ne le **critique**."
+          ],
+          [
+           "Temps",
+           "avant que (+ _ne_), jusqu'à ce que, en attendant que",
+           "Rentrons **avant qu'**il ne **pleuve**."
+          ],
+          [
+           "Concession",
+           "bien que, quoique",
+           "**Bien qu'**il **soit** tard, il travaille."
+          ],
+          [
+           "Condition / restriction",
+           "à condition que, pourvu que, à moins que (+ _ne_)",
+           "Viens, **à condition que** tu **sois** à l'heure."
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "**Après que** est suivi de l'**indicatif** (l'action a eu lieu) : _Il est sorti après qu'elle **a fini**._ Le _ne_ après _avant que, à moins que, de peur que_ est **explétif** : ce n'est pas une négation."
+        }
+       ]
+      },
+      {
+       "los": [
+        "g"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Quand le sujet des deux verbes est **le même**, on remplace _que_ + subjonctif par l'**infinitif**."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Sujets différents → que + subjonctif",
+           "Même sujet → infinitif"
+          ],
+          [
+           "Je veux **que tu partes**.",
+           "Je veux **partir**."
+          ],
+          [
+           "Je travaille **pour que mes enfants réussissent**.",
+           "Je travaille **pour réussir**."
+          ],
+          [
+           "Appelle-moi **avant qu'il parte**.",
+           "Appelle-moi **avant de partir**."
+          ],
+          [
+           "Je suis content **que tu sois** là.",
+           "Je suis content **d'être** là."
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Ne dites pas *_Je veux que je parte_ : avec le même sujet, l'infinitif est obligatoire."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

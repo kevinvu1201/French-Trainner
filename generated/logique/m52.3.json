@@ -1,0 +1,235 @@
+{
+ "module": "m52.3",
+ "source_hash": "6e5bd7b8d3b5",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Opposer, c'est mettre côte à côte deux réalités qui contrastent sans que l'une empêche l'autre."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_mais, par contre, en revanche_ relient deux phrases ; _alors que, tandis que_ + indicatif relient deux propositions."
+   },
+   {
+    "stage": "result",
+    "md": "_En revanche_ est la version écrite et soutenue de _par contre_."
+   },
+   {
+    "stage": "interpretation",
+    "md": "Pour comparer deux pays, deux époques ou deux solutions dans un essai, _alors que_ et _en revanche_ sont idéaux."
+   }
+  ],
+  "why_it_matters": "Comparer deux situations (avant / maintenant, ville / campagne) est un type de sujet fréquent au DELF B2.",
+  "exam_approach": {
+   "look_first": [
+    "deux faits indépendants qui contrastent ?",
+    "le registre : _par contre_ (oral) ou _en revanche_ (écrit)",
+    "un verbe conjugué après _alors que / tandis que_"
+   ],
+   "traps": [
+    "confondre opposition (deux faits indépendants) et concession (un fait contredit l'attente)",
+    "_par contre_ dans une lettre très formelle"
+   ],
+   "distractors": [
+    "un connecteur de cause",
+    "un connecteur de concession (_pourtant_)",
+    "un registre inadapté"
+   ]
+  }
+ },
+ "connections": [
+  {
+   "to": "m52.4",
+   "type": "contrasts_with",
+   "note": "La concession : quand un fait contredit une attente."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q.52.d.001",
+   "los": "los.52.d",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Mon frère adore le sport, …… ma sœur préfère la lecture.",
+   "options": [
+    "parce que",
+    "si bien que",
+    "alors que"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _parce que_ exprime la cause.",
+    "B": "Faux. _si bien que_ exprime une conséquence.",
+    "C": "Correct. Deux faits indépendants comparés → _alors que_."
+   }
+  },
+  {
+   "id": "q.52.d.002",
+   "los": "los.52.d",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Dans une lettre formelle : « Les loyers ont augmenté ; ……, les salaires n'ont pas bougé. »",
+   "options": [
+    "par contre",
+    "par conséquent",
+    "en revanche"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Correct à l'oral, mais moins adapté à une lettre formelle.",
+    "B": "Faux. _par conséquent_ exprime une conséquence.",
+    "C": "Correct. Opposition, registre soutenu."
+   }
+  },
+  {
+   "id": "q.52.d.003",
+   "los": "los.52.d",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Il ne déteste pas son travail ; ……, il s'y sent très bien.",
+   "options": [
+    "au contraire",
+    "en effet",
+    "pourtant"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Renforce l'opposition à une idée niée.",
+    "B": "Faux. _en effet_ explique, il ne contredit pas.",
+    "C": "Faux. _pourtant_ exprime une concession, pas la correction d'une idée."
+   }
+  },
+  {
+   "id": "q.52.d.004",
+   "los": "los.52.d",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "« Il écoute de la musique tandis qu'il travaille. » _Tandis que_ exprime ici :",
+   "options": [
+    "la cause",
+    "la simultanéité (pendant que)",
+    "une conséquence"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _tandis que_ ne signifie jamais _parce que_.",
+    "B": "Correct. _tandis que_ peut signifier _pendant que_.",
+    "C": "Faux. _tandis que_ n'exprime pas le résultat."
+   }
+  },
+  {
+   "id": "q.52.d.005",
+   "los": "los.52.d",
+   "difficulty": 2,
+   "qtype": "judgement",
+   "stem": "Quelle phrase exprime une opposition (et non une concession) ?",
+   "options": [
+    "En ville, on trouve des emplois ; à la campagne, en revanche, l'air est plus pur.",
+    "Bien qu'il fasse froid, il sort en t-shirt.",
+    "Il est riche ; pourtant, il vit simplement."
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Deux réalités indépendantes comparées.",
+    "B": "Faux. Concession : le froid devrait l'en empêcher.",
+    "C": "Faux. Concession : on attendrait le contraire."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m52.3.01",
+   "modules": [
+    "m52.3"
+   ],
+   "title": "Comparaison : vivre en ville ou à la campagne",
+   "vignette": "« En ville, les services sont nombreux, **(1)** …… à la campagne il faut souvent prendre la voiture. Les loyers urbains sont élevés ; **(2)** ……, les maisons rurales sont abordables. Certains pensent que la campagne est ennuyeuse ; **(3)** ……, la vie associative y est très riche. Enfin, les citadins se plaignent du bruit, **(4)** …… les ruraux regrettent l'isolement. »",
+   "questions": [
+    {
+     "id": "set.m52.3.01.q1",
+     "los": "los.52.d",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (1) :",
+     "options": [
+      "puisqu'",
+      "alors qu'",
+      "pour qu'"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _puisque_ exprime la cause.",
+      "B": "Correct. Opposition de deux faits + indicatif.",
+      "C": "Faux. _pour que_ exprime le but."
+     }
+    },
+    {
+     "id": "set.m52.3.01.q2",
+     "los": "los.52.d",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "par conséquent",
+      "en effet",
+      "en revanche"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. Ce n'est pas une conséquence.",
+      "B": "Faux. _en effet_ introduit une explication.",
+      "C": "Correct. Opposition, registre écrit."
+     }
+    },
+    {
+     "id": "set.m52.3.01.q3",
+     "los": "los.52.d",
+     "difficulty": 3,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "au contraire",
+      "donc",
+      "c'est pourquoi"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Contredit l'idée que la campagne est ennuyeuse.",
+      "B": "Faux. _donc_ introduit une conséquence.",
+      "C": "Faux. _c'est pourquoi_ introduit une conséquence."
+     }
+    },
+    {
+     "id": "set.m52.3.01.q4",
+     "los": "los.52.d",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) :",
+     "options": [
+      "bien que",
+      "tandis que",
+      "afin que"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _bien que_ demande le subjonctif et exprime une concession.",
+      "B": "Correct. Opposition par comparaison + indicatif.",
+      "C": "Faux. _afin que_ exprime le but."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.52.opposition",
+   "los": [
+    "los.52.d"
+   ],
+   "name": "Exprimer l'opposition",
+   "front": "mais / par contre / en revanche / alors que / tandis que ?",
+   "back": "Deux faits indépendants qui contrastent. **en revanche** = soutenu ; **par contre** = courant ; **alors que / tandis que** + indicatif."
+  }
+ ]
+}
