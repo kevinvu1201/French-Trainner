@@ -9,10 +9,10 @@ import { settingsFrom } from "../core/settings.js";
 import { pickItemSet, pickQuestions, questionMeta, questionPool } from "../core/select.js";
 import { planSession, resolveSession } from "../core/smart.js";
 import { html, useEffect, useRef, useState } from "../lib.js";
-import { CardBack, ErrorBox, Loading, Md, useAsync } from "../ui.js";
+import { AudioPlayer, CardBack, ErrorBox, Loading, Md, useAsync } from "../ui.js";
 
 const DRILL_SIZE = 10;
-const QTYPE = { form: "forme", conceptual: "règle", judgement: "usage", vocabulary: "vocabulaire", calculation: "calcul" };
+const QTYPE = { form: "forme", conceptual: "règle", judgement: "usage", vocabulary: "vocabulaire", calculation: "calcul", listening: "compréhension" };
 const LETTERS = ["A", "B", "C"];
 const paragraphs = (text) => (text ?? "").split(/\n{2,}/).filter(Boolean);
 
@@ -45,7 +45,7 @@ export function PracticeHome() {
       <div class="spread"><strong>${t.name}</strong>${t.weight ? html`<span class="chip accent">${(t.weight * 100).toFixed(0)} %</span>` : null}</div>
       <div class="row">
         ${t.counts.questions ? html`<a class="btn" href=${href("practice", "drill", t.id)}>Questions (${t.counts.questions})</a>` : null}
-        ${t.counts.item_sets ? html`<a class="btn" href=${href("practice", "set", t.id)}>Textes à trous (${t.counts.item_sets})</a>` : null}
+        ${t.counts.item_sets ? html`<a class="btn" href=${href("practice", "set", t.id)}>${t.counts.audio_sets ? "Exercices d'écoute" : "Textes à trous"} (${t.counts.item_sets})</a>` : null}
         ${t.counts.formulas ? html`<a class="btn" href=${href("practice", "cards", t.id)}>Cartes (${t.counts.formulas})</a>` : null}
       </div>
     </section>`)}
@@ -261,7 +261,7 @@ function Summary({ results, title, again }) {
 
 // ---------------------------------------------------------------- item sets
 
-export function ItemSet({ topic }) {
+export function ItemSet({ topic, module }) {
   const { value: data, error } = useTopicData(topic);
   const [run, setRun] = useState(0);
   const [set, setSet] = useState(null);
@@ -272,18 +272,19 @@ export function ItemSet({ topic }) {
 
   useEffect(() => {
     if (!data) return;
-    const picked = pickItemSet(data.chunk.item_sets, answerEvents(data.events));
+    const sets = module ? data.chunk.item_sets.filter((s) => s.modules.includes(module)) : data.chunk.item_sets;
+    const picked = pickItemSet(sets, answerEvents(data.events));
     setSet(picked);
     setValues((picked?.questions ?? []).map(() => ({ choice: null, conf: null })));
     setDone(null);
     startedAt.current = Date.now();
     window.scrollTo(0, 0);
-  }, [data, run]);
+  }, [data, run, module]);
   useEffect(() => { renderMath(root.current); }, [set]);
 
   if (error) return html`<${ErrorBox} error=${error} />`;
   if (!data) return html`<${Loading} />`;
-  if (!set) return html`<div class="stack"><h1>${topicInfo(topic)?.name}</h1><p>Pas encore de texte à trous pour ce thème.</p>
+  if (!set) return html`<div class="stack"><h1>${topicInfo(topic)?.name}</h1><p>Pas encore d'exercice pour ce thème.</p>
     <a class="btn" href="#/practice">Retour aux exercices</a></div>`;
 
   const complete = values.every((v) => v.choice && v.conf);
@@ -291,7 +292,7 @@ export function ItemSet({ topic }) {
     const ms = Date.now() - startedAt.current;
     setDone({ ms });
     for (const [k, q] of set.questions.entries()) {
-      await recordAnswer(q, data.chunk, topic, values[k], ms / set.questions.length, "item_set", { set: set.id });
+      await recordAnswer(q, data.chunk, topic, values[k], ms / set.questions.length, set.audio ? "listening" : "item_set", { set: set.id });
     }
   };
   const score = done ? set.questions.filter((q, k) => values[k].choice === q.answer).length : 0;
@@ -299,6 +300,7 @@ export function ItemSet({ topic }) {
 
   return html`<div class="stack" ref=${root}>
     <div class="spread"><h1 class="h-small">${set.title ?? "Texte à trous"}</h1><span class="chip">${topicInfo(topic)?.name}</span></div>
+    ${set.audio ? html`<${AudioPlayer} key=${set.id} src=${set.audio} plays=${set.plays} title=${set.title ?? "Écoute"} />` : null}
     <section class="vignette-full">${paragraphs(set.vignette).map((p) => html`<${Md} tag="p" text=${p} chunk=${data.chunk} />`)}
       ${(set.exhibits ?? []).map((ex) => html`<div class="exhibit"><div class="small"><strong><${Md} text=${ex.title} /></strong></div>
         <div class="table-wrap"><table><thead><tr>${ex.rows[0].map((c) => html`<th><${Md} text=${c} /></th>`)}</tr></thead>
@@ -307,8 +309,13 @@ export function ItemSet({ topic }) {
     ${set.questions.map((q, k) => html`<${QuestionCard} key=${q.id} q=${q} chunk=${data.chunk} value=${values[k]}
       onChange=${(v) => setValues((vals) => vals.map((old, j) => (j === k ? v : old)))} reveal=${!!done} label=${`Question ${k + 1} sur ${set.questions.length}`} />`)}
     ${done ? html`<div class="card spread"><strong>${score} / ${set.questions.length} bonnes réponses</strong>
-        <span class="small">${formatMs(done.ms)} ${done.ms > pace ? `· au-delà des ${formatMs(pace)} prévues` : `· dans les ${formatMs(pace)} prévues`}</span></div>
-      <div class="row"><button class="btn primary" onClick=${() => setRun((n) => n + 1)}>Texte suivant</button>
+        ${set.audio ? null : html`<span class="small">${formatMs(done.ms)} ${done.ms > pace ? `· au-delà des ${formatMs(pace)} prévues` : `· dans les ${formatMs(pace)} prévues`}</span>`}</div>
+      ${set.transcript ? html`<details class="card transcript" open>
+        <summary>Transcription</summary>
+        <p class="small muted">Relisez les passages qui contiennent les réponses, puis réécoutez en mode entraînement (décochez « Mode examen »).</p>
+        <div class="reader">${paragraphs(set.transcript).map((p) => html`<${Md} tag="p" text=${p} />`)}</div>
+      </details>` : null}
+      <div class="row"><button class="btn primary" onClick=${() => setRun((n) => n + 1)}>${set.audio ? "Exercice suivant" : "Texte suivant"}</button>
         <a class="btn" href="#/practice">Retour aux exercices</a></div>`
       : html`<div class="row sticky-actions"><button class="btn primary" disabled=${!complete} onClick=${submit}>
           ${complete ? "Valider le texte" : `Répondez aux ${set.questions.length} questions (avec votre confiance)`}</button></div>`}

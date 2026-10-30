@@ -119,7 +119,22 @@ export async function figureURL(src) {
   return state.figs.get(src);
 }
 
-/** Fetch every chunk and figure so the service worker caches them for offline use. */
+const AUDIO_TYPES = { mp3: "audio/mpeg", m4a: "audio/mp4", wav: "audio/wav", ogg: "audio/ogg" };
+
+/** Playable URL for a listening set's audio: a plain path, or a blob URL of the decrypted file. */
+export async function audioURL(src) {
+  if (!isEncrypted()) return BASE + src;
+  if (!state.figs.has(src)) {
+    const res = await fetch(url(src));
+    if (!res.ok) throw new Error(`${src}: HTTP ${res.status}`);
+    const bytes = await decrypt(state.key, await res.arrayBuffer());
+    const type = AUDIO_TYPES[src.split(".").pop()] ?? "audio/mpeg";
+    state.figs.set(src, URL.createObjectURL(new Blob([bytes], { type })));
+  }
+  return state.figs.get(src);
+}
+
+/** Fetch every chunk, figure and audio file so the service worker caches them for offline use. */
 export async function downloadAll(onProgress) {
   const topics = state.manifest.topics;
   let done = 0;
@@ -128,6 +143,7 @@ export async function downloadAll(onProgress) {
   for (const t of topics) {
     const chunk = await getChunk(t.id);
     for (const f of Object.values(chunk.figures)) if (f.src) figures.push(f.src);
+    for (const s of chunk.item_sets) if (s.audio) figures.push(s.audio);
     onProgress(++done, (total = topics.length + figures.length));
   }
   const queue = [...new Set(figures)];

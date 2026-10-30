@@ -31,7 +31,7 @@ def build(paths: Paths, force: bool = False) -> BuildResult:
     chunks, figures, compile_issues = build_chunks(parsed.books, cfg, paths)
     out = write_outputs(chunks, cfg, paths)
     validation_issues, coverage = validate_all(out.manifest, chunks, figures, cfg, paths)
-    report = build_report(parsed.books, compile_issues, validation_issues, coverage, out.manifest, cfg, {
+    report = build_report(parsed.books, compile_issues + out.issues, validation_issues, coverage, out.manifest, cfg, {
         "reparsed": parsed.reparsed, "cached": parsed.cached, "written": out.written, "unchanged": out.unchanged,
     })
     write_report(report, paths)

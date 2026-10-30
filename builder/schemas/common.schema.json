@@ -57,7 +57,7 @@
           "properties": {"A": {"$ref": "#/$defs/md"}, "B": {"$ref": "#/$defs/md"}, "C": {"$ref": "#/$defs/md"}}
         },
         "difficulty": {"enum": [1, 2, 3]},
-        "qtype": {"enum": ["calculation", "conceptual", "judgement", "form", "vocabulary"]},
+        "qtype": {"enum": ["calculation", "conceptual", "judgement", "form", "vocabulary", "listening"]},
         "calc": {
           "type": "object",
           "description": "Build-time check: expr (evaluated with inputs) must equal the first number in the correct option x scale, within tol (relative); every wrong option must be off by more than tol.",

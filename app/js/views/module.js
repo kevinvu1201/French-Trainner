@@ -35,6 +35,7 @@ function ModuleActions({ id, topic, chunk }) {
   const practisable = questionPool(chunk, id).length;
   const moduleLos = new Set(chunk.los.filter((l) => l.modules.includes(id)).map((l) => l.id));
   const cards = chunk.formulas.filter((f) => f.los.some((l) => moduleLos.has(l))).length;
+  const listening = chunk.item_sets.filter((s) => s.audio && s.modules.includes(id));
   useEffect(() => {
     const timer = setTimeout(async () => {
       const today = localDay(Date.now());
@@ -48,6 +49,8 @@ function ModuleActions({ id, topic, chunk }) {
   return html`<section class="card row module-actions">
     ${practisable ? html`<a class="btn primary" href=${href("practice", "drill", topic, id)}>S'entraîner sur cette leçon (${practisable})</a>` : null}
     ${!practisable && cards ? html`<a class="btn primary" href=${href("practice", "cards", topic)}>Réviser les cartes (${cards})</a>` : null}
+    ${listening.length ? html`<a class="btn primary" href=${href("practice", "set", topic, id)}>🎧 ${listening.length > 1
+      ? `Écouter (${listening.length} exercices)` : "Écouter l'exercice"}</a>` : null}
     ${finished ? html`<span class="small muted">✓ Terminé le ${formatDate(finished.ts)}</span>
         <button class="btn" onClick=${() => setFinished(id, topic, false)}>Annuler</button>`
       : html`<button class="btn" onClick=${() => setFinished(id, topic, true)}>Marquer comme terminé</button>`}

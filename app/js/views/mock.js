@@ -49,7 +49,7 @@ function MockStart({ onStart }) {
   const past = (events ?? []).filter((e) => e.type === "session" && e.payload.kind === "mock").reverse();
   const start = async (questions) => {
     setBusy("Chargement de tous les thèmes…");
-    const topics = manifest().topics.filter((t) => t.counts.item_sets);
+    const topics = manifest().topics.filter((t) => t.counts.item_sets > (t.counts.audio_sets ?? 0));
     const setsByTopic = new Map();
     for (const t of topics) setsByTopic.set(t.id, itemSetsFor(await getChunk(t.id)));
     const { sessions: s, plan } = buildMock(setsByTopic, topics, { questions, sessions: 1 });

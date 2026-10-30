@@ -1,7 +1,7 @@
 # Where `python -m builder deploy` publishes the site: the gh-pages branch of the app's repository.
-# The content is original (no book text), so it is published without encryption.
+# The listening material (100% B2) is copyrighted, so the whole site is published encrypted.
 # First deploy: repository Settings → Pages → Deploy from a branch → gh-pages / (root).
 # The site is then at https://kevinvu1201.github.io/French-Trainner/
 remote: "https://github.com/kevinvu1201/French-Trainner.git"
 branch: gh-pages
-encrypt: false
+encrypt: true

@@ -1,0 +1,3 @@
+# Folder holding the audio files that listening sets name (the 100% B2 tracks). Read at build
+# time and copied, content-addressed, into dist/data/audio; never committed.
+source: "C:/Users/Lenovo/Desktop/French/100%B2"

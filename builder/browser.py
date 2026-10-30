@@ -40,7 +40,7 @@ class Browser:
             raise RuntimeError("No Chrome/Edge found")
         self.profile = Path(tempfile.mkdtemp(prefix="cfa-cdp-"))
         self.proc = subprocess.Popen(
-            [exe, "--headless=new", "--disable-gpu", "--no-first-run", "--no-default-browser-check",
+            [exe, "--headless=new", "--disable-gpu", "--autoplay-policy=no-user-gesture-required", "--no-first-run", "--no-default-browser-check",
              "--remote-debugging-port=0", f"--user-data-dir={self.profile}", "about:blank"],
             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         port_file = self.profile / "DevToolsActivePort"

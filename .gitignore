@@ -7,3 +7,7 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 # content/ and generated/ are written by authoring/*.py from original text and are committed.
+# Book-derived listening material (100% B2, Didier): authored locally, published only encrypted.
+authoring/private/
+content/ecoute.json
+generated/ecoute/

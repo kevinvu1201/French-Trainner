@@ -58,6 +58,18 @@ def S(title, vignette, questions):
     return dict(title=title, vignette=vignette, questions=questions)
 
 
+def LQ(los, stem, options, answer, why):
+    """A listening question as printed in the book: options in book order, answer letter, one reason per option."""
+    assert len(options) == 3 and len(why) == 3 and answer in LETTERS, stem
+    return dict(los=los, stem=stem, options=list(options), answer=answer, why=list(why))
+
+
+def L(title, context, audio, plays, transcript, questions):
+    """A listening set: context, audio file (in config/audio.yaml's folder), listens allowed, transcript, questions."""
+    assert 1 <= len(questions) <= 12 and plays in (1, 2), title
+    return dict(title=title, vignette=context, audio=audio, plays=plays, transcript=transcript, questions=questions)
+
+
 def R(slug, los, name, front, back, examples=(), mistake=None):
     return dict(slug=slug, los=[los] if isinstance(los, str) else list(los), name=name, front=front,
                 back=back, examples=list(examples), mistake=mistake)
@@ -98,10 +110,13 @@ class Chapter:
         }
         for i, s in enumerate(sets, 1):
             sid = f"set.{mid}.{i:02d}"
-            doc["item_sets"].append({
-                "id": sid, "modules": [mid], "title": s["title"], "vignette": s["vignette"],
-                "questions": [self.book.build_q(q, self.los_id(q["los"]), f"{sid}.q{k}") for k, q in enumerate(s["questions"], 1)],
-            })
+            item = {"id": sid, "modules": [mid], "title": s["title"], "vignette": s["vignette"]}
+            if "audio" in s:
+                item.update(audio=s["audio"], plays=s["plays"], transcript=s["transcript"])
+                item["questions"] = [_listening_q(q, self.los_id(q["los"]), f"{sid}.q{k}") for k, q in enumerate(s["questions"], 1)]
+            else:
+                item["questions"] = [self.book.build_q(q, self.los_id(q["los"]), f"{sid}.q{k}") for k, q in enumerate(s["questions"], 1)]
+            doc["item_sets"].append(item)
         for c in cards:
             card = {"id": f"f.{self.n:02d}.{c['slug']}", "los": [self.los_id(l) for l in c["los"]], "name": c["name"],
                     "front": c["front"], "back": c["back"]}
@@ -124,6 +139,15 @@ class Chapter:
         return {"number": self.n, "title": self.title, "exam_focus": self.focus,
                 "los": [{"letter": l, "text": t, "module": intro[l]} for l, t in self.los.items()],
                 "key_concepts": self.key_concepts, "modules": self.modules}
+
+
+def _listening_q(q: dict, los_id: str, qid: str) -> dict:
+    """Book order is kept (so the app matches the printed page), unlike generated questions."""
+    return {
+        "id": qid, "los": los_id, "difficulty": 2, "qtype": "listening", "stem": q["stem"],
+        "options": q["options"], "answer": q["answer"],
+        "explanations": {l: ("Correct. " if l == q["answer"] else "Faux. ") + w for l, w in zip(LETTERS, q["why"])},
+    }
 
 
 def _dump(doc) -> str:

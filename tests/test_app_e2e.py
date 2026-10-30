@@ -530,3 +530,73 @@ def test_french_content_lesson_cards_and_drill(real_site, browser):
     browser.wait("document.querySelector('.feedback')")
     assert any(w in browser.eval("document.querySelector('.feedback').innerText", False) for w in ("Correct", "Faux"))
     assert not browser.console, browser.console
+
+
+@pytest.fixture(scope="module")
+def listening_site(tmp_path_factory):
+    """The fixture book plus one listening set with a real (silent, 1 s) WAV, built encrypted."""
+    import wave
+    from .test_build import _listening_set
+    root = tmp_path_factory.mktemp("listen")
+    shutil.copytree(REPO / "config", root / "config", ignore=shutil.ignore_patterns("crypto.yaml"))
+    shutil.copytree(REPO / "app", root / "app")
+    (root / "content").mkdir()
+    shutil.copy(REPO / "tests" / "fixtures" / "sample_book.md", root / "content" / "Book 9.md")
+    (root / "config" / "topics.yaml").write_text(
+        "topics:\n  - {id: quant, name: Quant, readings: [1, 1]}\n  - {id: economics, name: Econ, readings: [2, 2]}\n",
+        encoding="utf-8")
+    (root / "config" / "exam_weights.yaml").write_text(FIXTURE_WEIGHTS, encoding="utf-8")
+    audio = root / "audio-src"
+    audio.mkdir()
+    with wave.open(str(audio / "track.wav"), "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(8000); w.writeframes(b"\0\0" * 8000)
+    (root / "config" / "audio.yaml").write_text(f"source: '{audio.as_posix()}'\n", encoding="utf-8")
+    paths = Paths(root)
+    build(paths)  # learns the module hash
+    chunk = json.loads(next((paths.data / "chunks").glob("quant.*.json")).read_text(encoding="utf-8"))
+    mod_hash = next(m for m in chunk["modules"] if m["id"] == "m01.2")["hash"]
+    learning = {"logic_chain": [{"stage": s, "md": "x"} for s in ("assumption", "mechanism", "result")],
+                "why_it_matters": "x", "exam_approach": {"look_first": ["x"], "traps": ["x"], "distractors": ["x"]}}
+    doc = {"module": "m01.2", "source_hash": mod_hash, "learning": learning, "connections": [], "questions": [],
+           "item_sets": [_listening_set(3)], "formulas": []}
+    (root / "generated" / "quant").mkdir(parents=True)
+    (root / "generated" / "quant" / "m01.2.json").write_text(json.dumps(doc), encoding="utf-8")
+    assert build(paths).ok
+    build_site(paths, paths.dist_enc, PASSPHRASE)
+    srv = make_server(paths.dist_enc, port=0)
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    return f"http://127.0.0.1:{srv.server_address[1]}/"
+
+
+def test_listening_set_encrypted_audio_exam_mode_and_transcript(listening_site, browser):
+    submit = "document.querySelector('#pp').value = %s; document.querySelector('form').requestSubmit()"
+    browser.goto(listening_site + "#/practice/set/quant/m01.2", wait_for="document.querySelector('#pp')")
+    browser.eval(submit % json.dumps(PASSPHRASE), False)
+    browser.wait("document.querySelector('.audio-player button.play:not([disabled])')", 20)
+    assert browser.eval("document.querySelector('audio').src", False).startswith("blob:")  # decrypted in the browser
+    play = "document.querySelector('.audio-player button.play').click()"
+    for n in (1, 2):  # exam mode: two listens, each from the start
+        browser.eval(play, False)
+        browser.wait(f"document.querySelector('.audio-player').dataset.used === '{n}'")
+        browser.wait("document.querySelector('audio').ended", 10)
+    browser.wait("document.querySelector('.audio-player button.play').disabled")
+    assert "Écoutes terminées" in browser.eval("document.querySelector('.audio-player button.play').innerText", False)
+    # Practice mode lifts the limit
+    browser.eval("document.querySelector('.audio-player input[type=checkbox]').click()", False)
+    browser.wait("!document.querySelector('.audio-player button.play').disabled")
+    # Answer and submit: the transcript appears and answers are logged as listening
+    browser.eval("document.querySelectorAll('.qcard').forEach((c) => c.querySelectorAll('.option')[1].click())", False)
+    browser.eval("document.querySelectorAll('.qcard').forEach((c) => [...c.querySelectorAll('.confidence button')].find((b) => b.innerText.trim() === 'Sûr').click())", False)
+    browser.wait("!document.querySelector('.sticky-actions .btn').disabled")
+    browser.eval("document.querySelector('.sticky-actions .btn').click()", False)
+    browser.wait("document.querySelector('.transcript')")
+    assert "Au revoir" in browser.eval("document.querySelector('.transcript').innerText", False)
+    count = "import('./js/core/events.js').then((m) => m.getEvents()).then((l) => l.filter((e) => e.type === 'answer').length)"
+    for _ in range(50):  # the answers are saved one by one after submitting
+        if browser.eval(count) == 3:
+            break
+        time.sleep(0.1)
+    events = browser.eval("import('./js/core/events.js').then((m) => m.getEvents())")
+    modes = [e["payload"]["mode"] for e in events if e["type"] == "answer"]
+    assert modes == ["listening"] * 3
+    assert not browser.console, browser.console

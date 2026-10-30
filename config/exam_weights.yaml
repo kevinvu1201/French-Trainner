@@ -11,4 +11,5 @@ weights:
   relatifs:    {min: 15, max: 20}
   discours:    {min: 10, max: 20}
   logique:     {min: 20, max: 30}
+  ecoute:      {min: 25, max: 25}  # listening is a quarter of the DELF
   vocabulaire: {min: 0,  max: 0}

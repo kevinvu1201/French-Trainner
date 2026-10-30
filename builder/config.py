@@ -49,6 +49,7 @@ class Config:
     ligature_overrides: dict[str, str]
     aliases: dict[str, str]
     scoring: dict[str, Any]  # config/priority.yaml, shipped to the app in the manifest
+    audio_source: Path | None = None  # config/audio.yaml: folder holding the audio files item sets name
 
     def topic_for_reading(self, n: int) -> Topic | None:
         return next((t for t in self.topics if n in t.readings), None)
@@ -85,4 +86,5 @@ def load_config(paths: Paths) -> Config:
         ligature_overrides=_yaml(paths.config / "ligature_overrides.yaml").get("overrides") or {},
         aliases=_yaml(paths.config / "id_aliases.yaml").get("aliases") or {},
         scoring=_yaml(paths.config / "priority.yaml"),
+        audio_source=Path(src) if (src := _yaml(paths.config / "audio.yaml").get("source")) else None,
     )

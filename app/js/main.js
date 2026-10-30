@@ -61,7 +61,8 @@ function view(route) {
       if (mode === "mock") return { title: "Examen blanc", ...back, body: html`<${Mock} />` };
       if (mode === "smart") return { title: "Séance intelligente", ...back, body: html`<${SmartSession} minutes=${topic ?? "30"} />` };
       if (mode === "drill" && topic) return { title: "Entraînement", ...back, body: html`<${Drill} topic=${topic} module=${module} />` };
-      if (mode === "set" && topic) return { title: "Texte à trous", ...back, body: html`<${ItemSet} topic=${topic} />` };
+      if (mode === "set" && topic) return { title: topicInfo(topic)?.counts.audio_sets ? "Écoute" : "Texte à trous", ...back,
+                                            body: html`<${ItemSet} key=${module ?? topic} topic=${topic} module=${module} />` };
       if (mode === "cards" && topic) return { title: "Cartes", ...back, body: html`<${Cards} topic=${topic} />` };
       return { title: "Exercices", body: html`<${PracticeHome} />` };
     }

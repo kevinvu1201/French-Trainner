@@ -66,8 +66,15 @@
               "properties": {"title": {"type": "string"}, "rows": {"type": "array", "items": {"type": "array", "items": {"type": "string"}}}}
             }
           },
-          "questions": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/generatedQuestion"}, "minItems": 4, "maxItems": 4}
-        }
+          "audio": {"type": "string", "description": "Audio file name in the folder config/audio.yaml points to (listening sets)"},
+          "plays": {"enum": [1, 2], "description": "Listens allowed in exam mode, as in the DELF"},
+          "transcript": {"$ref": "common.schema.json#/$defs/md"},
+          "questions": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/generatedQuestion"}, "minItems": 1, "maxItems": 12}
+        },
+        "allOf": [
+          {"if": {"not": {"required": ["audio"]}}, "then": {"properties": {"questions": {"minItems": 4, "maxItems": 4}}}},
+          {"if": {"required": ["audio"]}, "then": {"required": ["plays", "transcript"]}}
+        ]
       }
     },
     "formulas": {

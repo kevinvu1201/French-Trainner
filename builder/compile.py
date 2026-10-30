@@ -164,10 +164,37 @@ def _sync_images(chunks: dict[str, dict[str, Any]], paths: Paths) -> int:
     return len(wanted)
 
 
+def _sync_audio(chunks: dict[str, dict[str, Any]], cfg: Config, paths: Paths, issues: list[dict[str, Any]]) -> None:
+    """Copy each audio file an item set names (from cfg.audio_source) to dist/data/audio/<sha1-10><ext>
+    and point the set at it. Content-addressed names can be cached forever; unreferenced files are removed."""
+    out_dir = paths.data / "audio"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    wanted: set[str] = set()
+    for topic, ch in chunks.items():
+        for s in ch["item_sets"]:
+            name = s.get("audio")
+            if not name or name.startswith("audio/"):
+                continue
+            src = cfg.audio_source / name if cfg.audio_source else None
+            if src is None or not src.is_file():
+                _issue(issues, "error", "audio_missing", f"{topic} {s['id']}: audio file {name} not found in {cfg.audio_source}")
+                s.pop("audio")
+                continue
+            target = f"{sha1(src.read_bytes())[:10]}{src.suffix.lower()}"
+            if not (out_dir / target).exists():
+                shutil.copyfile(src, out_dir / target)
+            s["audio"] = f"audio/{target}"
+            wanted.add(target)
+    for old in out_dir.iterdir():
+        if old.name not in wanted:
+            old.unlink()
+
+
 def _content_bytes(paths: Paths, topics_meta: list[dict[str, Any]], graph_path: str | None) -> int:
-    """Size of everything "Download all content" fetches: topic chunks, figure images and the graph."""
+    """Size of everything "Download all content" fetches: topic chunks, figure images, audio and the graph."""
     total = sum(t["bytes"] for t in topics_meta)
-    total += sum(f.stat().st_size for f in (paths.data / "img").iterdir() if f.is_file())
+    total += sum(f.stat().st_size for d in ("img", "audio") if (paths.data / d).exists()
+                 for f in (paths.data / d).iterdir() if f.is_file())
     if graph_path:
         total += (paths.data / graph_path).stat().st_size
     return total
@@ -195,8 +222,9 @@ def write_outputs(chunks: dict[str, dict[str, Any]], cfg: Config, paths: Paths) 
     out_dir = paths.data / "chunks"
     out_dir.mkdir(parents=True, exist_ok=True)
     _sync_images(chunks, paths)
-    topics_meta = []
     result = CompileResult({}, chunks)
+    _sync_audio(chunks, cfg, paths, result.issues)
+    topics_meta = []
     for t in cfg.topics:
         ch = chunks[t.id]
         body = stable_json(ch)
@@ -216,7 +244,8 @@ def write_outputs(chunks: dict[str, dict[str, Any]], cfg: Config, paths: Paths) 
             "counts": {"readings": len(ch["readings"]), "modules": len(ch["modules"]), "los": len(ch["los"]),
                        "questions": len(ch["questions"]), "item_sets": len(ch["item_sets"]),
                        "formulas": len(ch["formulas"]), "figures": len(ch["figures"]),
-                       "repairs": len(ch["repairs"]), "learning": len(ch["learning"])},
+                       "repairs": len(ch["repairs"]), "learning": len(ch["learning"]),
+                       "audio_sets": sum(1 for s in ch["item_sets"] if s.get("audio"))},
             "readings": [{"id": r["id"], "n": r["n"], "title": r["title"],
                           "modules": [{"id": m["id"], "title": m["title"],
                                        "los": [l["id"] for l in ch["los"] if m["id"] in l["modules"]]}

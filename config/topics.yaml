@@ -1,6 +1,6 @@
 # Topics and the Grammaire progressive du français (intermédiaire, 3e éd.) chapters they cover.
 # `chapters` lists chapter numbers (non-contiguous is fine). Chapters 90–96 are the vocabulary
-# themes, which have no chapter in the book.
+# themes, which have no chapter in the book; 61-62 are the listening exercises from 100% B2.
 topics:
   - id: subjonctif
     name: Le subjonctif
@@ -17,6 +17,9 @@ topics:
   - id: logique
     name: Les relations logiques
     chapters: [52]
+  - id: ecoute
+    name: Compréhension de l'oral
+    chapters: [61, 62]
   - id: vocabulaire
     name: Vocabulaire DELF B2
     chapters: [90, 91, 92, 93, 94, 95, 96]

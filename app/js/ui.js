@@ -1,8 +1,8 @@
 // Shared components.
 
-import { figureNow, figureURL } from "./core/data.js";
+import { audioURL, figureNow, figureURL } from "./core/data.js";
 import { inline, splitFigures } from "./core/md.js";
-import { html, useEffect, useState } from "./lib.js";
+import { html, useEffect, useRef, useState } from "./lib.js";
 
 export function useAsync(fn, deps) {
   const [state, setState] = useState({ value: undefined, error: null, loading: true });
@@ -190,4 +190,74 @@ const ICONS = {
 
 export function Icon({ name }) {
   return html`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d=${ICONS[name]} /></svg>`;
+}
+
+// ---------------------------------------------------------------- audio
+
+const clock = (s) => (Number.isFinite(s) ? `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}` : "–:––");
+
+/**
+ * Listening-set player. Exam mode (default) allows `plays` listens, each from the start, with no
+ * seeking (pausing is allowed); practice mode allows replays, ±5 s and 0.75× speed.
+ * A listen counts when playback starts from the beginning.
+ */
+export function AudioPlayer({ src, plays, title }) {
+  const audio = useRef(null);
+  const [url, setUrl] = useState(null);
+  const [error, setError] = useState(null);
+  const [exam, setExam] = useState(true);
+  const [used, setUsed] = useState(0);
+  const [playing, setPlaying] = useState(false);
+  const [pos, setPos] = useState(0);
+  const [dur, setDur] = useState(NaN);
+  const [rate, setRate] = useState(1);
+
+  useEffect(() => {
+    let live = true;
+    setUrl(null); setError(null); setUsed(0); setPlaying(false); setPos(0);
+    audioURL(src).then((u) => live && setUrl(u), (e) => live && setError(e));
+    return () => { live = false; audio.current?.pause(); };
+  }, [src]);
+  useEffect(() => { if (audio.current) audio.current.playbackRate = exam ? 1 : rate; }, [rate, exam, url]);
+
+  const a = audio.current;
+  const exhausted = exam && used >= plays && !playing;
+  const toggle = () => {
+    if (!a) return;
+    if (playing) return a.pause();
+    const fromStart = a.ended || a.currentTime === 0;
+    if (fromStart) {
+      if (exam && used >= plays) return;
+      a.currentTime = 0;
+      setUsed((n) => n + 1);
+    }
+    if ("mediaSession" in navigator && window.MediaMetadata) {
+      navigator.mediaSession.metadata = new MediaMetadata({ title, artist: "Français B2 · écoute" });
+    }
+    a.play().catch(setError);
+  };
+  const seek = (d) => { if (a && !exam) a.currentTime = Math.max(0, Math.min(a.duration || 0, a.currentTime + d)); };
+
+  if (error) return html`<div class="card small" style="color:var(--bad)">Audio indisponible : ${String(error.message ?? error)}</div>`;
+  return html`<section class="card stack audio-player" data-used=${used}>
+    <audio ref=${audio} src=${url ?? undefined} preload="metadata"
+      onPlay=${() => setPlaying(true)} onPause=${() => setPlaying(false)} onEnded=${() => { setPlaying(false); setPos(0); }}
+      onTimeUpdate=${(e) => setPos(e.target.currentTime)} onLoadedMetadata=${(e) => setDur(e.target.duration)}></audio>
+    <div class="row" style="align-items:center">
+      <button class="btn primary play" disabled=${!url || exhausted} onClick=${toggle} aria-label=${playing ? "Pause" : "Écouter"}>
+        ${playing ? "❚❚ Pause" : !url ? "Chargement…" : exhausted ? "Écoutes terminées" : pos > 0 ? "▶ Reprendre" : "▶ Écouter"}</button>
+      ${!exam ? html`<button class="btn" onClick=${() => seek(-5)} aria-label="Reculer de 5 secondes">−5 s</button>
+        <button class="btn" onClick=${() => seek(5)} aria-label="Avancer de 5 secondes">+5 s</button>
+        <button class="btn" aria-pressed=${rate !== 1} onClick=${() => setRate((r) => (r === 1 ? 0.75 : 1))}>${rate === 1 ? "1×" : "0,75×"}</button>` : null}
+    </div>
+    <div class="progress" aria-hidden="true"><span style=${`width:${dur ? (100 * pos) / dur : 0}%`}></span></div>
+    <div class="spread small muted">
+      <span>${clock(pos)} / ${clock(dur)}</span>
+      <span>${exam ? `Écoute ${Math.min(used, plays)} sur ${plays}` : `Mode entraînement · ${used} écoute${used > 1 ? "s" : ""}`}</span>
+    </div>
+    <label class="small" style="display:flex;gap:8px;align-items:flex-start">
+      <input type="checkbox" checked=${exam} onChange=${(e) => setExam(e.target.checked)} />
+      Mode examen (${plays} écoute${plays > 1 ? "s" : ""} maximum, sans retour en arrière)
+    </label>
+  </section>`;
 }
