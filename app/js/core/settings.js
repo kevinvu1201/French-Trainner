@@ -3,7 +3,7 @@
 
 import { logEvent } from "./events.js";
 
-export const DEFAULTS = { exam_date: null, daily_minutes: 20, target: null, weekend_ratio: 2, new_cards: 20 };
+export const DEFAULTS = { exam_date: null, daily_minutes: 20, target: null, weekend_ratio: 2, new_cards: 20, daily_xp: 50 };
 
 export function settingsFrom(events) {
   const out = { ...DEFAULTS };

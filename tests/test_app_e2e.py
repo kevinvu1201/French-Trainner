@@ -182,15 +182,15 @@ def test_drill_answer_is_logged_and_persists(sites, browser):
     assert submit is True  # nothing chosen yet
     browser.eval("document.querySelectorAll('.option')[0].click()", False)
     browser.wait("document.querySelector('.option[aria-checked=\"true\"]')")
+    # Choosing a confidence after an answer submits at once (no separate "Valider" tap)
     browser.eval("[...document.querySelectorAll('.confidence button')].find((b) => b.innerText.trim() === 'Hésitant').click()", False)
-    browser.wait("!document.querySelector('.sticky-actions .btn').disabled")
-    browser.eval("document.querySelector('.sticky-actions .btn').click()", False)
     browser.wait("document.querySelector('.feedback')")
+    browser.eval("document.querySelector('.sticky-actions .btn').click()", False)  # a stray tap now means "next", not a second answer
     browser.goto("about:blank")
     browser.goto(sites["plain"] + "#/stats", wait_for="document.querySelector('.tiles')")
     events = browser.eval("import('./js/core/events.js').then((m) => m.getEvents())")
     answers = [e for e in events if e["type"] == "answer"]
-    assert len(answers) >= 1
+    assert len(answers) == 1
     p = answers[-1]["payload"]
     assert p["topic"] == "quant" and p["mode"] == "drill" and p["confidence"] == 2 and p["choice"] == "A"
     assert p["los"] and p["module"].startswith("m01.") and isinstance(p["correct"], bool)
@@ -525,8 +525,6 @@ def test_french_content_lesson_cards_and_drill(real_site, browser):
     browser.goto(real_site + "#/practice/drill/subjonctif", wait_for="document.querySelector('.option')")
     browser.eval("document.querySelectorAll('.option')[0].click()", False)
     browser.eval("[...document.querySelectorAll('.confidence button')].find((b) => b.innerText.trim() === 'Sûr').click()", False)
-    browser.wait("!document.querySelector('.sticky-actions .btn').disabled")
-    browser.eval("document.querySelector('.sticky-actions .btn').click()", False)
     browser.wait("document.querySelector('.feedback')")
     assert any(w in browser.eval("document.querySelector('.feedback').innerText", False) for w in ("Correct", "Faux"))
     assert not browser.console, browser.console
@@ -600,3 +598,36 @@ def test_listening_set_encrypted_audio_exam_mode_and_transcript(listening_site, 
     modes = [e["payload"]["mode"] for e in events if e["type"] == "answer"]
     assert modes == ["listening"] * 3
     assert not browser.console, browser.console
+
+
+GAME_JS = """import('./js/core/game.js').then((g) => {
+  const DAY = 86400000, now = new Date(2026, 10, 1, 15).getTime();
+  const ans = (correct, ts, extra = {}) => ({ type: 'answer', ts, payload: { correct, confidence: 2, mode: 'drill', ...extra } });
+  const out = {};
+  out.xp = [g.xpFor(ans(true, 0)), g.xpFor(ans(true, 0, { confidence: 3 })), g.xpFor(ans(false, 0)),
+            g.xpFor(ans(true, 0, { mode: 'listening' })), g.xpFor({ type: 'review', payload: { grade: 3 } }),
+            g.xpFor({ type: 'review', payload: { grade: 1 } }), g.xpFor({ type: 'study', payload: { auto: true } }),
+            g.xpFor({ type: 'study', payload: {} }), g.xpFor({ type: 'setting', payload: {} })];
+  out.levels = [0, 99, 100, 249, 250].map((x) => [g.levelFor(x).level, g.levelFor(x).into]);
+  out.title = g.levelFor(0).title;
+  // yesterday: 10 right in a row, then a wrong one; today: a perfect 3-question set (one attempt)
+  const ev = [];
+  for (let k = 0; k < 10; k++) ev.push(ans(true, now - DAY + k * 1000));
+  ev.push(ans(false, now - DAY + 20000));
+  for (let k = 1; k <= 3; k++) ev.push(ans(true, now - 3600000 + k, { set: 'S1', mode: 'item_set' }));
+  const s = g.gameState(ev, { daily_xp: 30 }, now);
+  out.state = { today: s.today, goalDone: s.goalDone, streak: s.streak, bestCombo: s.bestCombo,
+                badges: [...s.earned.keys()].sort(), week: s.week.map((d) => d.xp) };
+  return out;
+})"""
+
+
+def test_game_rules(sites, browser):
+    browser.goto(sites["plain"] + "#/", wait_for="document.querySelector('.hero-card')")
+    o = browser.eval(GAME_JS)
+    assert o["xp"] == [10, 12, 2, 15, 5, 2, 0, 20, 0]  # effort always earns something; right and sure earns most
+    assert o["levels"] == [[1, 0], [1, 99], [2, 0], [2, 149], [3, 0]] and o["title"] == "Touriste"
+    st = o["state"]
+    assert st["today"] == 30 and st["goalDone"] and st["streak"] == 2 and st["bestCombo"] == 10  # the wrong answer resets the run
+    assert st["badges"] == ["combo10", "first", "perfect"]
+    assert st["week"][-1] == 30 and st["week"][-2] == 102

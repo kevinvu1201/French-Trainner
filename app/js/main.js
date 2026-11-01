@@ -3,6 +3,7 @@ import { getEvents } from "./core/events.js";
 import { useRoute } from "./core/router.js";
 import { startAutoSync } from "./core/sync.js";
 import { html, render, useEffect, useState } from "./lib.js";
+import { Celebrations } from "./game-ui.js";
 import { ErrorBox, Icon } from "./ui.js";
 import { Home } from "./views/home.js";
 import { ModuleView } from "./views/module.js";
@@ -110,6 +111,7 @@ function App() {
     <main>${v.body}</main>
     <${Tabs} active=${active} className="tabbar" />
     <${UpdateToast} />
+    <${Celebrations} />
   </div>`;
 }
 

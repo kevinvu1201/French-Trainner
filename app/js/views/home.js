@@ -9,6 +9,7 @@ import { saveSetting, settingsFrom } from "../core/settings.js";
 import { kvGet, kvSet } from "../core/store.js";
 import { useSyncStatus } from "../core/sync.js";
 import { html, useMemo, useState } from "../lib.js";
+import { BadgeGrid, GameHero, useGame } from "../game-ui.js";
 import { Loading, useAsync } from "../ui.js";
 
 const DAY = 86_400_000;
@@ -104,6 +105,7 @@ export function Home() {
   const count = events?.length ?? -1;
   const settings = useMemo(() => (events ? settingsFrom(events) : null), [count]);
   const model = useMemo(() => (events ? buildModel(events, m, Date.now(), { target: settings.target ?? undefined }) : null), [count]);
+  const game = useMemo(() => useGame(events), [count]);
   if (!events) return html`<${Loading} />`;
 
   const target = model.overall.target;
@@ -119,7 +121,10 @@ export function Home() {
   const answered = events.some((e) => e.type === "answer");
 
   return html`<div class="stack">
-    <h1>Français B2</h1>
+    <h1 class="sr-only">Français B2</h1>
+    <${GameHero} game=${game} />
+    <a class="btn primary go-btn" href=${href("practice", "smart", String(settings.daily_minutes))}>
+      ${game.goalDone ? "Continuer sur ma lancée" : game.today ? "Continuer ma séance" : "Commencer la séance du jour"} →</a>
     ${!m.weights_verified ? html`<p class="banner">Les poids des thèmes ne sont pas encore validés (<code>config/exam_weights.yaml</code>).</p>` : null}
     <${InstallHint} />
     <${SyncLine} />
@@ -131,7 +136,6 @@ export function Home() {
         <div class="sub">${settings.exam_date ? formatDate(`${settings.exam_date}T00:00`) : "touchez pour la régler"}</div></a>
       <div class="tile"><div class="k">Préparation</div><div class="v">${answered ? pct(model.overall.mean) : "—"}</div>
         <div class="sub">${answered ? `probablement ${pct(model.overall.lo)}–${pct(model.overall.hi)} · objectif ${pct(target)}` : "entraînez-vous pour l'estimer"}</div></div>
-      <div class="tile"><div class="k">Série</div><div class="v">${plural(days, "jour")}</div><div class="sub">d'affilée avec de l'entraînement</div></div>
       <div class="tile"><div class="k">À réviser</div><div class="v">${dueQuestions + dueCards.length}</div>
         <div class="sub">${dueQuestions} questions · ${dueCards.length} cartes</div></div>
     </div>
@@ -152,6 +156,9 @@ export function Home() {
         ${lastInfo ? html`<a class="btn" href=${href("m", last)}>Reprendre la lecture</a>` : null}
       </div>
     </section>
+
+    <div class="spread"><h2 class="section-title">Badges · ${game.earned.size} / 20</h2><a class="small" href="#/stats">Tous les badges</a></div>
+    <${BadgeGrid} game=${game} limit=${6} />
 
     ${weak.length ? html`<h2 class="section-title">Points faibles (priorité la plus haute)</h2>
       <ul class="list">${weak.map((l) => html`<li><a href=${href("practice", "drill", l.topic, l.module)}>

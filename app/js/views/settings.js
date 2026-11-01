@@ -2,6 +2,7 @@ import { downloadAll, forgetKey, isEncrypted, manifest, storageInfo } from "../c
 import { useEvents } from "../core/events.js";
 import { saveSetting, settingsFrom } from "../core/settings.js";
 import { downloadProgress, importFile, saveGistSettings, syncGist, useSyncStatus } from "../core/sync.js";
+import { fxPrefs, feedback, setFxPref } from "../core/fx.js";
 import { getTheme, setTheme } from "../core/theme.js";
 import { html, useState } from "../lib.js";
 import { useAsync } from "../ui.js";
@@ -67,6 +68,9 @@ function StudySettings() {
   const target = s.target ?? defaultTarget;
   return html`<section class="card stack">
     <strong>Plan de travail</strong>
+    <div class="spread"><span>Objectif quotidien<span class="small muted" style="display:block">XP par jour (une question juste ≈ 10 XP)</span></span>
+      <div class="seg" role="group" aria-label="Objectif quotidien">${[30, 50, 100, 150].map((n) => html`<button aria-pressed=${s.daily_xp === n}
+        onClick=${() => saveSetting("daily_xp", n)}>${n}</button>`)}</div></div>
     <label class="spread"><span>Date du DELF B2</span>
       <input type="date" value=${s.exam_date ?? ""} onChange=${(e) => saveSetting("exam_date", e.target.value || null)} /></label>
     <div class="spread"><span>Séance intelligente quotidienne</span>
@@ -87,6 +91,7 @@ function StudySettings() {
 
 export function Settings() {
   const [theme, setThemeState] = useState(getTheme());
+  const [fx, setFx] = useState(fxPrefs());
   const [dl, setDl] = useState(null); // {done, total} | "done" | Error
   const [tick, setTick] = useState(0);
   const { value: storage } = useAsync(storageInfo, [tick]);
@@ -111,6 +116,14 @@ export function Settings() {
 
     <${StudySettings} />
     <${ProgressData} />
+
+    <section class="card stack">
+      <strong>Sons et vibrations</strong>
+      <label class="spread"><span>Sons de réussite</span><input type="checkbox" checked=${fx.sound}
+        onChange=${(e) => { setFxPref("sound", e.target.checked); setFx(fxPrefs()); if (e.target.checked) feedback("right"); }} /></label>
+      <label class="spread"><span>Vibrations</span><input type="checkbox" checked=${fx.vibrate}
+        onChange=${(e) => { setFxPref("vibrate", e.target.checked); setFx(fxPrefs()); }} /></label>
+    </section>
 
     <section class="card stack">
       <strong>Apparence</strong>

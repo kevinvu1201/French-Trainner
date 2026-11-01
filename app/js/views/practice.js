@@ -2,6 +2,9 @@ import { CONFIDENCE, PACE_MS, answers as answerEvents, formatMs, localDay, pct }
 import { chunkNow, getChunk, manifest, moduleInfo, topicInfo } from "../core/data.js";
 import { getEvents, logEvent } from "../core/events.js";
 import { cardStatus, review } from "../core/fsrs.js";
+import { confetti, feedback, floatXP } from "../core/fx.js";
+import { xpFor } from "../core/game.js";
+import { Ring } from "../game-ui.js";
 import { renderMath } from "../core/katex.js";
 import { href } from "../core/router.js";
 import { buildModel } from "../core/mastery.js";
@@ -114,11 +117,12 @@ function ReportProblem({ q, module }) {
   </details>`;
 }
 
-export function QuestionCard({ q, chunk, value, onChange, reveal, label, ms }) {
+export function QuestionCard({ q, chunk, value, onChange, reveal, label, ms, animate }) {
   const ref = useRef(null);
   const { los } = questionMeta(q, chunk);
   useEffect(() => { renderMath(ref.current); }, [q.id, reveal]);
-  return html`<article class="qcard" ref=${ref}>
+  const verdict = animate && reveal && value.choice ? (value.choice === q.answer ? "is-right" : "is-wrong") : "";
+  return html`<article class=${`qcard ${verdict}`} ref=${ref}>
     <div class="small muted">${label} · ${los.map((l) => l.replace(/^los\./, "objectif ")).join(", ")}
       ${q.qtype ? ` · ${QTYPE[q.qtype] ?? q.qtype}` : ""}</div>
     ${q.vignette ? html`<details class="vignette" open>
@@ -161,30 +165,45 @@ function Runner({ items, title, mode, again }) {
   const [value, setValue] = useState({ choice: null, conf: null });
   const [revealed, setRevealed] = useState(false);
   const [results, setResults] = useState([]);
+  const [combo, setCombo] = useState(0);
   const shownAt = useRef(Date.now());
   const shownItems = useRef(items);
+  const actions = useRef(null);
+  const submitted = useRef(false); // one answer per question, even if the auto-submit and a tap race
 
   // Start over when "again" brings a new queue. Not on mount: the effect runs after the first
   // paint, and resetting then would wipe an answer picked in between.
   useEffect(() => {
     if (shownItems.current === items) return;
     shownItems.current = items;
-    setI(0); setResults([]); setValue({ choice: null, conf: null }); setRevealed(false);
+    setI(0); setResults([]); setValue({ choice: null, conf: null }); setRevealed(false); setCombo(0);
+    submitted.current = false;
     shownAt.current = Date.now();
   }, [items]);
+  // Picking a confidence after an answer submits at once: one tap fewer per question.
+  useEffect(() => { if (value.choice && value.conf && !revealed && i < items.length) submit(); }, [value.conf]);
 
   if (!items.length) return html`<div class="stack"><h1>${title}</h1><p>Pas encore de questions pour cette sélection.</p>
     <a class="btn" href="#/practice">Retour aux exercices</a></div>`;
   if (i >= items.length) return html`<${Summary} results=${results} title=${title} again=${again} />`;
 
   const { q, chunk, topic, reason, kind } = items[i];
-  const submit = async () => {
+  async function submit() {
+    if (revealed || submitted.current) return;
+    submitted.current = true;
     const ms = Date.now() - shownAt.current;
+    const correct = value.choice === q.answer;
+    const xp = xpFor({ type: "answer", payload: { mode, correct, confidence: value.conf } });
+    const streakNow = correct ? combo + 1 : 0;
     setRevealed(true);
-    setResults((r) => [...r, { q, correct: value.choice === q.answer, ms, conf: value.conf }]);
+    setCombo(streakNow);
+    setResults((r) => [...r, { q, correct, ms, conf: value.conf, xp, combo: streakNow }]);
+    feedback(correct ? (streakNow >= 3 ? "combo" : "right") : "wrong", streakNow);
+    floatXP(actions.current, correct && streakNow >= 3 ? `+${xp} XP · ×${streakNow}` : `+${xp} XP`);
     await recordAnswer(q, chunk, topic, value, ms, mode, kind ? { smart: kind } : {});
-  };
+  }
   const next = () => {
+    submitted.current = false;
     setI(i + 1); setValue({ choice: null, conf: null }); setRevealed(false);
     shownAt.current = Date.now();
     window.scrollTo(0, 0);
@@ -197,13 +216,15 @@ function Runner({ items, title, mode, again }) {
     else return false;
   });
   return html`<div class="stack">
-    <div class="spread"><h1 class="h-small">${title}</h1><span class="chip">${i + 1} / ${items.length}</span></div>
+    <div class="spread"><h1 class="h-small">${title}</h1>
+      <span class="row" style="gap:6px">${combo >= 2 ? html`<span class="combo" key=${combo}>🔥 ×${combo}</span>` : null}
+        <span class="chip">${i + 1} / ${items.length}</span></span></div>
     <p class="small muted kbd-hint">Clavier : A/B/C réponse · 1/2/3 confiance · Entrée valider ou suivant</p>
-    <div class="progress"><span style=${`width:${(100 * i) / items.length}%`}></span></div>
+    <div class="progress session"><span style=${`width:${(100 * (i + (revealed ? 1 : 0))) / items.length}%`}></span></div>
     ${reason ? html`<p class="reason small"><span class=${`chip ${kind}`}>${reason.split(": ")[0]}</span> ${reason.split(": ").slice(1).join(": ")}</p>` : null}
     <${QuestionCard} key=${q.id} q=${q} chunk=${chunk} value=${value} onChange=${setValue}
-      reveal=${revealed} label=${`Question ${i + 1}`} ms=${results[i]?.ms} />
-    <div class="row sticky-actions">
+      reveal=${revealed} label=${`Question ${i + 1}`} ms=${results[i]?.ms} animate />
+    <div class="row sticky-actions" ref=${actions}>
       ${!revealed
         ? html`<button class="btn primary" disabled=${!value.choice || !value.conf} onClick=${submit}>
             ${!value.choice ? "Choisissez une réponse" : !value.conf ? "Indiquez votre confiance" : "Valider"}</button>`
@@ -240,15 +261,42 @@ export function SmartSession({ minutes }) {
   return html`<${Runner} items=${items} title=${`Séance intelligente · ${minutes} min`} mode="smart" again=${() => setRun((n) => n + 1)} />`;
 }
 
+function useCountUp(target, ms = 900) {
+  const [n, setN] = useState(0);
+  useEffect(() => {
+    const start = performance.now();
+    let frame;
+    const step = (t) => { const k = Math.min(1, (t - start) / ms); setN(Math.round(target * (1 - (1 - k) ** 3))); if (k < 1) frame = requestAnimationFrame(step); };
+    frame = requestAnimationFrame(step);
+    return () => cancelAnimationFrame(frame);
+  }, [target]);
+  return n;
+}
+
+const verdict = (share) => share === 1 ? ["Parfait !", "Un sans-faute. Chapeau 🎩"] : share >= 0.8 ? ["Excellent !", "Vous maîtrisez bien ce point."]
+  : share >= 0.6 ? ["Bien joué", "Encore un effort sur les questions ratées."] : ["On continue !", "Chaque erreur corrigée ici, c'est un point gagné le jour de l'examen."];
+
 function Summary({ results, title, again }) {
   const right = results.filter((r) => r.correct).length;
   const avg = results.reduce((s, r) => s + r.ms, 0) / Math.max(results.length, 1);
   const sureWrong = results.filter((r) => !r.correct && r.conf === 3).length;
   const missed = results.filter((r) => !r.correct);
+  const xp = results.reduce((s, r) => s + (r.xp ?? 0), 0);
+  const best = Math.max(0, ...results.map((r) => r.combo ?? 0));
+  const share = right / Math.max(results.length, 1);
+  const shown = useCountUp(xp);
+  const [head, sub] = verdict(share);
+  useEffect(() => { feedback("done"); if (share >= 0.8) confetti(); }, []);
   return html`<div class="stack">
-    <h1>${title} : séance terminée</h1>
+    <section class="summary-hero">
+      <${Ring} value=${share} size=${132} stroke=${12} done=${share >= 0.8}><strong>${right}/${results.length}</strong><span>${pct(share)}</span></${Ring}>
+      <div class="summary-head">${head}</div>
+      <div class="small">${sub}</div>
+      <div class="summary-xp">+${shown} XP</div>
+      ${best >= 3 ? html`<div class="small">Meilleure série : 🔥 ×${best}</div>` : null}
+    </section>
+    <h1 class="h-small">${title}</h1>
     <div class="tiles">
-      <div class="tile"><div class="k">Score</div><div class="v">${right} / ${results.length}</div><div class="sub">${pct(right / results.length)}</div></div>
       <div class="tile"><div class="k">Temps moyen</div><div class="v">${formatMs(avg)}</div><div class="sub">objectif ${formatMs(PACE_MS)}</div></div>
       <div class="tile"><div class="k">Sûr mais faux</div><div class="v">${sureWrong}</div><div class="sub">les plus dangereuses</div></div>
     </div>
@@ -291,6 +339,12 @@ export function ItemSet({ topic, module }) {
   const submit = async () => {
     const ms = Date.now() - startedAt.current;
     setDone({ ms });
+    const mode = set.audio ? "listening" : "item_set";
+    const right = set.questions.filter((q, k) => values[k].choice === q.answer).length;
+    const xp = set.questions.reduce((s, q, k) => s + xpFor({ type: "answer", payload: { mode, correct: values[k].choice === q.answer, confidence: values[k].conf } }), 0);
+    feedback(right / set.questions.length >= 0.5 ? "done" : "wrong");
+    if (right === set.questions.length) confetti();
+    floatXP(root.current?.querySelector(".sticky-actions") ?? root.current, `+${xp} XP`);
     for (const [k, q] of set.questions.entries()) {
       await recordAnswer(q, data.chunk, topic, values[k], ms / set.questions.length, set.audio ? "listening" : "item_set", { set: set.id });
     }
@@ -307,8 +361,8 @@ export function ItemSet({ topic, module }) {
         <tbody>${ex.rows.slice(1).map((r) => html`<tr>${r.map((c) => html`<td><${Md} text=${c} /></td>`)}</tr>`)}</tbody></table></div></div>`)}
     </section>
     ${set.questions.map((q, k) => html`<${QuestionCard} key=${q.id} q=${q} chunk=${data.chunk} value=${values[k]}
-      onChange=${(v) => setValues((vals) => vals.map((old, j) => (j === k ? v : old)))} reveal=${!!done} label=${`Question ${k + 1} sur ${set.questions.length}`} />`)}
-    ${done ? html`<div class="card spread"><strong>${score} / ${set.questions.length} bonnes réponses</strong>
+      onChange=${(v) => setValues((vals) => vals.map((old, j) => (j === k ? v : old)))} reveal=${!!done} label=${`Question ${k + 1} sur ${set.questions.length}`} animate />`)}
+    ${done ? html`<div class=${`card spread set-score ${score === set.questions.length ? "perfect" : ""}`}><strong>${score === set.questions.length ? "💯 " : ""}${score} / ${set.questions.length} bonnes réponses</strong>
         ${set.audio ? null : html`<span class="small">${formatMs(done.ms)} ${done.ms > pace ? `· au-delà des ${formatMs(pace)} prévues` : `· dans les ${formatMs(pace)} prévues`}</span>`}</div>
       ${set.transcript ? html`<details class="card transcript" open>
         <summary>Transcription</summary>
@@ -380,7 +434,11 @@ export function Cards({ topic }) {
   useEffect(() => { renderMath(root.current); }, [queue?.[0]?.id, shown]);
 
   const f = queue?.[0];
+  const cardEl = useRef(null);
+  const reveal = () => { feedback("flip"); setShown(true); };
   const grade = async (g) => {
+    feedback(g >= 3 ? "card" : "flip");
+    floatXP(cardEl.current, `+${xpFor({ type: "review", payload: { grade: g } })} XP`);
     await logEvent("review", { card: f.id, topic, los: f.los, grade: g, ms: Date.now() - shownAt.current });
     // "Revoir" brings the card back at the end of today's queue, as in Anki's relearning step.
     setQueue((q) => (g === 1 ? [...q.slice(1), f] : q.slice(1)));
@@ -391,7 +449,7 @@ export function Cards({ topic }) {
   // Registered on every render (before any early return), so the handler always sees the current card.
   useShortcuts((key) => {
     if (!f) return false;
-    if (!shown && (key === " " || key === "Enter")) setShown(true);
+    if (!shown && (key === " " || key === "Enter")) reveal();
     else if (shown && ["1", "2", "3", "4"].includes(key)) grade(Number(key));
     else return false;
   });
@@ -420,7 +478,7 @@ export function Cards({ topic }) {
     <div class="spread"><h1 class="h-small">${name}</h1>
       <span class="chip">${queue.length} à faire${isNew ? " · nouvelle" : ""}</span></div>
     <p class="small muted kbd-hint">Clavier : Espace pour retourner · 1 à 4 pour noter</p>
-    <article class="card flashcard">
+    <article class=${`card flashcard ${shown ? "flipped" : ""}`} key=${f.id} ref=${cardEl} onClick=${() => !shown && reveal()}>
       ${f.latex ? html`<div class="small muted">${f.name}</div><p><strong>Quand l'utiliser.</strong> <${Md} text=${f.when_to_use} /></p>`
         : html`${f.name !== f.front ? html`<div class="small muted">${f.name}</div>` : null}
           <h2 class="h-small"><${Md} text=${f.front} /></h2>`}
@@ -431,7 +489,7 @@ export function Cards({ topic }) {
     </article>
     <div class="row sticky-actions">
       ${shown ? GRADES.map(([g, label]) => html`<button class=${`btn ${g === 3 ? "primary" : ""}`} onClick=${() => grade(g)}>${label}</button>`)
-              : html`<button class="btn primary" onClick=${() => setShown(true)}>Voir la réponse</button>`}
+              : html`<button class="btn primary" onClick=${reveal}>Voir la réponse</button>`}
     </div>
   </div>`;
 }

@@ -8,6 +8,7 @@ import { buildModel, readinessTrend } from "../core/mastery.js";
 import { settingsFrom } from "../core/settings.js";
 import { href } from "../core/router.js";
 import { html, useEffect, useState } from "../lib.js";
+import { BadgeGrid, useGame } from "../game-ui.js";
 import { Loading } from "../ui.js";
 
 const losLabel = (id) => id.replace(/^los\./, "Objectif ");
@@ -48,6 +49,8 @@ export function Stats() {
 
   return html`<div class="stack">
     <h1>Progrès</h1>
+    ${(() => { const game = useGame(events); return html`<h2 class="section-title">Badges · ${game.earned.size} / 20 · meilleure série ${game.bestCombo} 🔥</h2>
+      <${BadgeGrid} game=${game} />`; })()}
     <div class="tiles">
       <div class="tile"><div class="k">Réponses</div><div class="v">${ans.length}</div><div class="sub">${events.filter((e) => e.type === "review").length} cartes révisées</div></div>
       <div class="tile"><div class="k">Réussite</div><div class="v">${ans.length >= MIN_N ? pct(correct / ans.length) : "—"}</div>
