@@ -90,6 +90,15 @@ export function getGraph() {
   return graphPromise;
 }
 
+/** Offline translation for a text key (see builder/translations.py), from the chunks in memory. */
+export function findTranslation(key) {
+  for (const chunk of state.loaded.values()) {
+    const t = chunk.translations?.[key];
+    if (t) return t;
+  }
+  return null;
+}
+
 /** The topic's chunk if it's already in memory (lets views render without a loading flash). */
 export const chunkNow = (topicId) => state.loaded.get(topicId);
 

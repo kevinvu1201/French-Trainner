@@ -435,3 +435,29 @@ label.btn { position: relative; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* ---------- tap-to-translate ---------- */
+[data-tr] { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.option [data-tr] { cursor: inherit; }
+.option { -webkit-touch-callout: none; user-select: none; }
+/* floats above the tab bar so it never shifts the text being tapped */
+.lookup-tip { position: fixed; z-index: 20; left: 16px; right: 16px; bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom) + 72px);
+  margin: 0 auto; max-width: 520px; padding: 8px 12px; border-radius: 12px; background: var(--accent); color: var(--accent-fg);
+  box-shadow: 0 8px 20px -8px rgba(0,0,0,.4); cursor: pointer; animation: drop .4s cubic-bezier(.2, 1.4, .4, 1) both; transform: none; }
+.sheet-backdrop { position: fixed; inset: 0; z-index: 66; background: rgba(10, 14, 30, .35); animation: fade .2s ease both; }
+.sheet {
+  position: absolute; left: 0; right: 0; bottom: 0; max-height: 75vh; overflow: auto;
+  margin: 0 auto; max-width: 760px; padding: 8px 18px calc(18px + env(safe-area-inset-bottom));
+  background: var(--surface); border-radius: 20px 20px 0 0; box-shadow: 0 -12px 40px rgba(0,0,0,.25);
+  display: flex; flex-direction: column; gap: 8px; animation: sheetup .28s cubic-bezier(.2, .9, .3, 1) both;
+}
+.sheet-grip { width: 42px; height: 5px; border-radius: 99px; background: var(--line); margin: 2px auto 6px; }
+.sheet-word { font-size: 1.5rem; }
+.sheet-gloss { margin: 0; font-size: 1.1rem; }
+.sheet-sentence { padding: 10px 12px; border-radius: 12px; background: var(--surface-2); }
+.sheet-sentence p { margin: 4px 0; }
+.sheet-sentence mark { background: color-mix(in srgb, var(--gold) 45%, transparent); color: inherit; border-radius: 4px; padding: 0 2px; }
+.sheet-en { color: var(--muted); font-style: italic; }
+.sheet-ai { padding: 10px 12px; border-radius: 12px; border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line)); background: var(--accent-soft); }
+.sheet-ai p { margin: 4px 0; }
+@keyframes sheetup { from { transform: translateY(100%); } }

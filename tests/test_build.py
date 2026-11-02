@@ -171,3 +171,24 @@ def test_question_count_rules_for_sets(project, good_generated):
     _write_generated(project, good_generated)
     msgs = [i["msg"] for i in build(Paths(project)).report["issues"] if i["code"] == "schema_generated"]
     assert any("transcript" in m for m in msgs)
+
+
+def test_translations_ship_only_while_their_text_is_unchanged(project, good_generated):
+    from builder.translations import collect_texts, text_hash
+    _write_generated(project, good_generated)
+    texts = collect_texts(good_generated["questions"], good_generated["item_sets"])
+    stem, opt = texts["q.01.c.001|stem"], texts["q.01.c.001|A"]
+    (project / "translations").mkdir()
+    (project / "translations" / "quant.json").write_text(json.dumps({
+        "q.01.c.001|stem": {"h": text_hash(stem), "en": "Adjusted R2 is closest to:", "s": [[stem, "Adjusted R2 is closest to:"]], "g": {"proche": "close"}},
+        "q.01.c.001|A": {"h": "stale0000000", "en": "old", "s": [], "g": {}},  # its text changed since translation
+    }), encoding="utf-8")
+    paths = Paths(project)
+    rep = build(paths).report
+    chunk = json.loads(next((paths.data / "chunks").glob("quant.*.json")).read_text(encoding="utf-8"))
+    assert set(chunk["translations"]) == {"q.01.c.001|stem"}
+    assert chunk["translations"]["q.01.c.001|stem"]["g"] == {"proche": "close"}
+    assert any(i["code"] == "translation_stale" for i in rep["issues"])
+    manifest = json.loads((paths.data / "manifest.json").read_text(encoding="utf-8"))
+    assert next(t for t in manifest["topics"] if t["id"] == "quant")["counts"]["translations"] == 1
+    assert opt  # options are collected too

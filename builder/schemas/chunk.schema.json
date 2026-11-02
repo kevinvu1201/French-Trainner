@@ -3,7 +3,7 @@
   "$id": "chunk.schema.json",
   "title": "Compiled content for one topic (dist/data/chunks/<topic>.<hash>.json), loaded lazily",
   "type": "object",
-  "required": ["schema", "topic", "readings", "modules", "los", "questions", "item_sets", "formulas", "learning", "figures", "repairs"],
+  "required": ["schema", "topic", "readings", "modules", "los", "questions", "item_sets", "formulas", "learning", "figures", "repairs", "translations"],
   "additionalProperties": false,
   "properties": {
     "schema": {"const": 1},
@@ -91,6 +91,14 @@
       }
     },
     "item_sets": {"type": "array"},
+    "translations": {
+      "type": "object",
+      "description": "Offline tap-to-translate: text key -> {en, s: [[fr, en]], g: {word: meaning in context}}",
+      "additionalProperties": {
+        "type": "object", "required": ["en", "s", "g"],
+        "properties": {"en": {"type": "string"}, "s": {"type": "array"}, "g": {"type": "object", "additionalProperties": {"type": "string"}}}
+      }
+    },
     "formulas": {"type": "array"},
     "learning": {"type": "object", "description": "moduleId -> generated learning object (see generated.schema.json)"},
     "figures": {

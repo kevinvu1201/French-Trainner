@@ -17,6 +17,7 @@ from typing import Any
 from .config import Config, Paths
 from .graph import build_graph
 from .incremental import image_dir, sha1
+from .translations import load_for_chunk
 
 CHUNK_SCHEMA = 1
 _FIG_TOKEN = re.compile(r"\[\[(fig\.[0-9a-f]{10})\]\]")
@@ -81,7 +82,8 @@ def build_chunks(books: list[dict[str, Any]], cfg: Config, paths: Paths) -> tupl
 
     chunks: dict[str, dict[str, Any]] = {
         t.id: {"schema": CHUNK_SCHEMA, "topic": t.id, "readings": [], "modules": [], "los": [],
-               "questions": [], "item_sets": [], "formulas": [], "learning": {}, "figures": {}, "repairs": {}}
+               "questions": [], "item_sets": [], "formulas": [], "learning": {}, "figures": {}, "repairs": {},
+               "translations": {}}
         for t in cfg.topics
     }
     for b in books:
@@ -132,6 +134,10 @@ def build_chunks(books: list[dict[str, Any]], cfg: Config, paths: Paths) -> tupl
     for topic, ch in chunks.items():
         ch["readings"].sort(key=lambda r: r["n"])
         _merge_generated(ch, load_generated(paths, topic, issues), issues)
+        ch["translations"], stale = load_for_chunk(paths.root / "translations" / f"{topic}.json", ch)
+        if stale:
+            _issue(issues, "warning", "translation_stale",
+                   f"{topic}: {stale} translations no longer match their text; run authoring/translate.py {topic}")
         refs: set[str] = set()
         _fig_refs([ch["readings"], ch["modules"], ch["los"], ch["questions"]], refs)
         ch["figures"] = {f: _figure_out(figures[f]) for f in sorted(refs) if f in figures}
@@ -245,7 +251,8 @@ def write_outputs(chunks: dict[str, dict[str, Any]], cfg: Config, paths: Paths) 
                        "questions": len(ch["questions"]), "item_sets": len(ch["item_sets"]),
                        "formulas": len(ch["formulas"]), "figures": len(ch["figures"]),
                        "repairs": len(ch["repairs"]), "learning": len(ch["learning"]),
-                       "audio_sets": sum(1 for s in ch["item_sets"] if s.get("audio"))},
+                       "audio_sets": sum(1 for s in ch["item_sets"] if s.get("audio")),
+                       "translations": len(ch["translations"])},
             "readings": [{"id": r["id"], "n": r["n"], "title": r["title"],
                           "modules": [{"id": m["id"], "title": m["title"],
                                        "los": [l["id"] for l in ch["los"] if m["id"] in l["modules"]]}

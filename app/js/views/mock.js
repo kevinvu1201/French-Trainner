@@ -128,7 +128,7 @@ function Running({ state, chunks, save }) {
     <nav class="mock-nav" aria-label="Textes">${sets.map((st, i) => html`<button aria-current=${i === state.active ? "step" : undefined}
       class=${`${answered(st) ? "done" : ""} ${st.questions.some((q) => state.flags[q.id]) ? "flagged" : ""}`} onClick=${() => go(i)}>${i + 1}</button>`)}</nav>
     <div class="spread"><h1 class="h-small">${set.title ?? `Texte ${state.active + 1}`}</h1><span class="chip">${topicInfo(set.topic)?.name}</span></div>
-    <section class="vignette-full">${paragraphs(set.vignette).map((p) => html`<${Md} tag="p" text=${p} chunk=${chunk} />`)}
+    <section class="vignette-full">${paragraphs(set.vignette).map((p, i) => html`<${Md} tag="p" text=${p} chunk=${chunk} tr=${`${set.id}|v${i}`} />`)}
       ${set.exhibits.map((ex) => html`<div class="exhibit"><div class="small"><strong><${Md} text=${ex.title} /></strong></div>
         <div class="table-wrap"><table><thead><tr>${ex.rows[0].map((c) => html`<th><${Md} text=${c} /></th>`)}</tr></thead>
         <tbody>${ex.rows.slice(1).map((r) => html`<tr>${r.map((c) => html`<td><${Md} text=${c} /></td>`)}</tr>`)}</tbody></table></div></div>`)}
@@ -136,7 +136,7 @@ function Running({ state, chunks, save }) {
     ${set.questions.map((q, k) => html`<article class="qcard">
       <div class="spread small muted"><span>Question ${k + 1} sur ${set.questions.length}</span>
         <button class=${`btn flag ${state.flags[q.id] ? "on" : ""}`} onClick=${() => flag(q.id)} aria-pressed=${!!state.flags[q.id]}>⚑ À revoir</button></div>
-      <${Md} tag="p" text=${q.stem} chunk=${chunk} />
+      <${Md} tag="p" text=${q.stem} chunk=${chunk} tr=${`${q.id}|stem`} />
       <${Options} q=${q} chunk=${chunk} value=${{ choice: state.answers[q.id]?.choice ?? null }} onChange=${(v) => answer(q.id, v.choice)} reveal=${false} />
     </article>`)}
     <div class="row sticky-actions">

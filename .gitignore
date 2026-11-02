@@ -11,3 +11,5 @@ __pycache__/
 authoring/private/
 content/ecoute.json
 generated/ecoute/
+# Listening translations are derived from the book transcripts: private, like them.
+translations/ecoute.json

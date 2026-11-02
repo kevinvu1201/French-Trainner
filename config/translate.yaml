@@ -1,0 +1,3 @@
+# Model for authoring/translate.py (pre-translation) and the default for the app's "Expliquer avec l'IA".
+# The API key is never stored here: GEMINI_API_KEY in the environment, or Settings on the phone.
+model: gemini-2.5-flash

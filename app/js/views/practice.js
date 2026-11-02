@@ -5,6 +5,7 @@ import { cardStatus, review } from "../core/fsrs.js";
 import { confetti, feedback, floatXP } from "../core/fx.js";
 import { xpFor } from "../core/game.js";
 import { Ring } from "../game-ui.js";
+import { LookupTip } from "../lookup.js";
 import { renderMath } from "../core/katex.js";
 import { href } from "../core/router.js";
 import { buildModel } from "../core/mastery.js";
@@ -64,7 +65,7 @@ export function Options({ q, chunk, value, onChange, reveal }) {
       const state = !reveal ? "" : letter === q.answer ? "right" : letter === value.choice ? "wrong" : "";
       return html`<button class=${`option ${state}`} role="radio" aria-checked=${value.choice === letter} disabled=${reveal}
           onClick=${() => onChange({ ...value, choice: letter })}>
-        <span class="letter">${letter}</span><${Md} text=${opt} chunk=${chunk} />
+        <span class="letter">${letter}</span><${Md} text=${opt} chunk=${chunk} tr=${`${q.id}|${letter}`} />
       </button>`;
     })}
   </div>`;
@@ -89,7 +90,7 @@ function Feedback({ q, chunk, choice, ms }) {
     <div class="spread"><strong>${correct ? "✓ Correct" : `✗ Faux : la bonne réponse est ${q.answer}`}</strong>
       ${ms != null ? html`<span class="small">${formatMs(ms)} ${ms > PACE_MS ? `· plus de ${formatMs(PACE_MS)}` : ""}</span>` : null}</div>
     ${q.explanations
-      ? html`<ul class="why-list">${LETTERS.map((l) => html`<li class=${l === q.answer ? "right" : ""}><b>${l}.</b> <${Md} text=${q.explanations[l]} chunk=${chunk} /></li>`)}</ul>`
+      ? html`<ul class="why-list">${LETTERS.map((l) => html`<li class=${l === q.answer ? "right" : ""}><b>${l}.</b> <${Md} text=${q.explanations[l]} chunk=${chunk} tr=${`${q.id}|x${l}`} /></li>`)}</ul>`
       : html`<div class="why-list"><${Md} tag="p" text=${q.explanation} chunk=${chunk} /></div>`}
     ${!correct && info ? html`<div class="go-deeper">
       <span class="small muted">Pour comprendre</span>
@@ -127,7 +128,7 @@ export function QuestionCard({ q, chunk, value, onChange, reveal, label, ms, ani
       ${q.qtype ? ` · ${QTYPE[q.qtype] ?? q.qtype}` : ""}</div>
     ${q.vignette ? html`<details class="vignette" open>
       <summary>Le texte</summary>${paragraphs(q.vignette).map((p) => html`<${Md} tag="p" text=${p} chunk=${chunk} />`)}</details>` : null}
-    <${Md} tag="p" text=${q.stem} chunk=${chunk} />
+    <${Md} tag="p" text=${q.stem} chunk=${chunk} tr=${`${q.id}|stem`} />
     <${Options} q=${q} chunk=${chunk} value=${value} onChange=${onChange} reveal=${reveal} />
     <${Confidence} value=${value} onChange=${onChange} disabled=${reveal} />
     ${reveal ? html`<${Feedback} q=${q} chunk=${chunk} choice=${value.choice} ms=${ms} />` : null}
@@ -220,6 +221,7 @@ function Runner({ items, title, mode, again }) {
       <span class="row" style="gap:6px">${combo >= 2 ? html`<span class="combo" key=${combo}>🔥 ×${combo}</span>` : null}
         <span class="chip">${i + 1} / ${items.length}</span></span></div>
     <p class="small muted kbd-hint">Clavier : A/B/C réponse · 1/2/3 confiance · Entrée valider ou suivant</p>
+    <${LookupTip} />
     <div class="progress session"><span style=${`width:${(100 * (i + (revealed ? 1 : 0))) / items.length}%`}></span></div>
     ${reason ? html`<p class="reason small"><span class=${`chip ${kind}`}>${reason.split(": ")[0]}</span> ${reason.split(": ").slice(1).join(": ")}</p>` : null}
     <${QuestionCard} key=${q.id} q=${q} chunk=${chunk} value=${value} onChange=${setValue}
@@ -355,7 +357,8 @@ export function ItemSet({ topic, module }) {
   return html`<div class="stack" ref=${root}>
     <div class="spread"><h1 class="h-small">${set.title ?? "Texte à trous"}</h1><span class="chip">${topicInfo(topic)?.name}</span></div>
     ${set.audio ? html`<${AudioPlayer} key=${set.id} src=${set.audio} plays=${set.plays} title=${set.title ?? "Écoute"} />` : null}
-    <section class="vignette-full">${paragraphs(set.vignette).map((p) => html`<${Md} tag="p" text=${p} chunk=${data.chunk} />`)}
+    <${LookupTip} />
+    <section class="vignette-full">${paragraphs(set.vignette).map((p, i) => html`<${Md} tag="p" text=${p} chunk=${data.chunk} tr=${`${set.id}|v${i}`} />`)}
       ${(set.exhibits ?? []).map((ex) => html`<div class="exhibit"><div class="small"><strong><${Md} text=${ex.title} /></strong></div>
         <div class="table-wrap"><table><thead><tr>${ex.rows[0].map((c) => html`<th><${Md} text=${c} /></th>`)}</tr></thead>
         <tbody>${ex.rows.slice(1).map((r) => html`<tr>${r.map((c) => html`<td><${Md} text=${c} /></td>`)}</tr>`)}</tbody></table></div></div>`)}
@@ -367,7 +370,7 @@ export function ItemSet({ topic, module }) {
       ${set.transcript ? html`<details class="card transcript" open>
         <summary>Transcription</summary>
         <p class="small muted">Relisez les passages qui contiennent les réponses, puis réécoutez en mode entraînement (décochez « Mode examen »).</p>
-        <div class="reader">${paragraphs(set.transcript).map((p) => html`<${Md} tag="p" text=${p} />`)}</div>
+        <div class="reader">${paragraphs(set.transcript).map((p, i) => html`<${Md} tag="p" text=${p} tr=${`${set.id}|t${i}`} />`)}</div>
       </details>` : null}
       <div class="row"><button class="btn primary" onClick=${() => setRun((n) => n + 1)}>${set.audio ? "Exercice suivant" : "Texte suivant"}</button>
         <a class="btn" href="#/practice">Retour aux exercices</a></div>`

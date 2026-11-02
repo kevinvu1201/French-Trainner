@@ -3,6 +3,7 @@ import { useEvents } from "../core/events.js";
 import { saveSetting, settingsFrom } from "../core/settings.js";
 import { downloadProgress, importFile, saveGistSettings, syncGist, useSyncStatus } from "../core/sync.js";
 import { fxPrefs, feedback, setFxPref } from "../core/fx.js";
+import { DEFAULT_MODEL, aiSettings, explainWithAI, saveAiSettings } from "../lookup.js";
 import { getTheme, setTheme } from "../core/theme.js";
 import { html, useState } from "../lib.js";
 import { useAsync } from "../ui.js";
@@ -56,6 +57,34 @@ function ProgressData() {
       <div class="row"><button class="btn primary" disabled=${busy || !(token ?? gist?.token)} onClick=${sync}>Synchroniser</button>
         ${gist?.lastSync ? html`<span class="small muted">Dernière synchronisation : ${new Date(gist.lastSync).toLocaleString("fr-FR")}</span>` : null}</div>
     </details>
+    ${msg ? html`<p class="small" role="status" style=${`color:var(${msg.ok ? "--ok" : "--bad"})`}>${msg.text}</p>` : null}
+  </section>`;
+}
+
+function TranslationSettings() {
+  const { value: saved } = useAsync(aiSettings, []);
+  const [key, setKey] = useState(null);
+  const [model, setModel] = useState(null);
+  const [msg, setMsg] = useState(null);
+  const current = { key: key ?? saved?.key ?? "", model: model ?? saved?.model ?? DEFAULT_MODEL };
+  const save = async () => { await saveAiSettings(current); setMsg({ ok: true, text: "Enregistré ✓" }); };
+  const test = async () => {
+    setMsg({ ok: true, text: "Test en cours…" });
+    try {
+      await saveAiSettings(current);
+      const r = await explainWithAI({ word: "grève", sentence: "Les enseignants font la grève.", context: null }, current);
+      setMsg({ ok: true, text: `Ça marche ✓ « grève » = ${r.meaning}` });
+    } catch (e) { setMsg({ ok: false, text: e.message }); }
+  };
+  return html`<section class="card stack">
+    <strong>Traduction</strong>
+    <p class="small muted">Dans les exercices, <b>touchez un mot</b> (appui long sur une réponse) pour voir son sens dans le contexte
+      et la phrase en anglais. Cela marche <b>hors ligne</b>. Avec une clé Gemini gratuite (aistudio.google.com → <i>Get API key</i>),
+      le bouton « Expliquer avec l'IA » donne en plus une explication détaillée quand vous êtes connecté. La clé reste sur cet appareil.</p>
+    <label class="stack small">Clé API Gemini<input type="password" autocomplete="off" value=${current.key} onInput=${(e) => setKey(e.target.value.trim())} /></label>
+    <label class="stack small">Modèle<input type="text" value=${current.model} onInput=${(e) => setModel(e.target.value.trim())} /></label>
+    <div class="row"><button class="btn primary" onClick=${save}>Enregistrer</button>
+      <button class="btn" disabled=${!current.key || !navigator.onLine} onClick=${test}>Tester</button></div>
     ${msg ? html`<p class="small" role="status" style=${`color:var(${msg.ok ? "--ok" : "--bad"})`}>${msg.text}</p>` : null}
   </section>`;
 }
@@ -115,6 +144,7 @@ export function Settings() {
     <h1>Réglages</h1>
 
     <${StudySettings} />
+    <${TranslationSettings} />
     <${ProgressData} />
 
     <section class="card stack">

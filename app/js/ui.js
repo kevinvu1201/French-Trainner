@@ -19,12 +19,14 @@ export function useAsync(fn, deps) {
 }
 
 /** Inline markdown; figure tokens inside the text become figures. */
-export function Md({ text, chunk, tag = "span" }) {
+/** Inline markdown; figure tokens inside the text become figures. `tr` is the text's key in the
+ * offline translations: the rendered element carries it as data-tr for tap-to-translate. */
+export function Md({ text, chunk, tag = "span", tr }) {
   const parts = splitFigures(text);
   if (parts.length === 1 && typeof parts[0] === "string") {
-    return html`<${tag} dangerouslySetInnerHTML=${{ __html: inline(text) }} />`;
+    return html`<${tag} data-tr=${tr} dangerouslySetInnerHTML=${{ __html: inline(text) }} />`;
   }
-  return html`<${tag}>${parts.map((p) =>
+  return html`<${tag} data-tr=${tr}>${parts.map((p) =>
     typeof p === "string" ? html`<span dangerouslySetInnerHTML=${{ __html: inline(p) }} />` : html`<${Fig} id=${p.fig} chunk=${chunk} inText />`)}</${tag}>`;
 }
 

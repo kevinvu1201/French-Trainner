@@ -631,3 +631,85 @@ def test_game_rules(sites, browser):
     assert st["today"] == 30 and st["goalDone"] and st["streak"] == 2 and st["bestCombo"] == 10  # the wrong answer resets the run
     assert st["badges"] == ["combo10", "first", "perfect"]
     assert st["week"][-1] == 30 and st["week"][-2] == 102
+
+
+@pytest.fixture(scope="module")
+def translated_site(tmp_path_factory):
+    """The fixture book with one generated question whose stem and option A have offline translations."""
+    from builder.translations import collect_texts, text_hash
+    from .conftest import _GOOD_GENERATED
+    root = tmp_path_factory.mktemp("tr")
+    shutil.copytree(REPO / "config", root / "config", ignore=shutil.ignore_patterns("crypto.yaml"))
+    shutil.copytree(REPO / "app", root / "app")
+    (root / "content").mkdir()
+    shutil.copy(REPO / "tests" / "fixtures" / "sample_book.md", root / "content" / "Book 9.md")
+    (root / "config" / "topics.yaml").write_text(
+        "topics:\n  - {id: quant, name: Quant, readings: [1, 1]}\n  - {id: economics, name: Econ, readings: [2, 2]}\n", encoding="utf-8")
+    (root / "config" / "exam_weights.yaml").write_text(FIXTURE_WEIGHTS, encoding="utf-8")
+    doc = json.loads(json.dumps(_GOOD_GENERATED))
+    doc["repairs"] = {}
+    doc["questions"][0]["stem"] = "Le modèle ajusté est le plus proche de :"
+    del doc["questions"][0]["calc"]
+    doc["questions"][0]["qtype"] = "conceptual"
+    (root / "generated" / "quant").mkdir(parents=True)
+    (root / "generated" / "quant" / "m01.2.json").write_text(json.dumps(doc), encoding="utf-8")
+    texts = collect_texts(doc["questions"], [])
+    stem, a = texts["q.01.c.001|stem"], texts["q.01.c.001|A"]
+    (root / "translations").mkdir()
+    (root / "translations" / "quant.json").write_text(json.dumps({
+        "q.01.c.001|stem": {"h": text_hash(stem), "en": "The adjusted model is closest to:", "s": [[stem, "The adjusted model is closest to:"]],
+                            "g": {"ajusté": "adjusted (ajuster)", "proche": "close"}},
+        "q.01.c.001|A": {"h": text_hash(a), "en": "0.596", "s": [], "g": {}},
+    }), encoding="utf-8")
+    paths = Paths(root)
+    assert build(paths).ok
+    build_site(paths, paths.dist)
+    srv = make_server(paths.dist, port=0)
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    return f"http://127.0.0.1:{srv.server_address[1]}/"
+
+
+def _point_at(browser, selector, word):
+    return browser.eval(f"""(() => {{ const el = document.querySelector({json.dumps(selector)});
+      const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT); let n; while ((n = w.nextNode())) {{
+        const i = n.textContent.indexOf({json.dumps(word)}); if (i >= 0) {{ const r = document.createRange(); r.setStart(n, i + 1); r.setEnd(n, i + 2);
+        const b = r.getBoundingClientRect(); return [b.x + 1, b.y + b.height / 2]; }} }} }})()""", False)
+
+
+def test_tap_to_translate(translated_site, browser):
+    for _ in range(30):  # the drill shows the lesson's questions in random order
+        browser.goto("about:blank")
+        browser.goto(translated_site + "#/practice/drill/quant/m01.2", wait_for="document.querySelector('.option')")
+        if browser.eval("document.querySelector(\"[data-tr='q.01.c.001|stem']\") !== null", False):
+            break
+    x, y = _point_at(browser, "[data-tr='q.01.c.001|stem']", "proche")
+    browser.send("Input.dispatchMouseEvent", type="mousePressed", x=x, y=y, button="left", clickCount=1)
+    browser.send("Input.dispatchMouseEvent", type="mouseReleased", x=x, y=y, button="left", clickCount=1)
+    browser.wait("document.querySelector('.sheet')")
+    sheet = browser.eval("document.querySelector('.sheet').innerText", False)
+    assert "proche" in sheet and "close" in sheet and "The adjusted model is closest to:" in sheet
+    assert "Expliquer avec l'IA" not in sheet  # no key set
+    browser.eval("[...document.querySelectorAll('.sheet .btn')].find((b) => b.innerText === 'Fermer').click()", False)
+    browser.wait("!document.querySelector('.sheet')")
+    # Long-press on an option: the sheet opens and the option is NOT selected
+    x, y = _point_at(browser, "[data-tr='q.01.c.001|A']", "596")
+    browser.send("Input.dispatchMouseEvent", type="mousePressed", x=x, y=y, button="left", clickCount=1)
+    time.sleep(0.7)
+    browser.send("Input.dispatchMouseEvent", type="mouseReleased", x=x, y=y, button="left", clickCount=1)
+    browser.wait("document.querySelector('.sheet')")
+    assert browser.eval("document.querySelector('.option[aria-checked=\"true\"]') === null", False)
+    # AI explanation with a stubbed Gemini: the prompt forbids revealing the answer before it's given
+    out = browser.eval("""import('./js/lookup.js').then(async (m) => {
+      let call;
+      const fake = async (url, init) => { call = { url, body: JSON.parse(init.body) };
+        return new Response(JSON.stringify({ candidates: [{ content: { parts: [{ text: JSON.stringify({ meaning: 'close', lemma: 'proche', note: 'n', translation: 't' }) }] } }] })); };
+      const r = await m.explainWithAI({ word: 'proche', sentence: 'Le modèle est proche.', context: { stem: 's', options: ['a', 'b', 'c'], answered: false } },
+                                      { key: 'K', model: 'gemini-test' }, fake);
+      return { r, url: call.url, prompt: call.body.contents[0].parts[0].text,
+               words: [m.wordAt("l'avocat est là", 4)?.word, m.wordAt('Il faut que', 5)?.word] };
+    })""")
+    assert out["r"]["meaning"] == "close"
+    assert "models/gemini-test:generateContent?key=K" in out["url"]
+    assert "NOT answered" in out["prompt"] and '"proche"' in out["prompt"]
+    assert out["words"] == ["avocat", "faut"]  # elided article dropped
+    assert not browser.console, browser.console
