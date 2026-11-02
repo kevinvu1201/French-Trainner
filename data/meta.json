@@ -1,0 +1,10 @@
+{
+ "encrypted": true,
+ "kdf": {
+  "name": "PBKDF2",
+  "hash": "SHA-256",
+  "iterations": 600000,
+  "salt": "IzkTtdEj0QhY8lcwzcg11w=="
+ },
+ "check": "K5hHsfXru0yBTfbXUGjO2FDPFH4Edm7X1nD0J1TDms5bMhodXtmU/KB3GrU="
+}
