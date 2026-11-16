@@ -1,0 +1,122 @@
+{
+ "module": "m25.1",
+ "source_hash": "ecba884bfd58",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Un intervalle a un début et une fin, dans l'espace comme dans le temps."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_De_ marque le début, _à_ et _jusqu'à_ la fin ; _à partir de_ et _dès_ insistent sur le point de départ."
+   },
+   {
+    "stage": "result",
+    "md": "Les contractions (_du, au, jusqu'au_) s'appliquent comme ailleurs."
+   }
+  ],
+  "why_it_matters": "Horaires et périodes (_du … au …_, _à partir de_) sont au cœur des documents informatifs écoutés au DELF.",
+  "exam_approach": {
+   "look_first": [
+    "début, fin ou intervalle ?",
+    "un article à contracter"
+   ],
+   "traps": [
+    "*_de lundi à vendredi_ avec article manquant à l'écrit",
+    "*_jusqu'à le_"
+   ],
+   "distractors": [
+    "la forme non contractée",
+    "_depuis_ à la place de _à partir de_ pour le futur"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.25.a.001",
+   "los": "los.25.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "La bibliothèque est ouverte …… lundi au samedi.",
+   "options": [
+    "de le",
+    "du",
+    "le"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _de + le_ se contracte.",
+    "B": "Correct. _de + le lundi_ → _du_.",
+    "C": "Faux. Il faut _de … à_ pour un intervalle."
+   }
+  },
+  {
+   "id": "q.25.a.002",
+   "los": "los.25.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Continuez tout droit …… feu rouge.",
+   "options": [
+    "jusqu'au",
+    "jusqu'à le",
+    "depuis le"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _jusqu'à + le_ → _jusqu'au_.",
+    "B": "Faux. _à + le_ se contracte.",
+    "C": "Faux. On indique une limite, pas un point de départ."
+   }
+  },
+  {
+   "id": "q.25.a.003",
+   "los": "los.25.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "…… 1er janvier, les sacs plastiques seront interdits.",
+   "options": [
+    "Depuis le",
+    "Jusqu'au",
+    "À partir du"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _depuis_ s'emploie pour une situation qui a déjà commencé.",
+    "B": "Faux. On annonce un début, pas une limite.",
+    "C": "Correct. Point de départ dans le futur → _à partir de_."
+   }
+  },
+  {
+   "id": "q.25.a.004",
+   "los": "los.25.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "…… les premiers symptômes, consultez un médecin.",
+   "options": [
+    "Jusqu'à",
+    "Dès",
+    "Pendant"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. On veut agir immédiatement, pas attendre une limite.",
+    "B": "Correct. Point de départ immédiat → _dès_.",
+    "C": "Faux. _pendant_ indique une durée."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.25.intervalle",
+   "los": [
+    "los.25.a"
+   ],
+   "name": "Intervalles",
+   "front": "Du … au, jusqu'à, à partir de, dès ?",
+   "back": "**du** lundi **au** vendredi ; **jusqu'à** 20 h ; **à partir de** demain ; **dès** l'arrivée (immédiatement)."
+  }
+ ]
+}

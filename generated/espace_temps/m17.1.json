@@ -1,0 +1,163 @@
+{
+ "module": "m17.1",
+ "source_hash": "06ff89401320",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Toutes ces expressions parlent de temps, mais pas du même temps : continuité, durée close, prévision, rapidité, moment passé."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_Depuis_ + présent (ça continue) ; _pendant_ (durée close) ; _pour_ (prévue) ; _en_ (temps nécessaire) ; _il y a_ + passé (moment)."
+   },
+   {
+    "stage": "result",
+    "md": "Le temps du verbe confirme le choix : présent avec _depuis_, passé avec _il y a_."
+   }
+  ],
+  "why_it_matters": "Les questions sur la durée (_depuis quand ? pendant combien de temps ?_) sont fréquentes en compréhension orale.",
+  "exam_approach": {
+   "look_first": [
+    "le temps du verbe",
+    "l'action continue-t-elle ?",
+    "durée prévue ou nécessaire ?"
+   ],
+   "traps": [
+    "*_J'habite ici pour trois ans_ (anglais _for_)",
+    "*_depuis_ avec un passé composé ponctuel",
+    "_il y a_ (moment) / _depuis_ (durée)"
+   ],
+   "distractors": [
+    "_pour_ au sens de l'anglais _for_",
+    "_pendant_ pour une action qui continue"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.17.a.001",
+   "los": "los.17.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "J'apprends le français …… deux ans et je continue.",
+   "options": [
+    "pendant",
+    "depuis",
+    "pour"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _pendant_ s'emploie pour une durée terminée.",
+    "B": "Correct. L'action continue au présent → _depuis_.",
+    "C": "Faux. _pour_ indique une durée prévue."
+   }
+  },
+  {
+   "id": "q.17.a.002",
+   "los": "los.17.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Ils sont partis en Australie …… six mois : ils rentrent en juin.",
+   "options": [
+    "pour",
+    "depuis",
+    "en"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Durée prévue avec _partir_ → _pour_.",
+    "B": "Faux. _depuis_ demande une action qui continue au présent.",
+    "C": "Faux. _en_ indique le temps nécessaire."
+   }
+  },
+  {
+   "id": "q.17.a.003",
+   "los": "los.17.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Elle a vécu à Tokyo …… cinq ans, puis elle est rentrée en France.",
+   "options": [
+    "depuis",
+    "il y a",
+    "pendant"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. L'action est terminée : pas de _depuis_.",
+    "B": "Faux. _il y a_ indique un moment, pas une durée.",
+    "C": "Correct. Durée close dans le passé → _pendant_."
+   }
+  },
+  {
+   "id": "q.17.a.004",
+   "los": "los.17.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Le nouveau pont a été construit …… dix-huit mois seulement.",
+   "options": [
+    "depuis",
+    "pour",
+    "en"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _depuis_ demande une action qui continue au présent.",
+    "B": "Faux. _pour_ indique une durée prévue.",
+    "C": "Correct. Temps nécessaire pour réaliser l'action → _en_."
+   }
+  },
+  {
+   "id": "q.17.a.005",
+   "los": "los.17.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "J'ai rencontré mon mari …… dix ans, à Lyon.",
+   "options": [
+    "depuis",
+    "il y a",
+    "pendant"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. La rencontre est un événement ponctuel et terminé.",
+    "B": "Correct. Moment d'un événement passé → _il y a_.",
+    "C": "Faux. On donne un moment, pas une durée."
+   }
+  },
+  {
+   "id": "q.17.a.006",
+   "los": "los.17.a",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Ça fait trois heures …… je t'attends !",
+   "options": [
+    "que",
+    "depuis",
+    "pendant"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _Ça fait + durée + que_ + présent.",
+    "B": "Faux. La structure est _ça fait … que_.",
+    "C": "Faux. La structure est _ça fait … que_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.17.duree",
+   "los": [
+    "los.17.a"
+   ],
+   "name": "Depuis / pendant / pour / en / il y a",
+   "front": "Quelle préposition de durée ?",
+   "back": "**depuis** (ça continue, présent) ; **pendant** (durée close) ; **pour** (durée prévue) ; **en** (temps nécessaire) ; **il y a** (moment passé).",
+   "examples": [
+    "J'habite ici depuis 3 ans. J'ai vécu à Rome pendant 3 ans. Je pars pour 3 jours. J'ai fini en 3 heures. Je suis arrivé il y a 3 ans."
+   ]
+  }
+ ]
+}

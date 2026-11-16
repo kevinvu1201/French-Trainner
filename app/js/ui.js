@@ -169,6 +169,13 @@ export function FormulaCards({ formulas }) {
   </details>`;
 }
 
+/** What a topic's item sets are called: listening exercises, reading texts or gap-fill texts. */
+export function setLabel(topic) {
+  if (topic?.counts.audio_sets) return { one: "Écoute", many: "Exercices d'écoute" };
+  if (topic?.counts.reading_sets) return { one: "Lecture", many: "Textes à lire" };
+  return { one: "Texte à trous", many: "Textes à trous" };
+}
+
 export function Loading({ label = "Chargement…" }) {
   return html`<p class="muted" role="status">${label}</p>`;
 }

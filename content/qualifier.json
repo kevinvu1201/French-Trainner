@@ -1,0 +1,498 @@
+{
+ "readings": [
+  {
+   "number": 12,
+   "title": "L'adjectif (2) : la place de l'adjectif",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "En français, la plupart des adjectifs se placent **après** le nom, mais une dizaine d'adjectifs très fréquents se placent **avant**, et quelques-uns changent de sens selon leur place (_un grand homme / un homme grand_). C'est un marqueur de niveau B2."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 12 (p. 54)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Placer l'adjectif avant ou après le nom.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer les formes _bel, nouvel, vieil_ et les adjectifs qui changent de sens selon leur place.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "La place de l'adjectif",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Après le nom** (cas général) : couleurs, nationalités, formes, adjectifs longs ou dérivés de verbes : _une voiture **rouge**, un film **italien**, une table **ronde**, un texte **intéressant**_."
+        },
+        {
+         "t": "p",
+         "md": "**Avant le nom** : adjectifs courts et fréquents : **beau, joli, bon, mauvais, grand, petit, gros, jeune, vieux, nouveau, long, haut, premier, dernier, autre** : _un **petit** appartement, une **bonne** idée, la **première** fois_."
+        },
+        {
+         "t": "note",
+         "md": "Devant un adjectif pluriel placé avant le nom, _des_ devient **de** à l'écrit soigné : _**de** jolies maisons, **de** bons résultats_."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Devant un nom masculin à voyelle ou _h_ muet : **beau → bel, nouveau → nouvel, vieux → vieil** : _un **bel** appartement, un **nouvel** emploi, un **vieil** homme_."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Avant le nom",
+           "Après le nom"
+          ],
+          [
+           "un **grand** homme (célèbre)",
+           "un homme **grand** (de grande taille)"
+          ],
+          [
+           "un **ancien** élève (d'avant)",
+           "un meuble **ancien** (vieux)"
+          ],
+          [
+           "mon **propre** appartement (à moi)",
+           "un appartement **propre** (pas sale)"
+          ],
+          [
+           "un **pauvre** homme (malheureux)",
+           "un homme **pauvre** (sans argent)"
+          ],
+          [
+           "la **dernière** semaine (d'une série)",
+           "la semaine **dernière** (passée)"
+          ],
+          [
+           "un **seul** enfant (un unique)",
+           "un enfant **seul** (isolé)"
+          ],
+          [
+           "un **cher** ami (aimé)",
+           "un repas **cher** (coûteux)"
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "title": "Les indéfinis",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les indéfinis (_chaque, tout, quelques, plusieurs, aucun, quelqu'un, rien…_) expriment une quantité ou une identité vague. Ils sont essentiels pour généraliser ou nuancer dans un texte argumentatif : _**certains** pensent que… ; **aucune** solution n'est parfaite_."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 15 (p. 68)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Employer les adjectifs indéfinis (chaque, tout, quelques, plusieurs, certains, aucun).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer les pronoms indéfinis (chacun, quelqu'un, quelque chose, personne, rien, d'autres).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Adjectifs et pronoms indéfinis",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**Chaque** + nom singulier : _**chaque** jour_ (jamais au pluriel).",
+          "**Tout / toute / tous / toutes** + article + nom : _**tout le** monde, **toute la** journée, **tous les** jours, **toutes les** semaines_.",
+          "**Quelques** (un petit nombre), **plusieurs** (plus de deux, invariable), **certains / certaines** (une partie) + nom pluriel.",
+          "**Aucun / aucune** + nom singulier + **ne** : _**Aucun** candidat **n'**a réussi._"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "_Tout_ adverbe (= très, complètement) s'accorde seulement devant un adjectif féminin commençant par une consonne : _elle est **toute** petite_, mais _elles sont **tout** heureuses_."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Affirmation",
+           "Négation"
+          ],
+          [
+           "quelqu'un",
+           "**ne … personne** / **personne ne**"
+          ],
+          [
+           "quelque chose",
+           "**ne … rien** / **rien ne**"
+          ],
+          [
+           "quelque part",
+           "**ne … nulle part**"
+          ],
+          [
+           "tous / chacun",
+           "**aucun(e) … ne**"
+          ]
+         ]
+        },
+        {
+         "t": "ul",
+         "items": [
+          "**Chacun / chacune** (singulier) : _**Chacun** a sa chance._",
+          "**Tous** (pronom, on prononce le _s_) : _Ils sont **tous** venus._",
+          "**Quelque chose de** + adjectif masculin : _quelque chose **d'intéressant**_ ; _rien **de nouveau**_."
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "title": "L'adverbe",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "L'adverbe modifie un verbe, un adjectif ou une phrase. Les adverbes en _-ment_ permettent de nuancer (_probablement, nettement, notamment_) : ils enrichissent beaucoup une production écrite."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 18 (p. 82)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Distinguer l'adverbe de l'adjectif (_bon / bien, mauvais / mal_) et placer l'adverbe.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Former les adverbes en _-ment_ (-amment, -emment).",
+     "module": 1
+    },
+    {
+     "letter": "c",
+     "text": "Employer les adverbes de temps et de lieu courants.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "L'adverbe et l'adjectif",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "L'**adjectif** qualifie un nom (il s'accorde) ; l'**adverbe** modifie un verbe (il est invariable) : _un **bon** repas / elle cuisine **bien** ; un **mauvais** film / il chante **mal**_."
+        },
+        {
+         "t": "p",
+         "md": "**Place** : après le verbe conjugué ; aux temps composés, les adverbes courts (_bien, mal, déjà, encore, beaucoup, trop, toujours_) se placent **entre l'auxiliaire et le participe** : _Il a **bien** travaillé. J'ai **déjà** lu ce livre._"
+        },
+        {
+         "t": "note",
+         "md": "Quelques adjectifs servent d'adverbes, invariables, dans des expressions : _parler **fort**, coûter **cher**, sentir **bon**, travailler **dur**, voir **clair**_."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Formation** : féminin de l'adjectif + **-ment** : _lent → lente → lente**ment**, heureux → heureuse**ment**_. Adjectif terminé par une voyelle : masculin + _-ment_ : _vrai → vrai**ment**, poli → poli**ment**_."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Adjectif",
+           "Adverbe",
+           "Prononciation"
+          ],
+          [
+           "-ant : constant, courant",
+           "**-amment** : constamment, couramment",
+           "[amɑ̃]"
+          ],
+          [
+           "-ent : évident, récent, fréquent",
+           "**-emment** : évidemment, récemment, fréquemment",
+           "[amɑ̃] aussi"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Exceptions : _gentil → gentiment, bref → brièvement, précis → précisément, énorme → énormément, lent → lentement_ (pas *_lentamment_)."
+        }
+       ]
+      },
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**Temps** : _déjà / pas encore, toujours / jamais, souvent, parfois, rarement, tout de suite, bientôt, autrefois, désormais_ (= à partir de maintenant).",
+          "**Lieu** : _ici, là, là-bas, partout, ailleurs, dedans / dehors, dessus / dessous, devant / derrière, loin / près_."
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "title": "L'expression de la quantité",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les articles partitifs (_du, de la_) et les expressions de quantité (_beaucoup de, un kilo de_) sont indispensables pour parler de consommation, d'alimentation ou d'environnement, thèmes fréquents au DELF."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 19 (p. 86)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Employer les partitifs (du, de la, de l', des) pour une quantité indéterminée.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Exprimer une quantité précise avec _de_ (beaucoup de, un kilo de…) et à la négation.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Quantités indéterminées et exprimées",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Partitif** : une partie d'une chose qu'on ne compte pas : _du pain, **de la** confiture, **de l'**eau, **des** épinards_. On l'emploie avec _manger, boire, acheter, il y a, faire (du sport)_…"
+        },
+        {
+         "t": "p",
+         "md": "Comparer : _J'aime **le** café_ (en général, défini) / _Je bois **du** café_ (une quantité, partitif) / _Je bois **un** café_ (une tasse, indéfini)."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Après une **expression de quantité**, on emploie **de / d'** sans article : _beaucoup **de** sucre, peu **d'**argent, trop **de** travail, assez **de** temps, un kilo **de** pommes, une bouteille **d'**eau, la plupart **des** gens_ (exception : _la plupart_ et _bien_ + _des_)."
+        },
+        {
+         "t": "p",
+         "md": "**Négation** : _du, de la, des_ → **de / d'** : _Je ne mange pas **de** viande. Il n'y a plus **d'**eau._"
+        },
+        {
+         "t": "note",
+         "md": "Avec _être_, la négation ne change pas l'article : _Ce n'est pas **du** sucre, c'est du sel._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 22,
+   "title": "Le comparatif et le superlatif",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Comparer est au cœur de l'argumentation : avantages et inconvénients, avant et maintenant, ici et ailleurs. _Meilleur / mieux_ et le superlatif (_le plus…, le moins…_) sont attendus au niveau B2."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 22 (p. 96)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former le comparatif avec un adjectif, un adverbe, un nom ou un verbe.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Former le superlatif et employer _meilleur / mieux_, _pire_.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Comparatif, superlatif, meilleur et mieux",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "",
+           "Supériorité",
+           "Égalité",
+           "Infériorité"
+          ],
+          [
+           "adjectif / adverbe",
+           "**plus** grand **que**",
+           "**aussi** grand **que**",
+           "**moins** grand **que**"
+          ],
+          [
+           "nom",
+           "**plus de** temps **que**",
+           "**autant de** temps **que**",
+           "**moins de** temps **que**"
+          ],
+          [
+           "verbe",
+           "travailler **plus que**",
+           "travailler **autant que**",
+           "travailler **moins que**"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Progression : _**de plus en plus** cher, **de moins en moins** de lecteurs_. Proportion : _**Plus** on lit, **plus** on progresse._"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Superlatif** : _**le / la / les plus** + adjectif (**de**)_ : _la ville **la plus** chère **de** France_. Avec un adjectif placé avant : _**le plus** grand pays du monde_."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "",
+           "Comparatif",
+           "Superlatif"
+          ],
+          [
+           "bon (adjectif)",
+           "**meilleur(e)(s)**",
+           "le / la / les **meilleur(e)(s)**"
+          ],
+          [
+           "bien (adverbe)",
+           "**mieux**",
+           "le **mieux**"
+          ],
+          [
+           "mauvais",
+           "plus mauvais / **pire**",
+           "le plus mauvais / le **pire**"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "*_plus bon_ et *_plus bien_ n'existent pas. _Meilleur_ qualifie un nom (_un meilleur salaire_) ; _mieux_ modifie un verbe (_il chante mieux_)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

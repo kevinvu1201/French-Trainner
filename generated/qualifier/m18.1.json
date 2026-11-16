@@ -1,0 +1,224 @@
+{
+ "module": "m18.1",
+ "source_hash": "8f39bbb591aa",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "L'adjectif qualifie un nom et s'accorde ; l'adverbe modifie un verbe et ne s'accorde pas."
+   },
+   {
+    "stage": "mechanism",
+    "md": "On forme l'adverbe avec le féminin + _-ment_, ou _-amment / -emment_ pour les adjectifs en _-ant / -ent_."
+   },
+   {
+    "stage": "result",
+    "md": "Aux temps composés, l'adverbe court se glisse entre l'auxiliaire et le participe passé."
+   }
+  ],
+  "why_it_matters": "Les adverbes de nuance (_probablement, nettement, notamment, désormais_) sont des marqueurs de niveau B2.",
+  "exam_approach": {
+   "look_first": [
+    "ce que le mot modifie (nom ou verbe ?)",
+    "la terminaison de l'adjectif (-ant, -ent ?)",
+    "un temps composé"
+   ],
+   "traps": [
+    "*_il parle bon français_",
+    "*_évidamment_",
+    "*_il a travaillé bien_"
+   ],
+   "distractors": [
+    "l'adjectif à la place de l'adverbe",
+    "_-amment / -emment_ inversés",
+    "l'adverbe mal placé"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.18.a.001",
+   "los": "los.18.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Elle parle très …… l'espagnol.",
+   "options": [
+    "bien",
+    "bon",
+    "bonne"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. On modifie le verbe _parler_ → adverbe.",
+    "B": "Faux. _bon_ est un adjectif.",
+    "C": "Faux. _bonne_ est un adjectif féminin."
+   }
+  },
+  {
+   "id": "q.18.a.002",
+   "los": "los.18.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "C'est un …… restaurant, je te le recommande.",
+   "options": [
+    "bien",
+    "bon",
+    "bonnement"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _bien_ ne qualifie pas un nom ici.",
+    "B": "Correct. On qualifie le nom _restaurant_ → adjectif.",
+    "C": "Faux. _bonnement_ est un adverbe rare et ne convient pas."
+   }
+  },
+  {
+   "id": "q.18.a.003",
+   "los": "los.18.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ce semestre, il …… : il a eu de très bonnes notes.",
+   "options": [
+    "a travaillé bien",
+    "bien a travaillé",
+    "a bien travaillé"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _bien_ se place entre l'auxiliaire et le participe passé.",
+    "B": "Faux. L'adverbe ne précède pas le verbe conjugué.",
+    "C": "Correct. Adverbe court entre l'auxiliaire et le participe."
+   }
+  },
+  {
+   "id": "q.18.a.004",
+   "los": "los.18.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ces fraises sentent …….",
+   "options": [
+    "bon",
+    "bonnes",
+    "bien"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _sentir bon_ : adjectif employé comme adverbe, invariable.",
+    "B": "Faux. Dans _sentir bon_, _bon_ est invariable.",
+    "C": "Faux. _sentir bien_ signifie avoir un bon odorat."
+   }
+  },
+  {
+   "id": "q.18.b.001",
+   "los": "los.18.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il conduit …… (prudent).",
+   "options": [
+    "prudentement",
+    "prudemment",
+    "prudamment"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _-ent → -emment_.",
+    "B": "Correct. _prudent → prudemment_.",
+    "C": "Faux. _prudent_ (en _-ent_) donne _-emment_."
+   }
+  },
+  {
+   "id": "q.18.b.002",
+   "los": "los.18.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Elle parle …… quatre langues (courant).",
+   "options": [
+    "couramant",
+    "couremment",
+    "couramment"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. La forme est _couramment_, avec deux _m_.",
+    "B": "Faux. _-ant_ donne _-amment_.",
+    "C": "Correct. _courant → couramment_."
+   }
+  },
+  {
+   "id": "q.18.b.003",
+   "los": "los.18.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "J'ai …… changé de travail (récent).",
+   "options": [
+    "récemment",
+    "récentement",
+    "récamment"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _récent → récemment_.",
+    "B": "Faux. _-ent → -emment_.",
+    "C": "Faux. _récent_ donne _-emment_."
+   }
+  },
+  {
+   "id": "q.18.b.004",
+   "los": "los.18.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Il nous a …… aidés à déménager (gentil).",
+   "options": [
+    "gentillement",
+    "gentiment",
+    "gentilement"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. La forme correcte est _gentiment_.",
+    "B": "Correct. Exception : _gentil → gentiment_.",
+    "C": "Faux. La forme correcte est _gentiment_."
+   }
+  },
+  {
+   "id": "q.18.c.001",
+   "los": "los.18.c",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "Le magasin a fermé : ……, il faudra commander en ligne.",
+   "options": [
+    "autrefois",
+    "déjà",
+    "désormais"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _autrefois_ renvoie au passé.",
+    "B": "Faux. _déjà_ n'exprime pas le point de départ d'une nouvelle situation.",
+    "C": "Correct. _désormais_ = à partir de maintenant."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.18.amment",
+   "los": [
+    "los.18.b"
+   ],
+   "name": "Adverbes en -amment / -emment",
+   "front": "Adverbe de constant, évident, fréquent ?",
+   "back": "**constamment, évidemment, fréquemment** (_-ant → -amment_, _-ent → -emment_, prononcés [amɑ̃])."
+  },
+  {
+   "id": "f.18.bon-bien",
+   "los": [
+    "los.18.a"
+   ],
+   "name": "Bon / bien",
+   "front": "bon ou bien ?",
+   "back": "**bon** qualifie un nom (_un bon livre_) ; **bien** modifie un verbe (_il écrit bien_)."
+  }
+ ]
+}

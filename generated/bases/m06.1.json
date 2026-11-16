@@ -1,0 +1,207 @@
+{
+ "module": "m06.1",
+ "source_hash": "ec9cc25e6986",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le possessif dépend de deux choses : la personne du possesseur et le genre / nombre de l'objet possédé."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_son / sa / ses_ s'accordent avec l'objet ; _mon, ton, son_ remplacent _ma, ta, sa_ devant une voyelle."
+   },
+   {
+    "stage": "result",
+    "md": "Le pronom (_le mien, la leur_) reprend l'ensemble _possessif + nom_ pour éviter une répétition."
+   }
+  ],
+  "why_it_matters": "Le possessif est un piège pour les anglophones (_his / her_) : en français, _sa mère_ peut être la mère d'un homme.",
+  "exam_approach": {
+   "look_first": [
+    "le genre et le nombre de l'objet possédé",
+    "le nombre de possesseurs",
+    "une voyelle au début du nom"
+   ],
+   "traps": [
+    "*_ma amie_",
+    "_sa_ choisi d'après le possesseur (anglais _her_)",
+    "_notre_ / _le nôtre_ (accent)"
+   ],
+   "distractors": [
+    "le possessif accordé au possesseur",
+    "_leur_ / _leurs_ inversés",
+    "la forme féminine devant voyelle"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.06.a.001",
+   "los": "los.06.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Paul a oublié …… clés au bureau.",
+   "options": [
+    "sa",
+    "ses",
+    "leurs"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _clés_ est pluriel.",
+    "B": "Correct. Plusieurs clés → _ses_.",
+    "C": "Faux. Un seul possesseur."
+   }
+  },
+  {
+   "id": "q.06.a.002",
+   "los": "los.06.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Anne m'a présenté …… mari hier soir.",
+   "options": [
+    "sa",
+    "ses",
+    "son"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le possessif s'accorde avec l'objet (_mari_), pas avec Anne.",
+    "B": "Faux. _mari_ est singulier.",
+    "C": "Correct. _mari_ est masculin : _son_, même si le possesseur est une femme."
+   }
+  },
+  {
+   "id": "q.06.a.003",
+   "los": "los.06.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Je te présente …… amie Clara.",
+   "options": [
+    "ma",
+    "m'",
+    "mon"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. *_ma amie_ est impossible.",
+    "B": "Faux. _ma_ ne s'élide pas en _m'_.",
+    "C": "Correct. Nom féminin à voyelle → _mon_."
+   }
+  },
+  {
+   "id": "q.06.a.004",
+   "los": "los.06.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Les étudiants doivent rendre …… mémoires avant le 30 juin.",
+   "options": [
+    "leurs",
+    "leur",
+    "ses"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Plusieurs possesseurs, plusieurs mémoires → _leurs_.",
+    "B": "Faux. Chaque étudiant rend un mémoire, soit plusieurs mémoires : _leurs_.",
+    "C": "Faux. Plusieurs possesseurs → _leur(s)_."
+   }
+  },
+  {
+   "id": "q.06.a.005",
+   "los": "los.06.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Les deux sœurs vivent encore chez …… mère.",
+   "options": [
+    "leurs",
+    "leur",
+    "sa"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Il n'y a qu'une mère.",
+    "B": "Correct. Une seule mère pour plusieurs possesseurs → _leur_.",
+    "C": "Faux. Plusieurs possesseurs → _leur_."
+   }
+  },
+  {
+   "id": "q.06.b.001",
+   "los": "los.06.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ce n'est pas mon téléphone, c'est …….",
+   "options": [
+    "la tienne",
+    "ton",
+    "le tien"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _téléphone_ est masculin.",
+    "B": "Faux. _ton_ doit être suivi d'un nom.",
+    "C": "Correct. _téléphone_ est masculin singulier → _le tien_."
+   }
+  },
+  {
+   "id": "q.06.b.002",
+   "los": "los.06.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Nos enfants vont à l'école publique ; …… vont dans une école privée.",
+   "options": [
+    "les leurs",
+    "leurs",
+    "les leur"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Leurs enfants → _les leurs_.",
+    "B": "Faux. Sans nom, il faut le pronom _les leurs_.",
+    "C": "Faux. Pronom pluriel → _les leurs_ avec _s_."
+   }
+  },
+  {
+   "id": "q.06.b.003",
+   "los": "los.06.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Votre proposition est intéressante, mais …… est moins chère.",
+   "options": [
+    "la notre",
+    "la nôtre",
+    "notre"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le pronom prend un accent circonflexe : _nôtre_.",
+    "B": "Correct. Pronom (_notre proposition_) → _la nôtre_, avec accent.",
+    "C": "Faux. _notre_ doit être suivi d'un nom."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.06.son-sa",
+   "los": [
+    "los.06.a"
+   ],
+   "name": "Son / sa / ses",
+   "front": "Le possessif s'accorde avec… ?",
+   "back": "avec la **chose possédée** : _son mari_ (de Anne), _sa femme_ (de Paul).",
+   "common_mistake": "*_ma amie_ → _mon amie_ devant voyelle."
+  },
+  {
+   "id": "f.06.le-mien",
+   "los": [
+    "los.06.b"
+   ],
+   "name": "Pronoms possessifs",
+   "front": "Pronom pour _notre maison_, _leurs enfants_ ?",
+   "back": "**la nôtre** ; **les leurs**."
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "module": "m05.1",
+ "source_hash": "f87d7732d63c",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Les deux structures présentent quelqu'un ou quelque chose, mais ne se combinent pas avec les mêmes mots."
+   },
+   {
+    "stage": "mechanism",
+    "md": "**C'est** + nom déterminé ou commentaire général ; **il / elle est** + adjectif ou profession sans article."
+   },
+   {
+    "stage": "result",
+    "md": "Un nom de profession qualifié redevient un nom déterminé : _c'est un excellent médecin_."
+   }
+  ],
+  "why_it_matters": "La confusion _il est un…_ / _c'est un…_ fait partie des erreurs typiques relevées par les correcteurs de B1–B2.",
+  "exam_approach": {
+   "look_first": [
+    "ce qui suit : nom avec article, adjectif seul ou profession",
+    "si l'on commente une personne précise ou une idée"
+   ],
+   "traps": [
+    "*_Il est un professeur_",
+    "*_Elle est une bonne idée_ pour commenter une idée",
+    "_c'est_ + adjectif accordé au féminin"
+   ],
+   "distractors": [
+    "_il est_ devant un nom avec article",
+    "_c'est_ devant une profession sans article"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.05.a.001",
+   "los": "los.05.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Tu connais Sophie ? …… ma collègue.",
+   "options": [
+    "Elle est",
+    "C'est",
+    "Il est"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _elle est_ ne se place pas devant un nom avec déterminant.",
+    "B": "Correct. Nom déterminé (_ma collègue_) → _c'est_.",
+    "C": "Faux. _il est_ ne convient ni au genre ni à la structure."
+   }
+  },
+  {
+   "id": "q.05.a.002",
+   "los": "los.05.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "J'ai rencontré ton frère : …… très drôle !",
+   "options": [
+    "il est",
+    "c'est",
+    "elle est"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Adjectif qui décrit une personne précise → _il est_.",
+    "B": "Faux. _c'est + adjectif_ commente une situation, pas une personne précise.",
+    "C": "Faux. _frère_ est masculin."
+   }
+  },
+  {
+   "id": "q.05.a.003",
+   "los": "los.05.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Apprendre une langue en trois mois ? …… difficile, mais possible.",
+   "options": [
+    "Elle est",
+    "Il est",
+    "C'est"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On ne commente pas un nom féminin précis, mais une idée.",
+    "B": "Faux. _il est difficile_ se construit avec _de_ + infinitif à la suite.",
+    "C": "Correct. Commentaire sur une idée → _c'est + adjectif masculin_."
+   }
+  },
+  {
+   "id": "q.05.a.004",
+   "los": "los.05.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Regarde ces photos : …… mes enfants.",
+   "options": [
+    "c'est",
+    "ils sont",
+    "ce sont"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. À l'écrit soigné, pluriel → _ce sont_.",
+    "B": "Faux. _ils sont_ ne se place pas devant un nom déterminé.",
+    "C": "Correct. Pluriel → _ce sont_."
+   }
+  },
+  {
+   "id": "q.05.b.001",
+   "los": "los.05.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Ma sœur …… infirmière à l'hôpital de Lyon.",
+   "options": [
+    "est",
+    "est une",
+    "c'est"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Profession après _être_ → sans article.",
+    "B": "Faux. Sans adjectif, pas d'article devant une profession.",
+    "C": "Faux. _Ma sœur c'est infirmière_ n'est pas correct."
+   }
+  },
+  {
+   "id": "q.05.b.002",
+   "los": "los.05.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Mon voisin ? …… architecte très connu.",
+   "options": [
+    "Il est un",
+    "C'est un",
+    "Il est"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. *_Il est un_ + nom est fautif.",
+    "B": "Correct. Profession qualifiée (_très connu_) → _c'est un_.",
+    "C": "Faux. Avec l'adjectif, le nom doit être déterminé."
+   }
+  },
+  {
+   "id": "q.05.b.003",
+   "los": "los.05.b",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Mme Duval ? …… une avocate qui défend les petites entreprises.",
+   "options": [
+    "C'est",
+    "Elle est",
+    "Elle"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Nom déterminé et précisé par une relative → _c'est une_.",
+    "B": "Faux. *_elle est une avocate_ est fautif.",
+    "C": "Faux. Il manque le verbe."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.05.cest-ilest",
+   "los": [
+    "los.05.a"
+   ],
+   "name": "C'est / il est",
+   "front": "C'est ou il est ?",
+   "back": "**C'est** + nom déterminé, nom propre, ou commentaire (_c'est génial_). **Il / elle est** + adjectif (personne précise) ou profession sans article.",
+   "examples": [
+    "C'est un médecin. Il est médecin. C'est un excellent médecin."
+   ],
+   "common_mistake": "*_Il est un médecin_."
+  }
+ ]
+}

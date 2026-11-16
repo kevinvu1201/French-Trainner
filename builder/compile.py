@@ -252,6 +252,7 @@ def write_outputs(chunks: dict[str, dict[str, Any]], cfg: Config, paths: Paths) 
                        "formulas": len(ch["formulas"]), "figures": len(ch["figures"]),
                        "repairs": len(ch["repairs"]), "learning": len(ch["learning"]),
                        "audio_sets": sum(1 for s in ch["item_sets"] if s.get("audio")),
+                       "reading_sets": sum(1 for s in ch["item_sets"] if s.get("reading")),
                        "translations": len(ch["translations"])},
             "readings": [{"id": r["id"], "n": r["n"], "title": r["title"],
                           "modules": [{"id": m["id"], "title": m["title"],

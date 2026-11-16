@@ -1,0 +1,162 @@
+{
+ "module": "m07.1",
+ "source_hash": "b90cc3a47bd3",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Un nom collectif désigne plusieurs personnes avec un mot singulier (_la famille, le public_)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Le verbe s'accorde avec la forme grammaticale du nom (singulier), sauf après _la plupart_, toujours suivi du pluriel."
+   },
+   {
+    "stage": "result",
+    "md": "_Tout le monde_ est singulier ; _les gens_ et _la plupart_ sont pluriels."
+   }
+  ],
+  "why_it_matters": "Les accords après _la plupart_, _tout le monde_ et _les gens_ apparaissent dans presque toutes les productions écrites argumentatives.",
+  "exam_approach": {
+   "look_first": [
+    "le nom sujet : collectif singulier ou pluriel ?",
+    "_la plupart_ et _tout le monde_"
+   ],
+   "traps": [
+    "*_tout le monde sont_",
+    "*_la plupart des gens pense_",
+    "_beau-père_ (deux sens)"
+   ],
+   "distractors": [
+    "l'accord au sens à la place de l'accord grammatical",
+    "le mauvais lien de parenté"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.07.a.001",
+   "los": "los.07.a",
+   "difficulty": 1,
+   "qtype": "vocabulary",
+   "stem": "La fille de mon frère est ma …….",
+   "options": [
+    "cousine",
+    "nièce",
+    "tante"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. La cousine est la fille de mon oncle ou de ma tante.",
+    "B": "Correct. L'enfant de mon frère ou de ma sœur : neveu / nièce.",
+    "C": "Faux. La tante est la sœur de mon père ou de ma mère."
+   }
+  },
+  {
+   "id": "q.07.a.002",
+   "los": "los.07.a",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "Les parents de ma femme sont mes …….",
+   "options": [
+    "grands-parents",
+    "petits-enfants",
+    "beaux-parents"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Les grands-parents sont les parents de mes parents.",
+    "B": "Faux. Ce sont les enfants de mes enfants.",
+    "C": "Correct. Parents du conjoint → beaux-parents."
+   }
+  },
+  {
+   "id": "q.07.b.001",
+   "los": "los.07.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tout le monde …… content de partir en vacances.",
+   "options": [
+    "est",
+    "sont",
+    "êtes"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _tout le monde_ → singulier.",
+    "B": "Faux. _tout le monde_ est grammaticalement singulier.",
+    "C": "Faux. _êtes_ va avec _vous_."
+   }
+  },
+  {
+   "id": "q.07.b.002",
+   "los": "los.07.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "La plupart des salariés …… en télétravail le vendredi.",
+   "options": [
+    "est",
+    "es",
+    "sont"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Après _la plupart_, le verbe est au pluriel.",
+    "B": "Faux. _es_ va avec _tu_.",
+    "C": "Correct. _la plupart des_ → pluriel."
+   }
+  },
+  {
+   "id": "q.07.b.003",
+   "los": "los.07.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Les gens …… de plus en plus attentifs à leur alimentation.",
+   "options": [
+    "sont",
+    "est",
+    "sommes"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _les gens_ est pluriel.",
+    "B": "Faux. _gens_ est pluriel.",
+    "C": "Faux. _sommes_ va avec _nous_."
+   }
+  },
+  {
+   "id": "q.07.b.004",
+   "los": "los.07.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ce soir, le public …… les musiciens pendant dix minutes.",
+   "options": [
+    "applaudissent",
+    "applaudit",
+    "applaudissons"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _public_ est singulier : verbe au singulier.",
+    "B": "Correct. _le public_ est un nom singulier.",
+    "C": "Faux. Le sujet est _le public_, pas _nous_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.07.plupart",
+   "los": [
+    "los.07.b"
+   ],
+   "name": "Accord après la plupart / tout le monde",
+   "front": "La plupart des gens … ; tout le monde … ?",
+   "back": "_La plupart des gens_ + **pluriel** ; _tout le monde_ + **singulier**.",
+   "examples": [
+    "La plupart des gens pensent… / Tout le monde pense…"
+   ]
+  }
+ ]
+}

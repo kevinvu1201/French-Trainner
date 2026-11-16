@@ -1,0 +1,228 @@
+{
+ "module": "m02.1",
+ "source_hash": "71f0e4e5ee11",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "L'adjectif prend le genre et le nombre du nom ou du pronom qu'il qualifie."
+   },
+   {
+    "stage": "mechanism",
+    "md": "On ajoute **-e** au féminin et **-s** au pluriel, avec des terminaisons particulières (-eux/-euse, -if/-ive, -al/-aux…)."
+   },
+   {
+    "stage": "result",
+    "md": "Un groupe mixte s'accorde au masculin pluriel ; le _vous_ de politesse, au singulier."
+   }
+  ],
+  "why_it_matters": "Les accords d'adjectifs sont le premier critère de « correction » visible dans une copie de DELF.",
+  "exam_approach": {
+   "look_first": [
+    "le nom ou le sujet qualifié",
+    "son genre et son nombre",
+    "la terminaison de l'adjectif au masculin"
+   ],
+   "traps": [
+    "*_une femme sérieux_",
+    "*_des problèmes sociales_ (nom masculin)",
+    "_vous_ de politesse mis au pluriel"
+   ],
+   "distractors": [
+    "le masculin non accordé",
+    "un pluriel en -als au lieu de -aux",
+    "un féminin mal formé"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.02.a.001",
+   "los": "los.02.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ma voisine est très …… : elle court tous les matins.",
+   "options": [
+    "sportive",
+    "sportif",
+    "sportife"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _-if → -ive_.",
+    "B": "Faux. C'est le masculin.",
+    "C": "Faux. _-if_ ne prend pas simplement un _e_."
+   }
+  },
+  {
+   "id": "q.02.a.002",
+   "los": "los.02.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "C'est une femme …… et très organisée.",
+   "options": [
+    "sérieux",
+    "sérieuxe",
+    "sérieuse"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. C'est le masculin.",
+    "B": "Faux. Ce féminin n'existe pas.",
+    "C": "Correct. _-eux → -euse_."
+   }
+  },
+  {
+   "id": "q.02.a.003",
+   "los": "los.02.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Cette robe est trop …… pour moi.",
+   "options": [
+    "chere",
+    "cher",
+    "chère"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il manque l'accent grave : _chère_.",
+    "B": "Faux. C'est le masculin.",
+    "C": "Correct. _-er → -ère_, avec un accent grave."
+   }
+  },
+  {
+   "id": "q.02.a.004",
+   "los": "los.02.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Nous avons acheté une …… voiture.",
+   "options": [
+    "nouvelle",
+    "nouveau",
+    "nouvel"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _nouveau → nouvelle_.",
+    "B": "Faux. C'est le masculin.",
+    "C": "Faux. _nouvel_ s'emploie devant un nom masculin à voyelle : _un nouvel ami_."
+   }
+  },
+  {
+   "id": "q.02.a.005",
+   "los": "los.02.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "La réponse est …… : relisez la question.",
+   "options": [
+    "fauxe",
+    "fausse",
+    "fause"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Ce féminin n'existe pas.",
+    "B": "Correct. _faux → fausse_.",
+    "C": "Faux. Le féminin s'écrit avec deux _s_."
+   }
+  },
+  {
+   "id": "q.02.b.001",
+   "los": "los.02.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Les mesures …… du gouvernement ont été annoncées hier.",
+   "options": [
+    "sociaux",
+    "socials",
+    "sociales"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _sociaux_ est le masculin pluriel.",
+    "B": "Faux. Ce pluriel n'existe pas.",
+    "C": "Correct. _mesure_ est féminin : _sociale → sociales_."
+   }
+  },
+  {
+   "id": "q.02.b.002",
+   "los": "los.02.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Les problèmes …… sont nombreux dans cette région.",
+   "options": [
+    "sociaux",
+    "socials",
+    "sociales"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _-al → -aux_ au masculin pluriel.",
+    "B": "Faux. _social_ fait _sociaux_.",
+    "C": "Faux. _problème_ est masculin."
+   }
+  },
+  {
+   "id": "q.02.b.003",
+   "los": "los.02.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Paul et ses deux sœurs sont très …….",
+   "options": [
+    "contentes",
+    "contents",
+    "content"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Un seul masculin suffit pour accorder au masculin.",
+    "B": "Correct. Groupe mixte → masculin pluriel.",
+    "C": "Faux. Le sujet est pluriel."
+   }
+  },
+  {
+   "id": "q.02.b.004",
+   "los": "los.02.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "« Vous êtes ……, madame ? Nous pouvons commencer. »",
+   "options": [
+    "prêtes",
+    "prêts",
+    "prête"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le _vous_ de politesse désigne une seule personne.",
+    "B": "Faux. Il s'agit d'une femme, seule.",
+    "C": "Correct. _vous_ de politesse, une seule femme → féminin singulier."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.02.feminin",
+   "los": [
+    "los.02.a"
+   ],
+   "name": "Féminins particuliers",
+   "front": "Féminin de -eux, -if, -er, -en, -el ?",
+   "back": "-euse, -ive, -ère, -enne, -elle.",
+   "examples": [
+    "heureux → heureuse ; actif → active ; cher → chère ; ancien → ancienne ; naturel → naturelle"
+   ]
+  },
+  {
+   "id": "f.02.pluriel-al",
+   "los": [
+    "los.02.b"
+   ],
+   "name": "Pluriel en -al",
+   "front": "Pluriel masculin de national, social, principal ?",
+   "back": "**-aux** : nationaux, sociaux, principaux.",
+   "common_mistake": "_banal, final, fatal, naval_ font _-als_."
+  }
+ ]
+}

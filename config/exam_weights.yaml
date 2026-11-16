@@ -1,15 +1,29 @@
 # How much each topic counts for readiness, the study plan's priorities, Smart Sessions and the
-# mock exam. These are not official DELF weights (the DELF doesn't test grammar separately); they
-# reflect how often each point decides a mark in the B2 writing and speaking tasks.
+# mock exam. These are not official DELF weights (the DELF doesn't test grammar separately).
+# The four skills are a quarter of the DELF each: listening and reading are tested here directly;
+# writing and speaking only through their method, so they weigh less. Grammar topics reflect how
+# often each point decides a mark in the B2 writing and speaking tasks; the A1–A2 basics weigh little.
 #
 # Scoring uses `use` if present, otherwise the midpoint of [min, max]; weights are normalised.
 # The vocabulary deck has weight 0: it is reviewed as flashcards, outside readiness.
 verified: true
 weights:
-  subjonctif:  {min: 20, max: 30}
-  hypotheses:  {min: 15, max: 25}
-  relatifs:    {min: 15, max: 20}
-  discours:    {min: 10, max: 20}
-  logique:     {min: 20, max: 30}
-  ecoute:      {min: 25, max: 25}  # listening is a quarter of the DELF
-  vocabulaire: {min: 0,  max: 0}
+  bases:        {min: 2,  max: 4}
+  qualifier:    {min: 5,  max: 8}
+  espace_temps: {min: 4,  max: 6}
+  present:      {min: 4,  max: 6}
+  pronoms:      {min: 10, max: 15}
+  questions:    {min: 5,  max: 8}
+  passe:        {min: 15, max: 20}
+  futur:        {min: 6,  max: 10}
+  modes:        {min: 8,  max: 12}
+  subjonctif:   {min: 20, max: 30}
+  hypotheses:   {min: 15, max: 25}
+  relatifs:     {min: 15, max: 20}
+  discours:     {min: 10, max: 20}
+  logique:      {min: 20, max: 30}
+  ecoute:       {min: 25, max: 25}  # listening is a quarter of the DELF
+  lecture:      {min: 25, max: 25}  # reading too
+  ecrit:        {min: 12, max: 15}
+  oral:         {min: 8,  max: 12}
+  vocabulaire:  {min: 0,  max: 0}

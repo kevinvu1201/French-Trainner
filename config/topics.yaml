@@ -1,13 +1,41 @@
 # Topics and the Grammaire progressive du français (intermédiaire, 3e éd.) chapters they cover.
-# `chapters` lists chapter numbers (non-contiguous is fine). Chapters 90–96 are the vocabulary
-# themes, which have no chapter in the book; 61-62 are the listening exercises from 100% B2.
+# `chapters` lists chapter numbers (non-contiguous is fine). Chapters 1–52 are the book's;
+# 61–62 are the listening exercises, 63–65 the reading texts, 70–71 the writing method and
+# 75–76 the speaking method from 100% DELF B2; 90–96 are the vocabulary themes.
 topics:
+  - id: bases
+    name: Les bases
+    chapters: [1, 2, 4, 5, 6, 7, 8, 9, 11, 13]
+  - id: qualifier
+    name: Adjectifs, adverbes et comparaison
+    chapters: [12, 15, 18, 19, 22]
+  - id: espace_temps
+    name: Situer dans l'espace et le temps
+    chapters: [10, 14, 17, 21, 25, 41]
+  - id: present
+    name: Le présent et les verbes
+    chapters: [16, 23, 26, 27, 37, 38]
+  - id: pronoms
+    name: Les pronoms
+    chapters: [20, 24, 28, 29]
+  - id: questions
+    name: L'interrogation et la négation
+    chapters: [3, 33, 34]
+  - id: passe
+    name: Les temps du passé
+    chapters: [40, 43, 44, 46]
+  - id: futur
+    name: Le futur
+    chapters: [39, 47, 48]
+  - id: modes
+    name: Impératif, gérondif et passif
+    chapters: [30, 36, 42]
   - id: subjonctif
     name: Le subjonctif
     chapters: [51]
   - id: hypotheses
     name: Le conditionnel et les hypothèses
-    chapters: [49, 50]
+    chapters: [31, 49, 50]
   - id: relatifs
     name: Les pronoms relatifs
     chapters: [32]
@@ -20,6 +48,15 @@ topics:
   - id: ecoute
     name: Compréhension de l'oral
     chapters: [61, 62]
+  - id: lecture
+    name: Compréhension des écrits
+    chapters: [63, 64, 65]
+  - id: ecrit
+    name: Production écrite
+    chapters: [70, 71]
+  - id: oral
+    name: Production orale
+    chapters: [75, 76]
   - id: vocabulaire
     name: Vocabulaire DELF B2
     chapters: [90, 91, 92, 93, 94, 95, 96]

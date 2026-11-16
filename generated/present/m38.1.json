@@ -1,0 +1,167 @@
+{
+ "module": "m38.1",
+ "source_hash": "3afc1b98c5e6",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Les verbes de mouvement se choisissent selon le point de vue de celui qui parle."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_Venir / revenir_ : vers ici ; _aller / retourner_ : vers là-bas ; _rentrer_ : chez soi."
+   },
+   {
+    "stage": "result",
+    "md": "_Visiter_ s'emploie pour un lieu ; pour une personne, _rendre visite à_."
+   }
+  ],
+  "why_it_matters": "Ces nuances apparaissent dans les documents oraux (annonces, messages) et dans les récits.",
+  "exam_approach": {
+   "look_first": [
+    "le point de vue (ici ou là-bas)",
+    "un lieu ou une personne"
+   ],
+   "traps": [
+    "*_visiter mes parents_",
+    "_aller_ au lieu de _venir_ pour rejoindre l'interlocuteur"
+   ],
+   "distractors": [
+    "le verbe de direction opposée",
+    "_visiter_ avec une personne"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.38.a.001",
+   "los": "los.38.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Tu …… à ma fête samedi ? J'organise ça chez moi.",
+   "options": [
+    "vas",
+    "pars",
+    "viens"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On se dirige vers la personne qui parle.",
+    "B": "Faux. _partir_ = quitter un lieu.",
+    "C": "Correct. Vers le lieu de celui qui parle → _venir_."
+   }
+  },
+  {
+   "id": "q.38.a.002",
+   "los": "los.38.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Il est tard, je …… chez moi.",
+   "options": [
+    "reviens",
+    "rentre",
+    "sors"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _revenir_ = venir de nouveau ici.",
+    "B": "Correct. Retourner chez soi → _rentrer_.",
+    "C": "Faux. _sortir_ = aller dehors."
+   }
+  },
+  {
+   "id": "q.38.a.003",
+   "los": "los.38.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "J'ai adoré Lisbonne : j'espère y …… l'an prochain.",
+   "options": [
+    "revenir",
+    "retourner",
+    "rentrer"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _revenir_ = venir de nouveau ici (on n'est pas à Lisbonne).",
+    "B": "Correct. Aller de nouveau là-bas → _retourner_.",
+    "C": "Faux. _rentrer_ = retourner chez soi."
+   }
+  },
+  {
+   "id": "q.38.a.004",
+   "los": "los.38.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Ce soir, on …… au cinéma avec des amis.",
+   "options": [
+    "revient",
+    "rentre",
+    "sort"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _revenir_ = venir de nouveau ici.",
+    "B": "Faux. _rentrer_ = retourner chez soi.",
+    "C": "Correct. Se divertir à l'extérieur → _sortir_."
+   }
+  },
+  {
+   "id": "q.38.b.001",
+   "los": "los.38.b",
+   "difficulty": 1,
+   "qtype": "vocabulary",
+   "stem": "Pendant les vacances, je vais …… ma grand-mère en Bretagne.",
+   "options": [
+    "rendre visite à",
+    "visiter",
+    "visiter à"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Une personne → _rendre visite à_.",
+    "B": "Faux. _visiter_ s'emploie avec un lieu.",
+    "C": "Faux. *_visiter à_ n'existe pas."
+   }
+  },
+  {
+   "id": "q.38.b.002",
+   "los": "los.38.b",
+   "difficulty": 1,
+   "qtype": "vocabulary",
+   "stem": "Nous avons …… le château de Versailles.",
+   "options": [
+    "rendu visite au",
+    "visité",
+    "vu à"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _rendre visite à_ s'emploie avec une personne.",
+    "B": "Correct. Un lieu → _visiter_.",
+    "C": "Faux. Cette construction n'existe pas."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.38.deplacement",
+   "los": [
+    "los.38.a"
+   ],
+   "name": "Rentrer, revenir, retourner",
+   "front": "rentrer / revenir / retourner ?",
+   "back": "**rentrer** : chez soi ; **revenir** : de nouveau ici ; **retourner** : de nouveau là-bas."
+  },
+  {
+   "id": "f.38.visiter",
+   "los": [
+    "los.38.b"
+   ],
+   "name": "Visiter / rendre visite",
+   "front": "visiter ou rendre visite à ?",
+   "back": "**visiter** un lieu ; **rendre visite à** une personne."
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "module": "m14.1",
+ "source_hash": "d159dec79070",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Chaque unité de temps a sa préposition propre."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Date et jour → _le_ (sans préposition) ; mois, année et saisons → _en_, sauf _au printemps_."
+   },
+   {
+    "stage": "result",
+    "md": "L'heure et la météo se disent avec des tournures impersonnelles (_il est, il fait, il pleut_)."
+   }
+  ],
+  "why_it_matters": "Dates et horaires sont présents dans presque tous les documents d'écoute et dans les lettres.",
+  "exam_approach": {
+   "look_first": [
+    "date, mois, année ou saison ?",
+    "_le lundi_ (habitude) / _lundi_ (ce lundi)"
+   ],
+   "traps": [
+    "*_en printemps_",
+    "*_le un mai_",
+    "*_il est beau_ pour la météo"
+   ],
+   "distractors": [
+    "_en_ avec _printemps_",
+    "une préposition devant une date"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.14.a.001",
+   "los": "los.14.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Les cours reprennent …… septembre.",
+   "options": [
+    "au",
+    "le",
+    "en"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _au_ s'emploie avec _au mois de_.",
+    "B": "Faux. _le_ s'emploie avec une date précise.",
+    "C": "Correct. Mois → _en_."
+   }
+  },
+  {
+   "id": "q.14.a.002",
+   "los": "los.14.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Nous allons au Japon …… printemps.",
+   "options": [
+    "en",
+    "dans le",
+    "au"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On dit _en été, en automne, en hiver_, mais _au printemps_.",
+    "B": "Faux. Ce n'est pas la tournure habituelle.",
+    "C": "Correct. _au printemps_ (exception)."
+   }
+  },
+  {
+   "id": "q.14.a.003",
+   "los": "los.14.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Le musée est fermé …… mardi : tous les mardis.",
+   "options": [
+    "le",
+    "au",
+    "en"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _le mardi_ = tous les mardis.",
+    "B": "Faux. _au mardi_ n'existe pas.",
+    "C": "Faux. _en_ ne s'emploie pas avec les jours."
+   }
+  },
+  {
+   "id": "q.14.a.004",
+   "los": "los.14.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "La fête du Travail a lieu le …… mai.",
+   "options": [
+    "un",
+    "1er",
+    "1"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le premier jour du mois → _premier_.",
+    "B": "Correct. On dit _le premier mai_ (ordinal pour le 1er seulement).",
+    "C": "Faux. On écrit _1er_ pour le premier jour du mois."
+   }
+  },
+  {
+   "id": "q.14.b.001",
+   "los": "los.14.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Rendez-vous à une heure et …… devant le cinéma.",
+   "options": [
+    "demi",
+    "moitié",
+    "demie"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Avec _heure_ (féminin) → _demie_.",
+    "B": "Faux. On dit _et demie_.",
+    "C": "Correct. _heure_ est féminin → _et demie_."
+   }
+  },
+  {
+   "id": "q.14.b.002",
+   "los": "los.14.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Prends un parapluie : il …… depuis ce matin.",
+   "options": [
+    "pleut",
+    "fait pluie",
+    "est pluvieux"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _il pleut_ (verbe _pleuvoir_).",
+    "B": "Faux. On dit _il pleut_.",
+    "C": "Faux. On ne dit pas _il est pluvieux_ pour la météo."
+   }
+  },
+  {
+   "id": "q.14.b.003",
+   "los": "los.14.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Aujourd'hui, …… vingt-cinq degrés à Marseille.",
+   "options": [
+    "il est",
+    "il fait",
+    "il a"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _il est_ s'emploie pour l'heure.",
+    "B": "Correct. Température → _il fait_.",
+    "C": "Faux. _il a_ ne s'emploie pas pour la météo."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.14.saisons",
+   "los": [
+    "los.14.a"
+   ],
+   "name": "Saisons",
+   "front": "Préposition des saisons ?",
+   "back": "**en** été, **en** automne, **en** hiver, mais **au** printemps."
+  }
+ ]
+}

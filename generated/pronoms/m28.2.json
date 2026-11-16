@@ -1,0 +1,246 @@
+{
+ "module": "m28.2",
+ "source_hash": "9a4aa9bad659",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Quand deux pronoms se suivent, leur ordre est fixe."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_me/te/nous/vous_ → _le/la/les_ → _lui/leur_ → _y_ → _en_ ; le groupe se place devant le verbe conjugué ou l'infinitif."
+   },
+   {
+    "stage": "result",
+    "md": "Avec _avoir_, le participe passé s'accorde avec un COD placé avant."
+   }
+  ],
+  "why_it_matters": "Les doubles pronoms (_je le lui ai dit_) sont un marqueur clair du niveau B2.",
+  "exam_approach": {
+   "look_first": [
+    "le nombre de pronoms",
+    "un infinitif ou un temps composé",
+    "un COD placé avant le participe"
+   ],
+   "traps": [
+    "*_je lui le donne_",
+    "*_je l'ai pris_ pour _les photos_",
+    "*_je le vais voir_"
+   ],
+   "distractors": [
+    "l'ordre inversé",
+    "le pronom placé devant le verbe conjugué au lieu de l'infinitif"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.28.c.001",
+   "los": "los.28.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Tu as rendu le livre à Paul ? — Oui, je …… ai rendu hier.",
+   "options": [
+    "lui le",
+    "le lui",
+    "lui l'"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. L'ordre est _le lui_.",
+    "B": "Correct. Ordre : _le_ avant _lui_.",
+    "C": "Faux. L'ordre est _le lui_."
+   }
+  },
+  {
+   "id": "q.28.c.002",
+   "los": "los.28.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ta sœur t'a montré ses photos ? — Oui, elle …… a montrées.",
+   "options": [
+    "les me",
+    "me leur",
+    "me les"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. L'ordre est _me les_.",
+    "B": "Faux. _ses photos_ est COD : _les_.",
+    "C": "Correct. Ordre : _me_ avant _les_."
+   }
+  },
+  {
+   "id": "q.28.c.003",
+   "los": "los.28.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Je veux voir ce film : je …… voir ce soir.",
+   "options": [
+    "vais le",
+    "le vais",
+    "vais lui"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Le pronom se place devant l'infinitif dont il dépend.",
+    "B": "Faux. Le pronom complète _voir_, pas _aller_ : il se place devant l'infinitif.",
+    "C": "Faux. _voir_ est un verbe direct : _le_."
+   }
+  },
+  {
+   "id": "q.28.c.004",
+   "los": "los.28.c",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Ces lettres ? Je les ai …… ce matin.",
+   "options": [
+    "écrit",
+    "écrites",
+    "écrits"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le participe s'accorde avec le COD placé avant.",
+    "B": "Correct. COD _les_ (féminin pluriel) placé avant → accord.",
+    "C": "Faux. _lettres_ est féminin."
+   }
+  },
+  {
+   "id": "q.28.c.005",
+   "los": "los.28.c",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Des conseils ? Mon professeur …… a donné beaucoup.",
+   "options": [
+    "en m'",
+    "m'en",
+    "me les"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. L'ordre est _m'en_.",
+    "B": "Correct. Ordre : _me_ avant _en_.",
+    "C": "Faux. _beaucoup_ (quantité) demande _en_."
+   }
+  },
+  {
+   "id": "q.28.c.006",
+   "los": "los.28.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Tu peux prêter ta voiture à tes parents ? — Oui, je peux …… prêter.",
+   "options": [
+    "leur la",
+    "les leur",
+    "la leur"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. L'ordre est _la leur_.",
+    "B": "Faux. _ta voiture_ est singulier.",
+    "C": "Correct. Ordre : _la_ avant _leur_, devant l'infinitif."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m28.2.01",
+   "modules": [
+    "m28.2"
+   ],
+   "title": "Le cadeau d'anniversaire",
+   "vignette": "Deux amies parlent au téléphone :\n\n« — Tu as acheté le cadeau pour Julie ?\n\n— Oui, je **(1)** …… ai acheté hier. Je vais **(2)** …… donner samedi.\n\n— Et les invitations ? Tu **(3)** …… as envoyées aux autres ?\n\n— Oui, je **(4)** …… ai envoyées lundi. »",
+   "questions": [
+    {
+     "id": "set.m28.2.01.q1",
+     "los": "los.28.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "l'",
+      "lui",
+      "en"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _le cadeau_ (COD) → _l'_ devant _ai_.",
+      "B": "Faux. _acheter qqch_ : le cadeau est COD.",
+      "C": "Faux. Le cadeau est déterminé → _le_."
+     }
+    },
+    {
+     "id": "set.m28.2.01.q2",
+     "los": "los.28.c",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "lui le",
+      "la lui",
+      "le lui"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. L'ordre est _le lui_.",
+      "B": "Faux. _cadeau_ est masculin.",
+      "C": "Correct. _donner le cadeau à Julie_ → _le lui_."
+     }
+    },
+    {
+     "id": "set.m28.2.01.q3",
+     "los": "los.28.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (3) :",
+     "options": [
+      "les",
+      "leur",
+      "en"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _les invitations_ (COD) → _les_.",
+      "B": "Faux. Les invitations sont le COD.",
+      "C": "Faux. Les invitations sont déterminées → _les_."
+     }
+    },
+    {
+     "id": "set.m28.2.01.q4",
+     "los": "los.28.c",
+     "difficulty": 3,
+     "qtype": "form",
+     "stem": "Blanc (4) :",
+     "options": [
+      "leur les",
+      "les leur",
+      "les leurs"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. L'ordre est _les leur_.",
+      "B": "Correct. _envoyer les invitations aux autres_ → _les leur_.",
+      "C": "Faux. _leur_ est invariable."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.28.ordre-pronoms",
+   "los": [
+    "los.28.c"
+   ],
+   "name": "Ordre des doubles pronoms",
+   "front": "me / le / lui / y / en : ordre ?",
+   "back": "**me, te, nous, vous → le, la, les → lui, leur → y → en**.",
+   "examples": [
+    "Je te le donne. Je le lui donne. Il m'en parle."
+   ]
+  }
+ ]
+}

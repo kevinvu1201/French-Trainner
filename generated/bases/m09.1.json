@@ -1,0 +1,140 @@
+{
+ "module": "m09.1",
+ "source_hash": "40f99ac18680",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "On signale d'abord qu'une chose existe, puis on dit ce qu'elle est."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_Il y a_ + indéfini pour l'existence ; _c'est_ + défini, nom propre ou indéfini pour l'identification."
+   },
+   {
+    "stage": "result",
+    "md": "À la négation, _il n'y a pas **de**_, mais _ce n'est pas **un**_."
+   }
+  ],
+  "why_it_matters": "La négation _il n'y a pas de_ est très fréquente dans les descriptions et les lettres de réclamation.",
+  "exam_approach": {
+   "look_first": [
+    "existence ou identification ?",
+    "une négation"
+   ],
+   "traps": [
+    "*_il n'y a pas une_ (sens général)",
+    "*_ce n'est pas de_"
+   ],
+   "distractors": [
+    "l'article indéfini gardé après _il n'y a pas_",
+    "_c'est_ pour signaler l'existence"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.09.a.001",
+   "los": "los.09.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "…… un bon restaurant au coin de la rue.",
+   "options": [
+    "Il y a",
+    "C'est",
+    "Il est"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Existence → _il y a_.",
+    "B": "Faux. On signale l'existence, on n'identifie pas.",
+    "C": "Faux. _il est_ + nom indéfini n'est pas correct."
+   }
+  },
+  {
+   "id": "q.09.a.002",
+   "los": "los.09.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Tu vois ce bâtiment ? …… la nouvelle médiathèque.",
+   "options": [
+    "Il y a",
+    "C'est",
+    "Il est"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. On identifie le bâtiment.",
+    "B": "Correct. Identification → _c'est_.",
+    "C": "Faux. _il est_ ne se place pas devant un nom déterminé."
+   }
+  },
+  {
+   "id": "q.09.a.003",
+   "los": "los.09.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Dans ce village, il n'y a pas …… école.",
+   "options": [
+    "une",
+    "l'",
+    "d'"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Après _il n'y a pas_, l'article indéfini devient _de_.",
+    "B": "Faux. On nie l'existence : _de_.",
+    "C": "Correct. _il n'y a pas_ → _de / d'_."
+   }
+  },
+  {
+   "id": "q.09.a.004",
+   "los": "los.09.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ce n'est pas …… problème technique, c'est une erreur humaine.",
+   "options": [
+    "de",
+    "un",
+    "du"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Après _ce n'est pas_, l'article ne change pas.",
+    "B": "Correct. _ce n'est pas_ garde l'article.",
+    "C": "Faux. _du_ est un partitif."
+   }
+  },
+  {
+   "id": "q.09.a.005",
+   "los": "los.09.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il …… beaucoup de touristes en été.",
+   "options": [
+    "y a",
+    "y ont",
+    "est"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _il y a_ est invariable.",
+    "B": "Faux. _il y a_ ne se met jamais au pluriel.",
+    "C": "Faux. _il est beaucoup de_ n'est pas courant."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.09.il-y-a",
+   "los": [
+    "los.09.a"
+   ],
+   "name": "Il y a / c'est à la négation",
+   "front": "Négation de _il y a un_ / _c'est un_ ?",
+   "back": "_il n'y a pas **de**_ ; _ce n'est pas **un**_."
+  }
+ ]
+}

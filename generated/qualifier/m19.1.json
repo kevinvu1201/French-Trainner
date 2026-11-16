@@ -1,0 +1,289 @@
+{
+ "module": "m19.1",
+ "source_hash": "72732f714a3a",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le français distingue ce qu'on compte (_un œuf_) et ce qu'on ne compte pas (_du beurre_)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Une quantité indéterminée prend le partitif ; une quantité exprimée ou niée prend _de_ seul."
+   },
+   {
+    "stage": "result",
+    "md": "Après _aimer_, on garde le défini ; après _beaucoup_ ou _pas_, on passe à _de_."
+   }
+  ],
+  "why_it_matters": "Les articles de quantité apparaissent dans tous les sujets sur l'alimentation, la consommation et l'environnement.",
+  "exam_approach": {
+   "look_first": [
+    "un verbe de goût ou de consommation",
+    "une expression de quantité",
+    "une négation"
+   ],
+   "traps": [
+    "*_beaucoup des gens_",
+    "*_je ne bois pas du vin_",
+    "*_j'aime du chocolat_"
+   ],
+   "distractors": [
+    "le partitif gardé après une quantité ou une négation",
+    "le défini à la place du partitif"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.19.a.001",
+   "los": "los.19.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Au petit déjeuner, je prends …… pain et du beurre.",
+   "options": [
+    "le",
+    "de",
+    "du"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On ne parle pas du pain en général.",
+    "B": "Faux. _de_ seul s'emploie après une quantité ou une négation.",
+    "C": "Correct. Quantité indéterminée, masculin → _du_."
+   }
+  },
+  {
+   "id": "q.19.a.002",
+   "los": "los.19.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il faut boire …… eau régulièrement en été.",
+   "options": [
+    "de l'",
+    "du",
+    "l'"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Partitif devant voyelle → _de l'_.",
+    "B": "Faux. Devant une voyelle → _de l'_.",
+    "C": "Faux. On parle d'une quantité, pas de l'eau en général."
+   }
+  },
+  {
+   "id": "q.19.a.003",
+   "los": "los.19.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Mon frère déteste …… poisson.",
+   "options": [
+    "du",
+    "le",
+    "de"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Pas de partitif après _détester_.",
+    "B": "Correct. Après un verbe de goût → défini.",
+    "C": "Faux. _de_ seul ne s'emploie pas ici."
+   }
+  },
+  {
+   "id": "q.19.b.001",
+   "los": "los.19.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il y a beaucoup …… monde dans le métro ce matin.",
+   "options": [
+    "du",
+    "des",
+    "de"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Après une expression de quantité, pas d'article.",
+    "B": "Faux. _beaucoup des_ est fautif.",
+    "C": "Correct. Après _beaucoup_ → _de_."
+   }
+  },
+  {
+   "id": "q.19.b.002",
+   "los": "los.19.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "La plupart …… habitants travaillent en ville.",
+   "options": [
+    "des",
+    "de",
+    "d'"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Exception : _la plupart des_.",
+    "B": "Faux. _la plupart_ est suivi de _des_.",
+    "C": "Faux. _la plupart_ est suivi de _des_."
+   }
+  },
+  {
+   "id": "q.19.b.003",
+   "los": "los.19.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Je suis végétarien : je ne mange pas …… viande.",
+   "options": [
+    "de la",
+    "de",
+    "la"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Après la négation, le partitif devient _de_.",
+    "B": "Correct. Négation → _de_.",
+    "C": "Faux. On ne parle pas de la viande en général."
+   }
+  },
+  {
+   "id": "q.19.b.004",
+   "los": "los.19.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Ce n'est pas …… sucre, c'est du sel !",
+   "options": [
+    "de",
+    "le",
+    "du"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Après _ce n'est pas_, l'article reste.",
+    "B": "Faux. On compare deux substances, en quantité.",
+    "C": "Correct. Avec _être_, la négation ne change pas l'article."
+   }
+  },
+  {
+   "id": "q.19.b.005",
+   "los": "los.19.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Achète deux bouteilles …… huile d'olive, s'il te plaît.",
+   "options": [
+    "d'",
+    "de l'",
+    "des"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Quantité exprimée + voyelle → _d'_.",
+    "B": "Faux. Après une quantité, pas d'article.",
+    "C": "Faux. _des_ ne suit pas une quantité exprimée."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m19.1.01",
+   "modules": [
+    "m19.1"
+   ],
+   "title": "Bien manger sans se ruiner",
+   "vignette": "Une diététicienne donne ses conseils :\n\n« Mangez **(1)** …… légumes à chaque repas et limitez la viande rouge. Vous n'avez pas besoin de beaucoup **(2)** …… argent : un kilo **(3)** …… lentilles coûte moins de trois euros. Et si vous n'aimez pas **(4)** …… légumes secs, essayez-les en soupe ! »",
+   "questions": [
+    {
+     "id": "set.m19.1.01.q1",
+     "los": "los.19.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "de",
+      "des",
+      "les"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _de_ seul après une quantité ou une négation.",
+      "B": "Correct. Quantité indéterminée, pluriel → _des_.",
+      "C": "Faux. On ne parle pas des légumes en général."
+     }
+    },
+    {
+     "id": "set.m19.1.01.q2",
+     "los": "los.19.b",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "de l'",
+      "du",
+      "d'"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. Pas d'article après _beaucoup_.",
+      "B": "Faux. Pas d'article après _beaucoup_.",
+      "C": "Correct. Après _beaucoup_ → _d'_."
+     }
+    },
+    {
+     "id": "set.m19.1.01.q3",
+     "los": "los.19.b",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (3) :",
+     "options": [
+      "de",
+      "des",
+      "du"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Quantité exprimée → _de_.",
+      "B": "Faux. Pas d'article après _un kilo_.",
+      "C": "Faux. _lentilles_ est pluriel, et pas d'article après une quantité."
+     }
+    },
+    {
+     "id": "set.m19.1.01.q4",
+     "los": "los.19.a",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) :",
+     "options": [
+      "de",
+      "les",
+      "des"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Après un verbe de goût, l'article défini reste même à la négation.",
+      "B": "Correct. Après _aimer_ (même à la négation) → défini, sens général.",
+      "C": "Faux. Pas de partitif après _aimer_."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.19.partitif",
+   "los": [
+    "los.19.a"
+   ],
+   "name": "Défini ou partitif ?",
+   "front": "J'aime …… café / Je bois …… café ?",
+   "back": "J'aime **le** café (en général) ; je bois **du** café (une quantité).",
+   "common_mistake": "*_J'aime du café_."
+  },
+  {
+   "id": "f.19.quantite-de",
+   "los": [
+    "los.19.b"
+   ],
+   "name": "Quantité et négation",
+   "front": "Après beaucoup, un kilo, ne… pas ?",
+   "back": "**de / d'** sans article : _beaucoup de temps, pas de viande_. Exception : **la plupart des**."
+  }
+ ]
+}

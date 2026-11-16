@@ -1,0 +1,204 @@
+{
+ "module": "m26.2",
+ "source_hash": "b1c9a55c6f80",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Une dizaine de verbes très fréquents ont des formes à apprendre par cœur."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_Faire, dire_ font _vous faites, vous dites_ ; _pouvoir, vouloir_ changent de voyelle (_peux / pouvons / peuvent_)."
+   },
+   {
+    "stage": "result",
+    "md": "_Savoir_ s'emploie avec un infinitif ou une proposition ; _connaître_ avec un nom de personne ou de lieu."
+   }
+  ],
+  "why_it_matters": "_Vous faites_, _ils peuvent_, _savoir / connaître_ : erreurs classiques jusqu'au niveau B2.",
+  "exam_approach": {
+   "look_first": [
+    "la personne",
+    "ce qui suit le verbe (nom, infinitif, proposition)"
+   ],
+   "traps": [
+    "*_vous faisez_",
+    "*_ils pouvent_",
+    "*_je connais nager_"
+   ],
+   "distractors": [
+    "une forme régularisée",
+    "_savoir_ / _connaître_ inversés"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.26.b.001",
+   "los": "los.26.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Qu'est-ce que vous …… ce week-end ?",
+   "options": [
+    "faisez",
+    "font",
+    "faites"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Cette forme n'existe pas.",
+    "B": "Faux. _font_ va avec _ils_.",
+    "C": "Correct. _vous faites_ (exception)."
+   }
+  },
+  {
+   "id": "q.26.b.002",
+   "los": "los.26.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ils ne …… pas venir à la réunion.",
+   "options": [
+    "pouvent",
+    "peuvent",
+    "peut"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Cette forme n'existe pas.",
+    "B": "Correct. _pouvoir_ : _ils peuvent_.",
+    "C": "Faux. _peut_ va avec _il_."
+   }
+  },
+  {
+   "id": "q.26.b.003",
+   "los": "los.26.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Vous …… toujours la vérité ?",
+   "options": [
+    "disez",
+    "disent",
+    "dites"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Cette forme n'existe pas.",
+    "B": "Faux. _disent_ va avec _ils_.",
+    "C": "Correct. _vous dites_ (exception)."
+   }
+  },
+  {
+   "id": "q.26.b.004",
+   "los": "los.26.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Mes enfants …… un chien pour Noël.",
+   "options": [
+    "voulent",
+    "veulent",
+    "veuillent"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le radical de _ils_ est _veul-_.",
+    "B": "Correct. _vouloir_ : _ils veulent_.",
+    "C": "Faux. C'est le subjonctif."
+   }
+  },
+  {
+   "id": "q.26.b.005",
+   "los": "los.26.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Pour réussir, il …… beaucoup travailler.",
+   "options": [
+    "faut",
+    "fait",
+    "falloit"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _falloir_ : _il faut_.",
+    "B": "Faux. _il fait_ vient de _faire_.",
+    "C": "Faux. Cette forme n'existe pas."
+   }
+  },
+  {
+   "id": "q.26.c.001",
+   "los": "los.26.c",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Tu …… conduire ?",
+   "options": [
+    "connais",
+    "sais",
+    "peux"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _connaître_ n'est pas suivi d'un infinitif.",
+    "B": "Correct. _savoir_ + infinitif (une compétence).",
+    "C": "Faux. _pouvoir_ exprime une possibilité, pas une compétence apprise."
+   }
+  },
+  {
+   "id": "q.26.c.002",
+   "los": "los.26.c",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Est-ce que vous …… ce restaurant ?",
+   "options": [
+    "savez",
+    "sachez",
+    "connaissez"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _savoir_ n'est pas suivi d'un nom de lieu.",
+    "B": "Faux. C'est le subjonctif ou l'impératif de _savoir_.",
+    "C": "Correct. _connaître_ + nom de lieu."
+   }
+  },
+  {
+   "id": "q.26.c.003",
+   "los": "los.26.c",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Je ne …… pas pourquoi il est parti si tôt.",
+   "options": [
+    "sais",
+    "connais",
+    "connaît"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _savoir_ + question indirecte.",
+    "B": "Faux. _connaître_ n'introduit pas de question indirecte.",
+    "C": "Faux. Il faut _savoir_, et la personne est _je_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.26.savoir-connaitre",
+   "los": [
+    "los.26.c"
+   ],
+   "name": "Savoir / connaître",
+   "front": "savoir ou connaître ?",
+   "back": "**savoir** + infinitif, _que_, _si_, _pourquoi_… ; **connaître** + nom (personne, lieu, œuvre)."
+  },
+  {
+   "id": "f.26.faites-dites",
+   "los": [
+    "los.26.b"
+   ],
+   "name": "Vous faites, vous dites",
+   "front": "vous (faire, dire, être) ?",
+   "back": "vous **faites**, vous **dites**, vous **êtes**."
+  }
+ ]
+}

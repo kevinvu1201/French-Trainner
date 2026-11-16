@@ -1,0 +1,189 @@
+{
+ "module": "m01.1",
+ "source_hash": "b0b186a8d1a7",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "En français, le verbe est presque toujours précédé de son sujet (nom ou pronom)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_Être_ est irrégulier : six formes différentes à mémoriser (_suis, es, est, sommes, êtes, sont_)."
+   },
+   {
+    "stage": "result",
+    "md": "On situe une personne avec **à** (ville), **de** (origine) et **chez** (personne)."
+   }
+  ],
+  "why_it_matters": "Les fautes sur _être_ et sur _à / chez_ restent visibles même chez les apprenants avancés, en particulier à l'oral.",
+  "exam_approach": {
+   "look_first": [
+    "le sujet (qui ?)",
+    "un lieu (à), une origine (de) ou une personne (chez)"
+   ],
+   "traps": [
+    "_ils_ pour un groupe mixte",
+    "*_à le dentiste_ au lieu de _chez le dentiste_"
+   ],
+   "distractors": [
+    "une autre personne du verbe",
+    "la mauvaise préposition"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.01.a.001",
+   "los": "los.01.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Nous …… en retard pour la réunion.",
+   "options": [
+    "sommes",
+    "sont",
+    "êtes"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _nous sommes_.",
+    "B": "Faux. _sont_ va avec _ils / elles_.",
+    "C": "Faux. _êtes_ va avec _vous_."
+   }
+  },
+  {
+   "id": "q.01.a.002",
+   "los": "los.01.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Marc et Julie ? …… sont au bureau.",
+   "options": [
+    "Elles",
+    "On",
+    "Ils"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _elles_ ne désigne que des femmes.",
+    "B": "Faux. _on_ se conjugue avec _est_, pas _sont_.",
+    "C": "Correct. Groupe mixte → _ils_."
+   }
+  },
+  {
+   "id": "q.01.a.003",
+   "los": "los.01.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ce soir, on …… fatigués après le voyage.",
+   "options": [
+    "sommes",
+    "est",
+    "sont"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _sommes_ va avec _nous_, même si _on_ a le sens de _nous_.",
+    "B": "Correct. _on_ se conjugue comme _il_ : _on est_.",
+    "C": "Faux. _sont_ va avec _ils / elles_."
+   }
+  },
+  {
+   "id": "q.01.b.001",
+   "los": "los.01.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Je suis …… Lisbonne, mais j'habite à Paris depuis dix ans.",
+   "options": [
+    "à",
+    "de",
+    "chez"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _à_ indique la ville où l'on est, pas l'origine.",
+    "B": "Correct. Origine → _de_.",
+    "C": "Faux. _chez_ s'emploie avec une personne."
+   }
+  },
+  {
+   "id": "q.01.b.002",
+   "los": "los.01.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Ce week-end, nous sommes …… nos cousins à la campagne.",
+   "options": [
+    "à",
+    "de",
+    "chez"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _à_ s'emploie avec un lieu, pas une personne.",
+    "B": "Faux. _de_ indique l'origine.",
+    "C": "Correct. Avec une personne → _chez_."
+   }
+  },
+  {
+   "id": "q.01.b.003",
+   "los": "los.01.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Désolé, je ne peux pas répondre, je suis …… le dentiste.",
+   "options": [
+    "chez",
+    "au",
+    "à le"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _le dentiste_ est une personne → _chez_.",
+    "B": "Faux. *_au dentiste_ est fautif à l'écrit : on va _chez_ quelqu'un.",
+    "C": "Faux. _à + le_ se contracte toujours, et ici il faut _chez_."
+   }
+  },
+  {
+   "id": "q.01.b.004",
+   "los": "los.01.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Vous êtes …… où, madame ?",
+   "options": [
+    "de",
+    "d'",
+    "à"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Devant une voyelle, _de_ s'élide.",
+    "B": "Correct. _de_ + voyelle → _d'_ : _d'où_.",
+    "C": "Faux. _à où_ n'existe pas."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.01.etre",
+   "los": [
+    "los.01.a"
+   ],
+   "name": "Le verbe être",
+   "front": "Être au présent ?",
+   "back": "je **suis**, tu **es**, il **est**, nous **sommes**, vous **êtes**, ils **sont**.",
+   "common_mistake": "_on sommes_ : avec _on_, toujours _on est_."
+  },
+  {
+   "id": "f.01.a-de-chez",
+   "los": [
+    "los.01.b"
+   ],
+   "name": "À, de, chez",
+   "front": "Être à / de / chez ?",
+   "back": "**à** + ville (où je suis) ; **de** + ville (origine) ; **chez** + personne.",
+   "examples": [
+    "Je suis à Berlin, de Rome, chez Pierre."
+   ]
+  }
+ ]
+}

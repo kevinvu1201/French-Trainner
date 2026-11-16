@@ -1,0 +1,201 @@
+{
+ "module": "m10.1",
+ "source_hash": "9721a6a9d60d",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "La préposition devant un nom de lieu dépend du type de lieu (ville, pays, continent)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Ville → _à_ ; pays féminin ou à voyelle et continent → _en_ ; pays masculin → _au_ ; pays pluriel → _aux_."
+   },
+   {
+    "stage": "result",
+    "md": "Les locutions de lieu en _de_ (_à côté de, près de_) se contractent avec _le / les_."
+   }
+  ],
+  "why_it_matters": "Ces prépositions apparaissent dans toutes les tâches de présentation et de récit de voyage.",
+  "exam_approach": {
+   "look_first": [
+    "ville ou pays ?",
+    "le genre et le nombre du pays",
+    "une locution en _de_"
+   ],
+   "traps": [
+    "*_en Japon_",
+    "*_au France_",
+    "*_à côté de le métro_"
+   ],
+   "distractors": [
+    "_en_ pour un pays masculin",
+    "_à_ pour un pays",
+    "la locution sans contraction"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.10.a.001",
+   "los": "los.10.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Mes parents habitent …… Portugal depuis leur retraite.",
+   "options": [
+    "au",
+    "en",
+    "à"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Pays masculin à consonne → _au_.",
+    "B": "Faux. _Portugal_ est masculin.",
+    "C": "Faux. _à_ s'emploie avec une ville."
+   }
+  },
+  {
+   "id": "q.10.a.002",
+   "los": "los.10.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Elle fait ses études …… Allemagne.",
+   "options": [
+    "au",
+    "en",
+    "à l'"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _Allemagne_ est féminin.",
+    "B": "Correct. Pays féminin → _en_.",
+    "C": "Faux. On n'emploie pas _à l'_ devant un pays."
+   }
+  },
+  {
+   "id": "q.10.a.003",
+   "los": "los.10.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Nous partons trois semaines …… États-Unis.",
+   "options": [
+    "en",
+    "au",
+    "aux"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _États-Unis_ est pluriel.",
+    "B": "Faux. _États-Unis_ est pluriel.",
+    "C": "Correct. Pays pluriel → _aux_."
+   }
+  },
+  {
+   "id": "q.10.a.004",
+   "los": "los.10.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il a passé un an …… Mexique.",
+   "options": [
+    "en",
+    "au",
+    "à"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _Mexique_ est masculin malgré le _e_ final.",
+    "B": "Correct. Exception : _le Mexique_ est masculin → _au_.",
+    "C": "Faux. _à_ s'emploie avec une ville."
+   }
+  },
+  {
+   "id": "q.10.a.005",
+   "los": "los.10.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ils ont déménagé …… Iran pour le travail.",
+   "options": [
+    "en",
+    "au",
+    "à l'"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Pays masculin à voyelle → _en_.",
+    "B": "Faux. Devant une voyelle, on emploie _en_.",
+    "C": "Faux. On n'emploie pas _à l'_ devant un pays."
+   }
+  },
+  {
+   "id": "q.10.b.001",
+   "los": "los.10.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "J'ai laissé mes clés …… la table de la cuisine.",
+   "options": [
+    "dans",
+    "en",
+    "sur"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _dans_ = à l'intérieur.",
+    "B": "Faux. _en_ ne s'emploie pas avec _la table_.",
+    "C": "Correct. À la surface → _sur_."
+   }
+  },
+  {
+   "id": "q.10.b.002",
+   "los": "los.10.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "L'hôtel se trouve juste à côté …… musée.",
+   "options": [
+    "de le",
+    "du",
+    "au"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _de + le_ se contracte.",
+    "B": "Correct. _à côté de + le_ → _du_.",
+    "C": "Faux. La locution est _à côté de_."
+   }
+  },
+  {
+   "id": "q.10.b.003",
+   "los": "los.10.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Le marché a lieu …… la place de la Mairie.",
+   "options": [
+    "sur",
+    "dans",
+    "à"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. On dit _sur la place_.",
+    "B": "Faux. On dit _dans la rue_, mais _sur la place_.",
+    "C": "Faux. _à la place de_ signifie _au lieu de_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.10.pays",
+   "los": [
+    "los.10.a"
+   ],
+   "name": "Prépositions de pays",
+   "front": "à / en / au / aux ?",
+   "back": "ville → **à** ; pays féminin ou à voyelle, continent → **en** ; pays masculin → **au** ; pluriel → **aux**.",
+   "examples": [
+    "à Rome, en Italie, au Japon, aux États-Unis"
+   ],
+   "common_mistake": "_au Mexique, au Cambodge_ (masculins en -e)."
+  }
+ ]
+}

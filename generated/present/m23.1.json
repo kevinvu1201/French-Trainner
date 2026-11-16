@@ -1,0 +1,141 @@
+{
+ "module": "m23.1",
+ "source_hash": "a048f8c2ab4b",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "_Aller_ est irrégulier : trois radicaux (_v-, all-, ir-_ au futur)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Le lieu suit les règles habituelles (_à, en, au, chez_)."
+   },
+   {
+    "stage": "result",
+    "md": "Transport : **en** si l'on est dedans, **à** si l'on est dessus."
+   }
+  ],
+  "why_it_matters": "Les trajets et les transports sont un thème récurrent (mobilité, environnement) du DELF.",
+  "exam_approach": {
+   "look_first": [
+    "la personne du verbe",
+    "dans ou sur le véhicule ?"
+   ],
+   "traps": [
+    "*_ils allent_",
+    "*_en pied_",
+    "*_au train_"
+   ],
+   "distractors": [
+    "une forme régulière inventée",
+    "_en / à_ inversés"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.23.a.001",
+   "los": "los.23.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Mes enfants …… à l'école à 8 heures.",
+   "options": [
+    "allent",
+    "vont",
+    "vons"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Cette forme n'existe pas.",
+    "B": "Correct. _ils vont_.",
+    "C": "Faux. Cette forme n'existe pas."
+   }
+  },
+  {
+   "id": "q.23.a.002",
+   "los": "los.23.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Nous …… chez nos amis ce soir.",
+   "options": [
+    "vont",
+    "vas",
+    "allons"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _vont_ va avec _ils_.",
+    "B": "Faux. _vas_ va avec _tu_.",
+    "C": "Correct. _nous allons_."
+   }
+  },
+  {
+   "id": "q.23.b.001",
+   "los": "los.23.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Je vais au travail …… pied.",
+   "options": [
+    "à",
+    "en",
+    "par"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _à pied_.",
+    "B": "Faux. On dit _à pied_.",
+    "C": "Faux. On dit _à pied_."
+   }
+  },
+  {
+   "id": "q.23.b.002",
+   "los": "los.23.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Pour aller à Marseille, nous prenons le TGV : nous y allons …… train.",
+   "options": [
+    "à",
+    "en",
+    "au"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. On est dans le train : _en train_.",
+    "B": "Correct. Dans le véhicule → _en_.",
+    "C": "Faux. _au train_ n'est pas correct."
+   }
+  },
+  {
+   "id": "q.23.b.003",
+   "los": "los.23.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Beaucoup de Parisiens vont au bureau …… vélo.",
+   "options": [
+    "à",
+    "en",
+    "par"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Sur le véhicule → _à vélo_.",
+    "B": "Faux. _en vélo_ est familier ; à l'écrit, _à vélo_.",
+    "C": "Faux. On ne dit pas _par vélo_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.23.transport",
+   "los": [
+    "los.23.b"
+   ],
+   "name": "En / à + transport",
+   "front": "en ou à ?",
+   "back": "**en** (dans) : train, voiture, avion, bus ; **à** (sur) : pied, vélo, moto, cheval."
+  }
+ ]
+}

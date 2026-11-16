@@ -1,0 +1,159 @@
+{
+ "module": "m29.1",
+ "source_hash": "9c929ba1ba92",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Les pronoms toniques s'emploient là où les pronoms sujets ou compléments ne peuvent pas aller."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Ils suivent une préposition, _c'est_, _que_ (comparaison) ou se placent en tête pour insister."
+   },
+   {
+    "stage": "result",
+    "md": "Après _c'est … qui_, le verbe s'accorde avec le pronom tonique."
+   }
+  ],
+  "why_it_matters": "_Moi, je…_, _quant à moi_, _selon eux_ : les pronoms toniques structurent la prise de position à l'oral.",
+  "exam_approach": {
+   "look_first": [
+    "une préposition, _c'est_ ou _que_ avant le pronom",
+    "un sujet indéfini (_on, chacun_)"
+   ],
+   "traps": [
+    "*_avec ils_",
+    "*_c'est moi qui a_",
+    "*_chacun pour lui_ au sens général"
+   ],
+   "distractors": [
+    "le pronom sujet après une préposition",
+    "le verbe à la 3e personne après _c'est moi qui_"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.29.a.001",
+   "los": "los.29.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu viens au cinéma avec …… ?",
+   "options": [
+    "nous",
+    "on",
+    "nos"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Après une préposition → pronom tonique.",
+    "B": "Faux. _on_ ne s'emploie pas après une préposition.",
+    "C": "Faux. _nos_ est un possessif."
+   }
+  },
+  {
+   "id": "q.29.a.002",
+   "los": "los.29.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Mes voisins sont absents : je garde le chat chez …….",
+   "options": [
+    "ils",
+    "eux",
+    "leur"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Après une préposition → tonique.",
+    "B": "Correct. _ils_ → _eux_ après une préposition.",
+    "C": "Faux. _leur_ est un pronom COI ou un possessif."
+   }
+  },
+  {
+   "id": "q.29.a.003",
+   "los": "los.29.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "C'est moi qui …… organisé la soirée.",
+   "options": [
+    "a",
+    "avons",
+    "ai"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le verbe s'accorde avec le pronom tonique.",
+    "B": "Faux. _moi_ = 1re personne du singulier.",
+    "C": "Correct. Accord avec _moi_ → _j'ai_."
+   }
+  },
+  {
+   "id": "q.29.a.004",
+   "los": "los.29.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Je n'aime pas les films d'horreur. — …… non plus.",
+   "options": [
+    "Je",
+    "Me",
+    "Moi"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _je_ ne s'emploie pas seul.",
+    "B": "Faux. _me_ est un pronom complément.",
+    "C": "Correct. Réponse courte → tonique."
+   }
+  },
+  {
+   "id": "q.29.a.005",
+   "los": "los.29.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ma sœur est plus âgée que …….",
+   "options": [
+    "je",
+    "moi",
+    "me"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Après _que_ (comparaison) sans verbe → tonique.",
+    "B": "Correct. Comparaison → tonique après _que_.",
+    "C": "Faux. _me_ est un pronom complément."
+   }
+  },
+  {
+   "id": "q.29.a.006",
+   "los": "los.29.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Quand on est malade, on doit prendre soin de …….",
+   "options": [
+    "soi",
+    "lui",
+    "eux"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Sujet indéfini (_on_) → _soi_.",
+    "B": "Faux. Avec _on_, le pronom tonique est _soi_.",
+    "C": "Faux. _on_ est singulier et indéfini."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.29.toniques",
+   "los": [
+    "los.29.a"
+   ],
+   "name": "Pronoms toniques",
+   "front": "Après une préposition ou c'est : je / il / ils ?",
+   "back": "**moi, lui, eux** (_avec moi, chez lui, c'est eux_) ; sujet indéfini → **soi**."
+  }
+ ]
+}

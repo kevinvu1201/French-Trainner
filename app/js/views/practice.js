@@ -13,7 +13,7 @@ import { settingsFrom } from "../core/settings.js";
 import { pickItemSet, pickQuestions, questionMeta, questionPool } from "../core/select.js";
 import { planSession, resolveSession } from "../core/smart.js";
 import { html, useEffect, useRef, useState } from "../lib.js";
-import { AudioPlayer, CardBack, ErrorBox, Loading, Md, useAsync } from "../ui.js";
+import { AudioPlayer, CardBack, ErrorBox, Loading, Md, setLabel, useAsync } from "../ui.js";
 
 const DRILL_SIZE = 10;
 const QTYPE = { form: "forme", conceptual: "règle", judgement: "usage", vocabulary: "vocabulaire", calculation: "calcul", listening: "compréhension" };
@@ -53,7 +53,7 @@ export function PracticeHome() {
       <div class="spread"><strong>${t.name}</strong>${t.weight ? html`<span class="chip accent">${(t.weight * 100).toFixed(0)} %</span>` : null}</div>
       <div class="row">
         ${t.counts.questions ? html`<a class="btn" href=${href("practice", "drill", t.id)}>Questions (${t.counts.questions})</a>` : null}
-        ${t.counts.item_sets ? html`<a class="btn" href=${href("practice", "set", t.id)}>${t.counts.audio_sets ? "Exercices d'écoute" : "Textes à trous"} (${t.counts.item_sets})</a>` : null}
+        ${t.counts.item_sets ? html`<a class="btn" href=${href("practice", "set", t.id)}>${setLabel(t).many} (${t.counts.item_sets})</a>` : null}
         ${t.counts.formulas ? html`<a class="btn" href=${href("practice", "cards", t.id)}>Cartes (${t.counts.formulas})</a>` : null}
       </div>
     </section>`)}
@@ -345,32 +345,33 @@ export function ItemSet({ topic, module }) {
   const submit = async () => {
     const ms = Date.now() - startedAt.current;
     setDone({ ms });
-    const mode = set.audio ? "listening" : "item_set";
+    const mode = set.audio ? "listening" : set.reading ? "reading" : "item_set";
     const right = set.questions.filter((q, k) => values[k].choice === q.answer).length;
     const xp = set.questions.reduce((s, q, k) => s + xpFor({ type: "answer", payload: { mode, correct: values[k].choice === q.answer, confidence: values[k].conf } }), 0);
     feedback(right / set.questions.length >= 0.5 ? "done" : "wrong");
     if (right === set.questions.length) confetti();
     floatXP(root.current?.querySelector(".sticky-actions") ?? root.current, `+${xp} XP`);
     for (const [k, q] of set.questions.entries()) {
-      await recordAnswer(q, data.chunk, topic, values[k], ms / set.questions.length, set.audio ? "listening" : "item_set", { set: set.id });
+      await recordAnswer(q, data.chunk, topic, values[k], ms / set.questions.length, mode, { set: set.id });
     }
   };
   const score = done ? set.questions.filter((q, k) => values[k].choice === q.answer).length : 0;
   const pace = PACE_MS * set.questions.length;
 
   return html`<div class="stack" ref=${root}>
-    <div class="spread"><h1 class="h-small">${set.title ?? "Texte à trous"}</h1><span class="chip">${topicInfo(topic)?.name}</span></div>
+    <div class="spread"><h1 class="h-small">${set.title ?? setLabel(topicInfo(topic)).one}</h1><span class="chip">${topicInfo(topic)?.name}</span></div>
     ${set.audio ? html`<${AudioPlayer} key=${set.id} src=${set.audio} plays=${set.plays} title=${set.title ?? "Écoute"} />` : null}
     <${LookupTip} />
     <section class="vignette-full">${paragraphs(set.vignette).map((p, i) => html`<${Md} tag="p" text=${p} chunk=${data.chunk} tr=${`${set.id}|v${i}`} />`)}
       ${(set.exhibits ?? []).map((ex) => html`<div class="exhibit"><div class="small"><strong><${Md} text=${ex.title} /></strong></div>
         <div class="table-wrap"><table><thead><tr>${ex.rows[0].map((c) => html`<th><${Md} text=${c} /></th>`)}</tr></thead>
         <tbody>${ex.rows.slice(1).map((r) => html`<tr>${r.map((c) => html`<td><${Md} text=${c} /></td>`)}</tr>`)}</tbody></table></div></div>`)}
+      ${set.source ? html`<p class="small muted source">${set.source}</p>` : null}
     </section>
     ${set.questions.map((q, k) => html`<${QuestionCard} key=${q.id} q=${q} chunk=${data.chunk} value=${values[k]}
       onChange=${(v) => setValues((vals) => vals.map((old, j) => (j === k ? v : old)))} reveal=${!!done} label=${`Question ${k + 1} sur ${set.questions.length}`} animate />`)}
     ${done ? html`<div class=${`card spread set-score ${score === set.questions.length ? "perfect" : ""}`}><strong>${score === set.questions.length ? "💯 " : ""}${score} / ${set.questions.length} bonnes réponses</strong>
-        ${set.audio ? null : html`<span class="small">${formatMs(done.ms)} ${done.ms > pace ? `· au-delà des ${formatMs(pace)} prévues` : `· dans les ${formatMs(pace)} prévues`}</span>`}</div>
+        ${set.audio || set.reading ? null : html`<span class="small">${formatMs(done.ms)} ${done.ms > pace ? `· au-delà des ${formatMs(pace)} prévues` : `· dans les ${formatMs(pace)} prévues`}</span>`}</div>
       ${set.transcript ? html`<details class="card transcript" open>
         <summary>Transcription</summary>
         <p class="small muted">Relisez les passages qui contiennent les réponses, puis réécoutez en mode entraînement (décochez « Mode examen »).</p>

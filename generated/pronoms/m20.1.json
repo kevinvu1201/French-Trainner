@@ -1,0 +1,206 @@
+{
+ "module": "m20.1",
+ "source_hash": "43ba6463bb62",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "_En_ reprend un groupe introduit par _de_ (partitif, quantité, construction verbale)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "On place _en_ devant le verbe et on garde la quantité exprimée après le verbe."
+   },
+   {
+    "stage": "result",
+    "md": "Pour une personne, on préfère _de_ + pronom tonique (_de lui, d'elle_)."
+   }
+  ],
+  "why_it_matters": "_En_ est l'un des pronoms les plus fréquents à l'oral : l'éviter rend le discours répétitif.",
+  "exam_approach": {
+   "look_first": [
+    "_de / du / des_ devant le nom à remplacer",
+    "une quantité à garder",
+    "une chose ou une personne ?"
+   ],
+   "traps": [
+    "*_j'ai deux_ (oubli de _en_)",
+    "*_j'en parle_ pour une personne",
+    "_en_ mal placé avec un infinitif"
+   ],
+   "distractors": [
+    "_le / les_ à la place de _en_",
+    "_y_ à la place de _en_",
+    "la quantité oubliée"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.20.a.001",
+   "los": "los.20.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu bois du café ? — Oui, j'…… bois tous les matins.",
+   "options": [
+    "le",
+    "en",
+    "y"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _le_ remplace un nom défini (_le café_).",
+    "B": "Correct. _du café_ → _en_.",
+    "C": "Faux. _y_ remplace _à_ + chose."
+   }
+  },
+  {
+   "id": "q.20.a.002",
+   "los": "los.20.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Combien de frères as-tu ? — J'…… ai trois.",
+   "options": [
+    "les",
+    "y",
+    "en"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On garde la quantité : il faut _en_.",
+    "B": "Faux. _y_ ne remplace pas une quantité.",
+    "C": "Correct. Quantité → _en_ + quantité après le verbe."
+   }
+  },
+  {
+   "id": "q.20.a.003",
+   "los": "los.20.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il reste du pain ? — Non, il n'y …… a plus.",
+   "options": [
+    "en",
+    "le",
+    "lui"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Partitif à la négation → _en_.",
+    "B": "Faux. On parle d'une quantité, pas du pain en général.",
+    "C": "Faux. _lui_ remplace une personne."
+   }
+  },
+  {
+   "id": "q.20.a.004",
+   "los": "los.20.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Tu as une voiture ? — Oui, …….",
+   "options": [
+    "je l'ai",
+    "j'en ai une",
+    "j'en ai"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _l'_ remplace une voiture précise (_la voiture_).",
+    "B": "Correct. _une voiture_ → _en … une_.",
+    "C": "Faux. Avec _un / une_, on répète _une_ à l'affirmatif."
+   }
+  },
+  {
+   "id": "q.20.a.005",
+   "los": "los.20.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Des pommes ? Je vais …… acheter un kilo.",
+   "options": [
+    "en",
+    "les",
+    "y"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _en_ se place devant l'infinitif dont il dépend.",
+    "B": "Faux. Une quantité (_un kilo_) demande _en_.",
+    "C": "Faux. _y_ ne remplace pas une quantité."
+   }
+  },
+  {
+   "id": "q.20.b.001",
+   "los": "los.20.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu as besoin de ton ordinateur ? — Oui, j'…… ai besoin.",
+   "options": [
+    "le",
+    "y",
+    "en"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _avoir besoin_ se construit avec _de_ → _en_.",
+    "B": "Faux. _y_ remplace _à_ + chose.",
+    "C": "Correct. _avoir besoin de_ + chose → _en_."
+   }
+  },
+  {
+   "id": "q.20.b.002",
+   "los": "los.20.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Vous parlez souvent de votre père ? — Oui, je parle souvent …….",
+   "options": [
+    "en",
+    "lui",
+    "de lui"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Pour une personne, on préfère _de lui_.",
+    "B": "Faux. _parler à qqn_ → _lui_, mais ici c'est _parler de_.",
+    "C": "Correct. Personne après _parler de_ → _de lui_."
+   }
+  },
+  {
+   "id": "q.20.b.003",
+   "los": "los.20.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ce problème ? Nous …… discuterons à la réunion.",
+   "options": [
+    "en",
+    "le",
+    "y"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _discuter de_ + chose → _en_.",
+    "B": "Faux. _discuter_ se construit avec _de_ → _en_.",
+    "C": "Faux. _y_ remplace _à_ + chose."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.20.en-quantite",
+   "los": [
+    "los.20.a"
+   ],
+   "name": "En + quantité",
+   "front": "Tu as des enfants ? — Oui, j'… deux.",
+   "back": "J'**en** ai **deux** : _en_ devant le verbe, la quantité après."
+  },
+  {
+   "id": "f.20.en-de",
+   "los": [
+    "los.20.b"
+   ],
+   "name": "En et les verbes en de",
+   "front": "Je parle de mon projet / de ma mère → ?",
+   "back": "J'**en** parle (chose) / Je parle **d'elle** (personne)."
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "module": "m04.1",
+ "source_hash": "636f94384858",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Chaque nom a un genre, signalé par l'article ; certaines terminaisons le laissent deviner."
+   },
+   {
+    "stage": "mechanism",
+    "md": "L'article **indéfini** présente une chose nouvelle, le **défini** une chose identifiée ou générale."
+   },
+   {
+    "stage": "result",
+    "md": "_À_ et _de_ fusionnent avec _le_ et _les_ : **au, aux, du, des**."
+   }
+  ],
+  "why_it_matters": "Un article faux change le genre ou le sens d'un mot ; les contractions oubliées sont des fautes immédiatement visibles.",
+  "exam_approach": {
+   "look_first": [
+    "la terminaison du nom",
+    "si la chose est déjà identifiée",
+    "une préposition _à_ ou _de_ devant _le / les_"
+   ],
+   "traps": [
+    "*_le plage_",
+    "*_à le bureau_",
+    "un article indéfini après _aimer_"
+   ],
+   "distractors": [
+    "l'article de l'autre genre",
+    "la forme non contractée",
+    "l'indéfini à la place du défini"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.04.a.001",
+   "los": "los.04.a",
+   "difficulty": 1,
+   "qtype": "vocabulary",
+   "stem": "…… décision du directeur a surpris tout le monde.",
+   "options": [
+    "Le",
+    "La",
+    "L'"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _décision_ est féminin.",
+    "B": "Correct. Les noms en _-sion_ sont féminins.",
+    "C": "Faux. _L'_ s'emploie devant une voyelle ou un _h_ muet."
+   }
+  },
+  {
+   "id": "q.04.a.002",
+   "los": "los.04.a",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "Nous avons passé l'après-midi sur …… plage.",
+   "options": [
+    "la",
+    "le",
+    "un"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _plage_ est une exception féminine en _-age_.",
+    "B": "Faux. Les noms en _-age_ sont souvent masculins, mais _plage_ est féminin.",
+    "C": "Faux. _un_ est masculin."
+   }
+  },
+  {
+   "id": "q.04.a.003",
+   "los": "los.04.a",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "Le tourisme de masse transforme …… paysage de la côte.",
+   "options": [
+    "la",
+    "le",
+    "les"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _paysage_ est masculin.",
+    "B": "Correct. _-age_ : _le paysage_ (masculin).",
+    "C": "Faux. _paysage_ est ici au singulier."
+   }
+  },
+  {
+   "id": "q.04.a.004",
+   "los": "los.04.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Elle lit trois …… chaque matin.",
+   "options": [
+    "journaux",
+    "journals",
+    "journauxs"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _-al → -aux_.",
+    "B": "Faux. _journal_ fait _journaux_.",
+    "C": "Faux. Ce pluriel n'existe pas."
+   }
+  },
+  {
+   "id": "q.04.a.005",
+   "los": "los.04.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Mon père est acteur et ma mère est …….",
+   "options": [
+    "acteuse",
+    "acteure",
+    "actrice"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Ce féminin n'existe pas.",
+    "B": "Faux. Ce féminin n'existe pas.",
+    "C": "Correct. _-teur → -trice_."
+   }
+  },
+  {
+   "id": "q.04.b.001",
+   "los": "los.04.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "J'adore …… musique classique.",
+   "options": [
+    "une",
+    "la",
+    "de la"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. L'indéfini ne convient pas au sens général après _adorer_.",
+    "B": "Correct. Après un verbe de goût → article défini (sens général).",
+    "C": "Faux. Le partitif ne s'emploie pas après _adorer_."
+   }
+  },
+  {
+   "id": "q.04.b.002",
+   "los": "los.04.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Ferme …… porte, s'il te plaît, il fait froid.",
+   "options": [
+    "une",
+    "de la",
+    "la"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il s'agit d'une porte précise, connue des deux personnes.",
+    "B": "Faux. Le partitif ne s'emploie pas avec un objet comptable.",
+    "C": "Correct. La porte de la pièce, identifiée par la situation → défini."
+   }
+  },
+  {
+   "id": "q.04.c.001",
+   "los": "los.04.c",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ce soir, nous allons …… théâtre.",
+   "options": [
+    "au",
+    "à le",
+    "à la"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _à + le = au_.",
+    "B": "Faux. _à + le_ se contracte toujours.",
+    "C": "Faux. _théâtre_ est masculin."
+   }
+  },
+  {
+   "id": "q.04.c.002",
+   "los": "los.04.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Elle revient …… États-Unis la semaine prochaine.",
+   "options": [
+    "des",
+    "de les",
+    "du"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _de + les = des_.",
+    "B": "Faux. _de + les_ se contracte toujours.",
+    "C": "Faux. _États-Unis_ est pluriel."
+   }
+  },
+  {
+   "id": "q.04.c.003",
+   "los": "los.04.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Le bureau …… directrice est au troisième étage.",
+   "options": [
+    "du",
+    "de la",
+    "des"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _du_ = _de + le_ ; _directrice_ est féminin.",
+    "B": "Correct. Pas de contraction avec _la_.",
+    "C": "Faux. _directrice_ est au singulier."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m04.1.01",
+   "modules": [
+    "m04.1"
+   ],
+   "title": "Le message de Léa",
+   "vignette": "Léa écrit à une amie :\n\n« Je suis arrivée hier à Montréal. Ce matin, je suis allée **(1)** …… musée des Beaux-Arts, puis j'ai mangé dans **(2)** …… petit restaurant près du port. J'adore **(3)** …… cuisine québécoise ! Demain, je pars visiter **(4)** …… chutes de Montmorency. »",
+   "questions": [
+    {
+     "id": "set.m04.1.01.q1",
+     "los": "los.04.c",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "à le",
+      "à la",
+      "au"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _à + le_ se contracte.",
+      "B": "Faux. _musée_ est masculin.",
+      "C": "Correct. _aller à + le musée_ → _au_."
+     }
+    },
+    {
+     "id": "set.m04.1.01.q2",
+     "los": "los.04.b",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "des",
+      "de",
+      "un"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _restaurant_ est au singulier.",
+      "B": "Faux. _de_ seul ne s'emploie qu'après une négation ou une quantité.",
+      "C": "Correct. Restaurant mentionné pour la première fois → indéfini singulier."
+     }
+    },
+    {
+     "id": "set.m04.1.01.q3",
+     "los": "los.04.b",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "la",
+      "une",
+      "de la"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Après _adorer_ → défini.",
+      "B": "Faux. Sens général après un verbe de goût.",
+      "C": "Faux. Pas de partitif après _adorer_."
+     }
+    },
+    {
+     "id": "set.m04.1.01.q4",
+     "los": "los.04.b",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) :",
+     "options": [
+      "des",
+      "les",
+      "aux"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Le lieu est identifié : il faut le défini.",
+      "B": "Correct. Des chutes précises, identifiées par leur nom → défini.",
+      "C": "Faux. _visiter_ est transitif direct : pas de _à_."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.04.genre-terminaisons",
+   "los": [
+    "los.04.a"
+   ],
+   "name": "Genre et terminaisons",
+   "front": "Terminaisons souvent masculines / féminines ?",
+   "back": "Masc. : -ment, -age, -isme, -eau. Fém. : -tion, -sion, -té, -ure, -ance, -ence, -ie.",
+   "common_mistake": "_la plage, la page, l'image, l'eau_ : exceptions."
+  },
+  {
+   "id": "f.04.contractions",
+   "los": [
+    "los.04.c"
+   ],
+   "name": "Contractions",
+   "front": "à / de + le, les ?",
+   "back": "à + le = **au** ; à + les = **aux** ; de + le = **du** ; de + les = **des**.",
+   "examples": [
+    "Je vais au marché ; je reviens du marché."
+   ],
+   "common_mistake": "Pas de contraction avec _la_ et _l'_."
+  }
+ ]
+}

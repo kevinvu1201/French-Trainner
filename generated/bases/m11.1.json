@@ -1,0 +1,160 @@
+{
+ "module": "m11.1",
+ "source_hash": "3d4bc50e94a9",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "_Avoir_ sert à beaucoup plus qu'à la possession : âge, sensations, habitudes."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Ces expressions n'ont pas d'article (_avoir faim, avoir lieu_) et se construisent souvent avec _de_."
+   },
+   {
+    "stage": "result",
+    "md": "À la négation, _un / une / des / du_ deviennent _de_."
+   }
+  ],
+  "why_it_matters": "_Avoir lieu_, _avoir besoin de_, _avoir tendance à_ sont des expressions courantes des textes du DELF.",
+  "exam_approach": {
+   "look_first": [
+    "âge, sensation ou expression figée ?",
+    "une négation"
+   ],
+   "traps": [
+    "*_je suis 25 ans_",
+    "*_je n'ai pas une voiture_",
+    "*_le concert a place_"
+   ],
+   "distractors": [
+    "_être_ à la place d'_avoir_",
+    "l'article gardé à la négation"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.11.a.001",
+   "los": "los.11.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ma grand-mère …… quatre-vingt-dix ans.",
+   "options": [
+    "est",
+    "fait",
+    "a"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. *_elle est 90 ans_ est un calque d'autres langues.",
+    "B": "Faux. _faire 90 ans_ n'est pas l'expression de l'âge.",
+    "C": "Correct. L'âge s'exprime avec _avoir_."
+   }
+  },
+  {
+   "id": "q.11.a.002",
+   "los": "los.11.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Mes cousins …… les cheveux roux.",
+   "options": [
+    "sont",
+    "avons",
+    "ont"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On décrit avec _avoir les cheveux…_",
+    "B": "Faux. _avons_ va avec _nous_.",
+    "C": "Correct. _ils ont_."
+   }
+  },
+  {
+   "id": "q.11.b.001",
+   "los": "los.11.b",
+   "difficulty": 1,
+   "qtype": "vocabulary",
+   "stem": "Le festival …… lieu chaque année en juillet.",
+   "options": [
+    "a",
+    "prend",
+    "est"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _avoir lieu_ = se dérouler.",
+    "B": "Faux. _prendre lieu_ n'existe pas (calque de l'anglais).",
+    "C": "Faux. _être lieu_ n'existe pas."
+   }
+  },
+  {
+   "id": "q.11.b.002",
+   "los": "los.11.b",
+   "difficulty": 1,
+   "qtype": "vocabulary",
+   "stem": "J'ai très …… : il reste de l'eau ?",
+   "options": [
+    "sommeil",
+    "soif",
+    "froid"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _avoir sommeil_ : besoin de dormir, sans lien avec l'eau.",
+    "B": "Correct. _avoir soif_ : besoin de boire.",
+    "C": "Faux. _avoir froid_ ne se soulage pas avec de l'eau."
+   }
+  },
+  {
+   "id": "q.11.b.003",
+   "los": "los.11.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Nous n'avons pas …… enfants.",
+   "options": [
+    "d'",
+    "des",
+    "les"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Négation : _des_ → _d'_.",
+    "B": "Faux. Après la négation, _des_ devient _de / d'_.",
+    "C": "Faux. On ne parle pas d'enfants précis."
+   }
+  },
+  {
+   "id": "q.11.b.004",
+   "los": "los.11.b",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "Tu …… raison : il vaut mieux partir tôt.",
+   "options": [
+    "es",
+    "fais",
+    "as"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. *_être raison_ n'existe pas.",
+    "B": "Faux. *_faire raison_ n'existe pas.",
+    "C": "Correct. _avoir raison_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.11.expr-avoir",
+   "los": [
+    "los.11.b"
+   ],
+   "name": "Expressions avec avoir",
+   "front": "avoir … lieu / besoin / l'habitude / raison ?",
+   "back": "**avoir lieu** = se dérouler ; **avoir besoin de** ; **avoir l'habitude de** ; **avoir raison / tort**.",
+   "common_mistake": "*_prendre place_ pour _avoir lieu_."
+  }
+ ]
+}

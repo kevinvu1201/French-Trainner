@@ -1,0 +1,160 @@
+{
+ "module": "m08.1",
+ "source_hash": "2bfeceb53ad8",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le démonstratif désigne un élément précis, montré ou déjà mentionné."
+   },
+   {
+    "stage": "mechanism",
+    "md": "L'adjectif (_ce, cet, cette, ces_) accompagne un nom ; le pronom (_celui, celle…_) le remplace."
+   },
+   {
+    "stage": "result",
+    "md": "Le pronom se complète toujours par _-ci / -là_, _de_ ou une relative."
+   }
+  ],
+  "why_it_matters": "_Celui qui_, _ceux de_ sont des reprises élégantes qui évitent les répétitions dans un essai.",
+  "exam_approach": {
+   "look_first": [
+    "le genre du nom et sa première lettre",
+    "ce qui suit le pronom (-ci, de, qui)"
+   ],
+   "traps": [
+    "*_ce ami_",
+    "*_celui_ employé seul",
+    "_cette année_ / _cette année-là_"
+   ],
+   "distractors": [
+    "_ce_ devant voyelle",
+    "la forme d'un autre genre ou nombre"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.08.a.001",
+   "los": "los.08.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "…… hôtel est complet tout l'été.",
+   "options": [
+    "Ce",
+    "Cet",
+    "Cette"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Devant une voyelle ou un _h_ muet → _cet_.",
+    "B": "Correct. Masculin + _h_ muet → _cet_.",
+    "C": "Faux. _hôtel_ est masculin."
+   }
+  },
+  {
+   "id": "q.08.a.002",
+   "los": "los.08.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "J'ai lu …… articles avec beaucoup d'intérêt.",
+   "options": [
+    "ces",
+    "ses",
+    "cettes"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Pluriel → _ces_.",
+    "B": "Faux. _ses_ est un possessif.",
+    "C": "Faux. Cette forme n'existe pas."
+   }
+  },
+  {
+   "id": "q.08.a.003",
+   "los": "los.08.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Je me souviens bien de mon arrivée : ……, il neigeait.",
+   "options": [
+    "ce jour-ci",
+    "aujourd'hui",
+    "ce jour-là"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _-ci_ ne s'emploie pas pour un moment passé.",
+    "B": "Faux. Le récit porte sur un jour passé.",
+    "C": "Correct. Moment passé précis → _-là_."
+   }
+  },
+  {
+   "id": "q.08.b.001",
+   "los": "los.08.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Quelle veste veux-tu ? …… ou celle-là ?",
+   "options": [
+    "Celui-ci",
+    "Cette-ci",
+    "Celle-ci"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _veste_ est féminin.",
+    "B": "Faux. Il faut le pronom _celle_.",
+    "C": "Correct. _veste_ est féminin."
+   }
+  },
+  {
+   "id": "q.08.b.002",
+   "los": "los.08.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ma voiture est en panne, j'ai pris …… de ma sœur.",
+   "options": [
+    "cette",
+    "celle",
+    "celui"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _cette_ doit être suivi d'un nom.",
+    "B": "Correct. _voiture_, féminin singulier, + _de_.",
+    "C": "Faux. _voiture_ est féminin."
+   }
+  },
+  {
+   "id": "q.08.b.003",
+   "los": "los.08.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Les candidats qui ont un diplôme et …… qui ont de l'expérience peuvent postuler.",
+   "options": [
+    "ceux",
+    "celles",
+    "ces"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Masculin pluriel + _qui_.",
+    "B": "Faux. _candidats_ est masculin.",
+    "C": "Faux. _ces_ doit être suivi d'un nom."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.08.celui",
+   "los": [
+    "los.08.b"
+   ],
+   "name": "Pronoms démonstratifs",
+   "front": "Celui / celle / ceux / celles + ?",
+   "back": "toujours suivis de **-ci / -là**, de **de** + nom ou d'un **relatif** (_celui qui_).",
+   "common_mistake": "*_Je prends celui._"
+  }
+ ]
+}

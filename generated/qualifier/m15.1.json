@@ -1,0 +1,226 @@
+{
+ "module": "m15.1",
+ "source_hash": "68901aad7303",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Les indéfinis désignent une quantité ou une identité qu'on ne précise pas."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_Chaque, aucun, chacun_ sont singuliers ; _quelques, plusieurs, certains, tous_ sont pluriels ; _aucun, personne, rien_ demandent _ne_."
+   },
+   {
+    "stage": "result",
+    "md": "_Quelque chose / rien_ se complètent par _de_ + adjectif masculin."
+   }
+  ],
+  "why_it_matters": "Généraliser avec précision (_certains_, _la plupart_, _aucun_) évite les affirmations trop absolues, défaut fréquent des essais.",
+  "exam_approach": {
+   "look_first": [
+    "singulier ou pluriel après l'indéfini",
+    "une négation (_ne_) obligatoire"
+   ],
+   "traps": [
+    "*_chaques jours_",
+    "*_personne a compris_ (sans _ne_)",
+    "*_quelque chose intéressant_ (sans _de_)"
+   ],
+   "distractors": [
+    "un indéfini pluriel avec un nom singulier",
+    "l'oubli de _ne_ ou de _de_"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.15.a.001",
+   "los": "los.15.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Je vais à la piscine …… semaine.",
+   "options": [
+    "chaque",
+    "chaques",
+    "toutes"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _chaque_ + singulier.",
+    "B": "Faux. _chaque_ ne prend jamais de _s_.",
+    "C": "Faux. _toutes_ demande l'article : _toutes les semaines_."
+   }
+  },
+  {
+   "id": "q.15.a.002",
+   "los": "los.15.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il a travaillé …… journée sur ce dossier.",
+   "options": [
+    "toute",
+    "chaque",
+    "toute la"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il faut l'article : _toute la journée_.",
+    "B": "Faux. _chaque journée_ ne donne pas le sens de durée.",
+    "C": "Correct. _tout_ + article + nom : _toute la journée_."
+   }
+  },
+  {
+   "id": "q.15.a.003",
+   "los": "los.15.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "…… étudiant n'a rendu son devoir en retard.",
+   "options": [
+    "Aucuns",
+    "Aucun",
+    "Plusieurs"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _aucun_ reste au singulier.",
+    "B": "Correct. _aucun_ + singulier + _ne_.",
+    "C": "Faux. _plusieurs_ est pluriel et ne s'emploie pas avec _ne_ seul."
+   }
+  },
+  {
+   "id": "q.15.a.004",
+   "los": "los.15.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "…… experts doutent de l'efficacité de cette mesure.",
+   "options": [
+    "Chaque",
+    "Certains",
+    "Aucun"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _chaque_ + singulier.",
+    "B": "Correct. _certains_ + nom pluriel (une partie).",
+    "C": "Faux. _aucun_ demande _ne_ et le singulier."
+   }
+  },
+  {
+   "id": "q.15.a.005",
+   "los": "los.15.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Les deux enfants étaient …… contents de leur cadeau.",
+   "options": [
+    "tous",
+    "toute",
+    "tout"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Ici, _tout_ = _très_ (adverbe) : invariable devant un adjectif masculin.",
+    "B": "Faux. _enfants_ et _contents_ sont masculins.",
+    "C": "Correct. Adverbe devant un adjectif masculin → invariable."
+   }
+  },
+  {
+   "id": "q.15.b.001",
+   "los": "los.15.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il y a quelqu'un ? — Non, il n'y a …….",
+   "options": [
+    "personne",
+    "rien",
+    "aucun"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Négation de _quelqu'un_ → _ne … personne_.",
+    "B": "Faux. _rien_ est la négation de _quelque chose_.",
+    "C": "Faux. _aucun_ demande un nom ou une reprise."
+   }
+  },
+  {
+   "id": "q.15.b.002",
+   "los": "los.15.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "…… ne s'est passé pendant ton absence.",
+   "options": [
+    "Personne",
+    "Rien",
+    "Quelque chose"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _personne_ désigne des gens, pas des événements.",
+    "B": "Correct. Négation de _quelque chose_ en position sujet → _rien ne_.",
+    "C": "Faux. Il y a _ne_ : il faut une négation."
+   }
+  },
+  {
+   "id": "q.15.b.003",
+   "los": "los.15.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Tu as appris quelque chose …… pendant la conférence ?",
+   "options": [
+    "intéressant",
+    "d'intéressante",
+    "d'intéressant"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il faut _de_ : _quelque chose d'intéressant_.",
+    "B": "Faux. L'adjectif reste au masculin.",
+    "C": "Correct. _quelque chose de_ + adjectif masculin."
+   }
+  },
+  {
+   "id": "q.15.b.004",
+   "los": "los.15.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Les candidats ont tous reçu une réponse : …… a été convoqué à un entretien.",
+   "options": [
+    "chacun",
+    "chaque",
+    "tous"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _chacun_ (singulier) = chaque candidat.",
+    "B": "Faux. _chaque_ doit être suivi d'un nom.",
+    "C": "Faux. _tous_ demande un verbe au pluriel (_ont été convoqués_)."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.15.indefinis-neg",
+   "los": [
+    "los.15.b"
+   ],
+   "name": "Indéfinis et négation",
+   "front": "Négation de quelqu'un / quelque chose / quelque part ?",
+   "back": "ne … **personne** ; ne … **rien** ; ne … **nulle part**.",
+   "examples": [
+    "Personne n'est venu. Rien ne marche."
+   ],
+   "common_mistake": "Oublier _ne_ à l'écrit."
+  },
+  {
+   "id": "f.15.chaque-tout",
+   "los": [
+    "los.15.a"
+   ],
+   "name": "Chaque, tout, plusieurs",
+   "front": "chaque / tous les / plusieurs : nombre ?",
+   "back": "**chaque** + singulier ; **tous les / toutes les** + pluriel ; **plusieurs** (invariable) + pluriel."
+  }
+ ]
+}

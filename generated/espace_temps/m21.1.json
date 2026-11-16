@@ -1,0 +1,158 @@
+{
+ "module": "m21.1",
+ "source_hash": "8f56ea2995e1",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "L'origine se marque avec _de_, comme la destination avec _à / en / au_."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Pays féminin → _de / d'_ sans article ; pays masculin → _du_ ; pays pluriel → _des_."
+   },
+   {
+    "stage": "result",
+    "md": "Les régions masculines se construisent souvent avec _dans le_."
+   }
+  ],
+  "why_it_matters": "Présenter son parcours (_je viens de…, j'ai vécu en…_) ouvre l'épreuve orale du DELF.",
+  "exam_approach": {
+   "look_first": [
+    "destination ou origine ?",
+    "le genre et le nombre du lieu"
+   ],
+   "traps": [
+    "*_je viens de la France_",
+    "*_je viens de Japon_"
+   ],
+   "distractors": [
+    "l'article gardé après _de_ devant un pays féminin",
+    "_de_ sans article devant un pays masculin"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.21.a.001",
+   "los": "los.21.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Nous passons nos vacances …… Bretagne.",
+   "options": [
+    "au",
+    "en",
+    "dans"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _Bretagne_ est féminin.",
+    "B": "Correct. Région féminine → _en_.",
+    "C": "Faux. Devant une région féminine, on emploie _en_."
+   }
+  },
+  {
+   "id": "q.21.a.002",
+   "los": "los.21.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ils ont acheté une maison …… Var.",
+   "options": [
+    "en",
+    "au",
+    "dans le"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le _Var_ est masculin.",
+    "B": "Faux. On dit plutôt _dans le Var_.",
+    "C": "Correct. Département masculin → _dans le_."
+   }
+  },
+  {
+   "id": "q.21.b.001",
+   "los": "los.21.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Cet étudiant vient …… Japon.",
+   "options": [
+    "du",
+    "de",
+    "de le"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Pays masculin → _du_.",
+    "B": "Faux. Devant un pays masculin, on emploie _du_.",
+    "C": "Faux. _de + le_ se contracte en _du_."
+   }
+  },
+  {
+   "id": "q.21.b.002",
+   "los": "los.21.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ce café vient …… Colombie.",
+   "options": [
+    "de la",
+    "de",
+    "du"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Après _venir de_, on omet l'article devant un pays féminin.",
+    "B": "Correct. Pays féminin → _de_ sans article.",
+    "C": "Faux. _Colombie_ est féminin."
+   }
+  },
+  {
+   "id": "q.21.b.003",
+   "los": "los.21.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ma collègue rentre …… États-Unis demain.",
+   "options": [
+    "de",
+    "aux",
+    "des"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _États-Unis_ est pluriel : _des_.",
+    "B": "Faux. _aux_ indique la destination.",
+    "C": "Correct. Pays pluriel → _des_."
+   }
+  },
+  {
+   "id": "q.21.b.004",
+   "los": "los.21.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Mon voisin est originaire …… Équateur.",
+   "options": [
+    "d'",
+    "du",
+    "en"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Pays masculin à voyelle → _d'_.",
+    "B": "Faux. Devant une voyelle, _de l'_ / _d'_ : on dit _d'Équateur_ ou _de l'Équateur_.",
+    "C": "Faux. _en_ indique la destination."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.21.origine",
+   "los": [
+    "los.21.b"
+   ],
+   "name": "L'origine",
+   "front": "Je viens …… France / Japon / États-Unis ?",
+   "back": "**de** France, **du** Japon, **des** États-Unis."
+  }
+ ]
+}

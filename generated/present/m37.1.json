@@ -1,0 +1,324 @@
+{
+ "module": "m37.1",
+ "source_hash": "58f89227e2d5",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "La préposition après un verbe n'est pas logique : elle appartient au verbe."
+   },
+   {
+    "stage": "mechanism",
+    "md": "On apprend chaque verbe avec sa construction : _penser à_, _parler de_, _décider de_, _réussir à_…"
+   },
+   {
+    "stage": "result",
+    "md": "La préposition détermine le pronom de reprise (_j'y pense, j'en parle_) et le relatif (_auquel, dont_)."
+   }
+  ],
+  "why_it_matters": "Les constructions verbales correctes (_participer à, éviter de_) sont un critère de « richesse et correction » à l'écrit.",
+  "exam_approach": {
+   "look_first": [
+    "le verbe principal",
+    "nom ou infinitif après le verbe"
+   ],
+   "traps": [
+    "*_participer dans_",
+    "*_décider à partir_",
+    "*_j'espère de réussir_"
+   ],
+   "distractors": [
+    "la préposition de l'autre série",
+    "une préposition calquée sur l'anglais"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.37.a.001",
+   "los": "los.37.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Elle participe …… un projet humanitaire.",
+   "options": [
+    "dans",
+    "à",
+    "de"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. *_participer dans_ est un calque de l'anglais.",
+    "B": "Correct. _participer à_.",
+    "C": "Faux. _participer de_ a un autre sens (= relever de)."
+   }
+  },
+  {
+   "id": "q.37.a.002",
+   "los": "los.37.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Nous avons besoin …… votre aide.",
+   "options": [
+    "à",
+    "pour",
+    "de"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On dit _avoir besoin de_.",
+    "B": "Faux. On dit _avoir besoin de_.",
+    "C": "Correct. _avoir besoin de_."
+   }
+  },
+  {
+   "id": "q.37.a.003",
+   "los": "los.37.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Le succès du projet dépend …… financement.",
+   "options": [
+    "au",
+    "du",
+    "sur le"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. On dit _dépendre de_.",
+    "B": "Correct. _dépendre de + le_ → _du_.",
+    "C": "Faux. *_dépendre sur_ est un calque de l'anglais."
+   }
+  },
+  {
+   "id": "q.37.a.004",
+   "los": "los.37.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Je ne fais pas confiance …… ce site internet.",
+   "options": [
+    "à",
+    "en",
+    "de"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _faire confiance à_.",
+    "B": "Faux. On dit _faire confiance à_.",
+    "C": "Faux. On dit _faire confiance à_."
+   }
+  },
+  {
+   "id": "q.37.b.001",
+   "los": "los.37.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il a décidé …… changer de travail.",
+   "options": [
+    "de",
+    "à",
+    "pour"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _décider de_ + infinitif.",
+    "B": "Faux. On dit _décider de_.",
+    "C": "Faux. On dit _décider de_."
+   }
+  },
+  {
+   "id": "q.37.b.002",
+   "los": "los.37.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ma fille apprend …… nager.",
+   "options": [
+    "de",
+    "à",
+    "pour"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. On dit _apprendre à_.",
+    "B": "Correct. _apprendre à_ + infinitif.",
+    "C": "Faux. On dit _apprendre à_."
+   }
+  },
+  {
+   "id": "q.37.b.003",
+   "los": "los.37.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Essayez …… arriver à l'heure demain.",
+   "options": [
+    "à",
+    "pour",
+    "d'"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On dit _essayer de_.",
+    "B": "Faux. On dit _essayer de_.",
+    "C": "Correct. _essayer de_ + infinitif."
+   }
+  },
+  {
+   "id": "q.37.b.004",
+   "los": "los.37.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Les écologistes cherchent …… sensibiliser le grand public.",
+   "options": [
+    "de",
+    "pour",
+    "à"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On dit _chercher à_.",
+    "B": "Faux. On dit _chercher à_.",
+    "C": "Correct. _chercher à_ + infinitif = essayer de."
+   }
+  },
+  {
+   "id": "q.37.b.005",
+   "los": "los.37.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "J'espère …… mon examen en juin.",
+   "options": [
+    "réussir",
+    "de réussir",
+    "à réussir"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _espérer_ + infinitif sans préposition.",
+    "B": "Faux. _espérer_ se construit sans préposition.",
+    "C": "Faux. _espérer_ se construit sans préposition."
+   }
+  },
+  {
+   "id": "q.37.b.006",
+   "los": "los.37.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Le médecin lui a conseillé …… fumer.",
+   "options": [
+    "à arrêter de",
+    "d'arrêter de",
+    "d'arrêter"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. On dit _conseiller de_.",
+    "B": "Correct. _conseiller à qqn de_ + _arrêter de_ + infinitif.",
+    "C": "Faux. _arrêter_ se construit avec _de_ devant un infinitif."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m37.1.01",
+   "modules": [
+    "m37.1"
+   ],
+   "title": "Lettre à la mairie",
+   "vignette": "Un habitant écrit au maire :\n\n« Monsieur le Maire, je m'intéresse **(1)** …… la vie de notre quartier et je souhaite participer à la réunion du 12 mars. Beaucoup d'habitants ont décidé **(2)** …… créer une association : nous cherchons **(3)** …… améliorer la propreté des rues. Nous avons besoin **(4)** …… votre soutien pour réussir. »",
+   "questions": [
+    {
+     "id": "set.m37.1.01.q1",
+     "los": "los.37.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "de",
+      "à",
+      "pour"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. On dit _s'intéresser à_.",
+      "B": "Correct. _s'intéresser à_.",
+      "C": "Faux. On dit _s'intéresser à_."
+     }
+    },
+    {
+     "id": "set.m37.1.01.q2",
+     "los": "los.37.b",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "à",
+      "pour",
+      "de"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. On dit _décider de_.",
+      "B": "Faux. On dit _décider de_.",
+      "C": "Correct. _décider de_ + infinitif."
+     }
+    },
+    {
+     "id": "set.m37.1.01.q3",
+     "los": "los.37.b",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (3) :",
+     "options": [
+      "à",
+      "de",
+      "pour"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _chercher à_ + infinitif.",
+      "B": "Faux. On dit _chercher à_.",
+      "C": "Faux. On dit _chercher à_."
+     }
+    },
+    {
+     "id": "set.m37.1.01.q4",
+     "los": "los.37.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (4) :",
+     "options": [
+      "de",
+      "à",
+      "pour"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _avoir besoin de_.",
+      "B": "Faux. On dit _avoir besoin de_.",
+      "C": "Faux. On dit _avoir besoin de_."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.37.verbes-a",
+   "los": [
+    "los.37.b"
+   ],
+   "name": "Verbes + à + infinitif",
+   "front": "commencer, apprendre, réussir, chercher, hésiter + ?",
+   "back": "**à** + infinitif."
+  },
+  {
+   "id": "f.37.verbes-de",
+   "los": [
+    "los.37.b"
+   ],
+   "name": "Verbes + de + infinitif",
+   "front": "décider, essayer, accepter, refuser, éviter, oublier + ?",
+   "back": "**de** + infinitif.",
+   "common_mistake": "_espérer, vouloir, devoir_ : sans préposition."
+  }
+ ]
+}

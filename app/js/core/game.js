@@ -9,7 +9,7 @@ export function xpFor(e) {
   const p = e.payload;
   switch (e.type) {
     case "answer":
-      if (p.mode === "listening") return p.correct ? 15 : 3;
+      if (p.mode === "listening" || p.mode === "reading") return p.correct ? 15 : 3; // a whole text read or heard
       if (p.mode === "mock") return p.correct ? 8 : 2;
       if (p.tf) return p.correct ? 6 : 1; // "juste ou faux ?": a coin-flip is worth less than a real answer
       return p.correct ? (p.confidence === 3 ? 12 : 10) : 2;

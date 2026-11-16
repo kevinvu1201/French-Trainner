@@ -1,0 +1,1054 @@
+{
+ "readings": [
+  {
+   "number": 1,
+   "title": "Le verbe « être »",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "_Être_ est le verbe le plus fréquent du français : il sert à se présenter, à décrire et à former le passé composé de nombreux verbes. Au niveau B2, les erreurs portent surtout sur les prépositions qui suivent (_à Paris, de Lyon, chez des amis_)."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 1 (p. 8)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Conjuguer _être_ au présent avec les pronoms sujets.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer _à_, _de_ et _chez_ après _être_ pour situer quelqu'un.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Le verbe « être » et les pronoms sujets",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Pronom",
+           "être",
+           "Pronom",
+           "être"
+          ],
+          [
+           "je",
+           "suis",
+           "nous",
+           "sommes"
+          ],
+          [
+           "tu",
+           "es",
+           "vous",
+           "êtes"
+          ],
+          [
+           "il / elle / on",
+           "est",
+           "ils / elles",
+           "sont"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Tu** s'emploie avec un proche, **vous** avec une personne qu'on vouvoie ou avec plusieurs personnes. **On** (= _nous_ à l'oral, ou _les gens_) se conjugue comme _il_ : _On **est** prêts._"
+        },
+        {
+         "t": "note",
+         "md": "_Ils_ remplace un groupe masculin ou mixte ; _elles_, un groupe uniquement féminin : _Paul et Marie ? **Ils** sont là._"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**à** + ville où l'on est : _Je suis **à** Berlin._",
+          "**de** + ville d'origine : _Je suis **de** Rome._ Devant une voyelle : _Vous êtes **d'**où ? Je suis **d'**Athènes._",
+          "**chez** + personne : _Je suis **chez** Pierre, **chez** des amis, **chez** moi, **chez** le médecin._"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "On ne dit pas *_à le médecin_ pour parler du cabinet : on est **chez** le médecin (la personne), mais **à** l'hôpital (le lieu)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "title": "L'adjectif (1) : genre et nombre",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Un adjectif s'accorde en **genre** et en **nombre** avec le nom qu'il qualifie. À l'écrit du DELF, les fautes d'accord coûtent des points de « correction grammaticale » : elles sont faciles à éviter avec quelques règles."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 2 (p. 12)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former le féminin des adjectifs (règle générale et terminaisons particulières).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Former le pluriel des adjectifs et accorder l'adjectif avec le sujet.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Masculin, féminin, singulier, pluriel",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Règle générale** : masculin + **-e** : _grand → grand**e**_, _français → français**e**_. Un adjectif déjà terminé par _-e_ ne change pas : _jeune, rapide, calme_."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Masculin",
+           "Féminin",
+           "Exemples"
+          ],
+          [
+           "-er",
+           "-ère",
+           "cher → chère, étranger → étrangère"
+          ],
+          [
+           "-eux",
+           "-euse",
+           "heureux → heureuse, sérieux → sérieuse"
+          ],
+          [
+           "-if",
+           "-ive",
+           "sportif → sportive, actif → active"
+          ],
+          [
+           "-en / -on",
+           "-enne / -onne",
+           "italien → italienne, bon → bonne"
+          ],
+          [
+           "-el",
+           "-elle",
+           "naturel → naturelle, cruel → cruelle"
+          ],
+          [
+           "-et",
+           "-ète",
+           "complet → complète, inquiet → inquiète"
+          ],
+          [
+           "-eur",
+           "-euse (souvent)",
+           "travailleur → travailleuse"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Féminins irréguliers** : _beau → belle, nouveau → nouvelle, vieux → vieille, blanc → blanche, frais → fraîche, long → longue, doux → douce, faux → fausse_."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Pluriel** : singulier + **-s** (_grand → grands_). Pas de changement après _-s_ ou _-x_ : _français, heureux_."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "**-eau → -eaux** : _beau → beaux, nouveau → nouveaux_.",
+          "**-al → -aux** : _national → nationaux, social → sociaux_ (mais _banal → banals, final → finals_)."
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Accord avec le sujet** : _Elles sont **contentes**._ Un groupe mixte prend le **masculin pluriel** : _Paul et Anne sont **fatigués**._"
+        },
+        {
+         "t": "note",
+         "md": "_Vous_ de politesse reste au singulier : _Vous êtes **prêt**, monsieur ? Vous êtes **prête**, madame ?_"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Le nom et l'article",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Le genre des noms et le choix de l'article (_un / le / du / au_) décident de la justesse de presque chaque phrase. Quelques terminaisons permettent de deviner le genre ; les contractions _au, aux, du, des_ sont obligatoires."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 4 (p. 22)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Reconnaître le genre d'un nom (personnes et choses) et former son pluriel.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Choisir entre article indéfini et article défini.",
+     "module": 1
+    },
+    {
+     "letter": "c",
+     "text": "Contracter l'article avec _à_ et _de_ (au, aux, du, des).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Le nom : genre et nombre",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Personnes** : le féminin suit souvent les règles de l'adjectif : _un étudiant → une étudiante, un musicien → une musicienne, un vendeur → une vendeuse, un acteur → une actrice_. Certains noms ne changent pas : _un / une journaliste, un / une élève_."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Souvent masculins",
+           "Souvent féminins"
+          ],
+          [
+           "-ment (le gouvernement)",
+           "-tion / -sion (la nation, la décision)"
+          ],
+          [
+           "-age (le fromage, le voyage)",
+           "-té (la société, la liberté)"
+          ],
+          [
+           "-isme (le tourisme)",
+           "-ure (la culture), -ance / -ence (la confiance)"
+          ],
+          [
+           "-eau (le bureau)",
+           "-ette (la cigarette), -ie (la vie)"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Exceptions fréquentes : _la plage, la page, l'image, la cage_ (féminins en -age) ; _l'eau, la peau_ (féminins en -eau) ; _le lycée, le musée_."
+        },
+        {
+         "t": "p",
+         "md": "**Pluriel** : + **-s** ; _-eau, -eu → -x_ (_des bureaux, des jeux_) ; _-al → -aux_ (_un journal → des journaux_) ; _-s, -x, -z_ ne changent pas. Irréguliers : _un œil → des yeux, monsieur → messieurs, madame → mesdames_."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**Indéfini** (_un, une, des_) : une chose non identifiée ou mentionnée pour la première fois : _J'ai acheté **un** livre._",
+          "**Défini** (_le, la, l', les_) : une chose identifiée, unique ou générale : _**Le** livre que tu m'as prêté. **La** lune. J'aime **le** chocolat._"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Après un verbe de goût (_aimer, adorer, détester, préférer_), on emploie l'article **défini** : _Je déteste **les** films d'horreur._"
+        }
+       ]
+      },
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "",
+           "+ le",
+           "+ la",
+           "+ l'",
+           "+ les"
+          ],
+          [
+           "à",
+           "**au**",
+           "à la",
+           "à l'",
+           "**aux**"
+          ],
+          [
+           "de",
+           "**du**",
+           "de la",
+           "de l'",
+           "**des**"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "_Je vais **au** cinéma, **aux** États-Unis. Je reviens **du** marché, **des** Alpes. Le livre **du** professeur._"
+        },
+        {
+         "t": "note",
+         "md": "Pas de contraction avec _la_ et _l'_ : _à la gare, de l'hôpital_. *_À le_ et *_de le_ n'existent pas."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "title": "« C'est » et « il est »",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "_C'est_ et _il / elle est_ servent tous deux à présenter et à commenter. Le choix dépend de ce qui suit : un **nom déterminé** ou un **adjectif**. À l'écrit argumentatif, _c'est + adjectif_ (« C'est essentiel ») est très fréquent."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 5 (p. 32)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Choisir entre _c'est_ et _il / elle est_ pour identifier, décrire et commenter.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Présenter une profession avec ou sans article.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "L'identification, le commentaire et la profession",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**C'est + nom déterminé** (article, possessif…) ou **nom propre** : _**C'est** un ami. **C'est** mon frère. **C'est** Paul._",
+          "**Il / elle est + adjectif** pour décrire une personne ou une chose précise : _Paul ? **Il est** sympathique. Cette maison ? **Elle est** grande._",
+          "**C'est + adjectif masculin** pour commenter une idée, une situation : _Vivre à Paris, **c'est** cher. **C'est** génial !_"
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Au pluriel : _**Ce sont** des amis._ (À l'oral, on entend aussi _c'est des amis_.)"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Profession, nationalité, religion après _être_ : **pas d'article** : _Il est **médecin**. Elle est **avocate**._"
+        },
+        {
+         "t": "p",
+         "md": "Mais avec un adjectif ou une précision, le nom est déterminé → **c'est un(e)** : _**C'est un** médecin **remarquable**. **C'est une** avocate **qui** gagne tous ses procès._"
+        },
+        {
+         "t": "note",
+         "md": "*_Il est un médecin_ est une erreur fréquente : soit _il est médecin_, soit _c'est un médecin_."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Les possessifs",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les possessifs indiquent l'appartenance. En français, ils s'accordent avec la **chose possédée**, pas avec le possesseur : _son frère_ peut être le frère d'un homme ou d'une femme."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 6 (p. 36)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Choisir l'adjectif possessif (mon, ma, mes, son, sa, ses, leur, leurs…).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer les pronoms possessifs (le mien, la tienne, les leurs…).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "L'adjectif et le pronom possessifs",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Possesseur",
+           "masc. sing.",
+           "fém. sing.",
+           "pluriel"
+          ],
+          [
+           "je",
+           "mon",
+           "ma",
+           "mes"
+          ],
+          [
+           "tu",
+           "ton",
+           "ta",
+           "tes"
+          ],
+          [
+           "il / elle",
+           "son",
+           "sa",
+           "ses"
+          ],
+          [
+           "nous",
+           "notre",
+           "notre",
+           "nos"
+          ],
+          [
+           "vous",
+           "votre",
+           "votre",
+           "vos"
+          ],
+          [
+           "ils / elles",
+           "leur",
+           "leur",
+           "leurs"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Devant un nom féminin qui commence par une voyelle ou un _h_ muet : **mon, ton, son** : _**mon** amie, **son** école, **ton** histoire_."
+        },
+        {
+         "t": "note",
+         "md": "**Leur** (un objet, plusieurs possesseurs) / **leurs** (plusieurs objets) : _les parents et **leur** fils_, _les parents et **leurs** enfants_."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "",
+           "masc. sing.",
+           "fém. sing.",
+           "masc. plur.",
+           "fém. plur."
+          ],
+          [
+           "je",
+           "le mien",
+           "la mienne",
+           "les miens",
+           "les miennes"
+          ],
+          [
+           "tu",
+           "le tien",
+           "la tienne",
+           "les tiens",
+           "les tiennes"
+          ],
+          [
+           "il / elle",
+           "le sien",
+           "la sienne",
+           "les siens",
+           "les siennes"
+          ],
+          [
+           "nous",
+           "le nôtre",
+           "la nôtre",
+           "les nôtres",
+           "les nôtres"
+          ],
+          [
+           "vous",
+           "le vôtre",
+           "la vôtre",
+           "les vôtres",
+           "les vôtres"
+          ],
+          [
+           "ils / elles",
+           "le leur",
+           "la leur",
+           "les leurs",
+           "les leurs"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Le pronom remplace _possessif + nom_ : _Ce n'est pas ma valise, c'est **la tienne**._ Accent circonflexe : **le nôtre, le vôtre** (pronoms), mais **notre, votre** (adjectifs)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Les noms de parenté et de groupe",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "La famille et les groupes (_les gens, la plupart, la majorité_) reviennent dans les sujets de société du DELF. L'accord du verbe après un nom collectif est un point délicat."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 7 (p. 38)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Nommer les liens de parenté.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Accorder le verbe après un nom de groupe ou de quantité.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "La parenté et les noms de groupe",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Masculin",
+           "Féminin",
+           "Ensemble"
+          ],
+          [
+           "le père",
+           "la mère",
+           "les parents"
+          ],
+          [
+           "le grand-père",
+           "la grand-mère",
+           "les grands-parents"
+          ],
+          [
+           "le fils",
+           "la fille",
+           "les enfants"
+          ],
+          [
+           "le frère",
+           "la sœur",
+           "les frères et sœurs"
+          ],
+          [
+           "l'oncle",
+           "la tante",
+           ""
+          ],
+          [
+           "le neveu",
+           "la nièce",
+           ""
+          ],
+          [
+           "le cousin",
+           "la cousine",
+           ""
+          ],
+          [
+           "le beau-père",
+           "la belle-mère",
+           "les beaux-parents"
+          ],
+          [
+           "le mari / l'époux",
+           "la femme / l'épouse",
+           "le couple"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "_Beau-père_ = le père du conjoint **ou** le nouveau mari de la mère. Les _parents_ sont aussi, plus largement, toute la famille : _J'ai des **parents** en Bretagne_."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "Nom collectif au singulier → verbe au **singulier** : _**La famille** arrive demain. **Le public** applaudit._",
+          "**Les gens** → verbe au pluriel et adjectif au masculin pluriel : _Les gens **sont** pressés._",
+          "**La plupart (des…)** → verbe au **pluriel** : _La plupart des étudiants **travaillent** l'été._",
+          "**La majorité / une partie / un groupe de + nom pluriel** → singulier ou pluriel (accord au sens) : _La majorité des Français **pense / pensent**…_"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "**Tout le monde** → singulier : _Tout le monde **est** d'accord._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Les démonstratifs",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les démonstratifs montrent ou reprennent un élément déjà cité. Dans un texte, le pronom démonstratif (_celui, celle_) évite les répétitions : c'est un outil de cohésion apprécié à l'écrit."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 8 (p. 40)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Choisir l'adjectif démonstratif (ce, cet, cette, ces) et les suffixes -ci / -là.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer les pronoms démonstratifs (celui, celle, ceux, celles) + de / qui / -ci / -là.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "L'adjectif et le pronom démonstratifs",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "",
+           "masculin",
+           "féminin"
+          ],
+          [
+           "singulier",
+           "ce livre / **cet** ami, **cet** hôtel",
+           "cette maison"
+          ],
+          [
+           "pluriel",
+           "ces livres",
+           "ces maisons"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Cet** devant un nom masculin commençant par une voyelle ou un _h_ muet. Pour distinguer deux éléments : _ce livre-**ci**_ (proche) / _ce livre-**là**_ (éloigné)."
+        },
+        {
+         "t": "note",
+         "md": "_Ce matin, cette semaine, cette année_ = le moment présent ; _ce jour-là, cette année-là_ = un moment passé ou futur précis."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "",
+           "masculin",
+           "féminin"
+          ],
+          [
+           "singulier",
+           "celui",
+           "celle"
+          ],
+          [
+           "pluriel",
+           "ceux",
+           "celles"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Le pronom démonstratif n'est jamais seul. Il est suivi de **-ci / -là**, de **de** + nom, ou d'un **relatif** :"
+        },
+        {
+         "t": "ul",
+         "items": [
+          "_Quelle robe préfères-tu ? **Celle-ci** ou **celle-là** ?_",
+          "_Ce n'est pas mon vélo, c'est **celui de** mon frère._",
+          "_Les étudiants **qui** ont réussi et **ceux qui** ont échoué…_"
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "title": "« Il y a » et « c'est »",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "_Il y a_ signale l'**existence** de quelque chose ; _c'est_ l'**identifie**. On les enchaîne souvent : _Il y a un musée. C'est le musée Rodin._"
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 9 (p. 42)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Distinguer _il y a_ (existence) et _c'est_ (identification), et leurs formes négatives.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "L'existence et l'identification",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**Il y a + un / une / des** : existence : _**Il y a** une pharmacie dans la rue._",
+          "**C'est + le / la / un nom propre** : identification : _**C'est** la pharmacie de M. Morel._"
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Négation** : _il n'y a **pas de**_ (l'article devient _de_) mais _ce n'est **pas un / le**_ (l'article reste) :"
+        },
+        {
+         "t": "ul",
+         "items": [
+          "_Il n'y a **pas de** pharmacie ici._",
+          "_Ce n'est **pas une** pharmacie, c'est une parfumerie._"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "_Il y a_ est invariable : _**Il y a** des problèmes_ (jamais *_il y ont_)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "Le verbe « avoir »",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "_Avoir_ exprime la possession, l'âge, les sensations (_avoir faim_) et de nombreuses expressions idiomatiques utiles (_avoir besoin, avoir l'habitude, avoir lieu_)."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 11 (p. 48)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Conjuguer _avoir_ et l'employer pour l'âge et la description physique.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer les expressions avec _avoir_ et la négation _pas de_.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "« Avoir » et ses expressions",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "j'ai",
+           "tu as",
+           "il / elle / on a",
+           "nous avons",
+           "vous avez",
+           "ils / elles ont"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Âge** : _J'**ai** trente ans_ (jamais *_je suis trente ans_). **Description** : _Elle **a** les yeux bleus, les cheveux longs._"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "Sensations : **avoir faim, soif, chaud, froid, sommeil, peur, mal (à la tête)**.",
+          "Expressions : **avoir besoin de, avoir envie de, avoir l'habitude de, avoir raison / tort, avoir le temps de, avoir lieu** (= se dérouler)."
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Négation** : _J'ai **une** voiture → Je n'ai **pas de** voiture._ L'article indéfini et le partitif deviennent **de / d'**."
+        },
+        {
+         "t": "note",
+         "md": "Dans les expressions sans article (_avoir faim_), on garde la structure : _Je n'ai pas faim._ _Avoir besoin **de**_ + nom sans article : _J'ai besoin **d'**aide._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "title": "Les nombres",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les nombres sont partout dans les documents du DELF (statistiques, dates, prix). Il faut savoir les lire, les écrire et les ordonner."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 13 (p. 58)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Lire et écrire les nombres cardinaux (accords de _vingt, cent, mille_).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Former les nombres ordinaux et les fractions courantes.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Cardinaux et ordinaux",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "70 = **soixante-dix**, 80 = **quatre-vingts**, 90 = **quatre-vingt-dix** (en Belgique et en Suisse : _septante, (huitante), nonante_)."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "**Vingt** et **cent** prennent un **s** quand ils sont multipliés et **en fin de nombre** : _quatre-vingt**s**, deux cent**s**_ ; mais _quatre-vingt-trois, deux cent dix_.",
+          "**Mille** est invariable : _trois **mille**_. **Million, milliard** sont des noms : _deux million**s** **d'**habitants_.",
+          "Trait d'union entre tous les éléments (orthographe de 1990) ou seulement sous cent : _vingt-et-un_ / _vingt et un_."
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Ordinaux** : nombre + **-ième** : _deux → deuxième, cinq → cinq**u**ième, neuf → neu**v**ième_. Exceptions : **premier / première**, _second(e)_."
+        },
+        {
+         "t": "p",
+         "md": "**Fractions** : _un **demi**, un **tiers**, un **quart**_, puis _un cinquième, deux tiers, trois quarts_. **La moitié** (50 %)."
+        },
+        {
+         "t": "note",
+         "md": "Pour les dates et les rois, on utilise le cardinal, sauf pour _premier_ : _le **1er** mai, le **2** mai ; François **Ier**, Louis **XIV** (quatorze)_."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "module": "m27.1",
+ "source_hash": "62dd86fad7f1",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Un verbe pronominal se conjugue avec un pronom qui renvoie au sujet."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Le pronom change avec la personne, même à l'infinitif (_je vais **me** reposer_)."
+   },
+   {
+    "stage": "result",
+    "md": "Certains verbes n'existent qu'à la forme pronominale ou changent de sens ; d'autres prennent un sens passif."
+   }
+  ],
+  "why_it_matters": "_Se rendre compte, s'attendre à, se mobiliser_ sont des verbes clés de l'argumentation B2.",
+  "exam_approach": {
+   "look_first": [
+    "le sujet (pour choisir le pronom)",
+    "un infinitif après un verbe conjugué"
+   ],
+   "traps": [
+    "*_nous allons se promener_",
+    "*_je souviens_",
+    "*_je m'en souviens pas_ (oubli de _ne_)"
+   ],
+   "distractors": [
+    "_se_ à l'infinitif quel que soit le sujet",
+    "le verbe sans pronom"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.27.a.001",
+   "los": "los.27.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Le dimanche, nous …… tard.",
+   "options": [
+    "se levons",
+    "nous levons",
+    "levons"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Avec _nous_, le pronom est _nous_.",
+    "B": "Correct. _nous nous levons_.",
+    "C": "Faux. _se lever_ est pronominal."
+   }
+  },
+  {
+   "id": "q.27.a.002",
+   "los": "los.27.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Demain, je vais …… très tôt.",
+   "options": [
+    "se lever",
+    "lever",
+    "me lever"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Avec _je_, le pronom est _me_.",
+    "B": "Faux. Il manque le pronom.",
+    "C": "Correct. Le pronom s'accorde avec le sujet, même à l'infinitif."
+   }
+  },
+  {
+   "id": "q.27.a.003",
+   "los": "los.27.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Nous devons …… si nous voulons attraper le train.",
+   "options": [
+    "nous dépêcher",
+    "se dépêcher",
+    "dépêcher"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Infinitif pronominal avec _nous_.",
+    "B": "Faux. Avec _nous_, le pronom est _nous_.",
+    "C": "Faux. _se dépêcher_ est pronominal."
+   }
+  },
+  {
+   "id": "q.27.a.004",
+   "los": "los.27.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Mes grands-parents …… depuis soixante ans.",
+   "options": [
+    "aiment",
+    "nous aimons",
+    "s'aiment"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il manque le pronom réciproque.",
+    "B": "Faux. Le sujet est _mes grands-parents_.",
+    "C": "Correct. Sens réciproque, 3e personne du pluriel."
+   }
+  },
+  {
+   "id": "q.27.b.001",
+   "los": "los.27.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu …… de notre premier voyage ?",
+   "options": [
+    "te souviens",
+    "souviens",
+    "rappelles"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _se souvenir de_ est toujours pronominal.",
+    "B": "Faux. _se souvenir_ demande le pronom.",
+    "C": "Faux. _rappeler_ seul ne se construit pas avec _de_."
+   }
+  },
+  {
+   "id": "q.27.b.002",
+   "los": "los.27.b",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "Je ne …… que c'était si tard !",
+   "options": [
+    "rendais pas compte",
+    "me rendais pas compte",
+    "me rendais pas"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _se rendre compte_ est pronominal.",
+    "B": "Correct. _se rendre compte_ = comprendre, réaliser.",
+    "C": "Faux. Il manque _compte_."
+   }
+  },
+  {
+   "id": "q.27.b.003",
+   "los": "los.27.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Ce modèle de vélo électrique …… très bien cette année.",
+   "options": [
+    "se vend",
+    "vend",
+    "est vendant"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Sens passif : le vélo est vendu.",
+    "B": "Faux. Le vélo ne vend rien : il faut le sens passif.",
+    "C": "Faux. Cette forme n'existe pas en français."
+   }
+  },
+  {
+   "id": "q.27.b.004",
+   "los": "los.27.b",
+   "difficulty": 3,
+   "qtype": "vocabulary",
+   "stem": "Les organisateurs ne …… pas à un tel succès.",
+   "options": [
+    "attendaient",
+    "se doutaient",
+    "s'attendaient"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _attendre_ (sans pronom) se construit sans _à_.",
+    "B": "Faux. _se douter_ se construit avec _de_.",
+    "C": "Correct. _s'attendre à_ = prévoir."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.27.infinitif-pronominal",
+   "los": [
+    "los.27.a"
+   ],
+   "name": "Pronominal à l'infinitif",
+   "front": "Nous allons …… promener ?",
+   "back": "**nous** : le pronom s'accorde avec le sujet (_je vais me…, nous allons nous…_)."
+  },
+  {
+   "id": "f.27.sens-pronominal",
+   "los": [
+    "los.27.b"
+   ],
+   "name": "Verbes pronominaux à sens propre",
+   "front": "se rendre compte / s'attendre à / se douter de ?",
+   "back": "réaliser / prévoir / soupçonner."
+  }
+ ]
+}

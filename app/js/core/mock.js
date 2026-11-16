@@ -8,8 +8,8 @@ export const MOCK = { questions: 40, sessions: 1, sessionMs: 40 * 60_000 };
  * questions that share a case (vignette) treated as an item set.
  */
 export function itemSetsFor(chunk) {
-  // Listening sets need their audio and timing: they're practised on their own, not in the grammar mock.
-  const sets = chunk.item_sets.filter((s) => !s.audio).map((s) => ({
+  // Listening and reading sets have their own timing: they're practised on their own, not in the grammar mock.
+  const sets = chunk.item_sets.filter((s) => !s.audio && !s.reading).map((s) => ({
     id: s.id, topic: chunk.topic, title: s.title, vignette: s.vignette, exhibits: s.exhibits ?? [], questions: s.questions,
   }));
   const groups = new Map();

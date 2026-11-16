@@ -1,0 +1,227 @@
+{
+ "module": "m22.1",
+ "source_hash": "70bfe50e217e",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "On compare des qualités (adjectifs), des façons de faire (adverbes), des quantités (noms) ou des actions (verbes)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_plus / aussi / moins … que_ avec adjectifs et adverbes, _plus de / autant de / moins de_ avec les noms, _plus / autant / moins_ après les verbes."
+   },
+   {
+    "stage": "result",
+    "md": "_Bon_ devient _meilleur_ et _bien_ devient _mieux_ ; le superlatif ajoute l'article et _de_."
+   }
+  ],
+  "why_it_matters": "_Meilleur / mieux_, _autant de_ et _de plus en plus_ reviennent dans presque chaque essai ou débat du DELF.",
+  "exam_approach": {
+   "look_first": [
+    "la nature du mot comparé (adjectif, adverbe, nom, verbe)",
+    "_bon_ ou _bien_ à comparer"
+   ],
+   "traps": [
+    "*_plus bon_",
+    "*_aussi de temps_",
+    "*_le plus grand pays dans le monde_"
+   ],
+   "distractors": [
+    "_meilleur_ / _mieux_ inversés",
+    "_aussi_ avec un nom",
+    "_dans_ au lieu de _de_ après le superlatif"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.22.a.001",
+   "los": "los.22.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Le train est …… rapide que le bus.",
+   "options": [
+    "plus de",
+    "plus",
+    "autant"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _plus de_ s'emploie avec un nom.",
+    "B": "Correct. Comparatif de supériorité avec un adjectif.",
+    "C": "Faux. _autant_ s'emploie avec un nom ou un verbe."
+   }
+  },
+  {
+   "id": "q.22.a.002",
+   "los": "los.22.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Cette année, j'ai …… travail que l'an dernier.",
+   "options": [
+    "autant de",
+    "aussi de",
+    "aussi"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Égalité avec un nom → _autant de_.",
+    "B": "Faux. _aussi_ s'emploie avec un adjectif ou un adverbe.",
+    "C": "Faux. Avec un nom → _autant de_."
+   }
+  },
+  {
+   "id": "q.22.a.003",
+   "los": "los.22.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Les jeunes lisent …… journaux papier.",
+   "options": [
+    "de moins en moins",
+    "moins en moins des",
+    "de moins en moins de"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Devant un nom, il faut _de_.",
+    "B": "Faux. La structure est _de moins en moins de_.",
+    "C": "Correct. Progression avec un nom → _de moins en moins de_."
+   }
+  },
+  {
+   "id": "q.22.a.004",
+   "los": "los.22.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "…… on pratique, plus on progresse.",
+   "options": [
+    "Le plus",
+    "Autant",
+    "Plus"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Pas d'article dans la structure proportionnelle.",
+    "B": "Faux. La structure _autant…, plus…_ n'existe pas.",
+    "C": "Correct. Proportion : _plus…, plus…_"
+   }
+  },
+  {
+   "id": "q.22.b.001",
+   "los": "los.22.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ce gâteau est …… que celui d'hier.",
+   "options": [
+    "plus bon",
+    "meilleur",
+    "plus meilleur"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. *_plus bon_ n'existe pas.",
+    "B": "Correct. Comparatif de _bon_ → _meilleur_.",
+    "C": "Faux. _meilleur_ est déjà un comparatif."
+   }
+  },
+  {
+   "id": "q.22.b.002",
+   "los": "los.22.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Depuis qu'elle a des lunettes, elle voit …….",
+   "options": [
+    "mieux",
+    "meilleur",
+    "plus bien"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Comparatif de _bien_ (verbe _voir_) → _mieux_.",
+    "B": "Faux. _meilleur_ qualifie un nom.",
+    "C": "Faux. *_plus bien_ n'existe pas."
+   }
+  },
+  {
+   "id": "q.22.b.003",
+   "los": "los.22.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "C'est le musée le plus visité …… monde.",
+   "options": [
+    "dans le",
+    "au",
+    "du"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Après un superlatif, on emploie _de_.",
+    "B": "Faux. Après un superlatif, on emploie _de_.",
+    "C": "Correct. Superlatif + _de_ : _du monde_."
+   }
+  },
+  {
+   "id": "q.22.b.004",
+   "los": "los.22.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "C'est …… solution, à mon avis.",
+   "options": [
+    "la meilleure",
+    "la mieux",
+    "la plus bonne"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Superlatif de _bon_ au féminin.",
+    "B": "Faux. _mieux_ ne qualifie pas un nom.",
+    "C": "Faux. *_plus bonne_ n'existe pas."
+   }
+  },
+  {
+   "id": "q.22.b.005",
+   "los": "los.22.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "La situation est …… qu'on ne le pensait.",
+   "options": [
+    "plus pire",
+    "pire",
+    "pirement"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _pire_ est déjà un comparatif.",
+    "B": "Correct. _pire_ = plus mauvais(e).",
+    "C": "Faux. Ce mot n'existe pas."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.22.meilleur-mieux",
+   "los": [
+    "los.22.b"
+   ],
+   "name": "Meilleur / mieux",
+   "front": "Comparatif de bon et de bien ?",
+   "back": "bon → **meilleur** (nom) ; bien → **mieux** (verbe).",
+   "common_mistake": "*_plus bon_, *_plus bien_."
+  },
+  {
+   "id": "f.22.autant-de",
+   "los": [
+    "los.22.a"
+   ],
+   "name": "Comparer des quantités",
+   "front": "Comparatif avec un nom ?",
+   "back": "**plus de / autant de / moins de** + nom (+ **que**).",
+   "examples": [
+    "Il a autant de livres que moi."
+   ]
+  }
+ ]
+}

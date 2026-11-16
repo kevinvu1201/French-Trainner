@@ -1,0 +1,189 @@
+{
+ "module": "m13.1",
+ "source_hash": "9c2787f10370",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le système français mélange base 10 et base 20 (_quatre-vingts_)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_Vingt_ et _cent_ ne prennent un _s_ qu'en fin de nombre et multipliés ; _mille_ ne varie jamais ; _million_ est un nom."
+   },
+   {
+    "stage": "result",
+    "md": "Les ordinaux se forment avec _-ième_ ; les fractions courantes ont des noms propres (_tiers, quart, moitié_)."
+   }
+  ],
+  "why_it_matters": "Les questions sur des données chiffrées reformulées (_un tiers, la moitié_) sont fréquentes en compréhension écrite et orale.",
+  "exam_approach": {
+   "look_first": [
+    "la position de _vingt / cent_ dans le nombre",
+    "_mille_ et _million_"
+   ],
+   "traps": [
+    "*_trois milles_",
+    "*_deux cent trente_ avec _cents_",
+    "_un tiers_ ≠ _30 %_ exactement"
+   ],
+   "distractors": [
+    "un accord en _s_ fautif",
+    "une fraction mal reformulée"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.13.a.001",
+   "los": "los.13.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ce vélo coûte …… euros (80 €).",
+   "options": [
+    "quatre-vingt",
+    "quatre-vingts",
+    "huitante"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. En fin de nombre, _quatre-vingts_ prend un _s_.",
+    "B": "Correct. _vingt_ multiplié et en fin de nombre → _s_.",
+    "C": "Faux. _huitante_ ne s'emploie qu'en Suisse."
+   }
+  },
+  {
+   "id": "q.13.a.002",
+   "los": "los.13.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "La ville compte …… habitants (3 000).",
+   "options": [
+    "trois mille",
+    "trois milles",
+    "trois millier"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _mille_ est invariable.",
+    "B": "Faux. _mille_ ne prend jamais de _s_.",
+    "C": "Faux. _un millier_ est un nom approximatif."
+   }
+  },
+  {
+   "id": "q.13.a.003",
+   "los": "los.13.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Le pays compte deux …… habitants.",
+   "options": [
+    "million",
+    "millions d'",
+    "millions"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _million_ est un nom : il prend un _s_ et se construit avec _de_.",
+    "B": "Correct. _million_ est un nom : _s_ au pluriel + _de_.",
+    "C": "Faux. Il manque _d'_ devant le nom."
+   }
+  },
+  {
+   "id": "q.13.a.004",
+   "los": "los.13.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Le livre fait …… pages (280).",
+   "options": [
+    "deux cents quatre-vingts",
+    "deux cent quatre-vingt",
+    "deux cent quatre-vingts"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _cent_ ne prend pas de _s_ s'il est suivi d'un nombre.",
+    "B": "Faux. _quatre-vingts_ en fin de nombre prend un _s_.",
+    "C": "Correct. _cent_ suivi d'un autre nombre → pas de _s_ ; _quatre-vingts_ final → _s_."
+   }
+  },
+  {
+   "id": "q.13.b.001",
+   "los": "los.13.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Elle est arrivée …… au marathon de Paris (9e).",
+   "options": [
+    "neufième",
+    "neuvième fois",
+    "neuvième"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le _f_ devient _v_.",
+    "B": "Faux. On demande un rang, pas une fréquence.",
+    "C": "Correct. _neuf → neuvième_."
+   }
+  },
+  {
+   "id": "q.13.b.002",
+   "los": "los.13.b",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "« 25 % des Français » signifie…",
+   "options": [
+    "un quart des Français.",
+    "un tiers des Français.",
+    "la moitié des Français."
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. 25 % = un quart.",
+    "B": "Faux. Un tiers ≈ 33 %.",
+    "C": "Faux. La moitié = 50 %."
+   }
+  },
+  {
+   "id": "q.13.b.003",
+   "los": "los.13.b",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "« Près des deux tiers des sondés » correspond à…",
+   "options": [
+    "environ 23 %.",
+    "environ 66 %.",
+    "environ 75 %."
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Confusion entre _deux tiers_ et le nombre 2.",
+    "B": "Correct. 2/3 ≈ 66 %.",
+    "C": "Faux. 75 % = trois quarts."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.13.vingt-cent",
+   "los": [
+    "los.13.a"
+   ],
+   "name": "Accord de vingt, cent, mille",
+   "front": "Quand vingt et cent prennent-ils un s ?",
+   "back": "Multipliés **et** en fin de nombre : _quatre-vingts, trois cents_ ; _mille_ est invariable.",
+   "examples": [
+    "quatre-vingt-deux ; trois cent dix ; deux mille"
+   ]
+  },
+  {
+   "id": "f.13.fractions",
+   "los": [
+    "los.13.b"
+   ],
+   "name": "Fractions",
+   "front": "1/2, 1/3, 1/4, 2/3, 3/4 ?",
+   "back": "un demi (la moitié), un tiers, un quart, deux tiers, trois quarts."
+  }
+ ]
+}

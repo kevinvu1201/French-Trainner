@@ -1,0 +1,478 @@
+{
+ "readings": [
+  {
+   "number": 10,
+   "title": "La situation dans l'espace (1) : villes et pays",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les prépositions de lieu (_à Paris, en France, au Japon, aux États-Unis_) dépendent du genre et du nombre du pays. Les erreurs sont fréquentes et très visibles, même au niveau B2."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 10 (p. 44)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Choisir _à, en, au, aux_ devant une ville, un pays ou un continent.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer les expressions de lieu courantes (_dans, sur, sous, à côté de, en face de…_).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Villes, pays, continents et expressions de lieu",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Destination",
+           "Préposition",
+           "Exemples"
+          ],
+          [
+           "ville",
+           "**à**",
+           "à Paris, à Londres, à New York"
+          ],
+          [
+           "pays féminin (souvent en -e) ou à voyelle",
+           "**en**",
+           "en France, en Italie, en Iran, en Israël"
+          ],
+          [
+           "pays masculin à consonne",
+           "**au**",
+           "au Japon, au Canada, au Mexique, au Portugal"
+          ],
+          [
+           "pays pluriel",
+           "**aux**",
+           "aux États-Unis, aux Pays-Bas, aux Philippines"
+          ],
+          [
+           "continent",
+           "**en**",
+           "en Europe, en Asie, en Afrique"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Exceptions masculines en _-e_ : _**au** Mexique, **au** Cambodge, **au** Mozambique_. Îles : souvent **à** (_à Cuba, à Madagascar_), parfois **en** (_en Corse, en Sicile_)."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**dans** (à l'intérieur) / **sur** (à la surface) / **sous** (en dessous) : _dans le tiroir, sur la table, sous le lit_.",
+          "**devant / derrière, à côté de, en face de, près de / loin de, au-dessus de / au-dessous de, entre … et …**",
+          "**dans la rue** / **sur la place, sur le boulevard, sur l'avenue** ; **à la campagne, à la montagne, à la mer**."
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Avec _de_ : _à côté **du** métro, près **des** gares_ (contraction obligatoire)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 14,
+   "title": "Le temps (1) : date, heure, saisons",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Situer un événement dans le temps (date, jour, heure, saison) est indispensable pour une lettre, un récit ou une invitation."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 14 (p. 64)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Exprimer la date, le jour et la saison (le, en, au).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Dire l'heure et parler de la météo.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Le jour, la date, l'heure et le temps qu'il fait",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**Date** : _le 14 juillet_, _le **1er** mai_ (premier), _le lundi 3 mars_. Pas de préposition : _Je pars **le** 3 mars_.",
+          "**Jour habituel** : _**le** lundi_ = tous les lundis ; _lundi_ = ce lundi-ci.",
+          "**Mois et années** : _**en** mars, **au mois de** mars, **en** 2026_.",
+          "**Saisons** : _**en** été, **en** automne, **en** hiver_, mais _**au** printemps_."
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**L'heure** : _Il est **huit heures et quart**, **huit heures et demie**, **neuf heures moins le quart**, **midi**, **minuit**_. Langue officielle : _20 h 45_ (vingt heures quarante-cinq)."
+        },
+        {
+         "t": "p",
+         "md": "**Météo** : _**Il fait** beau / chaud / froid / 20 degrés. **Il pleut. Il neige. Il y a** du vent, du soleil, du brouillard_."
+        },
+        {
+         "t": "note",
+         "md": "_Midi et **demi**_ (_midi_ est masculin) mais _une heure et **demie**_ (_heure_ est féminin)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "title": "Le temps (2) : la durée",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "_Depuis, pour, pendant, en, il y a_ : ces mots expriment des durées différentes et ne sont pas interchangeables. Leur confusion est une des fautes les plus fréquentes des apprenants avancés."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 17 (p. 80)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Choisir entre _depuis, pendant, pour, en_ et _il y a_ pour exprimer une durée.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "« Depuis », « pour », « pendant », « en »",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**depuis** + durée ou point de départ, avec un verbe au **présent** : action qui continue : _J'habite ici **depuis** trois ans / **depuis** 2020._",
+          "**pendant** : durée d'une action **terminée** (ou délimitée) : _J'ai habité à Rome **pendant** trois ans._",
+          "**pour** : durée **prévue** (avec _partir, aller, venir_) : _Je pars **pour** une semaine._",
+          "**en** : temps **nécessaire** pour accomplir une action : _J'ai lu ce livre **en** deux jours._",
+          "**il y a** + durée, avec un verbe au **passé** : moment d'un événement passé : _Je suis arrivé **il y a** deux ans._"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "**Ça fait / il y a … que** + présent = _depuis_ : _**Ça fait** trois ans **que** j'habite ici._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "La situation dans l'espace (2) : régions et origine",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les régions, départements et l'origine géographique (_je viens du Japon, d'Italie_) suivent les mêmes règles que les pays, avec _de_ en plus."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 21 (p. 94)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Situer dans une région ou un département (_en Bretagne, dans le Nord_).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Exprimer l'origine avec _de, d', du, des_.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Régions, départements et origine géographique",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "Régions féminines → **en** : _en Normandie, en Provence, en Bourgogne_.",
+          "Régions et départements masculins → **dans le** : _dans le Nord, dans le Var, dans le Midi_ (parfois _en_ devant voyelle : _en Anjou_).",
+          "États et provinces : _**au** Québec, **en** Californie, **au** Texas, **dans l'**Ontario_."
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Destination",
+           "Origine"
+          ],
+          [
+           "à Paris",
+           "**de** Paris"
+          ],
+          [
+           "en France, en Iran",
+           "**de** France, **d'**Iran"
+          ],
+          [
+           "au Japon",
+           "**du** Japon"
+          ],
+          [
+           "aux États-Unis",
+           "**des** États-Unis"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "_Je viens **de** Lyon. Ce vin vient **d'**Italie. Elle rentre **du** Canada. Il arrive **des** Pays-Bas._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 25,
+   "title": "La situation dans l'espace et le temps (3) : à, de, jusqu'à",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "_De … à_, _jusqu'à_, _à partir de_ délimitent un trajet ou une période : horaires, itinéraires, périodes d'ouverture."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 25 (p. 106)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Exprimer le point de départ, la limite et l'intervalle (de … à, jusqu'à, à partir de, dès).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "« À », « de », « jusqu'à », « à partir de »",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**de … à** : intervalle : _**de** 9 h **à** 18 h, **de** Paris **à** Lyon, **du** lundi **au** vendredi_.",
+          "**jusqu'à** : limite : _Le magasin est ouvert **jusqu'à** 20 h. Allez **jusqu'au** carrefour._",
+          "**à partir de** : point de départ (futur ou habituel) : _**À partir de** demain, le métro sera gratuit._",
+          "**dès** : point de départ immédiat, souvent plus tôt que prévu : _**Dès** son arrivée, il s'est mis au travail._"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Contractions : _**du** 1er **au** 15 mai, **jusqu'aux** vacances, **à partir du** mois prochain_."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 41,
+   "title": "Le temps (3) : origine, chronologie, succession",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Raconter, c'est ordonner : _d'abord, ensuite, avant de, après avoir, la veille, le lendemain_. Ces indicateurs donnent de la cohérence au récit et à l'argumentation."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 41 (p. 198)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Exprimer l'origine et la durée au passé (_depuis, il y a, ça faisait … que_).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Ordonner des actions (_d'abord, ensuite, avant de + infinitif, après + infinitif passé_).",
+     "module": 1
+    },
+    {
+     "letter": "c",
+     "text": "Situer par rapport à un moment de référence (_la veille, le lendemain, ce jour-là_).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "L'origine, la chronologie et la succession",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Au passé, la durée d'une action en cours se dit avec **depuis** + **imparfait** : _Il **attendait depuis** une heure quand le train est arrivé._ Ou : _**Ça faisait / il y avait** une heure **qu'**il attendait._"
+        },
+        {
+         "t": "p",
+         "md": "_**Depuis que** + indicatif_ : point de départ exprimé par une proposition : _**Depuis qu'**il travaille à Paris, il ne prend plus sa voiture._"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "Ordonner : **d'abord / tout d'abord, puis, ensuite, après, enfin, finalement**.",
+          "**avant de + infinitif** (même sujet) : _Lisez la consigne **avant de** répondre._",
+          "**après + infinitif passé** (même sujet) : _**Après avoir lu** la consigne, répondez._ / _**Après être arrivé**, il a appelé._",
+          "Sujets différents : **avant que + subjonctif**, **après que + indicatif** : _Partez avant qu'il (ne) pleuve. Après qu'il est parti, nous avons rangé._"
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Par rapport à aujourd'hui",
+           "Par rapport à un autre moment"
+          ],
+          [
+           "hier",
+           "**la veille**"
+          ],
+          [
+           "demain",
+           "**le lendemain**"
+          ],
+          [
+           "avant-hier / après-demain",
+           "**l'avant-veille / le surlendemain**"
+          ],
+          [
+           "aujourd'hui / maintenant",
+           "**ce jour-là / à ce moment-là**"
+          ],
+          [
+           "la semaine dernière / prochaine",
+           "**la semaine précédente / suivante**"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Ces équivalences sont indispensables au **discours rapporté au passé** (chapitre 45) : _« Je pars demain » → Il a dit qu'il partait **le lendemain**._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

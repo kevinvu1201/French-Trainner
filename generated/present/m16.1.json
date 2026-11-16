@@ -1,0 +1,196 @@
+{
+ "module": "m16.1",
+ "source_hash": "e59fe7b8eb3c",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Tous les verbes en _-er_ (sauf _aller_) ont les mêmes terminaisons au présent."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Le radical change d'orthographe pour garder la prononciation : _ç, ge, è, ll, tt, i_."
+   },
+   {
+    "stage": "result",
+    "md": "Ces changements touchent _je, tu, il, ils_ ; _nous_ et _vous_ restent réguliers."
+   }
+  ],
+  "why_it_matters": "L'orthographe des verbes courants (_j'achète, nous commençons, il appelle_) est vérifiée dans toute production écrite.",
+  "exam_approach": {
+   "look_first": [
+    "la terminaison de l'infinitif (-cer, -ger, -yer, -eler…)",
+    "la personne (terminaison muette ou non ?)"
+   ],
+   "traps": [
+    "*_nous mangons_",
+    "*_j'achete_",
+    "*_nous appellons_"
+   ],
+   "distractors": [
+    "le radical non modifié",
+    "la modification appliquée à _nous / vous_"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.16.a.001",
+   "los": "los.16.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Mes collègues …… trois langues.",
+   "options": [
+    "parlent",
+    "parles",
+    "parlons"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _ils parlent_.",
+    "B": "Faux. _parles_ va avec _tu_.",
+    "C": "Faux. _parlons_ va avec _nous_."
+   }
+  },
+  {
+   "id": "q.16.b.001",
+   "los": "los.16.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Nous …… la réunion à 9 heures.",
+   "options": [
+    "commencons",
+    "commençons",
+    "commencont"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Il faut une cédille devant _o_.",
+    "B": "Correct. _-cer_ : _ç_ devant _o_.",
+    "C": "Faux. La terminaison de _nous_ est _-ons_."
+   }
+  },
+  {
+   "id": "q.16.b.002",
+   "los": "los.16.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Le soir, nous …… souvent au restaurant.",
+   "options": [
+    "mangons",
+    "mangions",
+    "mangeons"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il faut un _e_ pour garder le son [ʒ].",
+    "B": "Faux. C'est l'imparfait ou le subjonctif.",
+    "C": "Correct. _-ger_ : _e_ devant _o_."
+   }
+  },
+  {
+   "id": "q.16.b.003",
+   "los": "los.16.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "J'…… mon pain dans cette boulangerie.",
+   "options": [
+    "achete",
+    "achette",
+    "achète"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il faut un accent grave.",
+    "B": "Faux. _acheter_ prend un accent, il ne double pas le _t_.",
+    "C": "Correct. _e → è_ devant une syllabe muette."
+   }
+  },
+  {
+   "id": "q.16.b.004",
+   "los": "los.16.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Comment est-ce que tu t'…… ?",
+   "options": [
+    "appelles",
+    "appeles",
+    "appèles"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _-eler_ : _ll_ devant un _e_ muet.",
+    "B": "Faux. _appeler_ double le _l_ devant un _e_ muet.",
+    "C": "Faux. _appeler_ double la consonne, il ne prend pas d'accent."
+   }
+  },
+  {
+   "id": "q.16.b.005",
+   "los": "los.16.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Nous vous …… demain à 10 heures.",
+   "options": [
+    "appellons",
+    "appelons",
+    "appelont"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _nous_ garde le radical de l'infinitif : un seul _l_.",
+    "B": "Correct. Avec _nous_, la terminaison est prononcée : pas de doublement.",
+    "C": "Faux. La terminaison est _-ons_."
+   }
+  },
+  {
+   "id": "q.16.b.006",
+   "los": "los.16.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Je …… le thé au café.",
+   "options": [
+    "préfére",
+    "prefère",
+    "préfère"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il faut un accent grave sur le deuxième _e_.",
+    "B": "Faux. Le premier _é_ garde son accent aigu.",
+    "C": "Correct. _é → è_ devant une syllabe muette."
+   }
+  },
+  {
+   "id": "q.16.b.007",
+   "los": "los.16.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Ils …… leur loyer le 5 de chaque mois.",
+   "options": [
+    "paient",
+    "payons",
+    "paiyent"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _-yer_ : _y → i_ devant un _e_ muet (ou _payent_).",
+    "B": "Faux. _payons_ va avec _nous_.",
+    "C": "Faux. Cette forme n'existe pas."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.16.er-ortho",
+   "los": [
+    "los.16.b"
+   ],
+   "name": "Orthographe des verbes en -er",
+   "front": "nous (manger, commencer) ; j' (acheter, appeler) ?",
+   "back": "nous **mangeons**, nous **commençons** ; j'**achète**, j'**appelle**.",
+   "common_mistake": "_nous appelons_ : pas de doublement avec _nous_ et _vous_."
+  }
+ ]
+}

@@ -1,0 +1,370 @@
+{
+ "readings": [
+  {
+   "number": 20,
+   "title": "Le pronom « en »",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "_En_ remplace un nom précédé de **de** (partitif, quantité, verbe en _de_). C'est un pronom de reprise indispensable pour éviter les répétitions, à l'oral comme à l'écrit : _Des solutions ? Il **en** existe plusieurs._"
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 20 (p. 90)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Remplacer un nom partitif ou une quantité par _en_ (en garder la quantité).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Remplacer un complément introduit par _de_ (parler de, avoir besoin de…) par _en_.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "« En » partitif et « en » avec les verbes en « de »",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "_En_ remplace **du, de la, des** + nom : _Tu veux **du** café ? — Oui, j'**en** veux._"
+        },
+        {
+         "t": "p",
+         "md": "Avec une **quantité**, on garde la quantité **après** le verbe : _Tu as **des** frères ? — J'**en** ai **deux**. Il y a **beaucoup de** monde ? — Il y **en** a **beaucoup**._"
+        },
+        {
+         "t": "p",
+         "md": "Négation : _Je n'**en** veux **pas**. Il n'y **en** a **plus**._"
+        },
+        {
+         "t": "note",
+         "md": "_Un / une_ se répète : _Tu as une voiture ? — Oui, j'**en** ai **une**._ (mais à la négation : _Non, je n'**en** ai **pas**_)."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "_En_ remplace **de + chose / idée** après un verbe : _Tu parles **de ton voyage** ? — Oui, j'**en** parle. J'ai besoin **de ce livre** → J'**en** ai besoin._"
+        },
+        {
+         "t": "p",
+         "md": "Pour une **personne**, on garde **de + pronom tonique** : _Tu parles **de ta sœur** ? — Oui, je parle **d'elle**._"
+        },
+        {
+         "t": "note",
+         "md": "Place : devant le verbe conjugué, ou devant l'infinitif : _Je vais **en** acheter. J'**en** ai acheté._ À l'impératif affirmatif : _Prends-**en** !_"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 24,
+   "title": "Le pronom « y »",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "_Y_ remplace un **lieu** (_à, en, dans, chez…_) ou un complément introduit par **à** (chose ou idée) : _Tu penses **à tes examens** ? — Oui, j'**y** pense._"
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 24 (p. 104)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Remplacer un lieu par _y_.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Remplacer _à_ + chose / idée par _y_ (et _à_ + personne par _lui_ ou _à lui_).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "« Y » lieu et « y » avec les verbes en « à »",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "_Y_ remplace un lieu où l'on va ou où l'on est : _Tu vas **à Lyon** ? — Oui, j'**y** vais. Il habite **en Suisse** ? — Oui, il **y** habite depuis 2015._"
+        },
+        {
+         "t": "note",
+         "md": "Le lieu d'origine (_de Lyon_) est remplacé par **en** : _Tu viens de Lyon ? — Oui, j'**en** viens._ Devant _irai, irais_ (futur et conditionnel d'_aller_), _y_ disparaît : _Tu iras à Lyon ? — Oui, j'irai._"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "_Y_ remplace **à + chose / idée** : _penser à, s'intéresser à, participer à, répondre à (un message), réfléchir à, s'habituer à_ : _Tu as répondu **à son mail** ? — Oui, j'**y** ai répondu._"
+        },
+        {
+         "t": "p",
+         "md": "Pour une **personne** : _répondre, téléphoner, parler, écrire à qqn_ → **lui / leur** ; _penser, s'intéresser, s'habituer à qqn_ → **à lui, à elle** : _Je **lui** réponds. Je pense **à elle**._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Les pronoms compléments",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les pronoms COD (_le, la, les_) et COI (_lui, leur_) évitent les répétitions et rendent un texte fluide. Leur choix dépend de la construction du verbe (avec ou sans _à_) ; leur ordre, quand il y en a deux, est fixe. C'est un point clé du niveau B1–B2."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 28 (p. 124)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Remplacer un complément direct par _le, la, l', les_ (et _me, te, nous, vous_).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Remplacer un complément indirect de personne par _lui, leur_.",
+     "module": 1
+    },
+    {
+     "letter": "c",
+     "text": "Ordonner deux pronoms compléments et placer les pronoms avec un infinitif ou un temps composé.",
+     "module": 2
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Les pronoms directs et indirects",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**COD** (verbe sans préposition) : _Je regarde **le film** → Je **le** regarde. J'aime **ces chansons** → Je **les** aime._"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "me (m')",
+           "te (t')",
+           "le / la (l')",
+           "nous",
+           "vous",
+           "les"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Ils peuvent remplacer une **personne** ou une **chose** déterminée (défini, possessif, démonstratif). _Le_ neutre reprend une idée : _Il est parti ? Je **le** sais._"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**COI de personne** (verbe + **à** + personne) : _Je parle **à Marie** → Je **lui** parle. Je téléphone **à mes parents** → Je **leur** téléphone._"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "me",
+           "te",
+           "**lui** (masc. et fém.)",
+           "nous",
+           "vous",
+           "**leur** (invariable)"
+          ]
+         ]
+        },
+        {
+         "t": "ul",
+         "items": [
+          "Verbes de communication et d'échange : _parler, dire, écrire, téléphoner, répondre, demander, donner, envoyer, offrir, prêter, emprunter, plaire, sourire, ressembler **à** qqn_.",
+          "Mais : _aider, appeler, remercier, inviter, écouter, attendre, regarder **qqn**_ sont des verbes **directs** : _Je **l'**aide. Je **les** remercie._"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "_Leur_ pronom ne prend jamais de _s_ : _Je **leur** écris_ (≠ possessif _leurs livres_)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 2,
+     "title": "L'ordre et la place des pronoms",
+     "sections": [
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Place** : devant le verbe conjugué (_je **le** vois_) ; aux temps composés, devant l'auxiliaire (_je **l'**ai vu_) ; avec un infinitif, devant l'infinitif (_je vais **le** voir_)."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "1",
+           "2",
+           "3",
+           "4",
+           "5"
+          ],
+          [
+           "me, te, se, nous, vous",
+           "le, la, les",
+           "lui, leur",
+           "y",
+           "en"
+          ]
+         ]
+        },
+        {
+         "t": "ul",
+         "items": [
+          "_Il **me le** donne. Je **le lui** donne. Je **les leur** envoie. Il **m'en** parle. Il **y en** a._"
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Accord du participe** : avec _avoir_, le participe s'accorde avec le COD placé avant : _Ces photos ? Je **les** ai pris**es**._ (pas d'accord avec _lui, leur, en_)."
+        },
+        {
+         "t": "note",
+         "md": "À l'**impératif affirmatif**, les pronoms suivent le verbe, COD d'abord : _Donne-**le-moi**. Envoie-**la-leur**._ (chapitre 30)"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "Les pronoms toniques",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les pronoms toniques (_moi, toi, lui, elle, nous, vous, eux, elles_) servent à insister, après une préposition et dans les réponses courtes. Ils renforcent l'opinion : _**Moi**, je pense que…_"
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 29 (p. 132)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Employer les pronoms toniques pour insister, après une préposition, après _c'est_ et dans les comparaisons.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Les pronoms toniques",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "je → **moi**",
+           "tu → **toi**",
+           "il → **lui**",
+           "elle → **elle**",
+           "nous → **nous**",
+           "vous → **vous**",
+           "ils → **eux**",
+           "elles → **elles**"
+          ]
+         ]
+        },
+        {
+         "t": "ul",
+         "items": [
+          "**Insistance** : _**Moi**, je préfère la mer. **Eux**, ils ne viennent pas._",
+          "**Après une préposition** : _avec **moi**, chez **eux**, pour **elle**, sans **toi**, à côté de **lui**_.",
+          "**Après c'est / ce sont** : _C'est **moi** qui ai appelé. Ce sont **eux** qui ont gagné._",
+          "**Réponses courtes et comparaisons** : _Qui veut du café ? — **Moi** ! Il est plus grand que **toi**. **Moi aussi / moi non plus**._",
+          "**Soi** pour un sujet indéfini : _**On** doit penser à **soi**. Chacun pour **soi**._"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "_C'est moi qui **ai**_ : le verbe s'accorde avec le pronom tonique (_c'est nous qui **sommes**_)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

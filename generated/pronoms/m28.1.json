@@ -1,0 +1,197 @@
+{
+ "module": "m28.1",
+ "source_hash": "3c81da9b9c3c",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le pronom dépend de la construction du verbe : direct (sans préposition) ou indirect (avec _à_)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "COD → _le, la, les_ ; COI de personne → _lui, leur_ ; on vérifie la construction : _aider qqn_ (direct), _téléphoner à qqn_ (indirect)."
+   },
+   {
+    "stage": "result",
+    "md": "Les deux séries sont identiques à la 1re et à la 2e personne (_me, te, nous, vous_)."
+   }
+  ],
+  "why_it_matters": "Confondre _le / lui_ (_*je lui aide_) est l'une des erreurs les plus pénalisées à l'oral comme à l'écrit.",
+  "exam_approach": {
+   "look_first": [
+    "la construction du verbe : avec ou sans _à_ ?",
+    "personne ou chose ?",
+    "singulier ou pluriel ?"
+   ],
+   "traps": [
+    "*_je lui aide_",
+    "*_je le téléphone_",
+    "*_je leurs parle_"
+   ],
+   "distractors": [
+    "COD / COI inversés",
+    "_leurs_ avec un _s_"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.28.a.001",
+   "los": "los.28.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu connais ce restaurant ? — Oui, je …… connais bien.",
+   "options": [
+    "lui",
+    "en",
+    "le"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _connaître_ est un verbe direct.",
+    "B": "Faux. _en_ remplace un nom introduit par _de_.",
+    "C": "Correct. _connaître qqch_ (direct), masculin → _le_."
+   }
+  },
+  {
+   "id": "q.28.a.002",
+   "los": "los.28.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu as vu mes lunettes ? — Non, je ne …… ai pas vues.",
+   "options": [
+    "les",
+    "leur",
+    "en"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. COD pluriel → _les_.",
+    "B": "Faux. _voir_ est un verbe direct.",
+    "C": "Faux. Les lunettes sont déterminées (_mes_) → _les_."
+   }
+  },
+  {
+   "id": "q.28.b.001",
+   "los": "los.28.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu as téléphoné à ta mère ? — Oui, je …… ai téléphoné hier.",
+   "options": [
+    "l'",
+    "lui",
+    "la"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _téléphoner_ est un verbe indirect.",
+    "B": "Correct. _téléphoner à qqn_ → _lui_.",
+    "C": "Faux. _téléphoner_ est un verbe indirect."
+   }
+  },
+  {
+   "id": "q.28.b.002",
+   "los": "los.28.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "J'ai écrit à mes cousins pour …… annoncer la nouvelle.",
+   "options": [
+    "les",
+    "leurs",
+    "leur"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On annonce quelque chose _à_ quelqu'un.",
+    "B": "Faux. Le pronom _leur_ est invariable.",
+    "C": "Correct. _annoncer qqch à qqn_ → _leur_ (pluriel)."
+   }
+  },
+  {
+   "id": "q.28.b.003",
+   "los": "los.28.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ton frère a besoin d'aide ? Je vais …… aider.",
+   "options": [
+    "l'",
+    "lui",
+    "y"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _aider qqn_ est un verbe direct.",
+    "B": "Faux. *_aider à qqn_ n'existe pas : _aider_ est direct.",
+    "C": "Faux. _y_ ne remplace pas une personne."
+   }
+  },
+  {
+   "id": "q.28.b.004",
+   "los": "los.28.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Les clients sont satisfaits ? — Oui, le nouveau service …… plaît beaucoup.",
+   "options": [
+    "les",
+    "leur",
+    "leurs"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _plaire_ se construit avec _à_.",
+    "B": "Correct. _plaire à qqn_ → _leur_.",
+    "C": "Faux. _leur_ pronom est invariable."
+   }
+  },
+  {
+   "id": "q.28.b.005",
+   "los": "los.28.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Mes collègues m'ont beaucoup aidé : je …… remercie.",
+   "options": [
+    "leur",
+    "lui",
+    "les"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _remercier_ est direct : _remercier qqn de qqch_.",
+    "B": "Faux. _mes collègues_ est pluriel, et le verbe est direct.",
+    "C": "Correct. _remercier qqn_ est un verbe direct."
+   }
+  },
+  {
+   "id": "q.28.a.003",
+   "los": "los.28.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Le directeur va démissionner ? Je ne …… savais pas !",
+   "options": [
+    "le",
+    "la",
+    "en"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _le_ neutre reprend une idée.",
+    "B": "Faux. _le_ neutre est masculin.",
+    "C": "Faux. _savoir qqch_ est direct."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.28.cod-coi",
+   "los": [
+    "los.28.b"
+   ],
+   "name": "Le / lui",
+   "front": "aider, appeler, remercier qqn ; téléphoner, répondre, parler à qqn ?",
+   "back": "directs → **le / la / les** ; indirects (_à_) → **lui / leur**.",
+   "common_mistake": "*_Je lui aide_ ; *_je leurs écris_."
+  }
+ ]
+}

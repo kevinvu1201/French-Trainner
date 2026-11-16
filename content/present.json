@@ -1,0 +1,628 @@
+{
+ "readings": [
+  {
+   "number": 16,
+   "title": "Les verbes en « -er » au présent",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les verbes en _-er_ représentent 90 % des verbes français. Leurs terminaisons sont régulières, mais l'orthographe du radical varie (_j'achète, j'appelle, nous mangeons, nous commençons_)."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 16 (p. 74)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Conjuguer les verbes en _-er_ au présent.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Appliquer les changements orthographiques (-ger, -cer, -yer, -eler, -eter, e/è, é/è).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Conjugaison, prononciation et orthographe",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "parler",
+           "",
+           "aimer",
+           ""
+          ],
+          [
+           "je parl**e**",
+           "nous parl**ons**",
+           "j'aim**e**",
+           "nous aim**ons**"
+          ],
+          [
+           "tu parl**es**",
+           "vous parl**ez**",
+           "tu aim**es**",
+           "vous aim**ez**"
+          ],
+          [
+           "il parl**e**",
+           "ils parl**ent**",
+           "il aim**e**",
+           "ils aim**ent**"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "_-e, -es, -e, -ent_ ne se prononcent pas : _je parle, tu parles, il parle, ils parlent_ se disent de la même façon."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**-ger** : _nous mang**e**ons_ (le _e_ garde le son [ʒ]). **-cer** : _nous commen**ç**ons_.",
+          "**-yer** : _y → i_ devant un _e_ muet : _je paie, j'envoie, il nettoie_ (mais _nous payons_).",
+          "**e → è** (_acheter, lever, peser_) : _j'ach**è**te, nous achetons_. **é → è** (_préférer, espérer, répéter_) : _je préf**è**re, nous préférons_.",
+          "**-eler / -eter** : consonne doublée devant _e_ muet : _j'appe**ll**e, je je**tt**e_ (mais _nous appelons, nous jetons_)."
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Les changements ne touchent que les personnes où la terminaison est muette : _je, tu, il, ils_. _Nous_ et _vous_ gardent le radical de l'infinitif."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 23,
+   "title": "Le verbe « aller »",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "_Aller_ est irrégulier et très fréquent : déplacement, futur proche (_je vais partir_), santé (_ça va_). Les prépositions de transport (_en train, à pied_) l'accompagnent souvent."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 23 (p. 102)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Conjuguer _aller_ et l'employer avec un lieu (_aller à, en, chez_).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Choisir _en_ ou _à_ devant un moyen de transport.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "« Aller » et les moyens de transport",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "je vais",
+           "tu vas",
+           "il / elle va",
+           "nous allons",
+           "vous allez",
+           "ils / elles vont"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "_aller **à** la gare, **au** marché, **en** Italie, **chez** le coiffeur_. Pour remplacer le lieu : _J'**y** vais_ (voir chapitre 24)."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**en** quand on est **dans** le véhicule : _en train, en voiture, en bus, en avion, en métro, en bateau, en taxi_.",
+          "**à** quand on est **sur** le moyen de transport ou à pied : _à pied, à vélo, à moto, à cheval, à trottinette_."
+         ]
+        },
+        {
+         "t": "note",
+         "md": "On entend _en vélo_ à l'oral, mais _à vélo_ reste la forme recommandée à l'écrit."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "Les verbes en « -ir », « -oir » et « -re » au présent",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les verbes du « 3e groupe » sont les plus fréquents et les plus irréguliers : _prendre, faire, pouvoir, devoir, savoir, vouloir, venir_. Leur présent sert aussi de base au subjonctif et à l'imparfait."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 26 (p. 108)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Conjuguer les verbes à un, deux ou trois radicaux (finir, partir, boire, prendre, venir…).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Conjuguer les irréguliers fréquents (faire, mettre, pouvoir, devoir, vouloir, savoir, falloir).",
+     "module": 2
+    },
+    {
+     "letter": "c",
+     "text": "Choisir entre _savoir_ et _connaître_.",
+     "module": 2
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Les verbes à plusieurs radicaux",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Type",
+           "je / il",
+           "nous",
+           "ils"
+          ],
+          [
+           "finir (2 radicaux)",
+           "je fini**s**, il fini**t**",
+           "nous fin**iss**ons",
+           "ils fin**iss**ent"
+          ],
+          [
+           "partir, dormir, sortir",
+           "je par**s**, il par**t**",
+           "nous par**t**ons",
+           "ils par**t**ent"
+          ],
+          [
+           "écrire, lire, dire",
+           "j'écri**s**",
+           "nous écri**v**ons",
+           "ils écri**v**ent"
+          ],
+          [
+           "prendre (3 radicaux)",
+           "je prend**s**, il prend",
+           "nous pre**n**ons",
+           "ils pre**nn**ent"
+          ],
+          [
+           "venir, tenir",
+           "je vien**s**",
+           "nous ven**ons**",
+           "ils vie**nn**ent"
+          ],
+          [
+           "boire",
+           "je boi**s**",
+           "nous bu**v**ons",
+           "ils boi**v**ent"
+          ],
+          [
+           "recevoir, devoir",
+           "je reçoi**s**, je doi**s**",
+           "nous recev**ons**, nous dev**ons**",
+           "ils reçoi**v**ent, ils doi**v**ent"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Les verbes en _-dre_ gardent le _d_ : _il prend, il répond, il attend_ (pas de _t_). Mais _peindre, craindre_ : _il peint, il craint_."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 2,
+     "title": "Les irréguliers fréquents, « savoir » et « connaître »",
+     "sections": [
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Verbe",
+           "je",
+           "nous",
+           "vous",
+           "ils"
+          ],
+          [
+           "faire",
+           "fais",
+           "faisons",
+           "**faites**",
+           "**font**"
+          ],
+          [
+           "mettre",
+           "mets",
+           "mettons",
+           "mettez",
+           "mettent"
+          ],
+          [
+           "pouvoir",
+           "**peux**",
+           "pouvons",
+           "pouvez",
+           "**peuvent**"
+          ],
+          [
+           "vouloir",
+           "**veux**",
+           "voulons",
+           "voulez",
+           "**veulent**"
+          ],
+          [
+           "devoir",
+           "dois",
+           "devons",
+           "devez",
+           "doivent"
+          ],
+          [
+           "savoir",
+           "sais",
+           "savons",
+           "savez",
+           "savent"
+          ],
+          [
+           "dire",
+           "dis",
+           "disons",
+           "**dites**",
+           "disent"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Falloir** (seulement _il_) : _il **faut**_ + infinitif ou nom : _Il faut partir. Il faut du courage._"
+        },
+        {
+         "t": "note",
+         "md": "_Vous **faites**, vous **dites**, vous **êtes**_ : trois exceptions en _-tes_ (jamais *_vous faisez_, *_vous disez_)."
+        }
+       ]
+      },
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**savoir** + infinitif, _que_, _si_, une question indirecte, ou une information apprise : _Je **sais** nager. Je **sais qu'**il est parti. Tu **sais** la réponse ?_",
+          "**connaître** + nom de personne, de lieu, d'œuvre (une familiarité) : _Je **connais** Paul, Lyon, ce livre._"
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 27,
+   "title": "Les verbes pronominaux",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les verbes pronominaux (_se lever, se souvenir, s'intéresser à_) s'emploient avec un pronom de la même personne que le sujet. Ils sont nombreux dans les textes argumentatifs : _s'engager, se mobiliser, se rendre compte_."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 27 (p. 122)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Conjuguer un verbe pronominal (réfléchi, réciproque) au présent et à l'infinitif.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer les verbes toujours pronominaux et le sens passif (_ça se vend bien_).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Pronoms réfléchis, réciproques et constructions pronominales",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "je **me** lève",
+           "tu **te** lèves",
+           "il **se** lève",
+           "nous **nous** levons",
+           "vous **vous** levez",
+           "ils **se** lèvent"
+          ]
+         ]
+        },
+        {
+         "t": "ul",
+         "items": [
+          "**Réfléchi** : l'action revient sur le sujet : _Je **me** lave._",
+          "**Réciproque** (pluriel) : action mutuelle : _Ils **s'**aiment. Nous **nous** écrivons._",
+          "À l'**infinitif**, le pronom s'accorde avec le sujet : _Je vais **me** coucher. Nous devons **nous** dépêcher._"
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Négation** : _Je **ne me** lève **pas** tôt._"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**Toujours pronominaux** : _se souvenir de, s'en aller, se méfier de, s'évanouir, se moquer de, s'enfuir_.",
+          "**Sens différent** : _rendre / **se rendre compte**, douter / **se douter**, attendre / **s'attendre à**, passer / **se passer**_ (= avoir lieu).",
+          "**Sens passif** : _Ce livre **se vend** bien. Le vin blanc **se boit** frais. Ça **ne se fait pas**._"
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 37,
+   "title": "Les prépositions et les verbes",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Beaucoup de verbes se construisent avec **à** ou **de** devant un nom ou un infinitif : _penser à, parler de, commencer à, décider de_. Ces constructions sont à mémoriser ; elles déterminent aussi les pronoms (_y, en, lui_)."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 37 (p. 160)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Construire les verbes avec _à_ + nom et _de_ + nom.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Construire les verbes avec _à_ + infinitif et _de_ + infinitif.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Les prépositions « à » et « de »",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Verbe + à + nom",
+           "Verbe + de + nom"
+          ],
+          [
+           "penser **à**, s'intéresser **à**, participer **à**",
+           "parler **de**, avoir besoin **de**, se souvenir **de**"
+          ],
+          [
+           "répondre **à**, téléphoner **à**, obéir **à**",
+           "s'occuper **de**, profiter **de**, dépendre **de**"
+          ],
+          [
+           "ressembler **à**, faire confiance **à**",
+           "se servir **de**, se méfier **de**, manquer **de**"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Double construction : _demander / dire / conseiller / promettre **quelque chose à quelqu'un**_ ; _remercier / féliciter **quelqu'un de** quelque chose_."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Verbe + à + infinitif",
+           "Verbe + de + infinitif"
+          ],
+          [
+           "commencer **à**, continuer **à**, apprendre **à**",
+           "décider **de**, essayer **de**, finir **de**, arrêter **de**"
+          ],
+          [
+           "réussir **à**, arriver **à**, hésiter **à**",
+           "accepter **de**, refuser **de**, oublier **de**, éviter **de**"
+          ],
+          [
+           "s'habituer **à**, chercher **à**, tenir **à**",
+           "conseiller **à** qqn **de**, demander **à** qqn **de**, permettre **à** qqn **de**"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Sans préposition : _aimer, préférer, vouloir, pouvoir, devoir, savoir, espérer, aller, venir_ + infinitif : _J'espère **réussir**._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 38,
+   "title": "Les verbes de déplacement",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "_Aller, venir, partir, sortir, rentrer, retourner, revenir_ : ces verbes ne sont pas synonymes. Les distinguer précisément évite des contresens."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 38 (p. 164)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Distinguer _aller / venir, partir / sortir, rentrer / revenir / retourner_.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer _visiter_ (un lieu) et _aller voir / rendre visite à_ (une personne).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "« Aller », « venir », « partir » et les autres",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**aller** : vers un lieu où l'on n'est pas ; **venir** : vers le lieu où se trouve la personne qui parle ou à qui l'on parle : _Tu **viens** chez moi ce soir ?_",
+          "**partir** (de) : quitter un lieu, souvent pour longtemps ; **sortir** (de) : aller à l'extérieur d'un lieu fermé, ou se divertir le soir.",
+          "**rentrer** : retourner chez soi ; **revenir** : venir de nouveau là où l'on est ; **retourner** : aller de nouveau là où l'on était."
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**visiter** + un lieu : _visiter un musée, une ville_.",
+          "**aller voir** / **rendre visite à** + une personne : _Je **rends visite à** ma grand-mère._ (jamais *_visiter ma grand-mère_)."
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

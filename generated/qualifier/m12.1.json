@@ -1,0 +1,224 @@
+{
+ "module": "m12.1",
+ "source_hash": "e76023d45386",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "L'adjectif se place normalement après le nom en français."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Une quinzaine d'adjectifs courts et fréquents se placent avant ; _beau, nouveau, vieux_ deviennent _bel, nouvel, vieil_ devant voyelle."
+   },
+   {
+    "stage": "result",
+    "md": "Certains adjectifs changent de sens selon leur place : avant = sens figuré ou subjectif, après = sens propre."
+   }
+  ],
+  "why_it_matters": "Bien placer l'adjectif (et jouer sur _ancien, propre, dernier_) montre une maîtrise fine que les correcteurs valorisent.",
+  "exam_approach": {
+   "look_first": [
+    "la longueur et le type d'adjectif",
+    "la première lettre du nom (voyelle ?)",
+    "le sens voulu (propre ou figuré)"
+   ],
+   "traps": [
+    "*_un nouveau appartement_",
+    "*_une rouge voiture_",
+    "_la semaine dernière_ / _la dernière semaine_"
+   ],
+   "distractors": [
+    "l'adjectif mal placé",
+    "_beau_ au lieu de _bel_ devant voyelle",
+    "le sens de l'autre place"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.12.a.001",
+   "los": "los.12.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ils ont acheté …… dans le centre-ville.",
+   "options": [
+    "un appartement petit",
+    "un petit appartement",
+    "un petit appartements"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _petit_ se place normalement avant le nom.",
+    "B": "Correct. _petit_ se place avant le nom.",
+    "C": "Faux. _appartement_ est au singulier."
+   }
+  },
+  {
+   "id": "q.12.a.002",
+   "los": "los.12.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Nous avons loué …… pour le week-end.",
+   "options": [
+    "une électrique voiture",
+    "une électrique",
+    "une voiture électrique"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _électrique_ se place après le nom.",
+    "B": "Faux. Il manque le nom.",
+    "C": "Correct. Adjectif de type, long → après le nom."
+   }
+  },
+  {
+   "id": "q.12.a.003",
+   "los": "los.12.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Le quartier compte …… maisons du XVIIIe siècle.",
+   "options": [
+    "de belles",
+    "des belles",
+    "de beaux"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Adjectif pluriel avant le nom → _de_.",
+    "B": "Faux. À l'écrit soigné, _des_ devient _de_ devant un adjectif antéposé.",
+    "C": "Faux. _maison_ est féminin."
+   }
+  },
+  {
+   "id": "q.12.b.001",
+   "los": "los.12.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il vient de trouver un …… emploi dans une start-up.",
+   "options": [
+    "nouveau",
+    "nouvelle",
+    "nouvel"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Devant une voyelle, _nouveau_ devient _nouvel_.",
+    "B": "Faux. _emploi_ est masculin.",
+    "C": "Correct. Devant voyelle → _nouvel_."
+   }
+  },
+  {
+   "id": "q.12.b.002",
+   "los": "los.12.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Un …… homme attendait sur le quai.",
+   "options": [
+    "vieil",
+    "vieux",
+    "vieille"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Devant _h_ muet → _vieil_.",
+    "B": "Faux. Devant voyelle ou _h_ muet → _vieil_.",
+    "C": "Faux. _homme_ est masculin."
+   }
+  },
+  {
+   "id": "q.12.b.003",
+   "los": "los.12.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Victor Hugo est …… : tout le monde le connaît.",
+   "options": [
+    "un homme grand",
+    "un grand homme",
+    "un homme grandi"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Après le nom, _grand_ = de grande taille.",
+    "B": "Correct. Avant le nom, _grand_ = célèbre, important.",
+    "C": "Faux. Ce n'est pas le sens voulu."
+   }
+  },
+  {
+   "id": "q.12.b.004",
+   "los": "los.12.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Je n'ai plus de colocataire : j'ai enfin …….",
+   "options": [
+    "mon appartement propre",
+    "mon appartement seul",
+    "mon propre appartement"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Après le nom, _propre_ = pas sale.",
+    "B": "Faux. _seul_ après le nom = isolé.",
+    "C": "Correct. Avant le nom, _propre_ = à moi."
+   }
+  },
+  {
+   "id": "q.12.b.005",
+   "los": "los.12.b",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Je l'ai vu …… (il y a sept jours).",
+   "options": [
+    "la semaine dernière",
+    "la dernière semaine",
+    "la semaine prochaine"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Après le nom, _dernière_ = passée, précédente.",
+    "B": "Faux. Avant le nom = la dernière d'une série (_la dernière semaine de juin_).",
+    "C": "Faux. C'est le futur."
+   }
+  },
+  {
+   "id": "q.12.b.006",
+   "los": "los.12.b",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Paul est un …… du lycée Victor-Duruy.",
+   "options": [
+    "élève ancien",
+    "ancien élève",
+    "vieil élève"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Après le nom, _ancien_ = vieux.",
+    "B": "Correct. Avant le nom, _ancien_ = qui l'était avant.",
+    "C": "Faux. _vieil_ = âgé, pas _qui l'était autrefois_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.12.bel-nouvel",
+   "los": [
+    "los.12.b"
+   ],
+   "name": "Bel, nouvel, vieil",
+   "front": "Beau, nouveau, vieux devant un nom masculin à voyelle ?",
+   "back": "**bel, nouvel, vieil** : _un bel arbre, un nouvel ami, un vieil homme_."
+  },
+  {
+   "id": "f.12.sens-place",
+   "los": [
+    "los.12.b"
+   ],
+   "name": "Adjectifs à double sens",
+   "front": "grand / ancien / propre / dernier avant et après le nom ?",
+   "back": "Avant : sens figuré (_un grand homme, mon ancien patron, ma propre voiture, la dernière fois_). Après : sens propre (_un homme grand, un meuble ancien, une voiture propre, l'an dernier_)."
+  }
+ ]
+}

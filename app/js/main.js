@@ -5,7 +5,7 @@ import { startAutoSync } from "./core/sync.js";
 import { html, render, useEffect, useState } from "./lib.js";
 import { Celebrations } from "./game-ui.js";
 import { LookupLayer } from "./lookup.js";
-import { ErrorBox, Icon } from "./ui.js";
+import { ErrorBox, Icon, setLabel } from "./ui.js";
 import { Home } from "./views/home.js";
 import { ModuleView } from "./views/module.js";
 import { Topic, Topics } from "./views/study.js";
@@ -66,7 +66,7 @@ function view(route) {
       if (mode === "mock") return { title: "Examen blanc", ...back, body: html`<${Mock} />` };
       if (mode === "smart") return { title: "Séance intelligente", ...back, body: html`<${SmartSession} minutes=${topic ?? "30"} />` };
       if (mode === "drill" && topic) return { title: "Entraînement", ...back, body: html`<${Drill} topic=${topic} module=${module} />` };
-      if (mode === "set" && topic) return { title: topicInfo(topic)?.counts.audio_sets ? "Écoute" : "Texte à trous", ...back,
+      if (mode === "set" && topic) return { title: setLabel(topicInfo(topic)).one, ...back,
                                             body: html`<${ItemSet} key=${module ?? topic} topic=${topic} module=${module} />` };
       if (mode === "cards" && topic) return { title: "Cartes", ...back, body: html`<${Cards} topic=${topic} />` };
       return { title: "Exercices", body: html`<${PracticeHome} />` };

@@ -1,0 +1,159 @@
+{
+ "module": "m26.1",
+ "source_hash": "d33a11932c60",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Les verbes du 3e groupe ont souvent deux ou trois radicaux selon la personne."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_je, tu, il_ ont un radical court ; _nous, vous_ celui de l'infinitif ; _ils_ souvent un troisième (_prennent, viennent, boivent_)."
+   },
+   {
+    "stage": "result",
+    "md": "Connaître la forme de _nous_ et de _ils_ permet de retrouver l'imparfait et le subjonctif."
+   }
+  ],
+  "why_it_matters": "Ces verbes sont les plus employés de la langue : une forme fausse se remarque immédiatement.",
+  "exam_approach": {
+   "look_first": [
+    "la personne",
+    "le groupe du verbe (-ir type finir ou type partir, -dre…)"
+   ],
+   "traps": [
+    "*_ils prendent_",
+    "*_nous finons_",
+    "*_ils venent_"
+   ],
+   "distractors": [
+    "le radical d'une autre personne",
+    "une forme régularisée"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.26.a.001",
+   "los": "los.26.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Les cours …… à 17 heures.",
+   "options": [
+    "finent",
+    "finissent",
+    "finisent"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _finir_ prend _-iss-_ au pluriel.",
+    "B": "Correct. _finir_ : _ils finissent_.",
+    "C": "Faux. Il faut deux _s_."
+   }
+  },
+  {
+   "id": "q.26.a.002",
+   "los": "los.26.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Mes voisins …… en vacances demain.",
+   "options": [
+    "partissent",
+    "parts",
+    "partent"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _partir_ ne prend pas _-iss-_.",
+    "B": "Faux. _parts_ n'est pas une forme verbale.",
+    "C": "Correct. _partir_ : _ils partent_."
+   }
+  },
+  {
+   "id": "q.26.a.003",
+   "los": "los.26.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Les étudiants …… le bus pour aller à la fac.",
+   "options": [
+    "prendent",
+    "prennent",
+    "prenent"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le radical de _ils_ est _prenn-_.",
+    "B": "Correct. _prendre_ : _ils prennent_.",
+    "C": "Faux. Il faut deux _n_."
+   }
+  },
+  {
+   "id": "q.26.a.004",
+   "los": "los.26.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Mes parents …… nous voir dimanche.",
+   "options": [
+    "venent",
+    "venissent",
+    "viennent"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le radical de _ils_ est _vienn-_.",
+    "B": "Faux. _venir_ ne prend pas _-iss-_.",
+    "C": "Correct. _venir_ : _ils viennent_."
+   }
+  },
+  {
+   "id": "q.26.a.005",
+   "los": "los.26.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Nous …… beaucoup de thé en hiver.",
+   "options": [
+    "buvons",
+    "boivons",
+    "boisons"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _boire_ : _nous buvons_.",
+    "B": "Faux. _boiv-_ ne sert que pour _ils_.",
+    "C": "Faux. Le radical de _nous_ est _buv-_."
+   }
+  },
+  {
+   "id": "q.26.a.006",
+   "los": "los.26.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Il …… toujours à mes messages dans l'heure.",
+   "options": [
+    "répond",
+    "répont",
+    "réponde"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Verbe en _-dre_ : _il répond_ (sans _t_).",
+    "B": "Faux. Les verbes en _-dre_ gardent le _d_.",
+    "C": "Faux. C'est le subjonctif."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.26.trois-radicaux",
+   "los": [
+    "los.26.a"
+   ],
+   "name": "Prendre, venir, boire",
+   "front": "ils (prendre, venir, boire) ?",
+   "back": "ils **prennent**, ils **viennent**, ils **boivent** ; nous prenons, venons, buvons."
+  }
+ ]
+}

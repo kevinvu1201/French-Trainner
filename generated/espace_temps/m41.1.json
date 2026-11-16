@@ -1,0 +1,288 @@
+{
+ "module": "m41.1",
+ "source_hash": "0f53b23eeaef",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Un récit suppose un ordre des actions et un moment de référence."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Les connecteurs (_d'abord, ensuite_) et les infinitives (_avant de, après avoir_) ordonnent ; _la veille, le lendemain_ situent par rapport à un moment passé."
+   },
+   {
+    "stage": "result",
+    "md": "_Après_ + infinitif **passé** ; _avant de_ + infinitif présent ; _avant que_ + subjonctif mais _après que_ + indicatif."
+   }
+  ],
+  "why_it_matters": "La cohérence chronologique est un critère explicite de la grille de production écrite du DELF.",
+  "exam_approach": {
+   "look_first": [
+    "même sujet ou sujets différents ?",
+    "un moment de référence passé"
+   ],
+   "traps": [
+    "*_après manger_",
+    "*_après qu'il soit parti_ (subjonctif)",
+    "_demain_ dans un récit passé"
+   ],
+   "distractors": [
+    "l'infinitif présent après _après_",
+    "_hier / demain_ au lieu de _la veille / le lendemain_"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.41.a.001",
+   "los": "los.41.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Quand je suis arrivé, elle m'attendait …… une demi-heure.",
+   "options": [
+    "pendant",
+    "il y a",
+    "depuis"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _pendant_ indique une durée terminée.",
+    "B": "Faux. _il y a_ indique un moment, pas une durée en cours.",
+    "C": "Correct. Action en cours au passé → _depuis_ + imparfait."
+   }
+  },
+  {
+   "id": "q.41.a.002",
+   "los": "los.41.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "…… elle fait du yoga, elle dort beaucoup mieux.",
+   "options": [
+    "Depuis qu'",
+    "Depuis",
+    "Il y a qu'"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _depuis que_ + proposition au présent.",
+    "B": "Faux. Devant une proposition (sujet + verbe), il faut _depuis que_.",
+    "C": "Faux. Cette structure n'existe pas."
+   }
+  },
+  {
+   "id": "q.41.b.001",
+   "los": "los.41.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Relisez votre texte avant …… le rendre.",
+   "options": [
+    "que",
+    "à",
+    "de"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _avant que_ demande un sujet et un verbe conjugué.",
+    "B": "Faux. La locution est _avant de_.",
+    "C": "Correct. _avant de_ + infinitif."
+   }
+  },
+  {
+   "id": "q.41.b.002",
+   "los": "los.41.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Après …… ses études, il est parti travailler au Canada.",
+   "options": [
+    "avoir terminé",
+    "terminer",
+    "avoir terminer"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _après_ + infinitif passé.",
+    "B": "Faux. Après _après_, l'infinitif doit être au passé.",
+    "C": "Faux. Le participe passé est _terminé_."
+   }
+  },
+  {
+   "id": "q.41.b.003",
+   "los": "los.41.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Après …… à l'hôtel, nous sommes allés dîner.",
+   "options": [
+    "avoir arrivé",
+    "être arrivés",
+    "arriver"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _arriver_ se conjugue avec _être_.",
+    "B": "Correct. Infinitif passé avec _être_ (_arriver_), accordé avec _nous_.",
+    "C": "Faux. Il faut l'infinitif passé."
+   }
+  },
+  {
+   "id": "q.41.b.004",
+   "los": "los.41.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Après que tout le monde ……, la réunion a commencé.",
+   "options": [
+    "est arrivé",
+    "soit arrivé",
+    "arrive"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _après que_ + indicatif.",
+    "B": "Faux. _après que_ est suivi de l'indicatif (fait accompli).",
+    "C": "Faux. La concordance demande un temps accompli."
+   }
+  },
+  {
+   "id": "q.41.c.001",
+   "los": "los.41.c",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "Il est arrivé le 3 mai et il est reparti ……, le 4.",
+   "options": [
+    "demain",
+    "le lendemain",
+    "la veille"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _demain_ se réfère à aujourd'hui, pas à un moment passé.",
+    "B": "Correct. Le jour suivant un moment passé → _le lendemain_.",
+    "C": "Faux. _la veille_ = le jour précédent."
+   }
+  },
+  {
+   "id": "q.41.c.002",
+   "los": "los.41.c",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "Elle s'est mariée le 10 juin ; ……, elle avait fait une grande fête avec ses amies.",
+   "options": [
+    "hier",
+    "le lendemain",
+    "la veille"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _hier_ se réfère à aujourd'hui.",
+    "B": "Faux. La fête précède le mariage (_avait fait_).",
+    "C": "Correct. Le jour précédent un moment passé → _la veille_."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m41.1.01",
+   "modules": [
+    "m41.1"
+   ],
+   "title": "Un premier jour de stage",
+   "vignette": "Inès raconte :\n\n« **(1)** …… arriver au bureau, j'avais relu toutes mes notes. **(2)** …… avoir rencontré l'équipe, j'ai reçu mon ordinateur. J'étais très stressée : **(3)** ……, j'avais à peine dormi. Mais tout s'est bien passé, et **(4)** ……, ma tutrice m'a confié mon premier dossier. »",
+   "questions": [
+    {
+     "id": "set.m41.1.01.q1",
+     "los": "los.41.b",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "Après",
+      "Avant d'",
+      "Avant que d'"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. La relecture précède l'arrivée (_j'avais relu_).",
+      "B": "Correct. _avant de_ + infinitif présent (même sujet).",
+      "C": "Faux. _avant que_ demande un verbe conjugué."
+     }
+    },
+    {
+     "id": "set.m41.1.01.q2",
+     "los": "los.41.b",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "Avant de",
+      "Depuis",
+      "Après"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _avant de_ est suivi de l'infinitif présent.",
+      "B": "Faux. _depuis_ ne se construit pas avec l'infinitif.",
+      "C": "Correct. _après_ + infinitif passé (_avoir rencontré_)."
+     }
+    },
+    {
+     "id": "set.m41.1.01.q3",
+     "los": "los.41.c",
+     "difficulty": 2,
+     "qtype": "vocabulary",
+     "stem": "Blanc (3) :",
+     "options": [
+      "la veille",
+      "hier",
+      "le lendemain"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. La nuit précédant ce jour-là.",
+      "B": "Faux. Le récit est au passé : _hier_ ne convient pas.",
+      "C": "Faux. L'insomnie précède le premier jour."
+     }
+    },
+    {
+     "id": "set.m41.1.01.q4",
+     "los": "los.41.c",
+     "difficulty": 2,
+     "qtype": "vocabulary",
+     "stem": "Blanc (4) :",
+     "options": [
+      "le lendemain",
+      "demain",
+      "la veille"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Le jour suivant, dans un récit passé.",
+      "B": "Faux. _demain_ se réfère au présent.",
+      "C": "Faux. Le dossier arrive après le premier jour."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.41.veille",
+   "los": [
+    "los.41.c"
+   ],
+   "name": "La veille / le lendemain",
+   "front": "Hier / demain dans un récit passé ?",
+   "back": "**la veille** / **le lendemain** ; _aujourd'hui → ce jour-là_."
+  },
+  {
+   "id": "f.41.apres-avoir",
+   "los": [
+    "los.41.b"
+   ],
+   "name": "Avant de / après avoir",
+   "front": "Avant de … / après … + ?",
+   "back": "**avant de** + infinitif présent ; **après** + infinitif **passé** (_après avoir mangé, après être parti_).",
+   "common_mistake": "*_après manger_."
+  }
+ ]
+}

@@ -70,6 +70,19 @@ def L(title, context, audio, plays, transcript, questions):
     return dict(title=title, vignette=context, audio=audio, plays=plays, transcript=transcript, questions=questions)
 
 
+def RQ(los, stem, options, answer, why, diff=2):
+    """A reading question as printed in the book (options in book order) or an attribution question
+    (options = the three people). `why` gives one reason per option."""
+    assert len(options) == 3 and len(why) == 3 and answer in LETTERS, stem
+    return dict(los=los, stem=stem, options=list(options), answer=answer, why=list(why), diff=diff)
+
+
+def T(title, text, questions, source=None):
+    """A reading-comprehension set: the text (Markdown, paragraphs split by blank lines) and its questions."""
+    assert 1 <= len(questions) <= 12, title
+    return dict(title=title, vignette=text, reading=True, source=source, questions=questions)
+
+
 def R(slug, los, name, front, back, examples=(), mistake=None):
     return dict(slug=slug, los=[los] if isinstance(los, str) else list(los), name=name, front=front,
                 back=back, examples=list(examples), mistake=mistake)
@@ -114,6 +127,12 @@ class Chapter:
             if "audio" in s:
                 item.update(audio=s["audio"], plays=s["plays"], transcript=s["transcript"])
                 item["questions"] = [_listening_q(q, self.los_id(q["los"]), f"{sid}.q{k}") for k, q in enumerate(s["questions"], 1)]
+            elif s.get("reading"):
+                item["reading"] = True
+                if s.get("source"):
+                    item["source"] = s["source"]
+                item["questions"] = [_listening_q(q, self.los_id(q["los"]), f"{sid}.q{k}", "reading", q.get("diff", 2))
+                                     for k, q in enumerate(s["questions"], 1)]
             else:
                 item["questions"] = [self.book.build_q(q, self.los_id(q["los"]), f"{sid}.q{k}") for k, q in enumerate(s["questions"], 1)]
             doc["item_sets"].append(item)
@@ -141,10 +160,10 @@ class Chapter:
                 "key_concepts": self.key_concepts, "modules": self.modules}
 
 
-def _listening_q(q: dict, los_id: str, qid: str) -> dict:
+def _listening_q(q: dict, los_id: str, qid: str, qtype: str = "listening", diff: int = 2) -> dict:
     """Book order is kept (so the app matches the printed page), unlike generated questions."""
     return {
-        "id": qid, "los": los_id, "difficulty": 2, "qtype": "listening", "stem": q["stem"],
+        "id": qid, "los": los_id, "difficulty": diff, "qtype": qtype, "stem": q["stem"],
         "options": q["options"], "answer": q["answer"],
         "explanations": {l: ("Correct. " if l == q["answer"] else "Faux. ") + w for l, w in zip(LETTERS, q["why"])},
     }

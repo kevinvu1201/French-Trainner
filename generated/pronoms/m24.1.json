@@ -1,0 +1,178 @@
+{
+ "module": "m24.1",
+ "source_hash": "caa510ac9a15",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "_Y_ reprend un lieu ou un complément introduit par _à_."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Lieu ou chose → _y_ devant le verbe ; personne → _lui / leur_ ou _à lui / à elle_ selon le verbe."
+   },
+   {
+    "stage": "result",
+    "md": "L'origine (_de_) passe par _en_, pas par _y_."
+   }
+  ],
+  "why_it_matters": "_J'y pense, j'y tiens, je m'y oppose_ : expressions fréquentes du débat oral au DELF.",
+  "exam_approach": {
+   "look_first": [
+    "un lieu ou _à_ + chose ?",
+    "une personne ?",
+    "la préposition du verbe (_à_ ou _de_)"
+   ],
+   "traps": [
+    "*_j'y pense_ pour une personne",
+    "_y_ pour un lieu d'origine",
+    "*_je lui pense_"
+   ],
+   "distractors": [
+    "_en_ à la place de _y_",
+    "_lui_ pour une chose"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.24.a.001",
+   "los": "los.24.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu vas souvent à la piscine ? — Oui, j'…… vais le mardi.",
+   "options": [
+    "en",
+    "y",
+    "la"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _en_ remplace un lieu d'origine (_de_).",
+    "B": "Correct. Lieu → _y_.",
+    "C": "Faux. _aller_ ne se construit pas avec un COD."
+   }
+  },
+  {
+   "id": "q.24.a.002",
+   "los": "los.24.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Vous habitez toujours à Bordeaux ? — Oui, nous …… habitons depuis dix ans.",
+   "options": [
+    "en",
+    "le",
+    "y"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. On reste dans le lieu : _y_.",
+    "B": "Faux. _habiter à_ + lieu → _y_.",
+    "C": "Correct. Lieu → _y_."
+   }
+  },
+  {
+   "id": "q.24.a.003",
+   "los": "los.24.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Tu reviens de la plage ? — Oui, j'…… reviens à l'instant.",
+   "options": [
+    "en",
+    "y",
+    "la"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Lieu d'origine (_de_) → _en_.",
+    "B": "Faux. _y_ remplace un lieu où l'on va ou où l'on est.",
+    "C": "Faux. _revenir_ ne prend pas de COD."
+   }
+  },
+  {
+   "id": "q.24.b.001",
+   "los": "los.24.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu penses à ton entretien de demain ? — Oui, j'…… pense sans arrêt.",
+   "options": [
+    "en",
+    "y",
+    "lui"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _penser_ se construit avec _à_, pas _de_.",
+    "B": "Correct. _penser à_ + chose → _y_.",
+    "C": "Faux. _lui_ remplace une personne."
+   }
+  },
+  {
+   "id": "q.24.b.002",
+   "los": "los.24.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Tu as répondu à ta directrice ? — Oui, je …… ai répondu hier.",
+   "options": [
+    "y",
+    "lui",
+    "l'"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _y_ ne remplace pas une personne.",
+    "B": "Correct. _répondre à_ + personne → _lui_.",
+    "C": "Faux. _répondre_ se construit avec _à_ : COI."
+   }
+  },
+  {
+   "id": "q.24.b.003",
+   "los": "los.24.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Tu penses souvent à ta grand-mère ? — Oui, je pense souvent …….",
+   "options": [
+    "à elle",
+    "lui",
+    "y"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _penser à_ + personne → _à elle_.",
+    "B": "Faux. Avec _penser à_, on ne dit pas *_je lui pense_.",
+    "C": "Faux. _y_ ne remplace pas une personne."
+   }
+  },
+  {
+   "id": "q.24.b.004",
+   "los": "los.24.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ils participeront au débat ? — Non, ils n'…… participeront pas.",
+   "options": [
+    "en",
+    "le",
+    "y"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _participer_ se construit avec _à_.",
+    "B": "Faux. _participer_ n'a pas de COD.",
+    "C": "Correct. _participer à_ + chose → _y_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.24.y-lui",
+   "los": [
+    "los.24.b"
+   ],
+   "name": "Y / lui / à lui",
+   "front": "penser à son examen / répondre à sa mère / penser à sa mère ?",
+   "back": "j'**y** pense ; je **lui** réponds ; je pense **à elle**."
+  }
+ ]
+}
