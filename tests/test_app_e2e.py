@@ -832,3 +832,28 @@ def test_flux_scroll_feed_and_swipe_deck(real_site, browser):
     home = browser.eval("({ go: document.querySelector('.go-btn').getAttribute('href'), quests: document.querySelectorAll('.quest').length })", False)
     assert home == {"go": "#/flux", "quests": 3}
     assert not browser.console, browser.console
+
+
+BAR_JS = "[...document.querySelectorAll('.lesson-bar strong')].map((e) => e.innerText.trim())"
+
+
+@pytest.mark.skipif(not (REPO / "generated").exists(), reason="real content not present")
+def test_finishing_a_lesson_fills_the_progress_bars(real_site, browser):
+    browser.goto("about:blank")
+    browser.goto(real_site + "#/m/m51.1", wait_for="document.querySelector('.module-actions .lesson-bar')")
+    before = browser.eval(BAR_JS, False)
+    assert before[0].startswith("0 / ") and before[1].startswith("0 / ")  # this topic, then the whole course
+    browser.eval("[...document.querySelectorAll('.module-actions .btn')].find((b) => b.innerText.includes('Marquer comme terminé')).click()", False)
+    browser.wait("document.querySelector('.module-actions').innerText.includes('Terminé le')")
+    after = browser.eval(BAR_JS, False)
+    assert after[0].startswith("1 / ") and after[1].startswith("1 / ")
+    width = browser.eval("document.querySelector('.module-actions .lesson-bar .progress > span').style.width", False)
+    assert width != "0%"
+    # The topic page and the course list show the same count, and the lesson is ticked
+    browser.goto(real_site + "#/study/subjonctif", wait_for="document.querySelector('.lesson-bar')")
+    assert browser.eval(BAR_JS, False)[0] == after[0]
+    assert browser.eval("document.querySelectorAll('.done-chip').length", False) == 1
+    browser.goto(real_site + "#/study", wait_for="document.querySelectorAll('.lesson-bar').length > 2")
+    bars = browser.eval(BAR_JS, False)
+    assert bars[0] == after[1] and after[0] in bars[1:]
+    assert not browser.console, browser.console

@@ -169,6 +169,17 @@ export function FormulaCards({ formulas }) {
   </details>`;
 }
 
+/** "Leçons terminées 3 / 12" with a bar; turns green when everything is done. */
+export function LessonBar({ done, total, label = "Leçons terminées", big = false }) {
+  if (!total) return null;
+  const full = done >= total;
+  return html`<div class=${`lesson-bar ${big ? "big" : ""} ${full ? "full" : ""}`}>
+    <div class="spread small"><span>${label}</span><strong>${full ? "✓ " : ""}${done} / ${total}</strong></div>
+    <div class="progress" role="progressbar" aria-valuenow=${done} aria-valuemax=${total} aria-label=${label}>
+      <span style=${`width:${(100 * done) / total}%`}></span></div>
+  </div>`;
+}
+
 /** What a topic's item sets are called: listening exercises, reading texts or gap-fill texts. */
 export function setLabel(topic) {
   if (topic?.counts.audio_sets) return { one: "Écoute", many: "Exercices d'écoute" };

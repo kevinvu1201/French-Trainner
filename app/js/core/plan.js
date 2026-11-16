@@ -78,6 +78,20 @@ export function finishedModules(events, until = Infinity) {
   return out;
 }
 
+/** Lessons finished per topic and overall: {topics: Map(id -> {done, total}), done, total}. */
+export function lessonProgress(manifest, events) {
+  const finished = finishedModules(events);
+  const topics = new Map();
+  let done = 0, total = 0;
+  for (const t of manifest.topics) {
+    const ids = t.readings.flatMap((r) => r.modules.map((m) => m.id));
+    const d = ids.filter((id) => finished.has(id)).length;
+    topics.set(t.id, { done: d, total: ids.length });
+    done += d; total += ids.length;
+  }
+  return { topics, done, total, finished };
+}
+
 /** Mark a module finished (or undo that); synced like any other event. */
 export const setFinished = (module, topic, finished) => logEvent("study", { module, topic, auto: false, finished });
 

@@ -1,13 +1,14 @@
 import { formatDate, localDay } from "../core/analytics.js";
-import { chunkNow, getChunk, moduleInfo, neighbours } from "../core/data.js";
+import { chunkNow, getChunk, manifest, moduleInfo, neighbours } from "../core/data.js";
 import { getEvents, logEvent, useEvents } from "../core/events.js";
-import { finishedModules, setFinished } from "../core/plan.js";
+import { finishedModules, lessonProgress, setFinished } from "../core/plan.js";
+import { confetti, feedback } from "../core/fx.js";
 import { questionPool } from "../core/select.js";
 import { renderMath } from "../core/katex.js";
 import { href } from "../core/router.js";
 import { kvSet } from "../core/store.js";
 import { html, useEffect, useRef, useState } from "../lib.js";
-import { Blocks, ErrorBox, FormulaCards, LearningPanel, Loading, Md } from "../ui.js";
+import { Blocks, ErrorBox, FormulaCards, LearningPanel, LessonBar, Loading, Md } from "../ui.js";
 
 const losLabel = (id) => id.replace(/^los\./, "Objectif ");
 
@@ -46,14 +47,25 @@ function ModuleActions({ id, topic, chunk }) {
     }, AUTO_STUDY_MS);
     return () => clearTimeout(timer);
   }, [id]);
-  return html`<section class="card row module-actions">
+  const progress = events ? lessonProgress(manifest(), events) : null;
+  const tp = progress?.topics.get(topic);
+  const finish = async () => {
+    await setFinished(id, topic, true);
+    feedback("done");
+    if (tp && tp.done + 1 >= tp.total) confetti({ pieces: 160 }); // that was the topic's last lesson
+  };
+  return html`<section class="card stack module-actions">
+    <div class="row">
     ${practisable ? html`<a class="btn primary" href=${href("practice", "drill", topic, id)}>S'entraîner sur cette leçon (${practisable})</a>` : null}
     ${!practisable && cards ? html`<a class="btn primary" href=${href("practice", "cards", topic)}>Réviser les cartes (${cards})</a>` : null}
     ${listening.length ? html`<a class="btn primary" href=${href("practice", "set", topic, id)}>🎧 ${listening.length > 1
       ? `Écouter (${listening.length} exercices)` : "Écouter l'exercice"}</a>` : null}
     ${finished ? html`<span class="small muted">✓ Terminé le ${formatDate(finished.ts)}</span>
         <button class="btn" onClick=${() => setFinished(id, topic, false)}>Annuler</button>`
-      : html`<button class="btn" onClick=${() => setFinished(id, topic, true)}>Marquer comme terminé</button>`}
+      : html`<button class="btn" onClick=${finish}>Marquer comme terminé</button>`}
+    </div>
+    ${tp ? html`<${LessonBar} done=${tp.done} total=${tp.total} label=${`${moduleInfo(id)?.topic.name ?? "Thème"} : leçons terminées`} />
+      <${LessonBar} done=${progress.done} total=${progress.total} label="Tout le cours" />` : null}
   </section>`;
 }
 

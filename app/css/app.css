@@ -571,3 +571,12 @@ label.btn { position: relative; }
 @keyframes wobble { 0%, 100% { transform: rotate(-6deg) scale(1); } 50% { transform: rotate(6deg) scale(1.08); } }
 @keyframes pulse { 50% { transform: scale(1.04); } }
 @media (prefers-reduced-motion: reduce) { .next-hint, .chest.ready, .listen-btn, .chest-btn { animation: none; } }
+
+/* ---------- lesson progress ---------- */
+.lesson-bar { display: grid; gap: 4px; margin-top: 6px; }
+.lesson-bar .progress > span { transition: width .6s cubic-bezier(.2, .9, .3, 1); }
+.lesson-bar.big .progress { height: 10px; }
+.lesson-bar.big .spread { font-size: .95rem; }
+.lesson-bar.full .progress > span { background: var(--ok); }
+.lesson-bar.full strong { color: var(--ok); }
+.done-chip { background: var(--ok-soft); color: var(--ok); }
