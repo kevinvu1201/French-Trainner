@@ -47,7 +47,7 @@ export async function logEvent(type, payload, ts = Date.now()) {
   return event;
 }
 
-const TYPES = new Set(["answer", "review", "study", "setting", "session", "flag"]);
+const TYPES = new Set(["answer", "review", "study", "setting", "session", "flag", "bonus"]);
 
 /** Minimal structural check (mirrors builder/schemas/event.schema.json). */
 export function isEvent(e) {

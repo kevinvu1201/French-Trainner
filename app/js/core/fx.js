@@ -3,7 +3,7 @@
 // prefers-reduced-motion.
 
 const KEY = "fr-fx";
-const DEFAULTS = { sound: true, vibrate: true };
+const DEFAULTS = { sound: true, vibrate: true, speak: true };
 
 export function fxPrefs() {
   try { return { ...DEFAULTS, ...JSON.parse(localStorage.getItem(KEY) ?? "{}") }; } catch { return { ...DEFAULTS }; }
@@ -39,14 +39,33 @@ const SOUNDS = {
   done: () => { [523, 659, 784, 1047].forEach((f, i) => tone(f, i * 0.09, 0.22, { gain: 0.1 })); },
   level: () => { [523, 659, 784, 1047, 1319].forEach((f, i) => tone(f, i * 0.11, 0.35, { gain: 0.11 })); tone(1568, 0.6, 0.5, { gain: 0.08 }); },
   badge: () => { tone(880, 0, 0.12); tone(1175, 0.1, 0.12); tone(1760, 0.2, 0.3, { gain: 0.08 }); },
+  swipe: () => { tone(420, 0, 0.08, { type: "triangle", gain: 0.05, slide: 1.6 }); },
+  chest: (xp = 10) => { [659, 880, 1175].forEach((f, i) => tone(f, i * 0.07, 0.2, { gain: 0.1 })); if (xp >= 50) tone(1760, 0.25, 0.6, { gain: 0.1 }); },
 };
-const BUZZ = { right: 15, combo: [10, 30, 10], wrong: [40, 40, 40], done: [20, 40, 60], level: [30, 50, 30, 50, 120], badge: [20, 30, 60] };
+const BUZZ = { swipe: 8, chest: [20, 30, 20, 30, 80], right: 15, combo: [10, 30, 10], wrong: [40, 40, 40], done: [20, 40, 60], level: [30, 50, 30, 50, 120], badge: [20, 30, 60] };
 
 /** Play the feedback for an event kind: right, combo, wrong, flip, card, done, level, badge. */
 export function feedback(kind, arg) {
   const p = fxPrefs();
   if (p.sound) { try { SOUNDS[kind]?.(arg); } catch { /* no audio */ } }
   if (p.vibrate && BUZZ[kind]) navigator.vibrate?.(BUZZ[kind]);
+}
+
+/** French voices on this device (none: the listening cards are left out). */
+export function frenchVoice() {
+  try { return speechSynthesis.getVoices().find((v) => v.lang?.toLowerCase().startsWith("fr")) ?? null; } catch { return null; }
+}
+
+/** Read French text aloud with the device's voice (works offline when a French voice is installed). */
+export function speak(text, rate = 0.95) {
+  if (!("speechSynthesis" in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text.replace(/[*_]/g, ""));
+  u.lang = "fr-FR";
+  const voice = frenchVoice();
+  if (voice) u.voice = voice;
+  u.rate = rate;
+  speechSynthesis.speak(u);
 }
 
 /** "+12 XP" rising from an element. */

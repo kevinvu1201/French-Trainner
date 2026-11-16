@@ -9,7 +9,7 @@ import { saveSetting, settingsFrom } from "../core/settings.js";
 import { kvGet, kvSet } from "../core/store.js";
 import { useSyncStatus } from "../core/sync.js";
 import { html, useMemo, useState } from "../lib.js";
-import { BadgeGrid, GameHero, useGame } from "../game-ui.js";
+import { BadgeGrid, GameHero, Quests, useGame } from "../game-ui.js";
 import { Loading, useAsync } from "../ui.js";
 
 const DAY = 86_400_000;
@@ -123,8 +123,11 @@ export function Home() {
   return html`<div class="stack">
     <h1 class="sr-only">Français B2</h1>
     <${GameHero} game=${game} />
-    <a class="btn primary go-btn" href=${href("practice", "smart", String(settings.daily_minutes))}>
-      ${game.goalDone ? "Continuer sur ma lancée" : game.today ? "Continuer ma séance" : "Commencer la séance du jour"} →</a>
+    <div class="go-row">
+      <a class="btn primary go-btn" href="#/flux">▶ ${game.goalDone ? "Encore un peu de Flux" : game.today ? "Reprendre le Flux" : "Lancer le Flux"}</a>
+      <a class="btn go-btn go-swipe" href="#/swipe">Swipe</a>
+    </div>
+    <${Quests} events=${events} game=${game} />
     ${!m.weights_verified ? html`<p class="banner">Les poids des thèmes ne sont pas encore validés (<code>config/exam_weights.yaml</code>).</p>` : null}
     <${InstallHint} />
     <${SyncLine} />

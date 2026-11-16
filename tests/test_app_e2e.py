@@ -713,3 +713,122 @@ def test_tap_to_translate(translated_site, browser):
     assert "NOT answered" in out["prompt"] and '"proche"' in out["prompt"]
     assert out["words"] == ["avocat", "faut"]  # elided article dropped
     assert not browser.console, browser.console
+
+
+FEED_JS = """Promise.all(['feed', 'quests', 'game', 'analytics'].map((n) => import(`./js/core/${n}.js`))).then(([f, quests, game, an]) => {
+  const seeded = (a) => () => { a = (a + 0x6D2B79F5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+  const DAY = 86400000, now = new Date(2026, 9, 28, 12).getTime();
+  const q = (n, stem) => ({ id: `q${n}`, los: 'los.1', stem, options: ['soit', 'est', 'sera'], answer: 'A', explanations: { A: 'Correct.', B: 'Faux.', C: 'Faux.' } });
+  const grammar = { los: [], formulas: [{ id: 'rule', los: [], front: 'Quand emploie-t-on le subjonctif ?', back: 'Après une volonté, un doute ou un sentiment, par exemple.' }],
+    questions: [q(1, 'Il faut que ce …… (être) clair.'), q(2, 'Bien que ce …… vrai, il doute.'), q(3, 'Quelle phrase est correcte ?'),
+                q(4, 'Je doute que ce …… possible.'), q(5, '« Il vient ? » → Je demande …… il vient.'), q(6, 'Que ce …… ou non, …… .')] };
+  const vocab = { los: [], questions: [], formulas: ['a', 'b', 'c', 'd', 'e', 'f'].map((id) => ({ id, los: [], front: `mot ${id}`, back: `word ${id}` })) };
+  const chunks = new Map([['g', grammar], ['v', vocab]]);
+  const events = [{ type: 'review', ts: now - 30 * DAY, payload: { card: 'c', grade: 3 } }];
+  const feed = f.createFeed({ chunks, events, now, rng: seeded(7) });
+  const items = feed.next(60);
+  const kinds = items.map((i) => i.kind);
+  const runs = kinds.map((k, i) => (k !== 'chest' && k === kinds[i - 1] && k === kinds[i - 2] && k === kinds[i - 3]));
+  const tf = items.filter((i) => i.kind === 'tf');
+  const mcq = items.filter((i) => i.kind === 'word' && i.mode === 'mcq');
+  const miss = feed.next(1)[0];
+  feed.retry(miss);
+  const after = feed.next(8);
+  const back = after.findIndex((i) => i.retry);
+  const order = f.wordOrder([...vocab.formulas, ...grammar.formulas].map((card) => ({ card, topic: 't' })), events, now, { newPerDay: 4 }).map((c) => c.card.id);
+
+  const ev = (type, payload, ts = now) => ({ type, ts, payload });
+  const ans = (mode, correct, extra = {}) => ev('answer', { mode, correct, confidence: 2, ...extra });
+  const log = [...Array(7)].map(() => ans('feed', true)).concat([ans('swipe', false, { tf: true }), ev('review', { card: 'a', grade: 3, src: 'swipe' }),
+    ev('bonus', { xp: 500, source: 'chest' }), ev('bonus', { xp: 40, source: 'quests', day: an.localDay(now) }), ev('bonus', { xp: 40, source: 'quests', day: an.localDay(now) })]);
+  const state = game.gameState(log, { daily_xp: 50 }, now);
+  const dq = quests.dailyQuests(log, state.today, { now });
+  return {
+    sentences: [f.tfSentence(grammar.questions[0], 'A'), f.tfSentence(grammar.questions[1], 'B'), f.tfSentence(grammar.questions[2], 'A'),
+                f.tfSentence(grammar.questions[4], 'A'), f.tfSentence(grammar.questions[5], 'A')],
+    kinds: [...new Set(kinds)].sort(), firstChest: kinds.indexOf('chest'), longRun: runs.includes(true),
+    tfOk: tf.length > 0 && tf.every((i) => i.text.includes('**') && i.truth === (i.letter === 'A') && ['q1', 'q2', 'q4'].includes(i.q.id)),
+    tfBoth: [tf.some((i) => i.truth), tf.some((i) => !i.truth)],
+    mcqOk: mcq.length > 0 && mcq.every((i) => i.options.length === 3 && i.options.filter((o) => o.right).length === 1 && new Set(i.options.map((o) => o.text)).size === 3),
+    firstWord: items.find((i) => i.kind === 'word').card.id, back, same: after[back]?.uid !== miss.uid && (after[back]?.q ?? after[back]?.card) === (miss.q ?? miss.card),
+    order, chest: [0.005, 0.05, 0.2, 0.9].map((r) => f.rollChest(() => r)),
+    xp: [game.xpFor(ans('swipe', true, { tf: true })), game.xpFor(ans('swipe', false, { tf: true })), game.xpFor(ev('bonus', { xp: 500, source: 'chest' }))],
+    today: state.today, stats: quests.todayStats(log, now), claimed: dq.claimed, ids: dq.quests.map((x) => x.id).length,
+    sameQuests: JSON.stringify(quests.dailyQuests([], 0, { now }).quests.map((x) => x.id)) === JSON.stringify(dq.quests.map((x) => x.id)),
+  };
+})"""
+
+
+def test_feed_quests_and_bonus_rules(sites, browser):
+    browser.goto(sites["plain"] + "#/", wait_for="document.querySelector('.tiles')")
+    o = browser.eval(FEED_JS)
+    # A sentence needs exactly one blank and no instruction around it; the hint in brackets goes
+    assert o["sentences"] == ["Il faut que ce **soit** clair.", "Bien que ce **est** vrai, il doute.", None, None, None]
+    assert o["kinds"] == ["chest", "question", "tf", "word"] and 6 <= o["firstChest"] <= 10 and not o["longRun"]
+    assert o["tfOk"] and o["tfBoth"] == [True, True] and o["mcqOk"]
+    assert o["firstWord"] == "c"  # the card that is due comes before any new one
+    assert 2 <= o["back"] <= 6 and o["same"]  # a missed card returns a few cards later
+    assert o["order"] == ["c", "a", "b", "d", "rule", "e", "f"]  # due, then new (3 words per rule; allowance 4), then the rest
+    assert o["chest"][:2] == [100, 50] and 20 <= o["chest"][2] <= 30 and 5 <= o["chest"][3] <= 15
+    assert o["xp"] == [6, 1, 100]  # a judged sentence is worth less than an answer; chests are capped
+    assert o["today"] == 7 * 10 + 1 + 5 + 100 + 40  # the quest chest counts once per day
+    assert o["stats"] == {"flux": 7, "swipe": 2, "words": 1, "combo": 7, "lesson": 0, "listen": 0}
+    assert o["claimed"] and o["ids"] == 3 and o["sameQuests"]  # quests depend on the date only
+
+
+ACT_JS = """(() => {
+  const feed = document.querySelector('.feed');
+  const i = Math.round(feed.scrollTop / feed.clientHeight);
+  const s = feed.children[i];
+  const b = s.querySelector('.fopt:not(:disabled)');
+  if (b) { b.click(); return s.className; }
+  feed.children[i + 1]?.scrollIntoView();
+  return 'next';
+})()"""
+LOG_JS = "import('./js/core/events.js').then((m) => m.getEvents()).then((l) => l.map((e) => [e.type, e.payload.mode ?? e.payload.src ?? e.payload.source ?? '']))"
+
+
+@pytest.mark.skipif(not (REPO / "generated").exists(), reason="real content not present")
+def test_flux_scroll_feed_and_swipe_deck(real_site, browser):
+    browser.goto("about:blank")
+    browser.goto(real_site + "#/flux", wait_for="document.querySelector('.feed .slide')")
+    page = browser.eval("""({ tabs: [...document.querySelectorAll('.tabbar .tab')].map((t) => t.innerText.trim()),
+        current: document.querySelector('.tabbar [aria-current]')?.innerText.trim(),
+        full: Math.abs(document.querySelector('.slide').offsetHeight - document.querySelector('.feed').clientHeight) < 2,
+        overflow: document.documentElement.scrollWidth > document.documentElement.clientWidth })""", False)
+    assert page["tabs"] == ["Accueil", "Cours", "Flux", "Exercices", "Progrès"] and page["current"] == "Flux"
+    assert page["full"] and not page["overflow"]  # one card per screen
+    for _ in range(60):  # answer whatever comes (questions, sentences, words) until a chest has been opened
+        browser.eval(ACT_JS, False)
+        time.sleep(0.25)
+        if browser.eval("document.querySelector('.chest.open') !== null", False):
+            break
+    log = [tuple(e) for e in browser.eval(LOG_JS)]
+    assert ("answer", "feed") in log and ("review", "feed") in log and ("bonus", "chest") in log
+    assert browser.eval("document.querySelectorAll('.feed .slide').length", False) > 8  # the feed keeps growing
+    assert browser.eval("document.querySelector('.feed').scrollTop", False) > 0
+
+    browser.goto(real_site + "#/swipe", wait_for="document.querySelector('.scard.slide')")
+
+    def throw(direction):
+        uid = browser.eval("document.querySelector('.scard.slide').dataset.uid", False)
+        x, y = browser.eval("(() => { const r = document.querySelector('.scard.slide').getBoundingClientRect(); return [r.x + r.width / 2, r.y + r.height * 0.8]; })()", False)
+        browser.send("Input.dispatchMouseEvent", type="mousePressed", x=x, y=y, button="left", clickCount=1)
+        for dx in (30, 80, 130):
+            browser.send("Input.dispatchMouseEvent", type="mouseMoved", x=x + direction * dx, y=y, button="left", buttons=1)
+        browser.send("Input.dispatchMouseEvent", type="mouseReleased", x=x + direction * 130, y=y, button="left", clickCount=1)
+        browser.wait(f"document.querySelector('.scard.slide')?.dataset.uid !== {json.dumps(uid)}")
+
+    before = len(browser.eval(LOG_JS))
+    throw(1)
+    throw(-1)
+    browser.eval("document.querySelector('.round.yes').click()", False)
+    browser.wait(f"import('./js/core/events.js').then((m) => m.getEvents()).then((l) => l.length === {before + 3})", 10)
+    log = [tuple(e) for e in browser.eval(LOG_JS)][before:]
+    assert all(e in (("answer", "swipe"), ("review", "swipe")) for e in log)
+    assert browser.eval("document.querySelector('.swipe-last').innerText.trim().length", False) > 0
+    # Home: the Flux button and today's quests
+    browser.goto(real_site + "#/", wait_for="document.querySelector('.quests')")
+    home = browser.eval("({ go: document.querySelector('.go-btn').getAttribute('href'), quests: document.querySelectorAll('.quest').length })", False)
+    assert home == {"go": "#/flux", "quests": 3}
+    assert not browser.console, browser.console

@@ -2,7 +2,7 @@ import { downloadAll, forgetKey, isEncrypted, manifest, storageInfo } from "../c
 import { useEvents } from "../core/events.js";
 import { saveSetting, settingsFrom } from "../core/settings.js";
 import { downloadProgress, importFile, saveGistSettings, syncGist, useSyncStatus } from "../core/sync.js";
-import { fxPrefs, feedback, setFxPref } from "../core/fx.js";
+import { fxPrefs, feedback, setFxPref, speak } from "../core/fx.js";
 import { DEFAULT_MODEL, aiSettings, explainWithAI, saveAiSettings } from "../lookup.js";
 import { getTheme, setTheme } from "../core/theme.js";
 import { html, useState } from "../lib.js";
@@ -153,6 +153,8 @@ export function Settings() {
         onChange=${(e) => { setFxPref("sound", e.target.checked); setFx(fxPrefs()); if (e.target.checked) feedback("right"); }} /></label>
       <label class="spread"><span>Vibrations</span><input type="checkbox" checked=${fx.vibrate}
         onChange=${(e) => { setFxPref("vibrate", e.target.checked); setFx(fxPrefs()); }} /></label>
+      <label class="spread"><span>Prononcer les mots à voix haute (Flux et Swipe)</span><input type="checkbox" checked=${fx.speak}
+        onChange=${(e) => { setFxPref("speak", e.target.checked); setFx(fxPrefs()); if (e.target.checked) speak("C'est parti !"); }} /></label>
     </section>
 
     <section class="card stack">

@@ -1,9 +1,11 @@
 // Game components: the Home hero (level, daily goal ring, streak, week), the badge grid, and the
 // celebration layer that reacts to new XP (level-ups, badges, daily goal) anywhere in the app.
 
-import { getEvents, onEventsChanged } from "./core/events.js";
+import { manifest } from "./core/data.js";
+import { getEvents, logEvent, onEventsChanged } from "./core/events.js";
 import { confetti, feedback } from "./core/fx.js";
 import { BADGES, gameState } from "./core/game.js";
+import { QUEST_CHEST_XP, dailyQuests } from "./core/quests.js";
 import { settingsFrom } from "./core/settings.js";
 import { html, useEffect, useState } from "./lib.js";
 
@@ -64,6 +66,30 @@ function message(g) {
   return `Plus que ${g.goal - g.today} XP pour l'objectif du jour.`;
 }
 
+const questsNow = (events, game) => dailyQuests(events, game.today, { audio: manifest().topics.some((t) => t.counts.audio_sets) });
+
+/** Today's three quests and the chest they unlock. */
+export function Quests({ events, game }) {
+  const q = questsNow(events, game);
+  const done = q.quests.filter((x) => x.done).length;
+  const claim = async () => {
+    await logEvent("bonus", { xp: QUEST_CHEST_XP, source: "quests", day: q.day });
+    feedback("chest", 50);
+    confetti({ pieces: 140 });
+  };
+  return html`<section class="card stack quests">
+    <div class="spread"><strong>Quêtes du jour</strong><span class="chip">${done} / ${q.quests.length}</span></div>
+    ${q.quests.map((x) => html`<a class=${`quest ${x.done ? "done" : ""}`} href=${x.href}>
+      <span class="quest-icon" aria-hidden="true">${x.done ? "✅" : x.icon}</span>
+      <div class="grow"><div>${x.label}</div>
+        <div class="progress"><span style=${`width:${(100 * x.have) / x.need}%`}></span></div></div>
+      <span class="small muted">${x.have} / ${x.need}</span></a>`)}
+    ${q.claimed ? html`<p class="small muted">Coffre du jour ouvert ✓ De nouvelles quêtes arrivent demain.</p>`
+      : q.allDone ? html`<button class="btn primary chest-btn" onClick=${claim}>🎁 Ouvrir le coffre · +${QUEST_CHEST_XP} XP</button>`
+      : html`<p class="small muted">Les trois quêtes terminées ouvrent un coffre de ${QUEST_CHEST_XP} XP 🎁</p>`}
+  </section>`;
+}
+
 export function BadgeGrid({ game, limit }) {
   const list = BADGES.map((b) => ({ ...b, at: game.earned.get(b.id) }));
   const shown = limit ? [...list.filter((b) => b.at), ...list.filter((b) => !b.at)].slice(0, limit) : list;
@@ -87,11 +113,16 @@ export function Celebrations() {
     const check = async () => {
       const events = await getEvents();
       const g = gameState(events, settingsFrom(events));
+      g.quests = questsNow(events, g);
       if (prev) {
         const found = [];
         if (g.level > prev.level) found.push({ kind: "level", level: g.level, title: g.title });
         for (const b of BADGES) if (g.earned.has(b.id) && !prev.earned.has(b.id)) found.push({ kind: "badge", badge: b });
         if (g.goalDone && !prev.goalDone && g.today > 0) found.push({ kind: "goal", today: g.today, streak: g.streak });
+        if (g.quests.day === prev.quests.day) {
+          const before = new Set(prev.quests.quests.filter((x) => x.done).map((x) => x.id));
+          for (const x of g.quests.quests) if (x.done && !before.has(x.id)) found.push({ kind: "quest", quest: x, all: g.quests.allDone });
+        }
         if (found.length) setQueue((q) => [...q, ...found]);
       }
       prev = g;
@@ -121,7 +152,10 @@ export function Celebrations() {
     </div>`;
   }
   return html`<div class="celebrate-toast" role="status" onClick=${close}>
-    ${item.kind === "badge"
+    ${item.kind === "quest"
+      ? html`<span class="ct-icon">${item.quest.icon}</span><div><strong>Quête terminée !</strong>
+          <div class="small">${item.quest.label}${item.all ? " · le coffre vous attend sur l'accueil 🎁" : ""}</div></div>`
+      : item.kind === "badge"
       ? html`<span class="ct-icon">${item.badge.icon}</span><div><strong>Badge débloqué : ${item.badge.name}</strong><div class="small">${item.badge.how}</div></div>`
       : html`<span class="ct-icon">🎯</span><div><strong>Objectif du jour atteint !</strong><div class="small">${item.today} XP · série de ${item.streak} jour${item.streak > 1 ? "s" : ""}</div></div>`}
   </div>`;

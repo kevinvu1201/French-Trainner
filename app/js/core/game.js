@@ -11,10 +11,12 @@ export function xpFor(e) {
     case "answer":
       if (p.mode === "listening") return p.correct ? 15 : 3;
       if (p.mode === "mock") return p.correct ? 8 : 2;
+      if (p.tf) return p.correct ? 6 : 1; // "juste ou faux ?": a coin-flip is worth less than a real answer
       return p.correct ? (p.confidence === 3 ? 12 : 10) : 2;
     case "review": return p.grade >= 3 ? 5 : 2;
     case "study": return p.auto || p.finished === false ? 0 : 20;
     case "session": return p.kind === "mock" ? 50 : 0;
+    case "bonus": return Math.max(0, Math.min(100, Math.round(p.xp) || 0)); // chests and daily quests
     default: return 0;
   }
 }
@@ -67,8 +69,14 @@ export function gameState(events, settings, now = Date.now()) {
   const sets = new Map(); // set id -> {n, right}
   const days = new Set();
   const byDay = new Map();
+  const questDays = new Set();
   for (const e of events) {
-    const xp = xpFor(e);
+    let xp = xpFor(e);
+    if (e.type === "bonus" && e.payload.source === "quests") {
+      // The quest chest pays once a day, even if two devices both claimed it before syncing.
+      if (questDays.has(e.payload.day)) xp = 0;
+      questDays.add(e.payload.day);
+    }
     s.xp += xp;
     if (xp) byDay.set(localDay(e.ts), (byDay.get(localDay(e.ts)) ?? 0) + xp);
     const p = e.payload;

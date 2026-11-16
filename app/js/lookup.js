@@ -91,11 +91,11 @@ export function glossFor(entry, word) {
 
 /** Exercise context for the AI prompt, read from the question card around the tapped text. */
 function contextOf(el) {
-  const card = el.closest(".qcard");
+  const card = el.closest(".qcard, .slide");
   if (!card) return null;
   const stem = card.querySelector("[data-tr$='|stem']")?.textContent ?? "";
-  const options = [...card.querySelectorAll(".option")].map((o) => o.textContent.trim());
-  const answered = Boolean(card.querySelector(".feedback")) || card.querySelector(".option")?.disabled === true;
+  const options = [...card.querySelectorAll(".option, .fopt")].map((o) => o.textContent.trim());
+  const answered = Boolean(card.querySelector(".feedback, .verdict")) || card.querySelector(".option, .fopt")?.disabled === true;
   return { stem, options, answered };
 }
 

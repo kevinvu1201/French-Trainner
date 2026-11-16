@@ -38,13 +38,16 @@ const Mock = lazy(() => import("./views/mock.js"), "Mock");
 const ConceptMap = lazy(() => import("./views/map.js"), "ConceptMap");
 const Stats = lazy(() => import("./views/stats.js"), "Stats");
 const Settings = lazy(() => import("./views/settings.js"), "Settings");
+const flux = () => import("./views/flux.js");
+const Flux = lazy(flux, "Flux");
+const Swipe = lazy(flux, "Swipe");
 
 const TABS = [
   { route: "home", hash: "#/", label: "Accueil", icon: "home" },
   { route: "study", hash: "#/study", label: "Cours", icon: "study" },
+  { route: "flux", hash: "#/flux", label: "Flux", icon: "flux", main: true },
   { route: "practice", hash: "#/practice", label: "Exercices", icon: "practice" },
   { route: "stats", hash: "#/stats", label: "Progrès", icon: "stats" },
-  { route: "settings", hash: "#/settings", label: "Réglages", icon: "settings" },
 ];
 
 function view(route) {
@@ -68,16 +71,18 @@ function view(route) {
       if (mode === "cards" && topic) return { title: "Cartes", ...back, body: html`<${Cards} topic=${topic} />` };
       return { title: "Exercices", body: html`<${PracticeHome} />` };
     }
+    case "flux": return { title: "Flux", immersive: true, body: html`<${Flux} />` };
+    case "swipe": return { title: "Swipe", immersive: true, tab: "flux", back: "#/flux", body: html`<${Swipe} />` };
     case "stats": return { title: "Progrès", body: html`<${Stats} />` };
     case "map": return { title: "Carte des notions", back: "#/study", tab: "study", body: html`<${ConceptMap} key=${a ?? "all"} focus=${a} />` };
-    case "settings": return { title: "Réglages", body: html`<${Settings} />` };
+    case "settings": return { title: "Réglages", back: "#/", tab: "home", body: html`<${Settings} />` };
     default: return { title: "Français B2", tab: "home", body: html`<${Home} />` };
   }
 }
 
 function Tabs({ active, className }) {
   return html`<nav class=${className} aria-label="Navigation principale">
-    ${TABS.map((t) => html`<a class="tab" href=${t.hash} aria-current=${active === t.route ? "page" : undefined}>
+    ${TABS.map((t) => html`<a class=${`tab ${t.main ? "tab-main" : ""}`} href=${t.hash} aria-current=${active === t.route ? "page" : undefined}>
       <${Icon} name=${t.icon} /><span>${t.label}</span></a>`)}
   </nav>`;
 }
@@ -103,11 +108,12 @@ function App() {
   const v = view(route);
   const active = v.tab ?? route.name;
   useEffect(() => { document.title = `${v.title} · Français B2`; }, [v.title]);
-  return html`<div class="shell">
+  return html`<div class=${`shell ${v.immersive ? "immersive" : ""}`}>
     <header class="topbar">
       ${v.back ? html`<a class="back btn" href=${v.back} aria-label="Retour" style="border:0;background:none">‹</a>` : null}
       <div class="title">${v.title}</div>
       <${Tabs} active=${active} className="topnav" />
+      <a class="gear" href="#/settings" aria-label="Réglages"><${Icon} name="settings" /></a>
     </header>
     <main>${v.body}</main>
     <${Tabs} active=${active} className="tabbar" />

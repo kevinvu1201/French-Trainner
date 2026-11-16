@@ -10,7 +10,7 @@
     "v": {"const": 1},
     "device": {"type": "string"},
     "ts": {"type": "integer", "description": "Unix epoch milliseconds"},
-    "type": {"enum": ["answer", "review", "study", "setting", "session", "flag"]},
+    "type": {"enum": ["answer", "review", "study", "setting", "session", "flag", "bonus"]},
     "payload": {"type": "object"}
   },
   "allOf": [
@@ -26,10 +26,19 @@
           "correct": {"type": "boolean"},
           "ms": {"type": "integer", "minimum": 0},
           "confidence": {"enum": [1, 2, 3]},
-          "mode": {"enum": ["drill", "item_set", "formula", "smart", "mock", "review"]},
+          "mode": {"enum": ["drill", "item_set", "formula", "smart", "mock", "review", "listening", "feed", "swipe"]},
           "choice": {"enum": ["A", "B", "C"]},
-          "session": {"type": "string"}
+          "session": {"type": "string"},
+          "tf": {"type": "boolean", "description": "A 'right or wrong?' judgement of the sentence made with option `choice`"}
         }
+      }}}
+    },
+    {
+      "if": {"properties": {"type": {"const": "bonus"}}},
+      "then": {"properties": {"payload": {
+        "type": "object", "required": ["xp", "source"],
+        "description": "Bonus XP: a chest in the feed, or the daily quests' chest (one per day counts)",
+        "properties": {"xp": {"type": "integer", "minimum": 0}, "source": {"enum": ["chest", "quests"]}, "day": {"type": "string"}}
       }}}
     },
     {

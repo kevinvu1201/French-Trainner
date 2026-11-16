@@ -33,6 +33,10 @@ export function PracticeHome() {
   const topics = [...manifest().topics].sort((a, b) => b.weight - a.weight);
   return html`<div class="stack">
     <h1>Exercices</h1>
+    <section class="card spread">
+      <div><strong>Flux et Swipe</strong><div class="small muted">Questions éclair, phrases justes ou fausses et vocabulaire, sans fin</div></div>
+      <div class="row"><a class="btn primary" href="#/flux">Flux</a><a class="btn" href="#/swipe">Swipe</a></div>
+    </section>
     <section class="card stack smart-entry">
       <strong>Séance intelligente</strong>
       <p class="small muted">Environ 60 % de vos points faibles prioritaires (pondérés par leur importance), 25 % de révisions
