@@ -1,0 +1,176 @@
+{
+ "module": "m48.1",
+ "source_hash": "977e54a956e7",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Comme le plus-que-parfait pour le passé, le futur antérieur marque l'antériorité dans le futur."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Auxiliaire au futur + participe passé, avec les règles d'accord habituelles."
+   },
+   {
+    "stage": "result",
+    "md": "Il s'emploie après _quand / dès que_ pour l'action accomplie d'abord, et pour une supposition sur le passé."
+   }
+  ],
+  "why_it_matters": "Le futur antérieur rend un plan d'action ou une proposition (lettre au maire, article) précise et crédible.",
+  "exam_approach": {
+   "look_first": [
+    "deux actions futures : laquelle est accomplie d'abord ?",
+    "_d'ici_ + date"
+   ],
+   "traps": [
+    "*_quand tu finiras, tu sortiras_ (succession floue)",
+    "*_il aura parti_"
+   ],
+   "distractors": [
+    "le futur simple pour l'action accomplie",
+    "l'auxiliaire _avoir_ avec un verbe de mouvement"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.48.a.001",
+   "los": "los.48.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Quand tu …… tes devoirs, tu pourras regarder la télé.",
+   "options": [
+    "finiras",
+    "as fini",
+    "auras fini"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. La télé vient après la fin des devoirs : futur antérieur.",
+    "B": "Faux. Le contexte est futur.",
+    "C": "Correct. Action accomplie avant une autre action future."
+   }
+  },
+  {
+   "id": "q.48.a.002",
+   "los": "los.48.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "D'ici la fin de l'année, nous …… dix nouveaux salariés.",
+   "options": [
+    "recrutons",
+    "aurions recruté",
+    "aurons recruté"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _d'ici la fin de l'année_ : action accomplie dans le futur.",
+    "B": "Faux. C'est le conditionnel passé.",
+    "C": "Correct. Action accomplie à un moment futur (_d'ici_)."
+   }
+  },
+  {
+   "id": "q.48.a.003",
+   "los": "los.48.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Dès que les invités ……, nous servirons le dîner.",
+   "options": [
+    "seront arrivés",
+    "auront arrivé",
+    "arrivent"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Antériorité dans le futur, verbe avec _être_.",
+    "B": "Faux. _arriver_ se conjugue avec _être_.",
+    "C": "Faux. Après _dès que_ à sens futur, on emploie un futur."
+   }
+  },
+  {
+   "id": "q.48.a.004",
+   "los": "los.48.a",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Elle n'est pas encore là ? Elle …… son train.",
+   "options": [
+    "ratera",
+    "aura raté",
+    "raterait"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le futur simple parle de l'avenir.",
+    "B": "Correct. Supposition sur un fait passé → futur antérieur.",
+    "C": "Faux. Le conditionnel exprime l'hypothèse, pas la supposition probable."
+   }
+  },
+  {
+   "id": "q.48.b.001",
+   "los": "los.48.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Quand tu liras cette lettre, je …… déjà.",
+   "options": [
+    "étais parti",
+    "partirai",
+    "serai parti"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le plus-que-parfait se situe dans le passé.",
+    "B": "Faux. Le départ précède la lecture : il est accompli.",
+    "C": "Correct. Action accomplie avant un moment futur → futur antérieur."
+   }
+  },
+  {
+   "id": "q.48.b.002",
+   "los": "los.48.b",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Lundi, j'ai appris que mon dossier …… accepté la semaine précédente.",
+   "options": [
+    "avait été",
+    "aura été",
+    "sera"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Antériorité dans le passé → plus-que-parfait (passif).",
+    "B": "Faux. Le futur antérieur se situe dans l'avenir.",
+    "C": "Faux. Le futur ne convient pas à un fait passé."
+   }
+  },
+  {
+   "id": "q.48.b.003",
+   "los": "los.48.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Je partirai quand j'…… mes valises.",
+   "options": [
+    "avais fait",
+    "aurai fait",
+    "ai fait"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le plus-que-parfait se situe dans le passé.",
+    "B": "Correct. Les valises sont faites avant le départ : futur antérieur.",
+    "C": "Faux. Le contexte est futur."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.48.futur-anterieur",
+   "los": [
+    "los.48.a"
+   ],
+   "name": "Futur antérieur",
+   "front": "Formation et emplois ?",
+   "back": "auxiliaire au **futur** + participe : _j'aurai fini_. Action accomplie avant une autre action future ; supposition (_il aura oublié_)."
+  }
+ ]
+}

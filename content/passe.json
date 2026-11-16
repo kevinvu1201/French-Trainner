@@ -1,0 +1,488 @@
+{
+ "readings": [
+  {
+   "number": 40,
+   "title": "Le passé composé",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Le passé composé est le temps du récit au passé à l'oral et dans la plupart des écrits. Il pose trois difficultés : le **participe passé**, le choix de l'**auxiliaire** (_avoir_ ou _être_) et l'**accord** du participe. Toutes trois sont évaluées dans chaque production."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 40 (p. 174)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former le passé composé avec _avoir_ et les participes passés réguliers et irréguliers.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Choisir l'auxiliaire _être_ (verbes de mouvement, pronominaux) ou _avoir_ (verbes à double emploi).",
+     "module": 2
+    },
+    {
+     "letter": "c",
+     "text": "Accorder le participe passé (avec _être_, avec un COD placé avant, verbes pronominaux).",
+     "module": 3
+    },
+    {
+     "letter": "d",
+     "text": "Placer la négation, les pronoms et les adverbes au passé composé.",
+     "module": 3
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Le passé composé avec « avoir » et le participe passé",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Formation** : _avoir_ (ou _être_) au présent + **participe passé** : _J'**ai mangé**. Nous **avons fini**._"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Infinitif",
+           "Participe",
+           "Infinitif",
+           "Participe"
+          ],
+          [
+           "-er : parler",
+           "parl**é**",
+           "-ir : finir, partir",
+           "fin**i**, part**i**"
+          ],
+          [
+           "avoir",
+           "**eu**",
+           "être",
+           "**été**"
+          ],
+          [
+           "faire",
+           "**fait**",
+           "dire, écrire",
+           "**dit**, **écrit**"
+          ],
+          [
+           "prendre, mettre",
+           "**pris**, **mis**",
+           "voir, savoir",
+           "**vu**, **su**"
+          ],
+          [
+           "pouvoir, vouloir",
+           "**pu**, **voulu**",
+           "devoir, boire",
+           "**dû**, **bu**"
+          ],
+          [
+           "lire, croire",
+           "**lu**, **cru**",
+           "venir, tenir",
+           "**venu**, **tenu**"
+          ],
+          [
+           "ouvrir, offrir",
+           "**ouvert**, **offert**",
+           "naître, mourir",
+           "**né**, **mort**"
+          ],
+          [
+           "recevoir, connaître",
+           "**reçu**, **connu**",
+           "vivre, suivre",
+           "**vécu**, **suivi**"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Prononciation : _je mangeais_ (imparfait) et _j'ai mangé_ (passé composé) se distinguent par l'auxiliaire. Ne confondez pas _j'ai_ [ʒe] et _je_ [ʒə] à l'oral."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 2,
+     "title": "« Être » ou « avoir » ?",
+     "sections": [
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Avec être** : une quinzaine de verbes de **mouvement / changement d'état** et leurs dérivés : _aller, venir (devenir, revenir), arriver, partir, entrer (rentrer), sortir, monter, descendre, passer, tomber, naître, mourir, rester, retourner_."
+        },
+        {
+         "t": "p",
+         "md": "**Avec être** aussi : **tous les verbes pronominaux** : _Je **me suis** levé. Ils **se sont** rencontrés._"
+        },
+        {
+         "t": "p",
+         "md": "**Verbes à double emploi** : _monter, descendre, sortir, rentrer, passer, retourner_ prennent **avoir** quand ils ont un **COD** : _Elle **est** montée au 5e étage._ / _Elle **a** monté **ses valises**._ _Il **est** sorti._ / _Il **a** sorti **le chien**._ _J'**ai** passé **une semaine** à Rome._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 3,
+     "title": "L'accord du participe passé et la place des mots",
+     "sections": [
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**Avec être** : accord avec le **sujet** : _Elle est part**ie**. Ils sont arriv**és**._",
+          "**Avec avoir** : pas d'accord avec le sujet ; accord avec le **COD placé avant** le verbe (pronom _le, la, les_, relatif _que_, _quel(le)s_) : _J'ai acheté **des fleurs**._ / _Les fleurs **que** j'ai achet**ées**. Je **les** ai achet**ées**._",
+          "**Pronominaux** : accord avec le pronom s'il est COD : _Elle s'est lav**ée**._ Pas d'accord s'il est COI : _Elles se sont **parlé**. Elle s'est lavé **les mains**._"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Pas d'accord avec _en_ ni avec _lui / leur_ : _Des pommes ? J'en ai mangé. Je leur ai parlé._"
+        }
+       ]
+      },
+      {
+       "los": [
+        "d"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Négation** : autour de l'auxiliaire : _Je **n'**ai **pas** compris. Il **ne** s'est **jamais** marié._"
+        },
+        {
+         "t": "p",
+         "md": "**Pronoms** : devant l'auxiliaire : _Je **l'**ai vu. Je **lui** ai répondu. Nous **y** sommes allés._"
+        },
+        {
+         "t": "p",
+         "md": "**Adverbes courts** : entre l'auxiliaire et le participe : _Il a **bien** dormi. J'ai **déjà** mangé._"
+        },
+        {
+         "t": "p",
+         "md": "**Inversion** : _**As-tu** compris ? **Est-elle** partie ?_"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 43,
+   "title": "L'imparfait",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "L'imparfait décrit le **décor** et les **habitudes** du passé ; le passé composé raconte les **événements**. Leur alternance donne du relief au récit et c'est l'un des points les plus évalués au B1–B2."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 43 (p. 206)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former l'imparfait et l'employer pour les habitudes et les descriptions passées.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Choisir entre imparfait et passé composé dans un récit.",
+     "module": 2
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "L'imparfait d'habitude et de description",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Formation** : radical de **nous** au présent + **-ais, -ais, -ait, -ions, -iez, -aient** : _nous **finiss**ons → je finiss**ais**_. Seule exception : _être → j'**ét**ais_."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Infinitif",
+           "nous (présent)",
+           "Imparfait"
+          ],
+          [
+           "parler",
+           "nous parl-ons",
+           "je parlais"
+          ],
+          [
+           "faire",
+           "nous fais-ons",
+           "je faisais"
+          ],
+          [
+           "prendre",
+           "nous pren-ons",
+           "je prenais"
+          ],
+          [
+           "manger",
+           "nous mange-ons",
+           "je mangeais (nous mangions)"
+          ],
+          [
+           "commencer",
+           "nous commenç-ons",
+           "je commençais (nous commencions)"
+          ]
+         ]
+        },
+        {
+         "t": "ul",
+         "items": [
+          "**Habitude passée** : _Quand j'étais petit, je **passais** mes vacances chez mes grands-parents._",
+          "**Description** (décor, personnes, état, sentiment) : _Il **faisait** beau, la plage **était** déserte, j'**étais** heureux._",
+          "**Proposition** (avec _si_) : _**Si on allait** au cinéma ?_"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "_Nous étudi**i**ons, vous étudi**i**ez_ : deux _i_ quand le radical se termine par _i_."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 2,
+     "title": "L'imparfait et le passé composé",
+     "sections": [
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Imparfait",
+           "Passé composé"
+          ],
+          [
+           "décor, circonstances, état : _Il pleuvait._",
+           "événement, action ponctuelle : _Le téléphone a sonné._"
+          ],
+          [
+           "action en cours (interrompue) : _Je dormais quand…_",
+           "action qui interrompt : _… quand le téléphone a sonné._"
+          ],
+          [
+           "habitude : _Je partais tous les étés._",
+           "action unique ou délimitée : _Je suis parti trois fois. J'ai vécu dix ans à Rome._"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Indices : _tous les jours, souvent, d'habitude, autrefois, à cette époque_ → imparfait ; _un jour, soudain, tout à coup, ce jour-là, pendant trois ans_ → passé composé."
+        },
+        {
+         "t": "note",
+         "md": "_Pendant + durée_ délimitée appelle le passé composé, même pour une action longue : _J'**ai habité** à Lyon pendant dix ans._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 44,
+   "title": "Le plus-que-parfait",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Le plus-que-parfait exprime une action **antérieure** à une autre action passée. Il est indispensable pour le discours rapporté, les hypothèses (_si j'avais su_) et les regrets."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 44 (p. 214)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former le plus-que-parfait et l'employer pour l'antériorité dans le passé.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Situer les temps du passé les uns par rapport aux autres (passé composé, imparfait, plus-que-parfait).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Le plus-que-parfait et le résumé des temps du passé",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Formation** : _avoir_ ou _être_ à l'**imparfait** + participe passé : _j'**avais** fini, elle **était** partie, nous nous **étions** rencontrés_. Mêmes règles d'auxiliaire et d'accord qu'au passé composé."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "**Antériorité** : _Quand je suis arrivé, le film **avait** déjà **commencé**._",
+          "**Regret** : _Si seulement j'**avais su** !_",
+          "**Discours rapporté au passé** : _Il m'a dit qu'il **avait perdu** ses clés._"
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Avant le moment passé",
+           "Moment passé de référence",
+           "Cadre"
+          ],
+          [
+           "**plus-que-parfait** : _il avait plu_",
+           "**passé composé** : _je suis sorti_",
+           "**imparfait** : _il faisait froid_"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "_Déjà_ et _ne … pas encore_ accompagnent souvent le plus-que-parfait : _Il n'**avait pas encore** fini quand nous sommes arrivés._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 46,
+   "title": "« Venir de », « être en train de », « être sur le point de »",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Ces trois périphrases situent une action par rapport au moment présent (ou passé) : juste avant, pendant, juste après. Elles sont très fréquentes à l'oral et dans les informations."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 46 (p. 222)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Exprimer le passé récent, le présent progressif et le futur immédiat (venir de, être en train de, être sur le point de).",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Passé récent, action en cours, futur immédiat",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Périphrase",
+           "Sens",
+           "Exemple"
+          ],
+          [
+           "**venir de** + infinitif",
+           "passé récent",
+           "_Le train **vient de** partir._"
+          ],
+          [
+           "**être en train de** + infinitif",
+           "action en cours",
+           "_Je **suis en train de** cuisiner._"
+          ],
+          [
+           "**être sur le point de** + infinitif",
+           "futur immédiat",
+           "_Le spectacle **est sur le point de** commencer._"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Au passé, on met _venir_ et _être_ à l'**imparfait** : _Il **venait d'**arriver quand tu as appelé. J'**étais en train de** dormir._"
+        },
+        {
+         "t": "note",
+         "md": "Ne confondez pas _venir de_ + infinitif (passé récent) et _venir de_ + lieu (origine) : _Je viens **de manger**_ / _Je viens **de Lyon**_."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

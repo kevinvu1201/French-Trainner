@@ -54,20 +54,56 @@
    }
   },
   {
+   "id": "q.16.a.002",
+   "los": "los.16.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Vous …… à Lyon depuis longtemps ?",
+   "options": [
+    "habitent",
+    "habites",
+    "habitez"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _habitent_ va avec _ils_.",
+    "B": "Faux. _habites_ va avec _tu_.",
+    "C": "Correct. _vous habitez_."
+   }
+  },
+  {
+   "id": "q.16.a.003",
+   "los": "los.16.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu …… le samedi ?",
+   "options": [
+    "travaille",
+    "travailles",
+    "travaillez"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Avec _tu_, la terminaison est _-es_.",
+    "B": "Correct. _tu travailles_.",
+    "C": "Faux. _travaillez_ va avec _vous_."
+   }
+  },
+  {
    "id": "q.16.b.001",
    "los": "los.16.b",
    "difficulty": 1,
    "qtype": "form",
    "stem": "Nous …… la réunion à 9 heures.",
    "options": [
-    "commencons",
     "commençons",
+    "commencons",
     "commencont"
    ],
-   "answer": "B",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. Il faut une cédille devant _o_.",
-    "B": "Correct. _-cer_ : _ç_ devant _o_.",
+    "A": "Correct. _-cer_ : _ç_ devant _o_.",
+    "B": "Faux. Il faut une cédille devant _o_.",
     "C": "Faux. La terminaison de _nous_ est _-ons_."
    }
   },
@@ -97,14 +133,14 @@
    "stem": "J'…… mon pain dans cette boulangerie.",
    "options": [
     "achete",
-    "achette",
-    "achète"
+    "achète",
+    "achette"
    ],
-   "answer": "C",
+   "answer": "B",
    "explanations": {
     "A": "Faux. Il faut un accent grave.",
-    "B": "Faux. _acheter_ prend un accent, il ne double pas le _t_.",
-    "C": "Correct. _e → è_ devant une syllabe muette."
+    "B": "Correct. _e → è_ devant une syllabe muette.",
+    "C": "Faux. _acheter_ prend un accent, il ne double pas le _t_."
    }
   },
   {
@@ -114,15 +150,15 @@
    "qtype": "form",
    "stem": "Comment est-ce que tu t'…… ?",
    "options": [
-    "appelles",
     "appeles",
-    "appèles"
+    "appèles",
+    "appelles"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. _-eler_ : _ll_ devant un _e_ muet.",
-    "B": "Faux. _appeler_ double le _l_ devant un _e_ muet.",
-    "C": "Faux. _appeler_ double la consonne, il ne prend pas d'accent."
+    "A": "Faux. _appeler_ double le _l_ devant un _e_ muet.",
+    "B": "Faux. _appeler_ double la consonne, il ne prend pas d'accent.",
+    "C": "Correct. _-eler_ : _ll_ devant un _e_ muet."
    }
   },
   {
@@ -132,14 +168,14 @@
    "qtype": "form",
    "stem": "Nous vous …… demain à 10 heures.",
    "options": [
-    "appellons",
     "appelons",
+    "appellons",
     "appelont"
    ],
-   "answer": "B",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. _nous_ garde le radical de l'infinitif : un seul _l_.",
-    "B": "Correct. Avec _nous_, la terminaison est prononcée : pas de doublement.",
+    "A": "Correct. Avec _nous_, la terminaison est prononcée : pas de doublement.",
+    "B": "Faux. _nous_ garde le radical de l'infinitif : un seul _l_.",
     "C": "Faux. La terminaison est _-ons_."
    }
   },
@@ -151,14 +187,14 @@
    "stem": "Je …… le thé au café.",
    "options": [
     "préfére",
-    "prefère",
-    "préfère"
+    "préfère",
+    "prefère"
    ],
-   "answer": "C",
+   "answer": "B",
    "explanations": {
     "A": "Faux. Il faut un accent grave sur le deuxième _e_.",
-    "B": "Faux. Le premier _é_ garde son accent aigu.",
-    "C": "Correct. _é → è_ devant une syllabe muette."
+    "B": "Correct. _é → è_ devant une syllabe muette.",
+    "C": "Faux. Le premier _é_ garde son accent aigu."
    }
   },
   {
@@ -168,15 +204,15 @@
    "qtype": "form",
    "stem": "Ils …… leur loyer le 5 de chaque mois.",
    "options": [
-    "paient",
     "payons",
-    "paiyent"
+    "paiyent",
+    "paient"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. _-yer_ : _y → i_ devant un _e_ muet (ou _payent_).",
-    "B": "Faux. _payons_ va avec _nous_.",
-    "C": "Faux. Cette forme n'existe pas."
+    "A": "Faux. _payons_ va avec _nous_.",
+    "B": "Faux. Cette forme n'existe pas.",
+    "C": "Correct. _-yer_ : _y → i_ devant un _e_ muet (ou _payent_)."
    }
   }
  ],

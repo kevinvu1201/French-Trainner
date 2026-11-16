@@ -164,20 +164,38 @@
    }
   },
   {
+   "id": "q.04.b.003",
+   "los": "los.04.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "…… soleil se couche plus tôt en hiver.",
+   "options": [
+    "Le",
+    "Un",
+    "Du"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Chose unique → article défini.",
+    "B": "Faux. Il n'y a qu'un soleil : il est identifié.",
+    "C": "Faux. Le partitif ne s'emploie pas avec une chose unique."
+   }
+  },
+  {
    "id": "q.04.c.001",
    "los": "los.04.c",
    "difficulty": 1,
    "qtype": "form",
    "stem": "Ce soir, nous allons …… théâtre.",
    "options": [
-    "au",
     "à le",
+    "au",
     "à la"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanations": {
-    "A": "Correct. _à + le = au_.",
-    "B": "Faux. _à + le_ se contracte toujours.",
+    "A": "Faux. _à + le_ se contracte toujours.",
+    "B": "Correct. _à + le = au_.",
     "C": "Faux. _théâtre_ est masculin."
    }
   },
@@ -207,14 +225,14 @@
    "stem": "Le bureau …… directrice est au troisième étage.",
    "options": [
     "du",
-    "de la",
-    "des"
+    "des",
+    "de la"
    ],
-   "answer": "B",
+   "answer": "C",
    "explanations": {
     "A": "Faux. _du_ = _de + le_ ; _directrice_ est féminin.",
-    "B": "Correct. Pas de contraction avec _la_.",
-    "C": "Faux. _directrice_ est au singulier."
+    "B": "Faux. _directrice_ est au singulier.",
+    "C": "Correct. Pas de contraction avec _la_."
    }
   }
  ],
@@ -235,14 +253,14 @@
      "stem": "Blanc (1) :",
      "options": [
       "à le",
-      "à la",
-      "au"
+      "au",
+      "à la"
      ],
-     "answer": "C",
+     "answer": "B",
      "explanations": {
       "A": "Faux. _à + le_ se contracte.",
-      "B": "Faux. _musée_ est masculin.",
-      "C": "Correct. _aller à + le musée_ → _au_."
+      "B": "Correct. _aller à + le musée_ → _au_.",
+      "C": "Faux. _musée_ est masculin."
      }
     },
     {
@@ -288,14 +306,14 @@
      "qtype": "conceptual",
      "stem": "Blanc (4) :",
      "options": [
-      "des",
       "les",
+      "des",
       "aux"
      ],
-     "answer": "B",
+     "answer": "A",
      "explanations": {
-      "A": "Faux. Le lieu est identifié : il faut le défini.",
-      "B": "Correct. Des chutes précises, identifiées par leur nom → défini.",
+      "A": "Correct. Des chutes précises, identifiées par leur nom → défini.",
+      "B": "Faux. Le lieu est identifié : il faut le défini.",
       "C": "Faux. _visiter_ est transitif direct : pas de _à_."
      }
     }

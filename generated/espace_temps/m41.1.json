@@ -42,15 +42,15 @@
    "qtype": "form",
    "stem": "Quand je suis arrivé, elle m'attendait …… une demi-heure.",
    "options": [
+    "depuis",
     "pendant",
-    "il y a",
-    "depuis"
+    "il y a"
    ],
-   "answer": "C",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. _pendant_ indique une durée terminée.",
-    "B": "Faux. _il y a_ indique un moment, pas une durée en cours.",
-    "C": "Correct. Action en cours au passé → _depuis_ + imparfait."
+    "A": "Correct. Action en cours au passé → _depuis_ + imparfait.",
+    "B": "Faux. _pendant_ indique une durée terminée.",
+    "C": "Faux. _il y a_ indique un moment, pas une durée en cours."
    }
   },
   {
@@ -60,15 +60,33 @@
    "qtype": "form",
    "stem": "…… elle fait du yoga, elle dort beaucoup mieux.",
    "options": [
-    "Depuis qu'",
     "Depuis",
+    "Depuis qu'",
     "Il y a qu'"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanations": {
-    "A": "Correct. _depuis que_ + proposition au présent.",
-    "B": "Faux. Devant une proposition (sujet + verbe), il faut _depuis que_.",
+    "A": "Faux. Devant une proposition (sujet + verbe), il faut _depuis que_.",
+    "B": "Correct. _depuis que_ + proposition au présent.",
     "C": "Faux. Cette structure n'existe pas."
+   }
+  },
+  {
+   "id": "q.41.a.003",
+   "los": "los.41.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ça faisait deux heures …… nous marchions quand il a commencé à pleuvoir.",
+   "options": [
+    "depuis",
+    "pendant",
+    "que"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. La structure est _ça faisait … que_.",
+    "B": "Faux. La structure est _ça faisait … que_.",
+    "C": "Correct. _Ça faisait + durée + que_ + imparfait."
    }
   },
   {
@@ -78,15 +96,15 @@
    "qtype": "form",
    "stem": "Relisez votre texte avant …… le rendre.",
    "options": [
+    "de",
     "que",
-    "à",
-    "de"
+    "à"
    ],
-   "answer": "C",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. _avant que_ demande un sujet et un verbe conjugué.",
-    "B": "Faux. La locution est _avant de_.",
-    "C": "Correct. _avant de_ + infinitif."
+    "A": "Correct. _avant de_ + infinitif.",
+    "B": "Faux. _avant que_ demande un sujet et un verbe conjugué.",
+    "C": "Faux. La locution est _avant de_."
    }
   },
   {
@@ -96,15 +114,15 @@
    "qtype": "form",
    "stem": "Après …… ses études, il est parti travailler au Canada.",
    "options": [
-    "avoir terminé",
     "terminer",
-    "avoir terminer"
+    "avoir terminer",
+    "avoir terminé"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. _après_ + infinitif passé.",
-    "B": "Faux. Après _après_, l'infinitif doit être au passé.",
-    "C": "Faux. Le participe passé est _terminé_."
+    "A": "Faux. Après _après_, l'infinitif doit être au passé.",
+    "B": "Faux. Le participe passé est _terminé_.",
+    "C": "Correct. _après_ + infinitif passé."
    }
   },
   {
@@ -114,14 +132,14 @@
    "qtype": "form",
    "stem": "Après …… à l'hôtel, nous sommes allés dîner.",
    "options": [
-    "avoir arrivé",
     "être arrivés",
+    "avoir arrivé",
     "arriver"
    ],
-   "answer": "B",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. _arriver_ se conjugue avec _être_.",
-    "B": "Correct. Infinitif passé avec _être_ (_arriver_), accordé avec _nous_.",
+    "A": "Correct. Infinitif passé avec _être_ (_arriver_), accordé avec _nous_.",
+    "B": "Faux. _arriver_ se conjugue avec _être_.",
     "C": "Faux. Il faut l'infinitif passé."
    }
   },
@@ -132,14 +150,14 @@
    "qtype": "form",
    "stem": "Après que tout le monde ……, la réunion a commencé.",
    "options": [
-    "est arrivé",
     "soit arrivé",
+    "est arrivé",
     "arrive"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanations": {
-    "A": "Correct. _après que_ + indicatif.",
-    "B": "Faux. _après que_ est suivi de l'indicatif (fait accompli).",
+    "A": "Faux. _après que_ est suivi de l'indicatif (fait accompli).",
+    "B": "Correct. _après que_ + indicatif.",
     "C": "Faux. La concordance demande un temps accompli."
    }
   },
@@ -150,33 +168,51 @@
    "qtype": "vocabulary",
    "stem": "Il est arrivé le 3 mai et il est reparti ……, le 4.",
    "options": [
-    "demain",
     "le lendemain",
+    "demain",
     "la veille"
    ],
-   "answer": "B",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. _demain_ se réfère à aujourd'hui, pas à un moment passé.",
-    "B": "Correct. Le jour suivant un moment passé → _le lendemain_.",
+    "A": "Correct. Le jour suivant un moment passé → _le lendemain_.",
+    "B": "Faux. _demain_ se réfère à aujourd'hui, pas à un moment passé.",
     "C": "Faux. _la veille_ = le jour précédent."
    }
   },
   {
    "id": "q.41.c.002",
    "los": "los.41.c",
+   "difficulty": 3,
+   "qtype": "vocabulary",
+   "stem": "En mars, il m'a écrit qu'il viendrait ……, c'est-à-dire en avril.",
+   "options": [
+    "le mois prochain",
+    "le mois précédent",
+    "le mois suivant"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _prochain_ se réfère au moment présent, pas à mars.",
+    "B": "Faux. Avril vient après mars.",
+    "C": "Correct. Par rapport à un moment passé → _le mois suivant_."
+   }
+  },
+  {
+   "id": "q.41.c.003",
+   "los": "los.41.c",
    "difficulty": 2,
    "qtype": "vocabulary",
    "stem": "Elle s'est mariée le 10 juin ; ……, elle avait fait une grande fête avec ses amies.",
    "options": [
     "hier",
-    "le lendemain",
-    "la veille"
+    "la veille",
+    "le lendemain"
    ],
-   "answer": "C",
+   "answer": "B",
    "explanations": {
     "A": "Faux. _hier_ se réfère à aujourd'hui.",
-    "B": "Faux. La fête précède le mariage (_avait fait_).",
-    "C": "Correct. Le jour précédent un moment passé → _la veille_."
+    "B": "Correct. Le jour précédent un moment passé → _la veille_.",
+    "C": "Faux. La fête précède le mariage (_avait fait_)."
    }
   }
  ],

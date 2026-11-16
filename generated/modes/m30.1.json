@@ -1,0 +1,205 @@
+{
+ "module": "m30.1",
+ "source_hash": "634f0cf97b3e",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "L'impératif n'a pas de sujet exprimé et seulement trois personnes."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Formes du présent (sans _s_ final pour _-er_ à _tu_) ; _être, avoir, savoir, vouloir_ prennent les formes du subjonctif."
+   },
+   {
+    "stage": "result",
+    "md": "À l'affirmatif, les pronoms suivent le verbe (_moi, toi_) ; au négatif, ils le précèdent."
+   }
+  ],
+  "why_it_matters": "Consignes et conseils à l'impératif sont omniprésents dans les documents authentiques (affiches, notices, articles pratiques).",
+  "exam_approach": {
+   "look_first": [
+    "la personne (tu / nous / vous)",
+    "un verbe en _-er_ à la 2e personne",
+    "affirmatif ou négatif ?"
+   ],
+   "traps": [
+    "*_manges !_",
+    "*_sois patiente_ / _soit patiente_ (orthographe)",
+    "*_donne-moi-le_"
+   ],
+   "distractors": [
+    "la forme du présent avec _s_",
+    "le pronom mal placé"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.30.a.001",
+   "los": "los.30.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "…… tes légumes, s'il te plaît !",
+   "options": [
+    "Manges",
+    "Mange",
+    "Mangez"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. À l'impératif, _-er_ perd le _s_ à la 2e personne.",
+    "B": "Correct. Verbe en _-er_ : pas de _s_ à l'impératif (tu).",
+    "C": "Faux. On s'adresse à _tu_ (_tes légumes_)."
+   }
+  },
+  {
+   "id": "q.30.a.002",
+   "los": "los.30.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "…… patients, les résultats arrivent bientôt.",
+   "options": [
+    "Êtes",
+    "Soyiez",
+    "Soyez"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. C'est l'indicatif présent.",
+    "B": "Faux. Pas de _i_ après le _y_.",
+    "C": "Correct. Impératif d'_être_ (vous)."
+   }
+  },
+  {
+   "id": "q.30.a.003",
+   "los": "los.30.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "N'…… pas peur, ce chien est très gentil.",
+   "options": [
+    "aie",
+    "as",
+    "ais"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Impératif d'_avoir_ (tu).",
+    "B": "Faux. C'est l'indicatif présent.",
+    "C": "Faux. Cette forme n'existe pas."
+   }
+  },
+  {
+   "id": "q.30.a.004",
+   "los": "los.30.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Tu veux du gâteau ? ……-en un morceau !",
+   "options": [
+    "Prends",
+    "Prend",
+    "Prenez"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _prendre_ (tu) : _prends_.",
+    "B": "Faux. Seuls les verbes en _-er_ perdent le _s_.",
+    "C": "Faux. On s'adresse à _tu_."
+   }
+  },
+  {
+   "id": "q.30.a.005",
+   "los": "los.30.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Le métro ? ……-y à pied, c'est à cinq minutes.",
+   "options": [
+    "Va",
+    "Vat",
+    "Vas"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Devant _y_, on écrit _vas-y_.",
+    "B": "Faux. On écrit _vas-y_ : le _s_ revient, pas un _t_.",
+    "C": "Correct. Devant _y_, _va_ reprend un _s_."
+   }
+  },
+  {
+   "id": "q.30.b.001",
+   "los": "los.30.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu as fini le livre ? …… !",
+   "options": [
+    "Prête-moi-le",
+    "Prête-le-moi",
+    "Me le prête"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Ordre à l'affirmatif : COD avant COI.",
+    "B": "Correct. Affirmatif : verbe + COD + _moi_.",
+    "C": "Faux. À l'affirmatif, les pronoms suivent le verbe."
+   }
+  },
+  {
+   "id": "q.30.b.002",
+   "los": "los.30.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ne …… pas, il est tôt.",
+   "options": [
+    "lève-toi",
+    "toi lève",
+    "te lève"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Au négatif, le pronom précède le verbe.",
+    "B": "Faux. Au négatif, _te_ précède le verbe.",
+    "C": "Correct. Négatif : pronom devant le verbe."
+   }
+  },
+  {
+   "id": "q.30.b.003",
+   "los": "los.30.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ta grand-mère t'a écrit ? …… vite !",
+   "options": [
+    "Réponds-la",
+    "Réponds-lui",
+    "Lui réponds"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _répondre_ se construit avec _à_ : _lui_.",
+    "B": "Correct. _répondre à qqn_ → _lui_, après le verbe à l'affirmatif.",
+    "C": "Faux. À l'affirmatif, le pronom suit le verbe."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.30.imperatif-s",
+   "los": [
+    "los.30.a"
+   ],
+   "name": "Impératif des verbes en -er",
+   "front": "Tu : manger / aller ?",
+   "back": "**Mange ! Va !** (sans _s_) ; mais **Manges-en ! Vas-y !**"
+  },
+  {
+   "id": "f.30.imperatif-pronoms",
+   "los": [
+    "los.30.b"
+   ],
+   "name": "Pronoms à l'impératif",
+   "front": "Donne + le + moi ? / négatif ?",
+   "back": "**Donne-le-moi** ; **Ne me le donne pas**."
+  }
+ ]
+}

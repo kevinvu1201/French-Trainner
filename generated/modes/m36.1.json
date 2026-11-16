@@ -1,0 +1,178 @@
+{
+ "module": "m36.1",
+ "source_hash": "6b284be5cdc8",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le gérondif relie une seconde action au sujet de la phrase principale."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_en_ + radical de _nous_ + _-ant_ ; il exprime simultanéité, manière, moyen ou condition."
+   },
+   {
+    "stage": "result",
+    "md": "Sans _en_, le participe présent appartient à l'écrit ; l'adjectif verbal, lui, s'accorde."
+   }
+  ],
+  "why_it_matters": "Le gérondif et le participe présent condensent le style : valorisés dans l'essai et la lettre formelle.",
+  "exam_approach": {
+   "look_first": [
+    "le sujet des deux actions (le même ?)",
+    "_en_ présent ou non",
+    "un accord (adjectif) ?"
+   ],
+   "traps": [
+    "*_en faisant_ avec un autre sujet",
+    "*_en sachant_ / _savant_",
+    "_fatiguant_ / _fatigant_"
+   ],
+   "distractors": [
+    "un participe mal formé",
+    "l'infinitif après _en_"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.36.a.001",
+   "los": "los.36.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ne téléphone pas …… !",
+   "options": [
+    "en conduisant",
+    "en conduire",
+    "en conduisent"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Simultanéité → gérondif (_nous conduisons_ → _conduisant_).",
+    "B": "Faux. _en_ est suivi du participe présent.",
+    "C": "Faux. Il faut la forme en _-ant_."
+   }
+  },
+  {
+   "id": "q.36.a.002",
+   "los": "los.36.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "C'est …… qu'on devient forgeron.",
+   "options": [
+    "en forgant",
+    "à forger",
+    "en forgeant"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il faut un _e_ pour garder le son [ʒ].",
+    "B": "Faux. Le proverbe emploie le gérondif.",
+    "C": "Correct. Moyen → gérondif (_forger_ → _forgeant_, avec _e_)."
+   }
+  },
+  {
+   "id": "q.36.a.003",
+   "los": "los.36.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "……, vous économiserez 20 % (si vous réservez en ligne).",
+   "options": [
+    "En réservant en ligne",
+    "Réservant en ligne",
+    "En réserver en ligne"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Condition → gérondif.",
+    "B": "Faux. Sans _en_, le sens de condition se perd.",
+    "C": "Faux. _en_ est suivi du participe présent."
+   }
+  },
+  {
+   "id": "q.36.a.004",
+   "los": "los.36.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "…… la réponse, elle aurait pu nous aider.",
+   "options": [
+    "Savant",
+    "Sachant",
+    "Savoirant"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _savant_ est un adjectif ou un nom.",
+    "B": "Correct. _savoir_ → _sachant_ (exception).",
+    "C": "Faux. Cette forme n'existe pas."
+   }
+  },
+  {
+   "id": "q.36.b.001",
+   "los": "los.36.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Les candidats …… le niveau B2 pourront s'inscrire.",
+   "options": [
+    "ayants",
+    "en ayant",
+    "ayant"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le participe présent est invariable.",
+    "B": "Faux. Le gérondif se rapporte au sujet du verbe principal, pas au nom.",
+    "C": "Correct. Participe présent (= qui ont)."
+   }
+  },
+  {
+   "id": "q.36.b.002",
+   "los": "los.36.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Les résultats …… de l'étude ont surpris les chercheurs.",
+   "options": [
+    "convainquants",
+    "convaincants",
+    "convaincant"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _convainquant_ est le participe présent ; l'adjectif s'écrit _convaincant_.",
+    "B": "Correct. Adjectif verbal, accordé : _convaincant(s)_.",
+    "C": "Faux. L'adjectif s'accorde avec _résultats_."
+   }
+  },
+  {
+   "id": "q.36.b.003",
+   "los": "los.36.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Ce trajet quotidien est vraiment …….",
+   "options": [
+    "fatigant",
+    "fatiguant",
+    "en fatiguant"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Adjectif verbal : _fatigant_ (sans _u_).",
+    "B": "Faux. _fatiguant_ est le participe présent ; l'adjectif s'écrit _fatigant_.",
+    "C": "Faux. Il faut un adjectif après _être_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.36.gerondif",
+   "los": [
+    "los.36.a"
+   ],
+   "name": "Le gérondif",
+   "front": "Formation et sens ?",
+   "back": "**en** + radical de _nous_ + **-ant** (étant, ayant, sachant) : simultanéité, manière, moyen, condition. Même sujet que le verbe principal."
+  }
+ ]
+}

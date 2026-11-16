@@ -1,6 +1,73 @@
 {
  "readings": [
   {
+   "number": 31,
+   "title": "Le conditionnel (1) : la politesse et le conseil",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Avant d'imaginer et de faire des hypothèses, le conditionnel sert au quotidien à **demander poliment** et à **conseiller**. Ces formules toutes faites (_je voudrais, pourriez-vous, vous devriez, il faudrait_) sont attendues dans la lettre formelle et à l'oral."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 31 (p. 136)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Employer les formes courantes du conditionnel pour la politesse, le souhait et le conseil.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Politesse, souhait et conseil",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Intention",
+           "Formules"
+          ],
+          [
+           "demande polie",
+           "_Je **voudrais** un rendez-vous. **Pourriez**-vous m'aider ? **Auriez**-vous un instant ? Ça vous **dérangerait** de… ?_"
+          ],
+          [
+           "souhait",
+           "_J'**aimerais** partir à l'étranger. Nous **souhaiterions** obtenir des informations._"
+          ],
+          [
+           "conseil",
+           "_Tu **devrais** te reposer. Vous **pourriez** essayer… À ta place, je **ferais**… Il **faudrait** / il **vaudrait mieux**…_"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Ces formes se construisent sur le radical du futur + _-ais, -ait, -ions, -iez, -aient_ (voir chapitre 49)."
+        },
+        {
+         "t": "note",
+         "md": "Dans une lettre formelle, préférez _je souhaiterais_ ou _je vous serais reconnaissant(e) de…_ à _je veux_, jugé trop direct."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
    "number": 49,
    "title": "Le conditionnel",
    "exam_focus": [

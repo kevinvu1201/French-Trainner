@@ -184,19 +184,55 @@
   {
    "id": "q.18.c.001",
    "los": "los.18.c",
+   "difficulty": 1,
+   "qtype": "vocabulary",
+   "stem": "J'ai perdu mes clés : je les ai cherchées …… dans l'appartement.",
+   "options": [
+    "ailleurs",
+    "dessous",
+    "partout"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _ailleurs_ = dans un autre endroit.",
+    "B": "Faux. _dessous_ demande un repère (_sous la table_).",
+    "C": "Correct. _partout_ = dans tous les endroits."
+   }
+  },
+  {
+   "id": "q.18.c.002",
+   "los": "los.18.c",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "Ce restaurant est complet : allons manger …….",
+   "options": [
+    "ailleurs",
+    "partout",
+    "dedans"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _ailleurs_ = dans un autre endroit.",
+    "B": "Faux. _partout_ = dans tous les endroits.",
+    "C": "Faux. _dedans_ = à l'intérieur, ici impossible."
+   }
+  },
+  {
+   "id": "q.18.c.003",
+   "los": "los.18.c",
    "difficulty": 2,
    "qtype": "vocabulary",
    "stem": "Le magasin a fermé : ……, il faudra commander en ligne.",
    "options": [
     "autrefois",
-    "déjà",
-    "désormais"
+    "désormais",
+    "déjà"
    ],
-   "answer": "C",
+   "answer": "B",
    "explanations": {
     "A": "Faux. _autrefois_ renvoie au passé.",
-    "B": "Faux. _déjà_ n'exprime pas le point de départ d'une nouvelle situation.",
-    "C": "Correct. _désormais_ = à partir de maintenant."
+    "B": "Correct. _désormais_ = à partir de maintenant.",
+    "C": "Faux. _déjà_ n'exprime pas le point de départ d'une nouvelle situation."
    }
   }
  ],

@@ -71,20 +71,38 @@
    }
   },
   {
+   "id": "q.21.a.003",
+   "los": "los.21.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ils vivent …… Québec, à Montréal, depuis cinq ans.",
+   "options": [
+    "au",
+    "en",
+    "dans la"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. La province est masculine : _au Québec_.",
+    "B": "Faux. _Québec_ (province) est masculin.",
+    "C": "Faux. _Québec_ est masculin."
+   }
+  },
+  {
    "id": "q.21.b.001",
    "los": "los.21.b",
    "difficulty": 1,
    "qtype": "form",
    "stem": "Cet étudiant vient …… Japon.",
    "options": [
-    "du",
     "de",
+    "du",
     "de le"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanations": {
-    "A": "Correct. Pays masculin → _du_.",
-    "B": "Faux. Devant un pays masculin, on emploie _du_.",
+    "A": "Faux. Devant un pays masculin, on emploie _du_.",
+    "B": "Correct. Pays masculin → _du_.",
     "C": "Faux. _de + le_ se contracte en _du_."
    }
   },
@@ -96,14 +114,14 @@
    "stem": "Ce café vient …… Colombie.",
    "options": [
     "de la",
-    "de",
-    "du"
+    "du",
+    "de"
    ],
-   "answer": "B",
+   "answer": "C",
    "explanations": {
     "A": "Faux. Après _venir de_, on omet l'article devant un pays féminin.",
-    "B": "Correct. Pays féminin → _de_ sans article.",
-    "C": "Faux. _Colombie_ est féminin."
+    "B": "Faux. _Colombie_ est féminin.",
+    "C": "Correct. Pays féminin → _de_ sans article."
    }
   },
   {
@@ -113,15 +131,15 @@
    "qtype": "form",
    "stem": "Ma collègue rentre …… États-Unis demain.",
    "options": [
+    "des",
     "de",
-    "aux",
-    "des"
+    "aux"
    ],
-   "answer": "C",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. _États-Unis_ est pluriel : _des_.",
-    "B": "Faux. _aux_ indique la destination.",
-    "C": "Correct. Pays pluriel → _des_."
+    "A": "Correct. Pays pluriel → _des_.",
+    "B": "Faux. _États-Unis_ est pluriel : _des_.",
+    "C": "Faux. _aux_ indique la destination."
    }
   },
   {

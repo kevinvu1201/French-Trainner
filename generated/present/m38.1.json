@@ -127,6 +127,24 @@
   {
    "id": "q.38.b.002",
    "los": "los.38.b",
+   "difficulty": 2,
+   "qtype": "vocabulary",
+   "stem": "Cet été, nous allons …… nos amis à Nice.",
+   "options": [
+    "rendre visite à",
+    "visiter à",
+    "rendre visite"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Des personnes → _rendre visite à_.",
+    "B": "Faux. *_visiter à_ n'existe pas.",
+    "C": "Faux. _rendre visite_ se construit avec _à_."
+   }
+  },
+  {
+   "id": "q.38.b.003",
+   "los": "los.38.b",
    "difficulty": 1,
    "qtype": "vocabulary",
    "stem": "Nous avons …… le château de Versailles.",

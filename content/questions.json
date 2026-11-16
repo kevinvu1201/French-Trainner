@@ -1,0 +1,337 @@
+{
+ "readings": [
+  {
+   "number": 3,
+   "title": "La négation et l'interrogation (1)",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Poser une question et répondre négativement sont les gestes de base de l'interaction orale. Il y a trois registres de question, et la réponse à une question négative se fait avec **si**."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 3 (p. 18)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former la négation simple (_ne … pas_) et la question totale dans les trois registres.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Répondre _oui, non, si_ et _moi aussi / moi non plus_.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "La négation simple, la question simple et la réponse",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Négation** : _ne_ + verbe + _pas_ : _Je **ne** parle **pas** chinois. Il **n'**est **pas** là._ À l'oral familier, le _ne_ disparaît souvent (_je parle pas_) — pas à l'écrit."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Registre",
+           "Question totale (réponse oui / non)"
+          ],
+          [
+           "familier (intonation)",
+           "_Tu viens ?_"
+          ],
+          [
+           "courant",
+           "_**Est-ce que** tu viens ?_"
+          ],
+          [
+           "soutenu (inversion)",
+           "_Viens-**tu** ? Votre fils vient-**il** ?_"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Inversion avec _il / elle / on_ et un verbe terminé par une voyelle : **-t-** : _Parle-**t**-il anglais ? A-**t**-elle fini ?_"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "Question affirmative : **oui** / **non** : _Tu aimes le jazz ? — Oui. / Non._",
+          "Question **négative** : **si** pour contredire, **non** pour confirmer : _Tu n'aimes pas le jazz ? — **Si**, j'adore ! / **Non**, pas du tout._",
+          "Accord : _J'aime le jazz. — **Moi aussi**._ / _Je n'aime pas le jazz. — **Moi non plus**._"
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "title": "L'interrogation (2) : les mots interrogatifs",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Les mots interrogatifs (_où, quand, comment, pourquoi, qui, que, quoi, quel, lequel_) servent à demander une information précise. Au DELF oral, on doit poser des questions variées et correctes à l'examinateur (débat, simulation)."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 33 (p. 148)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Poser une question partielle avec _où, quand, comment, combien, pourquoi_ dans les trois registres.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Choisir entre _qui, que, quoi_ et _qu'est-ce qui / qu'est-ce que_.",
+     "module": 1
+    },
+    {
+     "letter": "c",
+     "text": "Employer _quel(s), quelle(s)_, _lequel_ et l'exclamation.",
+     "module": 2
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "« Où », « quand », « comment », « qui », « que », « quoi »",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Registre",
+           "Exemple"
+          ],
+          [
+           "familier",
+           "_Tu pars **quand** ? Tu vas **où** ?_"
+          ],
+          [
+           "courant",
+           "_**Quand est-ce que** tu pars ?_"
+          ],
+          [
+           "soutenu",
+           "_**Quand** partez-vous ? **Où** votre fils travaille-t-il ?_"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "_Où, quand, comment, combien (de), pourquoi_ : on peut aussi faire l'inversion simple avec un nom sujet court : _**Où** travaille **ton frère** ?_"
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "",
+           "Personne",
+           "Chose"
+          ],
+          [
+           "Sujet",
+           "**Qui** / Qui est-ce qui téléphone ?",
+           "**Qu'est-ce qui** se passe ?"
+          ],
+          [
+           "COD",
+           "**Qui** cherches-tu ? / Qui est-ce que tu cherches ?",
+           "**Que** cherches-tu ? / **Qu'est-ce que** tu cherches ? / Tu cherches **quoi** ?"
+          ],
+          [
+           "après préposition",
+           "**Avec qui** pars-tu ?",
+           "**À quoi** penses-tu ? **De quoi** parlez-vous ?"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "**Quoi** se place en fin de question (familier) ou après une préposition. **Que** se place en tête avec l'inversion. *_Qu'est-ce qui tu veux_ est faux : _qui_ = sujet, _que_ = COD."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 2,
+     "title": "« Quel », « lequel » et l'exclamation",
+     "sections": [
+      {
+       "los": [
+        "c"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Quel / quelle / quels / quelles** + nom ou + _être_ : _**Quelle** heure est-il ? **Quels** sont vos projets ?_"
+        },
+        {
+         "t": "p",
+         "md": "**Lequel / laquelle / lesquels / lesquelles** : choix entre des éléments connus : _J'ai deux robes. **Laquelle** préfères-tu ?_ Contractions : **auquel, auxquels, duquel, desquels** : _**Auquel** de ces projets participes-tu ?_"
+        },
+        {
+         "t": "p",
+         "md": "**Exclamation** : _**Quel** beau paysage ! **Quelle** chance ! **Comme** c'est beau ! **Qu'**il est gentil !_"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "title": "La négation (2)",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Au-delà de _ne … pas_, la négation se nuance : _ne … jamais, ne … plus, ne … rien, ne … personne, ne … aucun, ne … que, ni … ni, sans_. Ces formes enrichissent l'expression et sont souvent testées en compréhension (_il ne reste que…_ = seulement)."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 34 (p. 152)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Employer _ne … jamais, plus, rien, personne, aucun, nulle part_ (et leur place aux temps composés).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer _ne … que_ (restriction), _ni … ni_ et _sans_.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "« Ne … jamais », « ne … plus », etc.",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Affirmation",
+           "Négation"
+          ],
+          [
+           "toujours, souvent",
+           "**ne … jamais**"
+          ],
+          [
+           "encore (continuité)",
+           "**ne … plus**"
+          ],
+          [
+           "déjà",
+           "**ne … pas encore**"
+          ],
+          [
+           "quelque chose, tout",
+           "**ne … rien**"
+          ],
+          [
+           "quelqu'un, tout le monde",
+           "**ne … personne**"
+          ],
+          [
+           "un, des, quelques",
+           "**ne … aucun(e)**"
+          ],
+          [
+           "quelque part, partout",
+           "**ne … nulle part**"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Temps composés** : _jamais, plus, rien, pas_ se placent **avant** le participe : _Je n'ai **jamais** vu ça. Il n'a **rien** compris._ Mais _personne, aucun, nulle part_ se placent **après** : _Je n'ai vu **personne**. Il n'a trouvé **aucune** solution._"
+        },
+        {
+         "t": "p",
+         "md": "**Infinitif** : les deux éléments se placent avant : _Il a décidé de **ne plus** fumer. Attention à **ne rien** oublier._"
+        },
+        {
+         "t": "note",
+         "md": "En position sujet : _**Personne n'**est venu. **Rien ne** marche. **Aucun** étudiant **n'**a réussi._ (jamais de _pas_ en plus)."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**ne … que** = seulement (restriction, sens positif) : _Il **ne** boit **que** de l'eau. Il **n'**y a **qu'**une solution._",
+          "**ni … ni … ne** / **ne … ni … ni** : _Je **n'**aime **ni** le thé **ni** le café. **Ni** Paul **ni** Marie **ne** sont venus._",
+          "**sans** + infinitif / nom (sans article) : _Il est parti **sans** dire au revoir. Un café **sans** sucre._"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Après _ni … ni_ ou _sans_, l'article indéfini et le partitif disparaissent : _Je n'ai ni frère ni sœur. Sans argent._"
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

@@ -72,21 +72,39 @@
    }
   },
   {
+   "id": "q.07.a.003",
+   "los": "los.07.a",
+   "difficulty": 1,
+   "qtype": "vocabulary",
+   "stem": "Le frère de ma mère est mon …….",
+   "options": [
+    "neveu",
+    "oncle",
+    "cousin"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le neveu est le fils de mon frère ou de ma sœur.",
+    "B": "Correct. Le frère d'un parent → oncle.",
+    "C": "Faux. Le cousin est le fils de mon oncle ou de ma tante."
+   }
+  },
+  {
    "id": "q.07.b.001",
    "los": "los.07.b",
    "difficulty": 1,
    "qtype": "form",
    "stem": "Tout le monde …… content de partir en vacances.",
    "options": [
-    "est",
     "sont",
-    "êtes"
+    "êtes",
+    "est"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. _tout le monde_ → singulier.",
-    "B": "Faux. _tout le monde_ est grammaticalement singulier.",
-    "C": "Faux. _êtes_ va avec _vous_."
+    "A": "Faux. _tout le monde_ est grammaticalement singulier.",
+    "B": "Faux. _êtes_ va avec _vous_.",
+    "C": "Correct. _tout le monde_ → singulier."
    }
   },
   {
@@ -96,15 +114,15 @@
    "qtype": "form",
    "stem": "La plupart des salariés …… en télétravail le vendredi.",
    "options": [
+    "sont",
     "est",
-    "es",
-    "sont"
+    "es"
    ],
-   "answer": "C",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. Après _la plupart_, le verbe est au pluriel.",
-    "B": "Faux. _es_ va avec _tu_.",
-    "C": "Correct. _la plupart des_ → pluriel."
+    "A": "Correct. _la plupart des_ → pluriel.",
+    "B": "Faux. Après _la plupart_, le verbe est au pluriel.",
+    "C": "Faux. _es_ va avec _tu_."
    }
   },
   {

@@ -1,0 +1,141 @@
+{
+ "module": "m43.1",
+ "source_hash": "208f1152c54f",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "L'imparfait présente une action passée **sans début ni fin** visibles."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Radical de _nous_ au présent + _-ais, -ait, -ions, -iez, -aient_ ; seule exception : _être → ét-_."
+   },
+   {
+    "stage": "result",
+    "md": "On l'emploie pour les habitudes, les descriptions et les états du passé."
+   }
+  ],
+  "why_it_matters": "Chaque récit (lettre, témoignage, expérience personnelle) mobilise l'imparfait : formes et emplois sont évalués.",
+  "exam_approach": {
+   "look_first": [
+    "habitude, description ou événement ?",
+    "la forme de _nous_ au présent"
+   ],
+   "traps": [
+    "*_j'étudais_",
+    "*_nous mangions_ / _nous mangeons_ confusion",
+    "*_j'avais_ pour _j'étais_"
+   ],
+   "distractors": [
+    "le passé composé pour une habitude",
+    "un radical fautif"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.43.a.001",
+   "los": "los.43.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Quand j'étais enfant, je …… au foot tous les mercredis.",
+   "options": [
+    "jouais",
+    "ai joué",
+    "jouerais"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Habitude passée → imparfait.",
+    "B": "Faux. Une habitude répétée s'exprime à l'imparfait.",
+    "C": "Faux. C'est le conditionnel."
+   }
+  },
+  {
+   "id": "q.43.a.002",
+   "los": "los.43.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ce jour-là, il …… très froid.",
+   "options": [
+    "fesait",
+    "faisait",
+    "a fait"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. L'orthographe est _faisait_.",
+    "B": "Correct. Description (météo) → imparfait de _faire_.",
+    "C": "Faux. La météo sert de décor : imparfait."
+   }
+  },
+  {
+   "id": "q.43.a.003",
+   "los": "los.43.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Avant, nous …… en banlieue.",
+   "options": [
+    "habitons",
+    "habitiions",
+    "habitions"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. C'est le présent.",
+    "B": "Faux. Un seul _i_ : le radical est _habit-_.",
+    "C": "Correct. _nous_ + _-ions_."
+   }
+  },
+  {
+   "id": "q.43.a.004",
+   "los": "los.43.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "À l'université, vous …… le droit ?",
+   "options": [
+    "étudiez",
+    "étudiiez",
+    "étudiaiez"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. C'est le présent.",
+    "B": "Correct. Radical _étudi-_ + _-iez_ : deux _i_.",
+    "C": "Faux. La terminaison est _-iez_."
+   }
+  },
+  {
+   "id": "q.43.a.005",
+   "los": "los.43.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Mes grands-parents …… une petite ferme en Auvergne.",
+   "options": [
+    "avait",
+    "ont eu",
+    "avaient"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le sujet est pluriel.",
+    "B": "Faux. La situation durable s'exprime à l'imparfait.",
+    "C": "Correct. Description d'une situation passée → imparfait."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.43.imparfait",
+   "los": [
+    "los.43.a"
+   ],
+   "name": "Formation de l'imparfait",
+   "front": "Imparfait = ?",
+   "back": "radical de **nous** au présent + **-ais, -ais, -ait, -ions, -iez, -aient** ; exception : _être → j'étais_."
+  }
+ ]
+}

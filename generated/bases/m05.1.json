@@ -60,15 +60,15 @@
    "qtype": "conceptual",
    "stem": "J'ai rencontré ton frère : …… très drôle !",
    "options": [
-    "il est",
     "c'est",
-    "elle est"
+    "elle est",
+    "il est"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. Adjectif qui décrit une personne précise → _il est_.",
-    "B": "Faux. _c'est + adjectif_ commente une situation, pas une personne précise.",
-    "C": "Faux. _frère_ est masculin."
+    "A": "Faux. _c'est + adjectif_ commente une situation, pas une personne précise.",
+    "B": "Faux. _frère_ est masculin.",
+    "C": "Correct. Adjectif qui décrit une personne précise → _il est_."
    }
   },
   {
@@ -79,14 +79,14 @@
    "stem": "Apprendre une langue en trois mois ? …… difficile, mais possible.",
    "options": [
     "Elle est",
-    "Il est",
-    "C'est"
+    "C'est",
+    "Il est"
    ],
-   "answer": "C",
+   "answer": "B",
    "explanations": {
     "A": "Faux. On ne commente pas un nom féminin précis, mais une idée.",
-    "B": "Faux. _il est difficile_ se construit avec _de_ + infinitif à la suite.",
-    "C": "Correct. Commentaire sur une idée → _c'est + adjectif masculin_."
+    "B": "Correct. Commentaire sur une idée → _c'est + adjectif masculin_.",
+    "C": "Faux. _il est difficile_ se construit avec _de_ + infinitif à la suite."
    }
   },
   {
@@ -133,14 +133,14 @@
    "stem": "Mon voisin ? …… architecte très connu.",
    "options": [
     "Il est un",
-    "C'est un",
-    "Il est"
+    "Il est",
+    "C'est un"
    ],
-   "answer": "B",
+   "answer": "C",
    "explanations": {
     "A": "Faux. *_Il est un_ + nom est fautif.",
-    "B": "Correct. Profession qualifiée (_très connu_) → _c'est un_.",
-    "C": "Faux. Avec l'adjectif, le nom doit être déterminé."
+    "B": "Faux. Avec l'adjectif, le nom doit être déterminé.",
+    "C": "Correct. Profession qualifiée (_très connu_) → _c'est un_."
    }
   },
   {

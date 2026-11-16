@@ -35,6 +35,8 @@ c.module(1, "Conjugaison, prononciation et orthographe", sections=[
   distractors=["le radical non modifié", "la modification appliquée à _nous / vous_"],
   questions=[
     Q("a", 1, "form", "Mes collègues ___ trois langues.", ("parlent", "_ils parlent_."), [("parles", "_parles_ va avec _tu_."), ("parlons", "_parlons_ va avec _nous_.")]),
+    Q("a", 1, "form", "Vous ___ à Lyon depuis longtemps ?", ("habitez", "_vous habitez_."), [("habitent", "_habitent_ va avec _ils_."), ("habites", "_habites_ va avec _tu_.")]),
+    Q("a", 1, "form", "Tu ___ le samedi ?", ("travailles", "_tu travailles_."), [("travaille", "Avec _tu_, la terminaison est _-es_."), ("travaillez", "_travaillez_ va avec _vous_.")]),
     Q("b", 1, "form", "Nous ___ la réunion à 9 heures.", ("commençons", "_-cer_ : _ç_ devant _o_."), [("commencons", "Il faut une cédille devant _o_."), ("commencont", "La terminaison de _nous_ est _-ons_.")]),
     Q("b", 1, "form", "Le soir, nous ___ souvent au restaurant.", ("mangeons", "_-ger_ : _e_ devant _o_."), [("mangons", "Il faut un _e_ pour garder le son [ʒ]."), ("mangions", "C'est l'imparfait ou le subjonctif.")]),
     Q("b", 2, "form", "J'___ mon pain dans cette boulangerie.", ("achète", "_e → è_ devant une syllabe muette."), [("achete", "Il faut un accent grave."), ("achette", "_acheter_ prend un accent, il ne double pas le _t_.")]),
@@ -77,6 +79,7 @@ c.module(1, "« Aller » et les moyens de transport", sections=[
   questions=[
     Q("a", 1, "form", "Mes enfants ___ à l'école à 8 heures.", ("vont", "_ils vont_."), [("allent", "Cette forme n'existe pas."), ("vons", "Cette forme n'existe pas.")]),
     Q("a", 1, "form", "Nous ___ chez nos amis ce soir.", ("allons", "_nous allons_."), [("vont", "_vont_ va avec _ils_."), ("vas", "_vas_ va avec _tu_.")]),
+    Q("a", 1, "form", "Tu ___ souvent chez le coiffeur ?", ("vas", "_tu vas_."), [("va", "_va_ va avec _il_."), ("allez", "_allez_ va avec _vous_.")]),
     Q("b", 1, "form", "Je vais au travail ___ pied.", ("à", "_à pied_."), [("en", "On dit _à pied_."), ("par", "On dit _à pied_.")]),
     Q("b", 1, "form", "Pour aller à Marseille, nous prenons le TGV : nous y allons ___ train.", ("en", "Dans le véhicule → _en_."), [("à", "On est dans le train : _en train_."), ("au", "_au train_ n'est pas correct.")]),
     Q("b", 2, "form", "Beaucoup de Parisiens vont au bureau ___ vélo.", ("à", "Sur le véhicule → _à vélo_."), [("en", "_en vélo_ est familier ; à l'écrit, _à vélo_."), ("par", "On ne dit pas _par vélo_.")]),
@@ -287,6 +290,8 @@ c.module(1, "« Aller », « venir », « partir » et les autres", sections=[
     Q("a", 2, "conceptual", "J'ai adoré Lisbonne : j'espère y ___ l'an prochain.", ("retourner", "Aller de nouveau là-bas → _retourner_."), [("revenir", "_revenir_ = venir de nouveau ici (on n'est pas à Lisbonne)."), ("rentrer", "_rentrer_ = retourner chez soi.")]),
     Q("a", 2, "conceptual", "Ce soir, on ___ au cinéma avec des amis.", ("sort", "Se divertir à l'extérieur → _sortir_."), [("revient", "_revenir_ = venir de nouveau ici."), ("rentre", "_rentrer_ = retourner chez soi.")]),
     Q("b", 1, "vocabulary", "Pendant les vacances, je vais ___ ma grand-mère en Bretagne.", ("rendre visite à", "Une personne → _rendre visite à_."), [("visiter", "_visiter_ s'emploie avec un lieu."), ("visiter à", "*_visiter à_ n'existe pas.")]),
+    Q("b", 2, "vocabulary", "Cet été, nous allons ___ nos amis à Nice.", ("rendre visite à", "Des personnes → _rendre visite à_."),
+      [("visiter à", "*_visiter à_ n'existe pas."), ("rendre visite", "_rendre visite_ se construit avec _à_.")]),
     Q("b", 1, "vocabulary", "Nous avons ___ le château de Versailles.", ("visité", "Un lieu → _visiter_."), [("rendu visite au", "_rendre visite à_ s'emploie avec une personne."), ("vu à", "Cette construction n'existe pas.")]),
   ],
   cards=[R("deplacement", "a", "Rentrer, revenir, retourner", "rentrer / revenir / retourner ?", "**rentrer** : chez soi ; **revenir** : de nouveau ici ; **retourner** : de nouveau là-bas."),

@@ -1,0 +1,279 @@
+{
+ "readings": [
+  {
+   "number": 30,
+   "title": "L'impératif",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "L'impératif sert à donner un ordre, un conseil ou une consigne. On le rencontre dans les modes d'emploi, les affiches et les slogans (compréhension écrite) et on l'utilise pour conseiller (production orale)."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 30 (p. 134)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former l'impératif (trois personnes, verbes en _-er_ sans _s_, irréguliers).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Placer les pronoms à l'impératif affirmatif et négatif.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Utilisation, formation et place des pronoms",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "Trois personnes, sans sujet : **tu, nous, vous** : _Parle ! Parlons ! Parlez !_ Les verbes en _-er_ (et _aller_) perdent le **s** à la 2e personne : _**Mange** ! **Va** !_ Mais on le garde devant _en_ et _y_ : _Manges-**en** ! Vas-**y** !_"
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Verbe",
+           "tu",
+           "nous",
+           "vous"
+          ],
+          [
+           "être",
+           "**sois**",
+           "**soyons**",
+           "**soyez**"
+          ],
+          [
+           "avoir",
+           "**aie**",
+           "**ayons**",
+           "**ayez**"
+          ],
+          [
+           "savoir",
+           "**sache**",
+           "**sachons**",
+           "**sachez**"
+          ],
+          [
+           "vouloir",
+           "**veuille**",
+           "—",
+           "**veuillez**"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "_**Veuillez** agréer, Madame, Monsieur, …_ : l'impératif de _vouloir_ sert à la politesse dans les lettres formelles."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**Affirmatif** : pronoms **après** le verbe, avec trait d'union ; _me / te_ deviennent **moi / toi** : _Regarde-**moi**. Lève-**toi**. Parle-**lui**._",
+          "Ordre à l'affirmatif : COD avant COI : _Envoie-**la-leur**. Rends-**le-moi**._",
+          "**Négatif** : pronoms **devant** le verbe, ordre normal : _Ne **me** regarde pas. Ne **te** lève pas. Ne **me le** donne pas._"
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 36,
+   "title": "Le gérondif et le participe présent",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Le gérondif (_en_ + participe présent) exprime la simultanéité, la manière, le moyen ou la condition. C'est un outil élégant pour condenser deux actions dans une phrase : _**En réduisant** nos déplacements, nous protégeons la planète._"
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 36 (p. 158)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former le participe présent et le gérondif ; l'employer pour la simultanéité, la manière, le moyen et la condition.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Distinguer le gérondif, le participe présent et l'adjectif verbal.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Utilisation et formation du gérondif",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Formation** : radical de **nous** au présent + **-ant** : _nous **pren**ons → **en pren**ant_. Trois exceptions : _être → **étant**, avoir → **ayant**, savoir → **sachant**_."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "**Simultanéité** : _Il chante **en prenant** sa douche._",
+          "**Manière / moyen** : _Elle a appris l'anglais **en regardant** des séries._",
+          "**Condition** : _**En partant** maintenant, vous arriverez à l'heure._ (= si vous partez)",
+          "**Opposition** (avec _tout_) : _**Tout en** étant malade, il est venu._"
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Le sujet du gérondif est toujours celui du verbe principal : _J'ai vu Paul **en sortant**_ = c'est moi qui sortais."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**Gérondif** (_en_ + _-ant_), invariable, lié au sujet : _Il travaille **en écoutant** de la musique._",
+          "**Participe présent** (sans _en_), invariable, souvent équivalent d'une relative ou d'une cause (écrit) : _Les étudiants **ayant** réussi recevront un diplôme. **Étant** malade, il est resté chez lui._",
+          "**Adjectif verbal**, qui s'accorde, parfois avec une orthographe différente : _une histoire **passionnante** ; des employés **négligents** (participe : négligeant), **fatigants** (participe : fatiguant)_."
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 42,
+   "title": "Le passif",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Le passif met en avant le **résultat** ou la **victime** d'une action, et permet de ne pas nommer l'agent. Il est très fréquent dans la presse et les textes informatifs du DELF : _Une loi **a été adoptée**. Trois personnes **ont été blessées**._"
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 42 (p. 204)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former le passif à tous les temps (être + participe passé accordé).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Introduire l'agent (_par / de_) et choisir entre passif, _on_ et forme pronominale.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Utilisation et formation du passif",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Formation** : **être** au temps du verbe actif + **participe passé** accordé avec le sujet."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Actif",
+           "Passif"
+          ],
+          [
+           "Le maire **inaugure** le pont.",
+           "Le pont **est inauguré** par le maire."
+          ],
+          [
+           "Le maire **a inauguré** le pont.",
+           "Le pont **a été inauguré** par le maire."
+          ],
+          [
+           "Le maire **inaugurait** le pont.",
+           "Le pont **était inauguré** par le maire."
+          ],
+          [
+           "Le maire **inaugurera** le pont.",
+           "Le pont **sera inauguré** par le maire."
+          ],
+          [
+           "Le maire **va inaugurer** le pont.",
+           "Le pont **va être inauguré** par le maire."
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Seuls les verbes avec un **COD** se mettent au passif. _Obéir, répondre, téléphoner_ (indirects) ne le peuvent pas."
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**par** : agent d'une action : _La décision a été prise **par** le conseil._",
+          "**de** : après les verbes de sentiment ou de description : _Il est aimé **de** tous. La ville est entourée **de** montagnes._",
+          "Sans agent : _Le voleur a été arrêté._ (on ne sait pas ou peu importe qui)"
+         ]
+        },
+        {
+         "t": "p",
+         "md": "Alternatives : **on** (_On a arrêté le voleur_) et la **forme pronominale** de sens passif (_Ce livre se vend bien_)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "module": "m47.2",
+ "source_hash": "d7715439cceb",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Les deux futurs parlent de l'avenir, avec des nuances de lien au présent et de registre."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Futur proche : projet ou conséquence imminente (oral) ; futur simple : prévision, promesse (écrit)."
+   },
+   {
+    "stage": "result",
+    "md": "Après _quand_ à sens futur → futur ; après _si_ → présent."
+   }
+  ],
+  "why_it_matters": "Le futur après _quand_ et le présent après _si_ sont deux points de grammaire typiquement testés.",
+  "exam_approach": {
+   "look_first": [
+    "_quand, dès que_ ou _si_ avant le verbe",
+    "le registre (oral / écrit)"
+   ],
+   "traps": [
+    "*_quand tu arrives demain_ (calque de l'anglais)",
+    "*_si tu viendras_"
+   ],
+   "distractors": [
+    "le présent après _quand_ futur",
+    "le futur après _si_"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.47.b.001",
+   "los": "los.47.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Quand vous …… à Paris, venez nous voir.",
+   "options": [
+    "viendrez",
+    "venez",
+    "viendriez"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _quand_ + sens futur → futur.",
+    "B": "Faux. Après _quand_ à sens futur, on emploie le futur.",
+    "C": "Faux. C'est le conditionnel."
+   }
+  },
+  {
+   "id": "q.47.b.002",
+   "los": "los.47.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Si tu …… ce soir, on ira au restaurant.",
+   "options": [
+    "viendras",
+    "viens",
+    "venais"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Jamais de futur après _si_ de condition.",
+    "B": "Correct. _si_ + présent → futur dans la principale.",
+    "C": "Faux. _si_ + imparfait demande un conditionnel."
+   }
+  },
+  {
+   "id": "q.47.b.003",
+   "los": "los.47.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Je t'appellerai dès que j'…… les résultats.",
+   "options": [
+    "ai",
+    "aurai",
+    "aurais"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Après _dès que_ à sens futur, on emploie le futur.",
+    "B": "Correct. _dès que_ + sens futur → futur.",
+    "C": "Faux. C'est le conditionnel."
+   }
+  },
+  {
+   "id": "q.47.b.004",
+   "los": "los.47.b",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Dans une lettre de motivation : « Je …… ravi de vous rencontrer pour un entretien. »",
+   "options": [
+    "serai",
+    "vais être",
+    "suis"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Écrit formel, promesse → futur simple.",
+    "B": "Faux. Le futur proche est plutôt oral.",
+    "C": "Faux. Le présent ne situe pas la rencontre dans l'avenir."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.47.quand-futur",
+   "los": [
+    "los.47.b"
+   ],
+   "name": "Quand + futur, si + présent",
+   "front": "Quand tu …… (arriver) / Si tu …… (venir) ?",
+   "back": "Quand tu **arriveras** (futur) ; si tu **viens** (présent)."
+  }
+ ]
+}

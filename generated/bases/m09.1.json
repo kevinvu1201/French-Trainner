@@ -59,14 +59,14 @@
    "qtype": "conceptual",
    "stem": "Tu vois ce bâtiment ? …… la nouvelle médiathèque.",
    "options": [
-    "Il y a",
     "C'est",
+    "Il y a",
     "Il est"
    ],
-   "answer": "B",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. On identifie le bâtiment.",
-    "B": "Correct. Identification → _c'est_.",
+    "A": "Correct. Identification → _c'est_.",
+    "B": "Faux. On identifie le bâtiment.",
     "C": "Faux. _il est_ ne se place pas devant un nom déterminé."
    }
   },

@@ -1,0 +1,159 @@
+{
+ "module": "m40.1",
+ "source_hash": "206cfeb88eed",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le passé composé présente une action passée comme accomplie."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Auxiliaire au présent + participe passé ; les verbes en _-er_ font _-é_, les autres ont des participes à apprendre (_eu, fait, pris, vu, dû…_)."
+   },
+   {
+    "stage": "result",
+    "md": "Une vingtaine de participes irréguliers couvrent l'essentiel des besoins."
+   }
+  ],
+  "why_it_matters": "Les participes irréguliers fautifs (*_il a prendu_, *_j'ai vouler_) sont parmi les erreurs les plus visibles d'une copie.",
+  "exam_approach": {
+   "look_first": [
+    "l'infinitif du verbe",
+    "son groupe (-er, -ir, irrégulier)"
+   ],
+   "traps": [
+    "*_prendu_",
+    "*_ouvri_",
+    "*_j'ai devu_"
+   ],
+   "distractors": [
+    "un participe régularisé (_prendu, mettu_)",
+    "l'infinitif ou l'imparfait"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.40.a.001",
+   "los": "los.40.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Hier, nous …… un film italien.",
+   "options": [
+    "avons voir",
+    "avons voyé",
+    "avons vu"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Il faut le participe passé.",
+    "B": "Faux. Le participe de _voir_ est _vu_.",
+    "C": "Correct. _voir_ → _vu_."
+   }
+  },
+  {
+   "id": "q.40.a.002",
+   "los": "los.40.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Elle …… le train de 7 heures.",
+   "options": [
+    "a pris",
+    "a prendu",
+    "a prené"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _prendre_ → _pris_.",
+    "B": "Faux. Ce participe n'existe pas.",
+    "C": "Faux. Ce participe n'existe pas."
+   }
+  },
+  {
+   "id": "q.40.a.003",
+   "los": "los.40.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "J'…… partir plus tôt à cause de la grève.",
+   "options": [
+    "ai devu",
+    "ai dû",
+    "ai du"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le participe de _devoir_ est _dû_.",
+    "B": "Correct. _devoir_ → _dû_ (avec accent).",
+    "C": "Faux. Le participe masculin singulier s'écrit _dû_."
+   }
+  },
+  {
+   "id": "q.40.a.004",
+   "los": "los.40.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Le musée …… ses portes à 10 heures.",
+   "options": [
+    "a ouvri",
+    "a ouvert",
+    "a ouvré"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le participe de _ouvrir_ est _ouvert_.",
+    "B": "Correct. _ouvrir_ → _ouvert_.",
+    "C": "Faux. Le participe de _ouvrir_ est _ouvert_."
+   }
+  },
+  {
+   "id": "q.40.a.005",
+   "los": "los.40.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ils …… dix ans à Montréal.",
+   "options": [
+    "ont vivé",
+    "ont vivu",
+    "ont vécu"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le participe de _vivre_ est _vécu_.",
+    "B": "Faux. Le participe de _vivre_ est _vécu_.",
+    "C": "Correct. _vivre_ → _vécu_."
+   }
+  },
+  {
+   "id": "q.40.a.006",
+   "los": "los.40.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Nous …… votre courrier du 3 mars.",
+   "options": [
+    "avons reçu",
+    "avons recevu",
+    "avons reçus"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _recevoir_ → _reçu_ (cédille).",
+    "B": "Faux. Le participe de _recevoir_ est _reçu_.",
+    "C": "Faux. Pas d'accord : le COD est placé après."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.40.participes",
+   "los": [
+    "los.40.a"
+   ],
+   "name": "Participes passés irréguliers",
+   "front": "avoir, être, faire, prendre, mettre, voir, devoir, ouvrir, vivre ?",
+   "back": "eu, été, fait, pris, mis, vu, dû, ouvert, vécu."
+  }
+ ]
+}

@@ -60,14 +60,14 @@
    "stem": "Au restaurant, poliment : « Je …… (vouloir) réserver une table pour deux. »",
    "options": [
     "voudrai",
-    "voudrais",
-    "voudrait"
+    "voudrait",
+    "voudrais"
    ],
-   "answer": "B",
+   "answer": "C",
    "explanations": {
     "A": "Faux. C'est le futur : on ne l'emploie pas pour une demande polie.",
-    "B": "Correct. Conditionnel de politesse : radical _voudr-_ + _-ais_.",
-    "C": "Faux. C'est la 3e personne ; avec _je_ : _voudrais_."
+    "B": "Faux. C'est la 3e personne ; avec _je_ : _voudrais_.",
+    "C": "Correct. Conditionnel de politesse : radical _voudr-_ + _-ais_."
    }
   },
   {
@@ -96,14 +96,14 @@
    "stem": "Nous …… (pouvoir) partir plus tôt si tu étais prêt.",
    "options": [
     "pourions",
-    "pouvions",
-    "pourrions"
+    "pourrions",
+    "pouvions"
    ],
-   "answer": "C",
+   "answer": "B",
    "explanations": {
     "A": "Faux. Il faut deux _r_.",
-    "B": "Faux. C'est l'imparfait.",
-    "C": "Correct. _pouvoir_ : radical _pourr-_ (deux _r_) + _-ions_."
+    "B": "Correct. _pouvoir_ : radical _pourr-_ (deux _r_) + _-ions_.",
+    "C": "Faux. C'est l'imparfait."
    }
   },
   {
@@ -113,15 +113,15 @@
    "qtype": "form",
    "stem": "Conditionnel présent de _falloir_ : « Il …… que tout le monde fasse un effort. »",
    "options": [
-    "faudrait",
     "fallerait",
-    "faudrais"
+    "faudrais",
+    "faudrait"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. _falloir_ : _il faudra_ → _il faudrait_.",
-    "B": "Faux. Cette forme n'existe pas : le radical du futur est _faudr-_.",
-    "C": "Faux. _falloir_ n'existe qu'à la 3e personne : _il faudrait_."
+    "A": "Faux. Cette forme n'existe pas : le radical du futur est _faudr-_.",
+    "B": "Faux. _falloir_ n'existe qu'à la 3e personne : _il faudrait_.",
+    "C": "Correct. _falloir_ : _il faudra_ → _il faudrait_."
    }
   },
   {
@@ -131,14 +131,14 @@
    "qtype": "form",
    "stem": "À ta place, je …… (prévenir) le directeur hier. (regret)",
    "options": [
-    "je préviendrais",
     "j'aurais prévenu",
+    "je préviendrais",
     "j'avais prévenu"
    ],
-   "answer": "B",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. Le conditionnel présent ne porte pas sur le passé.",
-    "B": "Correct. Regret sur le passé → conditionnel passé.",
+    "A": "Correct. Regret sur le passé → conditionnel passé.",
+    "B": "Faux. Le conditionnel présent ne porte pas sur le passé.",
     "C": "Faux. C'est le plus-que-parfait."
    }
   },
@@ -168,14 +168,14 @@
    "stem": "« Vous devriez faire du sport. » Le conditionnel exprime ici :",
    "options": [
     "une obligation",
-    "une hypothèse",
-    "un conseil"
+    "un conseil",
+    "une hypothèse"
    ],
-   "answer": "C",
+   "answer": "B",
    "explanations": {
     "A": "Faux. _Vous devez_ (présent) exprimerait l'obligation.",
-    "B": "Faux. Il n'y a pas de condition exprimée.",
-    "C": "Correct. _devoir_ au conditionnel = recommandation."
+    "B": "Correct. _devoir_ au conditionnel = recommandation.",
+    "C": "Faux. Il n'y a pas de condition exprimée."
    }
   },
   {
@@ -185,15 +185,15 @@
    "qtype": "conceptual",
    "stem": "« Selon nos informations, le président serait malade. » Le conditionnel signifie :",
    "options": [
-    "que l'information n'est pas confirmée",
     "que le président sera malade",
-    "que le président est certainement malade"
+    "que le président est certainement malade",
+    "que l'information n'est pas confirmée"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. Conditionnel journalistique : le journaliste ne garantit pas le fait.",
-    "B": "Faux. Ce n'est pas un futur.",
-    "C": "Faux. C'est l'inverse : le fait n'est pas confirmé."
+    "A": "Faux. Ce n'est pas un futur.",
+    "B": "Faux. C'est l'inverse : le fait n'est pas confirmé.",
+    "C": "Correct. Conditionnel journalistique : le journaliste ne garantit pas le fait."
    }
   },
   {
@@ -285,15 +285,15 @@
      "qtype": "conceptual",
      "stem": "Blanc (2) :",
      "options": [
+      "seraient",
       "sont",
-      "seront",
-      "seraient"
+      "seront"
      ],
-     "answer": "C",
+     "answer": "A",
      "explanations": {
-      "A": "Faux. L'indicatif présenterait le fait comme sûr.",
-      "B": "Faux. C'est le futur.",
-      "C": "Correct. Chiffre non confirmé → conditionnel."
+      "A": "Correct. Chiffre non confirmé → conditionnel.",
+      "B": "Faux. L'indicatif présenterait le fait comme sûr.",
+      "C": "Faux. C'est le futur."
      }
     },
     {

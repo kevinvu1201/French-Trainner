@@ -1,0 +1,241 @@
+{
+ "module": "m43.2",
+ "source_hash": "9abbbdc50740",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Un récit superpose un arrière-plan (le décor) et un premier plan (les événements)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "L'imparfait peint l'arrière-plan et les habitudes ; le passé composé fait avancer l'action."
+   },
+   {
+    "stage": "result",
+    "md": "Une action délimitée (_pendant dix ans_, _trois fois_) se met au passé composé, même si elle est longue."
+   }
+  ],
+  "why_it_matters": "Le bon dosage imparfait / passé composé rend un récit clair et est explicitement noté au DELF.",
+  "exam_approach": {
+   "look_first": [
+    "décor ou événement ?",
+    "les indicateurs de temps (soudain, tous les jours, pendant…)"
+   ],
+   "traps": [
+    "*_j'étais à Lyon pendant dix ans_ (durée délimitée)",
+    "*_soudain, le téléphone sonnait_"
+   ],
+   "distractors": [
+    "l'imparfait pour l'événement",
+    "le passé composé pour le décor"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.43.b.001",
+   "los": "los.43.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Je …… quand tu m'as appelé.",
+   "options": [
+    "dormais",
+    "ai dormi",
+    "dormirai"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Action en cours interrompue → imparfait.",
+    "B": "Faux. L'action en cours est à l'imparfait.",
+    "C": "Faux. C'est le futur."
+   }
+  },
+  {
+   "id": "q.43.b.002",
+   "los": "los.43.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Nous marchions dans la forêt quand soudain un cerf …….",
+   "options": [
+    "est apparu",
+    "apparaissait",
+    "apparaît"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Événement soudain → passé composé.",
+    "B": "Faux. _soudain_ introduit un événement ponctuel.",
+    "C": "Faux. Le récit est au passé."
+   }
+  },
+  {
+   "id": "q.43.b.003",
+   "los": "los.43.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Elle …… à Berlin pendant cinq ans, puis elle est rentrée en France.",
+   "options": [
+    "travaillait",
+    "a travaillé",
+    "travaille"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _pendant cinq ans_ délimite l'action : passé composé.",
+    "B": "Correct. Durée délimitée → passé composé.",
+    "C": "Faux. Le récit est au passé."
+   }
+  },
+  {
+   "id": "q.43.b.004",
+   "los": "los.43.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Quand j'étais étudiant, je …… toujours le même bus.",
+   "options": [
+    "ai pris",
+    "prendrais",
+    "prenais"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _toujours_ + habitude : imparfait.",
+    "B": "Faux. C'est le conditionnel.",
+    "C": "Correct. Habitude → imparfait."
+   }
+  },
+  {
+   "id": "q.43.b.005",
+   "los": "los.43.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Il …… beau, alors nous avons décidé de pique-niquer.",
+   "options": [
+    "a fait",
+    "fera",
+    "faisait"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. La météo est le décor de la décision.",
+    "B": "Faux. C'est le futur.",
+    "C": "Correct. Circonstance (météo) → imparfait."
+   }
+  },
+  {
+   "id": "q.43.b.006",
+   "los": "los.43.b",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Ce matin-là, j'…… trois fois mon réveil avant de me lever.",
+   "options": [
+    "ai éteint",
+    "éteignais",
+    "éteins"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Action répétée mais comptée (_trois fois_) → passé composé.",
+    "B": "Faux. Une répétition comptée et délimitée se met au passé composé.",
+    "C": "Faux. Le récit est au passé."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m43.2.01",
+   "modules": [
+    "m43.2"
+   ],
+   "title": "Un souvenir d'enfance",
+   "vignette": "Marc raconte :\n\n« Quand j'**(1)** …… (avoir) dix ans, nous passions l'été à la campagne. Chaque matin, mon grand-père m'**(2)** …… (emmener) pêcher. Un jour, pendant que nous attendions au bord de la rivière, il **(3)** …… (tomber) dans l'eau ! Nous **(4)** …… (rire) pendant des heures. »",
+   "questions": [
+    {
+     "id": "set.m43.2.01.q1",
+     "los": "los.43.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "ai eu",
+      "avais",
+      "étais"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. L'âge comme cadre du souvenir s'exprime à l'imparfait.",
+      "B": "Correct. Âge, situation passée → imparfait.",
+      "C": "Faux. L'âge se dit avec _avoir_."
+     }
+    },
+    {
+     "id": "set.m43.2.01.q2",
+     "los": "los.43.b",
+     "difficulty": 1,
+     "qtype": "conceptual",
+     "stem": "Blanc (2) :",
+     "options": [
+      "a emmené",
+      "emmène",
+      "emmenait"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. Une habitude répétée → imparfait.",
+      "B": "Faux. Le récit est au passé.",
+      "C": "Correct. _Chaque matin_ : habitude → imparfait."
+     }
+    },
+    {
+     "id": "set.m43.2.01.q3",
+     "los": "los.43.b",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (3) :",
+     "options": [
+      "est tombé",
+      "tombait",
+      "a tombé"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _Un jour_ : événement ponctuel → passé composé avec _être_.",
+      "B": "Faux. _Un jour_ introduit un événement.",
+      "C": "Faux. _tomber_ se conjugue avec _être_."
+     }
+    },
+    {
+     "id": "set.m43.2.01.q4",
+     "los": "los.43.b",
+     "difficulty": 2,
+     "qtype": "conceptual",
+     "stem": "Blanc (4) :",
+     "options": [
+      "riions",
+      "avons ri",
+      "avons rit"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. La durée délimitée appelle le passé composé.",
+      "B": "Correct. Durée délimitée (_pendant des heures_) → passé composé.",
+      "C": "Faux. Le participe de _rire_ est _ri_."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.43.imp-pc",
+   "los": [
+    "los.43.b"
+   ],
+   "name": "Imparfait ou passé composé ?",
+   "front": "décor / événement ; habitude / action comptée ?",
+   "back": "**Imparfait** : décor, état, habitude, action en cours. **Passé composé** : événement, action délimitée (_pendant 3 ans, 3 fois_)."
+  }
+ ]
+}

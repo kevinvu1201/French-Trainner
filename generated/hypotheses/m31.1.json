@@ -1,0 +1,141 @@
+{
+ "module": "m31.1",
+ "source_hash": "dacfff6d200c",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Une demande directe à l'indicatif (_je veux, pouvez-vous_) peut paraître brutale."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Le conditionnel atténue : il présente la demande ou le conseil comme une simple possibilité."
+   },
+   {
+    "stage": "result",
+    "md": "Quelques verbes suffisent : _vouloir, pouvoir, aimer, souhaiter, devoir, falloir, valoir mieux_."
+   }
+  ],
+  "why_it_matters": "Le registre poli est explicitement évalué dans la lettre formelle et la simulation orale du DELF.",
+  "exam_approach": {
+   "look_first": [
+    "l'intention : demande, souhait ou conseil ?",
+    "le registre attendu"
+   ],
+   "traps": [
+    "*_je voudrai_ (futur) pour une demande polie",
+    "_je veux_ dans une lettre formelle"
+   ],
+   "distractors": [
+    "le futur à la place du conditionnel",
+    "l'indicatif présent, trop direct"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.31.a.001",
+   "los": "los.31.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Bonjour, je …… réserver une table pour quatre personnes.",
+   "options": [
+    "voudrai",
+    "veux",
+    "voudrais"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. C'est le futur.",
+    "B": "Faux. Correct mais trop direct pour une demande polie.",
+    "C": "Correct. Demande polie → conditionnel."
+   }
+  },
+  {
+   "id": "q.31.a.002",
+   "los": "los.31.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "……-vous m'indiquer le chemin de la gare ?",
+   "options": [
+    "Pourriez",
+    "Pourrez",
+    "Puissiez"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Demande polie → conditionnel de _pouvoir_.",
+    "B": "Faux. C'est le futur.",
+    "C": "Faux. C'est le subjonctif."
+   }
+  },
+  {
+   "id": "q.31.a.003",
+   "los": "los.31.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Tu as l'air épuisé : tu …… prendre quelques jours de vacances.",
+   "options": [
+    "devras",
+    "devrais",
+    "dois"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le futur exprime une obligation à venir, pas un conseil.",
+    "B": "Correct. Conseil → conditionnel de _devoir_.",
+    "C": "Faux. L'indicatif exprime une obligation, pas un conseil."
+   }
+  },
+  {
+   "id": "q.31.a.004",
+   "los": "los.31.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il …… mieux partir avant les embouteillages.",
+   "options": [
+    "vaudrait",
+    "vaudra",
+    "faudrait"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _valoir mieux_ au conditionnel = il serait préférable.",
+    "B": "Faux. C'est le futur.",
+    "C": "Faux. _il faudrait mieux_ est fautif : on dit _il vaudrait mieux_."
+   }
+  },
+  {
+   "id": "q.31.a.005",
+   "los": "los.31.a",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Dans une lettre de réclamation, la formule la plus adaptée est :",
+   "options": [
+    "Je veux que vous me remboursiez.",
+    "Je vous serais reconnaissant de bien vouloir me rembourser.",
+    "Remboursez-moi vite."
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Trop direct pour une lettre formelle.",
+    "B": "Correct. Conditionnel de politesse, registre formel.",
+    "C": "Faux. L'impératif est impoli dans ce contexte."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.31.politesse",
+   "los": [
+    "los.31.a"
+   ],
+   "name": "Conditionnel de politesse",
+   "front": "Demander poliment, conseiller ?",
+   "back": "_Je voudrais, pourriez-vous, j'aimerais, je souhaiterais_ ; _tu devrais, il faudrait, il vaudrait mieux_.",
+   "common_mistake": "*_il faudrait mieux_ → _il vaudrait mieux_."
+  }
+ ]
+}

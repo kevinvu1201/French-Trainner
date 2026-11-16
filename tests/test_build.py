@@ -78,7 +78,10 @@ def test_generated_layer_is_merged_validated_and_staleness_tracked(project, good
     assert next(m for m in quant["modules"] if m["id"] == "m01.2")["stale_generated"] is True
 
 
-GRAMMAR = ("subjonctif", "hypotheses", "relatifs", "discours", "logique")
+GRAMMAR = ("bases", "qualifier", "espace_temps", "present", "pronoms", "questions", "passe", "futur", "modes",
+           "subjonctif", "hypotheses", "relatifs", "discours", "logique")
+# Book-derived topics (100% DELF B2) are authored privately; they are built when present.
+PRIVATE = {"ecoute": 2, "lecture": 3, "ecrit": 2, "oral": 2}
 
 
 @pytest.mark.skipif(not (REPO / "content").exists(), reason="real content not present")
@@ -86,19 +89,19 @@ def test_real_content_builds_cleanly(tmp_path):
     shutil.copytree(REPO / "config", tmp_path / "config")
     shutil.copytree(REPO / "content", tmp_path / "content")
     shutil.copytree(REPO / "generated", tmp_path / "generated")
-    listening = (REPO / "content" / "ecoute.json").exists()  # private (gitignored) listening exercises
     rep = build(Paths(tmp_path)).report
     s = rep["summary"]
     assert s["errors"] == 0 and s["warnings"] == 0, [i["msg"] for i in rep["issues"]][:5]
-    # 7 grammar chapters + 7 vocabulary themes (+ 2 listening chapters when present)
-    assert s["readings"] == 14 + (2 if listening else 0)
+    # 52 grammar chapters + 7 vocabulary themes (+ the private 100% B2 chapters when present)
+    private = sum(n for t, n in PRIVATE.items() if (REPO / "content" / f"{t}.json").exists())
+    assert s["readings"] == 59 + private
     assert s["los_with_body_marker"] == s["los"]
     topics = {t["id"]: t for t in rep["topics"]}
     for tid, t in topics.items():
         assert t["modules_with_learning"] == t["modules"], tid
     for tid in GRAMMAR:
         assert topics[tid]["generated_questions"] >= 20, tid
-    if listening:
+    if (REPO / "content" / "ecoute.json").exists():
         assert topics["ecoute"]["audio_sets"] == 15
         assert len(list((tmp_path / "dist" / "data" / "audio").iterdir())) == 15
     # Every grammar objective is practised by at least 3 standalone questions.

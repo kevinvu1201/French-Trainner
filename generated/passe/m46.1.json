@@ -1,0 +1,139 @@
+{
+ "module": "m46.1",
+ "source_hash": "0f44a888b22b",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Ces périphrases ajoutent une nuance d'aspect : juste avant, pendant, juste après."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_venir de_, _être en train de_, _être sur le point de_ + infinitif ; on conjugue seulement le premier verbe."
+   },
+   {
+    "stage": "result",
+    "md": "Au passé, le premier verbe se met à l'imparfait."
+   }
+  ],
+  "why_it_matters": "Les flashs d'information et les annonces (compréhension orale) emploient constamment ces périphrases.",
+  "exam_approach": {
+   "look_first": [
+    "le moment de l'action par rapport à maintenant"
+   ],
+   "traps": [
+    "*_j'ai venu de manger_",
+    "_venir de_ (récent) confondu avec _aller_ (futur)"
+   ],
+   "distractors": [
+    "une périphrase de sens opposé",
+    "le passé composé de _venir_"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.46.a.001",
+   "los": "los.46.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Le gouvernement …… annoncer une nouvelle réforme : c'était il y a dix minutes.",
+   "options": [
+    "vient d'",
+    "va",
+    "est sur le point d'"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Passé récent → _venir de_.",
+    "B": "Faux. _aller_ + infinitif = futur proche.",
+    "C": "Faux. C'est le futur immédiat."
+   }
+  },
+  {
+   "id": "q.46.a.002",
+   "los": "los.46.a",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Ne le dérange pas, il …… réviser ses examens.",
+   "options": [
+    "vient de",
+    "est en train de",
+    "est sur le point de"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Il est occupé maintenant, pas juste avant.",
+    "B": "Correct. Action en cours → _être en train de_.",
+    "C": "Faux. L'action a déjà commencé."
+   }
+  },
+  {
+   "id": "q.46.a.003",
+   "los": "los.46.a",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Dépêche-toi, le film …… commencer !",
+   "options": [
+    "vient de",
+    "est en train de",
+    "est sur le point de"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le film n'a pas encore commencé.",
+    "B": "Faux. Le film n'a pas encore commencé.",
+    "C": "Correct. Futur immédiat → _être sur le point de_."
+   }
+  },
+  {
+   "id": "q.46.a.004",
+   "los": "los.46.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Quand tu m'as appelé, je …… rentrer.",
+   "options": [
+    "venais de",
+    "suis venu de",
+    "viens de"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Passé récent dans un récit → imparfait de _venir de_.",
+    "B": "Faux. Au passé, _venir de_ se met à l'imparfait.",
+    "C": "Faux. Le récit est au passé."
+   }
+  },
+  {
+   "id": "q.46.a.005",
+   "los": "los.46.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Nous …… dîner quand l'orage a éclaté.",
+   "options": [
+    "avons été en train de",
+    "étions en train de",
+    "sommes en train de"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Au passé, on met _être_ à l'imparfait.",
+    "B": "Correct. Action en cours dans le passé → imparfait d'_être en train de_.",
+    "C": "Faux. Le récit est au passé."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.46.periphrases",
+   "los": [
+    "los.46.a"
+   ],
+   "name": "Venir de / être en train de / être sur le point de",
+   "front": "Trois périphrases d'aspect ?",
+   "back": "**venir de** : passé récent ; **être en train de** : en cours ; **être sur le point de** : futur immédiat (+ infinitif)."
+  }
+ ]
+}

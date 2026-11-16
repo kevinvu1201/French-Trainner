@@ -2,6 +2,41 @@ from fr import NOTE, P, Q, R, S, TABLE, UL, Book
 
 b = Book("hypotheses")
 
+# ================================================================ chapitre 31
+c31 = b.chapter(31, "Le conditionnel (1) : la politesse et le conseil", focus=[
+    P("Avant d'imaginer et de faire des hypothèses, le conditionnel sert au quotidien à **demander poliment** et à **conseiller**. "
+      "Ces formules toutes faites (_je voudrais, pourriez-vous, vous devriez, il faudrait_) sont attendues dans la lettre formelle et à l'oral."),
+    P("Repère : _Grammaire progressive du français_, chapitre 31 (p. 136)."),
+], los={
+    "a": "Employer les formes courantes du conditionnel pour la politesse, le souhait et le conseil.",
+})
+c31.module(1, "Politesse, souhait et conseil", sections=[
+    ("a", [
+        TABLE(["Intention", "Formules"],
+              ["demande polie", "_Je **voudrais** un rendez-vous. **Pourriez**-vous m'aider ? **Auriez**-vous un instant ? Ça vous **dérangerait** de… ?_"],
+              ["souhait", "_J'**aimerais** partir à l'étranger. Nous **souhaiterions** obtenir des informations._"],
+              ["conseil", "_Tu **devrais** te reposer. Vous **pourriez** essayer… À ta place, je **ferais**… Il **faudrait** / il **vaudrait mieux**…_"]),
+        P("Ces formes se construisent sur le radical du futur + _-ais, -ait, -ions, -iez, -aient_ (voir chapitre 49)."),
+        NOTE("Dans une lettre formelle, préférez _je souhaiterais_ ou _je vous serais reconnaissant(e) de…_ à _je veux_, jugé trop direct."),
+    ]),
+], chain=[
+    ("assumption", "Une demande directe à l'indicatif (_je veux, pouvez-vous_) peut paraître brutale."),
+    ("mechanism", "Le conditionnel atténue : il présente la demande ou le conseil comme une simple possibilité."),
+    ("result", "Quelques verbes suffisent : _vouloir, pouvoir, aimer, souhaiter, devoir, falloir, valoir mieux_."),
+], why="Le registre poli est explicitement évalué dans la lettre formelle et la simulation orale du DELF.",
+  look=["l'intention : demande, souhait ou conseil ?", "le registre attendu"],
+  traps=["*_je voudrai_ (futur) pour une demande polie", "_je veux_ dans une lettre formelle"],
+  distractors=["le futur à la place du conditionnel", "l'indicatif présent, trop direct"],
+  questions=[
+    Q("a", 1, "form", "Bonjour, je ___ réserver une table pour quatre personnes.", ("voudrais", "Demande polie → conditionnel."), [("voudrai", "C'est le futur."), ("veux", "Correct mais trop direct pour une demande polie.")]),
+    Q("a", 1, "form", "___-vous m'indiquer le chemin de la gare ?", ("Pourriez", "Demande polie → conditionnel de _pouvoir_."), [("Pourrez", "C'est le futur."), ("Puissiez", "C'est le subjonctif.")]),
+    Q("a", 2, "form", "Tu as l'air épuisé : tu ___ prendre quelques jours de vacances.", ("devrais", "Conseil → conditionnel de _devoir_."), [("devras", "Le futur exprime une obligation à venir, pas un conseil."), ("dois", "L'indicatif exprime une obligation, pas un conseil.")]),
+    Q("a", 2, "form", "Il ___ mieux partir avant les embouteillages.", ("vaudrait", "_valoir mieux_ au conditionnel = il serait préférable."), [("vaudra", "C'est le futur."), ("faudrait", "_il faudrait mieux_ est fautif : on dit _il vaudrait mieux_.")]),
+    Q("a", 3, "conceptual", "Dans une lettre de réclamation, la formule la plus adaptée est :", ("Je vous serais reconnaissant de bien vouloir me rembourser.", "Conditionnel de politesse, registre formel."),
+      [("Je veux que vous me remboursiez.", "Trop direct pour une lettre formelle."), ("Remboursez-moi vite.", "L'impératif est impoli dans ce contexte.")]),
+  ],
+  cards=[R("politesse", "a", "Conditionnel de politesse", "Demander poliment, conseiller ?", "_Je voudrais, pourriez-vous, j'aimerais, je souhaiterais_ ; _tu devrais, il faudrait, il vaudrait mieux_.", mistake="*_il faudrait mieux_ → _il vaudrait mieux_.")])
+
 # ================================================================ chapitre 49
 c49 = b.chapter(49, "Le conditionnel", focus=[
     P("Le conditionnel sert à **imaginer**, à **adoucir** une demande, à **conseiller**, à **regretter** et, dans la presse, à présenter une "

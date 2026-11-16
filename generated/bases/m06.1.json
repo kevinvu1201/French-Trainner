@@ -62,15 +62,15 @@
    "qtype": "form",
    "stem": "Anne m'a présenté …… mari hier soir.",
    "options": [
+    "son",
     "sa",
-    "ses",
-    "son"
+    "ses"
    ],
-   "answer": "C",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. Le possessif s'accorde avec l'objet (_mari_), pas avec Anne.",
-    "B": "Faux. _mari_ est singulier.",
-    "C": "Correct. _mari_ est masculin : _son_, même si le possesseur est une femme."
+    "A": "Correct. _mari_ est masculin : _son_, même si le possesseur est une femme.",
+    "B": "Faux. Le possessif s'accorde avec l'objet (_mari_), pas avec Anne.",
+    "C": "Faux. _mari_ est singulier."
    }
   },
   {
@@ -98,14 +98,14 @@
    "qtype": "form",
    "stem": "Les étudiants doivent rendre …… mémoires avant le 30 juin.",
    "options": [
-    "leurs",
     "leur",
+    "leurs",
     "ses"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanations": {
-    "A": "Correct. Plusieurs possesseurs, plusieurs mémoires → _leurs_.",
-    "B": "Faux. Chaque étudiant rend un mémoire, soit plusieurs mémoires : _leurs_.",
+    "A": "Faux. Chaque étudiant rend un mémoire, soit plusieurs mémoires : _leurs_.",
+    "B": "Correct. Plusieurs possesseurs, plusieurs mémoires → _leurs_.",
     "C": "Faux. Plusieurs possesseurs → _leur(s)_."
    }
   },
@@ -117,14 +117,14 @@
    "stem": "Les deux sœurs vivent encore chez …… mère.",
    "options": [
     "leurs",
-    "leur",
-    "sa"
+    "sa",
+    "leur"
    ],
-   "answer": "B",
+   "answer": "C",
    "explanations": {
     "A": "Faux. Il n'y a qu'une mère.",
-    "B": "Correct. Une seule mère pour plusieurs possesseurs → _leur_.",
-    "C": "Faux. Plusieurs possesseurs → _leur_."
+    "B": "Faux. Plusieurs possesseurs → _leur_.",
+    "C": "Correct. Une seule mère pour plusieurs possesseurs → _leur_."
    }
   },
   {
@@ -134,15 +134,15 @@
    "qtype": "form",
    "stem": "Ce n'est pas mon téléphone, c'est …….",
    "options": [
+    "le tien",
     "la tienne",
-    "ton",
-    "le tien"
+    "ton"
    ],
-   "answer": "C",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. _téléphone_ est masculin.",
-    "B": "Faux. _ton_ doit être suivi d'un nom.",
-    "C": "Correct. _téléphone_ est masculin singulier → _le tien_."
+    "A": "Correct. _téléphone_ est masculin singulier → _le tien_.",
+    "B": "Faux. _téléphone_ est masculin.",
+    "C": "Faux. _ton_ doit être suivi d'un nom."
    }
   },
   {
@@ -152,14 +152,14 @@
    "qtype": "form",
    "stem": "Nos enfants vont à l'école publique ; …… vont dans une école privée.",
    "options": [
-    "les leurs",
     "leurs",
+    "les leurs",
     "les leur"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanations": {
-    "A": "Correct. Leurs enfants → _les leurs_.",
-    "B": "Faux. Sans nom, il faut le pronom _les leurs_.",
+    "A": "Faux. Sans nom, il faut le pronom _les leurs_.",
+    "B": "Correct. Leurs enfants → _les leurs_.",
     "C": "Faux. Pronom pluriel → _les leurs_ avec _s_."
    }
   },
@@ -170,14 +170,14 @@
    "qtype": "form",
    "stem": "Votre proposition est intéressante, mais …… est moins chère.",
    "options": [
-    "la notre",
     "la nôtre",
+    "la notre",
     "notre"
    ],
-   "answer": "B",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. Le pronom prend un accent circonflexe : _nôtre_.",
-    "B": "Correct. Pronom (_notre proposition_) → _la nôtre_, avec accent.",
+    "A": "Correct. Pronom (_notre proposition_) → _la nôtre_, avec accent.",
+    "B": "Faux. Le pronom prend un accent circonflexe : _nôtre_.",
     "C": "Faux. _notre_ doit être suivi d'un nom."
    }
   }

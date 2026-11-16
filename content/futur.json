@@ -1,0 +1,303 @@
+{
+ "readings": [
+  {
+   "number": 39,
+   "title": "Le futur proche",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Le futur proche (_aller_ + infinitif) exprime un projet ou une conséquence imminente. Il est très fréquent à l'oral ; la place des pronoms et de la négation y est un point délicat."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 39 (p. 166)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former et employer le futur proche.",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Placer les pronoms, les adverbes et la négation avec le futur proche.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Le futur proche : formation, pronoms et négation",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Formation** : _aller_ au présent + **infinitif** : _Je **vais partir**. Il **va pleuvoir**._"
+        },
+        {
+         "t": "ul",
+         "items": [
+          "**Projet** décidé : _L'an prochain, je **vais étudier** à Montréal._",
+          "**Événement imminent ou certain** : _Attention, tu **vas tomber** !_"
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          "**Pronoms** : devant l'**infinitif** : _Je **vais le** faire. Elle **va s'**inscrire. Nous **allons en** parler._",
+          "**Négation** : autour d'_aller_ : _Je **ne** vais **pas** venir. Il **ne** va **jamais** comprendre._",
+          "**Adverbes** : souvent entre _aller_ et l'infinitif : _Tu vas **bien** dormir. On va **encore** attendre._"
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 47,
+   "title": "Le futur simple",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Le futur simple exprime des **prévisions**, des **promesses** et des **conséquences** (_si tu viens, tu verras_). À l'écrit formel du DELF (lettre, article), il est préféré au futur proche."
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 47 (p. 224)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former le futur simple (radical de l'infinitif et radicaux irréguliers).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Employer le futur simple et le distinguer du futur proche ; employer le futur après _quand_.",
+     "module": 2
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Formation du futur simple",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Formation** : infinitif + **-ai, -as, -a, -ons, -ez, -ont** : _parler → je parler**ai**, finir → nous finir**ons**_. Verbes en _-re_ : on supprime le _e_ : _prendre → je prendr**ai**_."
+        },
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Infinitif",
+           "Futur",
+           "Infinitif",
+           "Futur"
+          ],
+          [
+           "être",
+           "je **ser**ai",
+           "avoir",
+           "j'**aur**ai"
+          ],
+          [
+           "aller",
+           "j'**ir**ai",
+           "faire",
+           "je **fer**ai"
+          ],
+          [
+           "venir",
+           "je **viendr**ai",
+           "voir",
+           "je **verr**ai"
+          ],
+          [
+           "pouvoir",
+           "je **pourr**ai",
+           "vouloir",
+           "je **voudr**ai"
+          ],
+          [
+           "devoir",
+           "je **devr**ai",
+           "savoir",
+           "je **saur**ai"
+          ],
+          [
+           "envoyer",
+           "j'**enverr**ai",
+           "falloir",
+           "il **faudr**a"
+          ],
+          [
+           "courir, mourir",
+           "je **courr**ai, il **mourr**a",
+           "recevoir",
+           "je **recevr**ai"
+          ]
+         ]
+        },
+        {
+         "t": "note",
+         "md": "Verbes en _-er_ à changement : _j'achèterai, j'appellerai, je paierai, je jetterai_ (le radical du présent de _je_ + _-r-_)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    },
+    {
+     "number": 2,
+     "title": "Futur simple ou futur proche ?",
+     "sections": [
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Futur proche",
+           "Futur simple"
+          ],
+          [
+           "projet décidé, lié au présent : _Je **vais déménager** (j'ai signé le bail)._",
+           "prévision, promesse, avenir plus lointain : _Un jour, je **vivrai** à la mer._"
+          ],
+          [
+           "oral, registre courant",
+           "écrit, registre soutenu (lettres, articles, programmes)"
+          ]
+         ]
+        },
+        {
+         "t": "p",
+         "md": "**Après _quand, lorsque, dès que, aussitôt que_** à sens futur, on emploie le **futur** (pas le présent comme en anglais) : _**Quand** tu **arriveras**, appelle-moi._"
+        },
+        {
+         "t": "p",
+         "md": "**Si + présent → futur** : _**Si** tu **viens**, nous **irons** au concert._ (jamais de futur après _si_ conditionnel)."
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  },
+  {
+   "number": 48,
+   "title": "Le futur antérieur",
+   "exam_focus": [
+    {
+     "t": "p",
+     "md": "Le futur antérieur présente une action **accomplie avant** une autre action future, ou une **supposition** sur le passé. C'est un temps typique de l'écrit soutenu et des plans d'action : _Quand nous aurons réduit nos déchets, nous pourrons…_"
+    },
+    {
+     "t": "p",
+     "md": "Repère : _Grammaire progressive du français_, chapitre 48 (p. 228)."
+    }
+   ],
+   "los": [
+    {
+     "letter": "a",
+     "text": "Former et employer le futur antérieur (antériorité dans le futur, supposition).",
+     "module": 1
+    },
+    {
+     "letter": "b",
+     "text": "Situer les temps de l'indicatif les uns par rapport aux autres.",
+     "module": 1
+    }
+   ],
+   "key_concepts": {},
+   "modules": [
+    {
+     "number": 1,
+     "title": "Le futur antérieur et le résumé des temps de l'indicatif",
+     "sections": [
+      {
+       "los": [
+        "a"
+       ],
+       "blocks": [
+        {
+         "t": "p",
+         "md": "**Formation** : _avoir_ ou _être_ au **futur** + participe passé : _j'**aurai fini**, elle **sera partie**, nous nous **serons inscrits**_."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "**Antériorité dans le futur** (souvent après _quand, dès que, après que, une fois que_) : _**Quand** tu **auras lu** ce livre, tu me le prêteras._",
+          "**Action accomplie à un moment futur** : _**D'ici** 2030, nous **aurons divisé** nos émissions par deux._",
+          "**Supposition** sur un fait passé : _Il n'est pas là ? Il **aura oublié** le rendez-vous._ (= il a probablement oublié)"
+         ]
+        }
+       ]
+      },
+      {
+       "los": [
+        "b"
+       ],
+       "blocks": [
+        {
+         "t": "table",
+         "rows": [
+          [
+           "Passé",
+           "Présent",
+           "Futur"
+          ],
+          [
+           "plus-que-parfait : _il avait fini_ (avant un moment passé)",
+           "présent : _il finit_",
+           "futur antérieur : _il aura fini_ (avant un moment futur)"
+          ],
+          [
+           "passé composé : _il a fini_",
+           "",
+           "futur simple : _il finira_"
+          ],
+          [
+           "imparfait : _il finissait_",
+           "",
+           "futur proche : _il va finir_"
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "quiz": []
+    }
+   ]
+  }
+ ]
+}

@@ -44,14 +44,14 @@
    "stem": "Le train est …… rapide que le bus.",
    "options": [
     "plus de",
-    "plus",
-    "autant"
+    "autant",
+    "plus"
    ],
-   "answer": "B",
+   "answer": "C",
    "explanations": {
     "A": "Faux. _plus de_ s'emploie avec un nom.",
-    "B": "Correct. Comparatif de supériorité avec un adjectif.",
-    "C": "Faux. _autant_ s'emploie avec un nom ou un verbe."
+    "B": "Faux. _autant_ s'emploie avec un nom ou un verbe.",
+    "C": "Correct. Comparatif de supériorité avec un adjectif."
    }
   },
   {
@@ -80,14 +80,14 @@
    "stem": "Les jeunes lisent …… journaux papier.",
    "options": [
     "de moins en moins",
-    "moins en moins des",
-    "de moins en moins de"
+    "de moins en moins de",
+    "moins en moins des"
    ],
-   "answer": "C",
+   "answer": "B",
    "explanations": {
     "A": "Faux. Devant un nom, il faut _de_.",
-    "B": "Faux. La structure est _de moins en moins de_.",
-    "C": "Correct. Progression avec un nom → _de moins en moins de_."
+    "B": "Correct. Progression avec un nom → _de moins en moins de_.",
+    "C": "Faux. La structure est _de moins en moins de_."
    }
   },
   {
@@ -133,15 +133,15 @@
    "qtype": "form",
    "stem": "Depuis qu'elle a des lunettes, elle voit …….",
    "options": [
-    "mieux",
     "meilleur",
-    "plus bien"
+    "plus bien",
+    "mieux"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. Comparatif de _bien_ (verbe _voir_) → _mieux_.",
-    "B": "Faux. _meilleur_ qualifie un nom.",
-    "C": "Faux. *_plus bien_ n'existe pas."
+    "A": "Faux. _meilleur_ qualifie un nom.",
+    "B": "Faux. *_plus bien_ n'existe pas.",
+    "C": "Correct. Comparatif de _bien_ (verbe _voir_) → _mieux_."
    }
   },
   {
@@ -151,15 +151,15 @@
    "qtype": "form",
    "stem": "C'est le musée le plus visité …… monde.",
    "options": [
+    "du",
     "dans le",
-    "au",
-    "du"
+    "au"
    ],
-   "answer": "C",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. Après un superlatif, on emploie _de_.",
+    "A": "Correct. Superlatif + _de_ : _du monde_.",
     "B": "Faux. Après un superlatif, on emploie _de_.",
-    "C": "Correct. Superlatif + _de_ : _du monde_."
+    "C": "Faux. Après un superlatif, on emploie _de_."
    }
   },
   {
@@ -169,15 +169,15 @@
    "qtype": "form",
    "stem": "C'est …… solution, à mon avis.",
    "options": [
-    "la meilleure",
     "la mieux",
-    "la plus bonne"
+    "la plus bonne",
+    "la meilleure"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. Superlatif de _bon_ au féminin.",
-    "B": "Faux. _mieux_ ne qualifie pas un nom.",
-    "C": "Faux. *_plus bonne_ n'existe pas."
+    "A": "Faux. _mieux_ ne qualifie pas un nom.",
+    "B": "Faux. *_plus bonne_ n'existe pas.",
+    "C": "Correct. Superlatif de _bon_ au féminin."
    }
   },
   {

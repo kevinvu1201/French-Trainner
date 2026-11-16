@@ -1,0 +1,305 @@
+{
+ "module": "m34.1",
+ "source_hash": "aed86d53a581",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "La négation française a deux éléments : _ne_ + un second mot qui précise le sens."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_jamais, plus, rien_ suivent l'auxiliaire ; _personne, aucun, nulle part_ suivent le participe ; à l'infinitif, _ne_ + second mot le précèdent."
+   },
+   {
+    "stage": "result",
+    "md": "_ne … que_ n'est pas une vraie négation : il signifie _seulement_."
+   }
+  ],
+  "why_it_matters": "Les QCM de compréhension reformulent souvent _ne … que_ par _seulement_, ou _ne … plus_ par _a cessé de_.",
+  "exam_approach": {
+   "look_first": [
+    "le sens voulu (plus du tout, jamais, seulement ?)",
+    "un temps composé ou un infinitif"
+   ],
+   "traps": [
+    "*_je n'ai vu pas personne_",
+    "*_personne n'est pas venu_",
+    "_ne … que_ compris comme une négation"
+   ],
+   "distractors": [
+    "le second mot mal placé",
+    "_pas_ ajouté à une autre négation"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.34.a.001",
+   "los": "los.34.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Il a arrêté de fumer : il ne fume …….",
+   "options": [
+    "jamais",
+    "plus",
+    "rien"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _jamais_ signifie qu'il n'a jamais fumé.",
+    "B": "Correct. Fin d'une habitude → _ne … plus_.",
+    "C": "Faux. _rien_ remplace un objet, pas une habitude."
+   }
+  },
+  {
+   "id": "q.34.a.002",
+   "los": "los.34.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Tu as déjà fini ? — Non, je n'ai …… fini.",
+   "options": [
+    "plus",
+    "jamais",
+    "pas encore"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _ne … plus_ indique la fin d'une action.",
+    "B": "Faux. _jamais_ ne répond pas à _déjà_ ici.",
+    "C": "Correct. Négation de _déjà_ → _pas encore_."
+   }
+  },
+  {
+   "id": "q.34.a.003",
+   "los": "los.34.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "J'ai cherché partout mais je n'ai trouvé …….",
+   "options": [
+    "personne",
+    "pas personne",
+    "aucun"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _personne_ après le participe passé.",
+    "B": "Faux. On n'ajoute pas _pas_ à _personne_.",
+    "C": "Faux. _aucun_ doit être suivi d'un nom ou repris par _en_."
+   }
+  },
+  {
+   "id": "q.34.a.004",
+   "los": "los.34.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "…… n'a répondu à mon annonce.",
+   "options": [
+    "Personne ne",
+    "Personne",
+    "Quelqu'un"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le _n'_ est déjà dans la phrase.",
+    "B": "Correct. _personne ne_ en position sujet.",
+    "C": "Faux. La phrase est négative (_n'_)."
+   }
+  },
+  {
+   "id": "q.34.a.005",
+   "los": "los.34.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Il nous a demandé de …… toucher.",
+   "options": [
+    "rien ne",
+    "ne toucher rien",
+    "ne rien"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. L'ordre est _ne rien_.",
+    "B": "Faux. À l'infinitif, _ne rien_ précède le verbe.",
+    "C": "Correct. À l'infinitif, _ne rien_ se place avant."
+   }
+  },
+  {
+   "id": "q.34.a.006",
+   "los": "los.34.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Elle n'a …… expérience dans ce domaine.",
+   "options": [
+    "aucune",
+    "aucun",
+    "pas aucune"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _aucune_ + nom féminin.",
+    "B": "Faux. _expérience_ est féminin.",
+    "C": "Faux. On n'ajoute pas _pas_ à _aucune_."
+   }
+  },
+  {
+   "id": "q.34.b.001",
+   "los": "los.34.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "« Il ne reste que trois places » signifie…",
+   "options": [
+    "il reste seulement trois places.",
+    "il ne reste aucune place.",
+    "il reste plus de trois places."
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _ne … que_ = seulement.",
+    "B": "Faux. _ne … que_ n'est pas une négation totale.",
+    "C": "Faux. _ne … que_ indique une limite."
+   }
+  },
+  {
+   "id": "q.34.b.002",
+   "los": "los.34.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Je ne bois …… café …… thé le soir.",
+   "options": [
+    "pas de … ni de",
+    "ni du … ni du",
+    "ni … ni"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. La structure est _ne … ni … ni_.",
+    "B": "Faux. Après _ni … ni_, le partitif disparaît.",
+    "C": "Correct. Double négation coordonnée, sans article."
+   }
+  },
+  {
+   "id": "q.34.b.003",
+   "los": "los.34.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il est parti …… prévenir personne.",
+   "options": [
+    "sans de",
+    "sans",
+    "ne pas"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _sans_ est suivi directement de l'infinitif.",
+    "B": "Correct. _sans_ + infinitif.",
+    "C": "Faux. Il faudrait un verbe conjugué."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m34.1.01",
+   "modules": [
+    "m34.1"
+   ],
+   "title": "Un village qui se vide",
+   "vignette": "Un journaliste décrit un village :\n\n« Il y a vingt ans, on comptait trois commerces. Aujourd'hui, il **(1)** …… y a plus aucun. **(2)** …… ne s'installe ici : les jeunes partent et ils ne reviennent **(3)** ……. Le maire n'a trouvé **(4)** …… solution pour attirer de nouvelles familles. »",
+   "questions": [
+    {
+     "id": "set.m34.1.01.q1",
+     "los": "los.34.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "ne",
+      "n'",
+      "pas"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Devant une voyelle → _n'_.",
+      "B": "Correct. _ne … plus aucun_ : il faut _ne_.",
+      "C": "Faux. _pas_ ne s'ajoute pas à _plus aucun_."
+     }
+    },
+    {
+     "id": "set.m34.1.01.q2",
+     "los": "los.34.a",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "Quelqu'un",
+      "Rien",
+      "Personne"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. La phrase contient _ne_ : sens négatif.",
+      "B": "Faux. _rien_ désigne une chose ; ici, des personnes s'installent.",
+      "C": "Correct. Sujet négatif → _personne ne_."
+     }
+    },
+    {
+     "id": "set.m34.1.01.q3",
+     "los": "los.34.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (3) :",
+     "options": [
+      "jamais",
+      "rien",
+      "aucun"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _ne … jamais_ = à aucun moment.",
+      "B": "Faux. _revenir_ n'a pas de complément d'objet.",
+      "C": "Faux. _aucun_ doit accompagner un nom."
+     }
+    },
+    {
+     "id": "set.m34.1.01.q4",
+     "los": "los.34.a",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (4) :",
+     "options": [
+      "aucune",
+      "pas de",
+      "personne"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _aucune_ + nom féminin (_solution_).",
+      "B": "Faux. _n'a trouvé pas de_ : l'ordre serait _n'a pas trouvé de_.",
+      "C": "Faux. _personne_ désigne des gens."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.34.place-negation",
+   "los": [
+    "los.34.a"
+   ],
+   "name": "Place de la négation au passé composé",
+   "front": "jamais / personne au passé composé ?",
+   "back": "Je n'ai **jamais** vu (avant le participe) ; je n'ai vu **personne** (après le participe)."
+  },
+  {
+   "id": "f.34.ne-que",
+   "los": [
+    "los.34.b"
+   ],
+   "name": "Ne … que",
+   "front": "« Il ne mange que des légumes » = ?",
+   "back": "Il mange **seulement** des légumes (restriction, pas négation)."
+  }
+ ]
+}

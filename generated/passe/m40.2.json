@@ -1,0 +1,178 @@
+{
+ "module": "m40.2",
+ "source_hash": "4402731d2715",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "La grande majorité des verbes forment le passé composé avec _avoir_."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_Être_ s'emploie avec une quinzaine de verbes de mouvement ou de changement d'état et avec tous les pronominaux."
+   },
+   {
+    "stage": "result",
+    "md": "Si l'un de ces verbes de mouvement a un COD, il reprend l'auxiliaire _avoir_."
+   }
+  ],
+  "why_it_matters": "L'auxiliaire est le premier point vérifié dans un récit au passé (production écrite et orale).",
+  "exam_approach": {
+   "look_first": [
+    "le verbe : mouvement ? pronominal ?",
+    "un COD après le verbe"
+   ],
+   "traps": [
+    "*_j'ai tombé_",
+    "*_il a resté_",
+    "*_elle est sortie la poubelle_"
+   ],
+   "distractors": [
+    "_avoir_ avec un verbe de mouvement",
+    "_être_ avec un verbe de mouvement suivi d'un COD"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.40.b.001",
+   "los": "los.40.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Mes amis …… à Paris la semaine dernière.",
+   "options": [
+    "ont venu",
+    "sont venu",
+    "sont venus"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _venir_ se conjugue avec _être_.",
+    "B": "Faux. Avec _être_, le participe s'accorde.",
+    "C": "Correct. _venir_ → _être_."
+   }
+  },
+  {
+   "id": "q.40.b.002",
+   "los": "los.40.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Je …… dans l'escalier et je me suis fait mal.",
+   "options": [
+    "suis tombé",
+    "ai tombé",
+    "me suis tombé"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _tomber_ → _être_.",
+    "B": "Faux. _tomber_ se conjugue avec _être_.",
+    "C": "Faux. _tomber_ n'est pas pronominal."
+   }
+  },
+  {
+   "id": "q.40.b.003",
+   "los": "los.40.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Hier soir, nous …… à la maison.",
+   "options": [
+    "avons resté",
+    "sommes restés",
+    "sommes resté"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _rester_ se conjugue avec _être_.",
+    "B": "Correct. _rester_ → _être_.",
+    "C": "Faux. Avec _être_, accord avec _nous_."
+   }
+  },
+  {
+   "id": "q.40.b.004",
+   "los": "los.40.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Elle …… ses valises au troisième étage.",
+   "options": [
+    "a monté",
+    "est montée",
+    "a montée"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _monter_ + COD (_ses valises_) → _avoir_.",
+    "B": "Faux. Avec un COD, _monter_ prend _avoir_.",
+    "C": "Faux. Avec _avoir_, pas d'accord avec le sujet."
+   }
+  },
+  {
+   "id": "q.40.b.005",
+   "los": "los.40.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ce matin, il …… très tôt.",
+   "options": [
+    "a réveillé",
+    "s'a réveillé",
+    "s'est réveillé"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Sans pronom, il manque le COD : _se réveiller_ est pronominal.",
+    "B": "Faux. Les pronominaux prennent _être_.",
+    "C": "Correct. Verbe pronominal → _être_."
+   }
+  },
+  {
+   "id": "q.40.b.006",
+   "los": "los.40.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Nous …… trois semaines merveilleuses en Grèce.",
+   "options": [
+    "sommes passés",
+    "avons passé",
+    "sommes passé"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _passer_ + durée (COD) prend _avoir_.",
+    "B": "Correct. _passer_ + COD (_trois semaines_) → _avoir_.",
+    "C": "Faux. Il faut _avoir_ avec un COD."
+   }
+  },
+  {
+   "id": "q.40.b.007",
+   "los": "los.40.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "N'oublie pas : tu …… la poubelle hier ?",
+   "options": [
+    "as sorti",
+    "es sorti",
+    "es sortie"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _sortir_ + COD → _avoir_.",
+    "B": "Faux. Avec un COD (_la poubelle_), _sortir_ prend _avoir_.",
+    "C": "Faux. Avec un COD, _sortir_ prend _avoir_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.40.etre-aux",
+   "los": [
+    "los.40.b"
+   ],
+   "name": "Verbes avec être",
+   "front": "Quels verbes prennent être au passé composé ?",
+   "back": "aller, venir, arriver, partir, entrer, sortir, monter, descendre, passer, tomber, naître, mourir, rester, retourner (+ dérivés) et **tous les pronominaux**.",
+   "common_mistake": "_Elle a sorti le chien_ : avec un COD, _avoir_."
+  }
+ ]
+}

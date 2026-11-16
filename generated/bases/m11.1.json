@@ -61,14 +61,32 @@
    "stem": "Mes cousins …… les cheveux roux.",
    "options": [
     "sont",
-    "avons",
-    "ont"
+    "ont",
+    "avons"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. On décrit avec _avoir les cheveux…_",
+    "B": "Correct. _ils ont_.",
+    "C": "Faux. _avons_ va avec _nous_."
+   }
+  },
+  {
+   "id": "q.11.a.003",
+   "los": "los.11.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Elle …… les yeux verts et les cheveux courts.",
+   "options": [
+    "est",
+    "fait",
+    "a"
    ],
    "answer": "C",
    "explanations": {
-    "A": "Faux. On décrit avec _avoir les cheveux…_",
-    "B": "Faux. _avons_ va avec _nous_.",
-    "C": "Correct. _ils ont_."
+    "A": "Faux. On décrit avec _avoir les yeux…_",
+    "B": "Faux. _faire_ ne s'emploie pas pour décrire.",
+    "C": "Correct. Description physique → _avoir_."
    }
   },
   {

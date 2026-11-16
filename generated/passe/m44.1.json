@@ -1,0 +1,176 @@
+{
+ "module": "m44.1",
+ "source_hash": "e8045b7001ae",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Dans un récit, certaines actions se sont produites **avant** le moment raconté."
+   },
+   {
+    "stage": "mechanism",
+    "md": "On forme le plus-que-parfait avec l'auxiliaire à l'imparfait + participe passé."
+   },
+   {
+    "stage": "result",
+    "md": "Il marque l'antériorité, le regret (_si seulement…_) et la concordance au discours indirect."
+   }
+  ],
+  "why_it_matters": "Le plus-que-parfait conditionne la réussite des hypothèses irréelles (_si j'avais…, j'aurais…_) et du discours rapporté.",
+  "exam_approach": {
+   "look_first": [
+    "une action antérieure à une autre action passée",
+    "l'auxiliaire (avoir / être)"
+   ],
+   "traps": [
+    "*_quand je suis arrivé, il est déjà parti_",
+    "*_il avait parti_"
+   ],
+   "distractors": [
+    "le passé composé à la place du plus-que-parfait",
+    "l'auxiliaire _avoir_ avec un verbe de mouvement"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.44.a.001",
+   "los": "los.44.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Quand nous sommes arrivés à la gare, le train …….",
+   "options": [
+    "est déjà parti",
+    "était déjà parti",
+    "avait déjà parti"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le départ précède l'arrivée : plus-que-parfait.",
+    "B": "Correct. Action antérieure → plus-que-parfait avec _être_.",
+    "C": "Faux. _partir_ se conjugue avec _être_."
+   }
+  },
+  {
+   "id": "q.44.a.002",
+   "los": "los.44.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Elle a réussi l'examen parce qu'elle …… toute l'année.",
+   "options": [
+    "avait travaillé",
+    "a travaillé",
+    "travaillerait"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Cause antérieure → plus-que-parfait.",
+    "B": "Faux. Le travail précède la réussite : antériorité.",
+    "C": "Faux. C'est le conditionnel."
+   }
+  },
+  {
+   "id": "q.44.a.003",
+   "los": "los.44.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il m'a raconté qu'il …… son passeport à l'aéroport.",
+   "options": [
+    "a perdu",
+    "perdait",
+    "avait perdu"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Après _il m'a raconté que_, le passé composé devient plus-que-parfait.",
+    "B": "Faux. L'imparfait décrirait une action en cours.",
+    "C": "Correct. Discours rapporté au passé : antériorité → plus-que-parfait."
+   }
+  },
+  {
+   "id": "q.44.a.004",
+   "los": "los.44.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Si seulement je …… ton conseil !",
+   "options": [
+    "ai écouté",
+    "écouterais",
+    "avais écouté"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le regret s'exprime au plus-que-parfait.",
+    "B": "Faux. Pas de conditionnel après _si_.",
+    "C": "Correct. Regret → _si seulement_ + plus-que-parfait."
+   }
+  },
+  {
+   "id": "q.44.b.001",
+   "los": "los.44.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Le matin de l'examen, j'étais épuisé : la veille, je n'…… pas dormi.",
+   "options": [
+    "avais",
+    "ai",
+    "aurais"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Action antérieure à un moment passé → plus-que-parfait.",
+    "B": "Faux. _la veille_ d'un moment passé : il faut le plus-que-parfait.",
+    "C": "Faux. Le conditionnel passé exprime un fait irréel."
+   }
+  },
+  {
+   "id": "q.44.b.002",
+   "los": "los.44.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Ce matin, j'ai enfin retrouvé le portefeuille que j'…… la veille.",
+   "options": [
+    "ai perdu",
+    "avais perdu",
+    "perdrai"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _la veille_ d'un moment passé : plus-que-parfait.",
+    "B": "Correct. Perte antérieure au moment raconté → plus-que-parfait.",
+    "C": "Faux. Le futur ne convient pas."
+   }
+  },
+  {
+   "id": "q.44.b.003",
+   "los": "los.44.b",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Les invités …… quand le gâteau est enfin arrivé.",
+   "options": [
+    "partaient déjà",
+    "sont déjà partis",
+    "étaient déjà partis"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. L'imparfait montrerait le départ en cours.",
+    "B": "Faux. L'antériorité demande le plus-que-parfait.",
+    "C": "Correct. Action antérieure et accomplie → plus-que-parfait."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.44.pqp",
+   "los": [
+    "los.44.a"
+   ],
+   "name": "Plus-que-parfait",
+   "front": "Formation et emploi ?",
+   "back": "auxiliaire à l'**imparfait** + participe : _j'avais fini, elle était partie_ ; action **antérieure** à une autre action passée."
+  }
+ ]
+}

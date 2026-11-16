@@ -1,0 +1,159 @@
+{
+ "module": "m39.1",
+ "source_hash": "95fa0d13f3a1",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le futur proche présente l'avenir comme lié au présent (projet décidé, signe visible)."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_aller_ au présent + infinitif ; le pronom complément accompagne l'infinitif."
+   },
+   {
+    "stage": "result",
+    "md": "La négation encadre _aller_, pas l'infinitif."
+   }
+  ],
+  "why_it_matters": "À l'oral du DELF, le futur proche est naturel pour présenter des projets ou des conséquences.",
+  "exam_approach": {
+   "look_first": [
+    "le verbe dont dépend le pronom (l'infinitif)",
+    "une négation"
+   ],
+   "traps": [
+    "*_je le vais faire_",
+    "*_je vais ne pas venir_ (sens différent)",
+    "*_nous allons se voir_"
+   ],
+   "distractors": [
+    "le pronom devant _aller_",
+    "la négation autour de l'infinitif"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.39.a.001",
+   "los": "los.39.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Regarde ces nuages : il …… pleuvoir.",
+   "options": [
+    "vas",
+    "va",
+    "allait"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _vas_ va avec _tu_.",
+    "B": "Correct. _aller_ au présent + infinitif.",
+    "C": "Faux. C'est l'imparfait."
+   }
+  },
+  {
+   "id": "q.39.a.002",
+   "los": "los.39.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Ce soir, nous …… dîner chez des amis.",
+   "options": [
+    "vont",
+    "allions",
+    "allons"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _vont_ va avec _ils_.",
+    "B": "Faux. C'est l'imparfait.",
+    "C": "Correct. _nous allons_ + infinitif."
+   }
+  },
+  {
+   "id": "q.39.a.003",
+   "los": "los.39.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Attention, le vase …… tomber !",
+   "options": [
+    "va",
+    "vas",
+    "allait"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Événement imminent → futur proche (_il va_).",
+    "B": "Faux. _vas_ va avec _tu_.",
+    "C": "Faux. C'est l'imparfait."
+   }
+  },
+  {
+   "id": "q.39.b.001",
+   "los": "los.39.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ce dossier ? Je …… terminer demain.",
+   "options": [
+    "le vais",
+    "vais le",
+    "vais lui"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le pronom accompagne l'infinitif, pas _aller_.",
+    "B": "Correct. Le pronom se place devant l'infinitif.",
+    "C": "Faux. _terminer_ est direct : _le_."
+   }
+  },
+  {
+   "id": "q.39.b.002",
+   "los": "los.39.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Désolé, je …… venir à la réunion.",
+   "options": [
+    "ne vais pas",
+    "vais ne pas",
+    "ne vais venir pas"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. La négation encadre _aller_.",
+    "B": "Faux. Ici la négation doit encadrer _aller_.",
+    "C": "Faux. _pas_ se place après _aller_."
+   }
+  },
+  {
+   "id": "q.39.b.003",
+   "los": "los.39.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Nous …… voir demain matin, d'accord ?",
+   "options": [
+    "allons se",
+    "nous allons se",
+    "allons nous"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Avec _nous_, le pronom est _nous_.",
+    "B": "Faux. Le pronom accompagne l'infinitif et s'accorde avec _nous_.",
+    "C": "Correct. Pronom réfléchi accordé avec _nous_, devant l'infinitif."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.39.futur-proche-pronom",
+   "los": [
+    "los.39.b"
+   ],
+   "name": "Pronoms au futur proche",
+   "front": "Je vais … faire (le) ?",
+   "back": "Je vais **le** faire : pronom devant l'infinitif ; négation autour d'_aller_ : _je ne vais pas le faire_."
+  }
+ ]
+}

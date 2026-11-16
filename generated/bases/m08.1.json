@@ -43,14 +43,14 @@
    "stem": "…… hôtel est complet tout l'été.",
    "options": [
     "Ce",
-    "Cet",
-    "Cette"
+    "Cette",
+    "Cet"
    ],
-   "answer": "B",
+   "answer": "C",
    "explanations": {
     "A": "Faux. Devant une voyelle ou un _h_ muet → _cet_.",
-    "B": "Correct. Masculin + _h_ muet → _cet_.",
-    "C": "Faux. _hôtel_ est masculin."
+    "B": "Faux. _hôtel_ est masculin.",
+    "C": "Correct. Masculin + _h_ muet → _cet_."
    }
   },
   {
@@ -97,14 +97,14 @@
    "stem": "Quelle veste veux-tu ? …… ou celle-là ?",
    "options": [
     "Celui-ci",
-    "Cette-ci",
-    "Celle-ci"
+    "Celle-ci",
+    "Cette-ci"
    ],
-   "answer": "C",
+   "answer": "B",
    "explanations": {
     "A": "Faux. _veste_ est féminin.",
-    "B": "Faux. Il faut le pronom _celle_.",
-    "C": "Correct. _veste_ est féminin."
+    "B": "Correct. _veste_ est féminin.",
+    "C": "Faux. Il faut le pronom _celle_."
    }
   },
   {
@@ -132,15 +132,15 @@
    "qtype": "form",
    "stem": "Les candidats qui ont un diplôme et …… qui ont de l'expérience peuvent postuler.",
    "options": [
-    "ceux",
     "celles",
-    "ces"
+    "ces",
+    "ceux"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. Masculin pluriel + _qui_.",
-    "B": "Faux. _candidats_ est masculin.",
-    "C": "Faux. _ces_ doit être suivi d'un nom."
+    "A": "Faux. _candidats_ est masculin.",
+    "B": "Faux. _ces_ doit être suivi d'un nom.",
+    "C": "Correct. Masculin pluriel + _qui_."
    }
   }
  ],

@@ -60,14 +60,14 @@
    "stem": "Si j'…… (savoir), je serais venu plus tôt.",
    "options": [
     "aurais su",
-    "avais su",
-    "savais"
+    "savais",
+    "avais su"
    ],
-   "answer": "B",
+   "answer": "C",
    "explanations": {
     "A": "Faux. Jamais de conditionnel après _si_.",
-    "B": "Correct. Irréel du passé : _si_ + plus-que-parfait.",
-    "C": "Faux. L'imparfait renverrait au présent."
+    "B": "Faux. L'imparfait renverrait au présent.",
+    "C": "Correct. Irréel du passé : _si_ + plus-que-parfait."
    }
   },
   {
@@ -186,14 +186,14 @@
    "stem": "Note ce numéro au cas où tu …… (avoir) un problème.",
    "options": [
     "aies",
-    "auras",
-    "aurais"
+    "aurais",
+    "auras"
    ],
-   "answer": "C",
+   "answer": "B",
    "explanations": {
     "A": "Faux. _au cas où_ n'est pas suivi du subjonctif.",
-    "B": "Faux. _au cas où_ n'est pas suivi du futur.",
-    "C": "Correct. _au cas où_ + conditionnel."
+    "B": "Correct. _au cas où_ + conditionnel.",
+    "C": "Faux. _au cas où_ n'est pas suivi du futur."
    }
   },
   {
@@ -203,15 +203,15 @@
    "qtype": "judgement",
    "stem": "Tu réussiras …… travailler régulièrement.",
    "options": [
-    "à condition de",
     "à condition que",
-    "au cas où"
+    "au cas où",
+    "à condition de"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. Même sujet → _à condition de_ + infinitif.",
-    "B": "Faux. _à condition que_ demande un verbe conjugué au subjonctif.",
-    "C": "Faux. _au cas où_ demande un verbe conjugué au conditionnel."
+    "A": "Faux. _à condition que_ demande un verbe conjugué au subjonctif.",
+    "B": "Faux. _au cas où_ demande un verbe conjugué au conditionnel.",
+    "C": "Correct. Même sujet → _à condition de_ + infinitif."
    }
   },
   {
@@ -221,15 +221,15 @@
    "qtype": "judgement",
    "stem": "…… panne, appelez le 0800 123 456.",
    "options": [
+    "En cas de",
     "Au cas où",
-    "Si",
-    "En cas de"
+    "Si"
    ],
-   "answer": "C",
+   "answer": "A",
    "explanations": {
-    "A": "Faux. _au cas où_ est suivi d'un verbe conjugué.",
-    "B": "Faux. _si_ est suivi d'un verbe conjugué.",
-    "C": "Correct. _en cas de_ + nom."
+    "A": "Correct. _en cas de_ + nom.",
+    "B": "Faux. _au cas où_ est suivi d'un verbe conjugué.",
+    "C": "Faux. _si_ est suivi d'un verbe conjugué."
    }
   }
  ],
@@ -267,15 +267,15 @@
      "qtype": "form",
      "stem": "Blanc (2) :",
      "options": [
-      "aurait eu",
       "aurait",
-      "avait eu"
+      "avait eu",
+      "aurait eu"
      ],
-     "answer": "A",
+     "answer": "C",
      "explanations": {
-      "A": "Correct. Irréel du passé → conditionnel passé.",
-      "B": "Faux. Le conditionnel présent ne porte pas sur un fait passé.",
-      "C": "Faux. C'est le plus-que-parfait."
+      "A": "Faux. Le conditionnel présent ne porte pas sur un fait passé.",
+      "B": "Faux. C'est le plus-que-parfait.",
+      "C": "Correct. Irréel du passé → conditionnel passé."
      }
     },
     {
@@ -303,14 +303,14 @@
      "qtype": "judgement",
      "stem": "Blanc (4) :",
      "options": [
-      "à condition que",
       "à condition de",
+      "à condition que",
       "au cas où"
      ],
-     "answer": "B",
+     "answer": "A",
      "explanations": {
-      "A": "Faux. _à condition que_ demande un verbe conjugué.",
-      "B": "Correct. Même sujet + infinitif (_trouver_).",
+      "A": "Correct. Même sujet + infinitif (_trouver_).",
+      "B": "Faux. _à condition que_ demande un verbe conjugué.",
       "C": "Faux. _au cas où_ demande un verbe conjugué."
      }
     }

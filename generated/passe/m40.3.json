@@ -1,0 +1,324 @@
+{
+ "module": "m40.3",
+ "source_hash": "8ae2883fa1f6",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le participe passé se comporte comme un adjectif avec _être_ et reste invariable avec _avoir_… sauf exception."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Avec _avoir_, il s'accorde avec un COD **placé avant** : _la lettre que j'ai écrit**e**_."
+   },
+   {
+    "stage": "result",
+    "md": "Négation, pronoms et adverbes s'organisent autour de l'**auxiliaire**."
+   }
+  ],
+  "why_it_matters": "L'accord avec le COD antéposé est le test de grammaire le plus classique au niveau B2.",
+  "exam_approach": {
+   "look_first": [
+    "l'auxiliaire",
+    "un COD placé avant (le, la, les, que)",
+    "un verbe pronominal : COD ou COI ?"
+   ],
+   "traps": [
+    "*_elle a partie_",
+    "*_les photos que j'ai pris_",
+    "*_elles se sont parlées_"
+   ],
+   "distractors": [
+    "l'accord avec le sujet après _avoir_",
+    "l'absence d'accord avec un COD antéposé"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.40.c.001",
+   "los": "los.40.c",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Mes sœurs sont …… hier soir.",
+   "options": [
+    "arrivé",
+    "arrivés",
+    "arrivées"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Avec _être_, le participe s'accorde.",
+    "B": "Faux. _sœurs_ est féminin.",
+    "C": "Correct. _être_ → accord avec le sujet (féminin pluriel)."
+   }
+  },
+  {
+   "id": "q.40.c.002",
+   "los": "los.40.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "La lettre que tu m'as …… m'a beaucoup touché.",
+   "options": [
+    "écrit",
+    "écrite",
+    "écrits"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le COD est placé avant : accord.",
+    "B": "Correct. COD _que_ (= la lettre) placé avant → accord.",
+    "C": "Faux. _lettre_ est féminin singulier."
+   }
+  },
+  {
+   "id": "q.40.c.003",
+   "los": "los.40.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Tes clés ? Je les ai …… sur la table.",
+   "options": [
+    "laissées",
+    "laissé",
+    "laissés"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. COD _les_ (= les clés, féminin pluriel) placé avant.",
+    "B": "Faux. Le COD _les_ précède le verbe : accord.",
+    "C": "Faux. _clés_ est féminin."
+   }
+  },
+  {
+   "id": "q.40.c.004",
+   "los": "los.40.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Elles ont …… toute la nuit.",
+   "options": [
+    "dansées",
+    "dansé",
+    "dansés"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Avec _avoir_, on n'accorde pas avec le sujet.",
+    "B": "Correct. Avec _avoir_, pas d'accord avec le sujet.",
+    "C": "Faux. Avec _avoir_, on n'accorde pas avec le sujet."
+   }
+  },
+  {
+   "id": "q.40.c.005",
+   "los": "los.40.c",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Elles se sont …… pendant des heures au téléphone.",
+   "options": [
+    "parlées",
+    "parlés",
+    "parlé"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _se_ est COI (_parler à_) : pas d'accord.",
+    "B": "Faux. _se_ est COI : pas d'accord.",
+    "C": "Correct. _parler à qqn_ : _se_ est COI → pas d'accord."
+   }
+  },
+  {
+   "id": "q.40.c.006",
+   "los": "los.40.c",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Elle s'est …… avant de partir.",
+   "options": [
+    "maquillé",
+    "maquillés",
+    "maquillée"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _se_ est COD : accord avec le sujet.",
+    "B": "Faux. Le sujet est féminin singulier.",
+    "C": "Correct. _se_ est COD (elle maquille elle-même) → accord."
+   }
+  },
+  {
+   "id": "q.40.c.007",
+   "los": "los.40.c",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Des tomates ? J'en ai …… au marché.",
+   "options": [
+    "achetées",
+    "acheté",
+    "achetés"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. On n'accorde pas avec _en_.",
+    "B": "Correct. Pas d'accord avec _en_.",
+    "C": "Faux. On n'accorde pas avec _en_."
+   }
+  },
+  {
+   "id": "q.40.d.001",
+   "los": "los.40.d",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il est fatigué : il …… cette nuit.",
+   "options": [
+    "a mal dormi",
+    "a dormi mal",
+    "mal a dormi"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Adverbe court entre l'auxiliaire et le participe.",
+    "B": "Faux. _mal_ se place entre l'auxiliaire et le participe.",
+    "C": "Faux. L'adverbe ne précède pas l'auxiliaire."
+   }
+  },
+  {
+   "id": "q.40.d.002",
+   "los": "los.40.d",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Je …… compris la question.",
+   "options": [
+    "ai ne pas",
+    "n'ai pas",
+    "n'ai compris pas"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _ne_ se place devant l'auxiliaire.",
+    "B": "Correct. La négation encadre l'auxiliaire.",
+    "C": "Faux. _pas_ se place avant le participe."
+   }
+  },
+  {
+   "id": "q.40.d.003",
+   "los": "los.40.d",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Ton message ? Je …… hier soir.",
+   "options": [
+    "l'ai lu",
+    "ai le lu",
+    "ai lu le"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Pronom devant l'auxiliaire.",
+    "B": "Faux. Le pronom précède l'auxiliaire.",
+    "C": "Faux. Le pronom précède l'auxiliaire."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m40.3.01",
+   "modules": [
+    "m40.3"
+   ],
+   "title": "Un week-end à Lyon",
+   "vignette": "Clara raconte :\n\n« Samedi, nous **(1)** …… (partir) tôt de Paris. Nous avons visité le Vieux-Lyon et j'ai acheté des cartes postales : je les ai **(2)** …… (envoyer) à mes cousins. Le soir, mes amies **(3)** …… (rester) à l'hôtel, mais moi, je **(4)** …… (sortir) dans un bouchon lyonnais. »",
+   "questions": [
+    {
+     "id": "set.m40.3.01.q1",
+     "los": "los.40.b",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "avons parti",
+      "sommes parti",
+      "sommes partis"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. _partir_ se conjugue avec _être_.",
+      "B": "Faux. Avec _être_, accord avec _nous_ (pluriel).",
+      "C": "Correct. _partir_ → _être_, accord avec _nous_."
+     }
+    },
+    {
+     "id": "set.m40.3.01.q2",
+     "los": "los.40.c",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "envoyé",
+      "envoyés",
+      "envoyées"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. Le COD précède : accord.",
+      "B": "Faux. _cartes_ est féminin.",
+      "C": "Correct. COD _les_ (= les cartes, féminin pluriel) placé avant."
+     }
+    },
+    {
+     "id": "set.m40.3.01.q3",
+     "los": "los.40.b",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (3) :",
+     "options": [
+      "sont restées",
+      "ont resté",
+      "sont restés"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. _rester_ → _être_, accord féminin pluriel.",
+      "B": "Faux. _rester_ se conjugue avec _être_.",
+      "C": "Faux. _amies_ est féminin."
+     }
+    },
+    {
+     "id": "set.m40.3.01.q4",
+     "los": "los.40.b",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (4) :",
+     "options": [
+      "ai sorti",
+      "suis sortie",
+      "suis sorti"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Sans COD, _sortir_ prend _être_.",
+      "B": "Correct. _sortir_ sans COD → _être_, Clara est une femme.",
+      "C": "Faux. Clara est une femme : accord féminin."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.40.accord-cod",
+   "los": [
+    "los.40.c"
+   ],
+   "name": "Accord avec avoir",
+   "front": "Avec avoir, le participe s'accorde quand ?",
+   "back": "Avec le **COD placé avant** (_le, la, les, que_) : _la robe que j'ai achetée_. Jamais avec le sujet ni avec _en_."
+  },
+  {
+   "id": "f.40.accord-pronominal",
+   "los": [
+    "los.40.c"
+   ],
+   "name": "Accord des pronominaux",
+   "front": "Elles se sont lavées / parlé ?",
+   "back": "_se_ COD → accord (_lavées_) ; _se_ COI → pas d'accord (_parlé_, _téléphoné_, _écrit_)."
+  }
+ ]
+}

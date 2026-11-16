@@ -1,0 +1,177 @@
+{
+ "module": "m47.1",
+ "source_hash": "181f252cb994",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le futur simple se forme sur l'infinitif."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Infinitif (sans le _e_ final) + _-ai, -as, -a, -ons, -ez, -ont_ ; une quinzaine de verbes ont un radical irrégulier en _-r-_."
+   },
+   {
+    "stage": "result",
+    "md": "Ces mêmes radicaux servent au conditionnel présent."
+   }
+  ],
+  "why_it_matters": "Les radicaux irréguliers du futur servent aussi au conditionnel : les maîtriser sécurise deux temps à la fois.",
+  "exam_approach": {
+   "look_first": [
+    "l'infinitif et sa terminaison",
+    "un radical irrégulier (être, avoir, aller, faire, voir…)"
+   ],
+   "traps": [
+    "*_je voirai_",
+    "*_j'envoierai_",
+    "*_je prendrerai_"
+   ],
+   "distractors": [
+    "un futur régularisé",
+    "le conditionnel (_-ais_)"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.47.a.001",
+   "los": "los.47.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Demain, nous …… au musée d'Orsay.",
+   "options": [
+    "irons",
+    "allerons",
+    "irions"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _aller_ → _ir-_.",
+    "B": "Faux. _aller_ a un radical irrégulier : _ir-_.",
+    "C": "Faux. C'est le conditionnel."
+   }
+  },
+  {
+   "id": "q.47.a.002",
+   "los": "los.47.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Je …… chez toi vers 19 heures.",
+   "options": [
+    "serais",
+    "serai",
+    "étrai"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. C'est le conditionnel.",
+    "B": "Correct. _être_ → _ser-_.",
+    "C": "Faux. Le radical du futur d'_être_ est _ser-_."
+   }
+  },
+  {
+   "id": "q.47.a.003",
+   "los": "los.47.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Vous …… les résultats par courriel.",
+   "options": [
+    "recevoirez",
+    "recevriez",
+    "recevrez"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le _oi_ de l'infinitif disparaît : _recevr-_.",
+    "B": "Faux. C'est le conditionnel.",
+    "C": "Correct. _recevoir_ → _recevr-_."
+   }
+  },
+  {
+   "id": "q.47.a.004",
+   "los": "los.47.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Quand tu …… grand, tu comprendras.",
+   "options": [
+    "es",
+    "seras",
+    "serais"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Après _quand_ à valeur future, on emploie le futur.",
+    "B": "Correct. _être_ au futur après _quand_.",
+    "C": "Faux. C'est le conditionnel."
+   }
+  },
+  {
+   "id": "q.47.a.005",
+   "los": "los.47.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "On …… bien si le projet est accepté.",
+   "options": [
+    "voira",
+    "verrait",
+    "verra"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le radical de _voir_ au futur est _verr-_.",
+    "B": "Faux. C'est le conditionnel.",
+    "C": "Correct. _voir_ → _verr-_."
+   }
+  },
+  {
+   "id": "q.47.a.006",
+   "los": "los.47.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Je vous …… le dossier complet avant vendredi.",
+   "options": [
+    "enverrai",
+    "envoierai",
+    "envoyerai"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _envoyer_ → _enverr-_.",
+    "B": "Faux. Le radical d'_envoyer_ au futur est _enverr-_.",
+    "C": "Faux. Le radical d'_envoyer_ au futur est _enverr-_."
+   }
+  },
+  {
+   "id": "q.47.a.007",
+   "los": "los.47.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Il …… faire des efforts pour atteindre les objectifs.",
+   "options": [
+    "fallera",
+    "fera",
+    "faudra"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Le radical de _falloir_ est _faudr-_.",
+    "B": "Faux. _fera_ vient de _faire_.",
+    "C": "Correct. _falloir_ → _faudr-_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.47.futur-irreg",
+   "los": [
+    "los.47.a"
+   ],
+   "name": "Radicaux irréguliers du futur",
+   "front": "être, avoir, aller, faire, venir, voir, pouvoir, savoir, envoyer ?",
+   "back": "ser-, aur-, ir-, fer-, viendr-, verr-, pourr-, saur-, enverr- (+ -ai, -as, -a…)."
+  }
+ ]
+}

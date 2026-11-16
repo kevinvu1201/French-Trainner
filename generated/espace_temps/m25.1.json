@@ -59,15 +59,15 @@
    "qtype": "form",
    "stem": "Continuez tout droit …… feu rouge.",
    "options": [
-    "jusqu'au",
     "jusqu'à le",
-    "depuis le"
+    "depuis le",
+    "jusqu'au"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. _jusqu'à + le_ → _jusqu'au_.",
-    "B": "Faux. _à + le_ se contracte.",
-    "C": "Faux. On indique une limite, pas un point de départ."
+    "A": "Faux. _à + le_ se contracte.",
+    "B": "Faux. On indique une limite, pas un point de départ.",
+    "C": "Correct. _jusqu'à + le_ → _jusqu'au_."
    }
   },
   {

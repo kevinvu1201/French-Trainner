@@ -1,0 +1,196 @@
+{
+ "module": "m33.1",
+ "source_hash": "764bc222b249",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Une question partielle demande une information précise : lieu, temps, manière, personne, chose."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Pour les personnes : _qui_ ; pour les choses : _qu'est-ce qui_ (sujet), _que / qu'est-ce que_ (COD), _quoi_ (après une préposition ou en fin)."
+   },
+   {
+    "stage": "result",
+    "md": "Le registre se choisit selon la situation : _est-ce que_ (courant), inversion (soutenu)."
+   }
+  ],
+  "why_it_matters": "L'épreuve orale valorise les questions variées et adaptées au registre (interaction avec l'examinateur).",
+  "exam_approach": {
+   "look_first": [
+    "personne ou chose ?",
+    "sujet, COD ou après une préposition ?",
+    "le registre"
+   ],
+   "traps": [
+    "*_qu'est-ce qui tu fais_",
+    "*_de qui tu parles ?_ pour une chose",
+    "*_que tu fais ?_"
+   ],
+   "distractors": [
+    "_qui / que_ inversés",
+    "_quoi_ en tête de question sans préposition"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.33.a.001",
+   "los": "los.33.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "…… est-ce que vous partez en vacances ? — En juillet.",
+   "options": [
+    "Quand",
+    "Où",
+    "Comment"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Réponse temporelle → _quand_.",
+    "B": "Faux. _où_ demande un lieu.",
+    "C": "Faux. _comment_ demande une manière."
+   }
+  },
+  {
+   "id": "q.33.a.002",
+   "los": "los.33.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Question soutenue : « …… votre fille fait-elle ses études ? »",
+   "options": [
+    "Où est-ce que",
+    "Où",
+    "Qu'"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _est-ce que_ ne se combine pas avec l'inversion.",
+    "B": "Correct. _où_ + inversion complexe (_votre fille fait-elle_).",
+    "C": "Faux. _que_ demanderait l'objet, pas le lieu."
+   }
+  },
+  {
+   "id": "q.33.a.003",
+   "los": "los.33.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "…… coûte ce billet ? — 45 euros.",
+   "options": [
+    "Comment",
+    "Quand",
+    "Combien"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _comment_ demande une manière.",
+    "B": "Faux. _quand_ demande un moment.",
+    "C": "Correct. Prix → _combien_."
+   }
+  },
+  {
+   "id": "q.33.b.001",
+   "los": "los.33.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "…… s'est passé hier soir ? Il y a eu un accident ?",
+   "options": [
+    "Qu'est-ce qui",
+    "Qu'est-ce que",
+    "Qui"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Chose sujet → _qu'est-ce qui_.",
+    "B": "Faux. _que_ = COD ; ici la chose est sujet.",
+    "C": "Faux. _qui_ désigne une personne."
+   }
+  },
+  {
+   "id": "q.33.b.002",
+   "los": "los.33.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "…… tu fais ce week-end ?",
+   "options": [
+    "Qu'est-ce qui",
+    "Qu'est-ce que",
+    "Que"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _qui_ = sujet ; ici le sujet est _tu_.",
+    "B": "Correct. Chose COD → _qu'est-ce que_.",
+    "C": "Faux. _que_ seul demande l'inversion (_que fais-tu_)."
+   }
+  },
+  {
+   "id": "q.33.b.003",
+   "los": "los.33.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "De …… avez-vous parlé pendant la réunion ?",
+   "options": [
+    "que",
+    "qu'est-ce que",
+    "quoi"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Après une préposition, on emploie _quoi_ pour une chose.",
+    "B": "Faux. Cette forme ne suit pas une préposition.",
+    "C": "Correct. Chose après une préposition → _quoi_."
+   }
+  },
+  {
+   "id": "q.33.b.004",
+   "los": "los.33.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "…… est-ce que tu as invité à ton mariage ?",
+   "options": [
+    "Qui",
+    "Qu'",
+    "Quoi"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Personne COD → _qui est-ce que_.",
+    "B": "Faux. _qu'est-ce que_ demande une chose.",
+    "C": "Faux. _quoi_ demande une chose."
+   }
+  },
+  {
+   "id": "q.33.b.005",
+   "los": "los.33.b",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Avec …… partez-vous en voyage ?",
+   "options": [
+    "quoi",
+    "lequel",
+    "qui"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _quoi_ désigne une chose.",
+    "B": "Faux. _lequel_ demande un choix entre des éléments déjà cités.",
+    "C": "Correct. Personne après une préposition → _qui_."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.33.qui-que",
+   "los": [
+    "los.33.b"
+   ],
+   "name": "Qui / que / quoi",
+   "front": "Qu'est-ce qui / qu'est-ce que ?",
+   "back": "**qu'est-ce qui** : chose sujet (_qu'est-ce qui se passe ?_) ; **qu'est-ce que** : chose COD (_qu'est-ce que tu fais ?_) ; **quoi** après une préposition."
+  }
+ ]
+}

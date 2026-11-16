@@ -169,15 +169,15 @@
    "qtype": "form",
    "stem": "Achète deux bouteilles …… huile d'olive, s'il te plaît.",
    "options": [
-    "d'",
     "de l'",
-    "des"
+    "des",
+    "d'"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanations": {
-    "A": "Correct. Quantité exprimée + voyelle → _d'_.",
-    "B": "Faux. Après une quantité, pas d'article.",
-    "C": "Faux. _des_ ne suit pas une quantité exprimée."
+    "A": "Faux. Après une quantité, pas d'article.",
+    "B": "Faux. _des_ ne suit pas une quantité exprimée.",
+    "C": "Correct. Quantité exprimée + voyelle → _d'_."
    }
   }
  ],
@@ -215,15 +215,15 @@
      "qtype": "form",
      "stem": "Blanc (2) :",
      "options": [
+      "d'",
       "de l'",
-      "du",
-      "d'"
+      "du"
      ],
-     "answer": "C",
+     "answer": "A",
      "explanations": {
-      "A": "Faux. Pas d'article après _beaucoup_.",
+      "A": "Correct. Après _beaucoup_ → _d'_.",
       "B": "Faux. Pas d'article après _beaucoup_.",
-      "C": "Correct. Après _beaucoup_ → _d'_."
+      "C": "Faux. Pas d'article après _beaucoup_."
      }
     },
     {

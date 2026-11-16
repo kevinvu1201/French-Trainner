@@ -149,14 +149,14 @@
    "stem": "« Si j'étais toi, j'accepterais ce poste. » Cette phrase exprime :",
    "options": [
     "une hypothèse probable sur le futur",
-    "un conseil, sous la forme d'une hypothèse irréelle",
-    "un regret sur le passé"
+    "un regret sur le passé",
+    "un conseil, sous la forme d'une hypothèse irréelle"
    ],
-   "answer": "B",
+   "answer": "C",
    "explanations": {
     "A": "Faux. Probable → _si_ + présent → futur.",
-    "B": "Correct. _Si j'étais toi_ est irréel : c'est une façon polie de conseiller.",
-    "C": "Faux. Le regret demande le plus-que-parfait et le conditionnel passé."
+    "B": "Faux. Le regret demande le plus-que-parfait et le conditionnel passé.",
+    "C": "Correct. _Si j'étais toi_ est irréel : c'est une façon polie de conseiller."
    }
   },
   {
@@ -167,14 +167,14 @@
    "stem": "« Si on allait au cinéma ce soir ? » exprime :",
    "options": [
     "un regret",
-    "une condition",
-    "une suggestion"
+    "une suggestion",
+    "une condition"
    ],
-   "answer": "C",
+   "answer": "B",
    "explanations": {
     "A": "Faux. Il n'y a pas de passé composé ou de plus-que-parfait.",
-    "B": "Faux. Il n'y a pas de conséquence exprimée.",
-    "C": "Correct. _Si_ + imparfait sans principale = proposition."
+    "B": "Correct. _Si_ + imparfait sans principale = proposition.",
+    "C": "Faux. Il n'y a pas de conséquence exprimée."
    }
   },
   {
@@ -212,15 +212,15 @@
      "qtype": "form",
      "stem": "Blanc (1) :",
      "options": [
-      "interdisait",
       "interdirait",
-      "interdit"
+      "interdit",
+      "interdisait"
      ],
-     "answer": "A",
+     "answer": "C",
      "explanations": {
-      "A": "Correct. Principale au conditionnel (_serait_) → _si_ + imparfait.",
-      "B": "Faux. Jamais de conditionnel après _si_.",
-      "C": "Faux. Avec _si_ + présent, la principale serait au futur."
+      "A": "Faux. Jamais de conditionnel après _si_.",
+      "B": "Faux. Avec _si_ + présent, la principale serait au futur.",
+      "C": "Correct. Principale au conditionnel (_serait_) → _si_ + imparfait."
      }
     },
     {
@@ -230,15 +230,15 @@
      "qtype": "form",
      "stem": "Blanc (2) :",
      "options": [
+      "protesteront",
       "protesteraient",
-      "protestaient",
-      "protesteront"
+      "protestaient"
      ],
-     "answer": "C",
+     "answer": "A",
      "explanations": {
-      "A": "Faux. Le conditionnel suit _si_ + imparfait.",
-      "B": "Faux. L'imparfait ne convient pas dans la principale.",
-      "C": "Correct. _si_ + présent (_le fait_) → futur."
+      "A": "Correct. _si_ + présent (_le fait_) → futur.",
+      "B": "Faux. Le conditionnel suit _si_ + imparfait.",
+      "C": "Faux. L'imparfait ne convient pas dans la principale."
      }
     },
     {

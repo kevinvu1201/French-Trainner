@@ -1,0 +1,122 @@
+{
+ "module": "m33.2",
+ "source_hash": "3e146ffc7f9a",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "_Quel_ accompagne un nom ; _lequel_ le remplace dans un choix."
+   },
+   {
+    "stage": "mechanism",
+    "md": "Les deux s'accordent en genre et en nombre ; _lequel_ se contracte avec _à_ et _de_."
+   },
+   {
+    "stage": "result",
+    "md": "_Quel_ et _comme_ servent aussi à l'exclamation."
+   }
+  ],
+  "why_it_matters": "_Quels sont, selon vous…?_ est une formule utile pour relancer le débat oral.",
+  "exam_approach": {
+   "look_first": [
+    "le genre et le nombre du nom",
+    "un nom après le mot (quel) ou non (lequel) ?"
+   ],
+   "traps": [
+    "*_quel sont vos projets_",
+    "*_à lequel_"
+   ],
+   "distractors": [
+    "l'accord fautif de _quel_",
+    "_quel_ sans nom pour un choix"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.33.c.001",
+   "los": "los.33.c",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "…… sont vos disponibilités la semaine prochaine ?",
+   "options": [
+    "Quels",
+    "Quelles",
+    "Quel"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _disponibilités_ est féminin.",
+    "B": "Correct. _disponibilités_, féminin pluriel.",
+    "C": "Faux. Le sujet est pluriel."
+   }
+  },
+  {
+   "id": "q.33.c.002",
+   "los": "los.33.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Il y a trois parcours possibles. …… conseillez-vous ?",
+   "options": [
+    "Lequel",
+    "Quel",
+    "Laquelle"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Choix entre des éléments connus, masculin singulier.",
+    "B": "Faux. _quel_ doit être suivi d'un nom ou de _être_.",
+    "C": "Faux. _parcours_ est masculin."
+   }
+  },
+  {
+   "id": "q.33.c.003",
+   "los": "los.33.c",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Parmi ces associations, …… avez-vous adhéré ?",
+   "options": [
+    "laquelle",
+    "à laquelle",
+    "auquel"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _adhérer_ se construit avec _à_.",
+    "B": "Correct. _adhérer à_ + féminin singulier.",
+    "C": "Faux. _association_ est féminin."
+   }
+  },
+  {
+   "id": "q.33.c.004",
+   "los": "los.33.c",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "…… belle surprise !",
+   "options": [
+    "Comme",
+    "Quel",
+    "Quelle"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _comme_ se construit avec une phrase (_comme c'est beau_).",
+    "B": "Faux. _surprise_ est féminin.",
+    "C": "Correct. Exclamation + nom féminin."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.33.lequel",
+   "los": [
+    "los.33.c"
+   ],
+   "name": "Lequel et contractions",
+   "front": "à + lequel / de + lesquels ?",
+   "back": "**auquel**, **auxquels**, **à laquelle** ; **duquel**, **desquels**, **de laquelle**."
+  }
+ ]
+}

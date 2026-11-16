@@ -1,0 +1,168 @@
+{
+ "module": "m03.1",
+ "source_hash": "00b8c1cc1580",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "La négation encadre le verbe ; la question existe en trois registres."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_ne … pas_ autour du verbe conjugué ; question par intonation, _est-ce que_ ou inversion (avec _-t-_ entre deux voyelles)."
+   },
+   {
+    "stage": "result",
+    "md": "On répond _si_ à une question négative pour la contredire."
+   }
+  ],
+  "why_it_matters": "Les registres de question comptent dans l'épreuve orale : l'inversion convient à l'entretien formel.",
+  "exam_approach": {
+   "look_first": [
+    "le registre attendu",
+    "une question négative ?"
+   ],
+   "traps": [
+    "*_parle-il_",
+    "_oui_ en réponse à une question négative",
+    "*_moi aussi_ après une négation"
+   ],
+   "distractors": [
+    "l'inversion sans _-t-_",
+    "_oui_ au lieu de _si_"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.03.a.001",
+   "los": "los.03.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Je …… fume …… : j'ai arrêté il y a deux ans.",
+   "options": [
+    "ne … pas",
+    "pas … ne",
+    "non … pas"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. _ne_ + verbe + _pas_.",
+    "B": "Faux. L'ordre est _ne … pas_.",
+    "C": "Faux. La négation verbale est _ne … pas_."
+   }
+  },
+  {
+   "id": "q.03.a.002",
+   "los": "los.03.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "…… il au cinéma ce soir ?",
+   "options": [
+    "Va-",
+    "Va-t-",
+    "Vat-"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Il faut _-t-_ entre deux voyelles.",
+    "B": "Correct. Inversion _va + il_ → _va-t-il_.",
+    "C": "Faux. Le _t_ s'écrit entre deux traits d'union."
+   }
+  },
+  {
+   "id": "q.03.a.003",
+   "los": "los.03.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Question soutenue : « …… vous la réponse ? »",
+   "options": [
+    "Est-ce que connaissez",
+    "Vous connaissez-",
+    "Connaissez-"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _est-ce que_ ne s'emploie pas avec l'inversion.",
+    "B": "Faux. L'inversion place le verbe avant le sujet.",
+    "C": "Correct. Inversion verbe-sujet avec trait d'union."
+   }
+  },
+  {
+   "id": "q.03.b.001",
+   "los": "los.03.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "Tu n'as pas faim ? — ……, j'ai très faim !",
+   "options": [
+    "Oui",
+    "Non",
+    "Si"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. Après une question négative, on contredit avec _si_.",
+    "B": "Faux. _non_ confirmerait qu'il n'a pas faim.",
+    "C": "Correct. Contredire une question négative → _si_."
+   }
+  },
+  {
+   "id": "q.03.b.002",
+   "los": "los.03.b",
+   "difficulty": 1,
+   "qtype": "conceptual",
+   "stem": "J'adore le chocolat noir. — Moi …… !",
+   "options": [
+    "non plus",
+    "aussi",
+    "si"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. _non plus_ suit une phrase négative.",
+    "B": "Correct. Accord avec une phrase affirmative → _aussi_.",
+    "C": "Faux. _si_ contredit une négation."
+   }
+  },
+  {
+   "id": "q.03.b.003",
+   "los": "los.03.b",
+   "difficulty": 2,
+   "qtype": "conceptual",
+   "stem": "Je ne suis jamais allé au Japon. — Moi …….",
+   "options": [
+    "non plus",
+    "aussi",
+    "si"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Accord avec une phrase négative → _non plus_.",
+    "B": "Faux. _moi aussi_ suit une phrase affirmative.",
+    "C": "Faux. _si_ contredirait."
+   }
+  }
+ ],
+ "item_sets": [],
+ "formulas": [
+  {
+   "id": "f.03.si",
+   "los": [
+    "los.03.b"
+   ],
+   "name": "Oui / si",
+   "front": "Réponse positive à une question négative ?",
+   "back": "**Si** : _Tu ne viens pas ? — Si !_"
+  },
+  {
+   "id": "f.03.inversion-t",
+   "los": [
+    "los.03.a"
+   ],
+   "name": "Inversion et -t-",
+   "front": "Parle … il ?",
+   "back": "**Parle-t-il** : _-t-_ entre deux voyelles (_a-t-elle, va-t-on_)."
+  }
+ ]
+}

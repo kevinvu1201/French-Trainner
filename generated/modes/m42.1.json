@@ -1,0 +1,265 @@
+{
+ "module": "m42.1",
+ "source_hash": "2e0a323268c3",
+ "learning": {
+  "logic_chain": [
+   {
+    "stage": "assumption",
+    "md": "Le passif fait du COD de la phrase active le sujet de la phrase."
+   },
+   {
+    "stage": "mechanism",
+    "md": "_être_ prend le temps du verbe actif ; le participe s'accorde avec le nouveau sujet ; l'agent est introduit par _par_ (ou _de_)."
+   },
+   {
+    "stage": "result",
+    "md": "On peut omettre l'agent, ou le remplacer par _on_ ou une forme pronominale."
+   }
+  ],
+  "why_it_matters": "Comprendre et produire le passif est indispensable pour les articles de presse (compréhension écrite) et l'écrit formel.",
+  "exam_approach": {
+   "look_first": [
+    "le temps du verbe actif",
+    "le genre et le nombre du nouveau sujet",
+    "un agent : action (par) ou sentiment (de) ?"
+   ],
+   "traps": [
+    "*_la loi a été adopté_",
+    "_a été_ / _était_ (temps)",
+    "passif d'un verbe indirect"
+   ],
+   "distractors": [
+    "le participe non accordé",
+    "_être_ au mauvais temps",
+    "_par_ après un verbe de sentiment"
+   ]
+  }
+ },
+ "connections": [],
+ "questions": [
+  {
+   "id": "q.42.a.001",
+   "los": "los.42.a",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "La nouvelle loi …… hier par l'Assemblée.",
+   "options": [
+    "a été adopté",
+    "a été adoptée",
+    "est adoptée"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Le participe s'accorde avec le sujet _loi_.",
+    "B": "Correct. Passé composé passif, accord avec _loi_.",
+    "C": "Faux. _hier_ demande un temps passé."
+   }
+  },
+  {
+   "id": "q.42.a.002",
+   "los": "los.42.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Les résultats …… la semaine prochaine.",
+   "options": [
+    "sont publiés",
+    "auront publié",
+    "seront publiés"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _la semaine prochaine_ demande le futur.",
+    "B": "Faux. C'est un futur antérieur actif.",
+    "C": "Correct. Futur passif : _être_ au futur."
+   }
+  },
+  {
+   "id": "q.42.a.003",
+   "los": "los.42.a",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Trois personnes …… dans l'accident.",
+   "options": [
+    "ont été blessées",
+    "ont été blessés",
+    "ont blessé"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Passé composé passif, féminin pluriel.",
+    "B": "Faux. _personnes_ est féminin.",
+    "C": "Faux. C'est la forme active."
+   }
+  },
+  {
+   "id": "q.42.a.004",
+   "los": "los.42.a",
+   "difficulty": 3,
+   "qtype": "form",
+   "stem": "Ce château …… au XVIe siècle.",
+   "options": [
+    "a été construit",
+    "est construit",
+    "a construit"
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Événement passé daté → passé composé passif.",
+    "B": "Faux. Le présent ne situe pas l'action au XVIe siècle.",
+    "C": "Faux. C'est la forme active, sans sujet logique."
+   }
+  },
+  {
+   "id": "q.42.b.001",
+   "los": "los.42.b",
+   "difficulty": 1,
+   "qtype": "form",
+   "stem": "Cette chanteuse est admirée …… tous.",
+   "options": [
+    "par",
+    "de",
+    "pour"
+   ],
+   "answer": "B",
+   "explanations": {
+    "A": "Faux. Avec un verbe de sentiment, on préfère _de_.",
+    "B": "Correct. Verbe de sentiment → _de_.",
+    "C": "Faux. L'agent n'est pas introduit par _pour_."
+   }
+  },
+  {
+   "id": "q.42.b.002",
+   "los": "los.42.b",
+   "difficulty": 2,
+   "qtype": "form",
+   "stem": "Le suspect a été interrogé …… la police.",
+   "options": [
+    "de",
+    "pour",
+    "par"
+   ],
+   "answer": "C",
+   "explanations": {
+    "A": "Faux. _de_ s'emploie avec les verbes de sentiment ou de description.",
+    "B": "Faux. L'agent est introduit par _par_.",
+    "C": "Correct. Agent d'une action → _par_."
+   }
+  },
+  {
+   "id": "q.42.b.003",
+   "los": "los.42.b",
+   "difficulty": 3,
+   "qtype": "conceptual",
+   "stem": "Phrase équivalente à « On a annulé le concert » :",
+   "options": [
+    "Le concert a été annulé.",
+    "Le concert est annulé par on.",
+    "Le concert a annulé."
+   ],
+   "answer": "A",
+   "explanations": {
+    "A": "Correct. Passif sans agent, même temps.",
+    "B": "Faux. _on_ ne devient jamais agent.",
+    "C": "Faux. Le concert n'est pas l'auteur de l'action."
+   }
+  }
+ ],
+ "item_sets": [
+  {
+   "id": "set.m42.1.01",
+   "modules": [
+    "m42.1"
+   ],
+   "title": "Brève d'actualité",
+   "vignette": "« Hier soir, un incendie **(1)** …… (déclarer) dans un entrepôt de la zone industrielle. Les pompiers **(2)** …… (appeler) vers 22 heures par un voisin. Le bâtiment **(3)** …… (détruire) en grande partie. Une enquête **(4)** …… (ouvrir) demain pour déterminer les causes. »",
+   "questions": [
+    {
+     "id": "set.m42.1.01.q1",
+     "los": "los.42.a",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (1) :",
+     "options": [
+      "a été déclaré",
+      "s'est déclaré",
+      "a déclaré"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. Un incendie _se déclare_ : forme pronominale.",
+      "B": "Correct. _se déclarer_ (pronominal) : l'incendie commence.",
+      "C": "Faux. L'incendie ne déclare rien : forme active impossible."
+     }
+    },
+    {
+     "id": "set.m42.1.01.q2",
+     "los": "los.42.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (2) :",
+     "options": [
+      "ont appelé",
+      "ont été appelé",
+      "ont été appelés"
+     ],
+     "answer": "C",
+     "explanations": {
+      "A": "Faux. Les pompiers ne sont pas ceux qui appellent.",
+      "B": "Faux. Accord avec le sujet pluriel.",
+      "C": "Correct. Passé composé passif, accord avec _pompiers_."
+     }
+    },
+    {
+     "id": "set.m42.1.01.q3",
+     "los": "los.42.a",
+     "difficulty": 1,
+     "qtype": "form",
+     "stem": "Blanc (3) :",
+     "options": [
+      "a été détruit",
+      "a détruit",
+      "a été détruite"
+     ],
+     "answer": "A",
+     "explanations": {
+      "A": "Correct. Passé composé passif, accord avec _bâtiment_.",
+      "B": "Faux. Le bâtiment subit l'action.",
+      "C": "Faux. _bâtiment_ est masculin."
+     }
+    },
+    {
+     "id": "set.m42.1.01.q4",
+     "los": "los.42.a",
+     "difficulty": 2,
+     "qtype": "form",
+     "stem": "Blanc (4) :",
+     "options": [
+      "sera ouvert",
+      "sera ouverte",
+      "a été ouverte"
+     ],
+     "answer": "B",
+     "explanations": {
+      "A": "Faux. _enquête_ est féminin.",
+      "B": "Correct. Futur passif (_demain_), accord avec _enquête_.",
+      "C": "Faux. _demain_ demande le futur."
+     }
+    }
+   ]
+  }
+ ],
+ "formulas": [
+  {
+   "id": "f.42.passif",
+   "los": [
+    "los.42.a"
+   ],
+   "name": "Le passif",
+   "front": "Formation ?",
+   "back": "**être** au temps du verbe actif + participe **accordé** avec le sujet (+ _par_ agent, _de_ avec les sentiments).",
+   "examples": [
+    "La loi a été votée. Les résultats seront publiés."
+   ]
+  }
+ ]
+}
