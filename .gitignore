@@ -7,9 +7,19 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 # content/ and generated/ are written by authoring/*.py from original text and are committed.
-# Book-derived listening material (100% B2, Didier): authored locally, published only encrypted.
+# Book-derived material (100% B2, Didier: listening, reading, writing, speaking): authored locally,
+# published only encrypted.
 authoring/private/
 content/ecoute.json
 generated/ecoute/
-# Listening translations are derived from the book transcripts: private, like them.
+content/lecture.json
+generated/lecture/
+content/ecrit.json
+generated/ecrit/
+content/oral.json
+generated/oral/
+# Translations of the book-derived topics are private, like the texts.
 translations/ecoute.json
+translations/lecture.json
+translations/ecrit.json
+translations/oral.json

@@ -176,6 +176,21 @@ def test_question_count_rules_for_sets(project, good_generated):
     assert any("transcript" in m for m in msgs)
 
 
+def test_reading_sets_take_any_number_of_questions_and_are_counted(project, good_generated):
+    reading = _listening_set(7, audio=None)
+    reading.update(title="Lecture", reading=True, source="Le Monde, 2 octobre 2020")
+    good_generated["item_sets"] = [reading]
+    _write_generated(project, good_generated)
+    paths = Paths(project)
+    res = build(paths)
+    assert [i for i in res.report["issues"] if i["level"] == "error"] == []
+    chunk = json.loads(next((paths.data / "chunks").glob("quant.*.json")).read_text(encoding="utf-8"))
+    assert chunk["item_sets"][0]["reading"] is True and len(chunk["item_sets"][0]["questions"]) == 7
+    manifest = json.loads((paths.data / "manifest.json").read_text(encoding="utf-8"))
+    counts = next(t for t in manifest["topics"] if t["id"] == "quant")["counts"]
+    assert (counts["reading_sets"], counts["audio_sets"]) == (1, 0)
+
+
 def test_translations_ship_only_while_their_text_is_unchanged(project, good_generated):
     from builder.translations import collect_texts, text_hash
     _write_generated(project, good_generated)
